@@ -1,0 +1,130 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "钟面上现在是几点？",
+    "text_en": "What time does the clock show?",
+    "illustration": "svg:clock:3:00",
+    "choices": [
+      { "zh": "3 点", "en": "3 o'clock" },
+      { "zh": "6 点", "en": "6 o'clock" },
+      { "zh": "12 点", "en": "12 o'clock" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "短短时针指着 3，长长分针指着 12，所以是 3 点整。",
+    "explanation_en": "The short hand points to 3 and the long hand points to 12 — it is 3 o'clock."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "一个星期有几天？",
+    "text_en": "How many days are there in a week?",
+    "choices": [
+      { "zh": "5 天", "en": "5" },
+      { "zh": "7 天", "en": "7" },
+      { "zh": "10 天", "en": "10" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "星期一、二、三、四、五、六、日，一共 7 天。",
+    "explanation_en": "Monday through Sunday — 7 days."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "今天是星期一，明天是星期几？",
+    "text_en": "Today is Monday. What day is tomorrow?",
+    "choices": [
+      { "zh": "星期二", "en": "Tuesday" },
+      { "zh": "星期日", "en": "Sunday" },
+      { "zh": "星期三", "en": "Wednesday" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "星期一的后面一天是星期二。",
+    "explanation_en": "The day after Monday is Tuesday."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "钟面上现在是几点？",
+    "text_en": "What time does the clock show?",
+    "illustration": "svg:clock:6:30",
+    "choices": [
+      { "zh": "6 点半", "en": "half past 6" },
+      { "zh": "6 点", "en": "6 o'clock" },
+      { "zh": "7 点", "en": "7 o'clock" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "分针指着 6（走了半圈），时针在 6 和 7 中间，所以是 6 点半。",
+    "explanation_en": "The minute hand points to 6 (half way round) and the hour hand is between 6 and 7 — half past 6."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "一节课 40 分钟，两节课一共有多少分钟？",
+    "text_en": "One lesson lasts 40 minutes. How many minutes do two lessons last?",
+    "choices": [
+      { "zh": "60 分钟", "en": "60 minutes" },
+      { "zh": "80 分钟", "en": "80 minutes" },
+      { "zh": "100 分钟", "en": "100 minutes" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "40 + 40 = 80 分钟。",
+    "explanation_en": "40 + 40 = 80 minutes."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "今天是星期五，后天是星期几？",
+    "text_en": "Today is Friday. What day is the day after tomorrow?",
+    "choices": [
+      { "zh": "星期六", "en": "Saturday" },
+      { "zh": "星期日", "en": "Sunday" },
+      { "zh": "星期一", "en": "Monday" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "明天是星期六，后天（再过两天）是星期日。",
+    "explanation_en": "Tomorrow is Saturday, so the day after tomorrow is Sunday."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "小明 7:00 起床，刷牙洗脸用了 15 分钟，吃早饭又用了 15 分钟。他几点能吃好早饭？",
+    "text_en": "Ming gets up at 7:00. He spends 15 minutes washing up and another 15 minutes on breakfast. What time does he finish breakfast?",
+    "choices": [
+      { "zh": "7:15", "en": "7:15" },
+      { "zh": "7:45", "en": "7:45" },
+      { "zh": "7:30", "en": "7:30" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "一共用了 15 + 15 = 30 分钟，7:00 过 30 分钟是 7:30。",
+    "explanation_en": "15 + 15 = 30 minutes; 30 minutes after 7:00 is 7:30."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "一本书打开后，左边一页是第 8 页。右边一页是第几页？",
+    "text_en": "An open book shows page 8 on the left. What page number is on the right?",
+    "choices": [
+      { "zh": "第 9 页", "en": "page 9" },
+      { "zh": "第 7 页", "en": "page 7" },
+      { "zh": "第 10 页", "en": "page 10" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "书翻开后左右两页是连着的页码，左边 8 页，右边就是 9 页。",
+    "explanation_en": "Facing pages have consecutive numbers: left is 8, so right is 9."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "从 1 数到 20，一共会说到几个带数字“5”的数？（比如 15 就带 5）",
+    "text_en": "Counting from 1 to 20, how many numbers contain the digit 5? (For example, 15 contains 5.)",
+    "choices": [
+      { "zh": "2 个", "en": "2" },
+      { "zh": "1 个", "en": "1" },
+      { "zh": "3 个", "en": "3" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "1 到 20 里带 5 的数只有 5 和 15，一共 2 个。",
+    "explanation_en": "Between 1 and 20, only 5 and 15 contain the digit 5 — that is 2 numbers."
+  }
+]

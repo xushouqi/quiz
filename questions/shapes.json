@@ -1,0 +1,130 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "下面哪一个是圆形？",
+    "text_en": "Which one is a circle?",
+    "choices": [
+      { "zh": "🔺 三角形", "en": "🔺 triangle" },
+      { "zh": "⭕ 圆形", "en": "⭕ circle" },
+      { "zh": "🟦 正方形", "en": "🟦 square" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "圆形圆圆的，没有角。",
+    "explanation_en": "A circle is round and has no corners."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "正方形有几个角？",
+    "text_en": "How many corners does a square have?",
+    "choices": [
+      { "zh": "3 个", "en": "3" },
+      { "zh": "5 个", "en": "5" },
+      { "zh": "4 个", "en": "4" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "正方形有四条边、四个角。",
+    "explanation_en": "A square has four sides and four corners."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "哪一个物体的形状像球？",
+    "text_en": "Which object is shaped like a ball?",
+    "choices": [
+      { "zh": "📦 纸箱", "en": "📦 box" },
+      { "zh": "⚽ 足球", "en": "⚽ football" },
+      { "zh": "📖 书本", "en": "📖 book" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "足球圆圆的，形状像球；纸箱和书本是方的。",
+    "explanation_en": "A football is round like a ball; the box and book are flat and square."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "把一张正方形的纸对折一次，不可能得到下面哪个形状？",
+    "text_en": "You fold a square piece of paper in half once. Which shape can you NOT get?",
+    "choices": [
+      { "zh": "长方形", "en": "rectangle" },
+      { "zh": "圆形", "en": "circle" },
+      { "zh": "三角形", "en": "triangle" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "对折可以得到长方形（边对边折）或三角形（角对角折），但折不出圆形。",
+    "explanation_en": "Folding can make a rectangle or a triangle, but never a circle."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "字母 b 照镜子，镜子里看到的是哪个字母？",
+    "text_en": "The letter b looks in a mirror. Which letter do you see?",
+    "choices": [
+      { "zh": "b", "en": "b" },
+      { "zh": "d", "en": "d" },
+      { "zh": "p", "en": "p" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "镜子把左右反过来，b 的圆圈到了右边，变成 d。",
+    "explanation_en": "The mirror swaps left and right, so b becomes d."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "图中一共有几个三角形？",
+    "text_en": "How many triangles are in the picture?",
+    "illustration": "svg:diagsquare",
+    "choices": [
+      { "zh": "2 个", "en": "2" },
+      { "zh": "1 个", "en": "1" },
+      { "zh": "3 个", "en": "3" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "一条对角线把正方形分成了 2 个三角形。",
+    "explanation_en": "The diagonal cuts the square into 2 triangles."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "用小棒摆三角形，小棒可以共用。摆出 2 个三角形最少要几根小棒？",
+    "text_en": "You make triangles from sticks. Sticks may be shared. What is the fewest sticks needed to make 2 triangles?",
+    "choices": [
+      { "zh": "5 根", "en": "5" },
+      { "zh": "6 根", "en": "6" },
+      { "zh": "4 根", "en": "4" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "分开摆要 3 + 3 = 6 根；让两个三角形共用 1 根小棒，省下 1 根：6 − 1 = 5 根。",
+    "explanation_en": "Separate triangles need 3 + 3 = 6 sticks; sharing one stick saves one: 6 − 1 = 5."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "一个圆蛋糕，切 2 刀（每刀都是直线），最多能切成几块？",
+    "text_en": "You cut a round cake with 2 straight cuts. What is the largest number of pieces you can get?",
+    "choices": [
+      { "zh": "3 块", "en": "3" },
+      { "zh": "5 块", "en": "5" },
+      { "zh": "4 块", "en": "4" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "让两刀交叉（像十字），就能切成 4 块。",
+    "explanation_en": "Let the two cuts cross like a plus sign and you get 4 pieces."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "图中的大正方形被分成了小方格。一共有几个正方形？（要把大正方形也算进去）",
+    "text_en": "The big square is split into small squares. How many squares are there in total, including the big one?",
+    "illustration": "svg:grid",
+    "choices": [
+      { "zh": "4 个", "en": "4" },
+      { "zh": "5 个", "en": "5" },
+      { "zh": "6 个", "en": "6" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "4 个小正方形 + 1 个大正方形 = 5 个。",
+    "explanation_en": "4 small squares + 1 large square = 5 squares."
+  }
+]
