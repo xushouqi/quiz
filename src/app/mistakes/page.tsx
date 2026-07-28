@@ -8,6 +8,7 @@ import { ChoiceButton, type ChoiceVariant } from "@/components/quiz/ChoiceButton
 import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { Question } from "@/lib/types";
+import { fetchWithTimeout } from "@/lib/fetch-timeout";
 
 type Result = "correct" | "wrong" | null;
 
@@ -17,21 +18,26 @@ export default function MistakesPage() {
   const [sessionId, setSessionId] = useState<number | null>(null);
   const [picked, setPicked] = useState<number | null>(null);
   const [result, setResult] = useState<Result>(null);
+  const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
     void (async () => {
-      const [mRes, sRes] = await Promise.all([
-        fetch("/api/mistakes"),
-        fetch("/api/sessions", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ mode: "practice" }),
-        }),
-      ]);
-      const m = (await mRes.json()) as { questions: Question[] };
-      const s = (await sRes.json()) as { id: number };
-      setQuestions(m.questions);
-      setSessionId(s.id);
+      try {
+        const [mRes, sRes] = await Promise.all([
+          fetchWithTimeout("/api/mistakes"),
+          fetchWithTimeout("/api/sessions", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ mode: "practice" }),
+          }),
+        ]);
+        const m = (await mRes.json()) as { questions: Question[] };
+        const s = (await sRes.json()) as { id: number };
+        setQuestions(m.questions);
+        setSessionId(s.id);
+      } catch {
+        setLoadError(true);
+      }
     })();
   }, []);
 
@@ -41,7 +47,7 @@ export default function MistakesPage() {
       const q = questions[index];
       setPicked(i);
       const correct = i === q.correct_index;
-      await fetch("/api/answers", {
+      await fetchWithTimeout("/api/answers", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: i, timeSpentSeconds: 0 }),
@@ -75,10 +81,20 @@ export default function MistakesPage() {
           <span className="w-24" aria-hidden="true" />
         </header>
 
-        {questions === null && (
+        {questions === null && !loadError && (
           <div className="flex flex-col items-center gap-4 py-20">
             <Kangaroo mood="idle" className="h-36 animate-idle-hop" />
             <p className="rounded-full bg-white/90 px-6 py-3 font-kids shadow">加载中…</p>
+          </div>
+        )}
+
+        {loadError && (
+          <div className="flex flex-col items-center gap-4 py-20">
+            <Kangaroo mood="sad" className="h-36" />
+            <p className="max-w-sm rounded-3xl border-4 border-coral/30 bg-coral/10 p-4 text-center font-kids text-lg text-coral">
+              加载失败：请确认服务正在运行（npm run dev）后刷新页面。Couldn&apos;t reach the server — refresh once it&apos;s running.
+            </p>
+            <Link href="/" className="rounded-full bg-sunny px-8 py-3 font-kids text-xl text-white shadow-lg">回家 Home</Link>
           </div>
         )}
 
