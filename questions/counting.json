@@ -1,0 +1,135 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "桌子上一共有几个苹果？",
+    "text_en": "How many apples are on the table?",
+    "illustration": "emoji:🍎🍎🍎🍎🍎",
+    "choices": [
+      { "zh": "4 个", "en": "4" },
+      { "zh": "5 个", "en": "5" },
+      { "zh": "6 个", "en": "6" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "一个一个数：1、2、3、4、5，一共 5 个苹果。",
+    "explanation_en": "Count one by one: 1, 2, 3, 4, 5. There are 5 apples."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "每只小鸡有 2 条腿。3 只小鸡一共有几条腿？",
+    "text_en": "Each chick has 2 legs. How many legs do 3 chicks have altogether?",
+    "illustration": "emoji:🐔🐔🐔",
+    "choices": [
+      { "zh": "6 条", "en": "6" },
+      { "zh": "8 条", "en": "8" },
+      { "zh": "10 条", "en": "10" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "2 + 2 + 2 = 6，一共 6 条腿。",
+    "explanation_en": "2 + 2 + 2 = 6 legs."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "一双手一共有几根手指？",
+    "text_en": "How many fingers do two hands have?",
+    "illustration": "emoji:🖐️🖐️",
+    "choices": [
+      { "zh": "8 根", "en": "8" },
+      { "zh": "12 根", "en": "12" },
+      { "zh": "10 根", "en": "10" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "一只手 5 根，5 + 5 = 10 根。",
+    "explanation_en": "Each hand has 5 fingers, so 5 + 5 = 10."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "一辆自行车有 2 个轮子。4 辆自行车一共有几个轮子？",
+    "text_en": "A bicycle has 2 wheels. How many wheels do 4 bicycles have?",
+    "illustration": "emoji:🚲🚲🚲🚲",
+    "choices": [
+      { "zh": "6 个", "en": "6" },
+      { "zh": "12 个", "en": "12" },
+      { "zh": "8 个", "en": "8" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "2 + 2 + 2 + 2 = 8 个轮子。",
+    "explanation_en": "2 + 2 + 2 + 2 = 8 wheels."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "1 只蜘蛛有 8 条腿，1 只小鸡有 2 条腿。2 只蜘蛛和 1 只小鸡一共有几条腿？",
+    "text_en": "A spider has 8 legs and a chick has 2 legs. How many legs do 2 spiders and 1 chick have altogether?",
+    "illustration": "emoji:🕷️🕷️🐔",
+    "choices": [
+      { "zh": "18 条", "en": "18" },
+      { "zh": "20 条", "en": "20" },
+      { "zh": "16 条", "en": "16" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "蜘蛛：8 + 8 = 16 条，再加小鸡的 2 条：16 + 2 = 18 条。",
+    "explanation_en": "Spiders: 8 + 8 = 16 legs; plus the chick's 2 legs: 16 + 2 = 18."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "下面的图形里一共有几个三角形？",
+    "text_en": "How many triangles can you see?",
+    "illustration": "emoji:🔺🟦🔺🟡🔺",
+    "choices": [
+      { "zh": "2 个", "en": "2" },
+      { "zh": "4 个", "en": "4" },
+      { "zh": "3 个", "en": "3" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "红色的 🔺 是三角形，一个一个数：1、2、3，共 3 个。",
+    "explanation_en": "The red triangles: count them one by one — there are 3."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "小朋友们排成一队。从前面数小明排第 4，从后面数他排第 3。这一队一共有几个人？",
+    "text_en": "Children stand in a line. Counting from the front, Ming is 4th. Counting from the back, he is 3rd. How many children are in the line?",
+    "choices": [
+      { "zh": "6 个", "en": "6" },
+      { "zh": "7 个", "en": "7" },
+      { "zh": "5 个", "en": "5" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "小明被数了两次，所以 4 + 3 − 1 = 6 个人。",
+    "explanation_en": "Ming is counted twice, so 4 + 3 − 1 = 6 children."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "小狗和小猫都有 4 条腿。图中的动物一共有几条腿？",
+    "text_en": "Dogs and cats each have 4 legs. How many legs do all the animals in the picture have?",
+    "illustration": "emoji:🐶🐶🐶🐱🐱",
+    "choices": [
+      { "zh": "20 条", "en": "20" },
+      { "zh": "16 条", "en": "16" },
+      { "zh": "24 条", "en": "24" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "3 只小狗 12 条腿，2 只小猫 8 条腿：12 + 8 = 20 条。",
+    "explanation_en": "3 dogs give 12 legs and 2 cats give 8 legs: 12 + 8 = 20."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "10 个小朋友玩捉迷藏，其中 1 个人负责找。已经找到了 3 个躲起来的人，还有几个没被找到？",
+    "text_en": "10 children play hide-and-seek and 1 is the seeker. 3 hiders have been found. How many are still hiding?",
+    "choices": [
+      { "zh": "7 个", "en": "7" },
+      { "zh": "6 个", "en": "6" },
+      { "zh": "5 个", "en": "5" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "躲起来的有 10 − 1 = 9 人，减去找到的 3 人：9 − 3 = 6 个。",
+    "explanation_en": "There are 10 − 1 = 9 hiders; 9 − 3 = 6 are still hiding."
+  }
+]
