@@ -1,0 +1,129 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "3 + 4 = ？",
+    "text_en": "3 + 4 = ?",
+    "choices": [
+      { "zh": "7", "en": "7" },
+      { "zh": "6", "en": "6" },
+      { "zh": "8", "en": "8" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "从 3 往后数 4 个数：4、5、6、7，所以 3 + 4 = 7。",
+    "explanation_en": "Count on 4 from 3: 4, 5, 6, 7. So 3 + 4 = 7."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "你有 5 颗糖，吃掉了 2 颗，还剩几颗？",
+    "text_en": "You have 5 candies and eat 2. How many are left?",
+    "illustration": "emoji:🍬🍬🍬🍬🍬",
+    "choices": [
+      { "zh": "2 颗", "en": "2" },
+      { "zh": "4 颗", "en": "4" },
+      { "zh": "3 颗", "en": "3" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "5 − 2 = 3，还剩 3 颗。",
+    "explanation_en": "5 − 2 = 3 candies left."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "5 + 5 = ？",
+    "text_en": "5 + 5 = ?",
+    "choices": [
+      { "zh": "9", "en": "9" },
+      { "zh": "11", "en": "11" },
+      { "zh": "10", "en": "10" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "一只手 5 根手指，两只手合起来就是 10。",
+    "explanation_en": "5 fingers on each hand — two hands make 10."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "一支铅笔 2 元钱，买 3 支要几元钱？",
+    "text_en": "One pencil costs 2 yuan. How much do 3 pencils cost?",
+    "choices": [
+      { "zh": "5 元", "en": "5 yuan" },
+      { "zh": "6 元", "en": "6 yuan" },
+      { "zh": "8 元", "en": "8 yuan" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "2 + 2 + 2 = 6 元。",
+    "explanation_en": "2 + 2 + 2 = 6 yuan."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "12 块饼干平均分给 3 个小朋友，每人能分到几块？",
+    "text_en": "12 cookies are shared equally among 3 children. How many does each child get?",
+    "choices": [
+      { "zh": "3 块", "en": "3" },
+      { "zh": "4 块", "en": "4" },
+      { "zh": "6 块", "en": "6" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "12 ÷ 3 = 4，每人 4 块（4 + 4 + 4 = 12）。",
+    "explanation_en": "12 ÷ 3 = 4 (because 4 + 4 + 4 = 12)."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "小明有 10 元钱，买冰淇淋花了 4 元，妈妈又给了他 2 元。他现在有几元钱？",
+    "text_en": "Ming has 10 yuan. He spends 4 yuan on ice cream, then his mum gives him 2 yuan. How much does he have now?",
+    "choices": [
+      { "zh": "8 元", "en": "8 yuan" },
+      { "zh": "6 元", "en": "6 yuan" },
+      { "zh": "12 元", "en": "12 yuan" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "先花掉：10 − 4 = 6；再得到：6 + 2 = 8 元。",
+    "explanation_en": "Spend first: 10 − 4 = 6; then receive: 6 + 2 = 8 yuan."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "一本笔记本 5 元钱。下面哪种付钱方法正好是 5 元？",
+    "text_en": "A notebook costs 5 yuan. Which way of paying is exactly 5 yuan?",
+    "choices": [
+      { "zh": "1 张 5 元", "en": "one 5-yuan note" },
+      { "zh": "2 张 2 元", "en": "two 2-yuan notes" },
+      { "zh": "5 张 2 元", "en": "five 2-yuan notes" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "1 张 5 元正好是 5 元；2 张 2 元是 4 元（不够）；5 张 2 元是 10 元（太多）。",
+    "explanation_en": "One 5-yuan note is exactly 5; two 2s make 4 (too little); five 2s make 10 (too much)."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "公交车上原来有 8 人，到站后下去 3 人，又上来 5 人。现在车上有几人？",
+    "text_en": "A bus has 8 people. At a stop, 3 get off and 5 get on. How many people are on the bus now?",
+    "choices": [
+      { "zh": "8 人", "en": "8" },
+      { "zh": "13 人", "en": "13" },
+      { "zh": "10 人", "en": "10" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "8 − 3 + 5 = 10 人。",
+    "explanation_en": "8 − 3 + 5 = 10 people."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "姐姐今年 7 岁，妹妹 4 岁。等姐姐 10 岁的时候，妹妹几岁？",
+    "text_en": "The older sister is 7 and the younger one is 4. When the older sister is 10, how old will the younger one be?",
+    "choices": [
+      { "zh": "7 岁", "en": "7" },
+      { "zh": "6 岁", "en": "6" },
+      { "zh": "8 岁", "en": "8" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "姐妹相差 7 − 4 = 3 岁，年龄差永远不变。姐姐 10 岁时，妹妹是 10 − 3 = 7 岁。",
+    "explanation_en": "The age gap is 7 − 4 = 3 years and never changes. When the sister is 10, the younger one is 10 − 3 = 7."
+  }
+]

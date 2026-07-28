@@ -1,0 +1,128 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "小红比小明高，小明比小刚高。他们三个谁最矮？",
+    "text_en": "Hong is taller than Ming, and Ming is taller than Gang. Who is the shortest?",
+    "choices": [
+      { "zh": "小刚", "en": "Gang" },
+      { "zh": "小红", "en": "Hong" },
+      { "zh": "小明", "en": "Ming" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "从高到矮排：小红 > 小明 > 小刚，所以小刚最矮。",
+    "explanation_en": "From tall to short: Hong > Ming > Gang, so Gang is the shortest."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "盒子里只有红球和蓝球。闭眼摸出一个，不是红球，那它一定是？",
+    "text_en": "A box holds only red and blue balls. You pick one without looking. It is not red. What must it be?",
+    "choices": [
+      { "zh": "蓝球", "en": "a blue ball" },
+      { "zh": "红球", "en": "a red ball" },
+      { "zh": "黄球", "en": "a yellow ball" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "盒子里只有红、蓝两种球，不是红球就只能是蓝球。",
+    "explanation_en": "The box has only red and blue balls — not red means it must be blue."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "小猫在小狗的左边，小鸡在小狗的右边。谁站在中间？",
+    "text_en": "The cat is on the dog's left, and the chick is on the dog's right. Who stands in the middle?",
+    "choices": [
+      { "zh": "小猫", "en": "the cat" },
+      { "zh": "小狗", "en": "the dog" },
+      { "zh": "小鸡", "en": "the chick" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "从左到右是：小猫、小狗、小鸡，小狗在中间。",
+    "explanation_en": "Left to right: cat, dog, chick — the dog is in the middle."
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_zh": "四个小朋友比高矮：小云比小风高；小星比小云矮，但比小风高；小月最矮。谁第二高？",
+    "text_en": "Four children compare heights: Yun is taller than Feng; Xing is shorter than Yun but taller than Feng; Yue is the shortest. Who is the second tallest?",
+    "choices": [
+      { "zh": "小星", "en": "Xing" },
+      { "zh": "小云", "en": "Yun" },
+      { "zh": "小风", "en": "Feng" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "从高到矮排：小云 > 小星 > 小风 > 小月，第二高是小星。",
+    "explanation_en": "Tall to short: Yun > Xing > Feng > Yue, so Xing is second tallest."
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_zh": "小明排队买冰淇淋，他前面有 3 个人，后面有 2 个人。这一队一共有几个人？",
+    "text_en": "Ming is in a line. There are 3 people in front of him and 2 behind him. How many people are in the line?",
+    "choices": [
+      { "zh": "5 个", "en": "5" },
+      { "zh": "6 个", "en": "6" },
+      { "zh": "7 个", "en": "7" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "前面的 3 人 + 小明自己 + 后面的 2 人 = 6 人。别忘了数小明自己！",
+    "explanation_en": "3 in front + Ming himself + 2 behind = 6. Do not forget Ming!"
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_zh": "哥哥和弟弟一共有 10 颗糖，哥哥比弟弟多 2 颗。哥哥有几颗糖？",
+    "text_en": "Two brothers have 10 candies altogether. The older brother has 2 more than the younger one. How many candies does the older brother have?",
+    "choices": [
+      { "zh": "6 颗", "en": "6" },
+      { "zh": "5 颗", "en": "5" },
+      { "zh": "7 颗", "en": "7" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "先去掉多出的 2 颗：10 − 2 = 8，两人就一样多，各 4 颗；哥哥再加回 2 颗：4 + 2 = 6 颗。",
+    "explanation_en": "Remove the extra 2: 10 − 2 = 8, so each has 4; the older brother gets his 2 back: 4 + 2 = 6."
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_zh": "一块蛋糕被一个孩子偷吃了。小甲说：“我没吃。”小乙说：“是小甲吃的。”小丙说：“我没吃。”三个人里只有一个说了真话。谁偷吃了蛋糕？",
+    "text_en": "A child secretly ate a cake. Jia says: I did not eat it. Yi says: Jia ate it. Bing says: I did not eat it. Only one of them tells the truth. Who ate the cake?",
+    "choices": [
+      { "zh": "小丙", "en": "Bing" },
+      { "zh": "小甲", "en": "Jia" },
+      { "zh": "小乙", "en": "Yi" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "小甲和小乙的话正好相反，一定是一真一假。唯一的真话在他俩之中，所以小丙说的是假话——“我没吃”是假的，蛋糕是小丙吃的。",
+    "explanation_en": "Jia and Yi contradict each other, so exactly one of them is true. The only truth is between them, so Bing lies — Bing ate the cake."
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_zh": "小华有 3 件上衣和 2 条裤子。一件上衣配一条裤子，一共有多少种不同的穿法？",
+    "text_en": "Hua has 3 shirts and 2 pairs of pants. One shirt with one pair of pants makes an outfit. How many different outfits are possible?",
+    "choices": [
+      { "zh": "5 种", "en": "5" },
+      { "zh": "9 种", "en": "9" },
+      { "zh": "6 种", "en": "6" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "每件上衣都能配 2 条裤子：3 × 2 = 6 种。",
+    "explanation_en": "Each of the 3 shirts pairs with 2 pants: 3 × 2 = 6 outfits."
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_zh": "四个小朋友赛跑。小A不是第一名也不是最后一名；小B比小A晚到达；小C是第二名。谁是第一名？",
+    "text_en": "Four children race. A is neither first nor last; B finishes after A; C is second. Who is first?",
+    "choices": [
+      { "zh": "小D", "en": "D" },
+      { "zh": "小A", "en": "A" },
+      { "zh": "小B", "en": "B" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "小C第二；小A不是第一也不是第四，只能是第三；小B比小A晚，是第四；剩下小D是第一。",
+    "explanation_en": "C is 2nd. A is not 1st or 4th, so A is 3rd. B is after A, so B is 4th. That leaves D in 1st."
+  }
+]
