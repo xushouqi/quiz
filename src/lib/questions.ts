@@ -104,3 +104,17 @@ export function getExamQuestions(db: Database, perDifficulty = 8): Question[] {
   }
   return out.map(rowToQuestion);
 }
+
+export function getMistakeQuestions(db: Database): Question[] {
+  const rows = db
+    .prepare(
+      `SELECT q.*
+       FROM answers a
+       JOIN questions q ON q.id = a.question_id
+       WHERE a.id IN (SELECT MAX(id) FROM answers GROUP BY question_id)
+         AND a.is_correct = 0
+       ORDER BY a.id DESC`
+    )
+    .all() as QuestionRow[];
+  return rows.map(rowToQuestion);
+}
