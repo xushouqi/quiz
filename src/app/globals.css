@@ -1,26 +1,73 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  --color-sky-soft: #7ec8e3;
+  --color-sunny: #ff9f45;
+  --color-grass: #7bc950;
+  --color-gold: #ffd166;
+  --color-cocoa: #5c4033;
+  --color-coral: #ef6351;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --font-kids: var(--font-kuaile), var(--font-baloo), "Noto Sans SC", ui-rounded, sans-serif;
+  --font-body: var(--font-noto), "Noto Sans SC", system-ui, sans-serif;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --animate-drift: drift 90s linear infinite;
+  --animate-idle-hop: idle-hop 2.4s ease-in-out infinite;
+  --animate-wiggle: wiggle 0.5s ease-in-out;
+  --animate-pop: pop 0.35s ease-out both;
+  --animate-fall: fall 2.8s linear forwards;
+
+  @keyframes drift {
+    from {
+      transform: translateX(-20vw);
+    }
+    to {
+      transform: translateX(120vw);
+    }
+  }
+  @keyframes idle-hop {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-5deg);
+    }
+    75% {
+      transform: rotate(5deg);
+    }
+  }
+  @keyframes pop {
+    0% {
+      transform: scale(0.6);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh) rotate(0deg);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(110vh) rotate(720deg);
+      opacity: 0;
+    }
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
 }
