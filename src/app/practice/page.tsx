@@ -8,6 +8,7 @@ import { ChoiceButton, type ChoiceVariant } from "@/components/quiz/ChoiceButton
 import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { Question, Topic } from "@/lib/types";
+import { fetchWithTimeout } from "@/lib/fetch-timeout";
 
 const TOPIC_OPTIONS: { key: Topic | "random"; zh: string; en: string; emoji: string }[] = [
   { key: "random", zh: "随机混合", en: "Mixed", emoji: "🎲" },
@@ -33,29 +34,36 @@ export default function PracticePage() {
   const [feedback, setFeedback] = useState<Feedback | null>(null);
   const [earned, setEarned] = useState(0);
   const [sessionId, setSessionId] = useState<number | null>(null);
+  const [error, setError] = useState<string | null>(null);
   const shownAt = useRef(Date.now());
 
   const start = useCallback(async (topic: Topic | "random") => {
     setPhase("loading");
-    const [sessRes, qsRes] = await Promise.all([
-      fetch("/api/sessions", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ mode: "practice" }),
-      }),
-      fetch(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}`),
-    ]);
-    const sess = (await sessRes.json()) as { id: number };
-    const qs = (await qsRes.json()) as { questions: Question[] };
-    setSessionId(sess.id);
-    setQuestions(qs.questions);
-    setIndex(0);
-    setAttempt(0);
-    setPicked(null);
-    setFeedback(null);
-    setEarned(0);
-    shownAt.current = Date.now();
-    setPhase(qs.questions.length > 0 ? "playing" : "done");
+    setError(null);
+    try {
+      const [sessRes, qsRes] = await Promise.all([
+        fetchWithTimeout("/api/sessions", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ mode: "practice" }),
+        }),
+        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}`),
+      ]);
+      const sess = (await sessRes.json()) as { id: number };
+      const qs = (await qsRes.json()) as { questions: Question[] };
+      setSessionId(sess.id);
+      setQuestions(qs.questions);
+      setIndex(0);
+      setAttempt(0);
+      setPicked(null);
+      setFeedback(null);
+      setEarned(0);
+      shownAt.current = Date.now();
+      setPhase(qs.questions.length > 0 ? "playing" : "done");
+    } catch {
+      setPhase("select");
+      setError("加载失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
+    }
   }, []);
 
   const pick = useCallback(
@@ -65,7 +73,7 @@ export default function PracticePage() {
       setPicked(i);
       const correct = i === q.correct_index;
       const timeSpentSeconds = Math.max(0, Math.round((Date.now() - shownAt.current) / 1000));
-      await fetch("/api/answers", {
+      await fetchWithTimeout("/api/answers", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: i, timeSpentSeconds }),
@@ -123,11 +131,16 @@ export default function PracticePage() {
             <span className="w-24" aria-hidden="true" />
           </header>
           <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <Kangaroo mood="happy" className="h-36 animate-idle-hop" />
+            <Kangaroo mood={error ? "sad" : "happy"} className="h-36 animate-idle-hop" />
             <p className="max-w-xs rounded-3xl border-4 border-cocoa/10 bg-white/90 p-4 text-center font-kids text-xl shadow">
               选一个主题开始冒险吧！ Pick a topic!
             </p>
           </div>
+          {error && (
+            <p className="mx-auto mt-4 max-w-md rounded-3xl border-4 border-coral/30 bg-coral/10 p-4 text-center font-kids text-lg text-coral">
+              {error}
+            </p>
+          )}
           <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
             {TOPIC_OPTIONS.map((t) => (
               <button

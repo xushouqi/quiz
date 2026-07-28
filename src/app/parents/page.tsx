@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { fetchWithTimeout } from "@/lib/fetch-timeout";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { RadarChart } from "@/components/quiz/RadarChart";
 import { ScoreCurve } from "@/components/quiz/ScoreCurve";
@@ -37,12 +38,14 @@ export default function ParentsPage() {
   const [error, setError] = useState(false);
   const [unlocked, setUnlocked] = useState(false);
   const [stats, setStats] = useState<StatsPayload | null>(null);
+  const [statsError, setStatsError] = useState(false);
 
   useEffect(() => {
     if (!unlocked) return;
-    void fetch("/api/stats")
+    void fetchWithTimeout("/api/stats")
       .then((r) => r.json())
-      .then((s: StatsPayload) => setStats(s));
+      .then((s: StatsPayload) => setStats(s))
+      .catch(() => setStatsError(true));
   }, [unlocked]);
 
   const radarData = useMemo(() => {
@@ -105,7 +108,13 @@ export default function ParentsPage() {
     return (
       <main className="relative flex min-h-dvh items-center justify-center">
         <OutbackBackground />
-        <p className="rounded-full bg-white/90 px-6 py-3 font-kids shadow">加载中…</p>
+        {statsError ? (
+          <p className="max-w-sm rounded-3xl border-4 border-coral/30 bg-coral/10 p-4 text-center font-kids text-coral">
+            加载失败：请确认服务正在运行后刷新页面。Couldn&apos;t reach the server.
+          </p>
+        ) : (
+          <p className="rounded-full bg-white/90 px-6 py-3 font-kids shadow">加载中…</p>
+        )}
       </main>
     );
   }

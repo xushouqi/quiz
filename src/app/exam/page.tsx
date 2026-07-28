@@ -8,6 +8,7 @@ import { Kangaroo } from "@/components/mascot/Kangaroo";
 import { ChoiceButton, type ChoiceVariant } from "@/components/quiz/ChoiceButton";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import { formatClock } from "@/lib/format";
+import { fetchWithTimeout } from "@/lib/fetch-timeout";
 import { EXAM_MINUTES } from "@/lib/scoring";
 import type { Question } from "@/lib/types";
 
@@ -23,38 +24,51 @@ export default function ExamPage() {
   const [flagged, setFlagged] = useState<number[]>([]);
   const [remaining, setRemaining] = useState(EXAM_MINUTES * 60);
   const [confirmOpen, setConfirmOpen] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   const begin = useCallback(async () => {
     setPhase("loading");
-    const res = await fetch("/api/exam", { method: "POST" });
-    const data = (await res.json()) as { sessionId: number; minutes: number; questions: Question[] };
-    setSessionId(data.sessionId);
-    setQuestions(data.questions);
-    setRemaining(data.minutes * 60);
-    setCurrent(0);
-    setChoices({});
-    setFlagged([]);
-    setPhase("running");
+    setError(null);
+    try {
+      const res = await fetchWithTimeout("/api/exam", { method: "POST" });
+      const data = (await res.json()) as { sessionId: number; minutes: number; questions: Question[] };
+      setSessionId(data.sessionId);
+      setQuestions(data.questions);
+      setRemaining(data.minutes * 60);
+      setCurrent(0);
+      setChoices({});
+      setFlagged([]);
+      setPhase("running");
+    } catch {
+      setPhase("intro");
+      setError("开始失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
+    }
   }, []);
 
   const submit = useCallback(async () => {
     if (sessionId === null || phase === "submitting") return;
     setPhase("submitting");
-    for (const q of questions) {
-      const chosen = choices[q.id];
-      if (chosen === undefined) continue;
-      await fetch("/api/answers", {
+    try {
+      for (const q of questions) {
+        const chosen = choices[q.id];
+        if (chosen === undefined) continue;
+        await fetchWithTimeout("/api/answers", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: chosen, timeSpentSeconds: 0, mode: "exam" }),
+        });
+      }
+      await fetchWithTimeout(`/api/sessions/${sessionId}/finish`, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: chosen, timeSpentSeconds: 0, mode: "exam" }),
+        body: JSON.stringify({ durationSeconds: EXAM_MINUTES * 60 - Math.max(0, remaining) }),
       });
+      router.push(`/exam/report/${sessionId}`);
+    } catch {
+      setConfirmOpen(false);
+      setPhase("running");
+      setError("提交失败：你的作答已记录在本地页面，请再按一次「交卷」重试。Submit failed — press Submit again.");
     }
-    await fetch(`/api/sessions/${sessionId}/finish`, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({ durationSeconds: EXAM_MINUTES * 60 - Math.max(0, remaining) }),
-    });
-    router.push(`/exam/report/${sessionId}`);
   }, [choices, phase, questions, remaining, router, sessionId]);
 
   useEffect(() => {
@@ -96,6 +110,11 @@ export default function ExamPage() {
             <p className="mt-3 text-sm text-cocoa/60">
               24 questions · 75 minutes · +3/+4/+5 for correct, −1 for wrong, 0 for blank.
             </p>
+            {error && (
+              <p className="mt-4 rounded-3xl border-4 border-coral/30 bg-coral/10 p-3 text-center font-kids text-coral">
+                {error}
+              </p>
+            )}
             <button
               type="button"
               onClick={() => void begin()}
@@ -130,6 +149,12 @@ export default function ExamPage() {
               交卷 Submit
             </button>
           </header>
+
+          {error && (
+            <p className="rounded-3xl border-4 border-coral/30 bg-coral/10 p-3 text-center font-kids text-coral">
+              {error}
+            </p>
+          )}
 
           <div className="flex flex-wrap justify-center gap-2">
             {questions.map((item, i) => {
