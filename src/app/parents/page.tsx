@@ -85,16 +85,21 @@ export default function ParentsPage() {
   // 添加用户
   const addUser = async () => {
     if (!newUserName.trim()) return;
-    await fetch("/api/users", {
+    const res = await fetch("/api/users", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ name: newUserName, emoji: newUserEmoji }),
     });
+    const data = await res.json();
     setNewUserName("");
     setNewUserEmoji("🐨");
-    const res = await fetch("/api/users");
-    const data = await res.json();
-    setUsers(data.users);
+    const usersRes = await fetch("/api/users");
+    const usersData = await usersRes.json();
+    setUsers(usersData.users);
+    // 如果是第一个用户，自动选中
+    if (!selectedUserId) {
+      setSelectedUserId(data.id);
+    }
   };
 
   // 删除用户
@@ -104,6 +109,10 @@ export default function ParentsPage() {
     const res = await fetch("/api/users");
     const data = await res.json();
     setUsers(data.users);
+    // 如果删除的是当前选中的用户，选中第一个用户或清空
+    if (selectedUserId === id) {
+      setSelectedUserId(data.users.length > 0 ? data.users[0].id : null);
+    }
   };
 
   // 更新用户
