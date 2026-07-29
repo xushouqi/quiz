@@ -6,6 +6,7 @@ import { fetchWithTimeout } from "@/lib/fetch-timeout";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { RadarChart } from "@/components/quiz/RadarChart";
 import { ScoreCurve } from "@/components/quiz/ScoreCurve";
+import { EmojiPicker } from "@/components/quiz/EmojiPicker";
 
 interface StatsPayload {
   stars: number;
@@ -297,14 +298,13 @@ export default function ParentsPage() {
           {/* 添加新用户 */}
           <div className="mt-6 rounded-2xl border-2 border-dashed border-cocoa/20 p-4">
             <h3 className="font-kids text-lg">添加新用户</h3>
-            <div className="mt-3 flex gap-3">
-              <input
-                type="text"
-                value={newUserEmoji}
-                onChange={(e) => setNewUserEmoji(e.target.value)}
-                className="w-16 rounded-2xl border-2 border-cocoa/15 p-2 text-center text-2xl focus:border-sunny focus:outline-none"
-                maxLength={2}
-              />
+            <div className="mt-3">
+              <label className="font-kids text-sm text-cocoa/60">选择头像</label>
+              <div className="mt-2">
+                <EmojiPicker value={newUserEmoji} onChange={setNewUserEmoji} />
+              </div>
+            </div>
+            <div className="mt-4 flex gap-3">
               <input
                 type="text"
                 value={newUserName}
@@ -331,16 +331,13 @@ export default function ParentsPage() {
               <h3 className="font-kids text-2xl">编辑用户</h3>
               <div className="mt-4 space-y-3">
                 <div>
-                  <label className="font-kids text-sm text-cocoa/60">头像</label>
-                  <input
-                    type="text"
-                    value={editingUser.emoji}
-                    onChange={(e) =>
-                      setEditingUser({ ...editingUser, emoji: e.target.value })
-                    }
-                    className="mt-1 w-full rounded-2xl border-2 border-cocoa/15 p-2 text-center text-3xl focus:border-sunny focus:outline-none"
-                    maxLength={2}
-                  />
+                  <label className="font-kids text-sm text-cocoa/60">选择头像</label>
+                  <div className="mt-2">
+                    <EmojiPicker
+                      value={editingUser.emoji}
+                      onChange={(emoji) => setEditingUser({ ...editingUser, emoji })}
+                    />
+                  </div>
                 </div>
                 <div>
                   <label className="font-kids text-sm text-cocoa/60">名字</label>

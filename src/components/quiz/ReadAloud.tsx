@@ -73,7 +73,7 @@ export function ReadAloud({ text, autoPlay = false }: ReadAloudProps) {
       type="button"
       onClick={toggleMute}
       aria-label={isMuted ? "取消静音" : "静音"}
-      className={`shrink-0 rounded-full p-2 text-2xl transition hover:scale-110 active:scale-95 ${
+      className={`shrink-0 rounded-full p-1.5 text-xl transition hover:scale-110 active:scale-95 md:p-2 md:text-2xl ${
         isMuted ? "bg-cocoa/10" : "bg-gold/70"
       }`}
     >

@@ -81,10 +81,10 @@ export default function MistakesPage() {
     <main className="relative min-h-dvh">
       <OutbackBackground />
       <div className="mx-auto w-full max-w-2xl px-4 py-8">
-        <header className="mb-5 flex items-center justify-between">
-          <Link href="/" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 回家 Home</Link>
-          <h1 className="font-kids text-3xl">错题本 Mistakes</h1>
-          <span className="w-24" aria-hidden="true" />
+        <header className="mb-3 flex items-center justify-between md:mb-5">
+          <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家 Home</Link>
+          <h1 className="font-kids text-2xl md:text-3xl">错题本 Mistakes</h1>
+          <span className="w-20 md:w-24" aria-hidden="true" />
         </header>
 
         {questions === null && !loadError && (
@@ -117,13 +117,13 @@ export default function MistakesPage() {
         )}
 
         {q && (
-          <div className="space-y-5">
+          <div className="flex h-dvh flex-col overflow-y-auto px-3 py-2 md:px-4 md:py-3 lg:h-auto lg:min-h-dvh lg:space-y-5 lg:py-8">
             {result === "correct" && <Confetti />}
-            <p className="text-center font-kids text-lg text-cocoa/70">
+            <p className="shrink-0 text-center font-kids text-base text-cocoa/70 md:text-lg">
               第 {index + 1} / {questions.length} 道错题
             </p>
             <QuestionCard question={q}>
-              <div className="space-y-3">
+              <div className="space-y-2 md:space-y-3">
                 {q.choices.map((c, i) => (
                   <ChoiceButton
                     key={i}
@@ -137,28 +137,28 @@ export default function MistakesPage() {
                 ))}
               </div>
               {result !== null && (
-                <div className="mt-4 animate-pop space-y-3">
+                <div className="mt-2 animate-pop space-y-2 md:mt-4 md:space-y-3">
                   {result === "correct" ? (
-                    <p className="rounded-2xl bg-grass/25 p-3 text-center font-kids text-xl">答对啦，移出错题本！+1⭐</p>
+                    <p className="rounded-2xl bg-grass/25 p-2 text-center font-kids text-lg md:p-3 md:text-xl">答对啦，移出错题本！+1⭐</p>
                   ) : (
-                    <p className="rounded-2xl bg-coral/15 p-3 text-center font-kids text-lg">还是不对哦，看看解析吧！</p>
+                    <p className="rounded-2xl bg-coral/15 p-2 text-center font-kids text-base md:p-3 md:text-lg">还是不对哦，看看解析吧！</p>
                   )}
-                  <div className="rounded-2xl border-4 border-cocoa/10 bg-[#fffdf5] p-4">
-                    <p className="font-bold">💡 {q.explanation_zh}</p>
-                    <p className="mt-1 text-sm text-cocoa/60">{q.explanation_en}</p>
+                  <div className="rounded-2xl border-4 border-cocoa/10 bg-[#fffdf5] p-3 md:p-4">
+                    <p className="text-sm font-bold md:text-base">💡 {q.explanation_zh}</p>
+                    <p className="mt-1 text-xs text-cocoa/60 md:text-sm">{q.explanation_en}</p>
                   </div>
                   <button
                     type="button"
                     onClick={next}
-                    className="w-full rounded-full bg-sunny p-4 font-kids text-2xl text-white shadow-lg active:translate-y-1"
+                    className="w-full rounded-full bg-sunny p-3 font-kids text-xl text-white shadow-lg active:translate-y-1 md:p-4 md:text-2xl"
                   >
                     下一题 Next →
                   </button>
                 </div>
               )}
             </QuestionCard>
-            <div className="flex justify-center">
-              <Kangaroo mood={result === "correct" ? "happy" : result === "wrong" ? "sad" : "idle"} className="h-28" />
+            <div className="flex shrink-0 justify-center">
+              <Kangaroo mood={result === "correct" ? "happy" : result === "wrong" ? "sad" : "idle"} className="h-16 md:h-20 lg:h-28" />
             </div>
           </div>
         )}

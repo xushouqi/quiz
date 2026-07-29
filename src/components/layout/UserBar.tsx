@@ -37,15 +37,15 @@ export function UserBar() {
 
   return (
     <div className="sticky top-0 z-40 border-b-4 border-cocoa/10 bg-white/90 backdrop-blur">
-      <div className="mx-auto flex max-w-3xl items-center justify-between px-4 py-2">
+      <div className="mx-auto flex max-w-3xl items-center justify-between px-3 py-1 md:px-4 md:py-2">
         <div className="flex items-center gap-2">
-          <span className="text-3xl">{user.emoji}</span>
-          <span className="font-kids text-xl">{user.name}</span>
+          <span className="text-2xl md:text-3xl">{user.emoji}</span>
+          <span className="font-kids text-lg md:text-xl">{user.name}</span>
         </div>
         <button
           type="button"
           onClick={switchUser}
-          className="rounded-full bg-cocoa/10 px-4 py-1 font-kids text-sm transition hover:bg-cocoa/20"
+          className="rounded-full bg-cocoa/10 px-3 py-0.5 font-kids text-xs transition hover:bg-cocoa/20 md:px-4 md:py-1 md:text-sm"
         >
           切换账号
         </button>

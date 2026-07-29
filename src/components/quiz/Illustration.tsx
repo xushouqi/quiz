@@ -23,7 +23,7 @@ export function Illustration({ descriptor }: { descriptor: string | null }) {
   switch (parsed.kind) {
     case "emoji":
       return (
-        <div className="select-none text-center text-5xl leading-relaxed tracking-wide sm:text-6xl">
+        <div className="select-none text-center text-3xl leading-relaxed tracking-wide sm:text-4xl md:text-5xl">
           {parsed.content}
         </div>
       );
@@ -46,7 +46,7 @@ function ClockFace({ hour, minute }: { hour: number; minute: number }) {
   const h = hand((hour % 12) * 30 + minute * 0.5, 26);
   const m = hand(minute * 6, 38);
   return (
-    <svg viewBox="0 0 120 120" className="mx-auto h-40 w-40">
+    <svg viewBox="0 0 120 120" className="mx-auto h-24 w-24 md:h-32 md:w-32">
       <circle cx="60" cy="60" r="54" fill="#fffdf5" stroke="#5c4033" strokeWidth="5" />
       {Array.from({ length: 12 }, (_, i) => {
         const rad = ((i * 30 - 90) * Math.PI) / 180;
@@ -69,7 +69,7 @@ function ClockFace({ hour, minute }: { hour: number; minute: number }) {
 
 function GridSquare() {
   return (
-    <svg viewBox="0 0 120 120" className="mx-auto h-40 w-40">
+    <svg viewBox="0 0 120 120" className="mx-auto h-24 w-24 md:h-32 md:w-32">
       <rect x="15" y="15" width="90" height="90" fill="#fffdf5" stroke="#5c4033" strokeWidth="5" />
       <line x1="60" y1="15" x2="60" y2="105" stroke="#5c4033" strokeWidth="4" />
       <line x1="15" y1="60" x2="105" y2="60" stroke="#5c4033" strokeWidth="4" />
@@ -79,7 +79,7 @@ function GridSquare() {
 
 function DiagSquare() {
   return (
-    <svg viewBox="0 0 120 120" className="mx-auto h-40 w-40">
+    <svg viewBox="0 0 120 120" className="mx-auto h-24 w-24 md:h-32 md:w-32">
       <rect x="15" y="15" width="90" height="90" fill="#fffdf5" stroke="#5c4033" strokeWidth="5" />
       <line x1="15" y1="15" x2="105" y2="105" stroke="#ef6351" strokeWidth="4" />
     </svg>

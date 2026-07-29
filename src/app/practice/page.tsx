@@ -130,15 +130,15 @@ export default function PracticePage() {
     <main className="relative min-h-dvh">
       <OutbackBackground />
       {phase === "select" && (
-        <div className="mx-auto max-w-3xl px-4 py-10">
+        <div className="mx-auto max-w-3xl px-4 py-6 md:py-10">
           <header className="flex items-center justify-between">
-            <Link href="/" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 回家 Home</Link>
-            <h1 className="font-kids text-3xl">闯关练习</h1>
-            <span className="w-24" aria-hidden="true" />
+            <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家 Home</Link>
+            <h1 className="font-kids text-2xl md:text-3xl">闯关练习</h1>
+            <span className="w-20 md:w-24" aria-hidden="true" />
           </header>
-          <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
-            <Kangaroo mood={error ? "sad" : "happy"} className="h-36 animate-idle-hop" />
-            <p className="max-w-xs rounded-3xl border-4 border-cocoa/10 bg-white/90 p-4 text-center font-kids text-xl shadow">
+          <div className="mt-6 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:justify-center sm:gap-4">
+            <Kangaroo mood={error ? "sad" : "happy"} className="h-28 animate-idle-hop md:h-36" />
+            <p className="max-w-xs rounded-3xl border-4 border-cocoa/10 bg-white/90 p-3 text-center font-kids text-lg shadow md:p-4 md:text-xl">
               选一个主题开始冒险吧！ Pick a topic!
             </p>
           </div>
@@ -147,16 +147,16 @@ export default function PracticePage() {
               {error}
             </p>
           )}
-          <div className="mt-8 grid grid-cols-2 gap-4 sm:grid-cols-3">
+          <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-8 sm:grid-cols-3 sm:gap-4">
             {TOPIC_OPTIONS.map((t) => (
               <button
                 key={t.key}
                 type="button"
                 onClick={() => void start(t.key)}
-                className="rounded-[1.75rem] border-4 border-cocoa/10 bg-white/90 p-5 text-center shadow transition hover:-rotate-1 hover:border-sunny hover:shadow-lg active:translate-y-1"
+                className="rounded-[1.5rem] border-4 border-cocoa/10 bg-white/90 p-3 text-center shadow transition hover:-rotate-1 hover:border-sunny hover:shadow-lg active:translate-y-1 md:rounded-[1.75rem] md:p-5"
               >
-                <div className="text-4xl">{t.emoji}</div>
-                <div className="mt-1 font-kids text-lg">{t.zh}</div>
+                <div className="text-3xl md:text-4xl">{t.emoji}</div>
+                <div className="mt-0.5 font-kids text-base md:mt-1 md:text-lg">{t.zh}</div>
                 <div className="text-xs text-cocoa/60">{t.en}</div>
               </button>
             ))}
@@ -172,18 +172,18 @@ export default function PracticePage() {
       )}
 
       {phase === "playing" && q && (
-        <div className="mx-auto w-full max-w-2xl space-y-5 px-4 py-8">
+        <div className="mx-auto flex h-dvh w-full max-w-2xl flex-col px-3 py-2 md:px-4 md:py-3 lg:h-auto lg:min-h-dvh lg:space-y-5 lg:py-8">
           {feedback?.kind === "correct" && <Confetti />}
-          <header className="flex items-center justify-between gap-2">
-            <Link href="/" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 回家</Link>
-            <span className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">
+          <header className="flex shrink-0 items-center justify-between gap-2">
+            <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家</Link>
+            <span className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">
               第 {index + 1} / {questions.length} 题
             </span>
-            <span className="rounded-full bg-gold/90 px-4 py-2 font-kids shadow">⭐ {earned}</span>
+            <span className="rounded-full bg-gold/90 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">⭐ {earned}</span>
           </header>
 
           <QuestionCard question={q}>
-            <div className="space-y-3">
+            <div className="space-y-2 md:space-y-3">
               {q.choices.map((c, i) => (
                 <ChoiceButton
                   key={i}
@@ -198,30 +198,30 @@ export default function PracticePage() {
             </div>
 
             {feedback?.kind === "encourage" && (
-              <p className="mt-4 animate-pop rounded-2xl bg-gold/40 p-3 text-center font-kids text-lg">
+              <p className="mt-2 animate-pop rounded-2xl bg-gold/40 p-2 text-center font-kids text-base md:mt-4 md:p-3 md:text-lg">
                 差一点点！再试一次吧～ So close! Try again!
               </p>
             )}
 
             {(feedback?.kind === "correct" || feedback?.kind === "reveal") && (
-              <div className="mt-4 animate-pop space-y-3">
+              <div className="mt-2 animate-pop space-y-2 md:mt-4 md:space-y-3">
                 {feedback.kind === "correct" ? (
-                  <p className="rounded-2xl bg-grass/25 p-3 text-center font-kids text-xl">
+                  <p className="rounded-2xl bg-grass/25 p-2 text-center font-kids text-lg md:p-3 md:text-xl">
                     太棒了！+{feedback.stars}⭐ Awesome!
                   </p>
                 ) : (
-                  <p className="rounded-2xl bg-coral/15 p-3 text-center font-kids text-lg">
+                  <p className="rounded-2xl bg-coral/15 p-2 text-center font-kids text-base md:p-3 md:text-lg">
                     没关系，看看答案吧！ Here is the answer!
                   </p>
                 )}
-                <div className="rounded-2xl border-4 border-cocoa/10 bg-[#fffdf5] p-4">
-                  <p className="font-bold">💡 {q.explanation_zh}</p>
-                  <p className="mt-1 text-sm text-cocoa/60">{q.explanation_en}</p>
+                <div className="rounded-2xl border-4 border-cocoa/10 bg-[#fffdf5] p-3 md:p-4">
+                  <p className="text-sm font-bold md:text-base">💡 {q.explanation_zh}</p>
+                  <p className="mt-1 text-xs text-cocoa/60 md:text-sm">{q.explanation_en}</p>
                 </div>
                 <button
                   type="button"
                   onClick={next}
-                  className="w-full rounded-full bg-sunny p-4 font-kids text-2xl text-white shadow-lg transition hover:brightness-105 active:translate-y-1"
+                  className="w-full rounded-full bg-sunny p-3 font-kids text-xl text-white shadow-lg transition hover:brightness-105 active:translate-y-1 md:p-4 md:text-2xl"
                 >
                   {index + 1 >= questions.length ? "完成！Finish!" : "下一题 Next →"}
                 </button>
@@ -229,8 +229,8 @@ export default function PracticePage() {
             )}
           </QuestionCard>
 
-          <div className="flex justify-center">
-            <Kangaroo mood={mood} className="h-28" />
+          <div className="flex shrink-0 justify-center md:mt-0">
+            <Kangaroo mood={mood} className="h-16 md:h-20 lg:h-28" />
           </div>
         </div>
       )}

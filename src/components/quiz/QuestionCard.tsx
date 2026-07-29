@@ -10,13 +10,13 @@ export function QuestionCard({
   children?: React.ReactNode;
 }) {
   return (
-    <div className="animate-pop rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl backdrop-blur">
-      <div className="mb-2 flex items-start justify-between gap-3">
-        <p className="font-kids text-2xl leading-snug sm:text-3xl">{question.text_zh}</p>
+    <div className="animate-pop rounded-[1.5rem] border-4 border-cocoa/10 bg-white/90 p-3 shadow-xl backdrop-blur md:p-4">
+      <div className="mb-1 flex items-start justify-between gap-2 md:mb-1.5 md:gap-3">
+        <p className="font-kids text-lg leading-snug md:text-xl lg:text-2xl">{question.text_zh}</p>
         <ReadAloud text={question.text_zh} autoPlay />
       </div>
-      <p className="mb-4 text-base text-cocoa/60">{question.text_en}</p>
-      <div className="mb-5">
+      <p className="mb-1.5 text-xs text-cocoa/60 md:mb-2 md:text-sm">{question.text_en}</p>
+      <div className="mb-2 md:mb-3">
         <Illustration descriptor={question.illustration} />
       </div>
       {children}

@@ -32,14 +32,14 @@ export function ChoiceButton({
       type="button"
       disabled={disabled}
       onClick={() => onSelect(index)}
-      className={`flex w-full items-center gap-4 rounded-3xl border-4 p-4 text-left transition active:translate-y-1 ${VARIANT_CLASS[variant]} ${disabled ? "cursor-default" : "cursor-pointer"}`}
+      className={`flex w-full items-center gap-2.5 rounded-2xl border-4 p-2.5 text-left transition active:translate-y-1 md:gap-3 md:rounded-3xl md:p-3 ${VARIANT_CLASS[variant]} ${disabled ? "cursor-default" : "cursor-pointer"}`}
     >
-      <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-sunny font-kids text-2xl text-white shadow">
+      <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-sunny font-kids text-xl text-white shadow md:h-11 md:w-11 md:text-2xl">
         {LETTERS[index]}
       </span>
       <span className="min-w-0">
-        <span className="block text-xl font-bold leading-tight">{zh}</span>
-        <span className="block truncate text-sm text-cocoa/60">{en}</span>
+        <span className="block text-lg font-bold leading-tight md:text-xl">{zh}</span>
+        <span className="block truncate text-xs text-cocoa/60 md:text-sm">{en}</span>
       </span>
     </button>
   );

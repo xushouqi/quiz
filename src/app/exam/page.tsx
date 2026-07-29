@@ -145,28 +145,28 @@ export default function ExamPage() {
       )}
 
       {(phase === "running" || phase === "submitting") && q && (
-        <div className="mx-auto w-full max-w-2xl space-y-4 px-4 py-6">
-          <header className="flex items-center justify-between gap-2 rounded-3xl border-4 border-cocoa/10 bg-white/90 px-4 py-3 shadow">
-            <span className={`font-kids text-2xl ${remaining <= 300 ? "text-coral" : ""}`}>
+        <div className="mx-auto flex h-dvh w-full max-w-2xl flex-col px-3 py-1 md:px-4 lg:h-auto lg:min-h-dvh lg:py-6">
+          <header className="flex shrink-0 items-center justify-between gap-1.5 rounded-2xl border-4 border-cocoa/10 bg-white/90 px-3 py-1.5 shadow md:gap-2 md:rounded-3xl md:px-4 md:py-2">
+            <span className={`font-kids text-base md:text-2xl ${remaining <= 300 ? "text-coral" : ""}`}>
               ⏰ {formatClock(remaining)}
             </span>
-            <span className="font-kids text-lg text-cocoa/70">已答 {answeredCount}/{questions.length}</span>
+            <span className="font-kids text-xs text-cocoa/70 md:text-lg">已答 {answeredCount}/{questions.length}</span>
             <button
               type="button"
               onClick={() => setConfirmOpen(true)}
-              className="rounded-full bg-grass px-5 py-2 font-kids text-lg text-white shadow active:translate-y-1"
+              className="rounded-full bg-grass px-2.5 py-1 font-kids text-xs text-white shadow active:translate-y-1 md:px-5 md:py-2 md:text-lg"
             >
               交卷 Submit
             </button>
           </header>
 
           {error && (
-            <p className="rounded-3xl border-4 border-coral/30 bg-coral/10 p-3 text-center font-kids text-coral">
+            <p className="shrink-0 rounded-2xl border-4 border-coral/30 bg-coral/10 p-2 text-center font-kids text-sm text-coral md:rounded-3xl md:p-3 md:text-base">
               {error}
             </p>
           )}
 
-          <div className="flex flex-wrap justify-center gap-2">
+          <div className="flex shrink-0 flex-wrap justify-center gap-1 md:gap-1.5">
             {questions.map((item, i) => {
               const answered = choices[item.id] !== undefined;
               const isCurrent = i === current;
@@ -176,7 +176,7 @@ export default function ExamPage() {
                   key={item.id}
                   type="button"
                   onClick={() => setCurrent(i)}
-                  className={`h-9 w-9 rounded-full border-2 font-kids text-sm transition ${isCurrent ? "scale-110 border-sunny" : "border-cocoa/20"} ${answered ? "bg-grass text-white" : "bg-white"} ${isFlagged ? "ring-2 ring-gold" : ""}`}
+                  className={`flex h-6 w-6 items-center justify-center rounded-full border-2 font-kids text-xs transition md:h-8 md:w-8 md:text-sm ${isCurrent ? "scale-110 border-sunny" : "border-cocoa/20"} ${answered ? "bg-grass text-white" : "bg-white"} ${isFlagged ? "ring-2 ring-gold" : ""}`}
                 >
                   {i + 1}
                 </button>
@@ -184,35 +184,37 @@ export default function ExamPage() {
             })}
           </div>
 
-          <QuestionCard question={q}>
-            <div className="space-y-3">
-              {q.choices.map((c, i) => (
-                <ChoiceButton
-                  key={i}
-                  index={i}
-                  zh={c.zh}
-                  en={c.en}
-                  variant={variantFor(i)}
-                  disabled={phase === "submitting"}
-                  onSelect={(i2) => setChoices((prev) => ({ ...prev, [q.id]: i2 }))}
-                />
-              ))}
-            </div>
-          </QuestionCard>
+          <div className="flex min-h-0 flex-1 flex-col overflow-y-auto py-1.5">
+            <QuestionCard question={q}>
+              <div className="space-y-1.5 md:space-y-2">
+                {q.choices.map((c, i) => (
+                  <ChoiceButton
+                    key={i}
+                    index={i}
+                    zh={c.zh}
+                    en={c.en}
+                    variant={variantFor(i)}
+                    disabled={phase === "submitting"}
+                    onSelect={(i2) => setChoices((prev) => ({ ...prev, [q.id]: i2 }))}
+                  />
+                ))}
+              </div>
+            </QuestionCard>
+          </div>
 
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex shrink-0 items-center justify-between gap-1.5 md:gap-3">
             <button
               type="button"
               disabled={current === 0}
               onClick={() => setCurrent((c) => c - 1)}
-              className="rounded-full bg-white px-6 py-3 font-kids text-lg shadow disabled:opacity-40"
+              className="rounded-full bg-white px-3 py-1.5 font-kids text-sm shadow disabled:opacity-40 md:px-6 md:py-2.5 md:text-lg"
             >
               ← 上一题
             </button>
             <button
               type="button"
               onClick={toggleFlag}
-              className={`rounded-full px-5 py-3 font-kids shadow ${flagged.includes(q.id) ? "bg-gold" : "bg-white"}`}
+              className={`rounded-full px-2.5 py-1.5 font-kids text-sm shadow md:px-5 md:py-2.5 md:text-lg ${flagged.includes(q.id) ? "bg-gold" : "bg-white"}`}
             >
               🔖 {flagged.includes(q.id) ? "已标记" : "标记"}
             </button>
@@ -220,7 +222,7 @@ export default function ExamPage() {
               type="button"
               disabled={current === questions.length - 1}
               onClick={() => setCurrent((c) => c + 1)}
-              className="rounded-full bg-white px-6 py-3 font-kids text-lg shadow disabled:opacity-40"
+              className="rounded-full bg-white px-3 py-1.5 font-kids text-sm shadow disabled:opacity-40 md:px-6 md:py-2.5 md:text-lg"
             >
               下一题 →
             </button>

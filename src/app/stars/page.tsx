@@ -47,26 +47,26 @@ export default function StarsPage() {
   return (
     <main className="relative min-h-dvh">
       <OutbackBackground />
-      <div className="mx-auto max-w-2xl space-y-8 px-4 py-10 text-center">
+      <div className="mx-auto max-w-2xl space-y-4 px-4 py-6 text-center md:space-y-8 md:py-10">
         <header className="flex items-center justify-between">
-          <Link href="/dashboard" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 返回 Back</Link>
-          <h1 className="font-kids text-3xl">我的星星 My Stars</h1>
-          <span className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">🔥 {streakDays} 天</span>
+          <Link href="/dashboard" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 返回 Back</Link>
+          <h1 className="font-kids text-2xl md:text-3xl">我的星星 My Stars</h1>
+          <span className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">🔥 {streakDays} 天</span>
         </header>
-        <div className="flex items-center justify-center gap-8">
+        <div className="flex items-center justify-center gap-4 md:gap-8">
           <StarJar stars={stars} />
-          <Kangaroo mood={stars > 0 ? "happy" : "idle"} className="h-36 animate-idle-hop" />
+          <Kangaroo mood={stars > 0 ? "happy" : "idle"} className="h-24 md:h-36" />
         </div>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
           {BADGES.map((b) => {
             const lit = stars >= b.at;
             return (
               <div
                 key={b.at}
-                className={`rounded-3xl border-4 p-4 ${lit ? "border-gold bg-gold/30" : "border-cocoa/10 bg-white/50 opacity-60 grayscale"}`}
+                className={`rounded-2xl border-4 p-3 md:rounded-3xl md:p-4 ${lit ? "border-gold bg-gold/30" : "border-cocoa/10 bg-white/50 opacity-60 grayscale"}`}
               >
-                <div className="text-4xl">{b.emoji}</div>
-                <div className="font-kids">{b.zh}</div>
+                <div className="text-3xl md:text-4xl">{b.emoji}</div>
+                <div className="font-kids text-sm md:text-base">{b.zh}</div>
                 <div className="text-xs text-cocoa/60">{lit ? b.en : `还差 ${b.at - stars} ⭐`}</div>
               </div>
             );

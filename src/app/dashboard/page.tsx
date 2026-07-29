@@ -61,39 +61,39 @@ export default function DashboardPage() {
   return (
     <main className="relative min-h-dvh overflow-hidden">
       <OutbackBackground />
-      <div className="mx-auto max-w-3xl px-4 pb-16 pt-8">
+      <div className="mx-auto max-w-3xl px-4 pb-8 pt-4 md:pb-16 md:pt-8">
         <header className="flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
-            <span className="text-4xl">{user.emoji}</span>
-            <h1 className="font-kids text-3xl sm:text-4xl">{user.name}的冒险</h1>
+            <span className="text-3xl md:text-4xl">{user.emoji}</span>
+            <h1 className="font-kids text-2xl sm:text-3xl md:text-4xl">{user.name}的冒险</h1>
           </div>
           <div className="flex gap-2">
-            <span className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">🔥 {stats.streakDays} 天</span>
-            <span className="rounded-full bg-gold/90 px-4 py-2 font-kids shadow">⭐ {stats.stars}</span>
+            <span className="rounded-full bg-white/85 px-3 py-1 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">🔥 {stats.streakDays} 天</span>
+            <span className="rounded-full bg-gold/90 px-3 py-1 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">⭐ {stats.stars}</span>
           </div>
         </header>
 
-        <section className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:items-end sm:justify-center">
-          <Kangaroo mood="happy" className="h-48 animate-idle-hop" />
-          <div className="relative max-w-sm rounded-3xl border-4 border-cocoa/10 bg-white/90 p-5 shadow-xl">
-            <p className="font-kids text-xl leading-relaxed">
+        <section className="mt-6 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:items-end sm:justify-center sm:gap-4">
+          <Kangaroo mood="happy" className="h-32 animate-idle-hop md:h-48" />
+          <div className="relative max-w-sm rounded-3xl border-4 border-cocoa/10 bg-white/90 p-4 shadow-xl md:p-5">
+            <p className="font-kids text-lg leading-relaxed md:text-xl">
               你好呀！我是跳跳 🦘<br />
               今天想去哪里冒险？
             </p>
-            <p className="mt-1 text-sm text-cocoa/60">Hi! I am Tiao Tiao. Where to today?</p>
+            <p className="mt-1 text-xs text-cocoa/60 md:text-sm">Hi! I am Tiao Tiao. Where to today?</p>
           </div>
         </section>
 
-        <nav className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
+        <nav className="mt-6 grid grid-cols-1 gap-4 sm:mt-12 sm:grid-cols-2 sm:gap-6 md:mt-12 md:gap-6">
           {STATIONS.map((s, i) => (
             <Link
               key={s.href}
               href={s.href}
-              className={`rounded-[2rem] border-4 p-6 shadow-lg backdrop-blur transition hover:-translate-y-1 hover:shadow-xl active:translate-y-0 ${s.tint} ${i % 2 === 0 ? "sm:-rotate-1" : "sm:rotate-1"}`}
+              className={`rounded-[1.5rem] border-4 p-4 shadow-lg backdrop-blur transition hover:-translate-y-1 hover:shadow-xl active:translate-y-0 md:rounded-[2rem] md:p-6 ${s.tint} ${i % 2 === 0 ? "sm:-rotate-1" : "sm:rotate-1"}`}
             >
-              <div className="text-5xl">{s.emoji}</div>
-              <div className="mt-2 font-kids text-2xl">{s.zh}</div>
-              <div className="text-sm text-cocoa/60">{s.en}</div>
+              <div className="text-4xl md:text-5xl">{s.emoji}</div>
+              <div className="mt-1 font-kids text-xl md:mt-2 md:text-2xl">{s.zh}</div>
+              <div className="text-xs text-cocoa/60 md:text-sm">{s.en}</div>
             </Link>
           ))}
         </nav>
