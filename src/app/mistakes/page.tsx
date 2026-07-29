@@ -22,13 +22,19 @@ export default function MistakesPage() {
 
   useEffect(() => {
     void (async () => {
+      const userId = localStorage.getItem("kangaroo-current-user");
+      if (!userId) {
+        window.location.href = "/";
+        return;
+      }
+
       try {
         const [mRes, sRes] = await Promise.all([
-          fetchWithTimeout("/api/mistakes"),
+          fetchWithTimeout(`/api/mistakes?userId=${userId}`),
           fetchWithTimeout("/api/sessions", {
             method: "POST",
             headers: { "content-type": "application/json" },
-            body: JSON.stringify({ mode: "practice" }),
+            body: JSON.stringify({ mode: "practice", userId: Number(userId) }),
           }),
         ]);
         const m = (await mRes.json()) as { questions: Question[] };

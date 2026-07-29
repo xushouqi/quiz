@@ -27,10 +27,20 @@ export default function ExamPage() {
   const [error, setError] = useState<string | null>(null);
 
   const begin = useCallback(async () => {
+    const userId = localStorage.getItem("kangaroo-current-user");
+    if (!userId) {
+      window.location.href = "/";
+      return;
+    }
+
     setPhase("loading");
     setError(null);
     try {
-      const res = await fetchWithTimeout("/api/exam", { method: "POST" });
+      const res = await fetchWithTimeout("/api/exam", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ userId: Number(userId) }),
+      });
       const data = (await res.json()) as { sessionId: number; minutes: number; questions: Question[] };
       setSessionId(data.sessionId);
       setQuestions(data.questions);

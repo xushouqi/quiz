@@ -38,6 +38,12 @@ export default function PracticePage() {
   const shownAt = useRef(Date.now());
 
   const start = useCallback(async (topic: Topic | "random") => {
+    const userId = localStorage.getItem("kangaroo-current-user");
+    if (!userId) {
+      window.location.href = "/";
+      return;
+    }
+
     setPhase("loading");
     setError(null);
     try {
@@ -45,7 +51,7 @@ export default function PracticePage() {
         fetchWithTimeout("/api/sessions", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ mode: "practice" }),
+          body: JSON.stringify({ mode: "practice", userId: Number(userId) }),
         }),
         fetchWithTimeout(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}`),
       ]);

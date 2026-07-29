@@ -1,11 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { StarJar } from "@/components/quiz/StarJar";
-import { getDb } from "@/lib/db";
-import { computeStars, computeStreak } from "@/lib/stats";
-
-export const dynamic = "force-dynamic";
 
 const BADGES = [
   { at: 30, emoji: "🥉", zh: "铜牌探险家", en: "Bronze Explorer" },
@@ -14,18 +13,45 @@ const BADGES = [
   { at: 600, emoji: "🏆", zh: "传奇袋鼠", en: "Legend Kangaroo" },
 ];
 
+interface Stats {
+  stars: number;
+  streakDays: number;
+}
+
 export default function StarsPage() {
-  const db = getDb();
-  const { stars } = computeStars(db);
-  const streak = computeStreak(db);
+  const [stats, setStats] = useState<Stats | null>(null);
+
+  useEffect(() => {
+    const userId = localStorage.getItem("kangaroo-current-user");
+    if (!userId) {
+      window.location.href = "/";
+      return;
+    }
+
+    fetch(`/api/stats?userId=${userId}`)
+      .then((r) => r.json())
+      .then((data) => setStats(data));
+  }, []);
+
+  if (!stats) {
+    return (
+      <main className="relative flex min-h-dvh items-center justify-center">
+        <OutbackBackground />
+        <Kangaroo mood="idle" className="h-40 animate-idle-hop" />
+      </main>
+    );
+  }
+
+  const { stars, streakDays } = stats;
+
   return (
     <main className="relative min-h-dvh">
       <OutbackBackground />
       <div className="mx-auto max-w-2xl space-y-8 px-4 py-10 text-center">
         <header className="flex items-center justify-between">
-          <Link href="/" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 回家 Home</Link>
+          <Link href="/dashboard" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 返回 Back</Link>
           <h1 className="font-kids text-3xl">我的星星 My Stars</h1>
-          <span className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">🔥 {streak} 天</span>
+          <span className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">🔥 {streakDays} 天</span>
         </header>
         <div className="flex items-center justify-center gap-8">
           <StarJar stars={stars} />
