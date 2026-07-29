@@ -16,6 +16,12 @@ interface StatsPayload {
   activeDays: number;
 }
 
+interface User {
+  id: number;
+  name: string;
+  emoji: string;
+}
+
 function makeGate() {
   const a = 12 + Math.floor(Math.random() * 20);
   const b = 7 + Math.floor(Math.random() * 20);
@@ -39,14 +45,76 @@ export default function ParentsPage() {
   const [unlocked, setUnlocked] = useState(false);
   const [stats, setStats] = useState<StatsPayload | null>(null);
   const [statsError, setStatsError] = useState(false);
+  const [users, setUsers] = useState<User[]>([]);
+  const [editingUser, setEditingUser] = useState<User | null>(null);
+  const [newUserName, setNewUserName] = useState("");
+  const [newUserEmoji, setNewUserEmoji] = useState("🐨");
+  const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
 
   useEffect(() => {
     if (!unlocked) return;
-    void fetchWithTimeout("/api/stats")
+
+    // 加载用户列表
+    fetch("/api/users")
+      .then((r) => r.json())
+      .then((data) => {
+        setUsers(data.users);
+        // 默认选择第一个用户
+        if (data.users.length > 0 && !selectedUserId) {
+          setSelectedUserId(data.users[0].id);
+        }
+      });
+  }, [unlocked, selectedUserId]);
+
+  useEffect(() => {
+    if (!unlocked || !selectedUserId) return;
+
+    void fetchWithTimeout(`/api/stats?userId=${selectedUserId}`)
       .then((r) => r.json())
       .then((s: StatsPayload) => setStats(s))
       .catch(() => setStatsError(true));
-  }, [unlocked]);
+  }, [unlocked, selectedUserId]);
+
+  // 添加用户
+  const addUser = async () => {
+    if (!newUserName.trim()) return;
+    await fetch("/api/users", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ name: newUserName, emoji: newUserEmoji }),
+    });
+    setNewUserName("");
+    setNewUserEmoji("🐨");
+    const res = await fetch("/api/users");
+    const data = await res.json();
+    setUsers(data.users);
+  };
+
+  // 删除用户
+  const deleteUser = async (id: number) => {
+    if (!confirm("确定删除这个用户吗？所有学习数据都会被删除！")) return;
+    await fetch(`/api/users/${id}`, { method: "DELETE" });
+    const res = await fetch("/api/users");
+    const data = await res.json();
+    setUsers(data.users);
+  };
+
+  // 更新用户
+  const updateUser = async () => {
+    if (!editingUser) return;
+    await fetch(`/api/users/${editingUser.id}`, {
+      method: "PATCH",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({
+        name: editingUser.name,
+        emoji: editingUser.emoji,
+      }),
+    });
+    setEditingUser(null);
+    const res = await fetch("/api/users");
+    const data = await res.json();
+    setUsers(data.users);
+  };
 
   const radarData = useMemo(() => {
     if (!stats) return [];
@@ -127,6 +195,30 @@ export default function ParentsPage() {
           <h1 className="font-kids text-3xl">家长面板 Dashboard</h1>
           <Link href="/" className="rounded-full bg-white/85 px-4 py-2 font-kids shadow">← 回首页 Home</Link>
         </header>
+
+        {/* 用户选择器 */}
+        {users.length > 0 && (
+          <div className="flex items-center gap-3 rounded-2xl border-2 border-cocoa/10 bg-white/90 p-3 shadow">
+            <span className="font-kids text-cocoa/60">查看：</span>
+            <div className="flex flex-wrap gap-2">
+              {users.map((user) => (
+                <button
+                  key={user.id}
+                  type="button"
+                  onClick={() => setSelectedUserId(user.id)}
+                  className={`flex items-center gap-2 rounded-full px-4 py-2 font-kids transition ${
+                    selectedUserId === user.id
+                      ? "bg-sunny text-white shadow"
+                      : "bg-cocoa/5 hover:bg-cocoa/10"
+                  }`}
+                >
+                  <span>{user.emoji}</span>
+                  <span>{user.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
         <section className="grid grid-cols-3 gap-3">
           <StatTile emoji="⭐" value={stats.stars} label="星星 Stars" />
           <StatTile emoji="🔥" value={stats.streakDays} label="连续天数 Streak" />
@@ -140,6 +232,120 @@ export default function ParentsPage() {
           <h2 className="font-kids text-2xl">考试分数曲线 Exam scores</h2>
           <ScoreCurve points={curveData} />
         </section>
+
+        {/* 用户管理 */}
+        <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl">
+          <h2 className="font-kids text-2xl">用户管理 User Management</h2>
+
+          <div className="mt-4 space-y-3">
+            {users.map((user) => (
+              <div
+                key={user.id}
+                className="flex items-center justify-between rounded-2xl border-2 border-cocoa/10 bg-white p-4"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="text-4xl">{user.emoji}</span>
+                  <span className="font-kids text-xl">{user.name}</span>
+                </div>
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setEditingUser({ ...user })}
+                    className="rounded-full bg-sunny px-4 py-1 font-kids text-white transition hover:brightness-105"
+                  >
+                    编辑
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => deleteUser(user.id)}
+                    className="rounded-full bg-coral px-4 py-1 font-kids text-white transition hover:brightness-105"
+                  >
+                    删除
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* 添加新用户 */}
+          <div className="mt-6 rounded-2xl border-2 border-dashed border-cocoa/20 p-4">
+            <h3 className="font-kids text-lg">添加新用户</h3>
+            <div className="mt-3 flex gap-3">
+              <input
+                type="text"
+                value={newUserEmoji}
+                onChange={(e) => setNewUserEmoji(e.target.value)}
+                className="w-16 rounded-2xl border-2 border-cocoa/15 p-2 text-center text-2xl focus:border-sunny focus:outline-none"
+                maxLength={2}
+              />
+              <input
+                type="text"
+                value={newUserName}
+                onChange={(e) => setNewUserName(e.target.value)}
+                placeholder="名字"
+                className="flex-1 rounded-2xl border-2 border-cocoa/15 p-2 font-kids focus:border-sunny focus:outline-none"
+              />
+              <button
+                type="button"
+                onClick={addUser}
+                disabled={!newUserName.trim()}
+                className="rounded-full bg-grass px-6 py-2 font-kids text-white transition hover:brightness-105 disabled:opacity-50"
+              >
+                添加
+              </button>
+            </div>
+          </div>
+        </section>
+
+        {/* 编辑用户弹窗 */}
+        {editingUser && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-cocoa/40 p-4">
+            <div className="w-full max-w-sm rounded-3xl bg-white p-6 shadow-2xl">
+              <h3 className="font-kids text-2xl">编辑用户</h3>
+              <div className="mt-4 space-y-3">
+                <div>
+                  <label className="font-kids text-sm text-cocoa/60">头像</label>
+                  <input
+                    type="text"
+                    value={editingUser.emoji}
+                    onChange={(e) =>
+                      setEditingUser({ ...editingUser, emoji: e.target.value })
+                    }
+                    className="mt-1 w-full rounded-2xl border-2 border-cocoa/15 p-2 text-center text-3xl focus:border-sunny focus:outline-none"
+                    maxLength={2}
+                  />
+                </div>
+                <div>
+                  <label className="font-kids text-sm text-cocoa/60">名字</label>
+                  <input
+                    type="text"
+                    value={editingUser.name}
+                    onChange={(e) =>
+                      setEditingUser({ ...editingUser, name: e.target.value })
+                    }
+                    className="mt-1 w-full rounded-2xl border-2 border-cocoa/15 p-2 font-kids focus:border-sunny focus:outline-none"
+                  />
+                </div>
+              </div>
+              <div className="mt-6 flex gap-3">
+                <button
+                  type="button"
+                  onClick={() => setEditingUser(null)}
+                  className="flex-1 rounded-full border-2 border-cocoa/10 bg-white p-3 font-kids transition hover:bg-cocoa/5"
+                >
+                  取消
+                </button>
+                <button
+                  type="button"
+                  onClick={updateUser}
+                  className="flex-1 rounded-full bg-sunny p-3 font-kids text-white transition hover:brightness-105"
+                >
+                  保存
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </main>
   );
