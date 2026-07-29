@@ -179,7 +179,7 @@ export default function ParentsPage() {
     );
   }
 
-  if (!stats) {
+  if (!stats && users.length > 0) {
     return (
       <main className="relative flex min-h-dvh items-center justify-center">
         <OutbackBackground />
@@ -226,19 +226,30 @@ export default function ParentsPage() {
             </div>
           </div>
         )}
-        <section className="grid grid-cols-3 gap-3">
-          <StatTile emoji="⭐" value={stats.stars} label="星星 Stars" />
-          <StatTile emoji="🔥" value={stats.streakDays} label="连续天数 Streak" />
-          <StatTile emoji="🗓️" value={stats.activeDays} label="活跃天数 Active" />
-        </section>
-        <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl">
-          <h2 className="font-kids text-2xl">题型正确率 Accuracy by topic</h2>
-          <RadarChart data={radarData} />
-        </section>
-        <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl">
-          <h2 className="font-kids text-2xl">考试分数曲线 Exam scores</h2>
-          <ScoreCurve points={curveData} />
-        </section>
+
+        {users.length === 0 && (
+          <div className="rounded-3xl border-4 border-dashed border-cocoa/20 bg-white/50 p-8 text-center">
+            <p className="font-kids text-xl text-cocoa/60">还没有用户，请在下方添加一个用户</p>
+          </div>
+        )}
+
+        {stats && (
+          <>
+            <section className="grid grid-cols-3 gap-3">
+              <StatTile emoji="⭐" value={stats.stars} label="星星 Stars" />
+              <StatTile emoji="🔥" value={stats.streakDays} label="连续天数 Streak" />
+              <StatTile emoji="🗓️" value={stats.activeDays} label="活跃天数 Active" />
+            </section>
+            <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl">
+              <h2 className="font-kids text-2xl">题型正确率 Accuracy by topic</h2>
+              <RadarChart data={radarData} />
+            </section>
+            <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl">
+              <h2 className="font-kids text-2xl">考试分数曲线 Exam scores</h2>
+              <ScoreCurve points={curveData} />
+            </section>
+          </>
+        )}
 
         {/* 用户管理 */}
         <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/90 p-6 shadow-xl">
