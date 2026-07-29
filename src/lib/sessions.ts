@@ -1,8 +1,8 @@
 import type { Database } from "better-sqlite3";
 import type { AnswerRow, SessionRow } from "./types";
 
-export function createSession(db: Database, mode: "practice" | "exam", startedAt: number): number {
-  const info = db.prepare("INSERT INTO sessions (mode, started_at) VALUES (?, ?)").run(mode, startedAt);
+export function createSession(db: Database, mode: "practice" | "exam", startedAt: number, userId: number): number {
+  const info = db.prepare("INSERT INTO sessions (user_id, mode, started_at) VALUES (?, ?, ?)").run(userId, mode, startedAt);
   return Number(info.lastInsertRowid);
 }
 
@@ -43,7 +43,12 @@ export function finishSession(db: Database, id: number, stats: FinishStats, fini
   );
 }
 
-export function getFinishedExamSessions(db: Database): SessionRow[] {
+export function getFinishedExamSessions(db: Database, userId?: number): SessionRow[] {
+  if (userId) {
+    return db
+      .prepare("SELECT * FROM sessions WHERE user_id = ? AND mode = 'exam' AND finished_at IS NOT NULL ORDER BY id ASC")
+      .all(userId) as SessionRow[];
+  }
   return db
     .prepare("SELECT * FROM sessions WHERE mode = 'exam' AND finished_at IS NOT NULL ORDER BY id ASC")
     .all() as SessionRow[];

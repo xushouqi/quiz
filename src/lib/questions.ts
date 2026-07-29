@@ -105,16 +105,21 @@ export function getExamQuestions(db: Database, perDifficulty = 8): Question[] {
   return out.map(rowToQuestion);
 }
 
-export function getMistakeQuestions(db: Database): Question[] {
+export function getMistakeQuestions(db: Database, userId?: number): Question[] {
+  const userFilter = userId ? "JOIN sessions s ON s.id = a.session_id WHERE s.user_id = ?" : "";
+  const userParam = userId ? [userId] : [];
+
   const rows = db
     .prepare(
       `SELECT q.*
        FROM answers a
        JOIN questions q ON q.id = a.question_id
+       ${userId ? "JOIN sessions s ON s.id = a.session_id" : ""}
        WHERE a.id IN (SELECT MAX(id) FROM answers GROUP BY question_id)
          AND a.is_correct = 0
+         ${userId ? "AND s.user_id = ?" : ""}
        ORDER BY a.id DESC`
     )
-    .all() as QuestionRow[];
+    .all(...userParam) as QuestionRow[];
   return rows.map(rowToQuestion);
 }
