@@ -39,7 +39,9 @@ function StatTile({ emoji, value, label }: { emoji: string; value: number; label
 }
 
 export default function ParentsPage() {
-  const [gate, setGate] = useState(makeGate);
+  const [gate, setGate] = useState(() =>
+    typeof window !== "undefined" ? makeGate() : { a: 0, b: 0, answer: 0 }
+  );
   const [input, setInput] = useState("");
   const [error, setError] = useState(false);
   const [unlocked, setUnlocked] = useState(false);
@@ -50,6 +52,13 @@ export default function ParentsPage() {
   const [newUserName, setNewUserName] = useState("");
   const [newUserEmoji, setNewUserEmoji] = useState("🐨");
   const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
+
+  // 确保客户端 hydration 后生成新的题目
+  useEffect(() => {
+    if (gate.a === 0 && gate.b === 0) {
+      setGate(makeGate());
+    }
+  }, [gate.a, gate.b]);
 
   useEffect(() => {
     if (!unlocked) return;
