@@ -3,6 +3,13 @@ import fs from "node:fs";
 import path from "node:path";
 
 export const SCHEMA = `
+CREATE TABLE IF NOT EXISTS users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT NOT NULL,
+  emoji TEXT NOT NULL DEFAULT '🐨',
+  created_at INTEGER NOT NULL
+);
+
 CREATE TABLE IF NOT EXISTS questions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   difficulty INTEGER NOT NULL CHECK (difficulty IN (3, 4, 5)),
@@ -18,6 +25,7 @@ CREATE TABLE IF NOT EXISTS questions (
 
 CREATE TABLE IF NOT EXISTS sessions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER REFERENCES users(id) ON DELETE CASCADE,
   mode TEXT NOT NULL CHECK (mode IN ('practice', 'exam')),
   started_at INTEGER NOT NULL,
   finished_at INTEGER,
@@ -31,7 +39,7 @@ CREATE TABLE IF NOT EXISTS sessions (
 
 CREATE TABLE IF NOT EXISTS answers (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  session_id INTEGER NOT NULL REFERENCES sessions(id),
+  session_id INTEGER NOT NULL REFERENCES sessions(id) ON DELETE CASCADE,
   question_id INTEGER NOT NULL REFERENCES questions(id),
   chosen_index INTEGER CHECK (chosen_index IS NULL OR chosen_index IN (0, 1, 2)),
   is_correct INTEGER CHECK (is_correct IS NULL OR is_correct IN (0, 1)),
@@ -39,6 +47,7 @@ CREATE TABLE IF NOT EXISTS answers (
   created_at INTEGER NOT NULL
 );
 
+CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
 CREATE INDEX IF NOT EXISTS idx_answers_session ON answers(session_id);
 CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
 `;
