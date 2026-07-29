@@ -182,7 +182,8 @@ export default function PracticePage() {
             <span className="rounded-full bg-gold/90 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">⭐ {earned}</span>
           </header>
 
-          <QuestionCard question={q}>
+          <div className="flex min-h-0 flex-1 flex-col overflow-y-auto py-1">
+            <QuestionCard question={q}>
             <div className="space-y-2 md:space-y-3">
               {q.choices.map((c, i) => (
                 <ChoiceButton
@@ -228,6 +229,7 @@ export default function PracticePage() {
               </div>
             )}
           </QuestionCard>
+          </div>
 
           <div className="flex shrink-0 justify-center md:mt-0">
             <Kangaroo mood={mood} className="h-16 md:h-20 lg:h-28" />

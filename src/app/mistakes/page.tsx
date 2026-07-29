@@ -117,11 +117,12 @@ export default function MistakesPage() {
         )}
 
         {q && (
-          <div className="flex h-dvh flex-col overflow-y-auto px-3 py-2 md:px-4 md:py-3 lg:h-auto lg:min-h-dvh lg:space-y-5 lg:py-8">
+          <div className="mx-auto flex h-dvh w-full max-w-2xl flex-col px-3 py-2 md:px-4 md:py-3 lg:h-auto lg:min-h-dvh lg:space-y-5 lg:py-8">
             {result === "correct" && <Confetti />}
             <p className="shrink-0 text-center font-kids text-base text-cocoa/70 md:text-lg">
               第 {index + 1} / {questions.length} 道错题
             </p>
+            <div className="flex min-h-0 flex-1 flex-col overflow-y-auto py-1">
             <QuestionCard question={q}>
               <div className="space-y-2 md:space-y-3">
                 {q.choices.map((c, i) => (
@@ -157,6 +158,7 @@ export default function MistakesPage() {
                 </div>
               )}
             </QuestionCard>
+            </div>
             <div className="flex shrink-0 justify-center">
               <Kangaroo mood={result === "correct" ? "happy" : result === "wrong" ? "sad" : "idle"} className="h-16 md:h-20 lg:h-28" />
             </div>
