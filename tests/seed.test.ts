@@ -122,4 +122,32 @@ describe("runSeed (real questions/ directory)", () => {
       { topic: "time", n: 21 },
     ]);
   });
+
+  it("official bank is non-empty, structurally valid, and not all answers in the same position", () => {
+    const db = openDb(":memory:");
+    runSeed(db);
+    const officials = db.prepare("SELECT * FROM questions WHERE source = 'official'").all() as {
+      attribution: string | null;
+      choices: string;
+      correct_index: number;
+      difficulty: number;
+      topic: string;
+    }[];
+    expect(officials.length).toBe(18);
+    for (const o of officials) {
+      expect(o.attribution && o.attribution.trim().length > 0).toBe(true);
+      const choices = JSON.parse(o.choices) as unknown[];
+      expect(choices).toHaveLength(3);
+      expect(o.correct_index).toBeGreaterThanOrEqual(0);
+      expect(o.correct_index).toBeLessThan(3);
+      expect([3, 4, 5]).toContain(o.difficulty);
+      expect(["counting", "shapes", "patterns", "logic", "arithmetic", "time"]).toContain(o.topic);
+    }
+    // answers must not all sit in the same choice position
+    expect(new Set(officials.map((o) => o.correct_index)).size).toBeGreaterThanOrEqual(2);
+    // difficulty spread: 2 at d3, 8 at d4, 8 at d5
+    const counts = { 3: 0, 4: 0, 5: 0 } as Record<number, number>;
+    for (const o of officials) counts[o.difficulty] += 1;
+    expect(counts).toEqual({ 3: 2, 4: 8, 5: 8 });
+  });
 });
