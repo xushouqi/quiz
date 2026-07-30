@@ -3,30 +3,30 @@ import { openDb } from "@/lib/db";
 import { runSeed } from "@/scripts/seed";
 
 describe("runSeed", () => {
-  it("seeds 54 questions: 18 per difficulty, 9 per topic", () => {
+  it("seeds 126 questions: 42 per difficulty, 21 per topic", () => {
     const db = openDb(":memory:");
     const n = runSeed(db);
-    expect(n).toBe(54);
+    expect(n).toBe(126);
 
     const perDifficulty = db
       .prepare("SELECT difficulty, COUNT(*) AS n FROM questions GROUP BY difficulty ORDER BY difficulty")
       .all() as { difficulty: number; n: number }[];
     expect(perDifficulty).toEqual([
-      { difficulty: 3, n: 18 },
-      { difficulty: 4, n: 18 },
-      { difficulty: 5, n: 18 },
+      { difficulty: 3, n: 42 },
+      { difficulty: 4, n: 42 },
+      { difficulty: 5, n: 42 },
     ]);
 
     const perTopic = db
       .prepare("SELECT topic, COUNT(*) AS n FROM questions GROUP BY topic ORDER BY topic")
       .all() as { topic: string; n: number }[];
     expect(perTopic).toEqual([
-      { topic: "arithmetic", n: 9 },
-      { topic: "counting", n: 9 },
-      { topic: "logic", n: 9 },
-      { topic: "patterns", n: 9 },
-      { topic: "shapes", n: 9 },
-      { topic: "time", n: 9 },
+      { topic: "arithmetic", n: 21 },
+      { topic: "counting", n: 21 },
+      { topic: "logic", n: 21 },
+      { topic: "patterns", n: 21 },
+      { topic: "shapes", n: 21 },
+      { topic: "time", n: 21 },
     ]);
   });
 

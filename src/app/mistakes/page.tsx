@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
@@ -9,10 +10,13 @@ import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { Question } from "@/lib/types";
 import { fetchWithTimeout } from "@/lib/fetch-timeout";
+import { useUser } from "@/components/contexts/UserContext";
 
 type Result = "correct" | "wrong" | null;
 
 export default function MistakesPage() {
+  const router = useRouter();
+  const { currentUser, loading } = useUser();
   const [questions, setQuestions] = useState<Question[] | null>(null);
   const [index, setIndex] = useState(0);
   const [sessionId, setSessionId] = useState<number | null>(null);
@@ -21,20 +25,19 @@ export default function MistakesPage() {
   const [loadError, setLoadError] = useState(false);
 
   useEffect(() => {
+    if (loading) return;
+    if (!currentUser) {
+      router.push("/");
+      return;
+    }
     void (async () => {
-      const userId = localStorage.getItem("kangaroo-current-user");
-      if (!userId) {
-        window.location.href = "/";
-        return;
-      }
-
       try {
         const [mRes, sRes] = await Promise.all([
-          fetchWithTimeout(`/api/mistakes?userId=${userId}`),
+          fetchWithTimeout(`/api/mistakes?userId=${currentUser.id}`),
           fetchWithTimeout("/api/sessions", {
             method: "POST",
             headers: { "content-type": "application/json" },
-            body: JSON.stringify({ mode: "practice", userId: Number(userId) }),
+            body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
           }),
         ]);
         const m = (await mRes.json()) as { questions: Question[] };
@@ -45,7 +48,7 @@ export default function MistakesPage() {
         setLoadError(true);
       }
     })();
-  }, []);
+  }, [currentUser, loading, router]);
 
   const pick = useCallback(
     async (i: number) => {
@@ -122,7 +125,7 @@ export default function MistakesPage() {
             <p className="shrink-0 text-center font-kids text-base text-cocoa/70 md:text-lg">
               第 {index + 1} / {questions.length} 道错题
             </p>
-            <div className="flex min-h-0 flex-1 flex-col overflow-y-auto py-1">
+            <div className="flex min-h-0 flex-1 flex-col py-1">
             <QuestionCard question={q}>
               <div className="space-y-2 md:space-y-3">
                 {q.choices.map((c, i) => (

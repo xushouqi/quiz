@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useCallback, useRef, useState } from "react";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
@@ -9,6 +10,7 @@ import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { Question, Topic } from "@/lib/types";
 import { fetchWithTimeout } from "@/lib/fetch-timeout";
+import { useUser } from "@/components/contexts/UserContext";
 
 const TOPIC_OPTIONS: { key: Topic | "random"; zh: string; en: string; emoji: string }[] = [
   { key: "random", zh: "随机混合", en: "Mixed", emoji: "🎲" },
@@ -26,6 +28,8 @@ type Phase = "select" | "loading" | "playing" | "done";
 type Feedback = { kind: "correct"; stars: number } | { kind: "encourage" } | { kind: "reveal" };
 
 export default function PracticePage() {
+  const router = useRouter();
+  const { currentUser } = useUser();
   const [phase, setPhase] = useState<Phase>("select");
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
@@ -38,9 +42,8 @@ export default function PracticePage() {
   const shownAt = useRef(Date.now());
 
   const start = useCallback(async (topic: Topic | "random") => {
-    const userId = localStorage.getItem("kangaroo-current-user");
-    if (!userId) {
-      window.location.href = "/";
+    if (!currentUser) {
+      router.push("/");
       return;
     }
 
@@ -51,7 +54,7 @@ export default function PracticePage() {
         fetchWithTimeout("/api/sessions", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ mode: "practice", userId: Number(userId) }),
+          body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
         }),
         fetchWithTimeout(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}`),
       ]);
@@ -70,7 +73,7 @@ export default function PracticePage() {
       setPhase("select");
       setError("加载失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
     }
-  }, []);
+  }, [currentUser, router]);
 
   const pick = useCallback(
     async (i: number) => {
@@ -182,7 +185,7 @@ export default function PracticePage() {
             <span className="rounded-full bg-gold/90 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">⭐ {earned}</span>
           </header>
 
-          <div className="flex min-h-0 flex-1 flex-col overflow-y-auto py-1">
+          <div className="flex min-h-0 flex-1 flex-col py-1">
             <QuestionCard question={q}>
             <div className="space-y-2 md:space-y-3">
               {q.choices.map((c, i) => (

@@ -14,14 +14,14 @@ export function QuestionCard({
       <div className="shrink-0">
         <div className="mb-1 flex items-start justify-between gap-2 md:mb-1.5 md:gap-3">
           <p className="font-kids text-lg leading-snug md:text-xl lg:text-2xl">{question.text_zh}</p>
-          <ReadAloud text={question.text_zh} autoPlay />
+          <ReadAloud text={question.text_zh} autoPlay mode="edge" />
         </div>
         <p className="mb-1.5 text-xs text-cocoa/60 md:mb-2 md:text-sm">{question.text_en}</p>
         <div className="mb-2 md:mb-3">
           <Illustration descriptor={question.illustration} />
         </div>
       </div>
-      <div className="min-h-0 flex-1 overflow-y-auto">{children}</div>
+      <div className="min-h-0 flex-1">{children}</div>
     </div>
   );
 }

@@ -126,5 +126,174 @@
     "correct_index": 1,
     "explanation_zh": "4 个小正方形 + 1 个大正方形 = 5 个。",
     "explanation_en": "4 small squares + 1 large square = 5 squares."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "三角形有几条边？",
+    "text_en": "How many sides does a triangle have?",
+    "choices": [
+      { "zh": "2 条", "en": "2" },
+      { "zh": "3 条", "en": "3" },
+      { "zh": "4 条", "en": "4" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "三角形有三条边、三个角。",
+    "explanation_en": "A triangle has three sides and three corners."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "下面哪一个物体的形状像长方体？",
+    "text_en": "Which object is shaped like a rectangular box?",
+    "choices": [
+      { "zh": "⚽ 足球", "en": "⚽ football" },
+      { "zh": "📦 纸箱", "en": "📦 box" },
+      { "zh": "🍎 苹果", "en": "🍎 apple" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "纸箱是长方体形状的，有 6 个面、12 条边；足球像球，苹果也近似球。",
+    "explanation_en": "A box is rectangular — it has 6 faces and 12 edges. A football and apple are more like spheres."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "一个长方形被一条对角线分成了几个三角形？",
+    "text_en": "A rectangle is cut along one diagonal. How many triangles is it divided into?",
+    "choices": [
+      { "zh": "2 个", "en": "2" },
+      { "zh": "3 个", "en": "3" },
+      { "zh": "4 个", "en": "4" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "一条对角线把长方形正好切成 2 个三角形。",
+    "explanation_en": "One diagonal cuts the rectangle into exactly 2 triangles."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "用 4 根同样长的小棒，能拼成什么形状？",
+    "text_en": "What shape can you make with 4 sticks of the same length?",
+    "choices": [
+      { "zh": "三角形", "en": "triangle" },
+      { "zh": "正方形", "en": "square" },
+      { "zh": "长方形", "en": "rectangle" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "4 根同样长的小棒可以拼成一个正方形（4 条边一样长）。三角形只需 3 根，长方形需要不同长度的边。",
+    "explanation_en": "4 equal sticks make a square (4 equal sides). A triangle needs only 3 sticks, and a rectangle needs different-length sides."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "把 3 个同样大小的正方形排成一排拼在一起，形成一个长方形。这个长方形有几条边？几个角？",
+    "text_en": "Three equal squares are placed in a row to form a rectangle. How many sides and corners does it have?",
+    "choices": [
+      { "zh": "4 条边，4 个角", "en": "4 sides, 4 corners" },
+      { "zh": "6 条边，6 个角", "en": "6 sides, 6 corners" },
+      { "zh": "8 条边，8 个角", "en": "8 sides, 8 corners" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "3 个正方形拼在一起形成一个大的长方形，长方形永远是 4 条边、4 个角。",
+    "explanation_en": "Three squares in a row form a larger rectangle. A rectangle always has 4 sides and 4 corners."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "一个正六边形可以分成几个完全一样的三角形？",
+    "text_en": "How many identical triangles can a regular hexagon be divided into?",
+    "illustration": "svg:hexagon",
+    "choices": [
+      { "zh": "4 个", "en": "4" },
+      { "zh": "5 个", "en": "5" },
+      { "zh": "6 个", "en": "6" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "从正六边形的中心向每个顶点连线，可以分成 6 个完全一样的三角形。",
+    "explanation_en": "Connect the center to each vertex — you get 6 identical triangles."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "长方形有几个角？",
+    "text_en": "How many corners does a rectangle have?",
+    "choices": [
+      { "zh": "3 个", "en": "3" },
+      { "zh": "4 个", "en": "4" },
+      { "zh": "6 个", "en": "6" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "长方形有四条边、四个角。",
+    "explanation_en": "A rectangle has four sides and four corners."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "下面哪一个物体的形状像圆柱（上下一样粗，像罐头）？",
+    "text_en": "Which object is shaped like a cylinder (round and the same width top to bottom, like a can)?",
+    "choices": [
+      { "zh": "🥫 罐头", "en": "🥫 can" },
+      { "zh": "⚽ 足球", "en": "⚽ football" },
+      { "zh": "📦 纸箱", "en": "📦 box" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "罐头上下是两个圆，侧面是弯的，像圆柱；足球像球，纸箱是长方体。",
+    "explanation_en": "A can has round top and bottom — it is a cylinder. A football is a sphere and a box is rectangular."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "用 3 根同样长的小棒，能拼成下面哪种形状？",
+    "text_en": "What shape can you make with 3 sticks of the same length?",
+    "choices": [
+      { "zh": "正方形", "en": "square" },
+      { "zh": "圆形", "en": "circle" },
+      { "zh": "三角形", "en": "triangle" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "三角形正好需要 3 条边，所以 3 根小棒能拼成三角形。正方形要 4 根，圆形用小棒拼不出来。",
+    "explanation_en": "A triangle has exactly 3 sides, so 3 sticks make one. A square needs 4, and sticks cannot make a circle."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "一张正方形的纸，用剪刀沿直线剪掉一个角。剩下的纸有几个角？",
+    "text_en": "You cut one corner off a square piece of paper with one straight cut. How many corners does the paper have left?",
+    "choices": [
+      { "zh": "3 个", "en": "3" },
+      { "zh": "5 个", "en": "5" },
+      { "zh": "4 个", "en": "4" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "原来有 4 个角。剪掉 1 个角，同时沿剪口多出 2 个新角：4 − 1 + 2 = 5 个。",
+    "explanation_en": "The square starts with 4 corners. Removing 1 corner adds 2 new corners along the cut: 4 − 1 + 2 = 5."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "把两个同样大小的正方形并排拼在一起，会拼成什么形状？",
+    "text_en": "Two equal squares are placed side by side. What shape do they form?",
+    "choices": [
+      { "zh": "三角形", "en": "triangle" },
+      { "zh": "长方形", "en": "rectangle" },
+      { "zh": "圆形", "en": "circle" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "两个正方形并排拼起来，变成一个长长的长方形（有 4 条边、4 个角）。",
+    "explanation_en": "Two squares side by side make a longer rectangle (4 sides, 4 corners)."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "把一张圆形的纸对折一次，会变成什么形状？",
+    "text_en": "You fold a round piece of paper in half once. What shape does it become?",
+    "choices": [
+      { "zh": "三角形", "en": "triangle" },
+      { "zh": "半圆形", "en": "semicircle" },
+      { "zh": "正方形", "en": "square" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "圆形沿一条直线对折，一半是一个半圆形（一条直边加一条弯弯的边）。",
+    "explanation_en": "Folding a circle along a straight line gives a semicircle (one straight edge and one curved edge)."
   }
 ]

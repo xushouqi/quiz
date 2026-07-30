@@ -1,15 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
-
-interface User {
-  id: number;
-  name: string;
-  emoji: string;
-}
+import { useUser } from "@/components/contexts/UserContext";
 
 interface Stats {
   stars: number;
@@ -24,32 +20,23 @@ const STATIONS = [
 ];
 
 export default function DashboardPage() {
-  const [user, setUser] = useState<User | null>(null);
+  const router = useRouter();
+  const { currentUser, loading } = useUser();
   const [stats, setStats] = useState<Stats | null>(null);
 
   useEffect(() => {
-    const userId = localStorage.getItem("kangaroo-current-user");
-    if (!userId) {
-      window.location.href = "/";
+    if (loading) return;
+    if (!currentUser) {
+      router.push("/");
       return;
     }
-
-    fetch("/api/users")
+    fetch(`/api/stats?userId=${currentUser.id}`)
       .then((r) => r.json())
-      .then((data) => {
-        const found = data.users.find((u: User) => u.id === Number(userId));
-        if (found) {
-          setUser(found);
-          return fetch(`/api/stats?userId=${userId}`).then((r) => r.json());
-        }
-        window.location.href = "/";
-      })
-      .then((data) => {
-        if (data) setStats(data);
-      });
-  }, []);
+      .then((data) => setStats(data))
+      .catch(() => setStats(null));
+  }, [currentUser, loading, router]);
 
-  if (!user || !stats) {
+  if (!currentUser || !stats) {
     return (
       <main className="relative flex min-h-dvh items-center justify-center">
         <OutbackBackground />
@@ -64,8 +51,8 @@ export default function DashboardPage() {
       <div className="mx-auto max-w-3xl px-4 pb-8 pt-4 md:pb-16 md:pt-8">
         <header className="flex items-center justify-between gap-2">
           <div className="flex items-center gap-2">
-            <span className="text-3xl md:text-4xl">{user.emoji}</span>
-            <h1 className="font-kids text-2xl sm:text-3xl md:text-4xl">{user.name}的冒险</h1>
+            <span className="text-3xl md:text-4xl">{currentUser.emoji}</span>
+            <h1 className="font-kids text-2xl sm:text-3xl md:text-4xl">{currentUser.name}的冒险</h1>
           </div>
           <div className="flex gap-2">
             <span className="rounded-full bg-white/85 px-3 py-1 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">🔥 {stats.streakDays} 天</span>

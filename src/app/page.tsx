@@ -1,32 +1,27 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
-
-interface User {
-  id: number;
-  name: string;
-  emoji: string;
-}
+import { useUser } from "@/components/contexts/UserContext";
 
 export default function HomePage() {
-  const [users, setUsers] = useState<User[]>([]);
-  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+  const { users, loading, setCurrentUserId } = useUser();
 
+  // Clear current user when landing on the home page so the UserBar stays hidden
+  // and the next selectUser() flow refreshes from the fresh localStorage id.
   useEffect(() => {
-    fetch("/api/users")
-      .then((r) => r.json())
-      .then((data) => {
-        setUsers(data.users);
-        setLoading(false);
-      });
+    setCurrentUserId(null);
+    // Only run on mount / when the page is entered.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const selectUser = (userId: number) => {
-    localStorage.setItem("kangaroo-current-user", String(userId));
-    window.location.href = "/dashboard";
+    setCurrentUserId(userId);
+    router.push("/dashboard");
   };
 
   if (loading) {
@@ -44,7 +39,7 @@ export default function HomePage() {
         <OutbackBackground />
         <div className="mx-auto max-w-md rounded-[2rem] border-4 border-cocoa/10 bg-white/95 p-8 text-center shadow-xl">
           <Kangaroo mood="happy" className="mx-auto h-32 animate-idle-hop" />
-          <h1 className="mt-4 font-kids text-3xl">欢迎来到袋鼠数学！</h1>
+          <h1 className="font-kids text-3xl">欢迎来到袋鼠数学！</h1>
           <p className="mt-2 text-cocoa/70">先创建第一个用户吧</p>
           <Link
             href="/parents"

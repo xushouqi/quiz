@@ -125,5 +125,177 @@
     "correct_index": 0,
     "explanation_zh": "姐妹相差 7 − 4 = 3 岁，年龄差永远不变。姐姐 10 岁时，妹妹是 10 − 3 = 7 岁。",
     "explanation_en": "The age gap is 7 − 4 = 3 years and never changes. When the sister is 10, the younger one is 10 − 3 = 7."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "树上有 6 只小鸟，又飞来了 3 只。现在树上一共有几只小鸟？",
+    "text_en": "There are 6 birds in a tree. 3 more fly in. How many birds are in the tree now?",
+    "illustration": "emoji:🐦🐦🐦🐦🐦🐦➕🐦🐦🐦",
+    "choices": [
+      { "zh": "8 只", "en": "8" },
+      { "zh": "9 只", "en": "9" },
+      { "zh": "10 只", "en": "10" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "6 + 3 = 9，现在一共有 9 只小鸟。",
+    "explanation_en": "6 + 3 = 9 birds in total."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "盘子里有 8 块饼干，小猴子吃掉了 5 块。还剩几块饼干？",
+    "text_en": "A plate has 8 cookies. A monkey eats 5. How many cookies are left?",
+    "illustration": "emoji:🍪🍪🍪🍪🍪🍪🍪🍪",
+    "choices": [
+      { "zh": "3 块", "en": "3" },
+      { "zh": "4 块", "en": "4" },
+      { "zh": "2 块", "en": "2" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "8 − 5 = 3，还剩 3 块饼干。",
+    "explanation_en": "8 − 5 = 3 cookies left."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "每盒彩笔有 4 支，买 2 盒一共有几支彩笔？",
+    "text_en": "Each box has 4 crayons. How many crayons are there in 2 boxes?",
+    "illustration": "emoji:🖍️🖍️🖍️🖍️｜🖍️🖍️🖍️🖍️",
+    "choices": [
+      { "zh": "6 支", "en": "6" },
+      { "zh": "9 支", "en": "9" },
+      { "zh": "8 支", "en": "8" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "4 + 4 = 8 支（或者想成 4 × 2 = 8）。",
+    "explanation_en": "4 + 4 = 8 crayons (or think of it as 4 × 2 = 8)."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "小明有 15 颗弹珠，小华有 9 颗。小明给小华几颗，两人的弹珠就一样多？",
+    "text_en": "Ming has 15 marbles and Hua has 9. How many marbles must Ming give Hua so they have the same number?",
+    "choices": [
+      { "zh": "3 颗", "en": "3" },
+      { "zh": "6 颗", "en": "6" },
+      { "zh": "2 颗", "en": "2" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "两人一共有 15 + 9 = 24 颗，一样多就是每人 12 颗。小明要给出 15 − 12 = 3 颗。",
+    "explanation_en": "Together they have 15 + 9 = 24. Equal means 12 each. Ming gives away 15 − 12 = 3."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "商店里苹果 3 元一个，香蕉 2 元一根。妈妈买了 2 个苹果和 3 根香蕉，一共要付几元？",
+    "text_en": "Apples cost 3 yuan each and bananas 2 yuan each. Mum buys 2 apples and 3 bananas. How much does she pay?",
+    "choices": [
+      { "zh": "11 元", "en": "11 yuan" },
+      { "zh": "12 元", "en": "12 yuan" },
+      { "zh": "10 元", "en": "10 yuan" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "苹果：3 + 3 = 6 元；香蕉：2 + 2 + 2 = 6 元；一共 6 + 6 = 12 元。",
+    "explanation_en": "Apples: 3 + 3 = 6 yuan; bananas: 2 + 2 + 2 = 6 yuan; total: 6 + 6 = 12 yuan."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "小花猫钓了一些鱼。它先送给了好朋友 3 条，然后自己吃掉了 2 条，最后还剩 4 条。它一开始钓了几条鱼？",
+    "text_en": "A kitten caught some fish. It gave 3 to a friend, ate 2 itself, and has 4 left. How many fish did it catch at first?",
+    "choices": [
+      { "zh": "8 条", "en": "8" },
+      { "zh": "9 条", "en": "9" },
+      { "zh": "7 条", "en": "7" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "倒过来算：剩下的 4 条 + 吃掉的 2 条 + 送人的 3 条 = 4 + 2 + 3 = 9 条。",
+    "explanation_en": "Work backwards: 4 left + 2 eaten + 3 given away = 4 + 2 + 3 = 9 fish."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "2 + 6 = ？",
+    "text_en": "2 + 6 = ?",
+    "choices": [
+      { "zh": "7", "en": "7" },
+      { "zh": "8", "en": "8" },
+      { "zh": "9", "en": "9" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "从 2 往后数 6 个数：3、4、5、6、7、8，所以 2 + 6 = 8。",
+    "explanation_en": "Count on 6 from 2: 3, 4, 5, 6, 7, 8. So 2 + 6 = 8."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "池塘里有 7 只小鸭子，游走了 4 只。还剩几只？",
+    "text_en": "There are 7 ducklings in a pond. 4 swim away. How many are left?",
+    "illustration": "emoji:🦆🦆🦆🦆🦆🦆🦆",
+    "choices": [
+      { "zh": "2 只", "en": "2" },
+      { "zh": "4 只", "en": "4" },
+      { "zh": "3 只", "en": "3" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "7 − 4 = 3，还剩 3 只小鸭子。",
+    "explanation_en": "7 − 4 = 3 ducklings left."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "一个练习本 3 元钱，买 4 个要几元钱？",
+    "text_en": "One notebook costs 3 yuan. How much do 4 notebooks cost?",
+    "choices": [
+      { "zh": "12 元", "en": "12 yuan" },
+      { "zh": "7 元", "en": "7 yuan" },
+      { "zh": "9 元", "en": "9 yuan" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "3 + 3 + 3 + 3 = 12 元（或 3 × 4 = 12）。",
+    "explanation_en": "3 + 3 + 3 + 3 = 12 yuan (or 3 × 4 = 12)."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "18 颗草莓平均分给 2 个小朋友，每人分到几颗？",
+    "text_en": "18 strawberries are shared equally between 2 children. How many does each get?",
+    "choices": [
+      { "zh": "8 颗", "en": "8" },
+      { "zh": "6 颗", "en": "6" },
+      { "zh": "9 颗", "en": "9" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "18 ÷ 2 = 9，每人 9 颗（9 + 9 = 18）。",
+    "explanation_en": "18 ÷ 2 = 9 (because 9 + 9 = 18)."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "小军有 20 元钱。他买了一辆 8 元的玩具车和一包 5 元的糖果，还剩几元钱？",
+    "text_en": "Jun has 20 yuan. He buys a toy car for 8 yuan and candy for 5 yuan. How much is left?",
+    "choices": [
+      { "zh": "13 元", "en": "13 yuan" },
+      { "zh": "7 元", "en": "7 yuan" },
+      { "zh": "3 元", "en": "3 yuan" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "一共花掉 8 + 5 = 13 元，还剩 20 − 13 = 7 元。",
+    "explanation_en": "He spends 8 + 5 = 13 yuan, leaving 20 − 13 = 7 yuan."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "小红有 6 元钱，妈妈又给了她同样多的 6 元。她用这些钱买了一支 4 元的钢笔。她现在还剩几元钱？",
+    "text_en": "Hong has 6 yuan. Her mum gives her another 6 yuan. She then buys a pen for 4 yuan. How much does she have left?",
+    "choices": [
+      { "zh": "12 元", "en": "12 yuan" },
+      { "zh": "8 元", "en": "8 yuan" },
+      { "zh": "2 元", "en": "2 yuan" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "先合起来：6 + 6 = 12 元；再花掉：12 − 4 = 8 元。",
+    "explanation_en": "First combine: 6 + 6 = 12 yuan; then spend: 12 − 4 = 8 yuan."
   }
 ]

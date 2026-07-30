@@ -128,5 +128,178 @@
     "correct_index": 1,
     "explanation_zh": "倒着数，每次少 1：7 − 1 = 6。",
     "explanation_en": "Counting down by 1: 7 − 1 = 6."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "按规律，问号处应该是什么？",
+    "text_en": "What comes next?",
+    "illustration": "emoji:🟥🟨🟥🟨🟥❓",
+    "choices": [
+      { "zh": "🟥", "en": "🟥" },
+      { "zh": "🟩", "en": "🟩" },
+      { "zh": "🟨", "en": "🟨" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "红色、黄色轮流出现，红色后面该轮到黄色。",
+    "explanation_en": "Red and yellow alternate — after red comes yellow."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "5，10，15，20，❓ 下一个数是几？",
+    "text_en": "5, 10, 15, 20, ❓ What comes next?",
+    "choices": [
+      { "zh": "30", "en": "30" },
+      { "zh": "25", "en": "25" },
+      { "zh": "22", "en": "22" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "每次多 5：20 + 5 = 25。",
+    "explanation_en": "The numbers go up by 5 each time: 20 + 5 = 25."
+  },
+  {
+    "difficulty": 4,
+    "topic": "patterns",
+    "text_zh": "按规律，问号处应该是什么？",
+    "text_en": "What comes next?",
+    "illustration": "emoji:🌞🌞🌧️🌞🌞🌧️🌞🌞❓",
+    "choices": [
+      { "zh": "🌞", "en": "🌞" },
+      { "zh": "⛅", "en": "⛅" },
+      { "zh": "🌧️", "en": "🌧️" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "「太阳、太阳、雨」一组重复出现，问号是一组里的第 3 个，所以是雨。",
+    "explanation_en": "The group sun-sun-rain repeats — the 3rd item in the group is rain."
+  },
+  {
+    "difficulty": 4,
+    "topic": "patterns",
+    "text_zh": "2，3，5，8，13，❓ 下一个数是几？",
+    "text_en": "2, 3, 5, 8, 13, ❓ What comes next?",
+    "choices": [
+      { "zh": "18", "en": "18" },
+      { "zh": "21", "en": "21" },
+      { "zh": "20", "en": "20" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "前两个数加起来等于后一个数：2+3=5、3+5=8、5+8=13，所以 8+13=21。",
+    "explanation_en": "Each number is the sum of the previous two: 2+3=5, 3+5=8, 5+8=13, so 8+13=21."
+  },
+  {
+    "difficulty": 5,
+    "topic": "patterns",
+    "text_zh": "1，4，9，16，❓ 下一个数是几？",
+    "text_en": "1, 4, 9, 16, ❓ What comes next?",
+    "choices": [
+      { "zh": "20", "en": "20" },
+      { "zh": "25", "en": "25" },
+      { "zh": "24", "en": "24" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "这些是完全平方数：1×1=1、2×2=4、3×3=9、4×4=16，所以 5×5=25。",
+    "explanation_en": "These are perfect squares: 1²=1, 2²=4, 3²=9, 4²=16, so 5²=25."
+  },
+  {
+    "difficulty": 5,
+    "topic": "patterns",
+    "text_zh": "按规律，问号处应该是什么？",
+    "text_en": "What comes next?",
+    "illustration": "emoji:🐶🐱🐭🐶🐶🐱🐭🐶🐶🐶❓",
+    "choices": [
+      { "zh": "🐱", "en": "🐱" },
+      { "zh": "🐶", "en": "🐶" },
+      { "zh": "🐭", "en": "🐭" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "规律是：第 1 组「1 狗 + 猫 + 鼠」，第 2 组「2 狗 + 猫 + 鼠」，第 3 组「3 狗 + 猫 + 鼠」。3 只狗之后该轮到猫了。",
+    "explanation_en": "The pattern grows: 1 dog + cat + mouse, 2 dogs + cat + mouse, 3 dogs + cat + mouse. After 3 dogs comes the cat."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "3，6，9，12，❓ 下一个数是几？",
+    "text_en": "3, 6, 9, 12, ❓ What comes next?",
+    "choices": [
+      { "zh": "13", "en": "13" },
+      { "zh": "15", "en": "15" },
+      { "zh": "18", "en": "18" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "每次多 3：12 + 3 = 15。",
+    "explanation_en": "The numbers go up by 3: 12 + 3 = 15."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "按规律，问号处应该是什么？",
+    "text_en": "What comes next?",
+    "illustration": "emoji:🐝🐞🐝🐞🐝❓",
+    "choices": [
+      { "zh": "🐞", "en": "🐞" },
+      { "zh": "🐝", "en": "🐝" },
+      { "zh": "🦋", "en": "🦋" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "蜜蜂、瓢虫轮流出现，蜜蜂后面该轮到瓢虫。",
+    "explanation_en": "Bee and ladybird alternate — after the bee comes the ladybird."
+  },
+  {
+    "difficulty": 4,
+    "topic": "patterns",
+    "text_zh": "20，18，16，14，❓ 下一个数是几？",
+    "text_en": "20, 18, 16, 14, ❓ What comes next?",
+    "choices": [
+      { "zh": "10", "en": "10" },
+      { "zh": "13", "en": "13" },
+      { "zh": "12", "en": "12" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "倒着数，每次少 2：14 − 2 = 12。",
+    "explanation_en": "Counting down by 2: 14 − 2 = 12."
+  },
+  {
+    "difficulty": 4,
+    "topic": "patterns",
+    "text_zh": "按规律，问号处应该是什么？",
+    "text_en": "What comes next?",
+    "illustration": "emoji:🌈☁️🌈☁️🌈❓",
+    "choices": [
+      { "zh": "🌈", "en": "🌈" },
+      { "zh": "☁️", "en": "☁️" },
+      { "zh": "⛅", "en": "⛅" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "彩虹、云朵轮流出现，彩虹后面该轮到云朵。",
+    "explanation_en": "Rainbow and cloud alternate — after the rainbow comes the cloud."
+  },
+  {
+    "difficulty": 5,
+    "topic": "patterns",
+    "text_zh": "1，2，4，8，16，❓ 下一个数是几？",
+    "text_en": "1, 2, 4, 8, 16, ❓ What comes next?",
+    "choices": [
+      { "zh": "24", "en": "24" },
+      { "zh": "20", "en": "20" },
+      { "zh": "32", "en": "32" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "每个数都是前一个数的 2 倍：16 × 2 = 32。",
+    "explanation_en": "Each number doubles the one before: 16 × 2 = 32."
+  },
+  {
+    "difficulty": 5,
+    "topic": "patterns",
+    "text_zh": "2，5，10，17，❓ 下一个数是几？",
+    "text_en": "2, 5, 10, 17, ❓ What comes next?",
+    "choices": [
+      { "zh": "24", "en": "24" },
+      { "zh": "26", "en": "26" },
+      { "zh": "25", "en": "25" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "增加的数依次是 3、5、7（每次多 2），下一次该加 9：17 + 9 = 26。",
+    "explanation_en": "The steps are 3, 5, 7 (growing by 2), so the next step is +9: 17 + 9 = 26."
   }
 ]

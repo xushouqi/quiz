@@ -131,5 +131,178 @@
     "correct_index": 1,
     "explanation_zh": "躲起来的有 10 − 1 = 9 人，减去找到的 3 人：9 − 3 = 6 个。",
     "explanation_en": "There are 10 − 1 = 9 hiders; 9 − 3 = 6 are still hiding."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "鱼缸里一共有几条鱼？",
+    "text_en": "How many fish are in the fish tank?",
+    "illustration": "emoji:🐟🐟🐟🐠🐠🐠🐠",
+    "choices": [
+      { "zh": "6 条", "en": "6" },
+      { "zh": "7 条", "en": "7" },
+      { "zh": "8 条", "en": "8" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "一个一个数：1、2、3、4、5、6、7，一共 7 条鱼。",
+    "explanation_en": "Count one by one: 1, 2, 3, 4, 5, 6, 7. There are 7 fish."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "每个花盆里有 3 朵花，一共有 3 个花盆。一共有几朵花？",
+    "text_en": "Each pot has 3 flowers. There are 3 pots. How many flowers are there in total?",
+    "illustration": "emoji:🌺🌺🌺｜🌺🌺🌺｜🌺🌺🌺",
+    "choices": [
+      { "zh": "6 朵", "en": "6" },
+      { "zh": "9 朵", "en": "9" },
+      { "zh": "12 朵", "en": "12" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "3 + 3 + 3 = 9 朵花。",
+    "explanation_en": "3 + 3 + 3 = 9 flowers."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "1 只螃蟹有 10 条腿，2 只螃蟹一共有几条腿？",
+    "text_en": "A crab has 10 legs. How many legs do 2 crabs have altogether?",
+    "illustration": "emoji:🦀🦀",
+    "choices": [
+      { "zh": "16 条", "en": "16" },
+      { "zh": "20 条", "en": "20" },
+      { "zh": "18 条", "en": "18" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "10 + 10 = 20 条腿。",
+    "explanation_en": "10 + 10 = 20 legs."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "一列火车有 5 节车厢，每节车厢坐 4 个人。这列火车一共能坐几个人？",
+    "text_en": "A train has 5 carriages, and each carriage seats 4 people. How many people can the train carry in total?",
+    "choices": [
+      { "zh": "16 个", "en": "16" },
+      { "zh": "20 个", "en": "20" },
+      { "zh": "24 个", "en": "24" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "4 + 4 + 4 + 4 + 4 = 20 个人。",
+    "explanation_en": "4 × 5 = 20 people."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "把 12 块糖分给 4 个小朋友，每人至少分到 1 块，而且每人分到的块数都不一样。下面哪种分法是对的？",
+    "text_en": "Split 12 candies among 4 children. Each gets at least 1, and each gets a different number. Which split is correct?",
+    "choices": [
+      { "zh": "1、2、3、6", "en": "1, 2, 3, 6" },
+      { "zh": "1、3、4、4", "en": "1, 3, 4, 4" },
+      { "zh": "2、3、3、4", "en": "2, 3, 3, 4" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "每人的数要不同：1 + 2 + 3 + 6 = 12，四个数都不一样，符合要求。",
+    "explanation_en": "All numbers must differ: 1 + 2 + 3 + 6 = 12, and all four numbers are different — this works."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "小明看一本书，第一天看了 5 页，之后每天都比前一天多看 2 页。第 3 天他看了几页？三天一共看了几页？",
+    "text_en": "Ming reads a book. Day 1 he reads 5 pages, and each day after that he reads 2 more pages than the day before. How many pages does he read on Day 3? How many pages in 3 days total?",
+    "choices": [
+      { "zh": "第 3 天 7 页，一共 19 页", "en": "Day 3: 7 pages, total 19" },
+      { "zh": "第 3 天 9 页，一共 21 页", "en": "Day 3: 9 pages, total 21" },
+      { "zh": "第 3 天 9 页，一共 19 页", "en": "Day 3: 9 pages, total 19" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "第 1 天 5 页，第 2 天 5+2=7 页，第 3 天 7+2=9 页。三天一共 5+7+9=21 页。",
+    "explanation_en": "Day 1: 5, Day 2: 5+2=7, Day 3: 7+2=9. Total: 5+7+9=21 pages."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "花丛里一共有几只蝴蝶？",
+    "text_en": "How many butterflies are there?",
+    "illustration": "emoji:🦋🦋🦋🦋🦋🦋",
+    "choices": [
+      { "zh": "5 只", "en": "5" },
+      { "zh": "6 只", "en": "6" },
+      { "zh": "7 只", "en": "7" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "一个一个数：1、2、3、4、5、6，一共 6 只蝴蝶。",
+    "explanation_en": "Count one by one: 1, 2, 3, 4, 5, 6. There are 6 butterflies."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "每只小兔子有 4 条腿。2 只小兔子一共有几条腿？",
+    "text_en": "Each bunny has 4 legs. How many legs do 2 bunnies have altogether?",
+    "illustration": "emoji:🐰🐰",
+    "choices": [
+      { "zh": "6 条", "en": "6" },
+      { "zh": "4 条", "en": "4" },
+      { "zh": "8 条", "en": "8" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "4 + 4 = 8 条腿。",
+    "explanation_en": "4 + 4 = 8 legs."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "3 个小朋友每人都伸出一只手。这些手上一共有几根手指？",
+    "text_en": "3 children each hold up one hand. How many fingers are there altogether?",
+    "choices": [
+      { "zh": "15 根", "en": "15" },
+      { "zh": "10 根", "en": "10" },
+      { "zh": "20 根", "en": "20" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "一只手有 5 根手指，3 只手就是 5 + 5 + 5 = 15 根。",
+    "explanation_en": "Each hand has 5 fingers, so 3 hands give 5 + 5 + 5 = 15."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "停车场里有 3 辆小汽车和 2 辆摩托车。小汽车有 4 个轮子，摩托车有 2 个轮子。这些车一共有几个轮子？",
+    "text_en": "A car park has 3 cars and 2 motorbikes. A car has 4 wheels and a motorbike has 2. How many wheels in total?",
+    "choices": [
+      { "zh": "14 个", "en": "14" },
+      { "zh": "16 个", "en": "16" },
+      { "zh": "20 个", "en": "20" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "小汽车：4 + 4 + 4 = 12 个；摩托车：2 + 2 = 4 个；一共 12 + 4 = 16 个。",
+    "explanation_en": "Cars: 4 + 4 + 4 = 12; motorbikes: 2 + 2 = 4; total 12 + 4 = 16."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "把一根绳子对折一次，会变成 2 段。如果对折两次，会数出几段？",
+    "text_en": "Folding a rope once makes 2 layers. If you fold it twice, how many layers are there?",
+    "choices": [
+      { "zh": "3 段", "en": "3" },
+      { "zh": "6 段", "en": "6" },
+      { "zh": "4 段", "en": "4" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "对折一次变 2 段，再对折一次每段又翻倍：2 + 2 = 4 段。",
+    "explanation_en": "One fold gives 2 layers; folding again doubles it: 2 + 2 = 4 layers."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "小明从 1 楼走到 4 楼。他一共爬了几层楼梯？",
+    "text_en": "Ming walks from the 1st floor up to the 4th floor. How many flights of stairs does he climb?",
+    "choices": [
+      { "zh": "3 层", "en": "3" },
+      { "zh": "4 层", "en": "4" },
+      { "zh": "5 层", "en": "5" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "从 1 楼到 4 楼，爬的楼梯层数是 4 − 1 = 3 层（1→2、2→3、3→4 各一层）。",
+    "explanation_en": "From floor 1 to floor 4 he climbs 4 − 1 = 3 flights (1→2, 2→3, 3→4)."
   }
 ]

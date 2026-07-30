@@ -11,11 +11,13 @@ import { formatClock } from "@/lib/format";
 import { fetchWithTimeout } from "@/lib/fetch-timeout";
 import { EXAM_MINUTES } from "@/lib/scoring";
 import type { Question } from "@/lib/types";
+import { useUser } from "@/components/contexts/UserContext";
 
 type Phase = "intro" | "loading" | "running" | "submitting";
 
 export default function ExamPage() {
   const router = useRouter();
+  const { currentUser } = useUser();
   const [phase, setPhase] = useState<Phase>("intro");
   const [sessionId, setSessionId] = useState<number | null>(null);
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -27,9 +29,8 @@ export default function ExamPage() {
   const [error, setError] = useState<string | null>(null);
 
   const begin = useCallback(async () => {
-    const userId = localStorage.getItem("kangaroo-current-user");
-    if (!userId) {
-      window.location.href = "/";
+    if (!currentUser) {
+      router.push("/");
       return;
     }
 
@@ -39,7 +40,7 @@ export default function ExamPage() {
       const res = await fetchWithTimeout("/api/exam", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ userId: Number(userId) }),
+        body: JSON.stringify({ userId: currentUser.id }),
       });
       const data = (await res.json()) as { sessionId: number; minutes: number; questions: Question[] };
       setSessionId(data.sessionId);
@@ -53,7 +54,7 @@ export default function ExamPage() {
       setPhase("intro");
       setError("开始失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
     }
-  }, []);
+  }, [currentUser, router]);
 
   const submit = useCallback(async () => {
     if (sessionId === null || phase === "submitting") return;
@@ -184,7 +185,7 @@ export default function ExamPage() {
             })}
           </div>
 
-          <div className="flex min-h-0 flex-1 flex-col overflow-y-auto py-1.5">
+          <div className="flex min-h-0 flex-1 flex-col py-1.5">
             <QuestionCard question={q}>
               <div className="space-y-1.5 md:space-y-2">
                 {q.choices.map((c, i) => (

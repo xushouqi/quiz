@@ -106,7 +106,6 @@ export function getExamQuestions(db: Database, perDifficulty = 8): Question[] {
 }
 
 export function getMistakeQuestions(db: Database, userId?: number): Question[] {
-  const userFilter = userId ? "JOIN sessions s ON s.id = a.session_id WHERE s.user_id = ?" : "";
   const userParam = userId ? [userId] : [];
 
   const rows = db

@@ -47,7 +47,7 @@ describe("computeStreak", () => {
     addPracticeAnswer(db, sid, q, 1, true, 5, dayMs(0, now));
     addPracticeAnswer(db, sid, q, 1, true, 5, dayMs(1, now));
     addPracticeAnswer(db, sid, q, 1, true, 5, dayMs(2, now));
-    expect(computeStreak(db, now)).toBe(3);
+    expect(computeStreak(db, undefined, now)).toBe(3);
   });
 
   it("keeps the streak alive via yesterday when today is quiet", () => {
@@ -57,7 +57,7 @@ describe("computeStreak", () => {
     const sid = createSession(db, "practice", 1);
     addPracticeAnswer(db, sid, q, 1, true, 5, dayMs(1, now));
     addPracticeAnswer(db, sid, q, 1, true, 5, dayMs(2, now));
-    expect(computeStreak(db, now)).toBe(2);
+    expect(computeStreak(db, undefined, now)).toBe(2);
   });
 
   it("returns 0 when the streak is broken", () => {
@@ -66,6 +66,6 @@ describe("computeStreak", () => {
     const q = insertQ(db);
     const sid = createSession(db, "practice", 1);
     addPracticeAnswer(db, sid, q, 1, true, 5, dayMs(3, now));
-    expect(computeStreak(db, now)).toBe(0);
+    expect(computeStreak(db, undefined, now)).toBe(0);
   });
 });

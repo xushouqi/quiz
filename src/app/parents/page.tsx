@@ -7,6 +7,7 @@ import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { RadarChart } from "@/components/quiz/RadarChart";
 import { ScoreCurve } from "@/components/quiz/ScoreCurve";
 import { EmojiPicker } from "@/components/quiz/EmojiPicker";
+import { useUser, type User } from "@/components/contexts/UserContext";
 
 interface StatsPayload {
   stars: number;
@@ -15,12 +16,6 @@ interface StatsPayload {
   examScores: { id: number; score: number; maxScore: number; finishedAt: number }[];
   streakDays: number;
   activeDays: number;
-}
-
-interface User {
-  id: number;
-  name: string;
-  emoji: string;
 }
 
 function makeGate() {
@@ -40,39 +35,30 @@ function StatTile({ emoji, value, label }: { emoji: string; value: number; label
 }
 
 export default function ParentsPage() {
+  const { users, refreshUsersList } = useUser();
   const [gate, setGate] = useState({ a: 0, b: 0, answer: 0 });
   const [input, setInput] = useState("");
   const [error, setError] = useState(false);
   const [unlocked, setUnlocked] = useState(false);
   const [stats, setStats] = useState<StatsPayload | null>(null);
   const [statsError, setStatsError] = useState(false);
-  const [users, setUsers] = useState<User[]>([]);
   const [editingUser, setEditingUser] = useState<User | null>(null);
   const [newUserName, setNewUserName] = useState("");
   const [newUserEmoji, setNewUserEmoji] = useState("🐨");
   const [selectedUserId, setSelectedUserId] = useState<number | null>(null);
-  const [mounted, setMounted] = useState(false);
 
   // 客户端挂载后生成题目
   useEffect(() => {
     setGate(makeGate());
-    setMounted(true);
   }, []);
 
+  // 解锁后默认选择第一个用户
   useEffect(() => {
     if (!unlocked) return;
-
-    // 加载用户列表
-    fetch("/api/users")
-      .then((r) => r.json())
-      .then((data) => {
-        setUsers(data.users);
-        // 默认选择第一个用户
-        if (data.users.length > 0 && !selectedUserId) {
-          setSelectedUserId(data.users[0].id);
-        }
-      });
-  }, [unlocked, selectedUserId]);
+    if (users.length > 0 && !selectedUserId) {
+      setSelectedUserId(users[0].id);
+    }
+  }, [unlocked, users, selectedUserId]);
 
   useEffect(() => {
     if (!unlocked || !selectedUserId) return;
@@ -94,9 +80,7 @@ export default function ParentsPage() {
     const data = await res.json();
     setNewUserName("");
     setNewUserEmoji("🐨");
-    const usersRes = await fetch("/api/users");
-    const usersData = await usersRes.json();
-    setUsers(usersData.users);
+    await refreshUsersList();
     // 如果是第一个用户，自动选中
     if (!selectedUserId) {
       setSelectedUserId(data.id);
@@ -107,12 +91,10 @@ export default function ParentsPage() {
   const deleteUser = async (id: number) => {
     if (!confirm("确定删除这个用户吗？所有学习数据都会被删除！")) return;
     await fetch(`/api/users/${id}`, { method: "DELETE" });
-    const res = await fetch("/api/users");
-    const data = await res.json();
-    setUsers(data.users);
+    await refreshUsersList();
     // 如果删除的是当前选中的用户，选中第一个用户或清空
     if (selectedUserId === id) {
-      setSelectedUserId(data.users.length > 0 ? data.users[0].id : null);
+      setSelectedUserId(users.length > 1 ? users.find((u) => u.id !== id)?.id ?? null : null);
     }
   };
 
@@ -128,9 +110,7 @@ export default function ParentsPage() {
       }),
     });
     setEditingUser(null);
-    const res = await fetch("/api/users");
-    const data = await res.json();
-    setUsers(data.users);
+    await refreshUsersList();
   };
 
   const radarData = useMemo(() => {

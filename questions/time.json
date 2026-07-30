@@ -126,5 +126,177 @@
     "correct_index": 0,
     "explanation_zh": "1 到 20 里带 5 的数只有 5 和 15，一共 2 个。",
     "explanation_en": "Between 1 and 20, only 5 and 15 contain the digit 5 — that is 2 numbers."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "钟面上现在是几点？",
+    "text_en": "What time does the clock show?",
+    "illustration": "svg:clock:9:00",
+    "choices": [
+      { "zh": "9 点", "en": "9 o'clock" },
+      { "zh": "12 点", "en": "12 o'clock" },
+      { "zh": "6 点", "en": "6 o'clock" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "短短时针指着 9，长长分针指着 12，所以是 9 点整。",
+    "explanation_en": "The short hand points to 9 and the long hand points to 12 — it is 9 o'clock."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "今天是星期三，昨天是星期几？",
+    "text_en": "Today is Wednesday. What day was yesterday?",
+    "choices": [
+      { "zh": "星期二", "en": "Tuesday" },
+      { "zh": "星期四", "en": "Thursday" },
+      { "zh": "星期一", "en": "Monday" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "星期三的前一天是星期二。",
+    "explanation_en": "The day before Wednesday is Tuesday."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "钟面上现在是几点？",
+    "text_en": "What time does the clock show?",
+    "illustration": "svg:clock:2:30",
+    "choices": [
+      { "zh": "2 点", "en": "2 o'clock" },
+      { "zh": "2 点半", "en": "half past 2" },
+      { "zh": "3 点半", "en": "half past 3" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "分针指着 6（走了半圈），时针在 2 和 3 中间，所以是 2 点半。",
+    "explanation_en": "The minute hand points to 6 (half way round) and the hour hand is between 2 and 3 — half past 2."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "小明上午 8:00 到学校，11:30 放学回家。他在学校待了多长时间？",
+    "text_en": "Ming arrives at school at 8:00 AM and leaves at 11:30 AM. How long was he at school?",
+    "choices": [
+      { "zh": "3 小时", "en": "3 hours" },
+      { "zh": "3 小时 30 分钟", "en": "3 hours 30 minutes" },
+      { "zh": "4 小时", "en": "4 hours" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "从 8:00 到 11:00 是 3 小时，再加 30 分钟到 11:30，一共 3 小时 30 分钟。",
+    "explanation_en": "From 8:00 to 11:00 is 3 hours, plus 30 minutes to 11:30 — total 3 hours 30 minutes."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "一列火车 14:15 出发，路上行驶了 2 小时 45 分钟。火车几点到达？",
+    "text_en": "A train departs at 14:15 and travels for 2 hours 45 minutes. What time does it arrive?",
+    "choices": [
+      { "zh": "16:45", "en": "16:45" },
+      { "zh": "17:00", "en": "17:00" },
+      { "zh": "17:15", "en": "17:15" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "14:15 + 2 小时 = 16:15；16:15 + 45 分钟 = 17:00。",
+    "explanation_en": "14:15 + 2 hours = 16:15; 16:15 + 45 minutes = 17:00."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "小明每天睡 9 个小时。如果他晚上 9:00 睡觉，第二天早上几点起床？",
+    "text_en": "Ming sleeps 9 hours every day. If he goes to bed at 9:00 PM, what time does he wake up?",
+    "choices": [
+      { "zh": "早上 5:00", "en": "5:00 AM" },
+      { "zh": "早上 6:00", "en": "6:00 AM" },
+      { "zh": "早上 7:00", "en": "7:00 AM" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "晚上 9:00 到半夜 12:00 是 3 个小时，还剩 9−3=6 个小时，所以到早上 6:00 起床。",
+    "explanation_en": "From 9:00 PM to midnight is 3 hours. That leaves 9−3=6 more hours, so he wakes at 6:00 AM."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "钟面上现在是几点？",
+    "text_en": "What time does the clock show?",
+    "illustration": "svg:clock:5:00",
+    "choices": [
+      { "zh": "5 点", "en": "5 o'clock" },
+      { "zh": "12 点", "en": "12 o'clock" },
+      { "zh": "3 点", "en": "3 o'clock" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "短短时针指着 5，长长分针指着 12，所以是 5 点整。",
+    "explanation_en": "The short hand points to 5 and the long hand points to 12 — it is 5 o'clock."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "今天是星期六，明天是星期几？",
+    "text_en": "Today is Saturday. What day is tomorrow?",
+    "choices": [
+      { "zh": "星期五", "en": "Friday" },
+      { "zh": "星期日", "en": "Sunday" },
+      { "zh": "星期一", "en": "Monday" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "星期六的后面一天是星期日。",
+    "explanation_en": "The day after Saturday is Sunday."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "钟面上现在是几点？",
+    "text_en": "What time does the clock show?",
+    "illustration": "svg:clock:4:30",
+    "choices": [
+      { "zh": "4 点", "en": "4 o'clock" },
+      { "zh": "4 点半", "en": "half past 4" },
+      { "zh": "5 点半", "en": "half past 5" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "分针指着 6（走了半圈），时针在 4 和 5 中间，所以是 4 点半。",
+    "explanation_en": "The minute hand points to 6 (half way round) and the hour hand is between 4 and 5 — half past 4."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "一场电影长 90 分钟。这等于几小时几分钟？",
+    "text_en": "A film lasts 90 minutes. How many hours and minutes is that?",
+    "choices": [
+      { "zh": "1 小时 30 分钟", "en": "1 hour 30 minutes" },
+      { "zh": "1 小时 9 分钟", "en": "1 hour 9 minutes" },
+      { "zh": "2 小时", "en": "2 hours" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "1 小时 = 60 分钟，90 − 60 = 30，所以是 1 小时 30 分钟。",
+    "explanation_en": "1 hour is 60 minutes; 90 − 60 = 30, so it is 1 hour 30 minutes."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "小明 8:10 出门，走路用了 25 分钟到学校。他几点到达学校？",
+    "text_en": "Ming leaves home at 8:10 and walks for 25 minutes to school. What time does he arrive?",
+    "choices": [
+      { "zh": "8:45", "en": "8:45" },
+      { "zh": "8:35", "en": "8:35" },
+      { "zh": "8:25", "en": "8:25" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "8:10 加上 25 分钟：分钟数 10 + 25 = 35，小时不变，所以是 8:35。",
+    "explanation_en": "Add 25 minutes to 8:10: 10 + 25 = 35 minutes, so the time is 8:35."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "一集动画片长 15 分钟。从 4:00 开始连续放 3 集，几点放完？",
+    "text_en": "One cartoon episode lasts 15 minutes. If 3 episodes play back-to-back starting at 4:00, what time do they finish?",
+    "choices": [
+      { "zh": "4:30", "en": "4:30" },
+      { "zh": "4:45", "en": "4:45" },
+      { "zh": "4:15", "en": "4:15" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "3 集一共 15 + 15 + 15 = 45 分钟，4:00 过 45 分钟是 4:45。",
+    "explanation_en": "3 episodes last 15 + 15 + 15 = 45 minutes; 45 minutes after 4:00 is 4:45."
   }
 ]

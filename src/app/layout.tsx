@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Baloo_2, Noto_Sans_SC, ZCOOL_KuaiLe } from "next/font/google";
 import "./globals.css";
 import { UserBar } from "@/components/layout/UserBar";
+import { UserProvider } from "@/components/contexts/UserContext";
 
 const baloo = Baloo_2({ variable: "--font-baloo", subsets: ["latin"] });
 const noto = Noto_Sans_SC({ variable: "--font-noto", subsets: ["latin"] });
@@ -21,8 +22,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="zh-CN" className={`${baloo.variable} ${noto.variable} ${kuaile.variable}`}>
       <body className="min-h-dvh bg-sky-soft text-cocoa antialiased">
-        <UserBar />
-        {children}
+        <UserProvider>
+          <UserBar />
+          {children}
+        </UserProvider>
       </body>
     </html>
   );

@@ -1,10 +1,12 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { StarJar } from "@/components/quiz/StarJar";
+import { useUser } from "@/components/contexts/UserContext";
 
 const BADGES = [
   { at: 30, emoji: "🥉", zh: "铜牌探险家", en: "Bronze Explorer" },
@@ -19,21 +21,24 @@ interface Stats {
 }
 
 export default function StarsPage() {
+  const router = useRouter();
+  const { currentUser, loading } = useUser();
   const [stats, setStats] = useState<Stats | null>(null);
 
   useEffect(() => {
-    const userId = localStorage.getItem("kangaroo-current-user");
-    if (!userId) {
-      window.location.href = "/";
+    if (loading) return;
+    if (!currentUser) {
+      router.push("/");
       return;
     }
 
-    fetch(`/api/stats?userId=${userId}`)
+    fetch(`/api/stats?userId=${currentUser.id}`)
       .then((r) => r.json())
-      .then((data) => setStats(data));
-  }, []);
+      .then((data) => setStats(data))
+      .catch(() => setStats(null));
+  }, [currentUser, loading, router]);
 
-  if (!stats) {
+  if (!currentUser || !stats) {
     return (
       <main className="relative flex min-h-dvh items-center justify-center">
         <OutbackBackground />
