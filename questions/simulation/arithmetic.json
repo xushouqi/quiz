@@ -1,0 +1,77 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "盘子里有 9 颗草莓，弟弟吃掉了 4 颗。盘子里还剩几颗草莓？",
+    "text_en": "There are 9 strawberries on a plate. Little brother eats 4 of them. How many strawberries are left?",
+    "illustration": "emoji:🍓🍓🍓🍓🍓🍓🍓🍓🍓",
+    "choices": [
+      { "zh": "4 颗", "en": "4" },
+      { "zh": "5 颗", "en": "5" },
+      { "zh": "6 颗", "en": "6" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "9 − 4 = 5 颗。",
+    "explanation_en": "9 − 4 = 5 strawberries."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "红绳子长 7 米，蓝绳子长 4 米。红绳子比蓝绳子长几米？",
+    "text_en": "The red rope is 7 meters long and the blue rope is 4 meters long. How much longer is the red rope than the blue one?",
+    "illustration": null,
+    "choices": [
+      { "zh": "2 米", "en": "2 meters" },
+      { "zh": "4 米", "en": "4 meters" },
+      { "zh": "3 米", "en": "3 meters" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "7 − 4 = 3 米。",
+    "explanation_en": "7 − 4 = 3 meters."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "小兔子上午拔了 12 根胡萝卜，下午又拔了 6 根。它当天吃掉了 5 根。现在还剩几根胡萝卜？",
+    "text_en": "A little rabbit pulled up 12 carrots in the morning and 6 more in the afternoon. It ate 5 carrots that day. How many carrots are left now?",
+    "illustration": null,
+    "choices": [
+      { "zh": "13 根", "en": "13" },
+      { "zh": "11 根", "en": "11" },
+      { "zh": "14 根", "en": "14" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "一共拔了 12 + 6 = 18 根，吃掉 5 根，还剩 18 − 5 = 13 根。",
+    "explanation_en": "It pulled up 12 + 6 = 18 carrots in all; after eating 5, there are 18 − 5 = 13 left."
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_zh": "一包贴纸 4 元钱。小红买了 3 包，付给售货员 15 元。她应该找回几元钱？",
+    "text_en": "A pack of stickers costs 4 yuan. Xiaohong buys 3 packs and pays the shopkeeper 15 yuan. How much change should she get back?",
+    "illustration": null,
+    "choices": [
+      { "zh": "2 元", "en": "2 yuan" },
+      { "zh": "3 元", "en": "3 yuan" },
+      { "zh": "4 元", "en": "4 yuan" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "3 包贴纸要花 4 × 3 = 12 元，付 15 元应找回 15 − 12 = 3 元。",
+    "explanation_en": "3 packs cost 4 × 3 = 12 yuan; paying 15 yuan gives 15 − 12 = 3 yuan in change."
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_zh": "图书角原来有 46 本绘本。上午被借走 12 本，下午又被借走 18 本，放学时还回来了 9 本。现在图书角还有多少本绘本？",
+    "text_en": "The reading corner had 46 picture books. 12 were borrowed in the morning, 18 more in the afternoon, and 9 were returned after school. How many picture books are there now?",
+    "illustration": null,
+    "choices": [
+      { "zh": "25 本", "en": "25" },
+      { "zh": "23 本", "en": "23" },
+      { "zh": "27 本", "en": "27" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "46 − 12 − 18 = 16 本，还回 9 本后是 16 + 9 = 25 本。",
+    "explanation_en": "46 − 12 − 18 = 16 books, and after 9 are returned there are 16 + 9 = 25 books."
+  }
+]

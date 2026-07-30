@@ -1,0 +1,77 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "一盒鸡蛋有 6 个。两盒鸡蛋一共有几个？",
+    "text_en": "One box holds 6 eggs. How many eggs are there in two boxes?",
+    "illustration": "emoji:🥚🥚🥚🥚🥚🥚｜🥚🥚🥚🥚🥚🥚",
+    "choices": [
+      { "zh": "8 个", "en": "8" },
+      { "zh": "12 个", "en": "12" },
+      { "zh": "10 个", "en": "10" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "6 + 6 = 12 个（也就是 6 × 2 = 12）。",
+    "explanation_en": "6 + 6 = 12 eggs (that is 6 × 2 = 12)."
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_zh": "一辆小汽车有 4 个轮子。4 辆小汽车一共有几个轮子？",
+    "text_en": "A car has 4 wheels. How many wheels do 4 cars have altogether?",
+    "illustration": "emoji:🚗🚗🚗🚗",
+    "choices": [
+      { "zh": "12 个", "en": "12" },
+      { "zh": "14 个", "en": "14" },
+      { "zh": "16 个", "en": "16" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "4 + 4 + 4 + 4 = 16 个（也就是 4 × 4 = 16）。",
+    "explanation_en": "4 + 4 + 4 + 4 = 16 wheels (that is 4 × 4 = 16)."
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_zh": "小明把 9 块红色积木和 7 块蓝色积木排成一排。后来弄丢了 3 块红色积木。这一排还剩几块积木？",
+    "text_en": "Xiaoming lines up 9 red blocks and 7 blue blocks in a row. Later 3 red blocks get lost. How many blocks are left in the row?",
+    "illustration": null,
+    "choices": [
+      { "zh": "13 块", "en": "13" },
+      { "zh": "16 块", "en": "16" },
+      { "zh": "10 块", "en": "10" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "原来有 9 + 7 = 16 块，丢了 3 块，还剩 16 − 3 = 13 块。",
+    "explanation_en": "There were 9 + 7 = 16 blocks at first; 3 are lost, so 16 − 3 = 13 remain."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "小红看一本故事书，从第 10 页看到第 18 页。她一共看了几页？",
+    "text_en": "Xiaohong reads a storybook from page 10 to page 18. How many pages does she read in all?",
+    "illustration": null,
+    "choices": [
+      { "zh": "8 页", "en": "8" },
+      { "zh": "10 页", "en": "10" },
+      { "zh": "9 页", "en": "9" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "第 10 页也要算进去：18 − 10 + 1 = 9 页。",
+    "explanation_en": "Page 10 counts too: 18 − 10 + 1 = 9 pages."
+  },
+  {
+    "difficulty": 5,
+    "topic": "counting",
+    "text_zh": "给一本书编页码，从第 1 页编到第 12 页。一共要写出几个数字？（比如第 10 页要写出“1”和“0”两个数字）",
+    "text_en": "A book's pages are numbered from 1 to 12. How many digits are written in all? (For example, page 10 uses two digits: “1” and “0”.)",
+    "illustration": null,
+    "choices": [
+      { "zh": "12 个", "en": "12" },
+      { "zh": "15 个", "en": "15" },
+      { "zh": "24 个", "en": "24" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "第 1～9 页每页 1 个数字，共 9 个；第 10、11、12 页每页 2 个数字，共 6 个。9 + 6 = 15 个。",
+    "explanation_en": "Pages 1–9 use 1 digit each (9 digits); pages 10, 11, 12 use 2 digits each (6 digits). 9 + 6 = 15 digits."
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "哪一个图形只有 3 条边？",
+    "text_en": "Which shape has exactly 3 sides?",
+    "illustration": null,
+    "choices": [
+      { "zh": "🔺 三角形", "en": "🔺 triangle" },
+      { "zh": "⭕ 圆形", "en": "⭕ circle" },
+      { "zh": "🟦 正方形", "en": "🟦 square" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "三角形有 3 条边、3 个角；正方形有 4 条边；圆形没有边。",
+    "explanation_en": "A triangle has 3 sides and 3 corners; a square has 4 sides; a circle has none."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "照镜子时，下面哪个大写英文字母看起来和原来一模一样？",
+    "text_en": "Looking in a mirror, which capital letter looks exactly the same as before?",
+    "illustration": null,
+    "choices": [
+      { "zh": "F", "en": "F" },
+      { "zh": "A", "en": "A" },
+      { "zh": "N", "en": "N" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "字母 A 左右对称，镜子里还是 A；F 和 N 照镜子后都会反过来。",
+    "explanation_en": "The letter A is symmetric left-to-right, so it still looks like A; F and N are both flipped by a mirror."
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_zh": "用剪刀把一张正方形纸的一个角剪掉（沿一条直线剪）。剩下的纸最多能有几个角？",
+    "text_en": "You cut off one corner of a square piece of paper with scissors, in one straight cut. What is the greatest number of corners the paper can have left?",
+    "illustration": null,
+    "choices": [
+      { "zh": "3 个", "en": "3" },
+      { "zh": "4 个", "en": "4" },
+      { "zh": "5 个", "en": "5" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "斜着剪掉一个小角时，少掉 1 个角，又多出 2 个新角：4 − 1 + 2 = 5 个角。",
+    "explanation_en": "Cutting off a small corner removes 1 corner but creates 2 new ones: 4 − 1 + 2 = 5 corners."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "用同样大的小正方形拼大正方形：每边排 2 个，一共要用 4 个。如果每边排 4 个，一共要用多少个小正方形？",
+    "text_en": "Small equal squares are used to build bigger squares: 2 per side needs 4 small squares in all. If there are 4 per side, how many small squares are needed in all?",
+    "illustration": null,
+    "choices": [
+      { "zh": "16 个", "en": "16" },
+      { "zh": "8 个", "en": "8" },
+      { "zh": "12 个", "en": "12" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "每边 4 个，就是 4 行、每行 4 个：4 × 4 = 16 个。",
+    "explanation_en": "With 4 per side, that is 4 rows of 4: 4 × 4 = 16 small squares."
+  },
+  {
+    "difficulty": 5,
+    "topic": "shapes",
+    "text_zh": "用 12 根一样长的小棒围成一个长方形（每条边都用整根小棒，正方形也算长方形）。一共有几种不同的围法？",
+    "text_en": "You use 12 equal sticks to make a rectangle (every side is a whole number of sticks; a square counts as a rectangle). How many different rectangles can you make?",
+    "illustration": null,
+    "choices": [
+      { "zh": "2 种", "en": "2" },
+      { "zh": "3 种", "en": "3" },
+      { "zh": "4 种", "en": "4" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "长方形两条邻边的长度加起来是 12 ÷ 2 = 6 根。可能是 1 和 5、2 和 4、3 和 3，共 3 种。",
+    "explanation_en": "Two neighboring sides add up to 12 ÷ 2 = 6 sticks. The pairs can be 1 and 5, 2 and 4, or 3 and 3 — 3 ways."
+  }
+]

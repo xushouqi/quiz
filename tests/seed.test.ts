@@ -150,4 +150,35 @@ describe("runSeed (real questions/ directory)", () => {
     for (const o of officials) counts[o.difficulty] += 1;
     expect(counts).toEqual({ 3: 2, 4: 8, 5: 8 });
   });
+
+  it("simulation bank satisfies the >=8 per difficulty invariant", () => {
+    const db = openDb(":memory:");
+    runSeed(db);
+    const perDifficulty = db
+      .prepare(
+        "SELECT difficulty, COUNT(*) AS n FROM questions WHERE source = 'simulation' GROUP BY difficulty ORDER BY difficulty"
+      )
+      .all() as { difficulty: number; n: number }[];
+    const map = Object.fromEntries(perDifficulty.map((r) => [r.difficulty, r.n]));
+    expect(map[3] ?? 0).toBeGreaterThanOrEqual(8);
+    expect(map[4] ?? 0).toBeGreaterThanOrEqual(8);
+    expect(map[5] ?? 0).toBeGreaterThanOrEqual(8);
+  });
+
+  it("simulation questions carry no attribution and are structurally valid", () => {
+    const db = openDb(":memory:");
+    runSeed(db);
+    const sims = db.prepare("SELECT * FROM questions WHERE source = 'simulation'").all() as {
+      attribution: string | null;
+      choices: string;
+      correct_index: number;
+    }[];
+    expect(sims.length).toBeGreaterThan(0);
+    for (const s of sims) {
+      expect(s.attribution).toBeNull();
+      expect(JSON.parse(s.choices)).toHaveLength(3);
+      expect(s.correct_index).toBeGreaterThanOrEqual(0);
+      expect(s.correct_index).toBeLessThan(3);
+    }
+  });
 });

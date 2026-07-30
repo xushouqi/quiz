@@ -1,0 +1,77 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "兔子比小鸡重，小猪比兔子重。这三种动物哪一种最重？",
+    "text_en": "The rabbit is heavier than the chick, and the pig is heavier than the rabbit. Which of the three animals is the heaviest?",
+    "illustration": null,
+    "choices": [
+      { "zh": "兔子", "en": "rabbit" },
+      { "zh": "小鸡", "en": "chick" },
+      { "zh": "小猪", "en": "pig" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "小猪 > 兔子 > 小鸡，所以小猪最重。",
+    "explanation_en": "Pig > rabbit > chick, so the pig is the heaviest."
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_zh": "三个小朋友排成一队。小明不是第一个，小红不是最后一个，小刚排在小明的紧后面。小明排第几？",
+    "text_en": "Three children stand in a line. Xiaoming is not first, Xiaohong is not last, and Xiaogang stands right behind Xiaoming. Which place is Xiaoming in?",
+    "illustration": null,
+    "choices": [
+      { "zh": "第 1 个", "en": "1st" },
+      { "zh": "第 2 个", "en": "2nd" },
+      { "zh": "第 3 个", "en": "3rd" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "小刚紧挨在小明后面，小明只能是第 1 或第 2；又因为小明不是第 1，所以小明第 2、小刚第 3、小红第 1。",
+    "explanation_en": "Xiaogang is right behind Xiaoming, so Xiaoming can only be 1st or 2nd; since he is not 1st, Xiaoming is 2nd, Xiaogang 3rd, and Xiaohong 1st."
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_zh": "今天是星期三。后天再过 3 天是星期几？",
+    "text_en": "Today is Wednesday. What day of the week will it be 3 days after the day after tomorrow?",
+    "illustration": null,
+    "choices": [
+      { "zh": "星期六", "en": "Saturday" },
+      { "zh": "星期日", "en": "Sunday" },
+      { "zh": "星期一", "en": "Monday" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "今天星期三，后天是星期五。从星期五往后数 3 天：星期六（1 天）、星期日（2 天）、星期一（3 天），所以是星期一。",
+    "explanation_en": "Today is Wednesday, so the day after tomorrow is Friday. Three days past Friday are Saturday (1), Sunday (2), and Monday (3) — so it is Monday."
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_zh": "小明、小红、小刚各戴了一顶不同颜色的帽子：红色、黄色、蓝色。小明没有戴红帽子，小红戴的既不是红帽子也不是黄帽子。小刚戴的是什么颜色的帽子？",
+    "text_en": "Xiaoming, Xiaohong, and Xiaogang each wear a hat of a different color: red, yellow, and blue. Xiaoming is not wearing red. Xiaohong is wearing neither red nor yellow. What color is Xiaogang's hat?",
+    "illustration": null,
+    "choices": [
+      { "zh": "红色", "en": "red" },
+      { "zh": "黄色", "en": "yellow" },
+      { "zh": "蓝色", "en": "blue" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "小红不戴红也不戴黄，只能戴蓝；小明不戴红，蓝又被小红戴了，只能戴黄；剩下的红帽子是小刚的。",
+    "explanation_en": "Xiaohong wears neither red nor yellow, so she wears blue. Xiaoming is not in red and blue is taken, so he wears yellow. That leaves the red hat for Xiaogang."
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_zh": "小蚂蚁要从方格图的左下角 A 点走到右上角 B 点，只能沿着格线向右或向上走。最短的路线一共有几条？",
+    "text_en": "A little ant walks from point A at the bottom-left corner of the grid to point B at the top-right corner. It may only move right or up along the grid lines. How many shortest routes are there?",
+    "illustration": "svg:grid",
+    "choices": [
+      { "zh": "4 条", "en": "4" },
+      { "zh": "6 条", "en": "6" },
+      { "zh": "8 条", "en": "8" }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "最短路线都是走 4 步：向右 2 步、向上 2 步。只要定下哪两步向上就行：右上右上、右上上右、右右上上、上右右上、上右上右、上上右右，共 6 条。",
+    "explanation_en": "Every shortest route takes 4 steps: 2 right and 2 up. Choosing which steps go up gives RURU, RUUR, RRUU, URRU, URUR, UURR — 6 routes."
+  }
+]

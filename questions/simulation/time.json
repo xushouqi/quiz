@@ -1,0 +1,77 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "钟面上的时针指着 8，分针指着 12。现在是几点？",
+    "text_en": "The hour hand points to 8 and the minute hand points to 12. What time is it?",
+    "illustration": "svg:clock:8:00",
+    "choices": [
+      { "zh": "8 点", "en": "8 o'clock" },
+      { "zh": "6 点", "en": "6 o'clock" },
+      { "zh": "12 点", "en": "12 o'clock" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "分针指着 12 表示整点，时针指着 8，所以是 8 点。",
+    "explanation_en": "The minute hand on 12 means it is exactly on the hour; the hour hand on 8 makes it 8 o'clock."
+  },
+  {
+    "difficulty": 3,
+    "topic": "time",
+    "text_zh": "1 小时和 50 分钟比一比，哪一个更长？",
+    "text_en": "Which is longer: 1 hour or 50 minutes?",
+    "illustration": null,
+    "choices": [
+      { "zh": "50 分钟", "en": "50 minutes" },
+      { "zh": "一样长", "en": "they are the same" },
+      { "zh": "1 小时", "en": "1 hour" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "1 小时 = 60 分钟，60 分钟比 50 分钟长。",
+    "explanation_en": "1 hour = 60 minutes, and 60 minutes is longer than 50 minutes."
+  },
+  {
+    "difficulty": 4,
+    "topic": "time",
+    "text_zh": "第一节课 9:00 开始，一节课要上 40 分钟。第一节课几点结束？",
+    "text_en": "The first lesson starts at 9:00 and lasts 40 minutes. What time does it end?",
+    "illustration": "svg:clock:9:40",
+    "choices": [
+      { "zh": "9:30", "en": "9:30" },
+      { "zh": "9:50", "en": "9:50" },
+      { "zh": "9:40", "en": "9:40" }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "从 9:00 往后数 40 分钟，就是 9:40。",
+    "explanation_en": "Counting 40 minutes forward from 9:00 gives 9:40."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "小明 7:50 从家里出发，8:25 走到学校。他在路上走了多少分钟？",
+    "text_en": "Xiaoming leaves home at 7:50 and arrives at school at 8:25. How many minutes does his walk take?",
+    "illustration": null,
+    "choices": [
+      { "zh": "35 分钟", "en": "35 minutes" },
+      { "zh": "25 分钟", "en": "25 minutes" },
+      { "zh": "45 分钟", "en": "45 minutes" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "从 7:50 到 8:00 是 10 分钟，从 8:00 到 8:25 是 25 分钟，一共 10 + 25 = 35 分钟。",
+    "explanation_en": "From 7:50 to 8:00 is 10 minutes, and from 8:00 to 8:25 is 25 minutes, so 10 + 25 = 35 minutes."
+  },
+  {
+    "difficulty": 5,
+    "topic": "time",
+    "text_zh": "动画片 6:20 开始，全长 45 分钟。动画片几点结束？",
+    "text_en": "A cartoon starts at 6:20 and runs for 45 minutes. What time does it end?",
+    "illustration": null,
+    "choices": [
+      { "zh": "7:05", "en": "7:05" },
+      { "zh": "7:15", "en": "7:15" },
+      { "zh": "6:55", "en": "6:55" }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "6:20 过 40 分钟是 7:00，再过 5 分钟就是 7:05。",
+    "explanation_en": "40 minutes after 6:20 is 7:00, and 5 more minutes makes it 7:05."
+  }
+]
