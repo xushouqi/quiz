@@ -1,5 +1,5 @@
 import type { Database } from "better-sqlite3";
-import type { Question, Topic } from "./types";
+import type { Question, Source, Topic } from "./types";
 
 export interface QuestionRow {
   id: number;
@@ -50,9 +50,9 @@ export function getPracticeQuestions(
 ): Question[] {
   const rows =
     topic === "random"
-      ? (db.prepare("SELECT * FROM questions ORDER BY RANDOM() LIMIT ?").all(limit) as QuestionRow[])
+      ? (db.prepare("SELECT * FROM questions WHERE source = 'practice' ORDER BY RANDOM() LIMIT ?").all(limit) as QuestionRow[])
       : (db
-          .prepare("SELECT * FROM questions WHERE topic = ? ORDER BY RANDOM() LIMIT ?")
+          .prepare("SELECT * FROM questions WHERE source = 'practice' AND topic = ? ORDER BY RANDOM() LIMIT ?")
           .all(topic, limit) as QuestionRow[]);
   return rows.map(rowToQuestion);
 }
@@ -61,20 +61,22 @@ function pickExcluding(
   db: Database,
   difficulty: number,
   excludeIds: number[],
+  sources: Source[],
   limit: number
 ): QuestionRow[] {
   if (limit <= 0) return [];
+  const srcPh = sources.map(() => "?").join(",");
   if (excludeIds.length === 0) {
     return db
-      .prepare("SELECT * FROM questions WHERE difficulty = ? ORDER BY RANDOM() LIMIT ?")
-      .all(difficulty, limit) as QuestionRow[];
+      .prepare(`SELECT * FROM questions WHERE difficulty = ? AND source IN (${srcPh}) ORDER BY RANDOM() LIMIT ?`)
+      .all(difficulty, ...sources, limit) as QuestionRow[];
   }
   const ph = excludeIds.map(() => "?").join(",");
   return db
     .prepare(
-      `SELECT * FROM questions WHERE difficulty = ? AND id NOT IN (${ph}) ORDER BY RANDOM() LIMIT ?`
+      `SELECT * FROM questions WHERE difficulty = ? AND source IN (${srcPh}) AND id NOT IN (${ph}) ORDER BY RANDOM() LIMIT ?`
     )
-    .all(difficulty, ...excludeIds, limit) as QuestionRow[];
+    .all(difficulty, ...sources, ...excludeIds, limit) as QuestionRow[];
 }
 
 export function getLastExamSessionId(db: Database): number | null {
@@ -99,14 +101,33 @@ export function getExamQuestions(db: Database, perDifficulty = 8): Question[] {
 
   const out: QuestionRow[] = [];
   for (const difficulty of [3, 4, 5]) {
-    let rows = pickExcluding(db, difficulty, excluded, perDifficulty);
+    const officials = pickExcluding(db, difficulty, excluded, ["official"], perDifficulty);
+    const officialIds = officials.map((r) => r.id);
+    const sims = pickExcluding(
+      db,
+      difficulty,
+      [...excluded, ...officialIds],
+      ["simulation"],
+      perDifficulty - officials.length
+    );
+    let rows = [...officials, ...sims];
     if (rows.length < perDifficulty) {
       const have = rows.map((r) => r.id);
-      rows = [...rows, ...pickExcluding(db, difficulty, have, perDifficulty - rows.length)];
+      rows = [...rows, ...pickExcluding(db, difficulty, have, ["official", "simulation"], perDifficulty - rows.length)];
     }
     out.push(...rows);
   }
   return out.map(rowToQuestion);
+}
+
+export function examComposition(questions: Question[]): { official: number; simulation: number } {
+  let official = 0;
+  let simulation = 0;
+  for (const q of questions) {
+    if (q.source === "official") official += 1;
+    else if (q.source === "simulation") simulation += 1;
+  }
+  return { official, simulation };
 }
 
 export function getMistakeQuestions(db: Database, userId?: number): Question[] {
