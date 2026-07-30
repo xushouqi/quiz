@@ -12,6 +12,8 @@ export interface QuestionRow {
   correct_index: number;
   explanation_zh: string;
   explanation_en: string;
+  source: string;
+  attribution: string | null;
 }
 
 export function rowToQuestion(r: QuestionRow): Question {
@@ -26,6 +28,8 @@ export function rowToQuestion(r: QuestionRow): Question {
     correct_index: r.correct_index,
     explanation_zh: r.explanation_zh,
     explanation_en: r.explanation_en,
+    source: r.source as Question["source"],
+    attribution: r.attribution,
   };
 }
 

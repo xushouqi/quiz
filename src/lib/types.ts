@@ -4,6 +4,9 @@ export const TOPICS: Topic[] = ["counting", "shapes", "patterns", "logic", "arit
 export type Difficulty = 3 | 4 | 5;
 export const DIFFICULTIES: Difficulty[] = [3, 4, 5];
 
+export type Source = "practice" | "official" | "simulation";
+export const SOURCES: Source[] = ["practice", "official", "simulation"];
+
 export interface Choice {
   zh: string;
   en: string;
@@ -20,9 +23,13 @@ export interface Question {
   correct_index: number;
   explanation_zh: string;
   explanation_en: string;
+  source: Source;
+  attribution: string | null;
 }
 
-export type RawQuestion = Omit<Question, "id">;
+export type RawQuestion = Omit<Question, "id" | "source" | "attribution"> & {
+  attribution?: string | null;
+};
 
 export interface SessionRow {
   id: number;

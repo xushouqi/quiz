@@ -20,7 +20,9 @@ CREATE TABLE IF NOT EXISTS questions (
   choices TEXT NOT NULL,
   correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2)),
   explanation_zh TEXT NOT NULL,
-  explanation_en TEXT NOT NULL
+  explanation_en TEXT NOT NULL,
+  source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation')),
+  attribution TEXT
 );
 
 CREATE TABLE IF NOT EXISTS sessions (
@@ -47,7 +49,7 @@ CREATE TABLE IF NOT EXISTS answers (
   created_at INTEGER NOT NULL
 );
 
-CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id);
+-- idx_sessions_user 在 migrate() 中创建：multi-user 之前的旧库 sessions 无 user_id 列
 CREATE INDEX IF NOT EXISTS idx_answers_session ON answers(session_id);
 CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
 `;
@@ -60,7 +62,26 @@ export function openDb(dbPath: string): Database.Database {
   db.pragma("journal_mode = WAL");
   db.pragma("foreign_keys = ON");
   db.exec(SCHEMA);
+  migrate(db);
   return db;
+}
+
+function migrate(db: Database.Database): void {
+  const cols = db.prepare("PRAGMA table_info(questions)").all() as { name: string }[];
+  const names = new Set(cols.map((c) => c.name));
+  if (!names.has("source")) {
+    db.exec(
+      "ALTER TABLE questions ADD COLUMN source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation'))"
+    );
+  }
+  if (!names.has("attribution")) {
+    db.exec("ALTER TABLE questions ADD COLUMN attribution TEXT");
+  }
+  // multi-user 之前的旧库 sessions 无 user_id，SCHEMA 里的索引改在此处按列存在与否补建
+  const sessionCols = db.prepare("PRAGMA table_info(sessions)").all() as { name: string }[];
+  if (sessionCols.some((c) => c.name === "user_id")) {
+    db.exec("CREATE INDEX IF NOT EXISTS idx_sessions_user ON sessions(user_id)");
+  }
 }
 
 const globalForDb = globalThis as unknown as { quizDb?: Database.Database };
