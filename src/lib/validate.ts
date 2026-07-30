@@ -46,6 +46,11 @@ export function validateQuestion(q: unknown, label: string): string[] {
   ) {
     errors.push(`${label}: illustration 必须是字符串或 null`);
   }
+  if (obj.attribution !== undefined && obj.attribution !== null) {
+    if (typeof obj.attribution !== "string" || (obj.attribution as string).trim() === "") {
+      errors.push(`${label}: attribution 必须是非空字符串（或省略）`);
+    }
+  }
   return errors;
 }
 
@@ -55,7 +60,10 @@ export function validateBank(raw: unknown[]): RawQuestion[] {
     throw new Error(`题库校验失败：\n${errors.join("\n")}`);
   }
   return raw.map((q) => {
-    const obj = q as Omit<RawQuestion, "illustration"> & { illustration?: string | null };
-    return { ...obj, illustration: obj.illustration ?? null };
+    const obj = q as Omit<RawQuestion, "illustration" | "attribution"> & {
+      illustration?: string | null;
+      attribution?: string | null;
+    };
+    return { ...obj, illustration: obj.illustration ?? null, attribution: obj.attribution ?? null };
   });
 }

@@ -45,6 +45,17 @@ describe("validateQuestion", () => {
     const { illustration: _drop, ...rest } = good;
     expect(validateQuestion(rest, "q")).toEqual([]);
   });
+  it("accepts an optional attribution string", () => {
+    expect(validateQuestion({ ...good, attribution: "MK-USA 2024 G1-2 Q3" }, "q")).toEqual([]);
+  });
+  it("rejects a non-string attribution", () => {
+    const errors = validateQuestion({ ...good, attribution: 5 }, "q");
+    expect(errors.some((e) => e.includes("attribution"))).toBe(true);
+  });
+  it("rejects an empty attribution string", () => {
+    const errors = validateQuestion({ ...good, attribution: "  " }, "q");
+    expect(errors.some((e) => e.includes("attribution"))).toBe(true);
+  });
 });
 
 describe("validateBank", () => {
@@ -55,5 +66,13 @@ describe("validateBank", () => {
   });
   it("throws a combined error message", () => {
     expect(() => validateBank([{ ...good, correct_index: 9 }])).toThrow(/correct_index/);
+  });
+  it("normalizes a missing attribution to null", () => {
+    const [q] = validateBank([good]);
+    expect(q.attribution).toBeNull();
+  });
+  it("preserves a provided attribution", () => {
+    const [q] = validateBank([{ ...good, attribution: "MK-IN G1-2 Q1" }]);
+    expect(q.attribution).toBe("MK-IN G1-2 Q1");
   });
 });
