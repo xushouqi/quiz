@@ -27,12 +27,19 @@
 
 ## 添加/修改题目
 
-编辑 `questions/` 目录下的 JSON 文件（每主题一个文件），然后运行 `npm run seed`。
-每题必须包含：`difficulty`（3/4/5）、`topic`、双语题干（`text_zh`/`text_en`）、
-恰好 3 个双语选项（`choices`）、`correct_index`（0/1/2）、双语解析。
-`illustration` 可选：`emoji:🍎🍎`、`svg:clock:6:30`、`svg:grid`、`svg:diagsquare`。
+题库按来源分三个子目录，`npm run seed` 按目录写入 `source`：
+
+- `questions/practice/`：闯关练习用的原创题（`source='practice'`）
+- `questions/official/`：官方公开样题（`source='official'`），每条建议带 `attribution` 记录出处
+- `questions/simulation/`：原创仿真题（`source='simulation'`），用于模拟考试按难度补齐
+
+编辑各目录下 JSON（每主题/每卷一个文件）。每题必须包含：`difficulty`（3/4/5）、`topic`、
+双语题干（`text_zh`/`text_en`）、恰好 3 个双语选项（`choices`）、`correct_index`（0/1/2）、双语解析。
+`illustration` 可选：`emoji:🍎🍎`、`svg:clock:6:30`、`svg:grid`、`svg:diagsquare`、`svg:dice:5`、`svg:bars:3,5,2`。
+官方题可加可选字段 `attribution`（字符串，如 `"MK-USA 2024 G1-2 Q3"`）。
 
 > ⚠️ 重新 seed 会清空作答历史（题目 ID 会变化），星星与错题本随之重置。
+> 模拟考试只从 `official` + `simulation` 抽题（官方优先、仿真补齐）；闯关练习只用 `practice`，两库零重叠。
 
 ## 技术栈
 
@@ -47,5 +54,7 @@ Next.js 15（App Router）· TypeScript · Tailwind CSS v4 · better-sqlite3（S
 
 ## 说明
 
-题目为按袋鼠数学竞赛题型风格原创编写（官方真题受 Kangourou Sans Frontières 版权保护）。
-官方样题与规则参考：<https://mathkangaroo.org/mks/faqs/about-the-test/> · <https://en.math-kangaroo.org.cn/>
+- 闯关练习题目为按袋鼠数学竞赛题型风格原创编写。
+- 模拟考试含官方公开发布的样题/历年样卷（来源：Math Kangaroo / Kangourou Sans Frontières），
+  仅供个人练习，版权归原作者/机构所有；不足部分由原创仿真题按难度补齐。
+- 官方样题与规则参考：<https://mathkangaroo.org/mks/practice/free-question-samples/> · <https://www.mathkangaroo.in/>

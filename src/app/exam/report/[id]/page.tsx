@@ -4,7 +4,7 @@ import { Kangaroo } from "@/components/mascot/Kangaroo";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { getDb } from "@/lib/db";
 import { encouragement } from "@/lib/format";
-import { getQuestionsByIds } from "@/lib/questions";
+import { examComposition, getQuestionsByIds } from "@/lib/questions";
 import { getAnswersForSession, getSession } from "@/lib/sessions";
 import type { Question, Topic } from "@/lib/types";
 
@@ -43,6 +43,7 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
   const answers = getAnswersForSession(db, session.id);
   const questions = getQuestionsByIds(db, answers.map((a) => a.question_id));
   const byId = new Map<number, Question>(questions.map((q) => [q.id, q]));
+  const composition = examComposition(questions);
 
   const score = session.score ?? 0;
   const maxScore = session.max_score ?? 120;
@@ -70,6 +71,9 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
           <p className="text-sm text-cocoa/60">{praise.en}</p>
           <p className="mt-3 text-cocoa/70">
             答对 {session.correct_count ?? 0} 题 · 答错 {session.wrong_count ?? 0} 题 · 未答 {session.blank_count ?? 0} 题
+          </p>
+          <p className="mt-2 text-sm text-cocoa/60">
+            官方样题 {composition.official} 题 · 仿真模拟 {composition.simulation} 题
           </p>
         </section>
 
@@ -106,6 +110,10 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
             })}
           </ol>
         </section>
+
+        <p className="px-4 text-center text-xs text-cocoa/50">
+          官方样题来源：Math Kangaroo（Kangourou Sans Frontières）公开发布的样题/历年样卷，仅供个人练习，版权归原作者/机构所有。
+        </p>
 
         <div className="flex justify-center gap-4 pb-8">
           <Link href="/exam" className="rounded-full bg-sunny px-8 py-4 font-kids text-xl text-white shadow-lg">再考一次 Again</Link>

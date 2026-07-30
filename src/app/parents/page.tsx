@@ -304,6 +304,11 @@ export default function ParentsPage() {
           </div>
         </section>
 
+        <section className="rounded-[2rem] border-4 border-cocoa/10 bg-white/70 p-4 text-center text-xs text-cocoa/60 shadow">
+          官方样题来源：Math Kangaroo（Kangourou Sans Frontières）公开发布的样题/历年样卷，仅供个人练习，版权归原作者/机构所有。
+          参考：mathkangaroo.org · mathkangaroo.in
+        </section>
+
         {/* 编辑用户弹窗 */}
         {editingUser && (
           <div className="fixed inset-0 z-50 flex items-center justify-center bg-cocoa/40 p-4">
