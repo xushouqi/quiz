@@ -76,6 +76,36 @@ function pickBestVoice(voices: SpeechSynthesisVoice[]): SpeechSynthesisVoice | n
 // 方案 A：Edge TTS - 音频缓存（避免重复请求）
 // ============================================================
 const edgeAudioCache = new Map<string, string>(); // text -> object URL
+// in-flight 去重：相同文本的并发请求共享一个 Promise
+// （React StrictMode 双调用、组件快速重挂载时不会产生重复网络请求）
+const edgeInflight = new Map<string, Promise<string>>(); // text -> 进行中的请求
+
+async function getEdgeAudioUrl(text: string): Promise<string> {
+  const cached = edgeAudioCache.get(text);
+  if (cached) return cached;
+
+  const pending = edgeInflight.get(text);
+  if (pending) return pending;
+
+  const p = (async () => {
+    const resp = await fetch("/api/tts", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    });
+    if (!resp.ok) throw new Error(`TTS API error: ${resp.status}`);
+    const blob = await resp.blob();
+    const url = URL.createObjectURL(blob);
+    edgeAudioCache.set(text, url);
+    return url;
+  })();
+  edgeInflight.set(text, p);
+  try {
+    return await p;
+  } finally {
+    edgeInflight.delete(text);
+  }
+}
 
 // ============================================================
 // 主组件
@@ -200,19 +230,8 @@ export function ReadAloud({
         // 方案 A：Edge TTS
         setIsLoading(true);
 
-        // 优先使用缓存
-        let audioUrl = edgeAudioCache.get(text);
-        if (!audioUrl) {
-          const resp = await fetch("/api/tts", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ text }),
-          });
-          if (!resp.ok) throw new Error(`TTS API error: ${resp.status}`);
-          const blob = await resp.blob();
-          audioUrl = URL.createObjectURL(blob);
-          edgeAudioCache.set(text, audioUrl);
-        }
+        // 缓存命中/in-flight 去重都在 getEdgeAudioUrl 内处理
+        const audioUrl = await getEdgeAudioUrl(text);
 
         const audio = new Audio(audioUrl);
         audioRef.current = audio;
