@@ -76,7 +76,7 @@ export default function DashboardPage() {
             <Link
               key={s.href}
               href={s.href}
-              className={`rounded-[1.5rem] border-4 p-4 shadow-lg backdrop-blur transition hover:-translate-y-1 hover:shadow-xl active:translate-y-0 md:rounded-[2rem] md:p-6 ${s.tint} ${i % 2 === 0 ? "sm:-rotate-1" : "sm:rotate-1"}`}
+              className={`rounded-[1.5rem] border-4 p-4 shadow-lg transition hover:-translate-y-1 hover:shadow-xl active:translate-y-0 md:rounded-[2rem] md:p-6 ${s.tint} ${i % 2 === 0 ? "sm:-rotate-1" : "sm:rotate-1"}`}
             >
               <div className="text-4xl md:text-5xl">{s.emoji}</div>
               <div className="mt-1 font-kids text-xl md:mt-2 md:text-2xl">{s.zh}</div>

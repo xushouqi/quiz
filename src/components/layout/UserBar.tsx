@@ -17,7 +17,7 @@ export function UserBar() {
   };
 
   return (
-    <div className="sticky top-0 z-40 border-b-4 border-cocoa/10 bg-white/90 backdrop-blur">
+    <div className="sticky top-0 z-40 border-b-4 border-cocoa/10 bg-white">
       <div className="mx-auto flex max-w-3xl items-center justify-between px-3 py-1 md:px-4 md:py-2">
         <div className="flex items-center gap-2">
           <span className="text-2xl md:text-3xl">{currentUser.emoji}</span>
