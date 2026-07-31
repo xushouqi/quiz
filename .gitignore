@@ -43,6 +43,8 @@ next-env.d.ts
 # quiz app
 /data/*.db
 /data/*.db-*
+/data/tts-cache/
+/server.log
 
 # playwright test output
 .playwright-mcp/
