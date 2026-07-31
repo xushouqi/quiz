@@ -2,10 +2,10 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
-import { ChoiceButton, type ChoiceVariant } from "@/components/quiz/ChoiceButton";
+import { ChoiceList } from "@/components/quiz/ChoiceList";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import { formatClock } from "@/lib/format";
 import { fetchWithTimeout } from "@/lib/fetch-timeout";
@@ -14,6 +14,111 @@ import type { Question } from "@/lib/types";
 import { useUser } from "@/components/contexts/UserContext";
 
 type Phase = "intro" | "loading" | "running" | "submitting";
+
+// ----------------------------------------------------------------
+// Memoized 子树：每秒倒计时只会重渲染 ExamPage 主体与页头，
+// 题号网格与题卡区域在 props 未变时跳过重渲染（避免 24 个网格按钮
+// + 题卡 + 选项按钮每秒无谓重建）
+// ----------------------------------------------------------------
+const QuestionGrid = memo(function QuestionGrid({
+  questions,
+  current,
+  choices,
+  flagged,
+  onJump,
+}: {
+  questions: Question[];
+  current: number;
+  choices: Record<number, number>;
+  flagged: number[];
+  onJump: (index: number) => void;
+}) {
+  return (
+    <div className="flex shrink-0 flex-wrap justify-center gap-1 md:gap-1.5">
+      {questions.map((item, i) => {
+        const answered = choices[item.id] !== undefined;
+        const isCurrent = i === current;
+        const isFlagged = flagged.includes(item.id);
+        return (
+          <button
+            key={item.id}
+            type="button"
+            onClick={() => onJump(i)}
+            className={`flex h-6 w-6 items-center justify-center rounded-full border-2 font-kids text-xs transition md:h-8 md:w-8 md:text-sm ${isCurrent ? "scale-110 border-sunny" : "border-cocoa/20"} ${answered ? "bg-grass text-white" : "bg-white"} ${isFlagged ? "ring-2 ring-gold" : ""}`}
+          >
+            {i + 1}
+          </button>
+        );
+      })}
+    </div>
+  );
+});
+
+const ExamQuestionArea = memo(function ExamQuestionArea({
+  question,
+  selected,
+  disabled,
+  isFlagged,
+  canPrev,
+  canNext,
+  onSelect,
+  onPrev,
+  onNext,
+  onFlag,
+}: {
+  question: Question;
+  selected: number | undefined;
+  disabled: boolean;
+  isFlagged: boolean;
+  canPrev: boolean;
+  canNext: boolean;
+  onSelect: (questionId: number, choiceIndex: number) => void;
+  onPrev: () => void;
+  onNext: () => void;
+  onFlag: (questionId: number) => void;
+}) {
+  const q = question;
+  return (
+    <>
+      <div className="flex min-h-0 flex-1 flex-col py-1.5">
+        <QuestionCard question={q}>
+          <ChoiceList
+            choices={q.choices}
+            variantFor={(i) => (selected === i ? "selected" : "idle")}
+            disabled={disabled}
+            onSelect={(i2) => onSelect(q.id, i2)}
+          />
+        </QuestionCard>
+      </div>
+
+      <div className="flex shrink-0 items-center justify-between gap-1.5 md:gap-3">
+        <button
+          type="button"
+          disabled={!canPrev}
+          onClick={onPrev}
+          className="rounded-full bg-white px-3 py-1.5 font-kids text-sm shadow disabled:opacity-40 md:px-6 md:py-2.5 md:text-lg"
+        >
+          ← 上一题
+        </button>
+        <button
+          type="button"
+          onClick={() => onFlag(q.id)}
+          className={`rounded-full px-2.5 py-1.5 font-kids text-sm shadow md:px-5 md:py-2.5 md:text-lg ${isFlagged ? "bg-gold" : "bg-white"}`}
+        >
+          🔖 {isFlagged ? "已标记" : "标记"}
+        </button>
+        <button
+          type="button"
+          disabled={!canNext}
+          onClick={onNext}
+          className="rounded-full bg-white px-3 py-1.5 font-kids text-sm shadow disabled:opacity-40 md:px-6 md:py-2.5 md:text-lg"
+        >
+          下一题 →
+        </button>
+      </div>
+    </>
+  );
+});
 
 export default function ExamPage() {
   const router = useRouter();
@@ -60,15 +165,18 @@ export default function ExamPage() {
     if (sessionId === null || phase === "submitting") return;
     setPhase("submitting");
     try {
-      for (const q of questions) {
-        const chosen = choices[q.id];
-        if (chosen === undefined) continue;
-        await fetchWithTimeout("/api/answers", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: chosen, timeSpentSeconds: 0, mode: "exam" }),
-        });
-      }
+      // 并行提交所有作答（服务端为同一 SQLite 连接，内部串行写入，
+      // 但省掉 24 次串行 RTT，交卷等待时间 ≈ 单次最慢请求）
+      const requests = questions
+        .filter((q) => choices[q.id] !== undefined)
+        .map((q) =>
+          fetchWithTimeout("/api/answers", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: choices[q.id], timeSpentSeconds: 0, mode: "exam" }),
+          })
+        );
+      await Promise.all(requests);
       await fetchWithTimeout(`/api/sessions/${sessionId}/finish`, {
         method: "POST",
         headers: { "content-type": "application/json" },
@@ -95,13 +203,20 @@ export default function ExamPage() {
   const answeredCount = useMemo(() => Object.keys(choices).length, [choices]);
   const q = questions[current];
 
-  const variantFor = (i: number): ChoiceVariant =>
-    q && choices[q.id] === i ? "selected" : "idle";
-
-  const toggleFlag = () => {
-    if (!q) return;
-    setFlagged((f) => (f.includes(q.id) ? f.filter((x) => x !== q.id) : [...f, q.id]));
-  };
+  // 稳定引用的回调：保证 memo 化的子树在倒计时 tick 时跳过重渲染
+  const handleJump = useCallback((i: number) => setCurrent(i), []);
+  const handleSelect = useCallback(
+    (questionId: number, choiceIndex: number) =>
+      setChoices((prev) => ({ ...prev, [questionId]: choiceIndex })),
+    []
+  );
+  const handlePrev = useCallback(() => setCurrent((c) => c - 1), []);
+  const handleNext = useCallback(() => setCurrent((c) => c + 1), []);
+  const handleFlag = useCallback(
+    (questionId: number) =>
+      setFlagged((f) => (f.includes(questionId) ? f.filter((x) => x !== questionId) : [...f, questionId])),
+    []
+  );
 
   return (
     <main className="relative min-h-dvh">
@@ -113,7 +228,7 @@ export default function ExamPage() {
             <Kangaroo mood="idle" className="mx-auto h-32 animate-idle-hop" />
             <h1 className="mt-3 text-center font-kids text-4xl">模拟考试 Mock Exam</h1>
             <ul className="mt-5 space-y-2 text-lg">
-              <li>📋 24 道选择题（A/B/C 三个选项）</li>
+              <li>📋 24 道选择题（每题 3–5 个选项，A–E）</li>
               <li>⏰ 限时 75 分钟</li>
               <li>🎁 起始分 24 分：答对加 3/4/5 分，答错扣 1 分，不答不扣分</li>
               <li>🏆 满分 120 分</li>
@@ -167,67 +282,26 @@ export default function ExamPage() {
             </p>
           )}
 
-          <div className="flex shrink-0 flex-wrap justify-center gap-1 md:gap-1.5">
-            {questions.map((item, i) => {
-              const answered = choices[item.id] !== undefined;
-              const isCurrent = i === current;
-              const isFlagged = flagged.includes(item.id);
-              return (
-                <button
-                  key={item.id}
-                  type="button"
-                  onClick={() => setCurrent(i)}
-                  className={`flex h-6 w-6 items-center justify-center rounded-full border-2 font-kids text-xs transition md:h-8 md:w-8 md:text-sm ${isCurrent ? "scale-110 border-sunny" : "border-cocoa/20"} ${answered ? "bg-grass text-white" : "bg-white"} ${isFlagged ? "ring-2 ring-gold" : ""}`}
-                >
-                  {i + 1}
-                </button>
-              );
-            })}
-          </div>
+          <QuestionGrid
+            questions={questions}
+            current={current}
+            choices={choices}
+            flagged={flagged}
+            onJump={handleJump}
+          />
 
-          <div className="flex min-h-0 flex-1 flex-col py-1.5">
-            <QuestionCard question={q}>
-              <div className="space-y-1.5 md:space-y-2">
-                {q.choices.map((c, i) => (
-                  <ChoiceButton
-                    key={i}
-                    index={i}
-                    zh={c.zh}
-                    en={c.en}
-                    variant={variantFor(i)}
-                    disabled={phase === "submitting"}
-                    onSelect={(i2) => setChoices((prev) => ({ ...prev, [q.id]: i2 }))}
-                  />
-                ))}
-              </div>
-            </QuestionCard>
-          </div>
-
-          <div className="flex shrink-0 items-center justify-between gap-1.5 md:gap-3">
-            <button
-              type="button"
-              disabled={current === 0}
-              onClick={() => setCurrent((c) => c - 1)}
-              className="rounded-full bg-white px-3 py-1.5 font-kids text-sm shadow disabled:opacity-40 md:px-6 md:py-2.5 md:text-lg"
-            >
-              ← 上一题
-            </button>
-            <button
-              type="button"
-              onClick={toggleFlag}
-              className={`rounded-full px-2.5 py-1.5 font-kids text-sm shadow md:px-5 md:py-2.5 md:text-lg ${flagged.includes(q.id) ? "bg-gold" : "bg-white"}`}
-            >
-              🔖 {flagged.includes(q.id) ? "已标记" : "标记"}
-            </button>
-            <button
-              type="button"
-              disabled={current === questions.length - 1}
-              onClick={() => setCurrent((c) => c + 1)}
-              className="rounded-full bg-white px-3 py-1.5 font-kids text-sm shadow disabled:opacity-40 md:px-6 md:py-2.5 md:text-lg"
-            >
-              下一题 →
-            </button>
-          </div>
+          <ExamQuestionArea
+            question={q}
+            selected={choices[q.id]}
+            disabled={phase === "submitting"}
+            isFlagged={flagged.includes(q.id)}
+            canPrev={current > 0}
+            canNext={current < questions.length - 1}
+            onSelect={handleSelect}
+            onPrev={handlePrev}
+            onNext={handleNext}
+            onFlag={handleFlag}
+          />
 
           {confirmOpen && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-cocoa/40 p-4">

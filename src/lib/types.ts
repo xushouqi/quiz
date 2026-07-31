@@ -10,6 +10,8 @@ export const SOURCES: Source[] = ["practice", "official", "simulation"];
 export interface Choice {
   zh: string;
   en: string;
+  /** 选项配图描述符（如 "img:/questions-images/xxx.png"）。存在时按钮以图片形式呈现，zh/en 作为朗读/无障碍标签。 */
+  img?: string;
 }
 
 export interface Question {

@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useState } from "react";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
-import { ChoiceButton, type ChoiceVariant } from "@/components/quiz/ChoiceButton";
+import { type ChoiceVariant } from "@/components/quiz/ChoiceButton";
+import { ChoiceList } from "@/components/quiz/ChoiceList";
 import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { Question } from "@/lib/types";
@@ -127,19 +128,12 @@ export default function MistakesPage() {
             </p>
             <div className="flex min-h-0 flex-1 flex-col py-1">
             <QuestionCard question={q}>
-              <div className="space-y-2 md:space-y-3">
-                {q.choices.map((c, i) => (
-                  <ChoiceButton
-                    key={i}
-                    index={i}
-                    zh={c.zh}
-                    en={c.en}
-                    variant={variantFor(i)}
-                    disabled={result !== null}
-                    onSelect={(i2) => void pick(i2)}
-                  />
-                ))}
-              </div>
+              <ChoiceList
+                choices={q.choices}
+                variantFor={variantFor}
+                disabled={result !== null}
+                onSelect={(i2) => void pick(i2)}
+              />
               {result !== null && (
                 <div className="mt-2 animate-pop space-y-2 md:mt-4 md:space-y-3">
                   {result === "correct" ? (

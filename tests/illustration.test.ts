@@ -38,4 +38,14 @@ describe("parseIllustration", () => {
     expect(parseIllustration("svg:bars:a,b")).toEqual({ kind: "none" });
     expect(parseIllustration("svg:bars:3,-1")).toEqual({ kind: "none" });
   });
+  it("parses img descriptors", () => {
+    expect(parseIllustration("img:/questions-images/2026-g12-3pt-stem.png")).toEqual({
+      kind: "img",
+      src: "/questions-images/2026-g12-3pt-stem.png",
+    });
+  });
+  it("falls back to none for empty img descriptors", () => {
+    expect(parseIllustration("img:")).toEqual({ kind: "none" });
+    expect(parseIllustration("img:   ")).toEqual({ kind: "none" });
+  });
 });

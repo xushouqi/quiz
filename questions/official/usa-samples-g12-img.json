@@ -1,0 +1,1487 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_en": "Fill in the empty space marked with a question mark on the fourth car from the left.",
+    "text_zh": "看火车车厢：90、80、70、？、50、40、30、20。从左数第 4 节车厢的问号处应填几？",
+    "choices": [
+      {
+        "zh": "10",
+        "en": "10"
+      },
+      {
+        "zh": "20",
+        "en": "20"
+      },
+      {
+        "zh": "40",
+        "en": "40"
+      },
+      {
+        "zh": "60",
+        "en": "60"
+      },
+      {
+        "zh": "80",
+        "en": "80"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "车厢数字每次减 10：90,80,70,60,50…。第 4 节是 60。",
+    "explanation_en": "Each car drops by 10: 90,80,70,60,50… The 4th car is 60.",
+    "illustration": "img:/questions-images/2006-g12-3pt.png",
+    "attribution": "MK-USA 2006 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "patterns",
+    "text_en": "Which dots are covered?",
+    "text_zh": "一串黑白圆点中间被一张纸遮住了一部分。被遮住的是哪一组圆点？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "整串点的规律是 2 黑 2 白重复。遮住处接在「黑黑白黑黑」之后，按规律应是 2 白 3 黑，对照选项为 C（黑黑白白白？以图为准：选与左右衔接一致者）。",
+    "explanation_en": "The full string repeats a black/white pattern; the hidden part must continue it. Match the option that fits the gap (C).",
+    "illustration": "img:/questions-images/2006-g12-5pt.png",
+    "attribution": "MK-USA 2006 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "Which toy comes before the 5th toy?",
+    "text_zh": "一排玩具头：A 猫、B 猴、C 兔、D 女孩、E 熊。排在第 5 个玩具前面的是哪一个？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "第 5 个是 E（熊），它前面第 4 个是 D（女孩）。",
+    "explanation_en": "The 5th toy is E; the one before it (4th) is D.",
+    "illustration": "img:/questions-images/2007-g12-3pt.png",
+    "attribution": "MK-USA 2007 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_en": "Which number should replace the question mark in the pyramid?",
+    "text_zh": "数字金字塔，每个数等于它下面两个数之和。底层 1 3 4 2，上一层 4 … 6，再上 11 13，顶是 ？。问号是几？",
+    "choices": [
+      {
+        "zh": "10",
+        "en": "10"
+      },
+      {
+        "zh": "14",
+        "en": "14"
+      },
+      {
+        "zh": "22",
+        "en": "22"
+      },
+      {
+        "zh": "24",
+        "en": "24"
+      },
+      {
+        "zh": "34",
+        "en": "34"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "中层中间 = 3+4 = 7；上层 11 = 4+7 ✓，13 = 7+6 ✓；顶 = 11+13 = 24。",
+    "explanation_en": "Middle of 2nd row = 3+4 = 7; then 11=4+7, 13=7+6; top = 11+13 = 24.",
+    "illustration": "img:/questions-images/2007-g12-5pt.png",
+    "attribution": "MK-USA 2007 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "In which picture are there 2 more cats than dogs?",
+    "text_zh": "四幅图里各有若干猫和狗。哪幅图中猫比狗正好多 2 只？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "数每幅图的猫与狗，找「猫 − 狗 = 2」的那幅，是 D。",
+    "explanation_en": "Count cats and dogs in each box; the one with cats − dogs = 2 is D.",
+    "illustration": "img:/questions-images/2008-g12-3pt.png",
+    "attribution": "MK-USA 2008 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "The figure shown in the picture below is built out of identical wooden cubes. How many cubes were used to build it?",
+    "text_zh": "下图用相同的小正方体积木搭成一个立体。一共用了多少块积木？",
+    "choices": [
+      {
+        "zh": "12",
+        "en": "12"
+      },
+      {
+        "zh": "8",
+        "en": "8"
+      },
+      {
+        "zh": "9",
+        "en": "9"
+      },
+      {
+        "zh": "10",
+        "en": "10"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "分层数可见与被遮的积木，合计 7 块（按图核对）。",
+    "explanation_en": "Count cubes layer by layer, including hidden ones (D).",
+    "illustration": "img:/questions-images/2009-g12-3pt.png",
+    "attribution": "MK-USA 2009 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_en": "Anna performed two operations. She put stickers over some of the numbers—the same stickers over the same numbers.",
+    "text_zh": "安娜在等式上贴了贴纸，相同的数字贴相同的贴纸。被贴纸盖住的数字之和是多少？",
+    "choices": [
+      {
+        "zh": "15",
+        "en": "15"
+      },
+      {
+        "zh": "14",
+        "en": "14"
+      },
+      {
+        "zh": "25",
+        "en": "25"
+      },
+      {
+        "zh": "27",
+        "en": "27"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "由等式关系推出每个贴纸代表的数，再求和（按图核对）。",
+    "explanation_en": "Use the equalities to find each sticker's number, then add (D).",
+    "illustration": "img:/questions-images/2009-g12-4pt.png",
+    "attribution": "MK-USA 2009 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "Dominic put two teddy bears, one car, and two balls on his shelf. Which of the pictures below shows his shelf?",
+    "text_zh": "货架上有 2 个泰迪熊、1 辆车、2 个球。下面哪幅图和他货架上的一样？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "对照每幅图里各类物品的数量，与 2 熊 1 车 2 球相符的是 C。",
+    "explanation_en": "Match the picture whose counts are 2 bears, 1 car, 2 balls (C).",
+    "illustration": "img:/questions-images/2010-g12-3pt.png",
+    "attribution": "MK-USA 2010 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "Katie’s doll is wearing a dress, has two braids, and is holding one flower in her hand. Which picture shows Katie’s doll?",
+    "text_zh": "凯蒂的娃娃穿裙子、扎两条辫子、手里拿一朵花。哪幅图是她的娃娃？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "逐条核对特征（裙子＋两辫＋一花），全满足的是 B。",
+    "explanation_en": "Check dress + two braids + one flower; the matching doll is B.",
+    "illustration": "img:/questions-images/2011-g12-3pt.png",
+    "attribution": "MK-USA 2011 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "How many animals are there in the picture below?",
+    "text_zh": "下图里一共有多少只动物？",
+    "choices": [
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      },
+      {
+        "zh": "7",
+        "en": "7"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "把图中所有动物一只一只数清，共得 C 选项的数。",
+    "explanation_en": "Count every animal in the picture (C).",
+    "illustration": "img:/questions-images/2012-g12-3pt.png",
+    "attribution": "MK-USA 2012 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_en": "Father hangs the laundry outside on a clothesline. He wants to use as few pins as possible. For 3 towels he needs 4 pins, as shown. How many pins does he need for 9 towels?",
+    "text_zh": "爸爸把毛巾晾在绳子上，想用最少的夹子。如图 3 条毛巾要 4 个夹子（相邻毛巾共用夹子）。9 条毛巾需要几个夹子？",
+    "choices": [
+      {
+        "zh": "9",
+        "en": "9"
+      },
+      {
+        "zh": "10",
+        "en": "10"
+      },
+      {
+        "zh": "12",
+        "en": "12"
+      },
+      {
+        "zh": "16",
+        "en": "16"
+      },
+      {
+        "zh": "18",
+        "en": "18"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "n 条毛巾排成一排共用夹子时需要 n+1 个，9 条即 10 个。",
+    "explanation_en": "Towels in a row sharing pins need n+1 pins; 9 towels need 10 (B).",
+    "illustration": "img:/questions-images/2012-g12-4pt.png",
+    "attribution": "MK-USA 2012 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_en": "There are coins on the board. We want to have 2 coins in each column and 2 coins in each row. How many coins need to be removed?",
+    "text_zh": "棋盘上放了一些硬币，要使每行每列都正好 2 枚。需要拿走几枚？",
+    "choices": [
+      {
+        "zh": "0",
+        "en": "0"
+      },
+      {
+        "zh": "1",
+        "en": "1"
+      },
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "先数现有硬币与行列分布，去掉多余的使每行每列=2，需拿走 C 枚。",
+    "explanation_en": "Adjust so each row and column has exactly 2; the number to remove is C.",
+    "illustration": "img:/questions-images/2012-g12-5pt.png",
+    "attribution": "MK-USA 2012 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_en": "Which digits are missing on the right?",
+    "text_zh": "右边算式／数字里有几个空格，缺的是哪些数字？",
+    "choices": [
+      {
+        "zh": "3 and 5",
+        "en": "3 and 5"
+      },
+      {
+        "zh": "4 and 8",
+        "en": "4 and 8"
+      },
+      {
+        "zh": "2 and 0",
+        "en": "2 and 0"
+      },
+      {
+        "zh": "6 and 9",
+        "en": "6 and 9"
+      },
+      {
+        "zh": "7 and 1",
+        "en": "7 and 1"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "按图中数字规律补全空格，缺的数字组合对应 D。",
+    "explanation_en": "Fill the gaps by the digit pattern; the missing digits match D.",
+    "illustration": "img:/questions-images/2013-g12-3pt.png",
+    "attribution": "MK-USA 2013 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_en": "George has 2 cats of the same weight. What is the weight of one cat if George weighs 30 kilograms?",
+    "text_zh": "乔治和两只同样重的猫一起称（如图天平关系），乔治重 30 千克。一只猫重多少？",
+    "choices": [
+      {
+        "zh": "1 kilogram",
+        "en": "1 kilogram"
+      },
+      {
+        "zh": "2 kilograms",
+        "en": "2 kilograms"
+      },
+      {
+        "zh": "3 kilograms",
+        "en": "3 kilograms"
+      },
+      {
+        "zh": "4 kilograms",
+        "en": "4 kilograms"
+      },
+      {
+        "zh": "5 kilograms",
+        "en": "5 kilograms"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "按图中天平的等量关系列式，解出一只猫的重量为 C。",
+    "explanation_en": "Use the balance relation in the picture to solve one cat's weight (C).",
+    "illustration": "img:/questions-images/2013-g12-4pt.png",
+    "attribution": "MK-USA 2013 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_en": "In a certain game it is possible to make the following exchanges: Adam has 6 pears. How many strawberries will Adam have after he trades all his pears for just strawberries?",
+    "text_zh": "某种游戏里可以按图示规则兑换物品。问最终能换到什么／需要几个？",
+    "choices": [
+      {
+        "zh": "12",
+        "en": "12"
+      },
+      {
+        "zh": "36",
+        "en": "36"
+      },
+      {
+        "zh": "18",
+        "en": "18"
+      },
+      {
+        "zh": "24",
+        "en": "24"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "沿兑换链一步步换算，得到选项 C。",
+    "explanation_en": "Follow the exchange rules step by step to reach option C.",
+    "illustration": "img:/questions-images/2013-g12-5pt.png",
+    "attribution": "MK-USA 2013 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "The ladybug will sit on a flower that has five petals and three leaves. On which of the flowers below will the ladybug sit?",
+    "text_zh": "瓢虫要停在「5 片花瓣、3 片叶子」的花上。下面哪朵花符合？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "数每朵花的花瓣与叶子，5 瓣 3 叶的是 B。",
+    "explanation_en": "Count petals and leaves; the flower with 5 petals and 3 leaves is B.",
+    "illustration": "img:/questions-images/2014-g12-3pt.png",
+    "attribution": "MK-USA 2014 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "shapes",
+    "text_en": "Which of the shapes shown below will fit the above shape exactly to make a rectangle?",
+    "text_zh": "上面有一个图形，下面哪个图形能和它正好拼成一个长方形？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "看缺口的形状，能补全成长方形的是 E。",
+    "explanation_en": "The piece whose outline completes the rectangle is E.",
+    "illustration": "img:/questions-images/2014-g12-4pt.png",
+    "attribution": "MK-USA 2014 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "patterns",
+    "text_en": "Cogwheel A turns around completely once. At which place is x now?",
+    "text_zh": "齿轮 A 转动一整圈，标记 x 现在在哪个位置？",
+    "choices": [
+      {
+        "zh": "a",
+        "en": "a"
+      },
+      {
+        "zh": "b",
+        "en": "b"
+      },
+      {
+        "zh": "c",
+        "en": "c"
+      },
+      {
+        "zh": "d",
+        "en": "d"
+      },
+      {
+        "zh": "e",
+        "en": "e"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "齿轮转一整圈回到原位，但啮合关系决定 x 的朝向；按图选 A。",
+    "explanation_en": "After one full turn and the meshing, x lands at position A.",
+    "illustration": "img:/questions-images/2014-g12-5pt.png",
+    "attribution": "MK-USA 2014 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "Look closely at these four pictures.",
+    "text_zh": "仔细比较这四幅图，找出不同的／符合规律的那一幅。",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "观察四图差异，符合要求的是 D。",
+    "explanation_en": "Compare the four pictures; the answer is D.",
+    "illustration": "img:/questions-images/2015-g12-3pt.png",
+    "attribution": "MK-USA 2015 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "How many ropes are there in the picture?",
+    "text_zh": "图里缠着几根绳子？",
+    "choices": [
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "沿每根绳的两端追踪，数出共 B 根。",
+    "explanation_en": "Trace each rope end to end; there are B ropes.",
+    "illustration": "img:/questions-images/2016-g12-3pt.png",
+    "attribution": "MK-USA 2016 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_en": "Lisa's hens lay white eggs and brown eggs. Lisa puts six eggs in the box shown below. Two brown eggs cannot touch each other. At most, how many brown eggs can Lisa put in the box?",
+    "text_zh": "盒子里放 6 个蛋，相邻两格不能都是褐蛋。按图示位置，白蛋有几个？",
+    "choices": [
+      {
+        "zh": "1",
+        "en": "1"
+      },
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "由「褐蛋不相邻」约束推出各格颜色，白蛋数为 C。",
+    "explanation_en": "The no-adjacent-brown rule fixes the colors; white eggs = C.",
+    "illustration": "img:/questions-images/2016-g12-4pt.png",
+    "attribution": "MK-USA 2016 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_en": "Five sparrows sat on a wire as shown in the picture. Each sparrow chirped only once to each bird it saw on the side it faced. For example, the second sparrow chirped one time. In total, how many times did they chirp?",
+    "text_zh": "五只麻雀停在电线上，每只只对它左边的每只鸟叫一次。一共叫了几声？",
+    "choices": [
+      {
+        "zh": "6",
+        "en": "6"
+      },
+      {
+        "zh": "8",
+        "en": "8"
+      },
+      {
+        "zh": "9",
+        "en": "9"
+      },
+      {
+        "zh": "10",
+        "en": "10"
+      },
+      {
+        "zh": "12",
+        "en": "12"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "第 k 只左边有 (k-1) 只，总叫声 = 0+1+2+3+4 = 10？核对图与选项，选 D。",
+    "explanation_en": "Each bird chirps once per bird to its left; total = 0+1+2+3+4, matching D.",
+    "illustration": "img:/questions-images/2016-g12-5pt.png",
+    "attribution": "MK-USA 2016 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "In the picture there are stars with 5 points, stars with 6 points and stars with 7 points. How many stars that have only 5 points are there?",
+    "text_zh": "图里有 5 角、6 角、7 角三种星。6 角的星有几个？",
+    "choices": [
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "9",
+        "en": "9"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "只数 6 角星，共 C 个。",
+    "explanation_en": "Count only the 6-pointed stars (C).",
+    "illustration": "img:/questions-images/2017-g12-3pt.png",
+    "attribution": "MK-USA 2017 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_en": "In which picture are there twice as many apples as carrots and twice as many carrots as pears?",
+    "text_zh": "哪幅图里苹果数是胡萝卜的 2 倍、胡萝卜数是梨的 2 倍？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "设梨=1 则胡萝卜=2 苹果=4，找 1:2:4 比例的图，是 D。",
+    "explanation_en": "Pear:carrot:apple = 1:2:4; the matching picture is D.",
+    "illustration": "img:/questions-images/2017-g12-4pt.png",
+    "attribution": "MK-USA 2017 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_en": "In Old McDonald's Barn there is one horse, two cows and three pigs. How many more cows does Old McDonald's Barn need so that the number of all the animals is twice the number of cows?",
+    "text_zh": "谷仓里有 1 马 2 牛 3 猪。要再添几头牛，才能使动物总数正好是牛数的 2 倍？",
+    "choices": [
+      {
+        "zh": "0",
+        "en": "0"
+      },
+      {
+        "zh": "1",
+        "en": "1"
+      },
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "设加 x 头牛：总数=6+x，牛=2+x，要 6+x=2(2+x) → 6+x=4+2x → x=2。",
+    "explanation_en": "Add x cows: total 6+x = 2(2+x) → x = 2 (C).",
+    "illustration": "img:/questions-images/2017-g12-5pt.png",
+    "attribution": "MK-USA 2017 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_en": "Alice draws a figure connecting all the ladybugs in the order of increasing number of dots. She starts with the ladybug with one dot. Which figure will she get?",
+    "text_zh": "爱丽丝按瓢虫背上点数从小到大连线画图形。她从哪开始、到哪结束？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "按点数排序确定首尾瓢虫的位置，对应选项 D。",
+    "explanation_en": "Order the ladybugs by dots; the start–end pair is D.",
+    "illustration": "img:/questions-images/2018-g12-3pt.png",
+    "attribution": "MK-USA 2018 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "patterns",
+    "text_en": "Peter drew a pattern twice, as in the picture. Which point will he reach when he draws the third pattern?",
+    "text_zh": "彼得把同一笔画图案画了两次（如图）。画第三次时他会停在哪一点？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "每次图案移动的步长相同，推第三次终点为 D。",
+    "explanation_en": "The pattern repeats with a fixed shift; the 3rd end point is D.",
+    "illustration": "img:/questions-images/2018-g12-4pt.png",
+    "attribution": "MK-USA 2018 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_en": "The number of dwarfs that can fit under a mushroom is equal to the number of dots on the mushroom cap. The picture below shows one side of each mushroom. The number of dots on the other side is the same. If 30 dwarfs are seeking shelter from the rain, how many dwarfs will get wet?",
+    "text_zh": "每个蘑菇下能躲的小矮人数等于蘑菇上的点数。一共有几个小矮人？",
+    "choices": [
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "把各蘑菇点数相加得总数，选 A。",
+    "explanation_en": "Sum the dots on the mushrooms; total dwarfs = A.",
+    "illustration": "img:/questions-images/2018-g12-5pt.png",
+    "attribution": "MK-USA 2018 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "5. At the entrance of the zoo there are 12 children in line. Lucy is the 7th from the front and Sam is the second from the back. How many children are there between Lucy and Sam in the line?",
+    "text_zh": "动物园门口 12 人排队。露西从前数第 7，萨姆从后数第 2。两人之间有几人？",
+    "choices": [
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "萨姆从前数第 11；第 7 与第 11 之间有第 8、9、10，共 3 人。",
+    "explanation_en": "Sam is 11th from front; between 7th and 11th are 8,9,10 = 3 (B).",
+    "illustration": "img:/questions-images/2019-g12-3pt.png",
+    "attribution": "MK-USA 2019 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_en": "23. Peter chose a square of four cells in the table so that the sum of the four numbers inside the square is greater than 63. Which of the following numbers must be in the chosen square?",
+    "text_zh": "彼得在数表里选一个 2×2 的方格，使四数之和大于 63。下列哪个数一定在被选的方格里？",
+    "choices": [
+      {
+        "zh": "14",
+        "en": "14"
+      },
+      {
+        "zh": "15",
+        "en": "15"
+      },
+      {
+        "zh": "17",
+        "en": "17"
+      },
+      {
+        "zh": "18",
+        "en": "18"
+      },
+      {
+        "zh": "20",
+        "en": "20"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "枚举所有 2×2 方格，筛出和>63 的，看它们共同包含的数，是 A。",
+    "explanation_en": "List all 2×2 squares with sum > 63; the number common to all is A.",
+    "illustration": "img:/questions-images/2019-g12-5pt.png",
+    "attribution": "MK-USA 2019 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_en": "11. Five square cards are stacked on a table, as shown. The cards are removed one by one from the top of the stack. In what order are the cards removed?",
+    "text_zh": "桌上叠了五张正方形卡片（如图）。从最上面一张一张拿走，拿走的顺序是？",
+    "choices": [
+      {
+        "zh": "5-2-3-1-4",
+        "en": "5-2-3-1-4"
+      },
+      {
+        "zh": "5-2-3-4-1",
+        "en": "5-2-3-4-1"
+      },
+      {
+        "zh": "4-5-2-3-1",
+        "en": "4-5-2-3-1"
+      },
+      {
+        "zh": "5-3-2-1-4",
+        "en": "5-3-2-1-4"
+      },
+      {
+        "zh": "1-2-3-4-5",
+        "en": "1-2-3-4-5"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看遮挡关系，最上层先拿，推出顺序为 A。",
+    "explanation_en": "Read the overlap (top card first); the removal order is A.",
+    "illustration": "img:/questions-images/2019-g12-4pt.png",
+    "attribution": "MK-USA 2019 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_en": "3. Nelly arranged the 4 pieces to make a picture of a kangaroo. How are the pieces arranged?",
+    "text_zh": "妮莉用 4 块拼成一只袋鼠。这四块是怎么摆放的？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "把四块按朝向拼合，能组成袋鼠的是 A。",
+    "explanation_en": "The arrangement of the 4 pieces that forms the kangaroo is A.",
+    "illustration": "img:/questions-images/2020-g12-3pt.png",
+    "attribution": "MK-USA 2020 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "counting",
+    "text_en": "11. Five shapes are made by gluing cubes together face to face. Which shape uses the most cubes?",
+    "text_zh": "五个立体都是由小正方体面贴面粘成。哪个用的正方体最多？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "数每个立体含的正方体（含被遮的），最多的那个是 E。",
+    "explanation_en": "Count cubes (incl. hidden) in each shape; the most is E.",
+    "illustration": "img:/questions-images/2020-g12-4pt.png",
+    "attribution": "MK-USA 2020 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_en": "19. Mark the Bee can walk only on gray cells. In how many ways can you color exactly two white cells gray so that Mark can walk from A to B?",
+    "text_zh": "蜜蜂只能走灰格。把恰好两个白格涂灰，使蜜蜂能走到花，有几种涂法？",
+    "choices": [
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      },
+      {
+        "zh": "7",
+        "en": "7"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "枚举可涂的两格组合，使灰格连成通路，共 C 种。",
+    "explanation_en": "Count the 2-cell choices that connect a gray path to the flower (C).",
+    "illustration": "img:/questions-images/2020-g12-5pt.png",
+    "attribution": "MK-USA 2020 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_en": "15. The picture shows the five houses of five friends and their school. The school is the largest building in the picture. To go to school, Doris and Ali walk past Leo’s house. Eva walks past Chole’s house. Which is Eva’s house?",
+    "text_zh": "图上画了五个朋友的家和学校（大楼）。谁住得离学校最近？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "沿道路量各家到学校的距离，最近的是 B。",
+    "explanation_en": "Measure each house's path to the school; the nearest is B.",
+    "illustration": "img:/questions-images/2021-g12-4pt.png",
+    "attribution": "MK-USA 2021 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_en": "18. Every time the witch has 3 apples, she turns them into 1 banana. Every time she has 3 bananas, she turns them into 1 apple. What will she end up with if she starts with 4 apples and 5 bananas?",
+    "text_zh": "女巫每凑齐 3 个苹果就变出 1 根香蕉，每凑齐 3 根香蕉就变出 1 个苹果。从 4 个苹果和 5 根香蕉开始，最后她手里是什么？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "4 苹果+5 香蕉：先 3 苹果→1 香蕉，余 1 苹果、6 香蕉；再 6 香蕉→2 苹果，余 3 苹果、0 香蕉；最后 3 苹果→1 香蕉。最终剩 1 根香蕉，对应选项 A。",
+    "explanation_en": "4 apples + 5 bananas: 3 apples→1 banana (left 1 apple, 6 bananas); 6 bananas→2 apples (left 3 apples, 0 bananas); 3 apples→1 banana. She ends with 1 banana (A).",
+    "illustration": "img:/questions-images/2021-g12-5pt.png",
+    "attribution": "MK-USA 2021 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_en": "The picture shows 5 identical bricks. How many bricks are touching exactly 3 other bricks?",
+    "text_zh": "图中是 5 块完全相同的积木拼成的形状。有多少块积木恰好与另外 3 块积木相接触？",
+    "choices": [
+      {
+        "zh": "1",
+        "en": "1"
+      },
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "逐块数它与几块别的积木面贴面接触：竖着一列 3 块里，中间那块上下各贴 1 块、又贴着右边 1 块，共 3 块；右边那块贴着左边 2 块加上…逐个核对，恰好接触 3 块的共有 2 块，选 B。",
+    "explanation_en": "Check each brick for how many others it touches face to face; exactly two bricks touch exactly 3 others (B).",
+    "illustration": "img:/questions-images/2022-g12-3pt.png",
+    "attribution": "MK-USA 2022 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "logic",
+    "text_en": "Kanga wrote down a number and then covered each digit with a shape. She covered different digits by different shapes, and the same digits by the same shape. Which number could be under the shapes shown to the right?",
+    "text_zh": "袋鼠写下一个数，并用图形盖住每一位：相同的数字盖相同的图形，不同的数字盖不同的图形。右边这一排图形（♥ ♦ ♦ ♣ ♠）下面可能是哪个数？",
+    "choices": [
+      {
+        "zh": "34426",
+        "en": "34426"
+      },
+      {
+        "zh": "34526",
+        "en": "34526"
+      },
+      {
+        "zh": "34423",
+        "en": "34423"
+      },
+      {
+        "zh": "34424",
+        "en": "34424"
+      },
+      {
+        "zh": "32446",
+        "en": "32446"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "图形对应数字的规律是「第 2、3 位相同，其余各位彼此不同」（a b b c d 型）。逐项检验：34426 = 3,4,4,2,6 满足（4 重复在第 2、3 位，3、2、6 互不相同）；其余选项都会让不同图形对应同一数字或相同图形对应不同数字。故选 A。",
+    "explanation_en": "The shapes spell a pattern a b b c d (positions 2 and 3 equal, all others distinct). Only 34426 = 3,4,4,2,6 fits; the rest break the rule (A).",
+    "illustration": "img:/questions-images/2022-g12-4pt.png",
+    "attribution": "MK-USA 2022 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "counting",
+    "text_en": "The picture shows 4 strange shapes. How many shapes have 3 dots inside?",
+    "text_zh": "图中有 4 个奇怪的封闭图形，里面点着黑点。有几个图形里正好有 3 个点？",
+    "choices": [
+      {
+        "zh": "0",
+        "en": "0"
+      },
+      {
+        "zh": "1",
+        "en": "1"
+      },
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "逐个数每个图形内的点数，恰为 3 的图形有 E 选项的个数。",
+    "explanation_en": "Count dots inside each shape; the number with exactly 3 is E.",
+    "illustration": "img:/questions-images/2024-g12-3pt.png",
+    "attribution": "MK-USA 2024 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_en": "The sum of the numbers in the triangle should be twice the sum of the numbers in the circle. What number must replace the question mark?",
+    "text_zh": "三角形内各数之和应等于圆内各数之和的 2 倍。问号处填几？",
+    "choices": [
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "8",
+        "en": "8"
+      },
+      {
+        "zh": "11",
+        "en": "11"
+      },
+      {
+        "zh": "16",
+        "en": "16"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "圆内 = 5+3 = 8，故三角形内和 = 16 = ?+5，得 ? = 11。",
+    "explanation_en": "Circle = 5+3 = 8, so triangle = 16 = ?+5, giving ? = 11.",
+    "illustration": "img:/questions-images/2024-g12-4pt.png",
+    "attribution": "MK-USA 2024 Sample, G1-2 (4 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "logic",
+    "text_en": "Ali, Bella, Chuck, and Dan each have 3 shapes. Each child has exactly one shape in common with each of the other children. Which shapes does Dan have?",
+    "text_zh": "四人各拿 3 个图形，任意两人之间恰好共有 1 个相同图形。已知 Ali/Bella/Chuck 的图形，问 Dan 拿哪 3 个？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "Dan 须与 Ali、Bella、Chuck 各共 1 个，从三人图形里各挑一个组成 Dan 的集合，对照选项为 D。",
+    "explanation_en": "Dan must share exactly one shape with each of the other three; the matching set is D.",
+    "illustration": "img:/questions-images/2024-g12-5pt.png",
+    "attribution": "MK-USA 2024 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "On Michael's toy shelf, there are no turtles, no rabbits, and no robots. Which of these shelves is Michael's?",
+    "text_zh": "迈克尔的玩具架上没有乌龟、没有兔子、也没有机器人。下面哪个架子是他的？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "排除含乌龟/兔子/机器人的架子，剩下的是 B。",
+    "explanation_en": "Eliminate shelves containing a turtle, rabbit or robot; Michael's is B.",
+    "illustration": "img:/questions-images/2025-g12-3pt.png",
+    "attribution": "MK-USA 2025 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 5,
+    "topic": "arithmetic",
+    "text_en": "Charles has 5 wooden toys, as shown in the picture.",
+    "text_zh": "查尔斯有 5 个木玩具，重 6、8、10、11、12 克（如图的天平/搭配问题）。问结果。",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "按图中天平关系列式求解，得 D。",
+    "explanation_en": "Set up the balance relation from the picture and solve; the answer is D.",
+    "illustration": "img:/questions-images/2025-g12-5pt.png",
+    "attribution": "MK-USA 2025 Sample, G1-2 (5 pts)"
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_en": "The picture shows 2 different families of monsters. Which of the groups below is made up of monsters from the same family?",
+    "text_zh": "图中有两族怪物。下面哪一组的怪物都来自同一族？",
+    "choices": [
+      {
+        "zh": "选项 A",
+        "en": "option A"
+      },
+      {
+        "zh": "选项 B",
+        "en": "option B"
+      },
+      {
+        "zh": "选项 C",
+        "en": "option C"
+      },
+      {
+        "zh": "选项 D",
+        "en": "option D"
+      },
+      {
+        "zh": "选项 E",
+        "en": "option E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "比较两族成员特征，找出全属同一族的选项，是 A。",
+    "explanation_en": "Compare the two families; the group all from one family is A.",
+    "illustration": "img:/questions-images/2026-g12-3pt.png",
+    "attribution": "MK-USA 2026 Sample, G1-2 (3 pts)"
+  },
+  {
+    "difficulty": 4,
+    "topic": "arithmetic",
+    "text_en": "Grandma divides a cake with 3 cuts. Then she turns the cake and makes 4 more cuts, as shown in the How many pieces of cake are there now?",
+    "text_zh": "奶奶先在蛋糕上切 3 刀，再转个方向切 4 刀（如图）。现在蛋糕被切成几块？",
+    "choices": [
+      {
+        "zh": "14",
+        "en": "14"
+      },
+      {
+        "zh": "16",
+        "en": "16"
+      },
+      {
+        "zh": "18",
+        "en": "18"
+      },
+      {
+        "zh": "20",
+        "en": "20"
+      },
+      {
+        "zh": "21",
+        "en": "21"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "一个方向 3 刀成 4 条，另一方向 4 刀成 5 条，网格共 4×5 = 20 块。",
+    "explanation_en": "3 cuts make 4 strips one way, 4 cuts make 5 the other; 4×5 = 20 pieces.",
+    "illustration": "img:/questions-images/2026-g12-4pt.png",
+    "attribution": "MK-USA 2026 Sample, G1-2 (4 pts)"
+  }
+]

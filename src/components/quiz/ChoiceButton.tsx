@@ -1,6 +1,6 @@
 "use client";
 
-const LETTERS = ["A", "B", "C"] as const;
+const LETTERS = ["A", "B", "C", "D", "E"] as const;
 
 export type ChoiceVariant = "idle" | "wrong" | "correct" | "dimmed" | "selected";
 
@@ -16,6 +16,7 @@ export function ChoiceButton({
   index,
   zh,
   en,
+  img,
   variant,
   disabled,
   onSelect,
@@ -23,10 +24,38 @@ export function ChoiceButton({
   index: number;
   zh: string;
   en: string;
+  img?: string;
   variant: ChoiceVariant;
   disabled: boolean;
   onSelect: (index: number) => void;
 }) {
+  const letter = LETTERS[index] ?? String(index + 1);
+
+  // 图片选项：方形磁贴，图为主，字母角标 + 无障碍/朗读标签用文字描述
+  if (img) {
+    return (
+      <button
+        type="button"
+        disabled={disabled}
+        onClick={() => onSelect(index)}
+        aria-label={`${letter}. ${zh}`}
+        className={`relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-2xl border-4 p-1.5 transition active:translate-y-1 md:rounded-3xl md:p-2 ${VARIANT_CLASS[variant]} ${disabled ? "cursor-default" : "cursor-pointer"}`}
+      >
+        <span className="absolute left-1 top-1 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-sunny font-kids text-sm text-white shadow md:h-7 md:w-7 md:text-base">
+          {letter}
+        </span>
+        <span className="sr-only">{zh} {en}</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={img}
+          alt={zh}
+          draggable={false}
+          className="max-h-full max-w-full select-none object-contain"
+        />
+      </button>
+    );
+  }
+
   return (
     <button
       type="button"
@@ -35,7 +64,7 @@ export function ChoiceButton({
       className={`flex w-full items-center gap-2.5 rounded-2xl border-4 p-2.5 text-left transition active:translate-y-1 md:gap-3 md:rounded-3xl md:p-3 ${VARIANT_CLASS[variant]} ${disabled ? "cursor-default" : "cursor-pointer"}`}
     >
       <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-sunny font-kids text-xl text-white shadow md:h-11 md:w-11 md:text-2xl">
-        {LETTERS[index]}
+        {letter}
       </span>
       <span className="min-w-0">
         <span className="block text-lg font-bold leading-tight md:text-xl">{zh}</span>

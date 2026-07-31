@@ -5,10 +5,16 @@ export type ParsedIllustration =
   | { kind: "grid" }
   | { kind: "diagsquare" }
   | { kind: "dice"; pips: number }
-  | { kind: "bars"; heights: number[] };
+  | { kind: "bars"; heights: number[] }
+  | { kind: "img"; src: string };
 
 export function parseIllustration(desc: string | null | undefined): ParsedIllustration {
   if (!desc) return { kind: "none" };
+  if (desc.startsWith("img:")) {
+    const src = desc.slice(4).trim();
+    if (src) return { kind: "img", src };
+    return { kind: "none" };
+  }
   if (desc.startsWith("emoji:")) return { kind: "emoji", content: desc.slice(6) };
   if (desc.startsWith("svg:clock:")) {
     const [h, m] = desc.slice(10).split(":").map(Number);
@@ -52,6 +58,19 @@ export function Illustration({ descriptor }: { descriptor: string | null }) {
       return <Dice pips={parsed.pips} />;
     case "bars":
       return <Bars heights={parsed.heights} />;
+    case "img":
+      return (
+        <div className="flex justify-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={parsed.src}
+            alt=""
+            loading="lazy"
+            draggable={false}
+            className="max-h-40 w-auto select-none object-contain md:max-h-52"
+          />
+        </div>
+      );
     default:
       return null;
   }

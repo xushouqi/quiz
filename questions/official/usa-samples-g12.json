@@ -5,9 +5,18 @@
     "text_en": "The pink tower is taller than the red tower but shorter than the green tower. The silver tower is taller than the green tower. Which tower is the tallest?",
     "text_zh": "粉塔比红塔高，但比绿塔矮。银塔比绿塔还要高。哪座塔最高？",
     "choices": [
-      { "zh": "绿塔", "en": "green tower" },
-      { "zh": "粉塔", "en": "pink tower" },
-      { "zh": "银塔", "en": "silver tower" }
+      {
+        "zh": "绿塔",
+        "en": "green tower"
+      },
+      {
+        "zh": "粉塔",
+        "en": "pink tower"
+      },
+      {
+        "zh": "银塔",
+        "en": "silver tower"
+      }
     ],
     "correct_index": 2,
     "explanation_zh": "银塔比绿塔高，绿塔比粉塔高，粉塔比红塔高，所以银塔最高。",
@@ -16,30 +25,23 @@
     "attribution": "MK-USA 2021 Sample, G1-2 (3 pts)"
   },
   {
-    "difficulty": 3,
-    "topic": "counting",
-    "text_en": "At the entrance of the zoo there are 12 children in line. Lucy is the 7th from the front and Sam is the 2nd from the back. How many children are there between Lucy and Sam in the line?",
-    "text_zh": "动物园门口有 12 个小朋友排成一队。露西从前面数是第 7 个，萨姆从后面数是第 2 个。露西和萨姆之间有几个小朋友？",
-    "choices": [
-      { "zh": "3", "en": "3" },
-      { "zh": "2", "en": "2" },
-      { "zh": "4", "en": "4" }
-    ],
-    "correct_index": 0,
-    "explanation_zh": "露西是第 7 个，萨姆从后数第 2 个就是从前往后第 11 个。第 7 和第 11 中间有第 8、9、10，共 3 个小朋友。",
-    "explanation_en": "Lucy is 7th and Sam is 11th from the front (2nd from the back of 12). Between them stand 8th, 9th, and 10th — 3 children.",
-    "illustration": null,
-    "attribution": "MK-USA 2019 Sample, G1-2 (3 pts)"
-  },
-  {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_en": "There were 12 pieces of fruit on the table. Vera removed 2 pears, 4 apples, and half of the oranges. Now there are only oranges left on the table. How many oranges are left?",
     "text_zh": "桌上有 12 个水果。薇拉拿走了 2 个梨、4 个苹果，还有一半的橘子。现在桌上只剩下橘子了。还剩几个橘子？",
     "choices": [
-      { "zh": "2", "en": "2" },
-      { "zh": "3", "en": "3" },
-      { "zh": "4", "en": "4" }
+      {
+        "zh": "2",
+        "en": "2"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      }
     ],
     "correct_index": 1,
     "explanation_zh": "拿走 2 个梨和 4 个苹果后只剩橘子，说明原来有 12−2−4=6 个橘子；再拿走一半（3 个），还剩 3 个。",
@@ -53,9 +55,18 @@
     "text_en": "Marko has 9 pieces of candy and Tomo has 17 pieces of candy. How many pieces of candy does Tomo need to give to Marko so that each boy has the same number of pieces of candy?",
     "text_zh": "马尔科有 9 颗糖，托莫有 17 颗糖。托莫要给马尔科几颗糖，两个人的糖才会一样多？",
     "choices": [
-      { "zh": "3", "en": "3" },
-      { "zh": "5", "en": "5" },
-      { "zh": "4", "en": "4" }
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "4",
+        "en": "4"
+      }
     ],
     "correct_index": 2,
     "explanation_zh": "两人一共有 9+17=26 颗糖，平分后每人 13 颗。托莫从 17 颗变成 13 颗，要给出 4 颗。",
@@ -65,29 +76,22 @@
   },
   {
     "difficulty": 4,
-    "topic": "patterns",
-    "text_en": "Father hangs towels on a clothesline using as few pins as possible. Neighboring towels share a pin. For 3 towels he needs 4 pins. How many pins does he need for 9 towels?",
-    "text_zh": "爸爸用尽量少的夹子把毛巾挂在晾衣绳上。相邻的毛巾共用一个夹子。挂 3 条毛巾需要 4 个夹子。挂 9 条毛巾需要几个夹子？",
-    "choices": [
-      { "zh": "10", "en": "10" },
-      { "zh": "9", "en": "9" },
-      { "zh": "12", "en": "12" }
-    ],
-    "correct_index": 0,
-    "explanation_zh": "相邻的毛巾共用一个夹子，n 条毛巾需要 n+1 个夹子（3 条要 4 个）。所以 9 条需要 10 个夹子。",
-    "explanation_en": "Neighboring towels share a pin, so n towels need n+1 pins (3 towels need 4). So 9 towels need 10 pins.",
-    "illustration": null,
-    "attribution": "MK-USA 2012 Sample, G1-2 (4 pts)"
-  },
-  {
-    "difficulty": 4,
     "topic": "arithmetic",
     "text_en": "In 36 years, Mark's grandmother will celebrate her 100th birthday. How old is Mark's grandmother now?",
     "text_zh": "再过 36 年，马克的奶奶就要过 100 岁生日了。马克的奶奶现在几岁？",
     "choices": [
-      { "zh": "74", "en": "74" },
-      { "zh": "64", "en": "64" },
-      { "zh": "66", "en": "66" }
+      {
+        "zh": "74",
+        "en": "74"
+      },
+      {
+        "zh": "64",
+        "en": "64"
+      },
+      {
+        "zh": "66",
+        "en": "66"
+      }
     ],
     "correct_index": 1,
     "explanation_zh": "现在的年龄加上 36 年等于 100 岁，所以现在是 100−36=64 岁。",
@@ -101,9 +105,18 @@
     "text_en": "There were 9 four-person tables in the room where Greg had his birthday party. When Greg and all his guests sat down, there were still 7 empty seats. How many guests came to Greg's party?",
     "text_zh": "格雷格开生日派对的房间里有 9 张四人桌。格雷格和所有客人都坐下后，还空着 7 个座位。有多少位客人来参加格雷格的派对？",
     "choices": [
-      { "zh": "29", "en": "29" },
-      { "zh": "27", "en": "27" },
-      { "zh": "28", "en": "28" }
+      {
+        "zh": "29",
+        "en": "29"
+      },
+      {
+        "zh": "27",
+        "en": "27"
+      },
+      {
+        "zh": "28",
+        "en": "28"
+      }
     ],
     "correct_index": 2,
     "explanation_zh": "9 张桌子每张 4 个座位，共 36 个座位。空着 7 个，坐了 29 人；其中 1 人是格雷格，所以客人有 28 位。",
@@ -117,9 +130,18 @@
     "text_en": "Elma took 2 candy bars to school. First she traded each of them for 4 apples, and then she traded each of the apples for 3 mandarin oranges. How many mandarin oranges did she have after all the trading?",
     "text_zh": "埃尔玛带了 2 根糖去学校。她先把每根糖换成 4 个苹果，再把每个苹果换成 3 个橘子。换完后她一共有多少个橘子？",
     "choices": [
-      { "zh": "2 × 4 × 3", "en": "2 × 4 × 3" },
-      { "zh": "2 × 4 + 3", "en": "2 × 4 + 3" },
-      { "zh": "2 + 4 × 3", "en": "2 + 4 × 3" }
+      {
+        "zh": "2 × 4 × 3",
+        "en": "2 × 4 × 3"
+      },
+      {
+        "zh": "2 × 4 + 3",
+        "en": "2 × 4 + 3"
+      },
+      {
+        "zh": "2 + 4 × 3",
+        "en": "2 + 4 × 3"
+      }
     ],
     "correct_index": 0,
     "explanation_zh": "2 根糖换 2×4=8 个苹果，8 个苹果每个再换 3 个橘子，一共 2×4×3=24 个橘子。",
@@ -133,9 +155,18 @@
     "text_en": "Which letter is missing from each of the words below? SCHOL · BOK · PRBLEM · QUESTIN",
     "text_zh": "下面每个单词都少了同一个字母，是哪个字母？SCHOL · BOK · PRBLEM · QUESTIN",
     "choices": [
-      { "zh": "A", "en": "A" },
-      { "zh": "O", "en": "O" },
-      { "zh": "E", "en": "E" }
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "O",
+        "en": "O"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
     ],
     "correct_index": 1,
     "explanation_zh": "SCHOOL、BOOK、PROBLEM、QUESTION 每个单词都少了字母 O。",
@@ -149,9 +180,18 @@
     "text_en": "Lucy, Maria, and Anna have a meeting at 12:30. Lucy's walk takes 10 minutes, Maria's a quarter of an hour, and Anna's 40 minutes. At what time must the person who needs the longest time to get to the meeting leave her house?",
     "text_zh": "露西、玛丽亚和安娜约好 12:30 见面。露西走路要 10 分钟，玛丽亚要一刻钟（15 分钟），安娜要 40 分钟。路上花时间最长的那个人，应该几点从家里出发？",
     "choices": [
-      { "zh": "12:00", "en": "12:00" },
-      { "zh": "12:10", "en": "12:10" },
-      { "zh": "11:50", "en": "11:50" }
+      {
+        "zh": "12:00",
+        "en": "12:00"
+      },
+      {
+        "zh": "12:10",
+        "en": "12:10"
+      },
+      {
+        "zh": "11:50",
+        "en": "11:50"
+      }
     ],
     "correct_index": 2,
     "explanation_zh": "走得最慢的是安娜，要 40 分钟。从 12:30 往前推 40 分钟，就是 11:50。",
@@ -165,9 +205,18 @@
     "text_en": "A cat has 7 kittens. One male kitten is named Albert, and one female kitten is named Stella. Stella has twice as many brothers as Albert. How many sisters does Stella have?",
     "text_zh": "一只猫妈妈有 7 只小猫。一只公猫叫阿尔贝，一只母猫叫斯特拉。斯特拉的兄弟数量是阿尔贝的两倍。斯特拉有几只姐妹？",
     "choices": [
-      { "zh": "4", "en": "4" },
-      { "zh": "3", "en": "3" },
-      { "zh": "5", "en": "5" }
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      }
     ],
     "correct_index": 0,
     "explanation_zh": "设公猫 M 只、母猫 F 只，M+F=7。阿尔贝的兄弟是 M−1，斯特拉的兄弟是 M。由 M=2×(M−1) 得 M=2，所以 F=5。斯特拉的姐妹是 F−1=4 只。",
@@ -181,9 +230,18 @@
     "text_en": "Each year, Maria receives teddy bears for her birthday. For her first birthday she received 1 teddy bear, for her second 2 teddy bears, and for each following birthday one more than the previous year. How many teddy bears does Maria have in total if she is 6 years old?",
     "text_zh": "每年生日玛丽亚都会收到泰迪熊。1 岁生日收到 1 只，2 岁生日收到 2 只，以后每个生日都比上一年多收到 1 只。如果她现在 6 岁，她一共有多少只泰迪熊？",
     "choices": [
-      { "zh": "20", "en": "20" },
-      { "zh": "21", "en": "21" },
-      { "zh": "22", "en": "22" }
+      {
+        "zh": "20",
+        "en": "20"
+      },
+      {
+        "zh": "21",
+        "en": "21"
+      },
+      {
+        "zh": "22",
+        "en": "22"
+      }
     ],
     "correct_index": 1,
     "explanation_zh": "她每年分别收到 1、2、3、4、5、6 只泰迪熊，一共 1+2+3+4+5+6=21 只。",
@@ -194,28 +252,21 @@
   {
     "difficulty": 5,
     "topic": "logic",
-    "text_en": "In Old McDonald's barn there is one horse, two cows and three pigs. How many more cows does the barn need so that the number of all the animals is twice the number of cows?",
-    "text_zh": "老麦克唐纳的谷仓里有 1 匹马、2 头牛和 3 头猪。还要再加几头牛，才能让动物总数正好是牛的数量的两倍？",
-    "choices": [
-      { "zh": "1", "en": "1" },
-      { "zh": "3", "en": "3" },
-      { "zh": "2", "en": "2" }
-    ],
-    "correct_index": 2,
-    "explanation_zh": "现在有 1+2+3=6 只动物。再加 x 头牛后，总数是 6+x，牛是 2+x。要 6+x=2×(2+x)，解出 x=2（这时牛有 4 头，总共 8 只）。",
-    "explanation_en": "There are 1+2+3=6 animals now. Adding x cows gives 6+x total and 2+x cows. Solving 6+x=2(2+x) gives x=2 (then 4 cows and 8 total).",
-    "illustration": null,
-    "attribution": "MK-USA 2017 Sample, G1-2 (5 pts)"
-  },
-  {
-    "difficulty": 5,
-    "topic": "logic",
     "text_en": "A ship was attacked by pirates. One by one the pirates climbed a rope to get to the ship. The pirate captain was the eighth pirate to climb, and there were as many pirates in front of him as behind him. How many pirates climbed the rope?",
     "text_zh": "一艘船遭到了海盗袭击。海盗们一个接一个地顺着绳子爬上船。海盗船长是第 8 个爬上去的，他前面的海盗和后面的海盗一样多。一共有多少个海盗爬上了绳子？",
     "choices": [
-      { "zh": "15", "en": "15" },
-      { "zh": "12", "en": "12" },
-      { "zh": "16", "en": "16" }
+      {
+        "zh": "15",
+        "en": "15"
+      },
+      {
+        "zh": "12",
+        "en": "12"
+      },
+      {
+        "zh": "16",
+        "en": "16"
+      }
     ],
     "correct_index": 0,
     "explanation_zh": "船长是第 8 个爬上去的，他前面有 7 个。前后一样多，后面也有 7 个。一共 7+1+7=15 个海盗。",
@@ -229,9 +280,18 @@
     "text_en": "Fido the dog, Philemon the cat and 4 monkeys together weigh 24 lbs. Fido and one monkey together weigh 11 lbs. Philemon and 2 monkeys together weigh 1 lb less than Fido and one monkey together. Each monkey weighs the same. How much does Philemon weigh?",
     "text_zh": "小狗菲多、小猫菲利蒙和 4 只猴子一共重 24 磅。菲多和 1 只猴子一共重 11 磅。菲利蒙和 2 只猴子一共比菲多和 1 只猴子轻 1 磅。每只猴子一样重。菲利蒙重多少磅？",
     "choices": [
-      { "zh": "3 磅", "en": "3 lbs" },
-      { "zh": "4 磅", "en": "4 lbs" },
-      { "zh": "5 磅", "en": "5 lbs" }
+      {
+        "zh": "3 磅",
+        "en": "3 lbs"
+      },
+      {
+        "zh": "4 磅",
+        "en": "4 lbs"
+      },
+      {
+        "zh": "5 磅",
+        "en": "5 lbs"
+      }
     ],
     "correct_index": 1,
     "explanation_zh": "设每只猴 m 磅、狗 F 磅、猫 P 磅。F+m=11，P+2m=10，F+P+4m=24。代入得 (11−m)+(10−2m)+4m=24，解出 m=3，所以 P=10−6=4 磅。",
@@ -245,9 +305,18 @@
     "text_en": "A dog, a cat, and a monkey together weigh 12 pounds. A cat and 2 monkeys weigh 10 pounds. A dog and 3 monkeys together weigh 2 pounds more than a cat, a dog, and one monkey. How much does a cat weigh?",
     "text_zh": "一只狗、一只猫和一只猴子一共重 12 磅。一只猫和 2 只猴子重 10 磅。一只狗和 3 只猴子比一只猫、一只狗和一只猴子重 2 磅。一只猫重多少磅？",
     "choices": [
-      { "zh": "3 磅", "en": "3 pounds" },
-      { "zh": "5 磅", "en": "5 pounds" },
-      { "zh": "4 磅", "en": "4 pounds" }
+      {
+        "zh": "3 磅",
+        "en": "3 pounds"
+      },
+      {
+        "zh": "5 磅",
+        "en": "5 pounds"
+      },
+      {
+        "zh": "4 磅",
+        "en": "4 pounds"
+      }
     ],
     "correct_index": 2,
     "explanation_zh": "设狗 D、猫 C、猴 M。D+C+M=12，C+2M=10，D+3M=(D+C+M)+2=14。代入解得 M=3，所以 C=4 磅。",
@@ -261,9 +330,18 @@
     "text_en": "In a zoo there were 19 animals: 4 chimpanzees and 3 baboons. The rest were gorillas, placed in three cages with the same number of gorillas in each cage. How many gorillas were in one cage?",
     "text_zh": "动物园里有 19 只动物：4 只黑猩猩和 3 只狒狒。剩下的都是大猩猩，它们被分到 3 个笼子里，每个笼子的大猩猩一样多。一个笼子里有几只大猩猩？",
     "choices": [
-      { "zh": "4", "en": "4" },
-      { "zh": "3", "en": "3" },
-      { "zh": "5", "en": "5" }
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "3",
+        "en": "3"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      }
     ],
     "correct_index": 0,
     "explanation_zh": "大猩猩有 19−4−3=12 只，平均分到 3 个笼子里，每笼 12÷3=4 只。",
@@ -277,9 +355,18 @@
     "text_en": "There are equal numbers of cats, dogs, and chickens in the yard. Together they have 50 legs. How many cats are there in the yard?",
     "text_zh": "院子里的猫、狗和鸡一样多。它们一共有 50 条腿。院子里有几只猫？",
     "choices": [
-      { "zh": "4", "en": "4" },
-      { "zh": "5", "en": "5" },
-      { "zh": "6", "en": "6" }
+      {
+        "zh": "4",
+        "en": "4"
+      },
+      {
+        "zh": "5",
+        "en": "5"
+      },
+      {
+        "zh": "6",
+        "en": "6"
+      }
     ],
     "correct_index": 1,
     "explanation_zh": "设各有 n 只。猫 4 条腿、狗 4 条腿、鸡 2 条腿，一共 4n+4n+2n=10n=50，所以 n=5，猫有 5 只。",

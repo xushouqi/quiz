@@ -13,7 +13,7 @@
 ## 快速开始
 
     npm install
-    npm run seed     # 导入题库（54 道双语题）→ data/quiz.db
+    npm run seed     # 导入题库（216 道双语题，含官方带图样题）→ data/quiz.db
     npm run dev      # 打开 http://localhost:3000
 
 ## 常用命令
@@ -34,8 +34,10 @@
 - `questions/simulation/`：原创仿真题（`source='simulation'`），用于模拟考试按难度补齐
 
 编辑各目录下 JSON（每主题/每卷一个文件）。每题必须包含：`difficulty`（3/4/5）、`topic`、
-双语题干（`text_zh`/`text_en`）、恰好 3 个双语选项（`choices`）、`correct_index`（0/1/2）、双语解析。
-`illustration` 可选：`emoji:🍎🍎`、`svg:clock:6:30`、`svg:grid`、`svg:diagsquare`、`svg:dice:5`、`svg:bars:3,5,2`。
+双语题干（`text_zh`/`text_en`）、3–5 个双语选项（`choices`）、`correct_index`（0..选项数-1）、双语解析。
+`illustration` 可选：`emoji:🍎🍎`、`svg:clock:6:30`、`svg:grid`、`svg:diagsquare`、`svg:dice:5`、`svg:bars:3,5,2`，
+或真实图片 `img:/questions-images/xxx.png`（图片放在 `public/questions-images/`，官方带图样题即用此形式）。
+选项本身是图片时，给该选项加 `img` 字段（描述符同上），`zh`/`en` 作为朗读/无障碍标签。
 官方题可加可选字段 `attribution`（字符串，如 `"MK-USA 2024 G1-2 Q3"`）。
 
 > ⚠️ 重新 seed 会清空作答历史（题目 ID 会变化），星星与错题本随之重置。

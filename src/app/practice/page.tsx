@@ -5,7 +5,8 @@ import { useRouter } from "next/navigation";
 import { useCallback, useRef, useState } from "react";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
-import { ChoiceButton, type ChoiceVariant } from "@/components/quiz/ChoiceButton";
+import { type ChoiceVariant } from "@/components/quiz/ChoiceButton";
+import { ChoiceList } from "@/components/quiz/ChoiceList";
 import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
 import type { Question, Topic } from "@/lib/types";
@@ -76,17 +77,26 @@ export default function PracticePage() {
   }, [currentUser, router]);
 
   const pick = useCallback(
-    async (i: number) => {
+    (i: number) => {
       if (feedback !== null || sessionId === null) return;
       const q = questions[index];
       setPicked(i);
       const correct = i === q.correct_index;
       const timeSpentSeconds = Math.max(0, Math.round((Date.now() - shownAt.current) / 1000));
-      await fetchWithTimeout("/api/answers", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({ sessionId, questionId: q.id, chosenIndex: i, timeSpentSeconds }),
-      });
+
+      // 作答持久化：不阻塞反馈，后台发送；失败自动重试一次
+      // （本地 SQLite 服务极少失败；重试仍失败时记录警告，不影响孩子继续练习）
+      const payload = JSON.stringify({ sessionId, questionId: q.id, chosenIndex: i, timeSpentSeconds });
+      const send = () =>
+        fetchWithTimeout("/api/answers", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: payload,
+        });
+      void send().catch(() =>
+        send().catch((e) => console.warn("[practice] 作答保存失败 answer not saved:", e))
+      );
+
       if (correct) {
         const stars = attempt === 0 ? 3 : 1;
         setEarned((e) => e + stars);
@@ -187,19 +197,12 @@ export default function PracticePage() {
 
           <div className="flex min-h-0 flex-1 flex-col py-1">
             <QuestionCard question={q}>
-            <div className="space-y-2 md:space-y-3">
-              {q.choices.map((c, i) => (
-                <ChoiceButton
-                  key={i}
-                  index={i}
-                  zh={c.zh}
-                  en={c.en}
-                  variant={variantFor(i)}
-                  disabled={feedback !== null}
-                  onSelect={(i2) => void pick(i2)}
-                />
-              ))}
-            </div>
+            <ChoiceList
+              choices={q.choices}
+              variantFor={variantFor}
+              disabled={feedback !== null}
+              onSelect={(i2) => void pick(i2)}
+            />
 
             {feedback?.kind === "encourage" && (
               <p className="mt-2 animate-pop rounded-2xl bg-gold/40 p-2 text-center font-kids text-base md:mt-4 md:p-3 md:text-lg">

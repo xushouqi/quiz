@@ -18,8 +18,9 @@ export function validateQuestion(q: unknown, label: string): string[] {
       errors.push(`${label}: ${f} 必须是非空字符串`);
     }
   }
-  if (!Array.isArray(obj.choices) || obj.choices.length !== 3) {
-    errors.push(`${label}: choices 必须是恰好 3 项的数组`);
+  const choicesLen = Array.isArray(obj.choices) ? obj.choices.length : -1;
+  if (choicesLen < 3 || choicesLen > 5) {
+    errors.push(`${label}: choices 必须是 3–5 项的数组（当前 ${choicesLen}）`);
   } else {
     (obj.choices as unknown[]).forEach((c, i) => {
       const choice = c as Record<string, unknown> | null;
@@ -29,15 +30,19 @@ export function validateQuestion(q: unknown, label: string): string[] {
       if (typeof choice?.en !== "string" || choice.en.trim() === "") {
         errors.push(`${label}: choices[${i}].en 为空`);
       }
+      if (choice?.img !== undefined && (typeof choice.img !== "string" || choice.img.trim() === "")) {
+        errors.push(`${label}: choices[${i}].img 必须是非空字符串（或省略）`);
+      }
     });
   }
+  const maxIndex = Math.max(choicesLen - 1, 0);
   if (
     typeof obj.correct_index !== "number" ||
     !Number.isInteger(obj.correct_index) ||
     obj.correct_index < 0 ||
-    obj.correct_index > 2
+    obj.correct_index > maxIndex
   ) {
-    errors.push(`${label}: correct_index 必须是 0、1 或 2（当前 ${JSON.stringify(obj.correct_index)}）`);
+    errors.push(`${label}: correct_index 必须是 0..${maxIndex} 的整数（当前 ${JSON.stringify(obj.correct_index)}）`);
   }
   if (
     obj.illustration !== null &&

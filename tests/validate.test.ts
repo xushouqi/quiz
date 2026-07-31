@@ -29,13 +29,38 @@ describe("validateQuestion", () => {
     const errors = validateQuestion({ ...good, topic: "chess" }, "q");
     expect(errors.some((e) => e.includes("topic"))).toBe(true);
   });
-  it("rejects choices that are not exactly 3", () => {
+  it("rejects choices outside the 3–5 range", () => {
     const errors = validateQuestion({ ...good, choices: good.choices.slice(0, 2) }, "q");
     expect(errors.some((e) => e.includes("choices"))).toBe(true);
+    const tooMany = validateQuestion(
+      { ...good, choices: [...good.choices, { zh: "4", en: "4" }, { zh: "5", en: "5" }, { zh: "6", en: "6" }] },
+      "q"
+    );
+    expect(tooMany.some((e) => e.includes("choices"))).toBe(true);
+  });
+  it("accepts 5 choices with correct_index up to 4", () => {
+    const five = { ...good, choices: [...good.choices, { zh: "4", en: "4" }, { zh: "5", en: "5" }], correct_index: 4 };
+    expect(validateQuestion(five, "q")).toEqual([]);
+  });
+  it("rejects correct_index out of range for the given choice count", () => {
+    const errors = validateQuestion({ ...good, correct_index: 3 }, "q");
+    expect(errors.some((e) => e.includes("correct_index"))).toBe(true);
   });
   it("rejects a bad correct_index", () => {
     const errors = validateQuestion({ ...good, correct_index: 5 }, "q");
     expect(errors.some((e) => e.includes("correct_index"))).toBe(true);
+  });
+  it("accepts an optional choice img string", () => {
+    const withImg = {
+      ...good,
+      choices: [{ zh: "图一", en: "fig 1", img: "img:/questions-images/x.png" }, ...good.choices.slice(1)],
+    };
+    expect(validateQuestion(withImg, "q")).toEqual([]);
+  });
+  it("rejects a non-string choice img", () => {
+    const bad = { ...good, choices: [{ zh: "a", en: "a", img: 5 }, ...good.choices.slice(1)] };
+    const errors = validateQuestion(bad, "q");
+    expect(errors.some((e) => e.includes("img"))).toBe(true);
   });
   it("rejects an empty text field", () => {
     const errors = validateQuestion({ ...good, text_en: "  " }, "q");
