@@ -42,7 +42,7 @@ export default function PracticePage() {
   const [error, setError] = useState<string | null>(null);
   const shownAt = useRef(Date.now());
 
-  const start = useCallback(async (topic: Topic | "random") => {
+  const start = useCallback(async (topic: Topic | "random", source: string = "practice") => {
     if (!currentUser) {
       router.push("/");
       return;
@@ -57,7 +57,7 @@ export default function PracticePage() {
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
         }),
-        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}`),
+        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}&source=${source}`),
       ]);
       const sess = (await sessRes.json()) as { id: number };
       const qs = (await qsRes.json()) as { questions: Question[] };
@@ -160,7 +160,18 @@ export default function PracticePage() {
               {error}
             </p>
           )}
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-8 sm:grid-cols-3 sm:gap-4">
+          <div className="mt-6 flex justify-center sm:mt-8">
+            <button
+              type="button"
+              onClick={() => void start("random", "shangshi")}
+              className="rounded-[1.5rem] border-4 border-violet/30 bg-violet/10 p-4 text-center shadow-lg transition hover:-rotate-1 hover:border-violet hover:shadow-xl active:translate-y-1 md:rounded-[1.75rem] md:p-5"
+            >
+              <div className="text-3xl md:text-4xl">🏫</div>
+              <div className="mt-1 font-kids text-lg md:mt-1 md:text-xl">上实机考 100 题</div>
+              <div className="text-xs text-cocoa/60">Shanghai Experimental School</div>
+            </button>
+          </div>
+          <div className="mt-4 grid grid-cols-2 gap-3 sm:mt-6 sm:grid-cols-3 sm:gap-4">
             {TOPIC_OPTIONS.map((t) => (
               <button
                 key={t.key}

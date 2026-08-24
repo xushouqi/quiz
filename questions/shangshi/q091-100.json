@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，一共有8支蜡烛，烧掉了2支，还剩几支？",
+    "text_en": "There are 8 candles. 2 burned out. How many are left?",
+    "illustration": "img:/questions-images/cropped/q091.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。8-2=6，还剩6支蜡烛。",
+    "explanation_en": "The answer is A. 8-2=6, 6 candles left."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，数一数每种水果代表数字几？",
+    "text_en": "Count and find what number each fruit represents.",
+    "illustration": "img:/questions-images/cropped/q092.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。数概念拓展：西瓜=8，菠萝=6，桃子=8，草莓=5，苹果=5，橘子=4。",
+    "explanation_en": "The answer is A. Number concept: watermelon=8, pineapple=6, peach=8, strawberry=5, apple=5, orange=4."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q093.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。图形旋转+数量规律。右下角总是3个方块，左下角4个圆，左上角1顶帽子，右上角2颗五角星。",
+    "explanation_en": "The answer is C. Shape rotation + count pattern. Bottom-right always has 3 blocks, bottom-left 4 circles, top-left 1 hat, top-right 2 stars."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，谁先到终点？",
+    "text_en": "Who reaches the finish line first?",
+    "illustration": "img:/questions-images/cropped/q094.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。马走直线，路最短→马先到。",
+    "explanation_en": "The answer is A. Horse walks straight line, shortest path→horse arrives first."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，哪条线最长？",
+    "text_en": "Which line is the longest?",
+    "illustration": "img:/questions-images/cropped/q095.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。红色占13格，蓝色占11格→红色长。",
+    "explanation_en": "The answer is A. Red takes 13 squares, blue takes 11→red is longer."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，铅笔从长到短排序，正确的是？",
+    "text_en": "Order the pencils from longest to shortest.",
+    "illustration": "img:/questions-images/cropped/q096.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。红色3格半，深蓝3格，淡蓝2格。从长到短：红色、深蓝色、淡蓝色。",
+    "explanation_en": "The answer is A. Red=3.5, dark blue=3, light blue=2. Longest to shortest: red, dark blue, light blue."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，天平比较，哪个最重？",
+    "text_en": "Using the balance scales, which is the heaviest?",
+    "illustration": "img:/questions-images/cropped/q097.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。老虎>小鸡，小鸡>小兔→老虎最重目前。但小猪>老虎→小猪最重。",
+    "explanation_en": "The answer is A. Tiger>chicken, chicken>rabbit→tiger heaviest so far. But pig>tiger→pig is heaviest."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，数一数一共有多少个小方块？",
+    "text_en": "Count all the blocks. How many are there?",
+    "illustration": "img:/questions-images/cropped/q098.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。图1：1+2+3=6个。图2：2+2+4=8个。图3：4+5=9个。",
+    "explanation_en": "The answer is A. Fig1: 1+2+3=6. Fig2: 2+2+4=8. Fig3: 4+5=9."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，数一数一共有多少个小方块？",
+    "text_en": "Count all the blocks. How many are there?",
+    "illustration": "img:/questions-images/cropped/q099.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。图1：5+6+8=19个。图2：1+3+3=7个。图3：1+3+4+4=12个。",
+    "explanation_en": "The answer is A. Fig1: 5+6+8=19. Fig2: 1+3+3=7. Fig3: 1+3+4+4=12."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，按规律，想一想每一行接下来应该画什么？",
+    "text_en": "Look at the patterns. What should come next in each row?",
+    "illustration": "img:/questions-images/cropped/q100.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "每一行都有自己的规律：第一行三角、方块交替；第二行圆、方块、三角循环；第三行一只小鸡配两条毛毛虫；第四行母鸡身后的小鸡越来越多（1、2、3、4），接下来该画5只。按规律画出每一行接下来的图形。",
+    "explanation_en": "Each row has its own pattern: triangles and squares alternate; circles, squares and triangles cycle; one chick with two caterpillars; the hen gets 1, 2, 3, 4 chicks, then 5. Draw what comes next in each row."
+  }
+]

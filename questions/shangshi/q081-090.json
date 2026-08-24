@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，哪辆车最快？",
+    "text_en": "Which car is the fastest?",
+    "illustration": "img:/questions-images/cropped/q081.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。红车比黄车快，白车比红车快→白车最快。",
+    "explanation_en": "The answer is E. Red faster than yellow, white faster than red→white is fastest."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，天平比较，哪个最重？",
+    "text_en": "Using the balance scales, which is the heaviest?",
+    "illustration": "img:/questions-images/cropped/q082.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。蘑菇头=西瓜。红萝卜比蘑菇头重→红萝卜比西瓜重。草莓比红萝卜重→草莓最重。",
+    "explanation_en": "The answer is E. Mushroom=watermelon. Radish heavier than mushroom. Strawberry heavier than radish→strawberry is heaviest."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q083.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看图片，仔细观察找规律。",
+    "explanation_en": "Look at the image carefully and find the pattern."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q084.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看图片，仔细观察找规律。",
+    "explanation_en": "Look at the image carefully and find the pattern."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q085.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看图片，仔细观察找规律。",
+    "explanation_en": "Look at the image carefully and find the pattern."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q086.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看图片，仔细观察找规律。",
+    "explanation_en": "Look at the image carefully and find the pattern."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q087.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看图片，仔细观察找规律。",
+    "explanation_en": "Look at the image carefully and find the pattern."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，这些图形可以有几种不同的分类方法？",
+    "text_en": "How many different ways can these shapes be classified?",
+    "illustration": "img:/questions-images/cropped/q088.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。7种分类方法：按颜色、形状、耳朵、头发、眉毛、眼睛、表情分。",
+    "explanation_en": "The answer is C. 7 ways to classify: by color, shape, ears, hair, eyebrows, eyes, expression."
+  },
+  {
+    "difficulty": 3,
+    "topic": "logic",
+    "text_zh": "看图片，这些小娃娃可以有几种不同的分类方法？",
+    "text_en": "How many different ways can these dolls be classified?",
+    "illustration": "img:/questions-images/cropped/q089.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。5种分类方法：按帽子、眼睛、衣服颜色、裤子颜色、裤子长短分。",
+    "explanation_en": "The answer is C. 5 ways to classify: by hat, eyes, shirt color, pants color, pants length."
+  },
+  {
+    "difficulty": 3,
+    "topic": "arithmetic",
+    "text_zh": "看图片，这些花可以有几种不同的分类方法？",
+    "text_en": "How many different ways can these flowers be classified?",
+    "illustration": "img:/questions-images/cropped/q090.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。8种分类方法：按花大小、花形状、花颜色、花心大小、花心颜色、叶子数量、叶子形状、花杆粗细分。",
+    "explanation_en": "The answer is C. 8 ways to classify: by flower size, shape, color, center size, center color, leaf count, leaf shape, stem thickness."
+  }
+]

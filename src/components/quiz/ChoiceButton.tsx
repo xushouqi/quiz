@@ -1,6 +1,6 @@
 "use client";
 
-const LETTERS = ["A", "B", "C", "D", "E"] as const;
+const LETTERS = ["A", "B", "C", "D", "E", "F", "G", "H"] as const;
 
 export type ChoiceVariant = "idle" | "wrong" | "correct" | "dimmed" | "selected";
 

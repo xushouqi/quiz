@@ -4,8 +4,8 @@ export const TOPICS: Topic[] = ["counting", "shapes", "patterns", "logic", "arit
 export type Difficulty = 3 | 4 | 5;
 export const DIFFICULTIES: Difficulty[] = [3, 4, 5];
 
-export type Source = "practice" | "official" | "simulation";
-export const SOURCES: Source[] = ["practice", "official", "simulation"];
+export type Source = "practice" | "official" | "simulation" | "shangshi";
+export const SOURCES: Source[] = ["practice", "official", "simulation", "shangshi"];
 
 export interface Choice {
   zh: string;

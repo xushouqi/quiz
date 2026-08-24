@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q051.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "看图片找规律，注意颜色和位置的变化。",
+    "explanation_en": "Look at the pattern in the image. Pay attention to color and position changes."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q052.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。横着看每行都是横、斜、竖→竖。竖着看每列方块在同一排，一步步往下走→左数第4排。",
+    "explanation_en": "The answer is C. Each row has horizontal, diagonal, vertical→vertical. Each column stays in same position, moves down step by step."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q053.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。合并和拆分：两边加起来拼成中间的。",
+    "explanation_en": "The answer is A. Merge pattern: two sides combine to make the middle."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q054.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。合并：第一个+第二个=第三个。",
+    "explanation_en": "The answer is E. Merge: 1st + 2nd = 3rd."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q055.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。合并：第二个+第三个=第一个。",
+    "explanation_en": "The answer is D. Merge: 2nd + 3rd = 1st."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q056.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。合并：第1个+第3个=第2个。",
+    "explanation_en": "The answer is D. Merge: 1st + 3rd = 2nd."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q057.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。黄色部分一直留着。黑色部分：先左→后右→没有。",
+    "explanation_en": "The answer is A. Yellow stays. Black: left→right→gone."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q058.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。黑色：站着→躺着→没有。红色：一直不变。",
+    "explanation_en": "The answer is E. Black: standing→lying→gone. Red: doesn't change."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，接下来应该是什么水果？",
+    "text_en": "Look at the pattern. What fruit comes next?",
+    "illustration": "img:/questions-images/cropped/q059.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。水果排队：桃子→西红柿→香蕉→桃子→西红柿→香蕉→桃子→西红柿。3个一循环。",
+    "explanation_en": "The answer is B. Fruit sequence: peach→tomato→banana→peach→tomato→banana→peach→tomato. Repeats every 3."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么图形？",
+    "text_en": "Look at the pattern. What shape comes next?",
+    "illustration": "img:/questions-images/cropped/q060.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。图形顺序：半圆→三角→十字→长方→半圆→三角→十字→长方。4个一循环。",
+    "explanation_en": "The answer is A. Shape sequence: semicircle→triangle→cross→rectangle. Repeats every 4."
+  }
+]

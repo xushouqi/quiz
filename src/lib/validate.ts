@@ -19,8 +19,8 @@ export function validateQuestion(q: unknown, label: string): string[] {
     }
   }
   const choicesLen = Array.isArray(obj.choices) ? obj.choices.length : -1;
-  if (choicesLen < 3 || choicesLen > 5) {
-    errors.push(`${label}: choices 必须是 3–5 项的数组（当前 ${choicesLen}）`);
+  if (choicesLen < 3 || choicesLen > 8) {
+    errors.push(`${label}: choices 必须是 3–8 项的数组（当前 ${choicesLen}）`);
   } else {
     (obj.choices as unknown[]).forEach((c, i) => {
       const choice = c as Record<string, unknown> | null;

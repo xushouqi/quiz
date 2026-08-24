@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该填什么数字？",
+    "text_en": "Look at the pattern. What number goes in place of ?",
+    "illustration": "img:/questions-images/cropped/q001.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是6。规律是每个数比前一个大1：1,2,3,4,5,6。",
+    "explanation_en": "The answer is 6. Each number is 1 more than the previous: 1,2,3,4,5,6."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q002.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是黄色6。规律是：黑色1→白2→蓝3→黑4→白5→？数字+1递增，颜色黑→白→蓝循环，所以下一个是黄色6。",
+    "explanation_en": "The answer is yellow 6. Numbers increase by 1, colors cycle black→white→blue→black→white→blue."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么图形和数字？",
+    "text_en": "Look at the pattern. What shape and number come next?",
+    "illustration": "img:/questions-images/cropped/q003.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是白色三角形里写黑色5。数的大小两个一组：1和3差2，2和4差2，所以第三组填5。图形变化：红圆→黑方→白三角。数的颜色：白→红→黑循环。",
+    "explanation_en": "The answer is white triangle with black 5. Numbers go in pairs with difference 2. Shapes cycle circle→square→triangle. Number colors cycle white→red→black."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q004.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是蓝色圆圈里的12。所有答案都是12，区别在颜色和形状。规律：图形方圆方圆方圆→圆，颜色白蓝白蓝白蓝→蓝，数颜色黑红黄→黄。所以是蓝色圆圈里黄色12。",
+    "explanation_en": "The answer is 12 in a blue circle with yellow text. Shape pattern: square-circle-square-circle→circle. Color: white-blue-white-blue→blue. Number color: black-red-yellow→yellow."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该填什么数字？",
+    "text_en": "Look at the pattern. What number goes in place of ?",
+    "illustration": "img:/questions-images/cropped/q005.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是11。规律：差值递增，1→2差1，2→4差2，4→7差3，7→?差4，所以7+4=11。",
+    "explanation_en": "The answer is 11. The differences increase: +1, +2, +3, +4. So 7+4=11."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q006.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是黑色4。有两种颜色：黑色组1,2,3（每次+1），蓝色组1,3,5（每次+2），一黑一蓝交替。接下来是黑色，黑色组下一个是4。",
+    "explanation_en": "The answer is black 4. Black group: 1,2,3 (+1 each). Blue group: 1,3,5 (+2 each). They alternate. Next is black, so black 4."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q007.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。外面图形：圆→方→圆→方→圆→方。方里的数字：1和2→2和4→3和6（各×2）。红色位置放小的数3，蓝色放大的数6。",
+    "explanation_en": "The answer is A. Outer shape alternates circle-square. Inside square: numbers double (1&2, 2&4, 3&6). Red gets the smaller number."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么图形？",
+    "text_en": "Look at the pattern. What shape comes next?",
+    "illustration": "img:/questions-images/cropped/q008.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。图形：圆→方→圆→方→圆→方。方里是横线。颜色连起来看：黑红→红黄→黄黑→黑红→红黄→黄黑。",
+    "explanation_en": "The answer is E. Shape alternates circle-square. Square has horizontal lines. Colors in sequence: black-red→red-yellow→yellow-black→black-red→red-yellow→yellow-black."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q009.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。颜色位置顺时针旋转。黑色：左上→右上→右下→左下。红色：右上→右下→左下→左上。白色和蓝色也各自顺时针移动。",
+    "explanation_en": "The answer is D. Colors rotate clockwise in the 2x2 grid. Each color moves one position clockwise."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q010.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。竖着看：从上到下，3条→2条→1条。横着看规律相同。",
+    "explanation_en": "The answer is A. Looking vertically: 3 bars→2 bars→1 bar from top to bottom."
+  }
+]

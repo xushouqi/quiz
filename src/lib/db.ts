@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS questions (
   correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2, 3, 4)),
   explanation_zh TEXT NOT NULL,
   explanation_en TEXT NOT NULL,
-  source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation')),
+  source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi')),
   attribution TEXT
 );
 
@@ -85,6 +85,10 @@ function migrate(db: Database.Database): void {
   // 选项数从固定 3 放宽到 3–5：旧库的 CHECK 只允许 correct_index/chosen_index ∈ {0,1,2}，
   // SQLite 不能 ALTER 掉 CHECK，故在约束仍为旧值时整表重建（数据原样复制）。
   widenChoiceIndexConstraints(db);
+  // 新增 shangshi source：旧库 CHECK 只允许 practice/official/simulation，需要重建表
+  widenSourceConstraint(db);
+  // 选项数从 5 放宽到 8（上实机考 Q23-28 为 A–H 八选项）：旧库 CHECK 只允许 correct_index/chosen_index ∈ {0..4}
+  widenChoiceIndexConstraints8(db);
 }
 
 function widenChoiceIndexConstraints(db: Database.Database): void {
@@ -144,6 +148,38 @@ function widenChoiceIndexConstraints(db: Database.Database): void {
   db.exec("PRAGMA foreign_keys = ON");
 }
 
+function widenSourceConstraint(db: Database.Database): void {
+  const qSql = db
+    .prepare("SELECT sql FROM sqlite_master WHERE type='table' AND name='questions'")
+    .get() as { sql: string } | undefined;
+  if (!qSql?.sql) return;
+  // 如果已经包含 shangshi，不需要重建
+  if (qSql.sql.includes("'shangshi'")) return;
+  db.exec("PRAGMA foreign_keys = OFF");
+  db.exec("DROP TABLE IF EXISTS questions_new;");
+  db.exec(`
+    CREATE TABLE questions_new (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      difficulty INTEGER NOT NULL CHECK (difficulty IN (3, 4, 5)),
+      topic TEXT NOT NULL CHECK (topic IN ('counting', 'shapes', 'patterns', 'logic', 'arithmetic', 'time')),
+      text_zh TEXT NOT NULL,
+      text_en TEXT NOT NULL,
+      illustration TEXT,
+      choices TEXT NOT NULL,
+      correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2, 3, 4)),
+      explanation_zh TEXT NOT NULL,
+      explanation_en TEXT NOT NULL,
+      source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi')),
+      attribution TEXT
+    );
+    INSERT INTO questions_new SELECT id, difficulty, topic, text_zh, text_en, illustration, choices, correct_index, explanation_zh, explanation_en, source, attribution FROM questions;
+    DROP TABLE questions;
+    ALTER TABLE questions_new RENAME TO questions;
+    CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
+  `);
+  db.exec("PRAGMA foreign_keys = ON");
+}
+
 const globalForDb = globalThis as unknown as { quizDb?: Database.Database };
 
 export function getDb(): Database.Database {
@@ -152,4 +188,60 @@ export function getDb(): Database.Database {
     globalForDb.quizDb = openDb(dbPath);
   }
   return globalForDb.quizDb;
+}
+
+
+function widenChoiceIndexConstraints8(db: Database.Database): void {
+  const qSql = db
+    .prepare("SELECT sql FROM sqlite_master WHERE type='table' AND name='questions'")
+    .get() as { sql: string } | undefined;
+  const aSql = db
+    .prepare("SELECT sql FROM sqlite_master WHERE type='table' AND name='answers'")
+    .get() as { sql: string } | undefined;
+  const needQ = Boolean(qSql?.sql && qSql.sql.includes("correct_index IN (0, 1, 2, 3, 4)"));
+  const needA = Boolean(aSql?.sql && aSql.sql.includes("chosen_index IN (0, 1, 2, 3, 4)"));
+  if (!needQ && !needA) return;
+  db.exec("PRAGMA foreign_keys = OFF");
+  db.exec("DROP TABLE IF EXISTS questions_new; DROP TABLE IF EXISTS answers_new;");
+  if (needQ) {
+    db.exec(`
+      CREATE TABLE questions_new (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        difficulty INTEGER NOT NULL CHECK (difficulty IN (3, 4, 5)),
+        topic TEXT NOT NULL CHECK (topic IN ('counting', 'shapes', 'patterns', 'logic', 'arithmetic', 'time')),
+        text_zh TEXT NOT NULL,
+        text_en TEXT NOT NULL,
+        illustration TEXT,
+        choices TEXT NOT NULL,
+        correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2, 3, 4, 5, 6, 7)),
+        explanation_zh TEXT NOT NULL,
+        explanation_en TEXT NOT NULL,
+        source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi')),
+        attribution TEXT
+      );
+      INSERT INTO questions_new SELECT id, difficulty, topic, text_zh, text_en, illustration, choices, correct_index, explanation_zh, explanation_en, source, attribution FROM questions;
+      DROP TABLE questions;
+      ALTER TABLE questions_new RENAME TO questions;
+      CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
+    `);
+  }
+  if (needA) {
+    db.exec(`
+      CREATE TABLE answers_new (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        session_id INTEGER NOT NULL REFERENCES sessions(id) ON DELETE CASCADE,
+        question_id INTEGER NOT NULL REFERENCES questions(id),
+        chosen_index INTEGER CHECK (chosen_index IS NULL OR chosen_index IN (0, 1, 2, 3, 4, 5, 6, 7)),
+        is_correct INTEGER CHECK (is_correct IS NULL OR is_correct IN (0, 1)),
+        time_spent_seconds INTEGER,
+        created_at INTEGER NOT NULL
+      );
+      INSERT INTO answers_new SELECT id, session_id, question_id, chosen_index, is_correct, time_spent_seconds, created_at FROM answers;
+      DROP TABLE answers;
+      ALTER TABLE answers_new RENAME TO answers;
+      CREATE INDEX IF NOT EXISTS idx_answers_session ON answers(session_id);
+      CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
+    `);
+  }
+  db.exec("PRAGMA foreign_keys = ON");
 }

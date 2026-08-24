@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q011.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。合并与拆分规律：前两排合起来拼成第三排。横着看，前两个图拼成第三个。",
+    "explanation_en": "The answer is A. Merge pattern: first two rows combine to form the third. Same horizontally."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q012.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。合并规律：第1行和第3行拼成第2行。反过来，第2行减去第1行就是第3行。",
+    "explanation_en": "The answer is B. Merge pattern: row 1 + row 3 = row 2. So row 3 = row 2 - row 1."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q013.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。合并与拆分：第2个和第3个拼成第1个。注意位置关系。",
+    "explanation_en": "The answer is E. Merge pattern: 2nd + 3rd = 1st. Pay attention to positioning."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q014.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。每行都有减号、加号、点。第3行缺减号。下面图形：第1行长方形，第2行圆形，第3行正方形。颜色：减号总是蓝色，正方形缺黑色。",
+    "explanation_en": "The answer is C. Each row has minus, plus, dot. Row 3 needs minus. Bottom shapes: row1=rectangle, row2=circle, row3=square. Colors: minus always blue, square needs black."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q015.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。图形形状不变（圆、方、点），只有位置变化。蓝色圆形顺时针走→左边。黑色圆也顺时针→最上面。",
+    "explanation_en": "The answer is A. Shapes don't change (circle, square, dot), only positions. Blue circle moves clockwise→left side. Black circle→top."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q016.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。图形形状和颜色不变，位置改变。黄色方块：左下→顶→右下→左下。黑色十字：顶→右下→左下→顶。答案和第一个图形一样。",
+    "explanation_en": "The answer is E. Shapes and colors don't change, only positions. Each shape returns to its starting position."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q017.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。蓝色圆形顺时针转→ACD。黄色三角：上→下→上→下。黑色圆点逆时针走。",
+    "explanation_en": "The answer is C. Blue circle rotates clockwise. Yellow triangle: up→down→up→down. Black dot moves counterclockwise."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q018.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。每个格子顺时针移动位置（公转），同时每个图形自身也在旋转（自转）。黑球头：上→右→下→左。三角尖：下→右→下→左。直角尖：右上→右下→左下→左上。",
+    "explanation_en": "The answer is E. Each cell moves clockwise AND each shape rotates within its cell. Track each shape's orientation separately."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q019.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。外面正方形是蓝色。里面黑色正方形从左往右移动。",
+    "explanation_en": "The answer is B. Outer square is blue. Inner black square moves left to right."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q020.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。蓝色方块每次右移一格，到头后回到左边。红色方块每次左移一格，到头后回到右边。",
+    "explanation_en": "The answer is D. Blue block moves right 1 step (wraps to left). Red block moves left 1 step (wraps to right)."
+  }
+]

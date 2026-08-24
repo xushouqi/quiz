@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q041.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。颜色：黑红黑红黑红→黑。黑色图形线条：1,2,3,4条。",
+    "explanation_en": "The answer is A. Color: black-red-black-red→black. Black shapes have 1,2,3,4 lines."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q042.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。黄色：1,3,5,7,9（上下交替）→上面9个。白色：10,8,6,4,2→2个。",
+    "explanation_en": "The answer is E. Yellow: 1,3,5,7,9 alternating up-down→9 on top. White: 10,8,6,4,2→2."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q043.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。从后往前绕：黄黄黑黄黄黑→黑。两个黄色拼起来就是黑色（合并规律）。",
+    "explanation_en": "The answer is B. Reading backwards: yellow-yellow-black pattern→black. Two yellows merge to make black."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q044.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。颜色：黄黄黑黄黄黑→黑。黑色的都是前面两个黄色相同的部分。",
+    "explanation_en": "The answer is E. Color: yellow-yellow-black→black. Black shows the common parts of the two yellows."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q045.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。颜色：黄黄黑→黑。不同部分留下来（异或合并）。",
+    "explanation_en": "The answer is D. Color: yellow-yellow-black→black. Different parts stay (XOR merge)."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q046.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。颜色：白白白→黄黄黄→白白白→黄黄黄→白。第一个减第二个=第三个。",
+    "explanation_en": "The answer is E. Colors: 3 white→3 yellow→3 white→3 yellow→white. 1st minus 2nd = 3rd."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q047.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。颜色：黄。数量变化：234,345,543,531,55→5。前面两个怎么变，第三个跟着变。",
+    "explanation_en": "The answer is C. Color: yellow. Count follows pattern: changes in first two determine the third."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q048.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。颜色：黄。黑+黑=白，白+白=黑，白+空=白。位置颜色合并规律。",
+    "explanation_en": "The answer is D. Color: yellow. Merge rules: black+black=white, white+white=black, white+empty=white."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是第几个？",
+    "text_en": "Look at the pattern. Which number comes next?",
+    "illustration": "img:/questions-images/cropped/q049.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。方格子题：蓝色方块数量从左往右1,2,3→4,5,6→7,8,9。",
+    "explanation_en": "The answer is E. Grid counting: blue blocks count 1,2,3→4,5,6→7,8,9."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q050.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。小黑块一格一格右移→最左边。小蓝块两格两格右移→左数第2格。小红块一格一格左移→左数第3格。",
+    "explanation_en": "The answer is B. Black moves right 1→wraps to left. Blue moves right 2→position 2. Red moves left 1→position 3."
+  }
+]

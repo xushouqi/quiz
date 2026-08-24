@@ -48,3 +48,8 @@ next-env.d.ts
 
 # playwright test output
 .playwright-mcp/
+
+# 上实机考：原卷整页图备份与整页扫描图不入库（由源 PDF 渲染可得）
+.backup-cropped-20260824/
+public/questions-images/shangshi-*.png
+public/questions-images/cropped/q000*.png

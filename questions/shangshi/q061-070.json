@@ -1,0 +1,322 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，空白处应该填什么动物？",
+    "text_en": "Look at the pattern. What animal fills the blank?",
+    "illustration": "img:/questions-images/cropped/q061.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。整体数：3个蜘蛛、3个老鼠、3个六脚虫、2个蜗牛→空白填蜗牛。",
+    "explanation_en": "The answer is A. Count all: 3 spiders, 3 mice, 3 bugs, 2 snails→blank needs a snail."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，空白处应该是什么？",
+    "text_en": "Look at the pattern. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q062.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。竖着看：第1列全白，第2列全黄，第3列全蓝→蓝色。每列都有圆、方、三角→缺方块。",
+    "explanation_en": "The answer is E. By column: col1=white, col2=yellow, col3=blue→blue. Each column has circle, square, triangle→needs square."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，空白处应该是什么？",
+    "text_en": "Look at the pattern. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q063.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。每行图形一样→长方。每行有黄、蓝、青、白→填青色。",
+    "explanation_en": "The answer is C. Each row has same shape→rectangle. Each row has yellow, blue, teal, white→needs teal."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，空白处应该是什么？",
+    "text_en": "Look at the pattern. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q064.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 0,
+    "explanation_zh": "答案是A。每行/列都有蓝色方块、白色三角、黄色圈圈→填蓝色方块。",
+    "explanation_en": "The answer is A. Each row/column has blue square, white triangle, yellow circle→needs blue square."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q065.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。合并与拆分：第3列=第2列+第1列+第2列，颜色反过来。",
+    "explanation_en": "The answer is D. Complex merge: col3=col2+col1+col2, colors flipped."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q066.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。小黄块顺时针转。",
+    "explanation_en": "The answer is C. Yellow blocks rotate clockwise."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q067.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。第1个+第2个=第3个（线条合并）。颜色：绿+黄=白，白+白=白，黄+绿=白→白色。",
+    "explanation_en": "The answer is B. Line merge: 1st+2nd=3rd. Colors: green+yellow=white, white+white=white→white."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q068.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。合并：第1个+第2个=第3个。完完整整合并，遇到横线就停。",
+    "explanation_en": "The answer is C. Merge: 1st+2nd=3rd. Complete merge, stops at horizontal lines."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，数一数一共有多少个小方块？",
+    "text_en": "Count all the blocks. How many are there?",
+    "illustration": "img:/questions-images/cropped/q069.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。分层数方块：第1层2个，第2层2+2=4个，第3层4+2=6个。共2+4+6=12个。",
+    "explanation_en": "The answer is C. Count blocks by layer: layer1=2, layer2=4, layer3=6. Total=12."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，数一数一共有多少个长条？",
+    "text_en": "Count all the rectangles. How many are there?",
+    "illustration": "img:/questions-images/cropped/q070.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。分层数长条：第1层2个，第2层2个，第3层2+4=6个。共2+2+6=10个。",
+    "explanation_en": "The answer is B. Count rectangles by layer: layer1=2, layer2=2, layer3=6. Total=10."
+  }
+]

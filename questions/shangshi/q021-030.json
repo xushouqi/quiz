@@ -1,0 +1,394 @@
+[
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该填什么？",
+    "text_en": "Look at the pattern. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q021.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。每行都有圆、三角、正方→填三角。每行都有黄、蓝、白→填黄色。头上符号缺干字。",
+    "explanation_en": "The answer is D. Each row has circle, triangle, square→triangle. Each row has yellow, blue, white→yellow. Missing symbol on top is 干."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，最上面的图形应该是什么？",
+    "text_en": "Look at the pattern. What is the top shape?",
+    "illustration": "img:/questions-images/cropped/q022.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。杨辉三角型合并规律：下面两个拼成上面一个，相同部分消失，不同部分保留。",
+    "explanation_en": "The answer is D. Pascal-triangle style merge: two below combine to make one above. Same parts disappear, different parts stay."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q023.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      },
+      {
+        "zh": "F",
+        "en": "F"
+      },
+      {
+        "zh": "G",
+        "en": "G"
+      },
+      {
+        "zh": "H",
+        "en": "H"
+      }
+    ],
+    "correct_index": 3,
+    "explanation_zh": "答案是D。",
+    "explanation_en": "The answer is D."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q024.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      },
+      {
+        "zh": "F",
+        "en": "F"
+      },
+      {
+        "zh": "G",
+        "en": "G"
+      },
+      {
+        "zh": "H",
+        "en": "H"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。第1个和第3个相同。中间第2个表示变化方向：竖=往高长，横=往横长，横竖=两个方向都长。",
+    "explanation_en": "The answer is E. 1st and 3rd are the same. Middle one shows growth direction: vertical=tall, horizontal=wide, both=both ways."
+  },
+  {
+    "difficulty": 3,
+    "topic": "patterns",
+    "text_zh": "看图片，按规律，问号处应该填什么？",
+    "text_en": "Look at the pattern. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q025.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      },
+      {
+        "zh": "F",
+        "en": "F"
+      },
+      {
+        "zh": "G",
+        "en": "G"
+      },
+      {
+        "zh": "H",
+        "en": "H"
+      }
+    ],
+    "correct_index": 4,
+    "explanation_zh": "答案是E。每行都有三角、正方、圆→三角。每行两个空心一个实心→实心。实心小圆在图形里面。",
+    "explanation_en": "The answer is E. Each row has triangle, square, circle→triangle. Two hollow one solid→solid. Solid dot goes inside the shape."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q026.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      },
+      {
+        "zh": "F",
+        "en": "F"
+      },
+      {
+        "zh": "G",
+        "en": "G"
+      },
+      {
+        "zh": "H",
+        "en": "H"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。每排左右相同。第3排都是凸弧线→BE。第2个和第3个相反→B。",
+    "explanation_en": "The answer is B. Each row's left and right are the same. Row 3 has convex arcs→B or E. 2nd and 3rd are opposite→B."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q027.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      },
+      {
+        "zh": "F",
+        "en": "F"
+      },
+      {
+        "zh": "G",
+        "en": "G"
+      },
+      {
+        "zh": "H",
+        "en": "H"
+      }
+    ],
+    "correct_index": 7,
+    "explanation_zh": "答案是H。下部分：弯弯、正方、梯形→梯形。上部分：一一、空白、直线→一一。符合两个条件的是H。",
+    "explanation_en": "The answer is H."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，按规律，问号处应该是什么？",
+    "text_en": "Look at the pattern. What comes next?",
+    "illustration": "img:/questions-images/cropped/q028.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      },
+      {
+        "zh": "F",
+        "en": "F"
+      },
+      {
+        "zh": "G",
+        "en": "G"
+      },
+      {
+        "zh": "H",
+        "en": "H"
+      }
+    ],
+    "correct_index": 7,
+    "explanation_zh": "答案是H。第3个=第1个的外框+第2个的迷你版。第1个没外框，第2个的迷你版在H中。",
+    "explanation_en": "The answer is H."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，方块=1，圆圈=2，问号处应该是什么？",
+    "text_en": "Square=1, circle=2. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q029.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 2,
+    "explanation_zh": "答案是C。方块=1，圆圈=2，所以答案是1221。",
+    "explanation_en": "The answer is C. Square=1, circle=2. So the answer is 1221."
+  },
+  {
+    "difficulty": 3,
+    "topic": "shapes",
+    "text_zh": "看图片，长方形=1，圆形=2，三角形=3，问号处应该是什么？",
+    "text_en": "Rectangle=1, circle=2, triangle=3. What fills the blank?",
+    "illustration": "img:/questions-images/cropped/q030.png",
+    "choices": [
+      {
+        "zh": "A",
+        "en": "A"
+      },
+      {
+        "zh": "B",
+        "en": "B"
+      },
+      {
+        "zh": "C",
+        "en": "C"
+      },
+      {
+        "zh": "D",
+        "en": "D"
+      },
+      {
+        "zh": "E",
+        "en": "E"
+      }
+    ],
+    "correct_index": 1,
+    "explanation_zh": "答案是B。长方形=1，圆形=2，三角形=3，所以答案是3211。",
+    "explanation_en": "The answer is B. Rectangle=1, circle=2, triangle=3. So the answer is 3211."
+  }
+]

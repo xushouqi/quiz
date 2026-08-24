@@ -12,6 +12,7 @@ const BANKS: { source: Source; dir: string; required: boolean }[] = [
   { source: "practice", dir: "practice", required: true },
   { source: "official", dir: "official", required: false },
   { source: "simulation", dir: "simulation", required: false },
+  { source: "shangshi", dir: "shangshi", required: false },
 ];
 
 export function loadBankFiles(baseDir: string, sub: string, required: boolean): unknown[] {

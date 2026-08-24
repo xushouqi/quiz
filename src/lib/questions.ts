@@ -57,6 +57,20 @@ export function getPracticeQuestions(
   return rows.map(rowToQuestion);
 }
 
+export function getShangshiQuestions(
+  db: Database,
+  topic: Topic | "random",
+  limit: number
+): Question[] {
+  const rows =
+    topic === "random"
+      ? (db.prepare("SELECT * FROM questions WHERE source = 'shangshi' ORDER BY id LIMIT ?").all(limit) as QuestionRow[])
+      : (db
+          .prepare("SELECT * FROM questions WHERE source = 'shangshi' AND topic = ? ORDER BY id LIMIT ?")
+          .all(topic, limit) as QuestionRow[]);
+  return rows.map(rowToQuestion);
+}
+
 function pickExcluding(
   db: Database,
   difficulty: number,
