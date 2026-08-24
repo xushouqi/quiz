@@ -50,6 +50,7 @@ export default function PracticePage() {
 
     setPhase("loading");
     setError(null);
+    const limit = source === "shangshi" ? 100 : PRACTICE_SIZE;  // 上实机考一次出全部 100 题
     try {
       const [sessRes, qsRes] = await Promise.all([
         fetchWithTimeout("/api/sessions", {
@@ -57,7 +58,7 @@ export default function PracticePage() {
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
         }),
-        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}&source=${source}`),
+        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${limit}&source=${source}`),
       ]);
       const sess = (await sessRes.json()) as { id: number };
       const qs = (await qsRes.json()) as { questions: Question[] };
