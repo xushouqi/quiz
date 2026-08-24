@@ -7,27 +7,27 @@
     "illustration": "img:/questions-images/cropped/q091.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "4",
+        "en": "4"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "5",
+        "en": "5"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "6",
+        "en": "6"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "7",
+        "en": "7"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "8",
+        "en": "8"
       }
     ],
-    "correct_index": 0,
+    "correct_index": 2,
     "explanation_zh": "答案是A。8-2=6，还剩6支蜡烛。",
     "explanation_en": "The answer is A. 8-2=6, 6 candles left."
   },
@@ -39,24 +39,24 @@
     "illustration": "img:/questions-images/cropped/q092.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "4",
+        "en": "4"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "5",
+        "en": "5"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "6",
+        "en": "6"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "8",
+        "en": "8"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "9",
+        "en": "9"
       }
     ],
     "correct_index": 0,
@@ -103,24 +103,16 @@
     "illustration": "img:/questions-images/cropped/q094.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "马",
+        "en": "Horse"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "熊",
+        "en": "Bear"
       },
       {
-        "zh": "C",
-        "en": "C"
-      },
-      {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
+        "zh": "鹿",
+        "en": "Deer"
       }
     ],
     "correct_index": 0,
@@ -135,24 +127,12 @@
     "illustration": "img:/questions-images/cropped/q095.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "红色",
+        "en": "Red"
       },
       {
-        "zh": "B",
-        "en": "B"
-      },
-      {
-        "zh": "C",
-        "en": "C"
-      },
-      {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
+        "zh": "蓝色",
+        "en": "Blue"
       }
     ],
     "correct_index": 0,
@@ -167,24 +147,24 @@
     "illustration": "img:/questions-images/cropped/q096.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "红、深蓝、淡蓝",
+        "en": "Red, dark blue, light blue"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "深蓝、红、淡蓝",
+        "en": "Dark blue, red, light blue"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "淡蓝、深蓝、红",
+        "en": "Light blue, dark blue, red"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "红、淡蓝、深蓝",
+        "en": "Red, light blue, dark blue"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "深蓝、淡蓝、红",
+        "en": "Dark blue, light blue, red"
       }
     ],
     "correct_index": 0,
@@ -199,24 +179,20 @@
     "illustration": "img:/questions-images/cropped/q097.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "小猪",
+        "en": "Pig"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "老虎",
+        "en": "Tiger"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "小鸡",
+        "en": "Chicken"
       },
       {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
+        "zh": "小兔",
+        "en": "Rabbit"
       }
     ],
     "correct_index": 0,
@@ -231,24 +207,24 @@
     "illustration": "img:/questions-images/cropped/q098.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "6",
+        "en": "6"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "7",
+        "en": "7"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "8",
+        "en": "8"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "9",
+        "en": "9"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "10",
+        "en": "10"
       }
     ],
     "correct_index": 0,
@@ -263,24 +239,24 @@
     "illustration": "img:/questions-images/cropped/q099.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "19",
+        "en": "19"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "12",
+        "en": "12"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "7",
+        "en": "7"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "15",
+        "en": "15"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "20",
+        "en": "20"
       }
     ],
     "correct_index": 0,

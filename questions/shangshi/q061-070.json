@@ -8,23 +8,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q061_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q061_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q061_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q061_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q061_o5.png"
       }
     ],
     "correct_index": 0,
@@ -40,23 +45,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q062_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q062_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q062_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q062_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q062_o5.png"
       }
     ],
     "correct_index": 4,
@@ -72,23 +82,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q063_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q063_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q063_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q063_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q063_o5.png"
       }
     ],
     "correct_index": 2,
@@ -104,23 +119,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q064_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q064_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q064_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q064_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q064_o5.png"
       }
     ],
     "correct_index": 0,
@@ -136,23 +156,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q065_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q065_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q065_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q065_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q065_o5.png"
       }
     ],
     "correct_index": 3,
@@ -168,23 +193,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q066_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q066_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q066_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q066_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q066_o5.png"
       }
     ],
     "correct_index": 2,
@@ -200,23 +230,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q067_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q067_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q067_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q067_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q067_o5.png"
       }
     ],
     "correct_index": 1,
@@ -232,23 +267,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q068_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q068_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q068_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q068_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q068_o5.png"
       }
     ],
     "correct_index": 2,
@@ -264,23 +304,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q069_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q069_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q069_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q069_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q069_o5.png"
       }
     ],
     "correct_index": 2,
@@ -296,23 +341,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q070_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q070_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q070_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q070_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q070_o5.png"
       }
     ],
     "correct_index": 1,

@@ -8,23 +8,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q081_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q081_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q081_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q081_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q081_o5.png"
       }
     ],
     "correct_index": 4,
@@ -40,23 +45,28 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q082_o1.png"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q082_o2.png"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q082_o3.png"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q082_o4.png"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q082_o5.png"
       }
     ],
     "correct_index": 4,
@@ -231,24 +241,24 @@
     "illustration": "img:/questions-images/cropped/q088.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "5种",
+        "en": "5 kinds"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "6种",
+        "en": "6 kinds"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "7种",
+        "en": "7 kinds"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "8种",
+        "en": "8 kinds"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "9种",
+        "en": "9 kinds"
       }
     ],
     "correct_index": 2,
@@ -263,27 +273,27 @@
     "illustration": "img:/questions-images/cropped/q089.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "4种",
+        "en": "4 ways"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "5种",
+        "en": "5 ways"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "6种",
+        "en": "6 ways"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "7种",
+        "en": "7 ways"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "8种",
+        "en": "8 ways"
       }
     ],
-    "correct_index": 2,
+    "correct_index": 1,
     "explanation_zh": "答案是C。5种分类方法：按帽子、眼睛、衣服颜色、裤子颜色、裤子长短分。",
     "explanation_en": "The answer is C. 5 ways to classify: by hat, eyes, shirt color, pants color, pants length."
   },
@@ -295,24 +305,24 @@
     "illustration": "img:/questions-images/cropped/q090.png",
     "choices": [
       {
-        "zh": "A",
-        "en": "A"
+        "zh": "6种",
+        "en": "6 ways"
       },
       {
-        "zh": "B",
-        "en": "B"
+        "zh": "7种",
+        "en": "7 ways"
       },
       {
-        "zh": "C",
-        "en": "C"
+        "zh": "8种",
+        "en": "8 ways"
       },
       {
-        "zh": "D",
-        "en": "D"
+        "zh": "9种",
+        "en": "9 ways"
       },
       {
-        "zh": "E",
-        "en": "E"
+        "zh": "10种",
+        "en": "10 ways"
       }
     ],
     "correct_index": 2,
