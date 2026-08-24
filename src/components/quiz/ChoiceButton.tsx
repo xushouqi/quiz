@@ -50,7 +50,7 @@ export function ChoiceButton({
           src={img}
           alt={zh}
           draggable={false}
-          className="max-h-full max-w-full select-none object-contain"
+          className="pointer-events-none absolute inset-0 h-full w-full select-none object-contain"
         />
       </button>
     );
