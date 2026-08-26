@@ -29,14 +29,29 @@ describe("validateQuestion", () => {
     const errors = validateQuestion({ ...good, topic: "chess" }, "q");
     expect(errors.some((e) => e.includes("topic"))).toBe(true);
   });
-  it("rejects choices outside the 3–5 range", () => {
-    const errors = validateQuestion({ ...good, choices: good.choices.slice(0, 2) }, "q");
-    expect(errors.some((e) => e.includes("choices"))).toBe(true);
+  it("rejects choices outside the 2–8 range", () => {
+    const tooFew = validateQuestion({ ...good, choices: good.choices.slice(0, 1) }, "q");
+    expect(tooFew.some((e) => e.includes("choices"))).toBe(true);
     const tooMany = validateQuestion(
-      { ...good, choices: [...good.choices, { zh: "4", en: "4" }, { zh: "5", en: "5" }, { zh: "6", en: "6" }] },
+      {
+        ...good,
+        choices: [
+          ...good.choices,
+          { zh: "4", en: "4" },
+          { zh: "5", en: "5" },
+          { zh: "6", en: "6" },
+          { zh: "7", en: "7" },
+          { zh: "8", en: "8" },
+          { zh: "9", en: "9" },
+        ],
+      },
       "q"
     );
     expect(tooMany.some((e) => e.includes("choices"))).toBe(true);
+  });
+  it("accepts 2 choices (上实机考原卷存在二选项题)", () => {
+    const two = { ...good, choices: good.choices.slice(0, 2), correct_index: 1 };
+    expect(validateQuestion(two, "q")).toEqual([]);
   });
   it("accepts 5 choices with correct_index up to 4", () => {
     const five = { ...good, choices: [...good.choices, { zh: "4", en: "4" }, { zh: "5", en: "5" }], correct_index: 4 };
