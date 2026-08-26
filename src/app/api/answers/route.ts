@@ -19,12 +19,22 @@ export async function POST(req: Request) {
     typeof sessionId !== "number" ||
     typeof questionId !== "number" ||
     typeof chosenIndex !== "number" ||
-    chosenIndex < 0 ||
-    chosenIndex > 2
+    chosenIndex < 0
   ) {
     return NextResponse.json({ error: "invalid payload" }, { status: 400 });
   }
   const db = getDb();
+  // 按题目真实选项数校验（上实机考最多 8 个选项；历史残留 chosenIndex>2 旧约束已移除）
+  const q = db
+    .prepare("SELECT choices FROM questions WHERE id = ?")
+    .get(questionId) as { choices: string } | undefined;
+  if (!q) {
+    return NextResponse.json({ error: "question not found" }, { status: 404 });
+  }
+  const choiceCount = (JSON.parse(q.choices) as unknown[]).length;
+  if (chosenIndex >= choiceCount) {
+    return NextResponse.json({ error: "invalid payload" }, { status: 400 });
+  }
   const correctIndex = getCorrectIndex(db, questionId);
   if (correctIndex === null) {
     return NextResponse.json({ error: "question not found" }, { status: 404 });
