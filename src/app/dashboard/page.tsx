@@ -15,8 +15,8 @@ interface Stats {
 const STATIONS = [
   { href: "/practice", emoji: "🏃", zh: "闯关练习", en: "Practice", tint: "border-sunny bg-sunny/20" },
   { href: "/exam", emoji: "📝", zh: "模拟考试", en: "Mock Exam", tint: "border-coral bg-coral/15" },
+  { href: "/shangshi", emoji: "🏫", zh: "上实机考", en: "Shanghai Exam", tint: "border-violet/40 bg-violet/10" },
   { href: "/mistakes", emoji: "📒", zh: "错题本", en: "Mistakes", tint: "border-grass bg-grass/20" },
-  { href: "/stars", emoji: "⭐", zh: "我的星星", en: "My Stars", tint: "border-gold bg-gold/30" },
 ];
 
 export default function DashboardPage() {
@@ -56,7 +56,13 @@ export default function DashboardPage() {
           </div>
           <div className="flex gap-2">
             <span className="rounded-full bg-white/85 px-3 py-1 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">🔥 {stats.streakDays} 天</span>
-            <span className="rounded-full bg-gold/90 px-3 py-1 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">⭐ {stats.stars}</span>
+            <Link
+              href="/stars"
+              aria-label="我的星星 My Stars"
+              className="rounded-full bg-gold/90 px-3 py-1 font-kids text-sm shadow transition hover:-translate-y-0.5 hover:shadow-lg active:translate-y-0 md:px-4 md:py-2 md:text-base"
+            >
+              ⭐ {stats.stars}
+            </Link>
           </div>
         </header>
 

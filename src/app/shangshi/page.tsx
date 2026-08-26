@@ -9,29 +9,31 @@ import { type ChoiceVariant } from "@/components/quiz/ChoiceButton";
 import { ChoiceList } from "@/components/quiz/ChoiceList";
 import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
-import type { Question, Topic } from "@/lib/types";
+import type { Question } from "@/lib/types";
 import { fetchWithTimeout } from "@/lib/fetch-timeout";
 import { useUser } from "@/components/contexts/UserContext";
 
-const TOPIC_OPTIONS: { key: Topic | "random"; zh: string; en: string; emoji: string }[] = [
-  { key: "random", zh: "随机混合", en: "Mixed", emoji: "🎲" },
-  { key: "counting", zh: "数数与观察", en: "Counting", emoji: "🔢" },
-  { key: "shapes", zh: "图形与空间", en: "Shapes", emoji: "🔷" },
-  { key: "patterns", zh: "规律与序列", en: "Patterns", emoji: "🎨" },
-  { key: "logic", zh: "逻辑与推理", en: "Logic", emoji: "🧠" },
-  { key: "arithmetic", zh: "计算与应用", en: "Arithmetic", emoji: "➕" },
-  { key: "time", zh: "时间与生活", en: "Time", emoji: "⏰" },
-];
+const FULL_SIZE = 100; // 完整答题:全部 100 题
+const RANDOM_SIZE = 10; // 随机练习:每次 10 题
 
-const PRACTICE_SIZE = 10;
-
+type Mode = "full" | "random";
 type Phase = "select" | "loading" | "playing" | "done";
 type Feedback = { kind: "correct"; stars: number } | { kind: "encourage" } | { kind: "reveal" };
 
-export default function PracticePage() {
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+export default function ShangshiPage() {
   const router = useRouter();
   const { currentUser } = useUser();
   const [phase, setPhase] = useState<Phase>("select");
+  const [mode, setMode] = useState<Mode>("full");
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [attempt, setAttempt] = useState(0);
@@ -42,40 +44,45 @@ export default function PracticePage() {
   const [error, setError] = useState<string | null>(null);
   const shownAt = useRef(Date.now());
 
-  const start = useCallback(async (topic: Topic | "random", source: string = "practice") => {
-    if (!currentUser) {
-      router.push("/");
-      return;
-    }
+  const start = useCallback(
+    async (m: Mode) => {
+      if (!currentUser) {
+        router.push("/");
+        return;
+      }
 
-    setPhase("loading");
-    setError(null);
-    const limit = PRACTICE_SIZE;
-    try {
-      const [sessRes, qsRes] = await Promise.all([
-        fetchWithTimeout("/api/sessions", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
-        }),
-        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${limit}&source=${source}`),
-      ]);
-      const sess = (await sessRes.json()) as { id: number };
-      const qs = (await qsRes.json()) as { questions: Question[] };
-      setSessionId(sess.id);
-      setQuestions(qs.questions);
-      setIndex(0);
-      setAttempt(0);
-      setPicked(null);
-      setFeedback(null);
-      setEarned(0);
-      shownAt.current = Date.now();
-      setPhase(qs.questions.length > 0 ? "playing" : "done");
-    } catch {
-      setPhase("select");
-      setError("加载失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
-    }
-  }, [currentUser, router]);
+      setMode(m);
+      setPhase("loading");
+      setError(null);
+      try {
+        const [sessRes, qsRes] = await Promise.all([
+          fetchWithTimeout("/api/sessions", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
+          }),
+          // 一次取全部 100 题;随机练习在本地洗牌取 10(保证每次不同且不额外请求)
+          fetchWithTimeout(`/api/questions?topic=random&limit=100&source=shangshi`),
+        ]);
+        const sess = (await sessRes.json()) as { id: number };
+        const qs = (await qsRes.json()) as { questions: Question[] };
+        const pickedQuestions = m === "random" ? shuffle(qs.questions).slice(0, RANDOM_SIZE) : qs.questions;
+        setSessionId(sess.id);
+        setQuestions(pickedQuestions);
+        setIndex(0);
+        setAttempt(0);
+        setPicked(null);
+        setFeedback(null);
+        setEarned(0);
+        shownAt.current = Date.now();
+        setPhase(pickedQuestions.length > 0 ? "playing" : "done");
+      } catch {
+        setPhase("select");
+        setError("加载失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
+      }
+    },
+    [currentUser, router]
+  );
 
   const pick = useCallback(
     (i: number) => {
@@ -86,7 +93,7 @@ export default function PracticePage() {
       const timeSpentSeconds = Math.max(0, Math.round((Date.now() - shownAt.current) / 1000));
 
       // 作答持久化：不阻塞反馈，后台发送；失败自动重试一次
-      // （本地 SQLite 服务极少失败；重试仍失败时记录警告，不影响孩子继续练习）
+      // 上实机考题同样走统一 answers 记录,答错会进错题本
       const payload = JSON.stringify({ sessionId, questionId: q.id, chosenIndex: i, timeSpentSeconds });
       const send = () =>
         fetchWithTimeout("/api/answers", {
@@ -95,7 +102,7 @@ export default function PracticePage() {
           body: payload,
         });
       void send().catch(() =>
-        send().catch((e) => console.warn("[practice] 作答保存失败 answer not saved:", e))
+        send().catch((e) => console.warn("[shangshi] 作答保存失败 answer not saved:", e))
       );
 
       if (correct) {
@@ -147,13 +154,13 @@ export default function PracticePage() {
         <div className="mx-auto max-w-3xl px-4 py-6 md:py-10">
           <header className="flex items-center justify-between">
             <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家 Home</Link>
-            <h1 className="font-kids text-2xl md:text-3xl">闯关练习</h1>
+            <h1 className="font-kids text-2xl md:text-3xl">上实机考</h1>
             <span className="w-20 md:w-24" aria-hidden="true" />
           </header>
           <div className="mt-6 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:justify-center sm:gap-4">
             <Kangaroo mood={error ? "sad" : "happy"} className="h-28 animate-idle-hop md:h-36" />
             <p className="max-w-xs rounded-3xl border-4 border-cocoa/10 bg-white/90 p-3 text-center font-kids text-lg shadow md:p-4 md:text-xl">
-              选一个主题开始冒险吧！ Pick a topic!
+              上海实验学校机考题，选一种方式练一练吧！ Pick a mode!
             </p>
           </div>
           {error && (
@@ -161,19 +168,25 @@ export default function PracticePage() {
               {error}
             </p>
           )}
-          <div className="mt-6 grid grid-cols-2 gap-3 sm:mt-8 sm:grid-cols-3 sm:gap-4">
-            {TOPIC_OPTIONS.map((t) => (
-              <button
-                key={t.key}
-                type="button"
-                onClick={() => void start(t.key)}
-                className="rounded-[1.5rem] border-4 border-cocoa/10 bg-white/90 p-3 text-center shadow transition hover:-rotate-1 hover:border-sunny hover:shadow-lg active:translate-y-1 md:rounded-[1.75rem] md:p-5"
-              >
-                <div className="text-3xl md:text-4xl">{t.emoji}</div>
-                <div className="mt-0.5 font-kids text-base md:mt-1 md:text-lg">{t.zh}</div>
-                <div className="text-xs text-cocoa/60">{t.en}</div>
-              </button>
-            ))}
+          <div className="mt-6 grid grid-cols-1 gap-4 sm:mt-10 sm:grid-cols-2 sm:gap-6">
+            <button
+              type="button"
+              onClick={() => void start("full")}
+              className="rounded-[1.5rem] border-4 border-violet/40 bg-violet/10 p-5 text-center shadow-lg transition hover:-translate-y-1 hover:border-violet hover:shadow-xl active:translate-y-0 md:rounded-[2rem] md:p-6"
+            >
+              <div className="text-4xl md:text-5xl">🏫</div>
+              <div className="mt-1 font-kids text-xl md:mt-2 md:text-2xl">完整答题</div>
+              <div className="text-xs text-cocoa/60 md:text-sm">100 题全做,按题号顺序 Full set of 100</div>
+            </button>
+            <button
+              type="button"
+              onClick={() => void start("random")}
+              className="rounded-[1.5rem] border-4 border-sunny/50 bg-sunny/15 p-5 text-center shadow-lg transition hover:-translate-y-1 hover:border-sunny hover:shadow-xl active:translate-y-0 md:rounded-[2rem] md:p-6"
+            >
+              <div className="text-4xl md:text-5xl">🎲</div>
+              <div className="mt-1 font-kids text-xl md:mt-2 md:text-2xl">随机练习</div>
+              <div className="text-xs text-cocoa/60 md:text-sm">每次随机抽 10 题 Random 10</div>
+            </button>
           </div>
         </div>
       )}
@@ -191,7 +204,7 @@ export default function PracticePage() {
           <header className="flex shrink-0 items-center justify-between gap-2">
             <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家</Link>
             <span className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">
-              第 {index + 1} / {questions.length} 题
+              第 {index + 1} / {questions.length} 题{mode === "random" ? " · 随机练习" : ""}
             </span>
             <span className="rounded-full bg-gold/90 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">⭐ {earned}</span>
           </header>
@@ -248,7 +261,7 @@ export default function PracticePage() {
         <div className="mx-auto max-w-xl space-y-6 px-4 py-16 text-center">
           <Confetti />
           <Kangaroo mood="happy" className="mx-auto h-44 animate-idle-hop" />
-          <h1 className="font-kids text-4xl">闯关完成！Well done!</h1>
+          <h1 className="font-kids text-4xl">{mode === "full" ? "全部做完啦！Well done!" : "本轮练完啦！Well done!"}</h1>
           <p className="font-kids text-2xl text-cocoa/80">这次一共得到 ⭐ {earned} 颗星星</p>
           <div className="flex justify-center gap-4">
             <button
