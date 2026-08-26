@@ -127,7 +127,7 @@ export default function MistakesPage() {
               第 {index + 1} / {questions.length} 道错题
             </p>
             <div className="flex min-h-0 flex-1 flex-col py-1">
-            <QuestionCard question={q}>
+            <QuestionCard question={q} largeImage={q.source === "shangshi"}>
               <ChoiceList
                 choices={q.choices}
                 variantFor={variantFor}

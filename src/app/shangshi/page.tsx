@@ -199,7 +199,7 @@ export default function ShangshiPage() {
       )}
 
       {phase === "playing" && q && (
-        <div className="mx-auto flex h-dvh w-full max-w-2xl flex-col px-3 py-2 md:px-4 md:py-3 lg:h-auto lg:min-h-dvh lg:space-y-5 lg:py-8">
+        <div className="mx-auto flex h-dvh w-full max-w-3xl flex-col px-3 py-2 md:px-4 md:py-3 lg:h-auto lg:min-h-dvh lg:space-y-5 lg:py-8">
           {feedback?.kind === "correct" && <Confetti />}
           <header className="flex shrink-0 items-center justify-between gap-2">
             <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家</Link>
@@ -210,7 +210,7 @@ export default function ShangshiPage() {
           </header>
 
           <div className="flex min-h-0 flex-1 flex-col py-1">
-            <QuestionCard question={q}>
+            <QuestionCard question={q} largeImage>
             <ChoiceList
               choices={q.choices}
               variantFor={variantFor}

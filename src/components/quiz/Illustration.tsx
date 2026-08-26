@@ -1,3 +1,6 @@
+import { useState } from "react";
+import { createPortal } from "react-dom";
+
 export type ParsedIllustration =
   | { kind: "none" }
   | { kind: "emoji"; content: string }
@@ -39,7 +42,55 @@ export function parseIllustration(desc: string | null | undefined): ParsedIllust
   return { kind: "none" };
 }
 
-export function Illustration({ descriptor }: { descriptor: string | null }) {
+/** 大图模式题图:点击可弹出全屏查看,便于看清上实机考裁剪图细节。 */
+function ZoomableImg({ src }: { src: string }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <div className="flex justify-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={src}
+          alt=""
+          loading="lazy"
+          draggable={false}
+          onClick={() => setOpen(true)}
+          className="max-h-72 max-w-full w-auto cursor-zoom-in select-none object-contain transition hover:brightness-95 md:max-h-96"
+        />
+      </div>
+      {open &&
+        typeof document !== "undefined" &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-3 md:p-6"
+            onClick={() => setOpen(false)}
+            role="dialog"
+            aria-modal="true"
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={src} alt="" draggable={false} className="max-h-full max-w-full rounded-xl object-contain" />
+            <button
+              type="button"
+              onClick={() => setOpen(false)}
+              className="absolute right-3 top-3 rounded-full bg-white/90 px-4 py-2 font-kids text-lg shadow-lg active:translate-y-0.5 md:right-5 md:top-5"
+            >
+              ✕ 关闭 Close
+            </button>
+          </div>,
+          document.body
+        )}
+    </>
+  );
+}
+
+export function Illustration({
+  descriptor,
+  large = false,
+}: {
+  descriptor: string | null;
+  /** 大图模式:题图高度放大(上实机考整页截图较密,需放大便于看清)。 */
+  large?: boolean;
+}) {
   const parsed = parseIllustration(descriptor);
   switch (parsed.kind) {
     case "emoji":
@@ -59,7 +110,9 @@ export function Illustration({ descriptor }: { descriptor: string | null }) {
     case "bars":
       return <Bars heights={parsed.heights} />;
     case "img":
-      return (
+      return large ? (
+        <ZoomableImg src={parsed.src} />
+      ) : (
         <div className="flex justify-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img

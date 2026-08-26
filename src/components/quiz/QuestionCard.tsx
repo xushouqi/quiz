@@ -5,9 +5,12 @@ import { ReadAloud } from "./ReadAloud";
 export function QuestionCard({
   question,
   children,
+  largeImage = false,
 }: {
   question: Question;
   children?: React.ReactNode;
+  /** 大图模式:放大题图(上实机考整页截图便于看清)。 */
+  largeImage?: boolean;
 }) {
   return (
     <div className="animate-pop flex flex-col rounded-[1.5rem] border-4 border-cocoa/10 bg-white p-3 shadow-xl md:p-4">
@@ -18,7 +21,7 @@ export function QuestionCard({
         </div>
         <p className="mb-1.5 text-xs text-cocoa/60 md:mb-2 md:text-sm">{question.text_en}</p>
         <div className="mb-2 md:mb-3">
-          <Illustration descriptor={question.illustration} />
+          <Illustration descriptor={question.illustration} large={largeImage} />
         </div>
       </div>
       <div className="min-h-0 flex-1">{children}</div>
