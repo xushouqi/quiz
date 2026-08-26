@@ -1,14 +1,12 @@
+"use client";
+
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
 import { Kangaroo } from "@/components/mascot/Kangaroo";
 import { OutbackBackground } from "@/components/background/OutbackBackground";
-import { getDb } from "@/lib/db";
 import { encouragement } from "@/lib/format";
-import { examComposition, getQuestionsByIds } from "@/lib/questions";
-import { getAnswersForSession, getSession } from "@/lib/sessions";
-import type { Question, Topic } from "@/lib/types";
-
-export const dynamic = "force-dynamic";
+import type { Question, Topic, SessionRow, AnswerRow } from "@/lib/types";
 
 const TOPIC_ZH: Record<Topic, string> = {
   counting: "数数",
@@ -34,16 +32,80 @@ function Bar({ label, correct, total }: { label: string; correct: number; total:
   );
 }
 
-export default async function ReportPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = await params;
-  const db = getDb();
-  const session = getSession(db, Number(id));
-  if (!session || session.mode !== "exam" || session.finished_at === null) notFound();
+const LETTERS = ["A", "B", "C", "D", "E", "F", "G", "H"];
 
-  const answers = getAnswersForSession(db, session.id);
-  const questions = getQuestionsByIds(db, answers.map((a) => a.question_id));
+interface ReportData {
+  session: SessionRow;
+  answers: AnswerRow[];
+  questions: Question[];
+}
+
+function ReportContent() {
+  const searchParams = useSearchParams();
+  const id = Number(searchParams.get("id"));
+  const [state, setState] = useState<"loading" | "ready" | "missing">("loading");
+  const [data, setData] = useState<ReportData | null>(null);
+
+  useEffect(() => {
+    if (!Number.isFinite(id) || id <= 0) {
+      setState("missing");
+      return;
+    }
+    let cancelled = false;
+    (async () => {
+      try {
+        const res = await fetch(`/api/sessions/${id}`);
+        if (!res.ok) throw new Error("not found");
+        const d = (await res.json()) as ReportData;
+        if (cancelled) return;
+        if (!d.session || d.session.mode !== "exam" || d.session.finished_at === null) {
+          setState("missing");
+          return;
+        }
+        setData(d);
+        setState("ready");
+      } catch {
+        if (!cancelled) setState("missing");
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, [id]);
+
+  if (state === "loading") {
+    return (
+      <main className="relative min-h-dvh">
+        <OutbackBackground />
+        <div className="mx-auto max-w-2xl px-4 py-24 text-center">
+          <Kangaroo mood="happy" className="mx-auto h-32" />
+          <p className="mt-4 font-kids text-xl">正在生成报告 Loading…</p>
+        </div>
+      </main>
+    );
+  }
+
+  if (state === "missing" || !data) {
+    return (
+      <main className="relative min-h-dvh">
+        <OutbackBackground />
+        <div className="mx-auto max-w-2xl px-4 py-24 text-center">
+          <Kangaroo mood="sad" className="mx-auto h-32" />
+          <p className="mt-4 font-kids text-xl">没有找到这场考试报告 Not found</p>
+          <Link href="/exam" className="mt-6 inline-block rounded-full bg-sunny px-8 py-4 font-kids text-xl text-white shadow-lg">
+            去考试 Take an exam
+          </Link>
+        </div>
+      </main>
+    );
+  }
+
+  const { session, answers, questions } = data;
   const byId = new Map<number, Question>(questions.map((q) => [q.id, q]));
-  const composition = examComposition(questions);
+  const composition = {
+    official: questions.filter((q) => q.source === "official").length,
+    simulation: questions.filter((q) => q.source === "simulation").length,
+  };
 
   const score = session.score ?? 0;
   const maxScore = session.max_score ?? 120;
@@ -96,13 +158,14 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
               if (!q) return null;
               const icon = a.is_correct === 1 ? "✅" : a.is_correct === 0 ? "❌" : "⬜";
               const right = q.choices[q.correct_index];
+              const letter = LETTERS[q.correct_index] ?? String(q.correct_index + 1);
               return (
                 <li key={a.id} className="flex items-start gap-2 rounded-2xl bg-[#fffdf5] p-3">
                   <span aria-hidden="true">{icon}</span>
                   <div className="min-w-0 text-sm">
                     <p className="font-bold">{i + 1}. {q.text_zh}</p>
                     <p className="text-cocoa/60">
-                      正确答案 Correct: {["A", "B", "C"][q.correct_index]} · {right.zh}
+                      正确答案 Correct: {letter} · {right.zh}
                     </p>
                   </div>
                 </li>
@@ -121,5 +184,13 @@ export default async function ReportPage({ params }: { params: Promise<{ id: str
         </div>
       </div>
     </main>
+  );
+}
+
+export default function ReportPage() {
+  return (
+    <Suspense>
+      <ReportContent />
+    </Suspense>
   );
 }

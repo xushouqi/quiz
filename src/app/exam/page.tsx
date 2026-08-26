@@ -182,7 +182,7 @@ export default function ExamPage() {
         headers: { "content-type": "application/json" },
         body: JSON.stringify({ durationSeconds: EXAM_MINUTES * 60 - Math.max(0, remaining) }),
       });
-      router.push(`/exam/report/${sessionId}`);
+      router.push(`/exam/report?id=${sessionId}`);
     } catch {
       setConfirmOpen(false);
       setPhase("running");

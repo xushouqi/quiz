@@ -9,7 +9,10 @@
     "lint": "eslint",
     "seed": "tsx src/scripts/seed.ts",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "export:offline": "tsx scripts/export-offline-data.ts",
+    "audio:offline": "node scripts/generate-offline-audio.js",
+    "build:android": "node scripts/build-offline.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^13.0.1",
@@ -18,6 +21,9 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/cli": "^8.5.0",
+    "@capacitor/core": "^8.5.0",
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/better-sqlite3": "^7.6.13",
