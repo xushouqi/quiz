@@ -137,6 +137,12 @@ export default function ShangshiPage() {
 
   const q = questions[index];
 
+  // 从题图路径提取原始 PDF 题号(如 "img:/questions-images/cropped/q023.png" → 23)
+  const originalNumber = (() => {
+    const m = q?.illustration?.match(/\/q0*(\d+)\./);
+    return m ? Number(m[1]) : undefined;
+  })();
+
   const variantFor = (i: number): ChoiceVariant => {
     if (feedback?.kind === "reveal") return i === q?.correct_index ? "correct" : "dimmed";
     if (feedback?.kind === "encourage" && i === picked) return "wrong";
@@ -210,7 +216,7 @@ export default function ShangshiPage() {
           </header>
 
           <div className="flex min-h-0 flex-1 flex-col py-1">
-            <QuestionCard question={q} largeImage>
+            <QuestionCard question={q} largeImage questionNumber={originalNumber}>
             <ChoiceList
               choices={q.choices}
               variantFor={variantFor}

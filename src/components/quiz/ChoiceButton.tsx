@@ -41,7 +41,7 @@ export function ChoiceButton({
         aria-label={`${letter}. ${zh}`}
         className={`relative flex aspect-[4/3] items-center justify-center overflow-hidden rounded-2xl border-4 p-1.5 transition active:translate-y-1 md:rounded-3xl md:p-2 ${VARIANT_CLASS[variant]} ${disabled ? "cursor-default" : "cursor-pointer"}`}
       >
-        <span className="absolute left-1 top-1 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-sunny font-kids text-sm text-white shadow md:h-7 md:w-7 md:text-base">
+        <span className="absolute bottom-1 left-1 z-10 flex h-6 w-6 items-center justify-center rounded-full bg-sunny font-kids text-sm text-white shadow md:h-7 md:w-7 md:text-base">
           {letter}
         </span>
         <span className="sr-only">{zh} {en}</span>
@@ -50,7 +50,7 @@ export function ChoiceButton({
           src={img}
           alt={zh}
           draggable={false}
-          className="pointer-events-none absolute inset-0 h-full w-full select-none object-contain"
+          className="pointer-events-none absolute top-1.5 right-1.5 bottom-7 left-7 select-none object-contain"
         />
       </button>
     );
