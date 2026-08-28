@@ -45,12 +45,13 @@ export function ChoiceButton({
           {letter}
         </span>
         <span className="sr-only">{zh} {en}</span>
+        {/* 图片作为 flex 子项 h-full/w-full,flex 负责居中,避免 absolute+inset 在小磁贴上偏移 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={img}
           alt={zh}
           draggable={false}
-          className="pointer-events-none absolute inset-0 select-none object-contain object-center p-2"
+          className="pointer-events-none h-full w-full select-none object-contain object-center"
         />
       </button>
     );
