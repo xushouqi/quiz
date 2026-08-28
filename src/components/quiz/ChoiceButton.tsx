@@ -50,7 +50,7 @@ export function ChoiceButton({
           src={img}
           alt={zh}
           draggable={false}
-          className="pointer-events-none absolute inset-2 select-none object-contain"
+          className="pointer-events-none absolute inset-0 select-none object-contain object-center p-2"
         />
       </button>
     );
