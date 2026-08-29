@@ -39,29 +39,34 @@
     "illustration": "img:/questions-images/cropped/q092.png",
     "choices": [
       {
-        "zh": "4",
-        "en": "4"
+        "zh": "A",
+        "en": "A",
+        "img": "/questions-images/options/q092_o1.png?v=3"
       },
       {
-        "zh": "5",
-        "en": "5"
+        "zh": "B",
+        "en": "B",
+        "img": "/questions-images/options/q092_o2.png?v=3"
       },
       {
-        "zh": "6",
-        "en": "6"
+        "zh": "C",
+        "en": "C",
+        "img": "/questions-images/options/q092_o3.png?v=3"
       },
       {
-        "zh": "8",
-        "en": "8"
+        "zh": "D",
+        "en": "D",
+        "img": "/questions-images/options/q092_o4.png?v=3"
       },
       {
-        "zh": "9",
-        "en": "9"
+        "zh": "E",
+        "en": "E",
+        "img": "/questions-images/options/q092_o5.png?v=3"
       }
     ],
     "correct_index": 0,
-    "explanation_zh": "答案是A。数概念拓展：西瓜=8，菠萝=6，桃子=8，草莓=5，苹果=5，橘子=4。",
-    "explanation_en": "The answer is A. Number concept: watermelon=8, pineapple=6, peach=8, strawberry=5, apple=5, orange=4."
+    "explanation_zh": "答案是A。通过算式求解：2+西瓜=10→西瓜=8；草莓+4=9→草莓=5；3+菠萝=9→菠萝=6；苹果+5=10→苹果=5；桃子-6=2→桃子=8；9-橘子=5→橘子=4。",
+    "explanation_en": "The answer is A. Solving equations: 2+watermelon=10→watermelon=8; strawberry+4=9→strawberry=5; 3+pineapple=9→pineapple=6; apple+5=10→apple=5; peach-6=2→peach=8; 9-orange=5→orange=4."
   },
   {
     "difficulty": 3,
@@ -72,28 +77,33 @@
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q093_o1.png?v=3"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q093_o2.png?v=3"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q093_o3.png?v=3"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q093_o4.png?v=3"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q093_o5.png?v=3"
       }
     ],
     "correct_index": 2,
-    "explanation_zh": "答案是C。图形旋转+数量规律。右下角总是3个方块，左下角4个圆，左上角1顶帽子，右上角2颗五角星。",
-    "explanation_en": "The answer is C. Shape rotation + count pattern. Bottom-right always has 3 blocks, bottom-left 4 circles, top-left 1 hat, top-right 2 stars."
+    "explanation_zh": "答案是C。图形旋转+数量规律。每个图形按顺时针方向在四个象限中循环移动：蓝色方块TL→TR→BR→BL，绿色圆TR→BR→BL→TL，橙色星BL→TL→TR→BR，红色逗号BR→BL→TL→TR。所以第3个图：逗号(3)左上、星(4)右上、圆(2)左下、方块(1)右下。",
+    "explanation_en": "The answer is C. Shape rotation + count pattern. Each shape moves clockwise through quadrants: square TL→TR→BR→BL, circle TR→BR→BL→TL, star BL→TL→TR→BR, comma BR→BL→TL→TR. So circle 3: comma(3) TL, star(4) TR, circle(2) BL, square(1) BR."
   },
   {
     "difficulty": 3,
@@ -207,24 +217,29 @@
     "illustration": "img:/questions-images/cropped/q098.png",
     "choices": [
       {
-        "zh": "6",
-        "en": "6"
+        "zh": "A",
+        "en": "A",
+        "img": "/questions-images/options/q098_o1.png?v=3"
       },
       {
-        "zh": "7",
-        "en": "7"
+        "zh": "B",
+        "en": "B",
+        "img": "/questions-images/options/q098_o2.png?v=3"
       },
       {
-        "zh": "8",
-        "en": "8"
+        "zh": "C",
+        "en": "C",
+        "img": "/questions-images/options/q098_o3.png?v=3"
       },
       {
-        "zh": "9",
-        "en": "9"
+        "zh": "D",
+        "en": "D",
+        "img": "/questions-images/options/q098_o4.png?v=3"
       },
       {
-        "zh": "10",
-        "en": "10"
+        "zh": "E",
+        "en": "E",
+        "img": "/questions-images/options/q098_o5.png?v=3"
       }
     ],
     "correct_index": 0,
@@ -239,24 +254,29 @@
     "illustration": "img:/questions-images/cropped/q099.png",
     "choices": [
       {
-        "zh": "19",
-        "en": "19"
+        "zh": "A",
+        "en": "A",
+        "img": "/questions-images/options/q099_o1.png?v=3"
       },
       {
-        "zh": "12",
-        "en": "12"
+        "zh": "B",
+        "en": "B",
+        "img": "/questions-images/options/q099_o2.png?v=3"
       },
       {
-        "zh": "7",
-        "en": "7"
+        "zh": "C",
+        "en": "C",
+        "img": "/questions-images/options/q099_o3.png?v=3"
       },
       {
-        "zh": "15",
-        "en": "15"
+        "zh": "D",
+        "en": "D",
+        "img": "/questions-images/options/q099_o4.png?v=3"
       },
       {
-        "zh": "20",
-        "en": "20"
+        "zh": "E",
+        "en": "E",
+        "img": "/questions-images/options/q099_o5.png?v=3"
       }
     ],
     "correct_index": 0,

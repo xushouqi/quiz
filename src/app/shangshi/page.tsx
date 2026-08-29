@@ -182,7 +182,7 @@ export default function ShangshiPage() {
             >
               <div className="text-4xl md:text-5xl">🏫</div>
               <div className="mt-1 font-kids text-xl md:mt-2 md:text-2xl">完整答题</div>
-              <div className="text-xs text-cocoa/60 md:text-sm">100 题全做,按题号顺序 Full set of 100</div>
+              <div className="text-xs text-cocoa/60 md:text-sm">全部题目,按题号顺序 Full set</div>
             </button>
             <button
               type="button"

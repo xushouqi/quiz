@@ -224,8 +224,8 @@
   {
     "difficulty": 3,
     "topic": "shapes",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
+    "text_zh": "下面哪一组衣物和图中女孩穿的一样？",
+    "text_en": "Which set of clothes matches what the girl is wearing?",
     "illustration": "img:/questions-images/cropped/q077.png",
     "choices": [
       {
@@ -250,14 +250,14 @@
       }
     ],
     "correct_index": 2,
-    "explanation_zh": "答案是C。逐个排除法找到正确答案。",
-    "explanation_en": "The answer is C. Use elimination to find the correct answer."
+    "explanation_zh": "答案是C。女孩穿的是：粉色帽子、粉色外套、灰色短裤、粉色鞋子、粉色挎包。A的短裤是粉色（应为灰色），B的帽子是灰色（应为粉色），D的鞋子是白色（应为粉色），只有C全部匹配。",
+    "explanation_en": "The answer is C. The girl wears: pink hat, pink jacket, gray shorts, pink shoes, pink bag. A has pink shorts (should be gray), B has gray hat (should be pink), D has white shoes (should be pink). Only C matches all items."
   },
   {
     "difficulty": 3,
     "topic": "shapes",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
+    "text_zh": "下面哪一组机器人零件和图中的机器人一样？",
+    "text_en": "Which set of robot parts matches the robot in the picture?",
     "illustration": "img:/questions-images/cropped/q078.png",
     "choices": [
       {
@@ -282,8 +282,8 @@
       }
     ],
     "correct_index": 2,
-    "explanation_zh": "答案是C。",
-    "explanation_en": "The answer is C."
+    "explanation_zh": "答案是C。图中的机器人有：圆形眼睛、粉色方形身体、灰色条纹手臂和腿、粉色脚。A的眼睛是X形（应为圆形），B的表情是愤怒露齿（应为平静），D的身体是三角形且有C形耳朵（应为方形身体和圆形耳朵），只有C全部匹配。",
+    "explanation_en": "The answer is C. The robot has: round eyes, pink square body, gray striped arms and legs, pink feet. A has X eyes (should be round), B has angry toothy face (should be calm), D has triangle body and C-shaped ears (should be square body and round ears). Only C matches all parts."
   },
   {
     "difficulty": 3,

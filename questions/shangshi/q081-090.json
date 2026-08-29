@@ -76,162 +76,39 @@
   {
     "difficulty": 3,
     "topic": "logic",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
+    "text_zh": "仔细观察，图中有一组图案和其他不同，你能找出来吗？",
+    "text_en": "Look carefully. One group of shapes is different from the others. Can you find it?",
     "illustration": "img:/questions-images/cropped/q083.png",
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "A",
+        "img": "/questions-images/options/q083_o1.png?v=3"
       },
       {
         "zh": "B",
-        "en": "B"
+        "en": "B",
+        "img": "/questions-images/options/q083_o2.png?v=3"
       },
       {
         "zh": "C",
-        "en": "C"
+        "en": "C",
+        "img": "/questions-images/options/q083_o3.png?v=3"
       },
       {
         "zh": "D",
-        "en": "D"
+        "en": "D",
+        "img": "/questions-images/options/q083_o4.png?v=3"
       },
       {
         "zh": "E",
-        "en": "E"
+        "en": "E",
+        "img": "/questions-images/options/q083_o5.png?v=3"
       }
     ],
     "correct_index": 0,
-    "explanation_zh": "看图片，仔细观察找规律。",
-    "explanation_en": "Look at the image carefully and find the pattern."
-  },
-  {
-    "difficulty": 3,
-    "topic": "logic",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
-    "illustration": "img:/questions-images/cropped/q084.png",
-    "choices": [
-      {
-        "zh": "A",
-        "en": "A"
-      },
-      {
-        "zh": "B",
-        "en": "B"
-      },
-      {
-        "zh": "C",
-        "en": "C"
-      },
-      {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
-      }
-    ],
-    "correct_index": 0,
-    "explanation_zh": "看图片，仔细观察找规律。",
-    "explanation_en": "Look at the image carefully and find the pattern."
-  },
-  {
-    "difficulty": 3,
-    "topic": "logic",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
-    "illustration": "img:/questions-images/cropped/q085.png",
-    "choices": [
-      {
-        "zh": "A",
-        "en": "A"
-      },
-      {
-        "zh": "B",
-        "en": "B"
-      },
-      {
-        "zh": "C",
-        "en": "C"
-      },
-      {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
-      }
-    ],
-    "correct_index": 0,
-    "explanation_zh": "看图片，仔细观察找规律。",
-    "explanation_en": "Look at the image carefully and find the pattern."
-  },
-  {
-    "difficulty": 3,
-    "topic": "logic",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
-    "illustration": "img:/questions-images/cropped/q086.png",
-    "choices": [
-      {
-        "zh": "A",
-        "en": "A"
-      },
-      {
-        "zh": "B",
-        "en": "B"
-      },
-      {
-        "zh": "C",
-        "en": "C"
-      },
-      {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
-      }
-    ],
-    "correct_index": 0,
-    "explanation_zh": "看图片，仔细观察找规律。",
-    "explanation_en": "Look at the image carefully and find the pattern."
-  },
-  {
-    "difficulty": 3,
-    "topic": "logic",
-    "text_zh": "看图片，按规律，问号处应该是什么？",
-    "text_en": "Look at the pattern. What comes next?",
-    "illustration": "img:/questions-images/cropped/q087.png",
-    "choices": [
-      {
-        "zh": "A",
-        "en": "A"
-      },
-      {
-        "zh": "B",
-        "en": "B"
-      },
-      {
-        "zh": "C",
-        "en": "C"
-      },
-      {
-        "zh": "D",
-        "en": "D"
-      },
-      {
-        "zh": "E",
-        "en": "E"
-      }
-    ],
-    "correct_index": 0,
-    "explanation_zh": "看图片，仔细观察找规律。",
-    "explanation_en": "Look at the image carefully and find the pattern."
+    "explanation_zh": "仔细观察5组图案，找出和其他4组不同的那一组。",
+    "explanation_en": "Look at all 5 groups carefully and find the one that is different from the other four."
   },
   {
     "difficulty": 3,
