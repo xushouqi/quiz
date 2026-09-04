@@ -46,10 +46,10 @@ beforeEach(() => {
 });
 
 describe("offline data", () => {
-  it("embeds all 316 questions", () => {
-    expect(OFFLINE_DATA.questions.length).toBe(316);
+  it("embeds all 2909 questions", () => {
+    expect(OFFLINE_DATA.questions.length).toBe(2909);
     const sources = new Set(OFFLINE_DATA.questions.map((q) => q.source));
-    expect(sources).toEqual(new Set(["practice", "official", "simulation", "shangshi"]));
+    expect(sources).toEqual(new Set(["practice", "official", "simulation", "shangshi", "olympiad"]));
   });
 });
 
