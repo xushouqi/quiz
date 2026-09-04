@@ -13,6 +13,7 @@ const BANKS: { source: Source; dir: string; required: boolean }[] = [
   { source: "official", dir: "official", required: false },
   { source: "simulation", dir: "simulation", required: false },
   { source: "shangshi", dir: "shangshi", required: false },
+  { source: "olympiad", dir: "olympiad", required: false },
 ];
 
 export function loadBankFiles(baseDir: string, sub: string, required: boolean): unknown[] {
@@ -80,7 +81,7 @@ export function runSeed(db: Database, baseDir: string = QUESTIONS_DIR): number {
 }
 
 function warnIfExamBankShort(db: Database): void {
-  for (const difficulty of [3, 4, 5]) {
+  for (const difficulty of [1, 2, 3, 4, 5, 6]) {
     const row = db
       .prepare(
         "SELECT COUNT(*) AS n FROM questions WHERE source IN ('official', 'simulation') AND difficulty = ?"

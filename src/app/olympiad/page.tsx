@@ -9,7 +9,7 @@ import { type ChoiceVariant } from "@/components/quiz/ChoiceButton";
 import { ChoiceList } from "@/components/quiz/ChoiceList";
 import { Confetti } from "@/components/quiz/Confetti";
 import { QuestionCard } from "@/components/quiz/QuestionCard";
-import type { Question, Topic } from "@/lib/types";
+import { type Question, type Topic } from "@/lib/types";
 import { fetchWithTimeout } from "@/lib/fetch-timeout";
 import { useUser } from "@/components/contexts/UserContext";
 
@@ -27,15 +27,25 @@ const TOPIC_OPTIONS: { key: Topic | "random"; zh: string; en: string; emoji: str
   { key: "travel", zh: "行程问题", en: "Travel", emoji: "🚂" },
 ];
 
+// 奥数题难度跨度大(1–6), 按学段分级。默认中低年级(1–4)贴合 app 现有难度。
+const DIFF_BANDS: { key: string; zh: string; en: string; emoji: string; lo: number; hi: number }[] = [
+  { key: "low", zh: "低年级 1–2", en: "G1–2", emoji: "🌱", lo: 1, hi: 2 },
+  { key: "mid", zh: "中年级 1–4", en: "G1–4", emoji: "🔥", lo: 1, hi: 4 },
+  { key: "high", zh: "高年级 5–6", en: "G5–6", emoji: "🚀", lo: 5, hi: 6 },
+  { key: "all", zh: "全部难度", en: "All", emoji: "🌟", lo: 1, hi: 6 },
+];
+
 const PRACTICE_SIZE = 10;
+const DEFAULT_BAND = "mid";
 
 type Phase = "select" | "loading" | "playing" | "done";
 type Feedback = { kind: "correct"; stars: number } | { kind: "encourage" } | { kind: "reveal" };
 
-export default function PracticePage() {
+export default function OlympiadPage() {
   const router = useRouter();
   const { currentUser } = useUser();
   const [phase, setPhase] = useState<Phase>("select");
+  const [band, setBand] = useState<string>(DEFAULT_BAND);
   const [questions, setQuestions] = useState<Question[]>([]);
   const [index, setIndex] = useState(0);
   const [attempt, setAttempt] = useState(0);
@@ -46,40 +56,44 @@ export default function PracticePage() {
   const [error, setError] = useState<string | null>(null);
   const shownAt = useRef(Date.now());
 
-  const start = useCallback(async (topic: Topic | "random", source: string = "practice") => {
-    if (!currentUser) {
-      router.push("/");
-      return;
-    }
-
-    setPhase("loading");
-    setError(null);
-    const limit = PRACTICE_SIZE;
-    try {
-      const [sessRes, qsRes] = await Promise.all([
-        fetchWithTimeout("/api/sessions", {
-          method: "POST",
-          headers: { "content-type": "application/json" },
-          body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
-        }),
-        fetchWithTimeout(`/api/questions?topic=${topic}&limit=${limit}&source=${source}`),
-      ]);
-      const sess = (await sessRes.json()) as { id: number };
-      const qs = (await qsRes.json()) as { questions: Question[] };
-      setSessionId(sess.id);
-      setQuestions(qs.questions);
-      setIndex(0);
-      setAttempt(0);
-      setPicked(null);
-      setFeedback(null);
-      setEarned(0);
-      shownAt.current = Date.now();
-      setPhase(qs.questions.length > 0 ? "playing" : "done");
-    } catch {
-      setPhase("select");
-      setError("加载失败：请确认服务正在运行（npm run dev）后重试。Couldn't reach the server.");
-    }
-  }, [currentUser, router]);
+  const start = useCallback(
+    async (topic: Topic | "random") => {
+      if (!currentUser) {
+        router.push("/");
+        return;
+      }
+      const b = DIFF_BANDS.find((x) => x.key === band) ?? DIFF_BANDS[1];
+      setPhase("loading");
+      setError(null);
+      try {
+        const [sessRes, qsRes] = await Promise.all([
+          fetchWithTimeout("/api/sessions", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({ mode: "practice", userId: currentUser.id }),
+          }),
+          fetchWithTimeout(
+            `/api/questions?topic=${topic}&limit=${PRACTICE_SIZE}&source=olympiad&diffMin=${b.lo}&diffMax=${b.hi}`
+          ),
+        ]);
+        const sess = (await sessRes.json()) as { id: number };
+        const qs = (await qsRes.json()) as { questions: Question[] };
+        setSessionId(sess.id);
+        setQuestions(qs.questions);
+        setIndex(0);
+        setAttempt(0);
+        setPicked(null);
+        setFeedback(null);
+        setEarned(0);
+        shownAt.current = Date.now();
+        setPhase(qs.questions.length > 0 ? "playing" : "done");
+      } catch {
+        setPhase("select");
+        setError("加载失败：请确认服务正在运行后重试。Couldn't reach the server.");
+      }
+    },
+    [band, currentUser, router]
+  );
 
   const pick = useCallback(
     (i: number) => {
@@ -89,8 +103,6 @@ export default function PracticePage() {
       const correct = i === q.correct_index;
       const timeSpentSeconds = Math.max(0, Math.round((Date.now() - shownAt.current) / 1000));
 
-      // 作答持久化：不阻塞反馈，后台发送；失败自动重试一次
-      // （本地 SQLite 服务极少失败；重试仍失败时记录警告，不影响孩子继续练习）
       const payload = JSON.stringify({ sessionId, questionId: q.id, chosenIndex: i, timeSpentSeconds });
       const send = () =>
         fetchWithTimeout("/api/answers", {
@@ -99,7 +111,7 @@ export default function PracticePage() {
           body: payload,
         });
       void send().catch(() =>
-        send().catch((e) => console.warn("[practice] 作答保存失败 answer not saved:", e))
+        send().catch((e) => console.warn("[olympiad] 作答保存失败 answer not saved:", e))
       );
 
       if (correct) {
@@ -151,15 +163,34 @@ export default function PracticePage() {
         <div className="mx-auto max-w-3xl px-4 py-6 md:py-10">
           <header className="flex items-center justify-between">
             <Link href="/" className="rounded-full bg-white/85 px-3 py-1.5 font-kids text-sm shadow md:px-4 md:py-2 md:text-base">← 回家 Home</Link>
-            <h1 className="font-kids text-2xl md:text-3xl">闯关练习</h1>
+            <h1 className="font-kids text-2xl md:text-3xl">奥数练习</h1>
             <span className="w-20 md:w-24" aria-hidden="true" />
           </header>
           <div className="mt-6 flex flex-col items-center gap-3 sm:mt-10 sm:flex-row sm:justify-center sm:gap-4">
             <Kangaroo mood={error ? "sad" : "happy"} className="h-28 animate-idle-hop md:h-36" />
             <p className="max-w-xs rounded-3xl border-4 border-cocoa/10 bg-white/90 p-3 text-center font-kids text-lg shadow md:p-4 md:text-xl">
-              选一个主题开始冒险吧！ Pick a topic!
+              先选学段，再选主题！Pick a level and topic!
             </p>
           </div>
+
+          <div className="mt-5 flex flex-wrap justify-center gap-2 sm:mt-7">
+            {DIFF_BANDS.map((b) => (
+              <button
+                key={b.key}
+                type="button"
+                onClick={() => setBand(b.key)}
+                className={`rounded-full border-4 px-4 py-2 font-kids text-sm shadow transition active:translate-y-1 md:text-base ${
+                  band === b.key
+                    ? "border-sunny bg-sunny/25 text-cocoa"
+                    : "border-cocoa/10 bg-white/90 text-cocoa/70 hover:border-sunny"
+                }`}
+              >
+                <span className="mr-1">{b.emoji}</span>
+                {b.zh}
+              </button>
+            ))}
+          </div>
+
           {error && (
             <p className="mx-auto mt-4 max-w-md rounded-3xl border-4 border-coral/30 bg-coral/10 p-4 text-center font-kids text-lg text-coral">
               {error}
@@ -202,44 +233,46 @@ export default function PracticePage() {
 
           <div className="flex min-h-0 flex-1 flex-col py-1">
             <QuestionCard question={q}>
-            <ChoiceList
-              choices={q.choices}
-              variantFor={variantFor}
-              disabled={feedback !== null}
-              onSelect={(i2) => void pick(i2)}
-            />
+              <ChoiceList
+                choices={q.choices}
+                variantFor={variantFor}
+                disabled={feedback !== null}
+                onSelect={(i2) => void pick(i2)}
+              />
 
-            {feedback?.kind === "encourage" && (
-              <p className="mt-2 animate-pop rounded-2xl bg-gold/40 p-2 text-center font-kids text-base md:mt-4 md:p-3 md:text-lg">
-                差一点点！再试一次吧～ So close! Try again!
-              </p>
-            )}
+              {feedback?.kind === "encourage" && (
+                <p className="mt-2 animate-pop rounded-2xl bg-gold/40 p-2 text-center font-kids text-base md:mt-4 md:p-3 md:text-lg">
+                  差一点点！再试一次吧～ So close! Try again!
+                </p>
+              )}
 
-            {(feedback?.kind === "correct" || feedback?.kind === "reveal") && (
-              <div className="mt-2 animate-pop space-y-2 md:mt-4 md:space-y-3">
-                {feedback.kind === "correct" ? (
-                  <p className="rounded-2xl bg-grass/25 p-2 text-center font-kids text-lg md:p-3 md:text-xl">
-                    太棒了！+{feedback.stars}⭐ Awesome!
-                  </p>
-                ) : (
-                  <p className="rounded-2xl bg-coral/15 p-2 text-center font-kids text-base md:p-3 md:text-lg">
-                    没关系，看看答案吧！ Here is the answer!
-                  </p>
-                )}
-                <div className="rounded-2xl border-4 border-cocoa/10 bg-[#fffdf5] p-3 md:p-4">
-                  <p className="text-sm font-bold md:text-base">💡 {q.explanation_zh}</p>
-                  <p className="mt-1 text-xs text-cocoa/60 md:text-sm">{q.explanation_en}</p>
+              {(feedback?.kind === "correct" || feedback?.kind === "reveal") && (
+                <div className="mt-2 animate-pop space-y-2 md:mt-4 md:space-y-3">
+                  {feedback.kind === "correct" ? (
+                    <p className="rounded-2xl bg-grass/25 p-2 text-center font-kids text-lg md:p-3 md:text-xl">
+                      太棒了！+{feedback.stars}⭐ Awesome!
+                    </p>
+                  ) : (
+                    <p className="rounded-2xl bg-coral/15 p-2 text-center font-kids text-base md:p-3 md:text-lg">
+                      没关系，看看答案吧！ Here is the answer!
+                    </p>
+                  )}
+                  <div className="rounded-2xl border-4 border-cocoa/10 bg-[#fffdf5] p-3 md:p-4">
+                    <p className="text-sm font-bold md:text-base">💡 {q.explanation_zh}</p>
+                    {q.explanation_en && q.explanation_en !== q.explanation_zh && (
+                      <p className="mt-1 text-xs text-cocoa/60 md:text-sm">{q.explanation_en}</p>
+                    )}
+                  </div>
+                  <button
+                    type="button"
+                    onClick={next}
+                    className="w-full rounded-full bg-sunny p-3 font-kids text-xl text-white shadow-lg transition hover:brightness-105 active:translate-y-1 md:p-4 md:text-2xl"
+                  >
+                    {index + 1 >= questions.length ? "完成！Finish!" : "下一题 Next →"}
+                  </button>
                 </div>
-                <button
-                  type="button"
-                  onClick={next}
-                  className="w-full rounded-full bg-sunny p-3 font-kids text-xl text-white shadow-lg transition hover:brightness-105 active:translate-y-1 md:p-4 md:text-2xl"
-                >
-                  {index + 1 >= questions.length ? "完成！Finish!" : "下一题 Next →"}
-                </button>
-              </div>
-            )}
-          </QuestionCard>
+              )}
+            </QuestionCard>
           </div>
 
           <div className="flex shrink-0 justify-center md:mt-0">

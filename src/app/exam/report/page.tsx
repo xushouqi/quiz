@@ -15,6 +15,10 @@ const TOPIC_ZH: Record<Topic, string> = {
   logic: "逻辑",
   arithmetic: "计算",
   time: "时间",
+  number_theory: "数论",
+  word_problems: "应用题",
+  combinatorics: "组合",
+  travel: "行程",
 };
 
 function Bar({ label, correct, total }: { label: string; correct: number; total: number }) {
@@ -111,7 +115,7 @@ function ReportContent() {
   const maxScore = session.max_score ?? 120;
   const praise = encouragement(score, maxScore);
 
-  const perDifficulty = [3, 4, 5].map((d) => {
+  const perDifficulty = [1, 2, 3, 4, 5, 6].map((d) => {
     const rows = answers.filter((a) => byId.get(a.question_id)?.difficulty === d);
     return { difficulty: d, correct: rows.filter((a) => a.is_correct === 1).length, total: rows.length };
   });

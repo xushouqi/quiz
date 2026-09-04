@@ -9,6 +9,10 @@ export const TOPIC_LABELS: Record<Topic, string> = {
   logic: "逻辑",
   arithmetic: "计算",
   time: "时间",
+  number_theory: "数论",
+  word_problems: "应用题",
+  combinatorics: "组合",
+  travel: "行程",
 };
 
 export interface Stats {

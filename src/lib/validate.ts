@@ -7,8 +7,8 @@ export function validateQuestion(q: unknown, label: string): string[] {
   const obj = q as Record<string, unknown>;
   const errors: string[] = [];
 
-  if (!DIFFICULTIES.includes(obj.difficulty as 3 | 4 | 5)) {
-    errors.push(`${label}: difficulty 必须是 3、4 或 5（当前 ${JSON.stringify(obj.difficulty)}）`);
+  if (!DIFFICULTIES.includes(obj.difficulty as 1 | 2 | 3 | 4 | 5 | 6)) {
+    errors.push(`${label}: difficulty 必须是 1–6（当前 ${JSON.stringify(obj.difficulty)}）`);
   }
   if (!TOPICS.includes(obj.topic as (typeof TOPICS)[number])) {
     errors.push(`${label}: topic "${String(obj.topic)}" 不在 ${TOPICS.join("|")} 中`);

@@ -16,6 +16,7 @@ const STATIONS = [
   { href: "/practice", emoji: "🏃", zh: "闯关练习", en: "Practice", tint: "border-sunny bg-sunny/20" },
   { href: "/exam", emoji: "📝", zh: "模拟考试", en: "Mock Exam", tint: "border-coral bg-coral/15" },
   { href: "/shangshi", emoji: "🏫", zh: "上实机考", en: "Shanghai Exam", tint: "border-violet/40 bg-violet/10" },
+  { href: "/olympiad", emoji: "🧩", zh: "奥数练习", en: "Olympiad", tint: "border-sky-soft bg-sky-soft/20" },
   { href: "/mistakes", emoji: "📒", zh: "错题本", en: "Mistakes", tint: "border-grass bg-grass/20" },
 ];
 
