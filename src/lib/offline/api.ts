@@ -80,6 +80,21 @@ function getShangshiQuestions(topic: Topic | "random", limit: number): Question[
   return filtered.slice(0, limit);
 }
 
+function getOlympiadQuestions(
+  topic: Topic | "random",
+  limit: number,
+  diffMin: number,
+  diffMax: number,
+): Question[] {
+  const lo = Math.min(Math.max(1, Math.floor(diffMin)), 6);
+  const hi = Math.min(Math.max(lo, Math.floor(diffMax)), 6);
+  const pool = QUESTIONS.filter(
+    (q) => q.source === "olympiad" && q.difficulty >= lo && q.difficulty <= hi,
+  );
+  const filtered = topic === "random" ? pool : pool.filter((q) => q.topic === topic);
+  return shuffle(filtered).slice(0, limit);
+}
+
 function pickExcluding(
   difficulty: number,
   excludeIds: Set<number>,
