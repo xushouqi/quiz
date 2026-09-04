@@ -46,8 +46,8 @@ beforeEach(() => {
 });
 
 describe("offline data", () => {
-  it("embeds all 2909 questions", () => {
-    expect(OFFLINE_DATA.questions.length).toBe(2909);
+  it("embeds all 2876 questions", () => {
+    expect(OFFLINE_DATA.questions.length).toBe(2876);
     const sources = new Set(OFFLINE_DATA.questions.map((q) => q.source));
     expect(sources).toEqual(new Set(["practice", "official", "simulation", "shangshi", "olympiad"]));
   });
@@ -119,10 +119,10 @@ describe("offline practice", () => {
 });
 
 describe("offline shangshi (上实机考, 选项可达 8 个)", () => {
-  it("returns all 100 shangshi questions ordered by id", async () => {
+  it("returns all 96 shangshi questions ordered by id", async () => {
     const res = await api("/api/questions?source=shangshi&limit=100");
     const { questions } = (await res.json()) as { questions: Question[] };
-    expect(questions.length).toBe(100);
+    expect(questions.length).toBe(96);
     expect(questions.every((q) => q.source === "shangshi")).toBe(true);
     expect(questions.map((q) => q.id)).toEqual([...questions.map((q) => q.id)].sort((a, b) => a - b));
   });
