@@ -36,7 +36,7 @@ const DIFF_BANDS: { key: string; zh: string; en: string; emoji: string; lo: numb
 ];
 
 const PRACTICE_SIZE = 10;
-const DEFAULT_BAND = "mid";
+const DEFAULT_BAND = "low";
 
 type Phase = "select" | "loading" | "playing" | "done";
 type Feedback = { kind: "correct"; stars: number } | { kind: "encourage" } | { kind: "reveal" };
