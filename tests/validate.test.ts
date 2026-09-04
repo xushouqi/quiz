@@ -22,7 +22,7 @@ describe("validateQuestion", () => {
     expect(validateQuestion(good, "q")).toEqual([]);
   });
   it("rejects a bad difficulty", () => {
-    const errors = validateQuestion({ ...good, difficulty: 6 }, "q");
+    const errors = validateQuestion({ ...good, difficulty: 7 }, "q");
     expect(errors.some((e) => e.includes("difficulty"))).toBe(true);
   });
   it("rejects a bad topic", () => {

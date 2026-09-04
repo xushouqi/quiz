@@ -71,6 +71,43 @@ export function getShangshiQuestions(
   return rows.map(rowToQuestion);
 }
 
+/** 奥数练习：可按主题和难度区间筛选题目。difficulty 为 1–6。 */
+export function getOlympiadQuestions(
+  db: Database,
+  topic: Topic | "random",
+  limit: number,
+  diffMin = 1,
+  diffMax = 6
+): Question[] {
+  const lo = Math.min(Math.max(1, Math.floor(diffMin)), 6);
+  const hi = Math.min(Math.max(lo, Math.floor(diffMax)), 6);
+  const rows =
+    topic === "random"
+      ? (db
+          .prepare(
+            "SELECT * FROM questions WHERE source = 'olympiad' AND difficulty BETWEEN ? AND ? ORDER BY RANDOM() LIMIT ?"
+          )
+          .all(lo, hi, limit) as QuestionRow[])
+      : (db
+          .prepare(
+            "SELECT * FROM questions WHERE source = 'olympiad' AND topic = ? AND difficulty BETWEEN ? AND ? ORDER BY RANDOM() LIMIT ?"
+          )
+          .all(topic, lo, hi, limit) as QuestionRow[]);
+  return rows.map(rowToQuestion);
+}
+
+/** 某个难度区间内奥数题的数量，用于页面提示。 */
+export function countOlympiadQuestions(db: Database, diffMin = 1, diffMax = 6): number {
+  const row = db
+    .prepare(
+      "SELECT COUNT(*) AS n FROM questions WHERE source = 'olympiad' AND difficulty BETWEEN ? AND ?"
+    )
+    .get(Math.min(Math.max(1, Math.floor(diffMin)), 6), Math.min(Math.max(1, Math.floor(diffMax)), 6)) as {
+    n: number;
+  };
+  return row?.n ?? 0;
+}
+
 function pickExcluding(
   db: Database,
   difficulty: number,
@@ -114,7 +151,7 @@ export function getExamQuestions(db: Database, perDifficulty = 8): Question[] {
         ).map((r) => r.id);
 
   const out: QuestionRow[] = [];
-  for (const difficulty of [3, 4, 5]) {
+  for (const difficulty of [1, 2, 3, 4, 5, 6]) {
     const officials = pickExcluding(db, difficulty, excluded, ["official"], perDifficulty);
     const officialIds = officials.map((r) => r.id);
     const sims = pickExcluding(

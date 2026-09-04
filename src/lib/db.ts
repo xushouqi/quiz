@@ -12,8 +12,8 @@ CREATE TABLE IF NOT EXISTS users (
 
 CREATE TABLE IF NOT EXISTS questions (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  difficulty INTEGER NOT NULL CHECK (difficulty IN (3, 4, 5)),
-  topic TEXT NOT NULL CHECK (topic IN ('counting', 'shapes', 'patterns', 'logic', 'arithmetic', 'time')),
+  difficulty INTEGER NOT NULL CHECK (difficulty IN (1, 2, 3, 4, 5, 6)),
+  topic TEXT NOT NULL CHECK (topic IN ('counting', 'shapes', 'patterns', 'logic', 'arithmetic', 'time', 'number_theory', 'word_problems', 'combinatorics', 'travel')),
   text_zh TEXT NOT NULL,
   text_en TEXT NOT NULL,
   illustration TEXT,
@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS questions (
   correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2, 3, 4)),
   explanation_zh TEXT NOT NULL,
   explanation_en TEXT NOT NULL,
-  source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi')),
+  source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi', 'olympiad')),
   attribution TEXT
 );
 
@@ -89,6 +89,41 @@ function migrate(db: Database.Database): void {
   widenSourceConstraint(db);
   // 选项数从 5 放宽到 8（上实机考 Q23-28 为 A–H 八选项）：旧库 CHECK 只允许 correct_index/chosen_index ∈ {0..4}
   widenChoiceIndexConstraints8(db);
+  // 扩展 topic（+4 奥数分类）和 difficulty（3-5 → 1-6）
+  widenTopicAndDifficulty(db);
+  // 新增 olympiad source（小学奥数题库）：旧库 CHECK 不含它，需要重建表
+  widenSourceOlympiad(db);
+}
+
+function widenSourceOlympiad(db: Database.Database): void {
+  const qSql = db
+    .prepare("SELECT sql FROM sqlite_master WHERE type='table' AND name='questions'")
+    .get() as { sql: string } | undefined;
+  if (!qSql?.sql) return;
+  if (qSql.sql.includes("'olympiad'")) return;
+  db.exec("PRAGMA foreign_keys = OFF");
+  db.exec("DROP TABLE IF EXISTS questions_new;");
+  db.exec(`
+    CREATE TABLE questions_new (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      difficulty INTEGER NOT NULL CHECK (difficulty IN (1, 2, 3, 4, 5, 6)),
+      topic TEXT NOT NULL CHECK (topic IN ('counting', 'shapes', 'patterns', 'logic', 'arithmetic', 'time', 'number_theory', 'word_problems', 'combinatorics', 'travel')),
+      text_zh TEXT NOT NULL,
+      text_en TEXT NOT NULL,
+      illustration TEXT,
+      choices TEXT NOT NULL,
+      correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2, 3, 4, 5, 6, 7)),
+      explanation_zh TEXT NOT NULL,
+      explanation_en TEXT NOT NULL,
+      source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi', 'olympiad')),
+      attribution TEXT
+    );
+    INSERT INTO questions_new SELECT id, difficulty, topic, text_zh, text_en, illustration, choices, correct_index, explanation_zh, explanation_en, source, attribution FROM questions;
+    DROP TABLE questions;
+    ALTER TABLE questions_new RENAME TO questions;
+    CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
+  `);
+  db.exec("PRAGMA foreign_keys = ON");
 }
 
 function widenChoiceIndexConstraints(db: Database.Database): void {
@@ -243,5 +278,37 @@ function widenChoiceIndexConstraints8(db: Database.Database): void {
       CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
     `);
   }
+  db.exec("PRAGMA foreign_keys = ON");
+}
+
+function widenTopicAndDifficulty(db: Database.Database): void {
+  const qSql = db
+    .prepare("SELECT sql FROM sqlite_master WHERE type='table' AND name='questions'")
+    .get() as { sql: string } | undefined;
+  if (!qSql?.sql) return;
+  // 如果已包含新 topic 和新 difficulty，无需迁移
+  if (qSql.sql.includes("'number_theory'") && qSql.sql.includes("1, 2, 3, 4, 5, 6")) return;
+  db.exec("PRAGMA foreign_keys = OFF");
+  db.exec("DROP TABLE IF EXISTS questions_new;");
+  db.exec(`
+    CREATE TABLE questions_new (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      difficulty INTEGER NOT NULL CHECK (difficulty IN (1, 2, 3, 4, 5, 6)),
+      topic TEXT NOT NULL CHECK (topic IN ('counting', 'shapes', 'patterns', 'logic', 'arithmetic', 'time', 'number_theory', 'word_problems', 'combinatorics', 'travel')),
+      text_zh TEXT NOT NULL,
+      text_en TEXT NOT NULL,
+      illustration TEXT,
+      choices TEXT NOT NULL,
+      correct_index INTEGER NOT NULL CHECK (correct_index IN (0, 1, 2, 3, 4, 5, 6, 7)),
+      explanation_zh TEXT NOT NULL,
+      explanation_en TEXT NOT NULL,
+      source TEXT NOT NULL DEFAULT 'practice' CHECK (source IN ('practice', 'official', 'simulation', 'shangshi')),
+      attribution TEXT
+    );
+    INSERT INTO questions_new SELECT id, difficulty, topic, text_zh, text_en, illustration, choices, correct_index, explanation_zh, explanation_en, source, attribution FROM questions;
+    DROP TABLE questions;
+    ALTER TABLE questions_new RENAME TO questions;
+    CREATE INDEX IF NOT EXISTS idx_answers_question ON answers(question_id);
+  `);
   db.exec("PRAGMA foreign_keys = ON");
 }

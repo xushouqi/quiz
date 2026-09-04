@@ -29,7 +29,9 @@ export function QuestionCard({
           </p>
           <ReadAloud text={question.text_zh} autoPlay mode="edge" />
         </div>
-        <p className="mb-1.5 text-xs text-cocoa/60 md:mb-2 md:text-sm">{question.text_en}</p>
+        {question.text_en && question.text_en !== question.text_zh && (
+          <p className="mb-1.5 text-xs text-cocoa/60 md:mb-2 md:text-sm">{question.text_en}</p>
+        )}
         <div className="mb-2 md:mb-3">
           <Illustration descriptor={question.illustration} large={largeImage} />
         </div>

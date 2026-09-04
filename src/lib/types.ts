@@ -1,11 +1,11 @@
-export type Topic = "counting" | "shapes" | "patterns" | "logic" | "arithmetic" | "time";
-export const TOPICS: Topic[] = ["counting", "shapes", "patterns", "logic", "arithmetic", "time"];
+export type Topic = "counting" | "shapes" | "patterns" | "logic" | "arithmetic" | "time" | "number_theory" | "word_problems" | "combinatorics" | "travel";
+export const TOPICS: Topic[] = ["counting", "shapes", "patterns", "logic", "arithmetic", "time", "number_theory", "word_problems", "combinatorics", "travel"];
 
-export type Difficulty = 3 | 4 | 5;
-export const DIFFICULTIES: Difficulty[] = [3, 4, 5];
+export type Difficulty = 1 | 2 | 3 | 4 | 5 | 6;
+export const DIFFICULTIES: Difficulty[] = [1, 2, 3, 4, 5, 6];
 
-export type Source = "practice" | "official" | "simulation" | "shangshi";
-export const SOURCES: Source[] = ["practice", "official", "simulation", "shangshi"];
+export type Source = "practice" | "official" | "simulation" | "shangshi" | "olympiad";
+export const SOURCES: Source[] = ["practice", "official", "simulation", "shangshi", "olympiad"];
 
 export interface Choice {
   zh: string;

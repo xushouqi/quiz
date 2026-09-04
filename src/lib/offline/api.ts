@@ -24,8 +24,8 @@ import {
 
 const QUESTIONS: Question[] = OFFLINE_DATA.questions as unknown as Question[];
 
-const TOPICS: Topic[] = ["counting", "shapes", "patterns", "logic", "arithmetic", "time"];
-const SOURCES: Source[] = ["practice", "official", "simulation", "shangshi"];
+const TOPICS: Topic[] = ["counting", "shapes", "patterns", "logic", "arithmetic", "time", "number_theory", "word_problems", "combinatorics", "travel"];
+const SOURCES: Source[] = ["practice", "official", "simulation", "shangshi", "olympiad"];
 const BASE_SCORE = 24;
 const EXAM_LENGTH = 24;
 const EXAM_MINUTES = 75;
@@ -104,7 +104,7 @@ function getExamQuestions(): Question[] {
       : new Set(readAnswers().filter((a) => a.session_id === lastId).map((a) => a.question_id));
 
   const out: Question[] = [];
-  for (const difficulty of [3, 4, 5]) {
+  for (const difficulty of [1, 2, 3, 4, 5, 6]) {
     const officials = pickExcluding(difficulty, excluded, ["official"], 8);
     const officialIds = new Set(officials.map((q) => q.id));
     const sims = pickExcluding(
@@ -358,23 +358,24 @@ function computeStreak(userId?: number, now: Date = new Date()): number {
 function getStats(userId: number) {
   const { stars, totalCorrect } = computeStars(userId);
   const own = ownAnswers(userId).filter((a) => a.chosen_index !== null);
+  const TOPIC_LABEL: Record<Topic, string> = {
+    counting: "数数",
+    shapes: "图形",
+    patterns: "规律",
+    logic: "逻辑",
+    arithmetic: "计算",
+    time: "时间",
+    number_theory: "数论",
+    word_problems: "应用题",
+    combinatorics: "组合",
+    travel: "行程",
+  };
   const perTopic = TOPICS.map((topic) => {
     const rows = own.filter((a) => questionById(a.question_id)?.topic === topic);
     const correct = rows.filter((a) => a.is_correct === 1).length;
     return {
       topic,
-      label:
-        topic === "counting"
-          ? "数数"
-          : topic === "shapes"
-            ? "图形"
-            : topic === "patterns"
-              ? "规律"
-              : topic === "logic"
-                ? "逻辑"
-                : topic === "arithmetic"
-                  ? "计算"
-                  : "时间",
+      label: TOPIC_LABEL[topic],
       correct,
       total: rows.length,
     };
@@ -464,10 +465,18 @@ export async function handleOfflineFetch(
     const source: Source = SOURCES.includes(sourceParam as Source) ? (sourceParam as Source) : "practice";
     const rawLimit = Number(params.get("limit") ?? "10");
     const limit = Number.isFinite(rawLimit) ? Math.min(Math.max(1, Math.floor(rawLimit)), 100) : 10;
+    const clampDiff = (raw: string | null, fallback: number) => {
+      const n = Number(raw);
+      return Number.isFinite(n) ? Math.min(Math.max(1, Math.floor(n)), 6) : fallback;
+    };
+    const diffMin = clampDiff(params.get("diffMin"), 1);
+    const diffMax = clampDiff(params.get("diffMax"), 6);
     const questions =
       source === "shangshi"
         ? getShangshiQuestions(topic, limit)
-        : getPracticeQuestions(topic, limit);
+        : source === "olympiad"
+          ? getOlympiadQuestions(topic, limit, diffMin, diffMax)
+          : getPracticeQuestions(topic, limit);
     return json({ questions });
   }
 
