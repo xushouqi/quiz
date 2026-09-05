@@ -2058,7 +2058,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "小明妈妈花8元买了一条鱼，以9元价格卖掉，然后觉得不合算，又花10元买回来，以11元卖给另一个人，那么小明妈妈赚了____元．",
-    "text_en": "小明妈妈花8元买了一条鱼，以9元价格卖掉，然后觉得不合算，又花10元买回来，以11元卖给另一个人，那么小明妈妈赚了____元．",
+    "text_en": "Xiao Ming mother bought a fish for 8 yuan, sold it for 9 yuan, then found it uneconomical, bought it back for 10 yuan, and sold it to another person for 11 yuan, so Xiao Ming mother earned ____ yuan.",
     "illustration": null,
     "choices": [
       {
@@ -2076,14 +2076,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "(9 - 8) + (11 - 10) = 2（元）．",
-    "explanation_en": "(9 - 8) + (11 - 10) = 2（元）．",
+    "explanation_en": "(9 - 8) + (11 - 10) = 2 (yuan).",
     "attribution": "2013年第12届全国小机灵杯小学中年级三年级竞赛初赛第1题1分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一次考试中，总共有40道题，学生答对一道题获得4分，答错一道题或者未作答扣1分．如果小明在考试中获得95分，那么他答对了多少道题？",
-    "text_en": "一次考试中，总共有40道题，学生答对一道题获得4分，答错一道题或者未作答扣1分．如果小明在考试中获得95分，那么他答对了多少道题？",
+    "text_en": "In one exam, there are 40 questions in total. The student gets 4 points for answering one question correctly, 1 point for answering one wrong question, or 1 point for not answering. If Xiao Ming gets 95 points in the exam, how many questions did he answer correctly?",
     "illustration": null,
     "choices": [
       {
@@ -2112,7 +2112,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "找出规律，将你认为合适的数填入____，2、4、3、9、4、16、5、 ____、 ____、36、 7、·s那么正确的数是____．",
-    "text_en": "找出规律，将你认为合适的数填入____，2、4、3、9、4、16、5、 ____、 ____、36、 7、·s那么正确的数是____．",
+    "text_en": "Find the regularity and fill the number you think is appropriate into ____, 2, 4, 3, 9, 4, 16, 5, ____, ____, 36, 7, · s Then the correct number is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2141,7 +2141,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "1只小猪的重量等于6只鸡的重量；3只鸡的重量等于4只鸭的重量；2只鸭的重量等于6条鱼的重量，那么2只小猪的重量等于____条鱼的重量．",
-    "text_en": "1只小猪的重量等于6只鸡的重量；3只鸡的重量等于4只鸭的重量；2只鸭的重量等于6条鱼的重量，那么2只小猪的重量等于____条鱼的重量．",
+    "text_en": "The weight of one piglet is equal to the weight of six chickens; the weight of three chickens is equal to the weight of four ducks; the weight of two ducks is equal to the weight of six fish, then the weight of two piglets is equal to the weight of ____ fish.",
     "illustration": null,
     "choices": [
       {
@@ -2163,14 +2163,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "等量代换，设小猪为a，鸡为b，鸭为c，鱼为d，根据条件可得：a = 6b，3b = 4c，2c = 6d，则：2a = 12b = 16c = 48d．",
-    "explanation_en": "等量代换，设小猪为a，鸡为b，鸭为c，鱼为d，根据条件可得：a = 6b，3b = 4c，2c = 6d，则：2a = 12b = 16c = 48d．",
+    "explanation_en": "Equivalent substitution, set the piglet to a, the chicken to b, the duck to c, and the fish to d, according to the conditions: a = 6b, 3b = 4c, 2c = 6d, then: 2a = 12b = 16c = 48d.",
     "attribution": "2014年全国迎春杯三年级竞赛复赛第4题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "已知△ + △ = ○ + ○ + ○ ，○ + ○ + ○ = □ + □ + □ ，○ + □ + △ + △ = 100，则△ = ____．",
-    "text_en": "已知△ + △ = ○ + ○ + ○ ，○ + ○ + ○ = □ + □ + □ ，○ + □ + △ + △ = 100，则△ = ____．",
+    "text_en": "Known △ + △ = ○ + ○ +○,○ + ○ + ○ = □ + □ +□,○ + □ + △ + △ = 100, then△ = ____.",
     "illustration": null,
     "choices": [
       {
@@ -2192,14 +2192,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "因为△ + △ = ○ + ○ + ○ 即2△ = 3○ ； ○ + ○ + ○ = □ + □ + □ 即3○ = 3□ ，则○ = □ ； ○ + □ + △ + △ = ○ + ○ + 3○ = 5○ = 100， 所以○ = 20，则□ = 20，△ = 30． 故选：C．",
-    "explanation_en": "因为△ + △ = ○ + ○ + ○ 即2△ = 3○ ； ○ + ○ + ○ = □ + □ + □ 即3○ = 3□ ，则○ = □ ； ○ + □ + △ + △ = ○ + ○ + 3○ = 5○ = 100， 所以○ = 20，则□ = 20，△ = 30． 故选：C．",
+    "explanation_en": "Because △ + △ = ○ + ○ + ○ ie. 2△ = 3○; ○ ○ + □ + ○ = □ + + □ ie. 3○ = 3□, then○ =□; ○ □ △ + + ○ ○ + △ = +○ + 3○ = 5 = 100, so○ = 20□, then△ = 20, = 30. Optional: C.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛三年级竞赛初赛第10题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "对于两个数a和b，规定一种新运算，a b = 3 × a + 2 × b，a b = 2 × a + 3 × b，那么2 (3 4) = ____．",
-    "text_en": "对于两个数a和b，规定一种新运算，a b = 3 × a + 2 × b，a b = 2 × a + 3 × b，那么2 (3 4) = ____．",
+    "text_en": "For two numbers a and b, specify a new operation, a b = 3 × a + 2 × b, a b = 2 × a + 3 × b, then 2 (3 4) = ____.",
     "illustration": null,
     "choices": [
       {
@@ -2224,7 +2224,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "已知△ + △ = ○ + ○ + ○ ，○ + ○ + ○ = □ + □ + □ ，○ + □ + △ + △ = 100，则□ = ____．",
-    "text_en": "已知△ + △ = ○ + ○ + ○ ，○ + ○ + ○ = □ + □ + □ ，○ + □ + △ + △ = 100，则□ = ____．",
+    "text_en": "Known △ + △ = ○ + ○ +○,○ + ○ + ○ = □ + □ +□,○ + □ + △ + △ = 100, then□ = ____.",
     "illustration": null,
     "choices": [
       {
@@ -2242,14 +2242,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为△ + △ = ○ + ○ + ○ 即2△ = 3○ ； ○ + ○ + ○ = □ + □ + □ 即3○ = 3□ ，则○ = □ ； ○ + □ + △ + △ = ○ + ○ + 3○ = 5○ = 100， 所以○ = 20，则□ = 20，△ = 30． 故选：C．",
-    "explanation_en": "因为△ + △ = ○ + ○ + ○ 即2△ = 3○ ； ○ + ○ + ○ = □ + □ + □ 即3○ = 3□ ，则○ = □ ； ○ + □ + △ + △ = ○ + ○ + 3○ = 5○ = 100， 所以○ = 20，则□ = 20，△ = 30． 故选：C．",
+    "explanation_en": "Because △ + △ = ○ + ○ + ○ ie. 2△ = 3○; ○ ○ + □ + ○ = □ + + □ ie. 3○ = 3□, then○ =□; ○ □ △ + + ○ ○ + △ = +○ + 3○ = 5 = 100, so○ = 20□, then△ = 20, = 30. Optional: C.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛三年级竞赛初赛第10题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "搬家公司要搬运100只花瓶，规定完整运送1只花瓶得3元，打破1只要赔偿2元．全部搬完后搬家公司共得260元，若假设他们完整运送了x只花瓶，则x表示____只．",
-    "text_en": "搬家公司要搬运100只花瓶，规定完整运送1只花瓶得3元，打破1只要赔偿2元．全部搬完后搬家公司共得260元，若假设他们完整运送了x只花瓶，则x表示____只．",
+    "text_en": "The moving company has to move 100 vases. It is stipulated that a complete delivery of 1 vase will cost 3 yuan, and if it breaks 1, it will only pay 2 yuan. After all the moving is completed, the moving company will get 260 yuan. If they assume that they have delivered x vases in full, then x means ____ vases.",
     "illustration": null,
     "choices": [
       {
@@ -2271,14 +2271,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "他们完整运送了x只花瓶，则打破的有(100 - x)只， 根据题意可列方程：3x - 2 × (100 - x) = 260， 解得x = 92， 即完整运送了92只花瓶．",
-    "explanation_en": "他们完整运送了x只花瓶，则打破的有(100 - x)只， 根据题意可列方程：3x - 2 × (100 - x) = 260， 解得x = 92， 即完整运送了92只花瓶．",
+    "explanation_en": "They shipped x vases completely, and (100 - x) vases were broken. According to the meaning of the subject, the equation can be listed: 3x - 2 × (100 - x) = 260, and the solution is x = 92, that is, 92 vases were shipped completely.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛三年级竞赛初赛第17题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "2014年2月6日是星期四，小胖决定从这天起（含2月6日）练习计算，一直练习到2月17日，（含2月17日）开学为止．但是中间如果遇到周六和周日，小胖还是决定休息一下，不做练习．已知他第一天做1道题，第二天做3道题，第三天做5道题，依此变化做下去，那么小胖这段时间一共做了____道计算练习题．",
-    "text_en": "2014年2月6日是星期四，小胖决定从这天起（含2月6日）练习计算，一直练习到2月17日，（含2月17日）开学为止．但是中间如果遇到周六和周日，小胖还是决定休息一下，不做练习．已知他第一天做1道题，第二天做3道题，第三天做5道题，依此变化做下去，那么小胖这段时间一共做了____道计算练习题．",
+    "text_en": "February 6, 2014 is a Thursday, Xiaofang decided to practice calculations from this day (including February 6) until February 17, (including February 17) until the start of school. But if the middle encounters Saturday and Sunday, Xiaofang still decided to take a break and not practice. It is known that he did 1 question on the first day, 3 questions on the second day, and 5 questions on the third day. According to this change, Xiaofang did a total of ____ calculation exercises during this period.",
     "illustration": null,
     "choices": [
       {
@@ -2300,14 +2300,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "从2月6日到2月17日为止，一共有17 - 6 + 1 = 12（天）其中有2个星期六，星期日．工作了12 - 4 = 8（天），共完成1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64（题）．",
-    "explanation_en": "从2月6日到2月17日为止，一共有17 - 6 + 1 = 12（天）其中有2个星期六，星期日．工作了12 - 4 = 8（天），共完成1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64（题）．",
+    "explanation_en": "From February 6 to February 17, there were 17 - 6 + 1 = 12 (days), including 2 Saturdays, Sundays. Worked 12 - 4 = 8 (days), completed 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64 (questions).",
     "attribution": "2014年全国迎春杯三年级竞赛复赛第12题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "下面计算结果等于9的是____。",
-    "text_en": "下面计算结果等于9的是____。",
+    "text_en": "The following calculation result equal to 9 is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2329,14 +2329,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：A、3 × 3 ÷ 3 + 3 = 3 + 3 = 6 B、3 ÷ 3 + 3 × 3 = 1 + 9 = 10 C、3 × 3 - 3 + 3 = 9 - 3 + 3 = 9 D、3 ÷ 3 + 3 ÷ 3 = 1 + 1 = 2 故选：C。",
-    "explanation_en": "解：A、3 × 3 ÷ 3 + 3 = 3 + 3 = 6 B、3 ÷ 3 + 3 × 3 = 1 + 9 = 10 C、3 × 3 - 3 + 3 = 9 - 3 + 3 = 9 D、3 ÷ 3 + 3 ÷ 3 = 1 + 1 = 2 故选：C。",
+    "explanation_en": "Solution: A, 3 × 3 ÷ 3 + 3 = 3 + 3 = 6 B, 3 ÷ 3 + 3 × 3 = 1 + 9 = 10 C, 3 × 3 - 3 + 3 = 9 D, 3 ÷ 3 + 3 ÷ 3 = 1 + 1 = 2 Selection: C.",
     "attribution": "2014年迎春杯三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "下列算式结果为500的是____",
-    "text_en": "下列算式结果为500的是____",
+    "text_en": "The result of the following formula is 500 is ____",
     "illustration": null,
     "choices": [
       {
@@ -2365,7 +2365,7 @@
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有几个正三位数满足个位数是十位数和百位数的积？",
-    "text_en": "有几个正三位数满足个位数是十位数和百位数的积？",
+    "text_en": "How many positive three digits satisfy the product of single digits being ten digits and hundred digits?",
     "illustration": null,
     "choices": [
       {
@@ -2387,14 +2387,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "枚举法有序枚举：100、111、122、133、144、155、166、177、188、199、200、212、224、236、248、300、313、326、339、400、414、428、500、515、600、616、700、717、800、818、900、919．",
-    "explanation_en": "枚举法有序枚举：100、111、122、133、144、155、166、177、188、199、200、212、224、236、248、300、313、326、339、400、414、428、500、515、600、616、700、717、800、818、900、919．",
+    "explanation_en": "Enumeration method ordered enumeration: 100, 111, 122, 133, 144, 155, 166, 177, 188, 199, 200, 212, 224, 236, 248, 300, 313, 326, 339, 400, 414, 428, 500, 515, 600, 616, 700, 717, 800, 818, 900, 919.",
     "attribution": "2016年全国美国数学大联盟杯小学中年级三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "100 - 99 + 98 - 97 ·s + 4 - 3 + 2 - 1的结果是____．",
-    "text_en": "100 - 99 + 98 - 97 ·s + 4 - 3 + 2 - 1的结果是____．",
+    "text_en": "The result of 100 - 99 + 98 - 97 · s + 4 - 3 + 2 - 1 is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2423,7 +2423,7 @@
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "100 + 99 - 98 + 97 - 96 + ·s + 3 - 2 + 1的结果是____．",
-    "text_en": "100 + 99 - 98 + 97 - 96 + ·s + 3 - 2 + 1的结果是____．",
+    "text_en": "The result of 100 + 99 - 98 + 97 - 96 + · s + 3 - 2 + 1 is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2445,14 +2445,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "观察100和1之间的数，将(99 - 98)、(97 - 96)、(95 - 94)、 ·s 、(3 - 2)进行组合(除去1和100后，奇数前面是加号，偶数前面是减号），所以一共有(100 - 2) ÷ 2 = 49个1，所以原式 = 100 + 1 + 49 = 150．",
-    "explanation_en": "观察100和1之间的数，将(99 - 98)、(97 - 96)、(95 - 94)、 ·s 、(3 - 2)进行组合(除去1和100后，奇数前面是加号，偶数前面是减号），所以一共有(100 - 2) ÷ 2 = 49个1，所以原式 = 100 + 1 + 49 = 150．",
+    "explanation_en": "Observe the numbers between 100 and 1, and combine (99 - 98), (97 - 96), (95 - 94), · s, (3 - 2) (after subtracting 1 and 100, the odd number is preceded by a plus sign, and the even number is preceded by a minus sign), so there are (100 - 2) ÷ 2 = 49 1s, so the original formula = 100 + 1 + 49 = 150.",
     "attribution": "2011年全国世奥赛三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "从1，2，3，·s ，7中选择若干个不同的数，使得其中偶数之和等于奇数之和，则符合条件的选法共有____种。",
-    "text_en": "从1，2，3，·s ，7中选择若干个不同的数，使得其中偶数之和等于奇数之和，则符合条件的选法共有____种。",
+    "text_en": "Select several different numbers from 1, 2, 3, · s, 7, so that the sum of even numbers is equal to the sum of odd numbers, then there are ____ qualifying choices.",
     "illustration": null,
     "choices": [
       {
@@ -2474,14 +2474,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "偶数：2、4、6；奇数1、3、5、7；偶数少，所以看偶数和； 偶数和有：2（舍掉）、4、6、8、10、12； 4：4 = 1 + 3，1组 6：6 = 2 + 4 = 1 + 5，2组 8：2 + 6 = 1 + 7 = 3 + 5，2组 10：4 + 6 = 3 + 7，1组 12：2 + 4 + 6 = 5 + 7，1组 所以共有1 + 2 + 2 + 1 + 1 = 7（组）。",
-    "explanation_en": "偶数：2、4、6；奇数1、3、5、7；偶数少，所以看偶数和； 偶数和有：2（舍掉）、4、6、8、10、12； 4：4 = 1 + 3，1组 6：6 = 2 + 4 = 1 + 5，2组 8：2 + 6 = 1 + 7 = 3 + 5，2组 10：4 + 6 = 3 + 7，1组 12：2 + 4 + 6 = 5 + 7，1组 所以共有1 + 2 + 2 + 1 + 1 = 7（组）。",
+    "explanation_en": "Even numbers: 2, 4, 6; odd numbers 1, 3, 5, 7; even numbers are small, so look at the even sum; even numbers have: 2 (truncation), 4, 6, 8, 10, 12; 4: 4 = 1 +3, group 1 6: 6 = 2 +4 = 1 +5, group 2 8: 2 +6 = 1 +7 = 3 +5, group 2 10: 4 +6 = 3 +7, group 1 12: 2 +4 +6 = 5 +7, group 1 has 1 +2 +2 +1 +1 = 7 (group).",
     "attribution": "2013年华杯赛三年级竞赛决赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "一条大街上原有路灯201盏，相邻两盏路灯相距50米；现在换新路灯增加了50盏，相邻两盏路灯的距离是____米．",
-    "text_en": "一条大街上原有路灯201盏，相邻两盏路灯相距50米；现在换新路灯增加了50盏，相邻两盏路灯的距离是____米．",
+    "text_en": "There are 201 original street lamps on one street, and the two adjacent street lamps are 50 meters apart; now the number of new street lamps has increased by 50, and the distance between the two adjacent street lamps is ____ meters.",
     "illustration": null,
     "choices": [
       {
@@ -2507,14 +2507,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "先利用原有的路灯盏数和间隔长度， 求出这条大街的总长度是(201 - 1) × 50 = 10000（米），换新路灯后，一共有路灯201 + 50 = 251盏，此时的间隔数是251 - 1 = 250，由此即可求出1个间隔的长度是10000 ÷ 250 = 40（米）． (201 - 1) × 5 ÷ (201 + 50 - 1) = 200 × 50 ÷ 250 = 40（米）． 所以相邻的两盏路灯的距离是40米． 故答案为：40．",
-    "explanation_en": "先利用原有的路灯盏数和间隔长度， 求出这条大街的总长度是(201 - 1) × 50 = 10000（米），换新路灯后，一共有路灯201 + 50 = 251盏，此时的间隔数是251 - 1 = 250，由此即可求出1个间隔的长度是10000 ÷ 250 = 40（米）． (201 - 1) × 5 ÷ (201 + 50 - 1) = 200 × 50 ÷ 250 = 40（米）． 所以相邻的两盏路灯的距离是40米． 故答案为：40．",
+    "explanation_en": "Using the original number of street lamps and the length of the interval, the total length of this street is (201 - 1) × 50 = 10,000 (meters). After replacing the new street lamp, there are a total of 201 + 50 = 251 street lamps, and the number of intervals at this time is 251 - 1 = 250. From this, the length of one interval can be found to be 10000 ÷ 250 = 40 (meters). (201 - 1) × 5 ÷ (201 + 50 - 1) = 200 × 50 ÷ 250 = 40 (meters). Therefore, the distance between the two adjacent street lamps is 40 meters. Therefore, the answer is: 40.",
     "attribution": "2019年福建泉州鲤城区泉州师范附属小学三年级竞赛模拟第17题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "9 + 99 + 999 + 9999 + ·s + 9999999999（最后一项有10位数字）的和的十位数是多少？",
-    "text_en": "9 + 99 + 999 + 9999 + ·s + 9999999999（最后一项有10位数字）的和的十位数是多少？",
+    "text_en": "What is the ten digit sum of 9 + 99 + 999 + 9999 + · s + 9999999999 (last item has 10 digits)?",
     "illustration": null,
     "choices": [
       {
@@ -2536,14 +2536,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "十位数是0．",
-    "explanation_en": "十位数是0．",
+    "explanation_en": "Ten digits is 0.",
     "attribution": "2017年全国美国数学大联盟杯小学中年级三年级竞赛初赛第39题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "某次数学竞赛，试题共有10道，每做对一题得6分，每做错一题倒扣2分，小红最终得44分，做对的题比做错的题多____道．",
-    "text_en": "某次数学竞赛，试题共有10道，每做对一题得6分，每做错一题倒扣2分，小红最终得44分，做对的题比做错的题多____道．",
+    "text_en": "In one mathematics competition, there were 10 questions. Each correct question received 6 points, each wrong question received 2 points backwards, and Xiaohong finally scored 44 points. There were ____ more correct questions than wrong questions.",
     "illustration": null,
     "choices": [
       {
@@ -2561,43 +2561,43 @@
     ],
     "correct_index": 0,
     "explanation_zh": "(60 - 44) ÷ 8 = 2，做错2道题，做对8道题，对的比错的多6道．",
-    "explanation_en": "(60 - 44) ÷ 8 = 2，做错2道题，做对8道题，对的比错的多6道．",
+    "explanation_en": "(60 - 44) ÷ 8 = 2, 2 questions wrong, 8 questions right, 6 more wrong.",
     "attribution": "其它"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "下式中，□ 和△ 分别代表____ □ + □ + □ + △ + △ + △ = 27 △ + △ + □ = 12。",
-    "text_en": "下式中，□ 和△ 分别代表____ □ + □ + □ + △ + △ + △ = 27 △ + △ + □ = 12。",
+    "text_en": "In the following equation,□ and represent ____ □ + + □ + □ + △ △ + △ = 27 △ + △ + □ = 12,△ respectively.",
     "illustration": null,
     "choices": [
       {
         "zh": "3和6",
-        "en": "3和6"
+        "en": "3 and 6"
       },
       {
         "zh": "6和3",
-        "en": "6和3"
+        "en": "6 and 3"
       },
       {
         "zh": "3和4",
-        "en": "3和4"
+        "en": "3 and 4"
       },
       {
         "zh": "4和6",
-        "en": "4和6"
+        "en": "4 and 6"
       }
     ],
     "correct_index": 1,
     "explanation_zh": "解：□ + □ + □ + △ + △ + △ = 27， 得□ + △ = 9①， △ + △ + □ = 12得2△ + □ = 12②， ② - ①得：△ = 3， 把△ = 3代入①得： □ = 6 故选：D。",
-    "explanation_en": "解：□ + □ + □ + △ + △ + △ = 27， 得□ + △ = 9①， △ + △ + □ = 12得2△ + □ = 12②， ② - ①得：△ = 3， 把△ = 3代入①得： □ = 6 故选：D。",
+    "explanation_en": "Solution:□ + □ + □ + △ △ + △ = 27, get□ + △ = 9 ①, △ + △ + □ = 12 get 2△ + □ = 12 ②, ② - ① get:△ = 3, substitute△ = 3 into ① get: □ = 6 handpicked: D.",
     "attribution": "2014年迎春杯三年级竞赛复赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有3盒同样重的苹果，如果从每盒中都取出4千克，那么盒子里剩下的苹果的重量正好等于原来1盒苹果的重量，原来每盒苹果重____千克。",
-    "text_en": "有3盒同样重的苹果，如果从每盒中都取出4千克，那么盒子里剩下的苹果的重量正好等于原来1盒苹果的重量，原来每盒苹果重____千克。",
+    "text_en": "There are 3 boxes of the same weight of apples, if you take out 4 kg from each box, then the weight of the apples left in the box is exactly equal to the weight of the original box of apples, and the original box of apples weighs ____ kg.",
     "illustration": null,
     "choices": [
       {
@@ -2619,14 +2619,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "解：3 × 4 ÷ 2 = 12 ÷ 2 = 6（千克） 答：每盒苹果重6千克。 故选:B。",
-    "explanation_en": "解：3 × 4 ÷ 2 = 12 ÷ 2 = 6（千克） 答：每盒苹果重6千克。 故选:B。",
+    "explanation_en": "Solution: 3 × 4 ÷ 2 = 12 ÷ 2 = 6 (kg) Answer: Each box of apples weighs 6 kg. Selected: B.",
     "attribution": "2014年迎春杯三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "100 - 99 - 98 + 97 + 96 - 95 - 94 + 93 ·s + 4 - 3 - 2 + 1的结果是____．",
-    "text_en": "100 - 99 - 98 + 97 + 96 - 95 - 94 + 93 ·s + 4 - 3 - 2 + 1的结果是____．",
+    "text_en": "100 - 99 - 98 + 97 + 96 - 95 - 94 + 93 · s + 4 - 3 - 2 + 1 is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2655,7 +2655,7 @@
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "1只小猪的重量等于6只鸡的重量；3只鸡的重量等于4只鸭的重量；2只鸭的重量等于6条鱼的重量，那么2只小猪的重量等于____条鱼的重量。",
-    "text_en": "1只小猪的重量等于6只鸡的重量；3只鸡的重量等于4只鸭的重量；2只鸭的重量等于6条鱼的重量，那么2只小猪的重量等于____条鱼的重量。",
+    "text_en": "The weight of one piglet is equal to the weight of six chickens; the weight of three chickens is equal to the weight of four ducks; the weight of two ducks is equal to the weight of six fish, then the weight of two piglets is equal to the weight of ____ fish.",
     "illustration": null,
     "choices": [
       {
@@ -2677,14 +2677,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "解：6 ÷ 3 × 4 = 2 × 4 = 8（只） 8 ÷ 2 × 6 = 4 × 6 = 24（条） 24 × 2 = 48（条） 答：2只小猪的重量等于48条鱼的重量。 故选:A。",
-    "explanation_en": "解：6 ÷ 3 × 4 = 2 × 4 = 8（只） 8 ÷ 2 × 6 = 4 × 6 = 24（条） 24 × 2 = 48（条） 答：2只小猪的重量等于48条鱼的重量。 故选:A。",
+    "explanation_en": "Solution: 6 ÷ 3 × 4 = 2 × 4 = 8 (pcs) 8 ÷ 2 × 6 = 4 × 6 = 24 (pcs) 24 × 2 = 48 (pcs) Answer: The weight of 2 piglets is equal to the weight of 48 fish. Selected: A.",
     "attribution": "2014年迎春杯三年级竞赛复赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "2个樱桃的价钱与3个苹果价钱一样，但是一个苹果的大小却是一个樱桃的12倍，如果妈妈用买1箱樱桃的钱买同样大小箱子的苹果，能买____箱．",
-    "text_en": "2个樱桃的价钱与3个苹果价钱一样，但是一个苹果的大小却是一个樱桃的12倍，如果妈妈用买1箱樱桃的钱买同样大小箱子的苹果，能买____箱．",
+    "text_en": "The price of 2 cherries is the same as the price of 3 apples, but an apple is 12 times the size of a cherry. If mother uses the money to buy 1 box of cherries to buy the same size box of apples, she can buy ____ boxes.",
     "illustration": null,
     "choices": [
       {
@@ -2706,14 +2706,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "12 个樱桃的钱可以买18个苹果，大小是1个苹果的大小，所以1个苹果大小的樱桃可以买到18个苹果，所以1箱樱桃的钱可以买18箱苹果．",
-    "explanation_en": "12 个樱桃的钱可以买18个苹果，大小是1个苹果的大小，所以1个苹果大小的樱桃可以买到18个苹果，所以1箱樱桃的钱可以买18箱苹果．",
+    "explanation_en": "For 12 cherries, you can buy 18 apples, the size is the size of 1 apple, so 1 apple-sized cherry can buy 18 apples, so 1 box of cherries can buy 18 boxes of apples.",
     "attribution": "2014年全国迎春杯三年级竞赛初赛第14题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "2个樱桃的价钱与3个苹果的价钱一样，但是一个苹果的大小却是一个樱桃的12倍，如果妈妈用买1箱樱桃的钱买同样大小箱子的苹果，能买____箱。",
-    "text_en": "2个樱桃的价钱与3个苹果的价钱一样，但是一个苹果的大小却是一个樱桃的12倍，如果妈妈用买1箱樱桃的钱买同样大小箱子的苹果，能买____箱。",
+    "text_en": "The price of 2 cherries is the same as the price of 3 apples, but an apple is 12 times the size of a cherry. If mother uses the money to buy 1 box of cherries to buy the same size box of apples, she can buy ____ boxes.",
     "illustration": null,
     "choices": [
       {
@@ -2735,14 +2735,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "12个樱桃的钱可以买18个苹果，大小是1个苹果的大小，所以1个苹果大小的樱桃可以买到18个苹果，所以1箱樱桃的钱可以买18箱苹果。",
-    "explanation_en": "12个樱桃的钱可以买18个苹果，大小是1个苹果的大小，所以1个苹果大小的樱桃可以买到18个苹果，所以1箱樱桃的钱可以买18箱苹果。",
+    "explanation_en": "For 12 cherries, you can buy 18 apples, and the size is the size of 1 apple, so 1 apple-sized cherry can buy 18 apples, so 1 box of cherries can buy 18 boxes of apples.",
     "attribution": "2014年迎春杯三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "甲、乙、丙三个非零自然数满足：甲和乙的最大公因数恰有1个因数，乙和丙的最大公因数恰有2个因数，丙和甲的最大公因数恰有3个因数．那么，甲、乙、丙三数之和的最小值是（中上）",
-    "text_en": "甲、乙、丙三个非零自然数满足：甲和乙的最大公因数恰有1个因数，乙和丙的最大公因数恰有2个因数，丙和甲的最大公因数恰有3个因数．那么，甲、乙、丙三数之和的最小值是（中上）",
+    "text_en": "The three non-zero natural numbers of A, B, and C satisfy: the maximum common factor of A and B has exactly 1 factor, the maximum common factor of B and C has exactly 2 factors, and the maximum common factor of C and A has exactly 3 factors. Then, the minimum value of the sum of the three numbers of A, B, and C is (center top)",
     "illustration": null,
     "choices": [
       {
@@ -2764,14 +2764,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "(甲，乙) = 1，则甲、乙互质；(乙，丙) = 质数；(甲，丙) = 质数的平方，最小的质数的平方为4， 丙最小：3 × 4 = 12，甲：4，乙3．12 + 4 + 3 = 19．",
-    "explanation_en": "(甲，乙) = 1，则甲、乙互质；(乙，丙) = 质数；(甲，丙) = 质数的平方，最小的质数的平方为4， 丙最小：3 × 4 = 12，甲：4，乙3．12 + 4 + 3 = 19．",
+    "explanation_en": "(A, B) = 1, then A and B are mutual; (B, C) = prime number; (A, C) = square of prime number, the square of the smallest prime number is 4, C minimum: 3 × 4 = 12, A: 4, B 3.12 + 4 + 3 = 19.",
     "attribution": "小学中年级三年级其它第九讲最小公倍数与最大公约数"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有一种特殊的计算器，当输入一个10~49的自然数后，计算器会先将这个数乘以2，然后将所得结果的十位和个位顺序颠倒，再加2后显示出最后的结果。那么，下列四个选项中，____可能是最后显示的结果。",
-    "text_en": "有一种特殊的计算器，当输入一个10~49的自然数后，计算器会先将这个数乘以2，然后将所得结果的十位和个位顺序颠倒，再加2后显示出最后的结果。那么，下列四个选项中，____可能是最后显示的结果。",
+    "text_en": "There is a special calculator. When you enter a natural number from 10 to 49, the calculator will first multiply this number by 2, then reverse the order of the ten digits and digits of the result, and then add 2 to show the final result. So, ____ out of the following four options may be the result of the last display.",
     "illustration": null,
     "choices": [
       {
@@ -2793,14 +2793,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：A：44 - 2 = 42，颠倒后是24，24 ÷ 2 = 12；12是10~49的自然数，符合要求； B：43 - 2 = 41，颠倒后是14，14 ÷ 2 = 7，7不是10~49的自然数，不符合要求； C：42 - 2 = 40，颠倒后是4，4 ÷ 2 = 2，2不是10~49的自然数，不符合要求； D：41 - 2 = 39，颠倒后是93，93 ÷ 2 = 46.5，46.5不是10~49的自然数，不符合要求。 故选：A。",
-    "explanation_en": "解：A：44 - 2 = 42，颠倒后是24，24 ÷ 2 = 12；12是10~49的自然数，符合要求； B：43 - 2 = 41，颠倒后是14，14 ÷ 2 = 7，7不是10~49的自然数，不符合要求； C：42 - 2 = 40，颠倒后是4，4 ÷ 2 = 2，2不是10~49的自然数，不符合要求； D：41 - 2 = 39，颠倒后是93，93 ÷ 2 = 46.5，46.5不是10~49的自然数，不符合要求。 故选：A。",
+    "explanation_en": "Solution: A: 44 - 2 = 42, reversed is 24, 24 ÷ 2 = 12; 12 is a natural number from 10 to 49, which meets the requirements; B: 43 - 2 = 41, reversed is 14, 14 ÷ 2 = 7, 7 is not a natural number from 10 to 49, which does not meet the requirements; C: 42 - 2 = 40, reversed is 4, 4 ÷ 2 = 2, 2 is not a natural number from 10 to 49, which does not meet the requirements; D: 41 - 2 = 39, reversed is 93, 93 ÷ 2 = 46.5, 46.5 is not a natural number from 10 to 49, which does not meet the requirements. Optional: A.",
     "attribution": "2014年迎春杯三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "2014年2月6日是星期四，小胖决定从这天起（含2月6日）练习计算，一直练习到2月17日，（含2月17日）开学为止．但是中间如果遇到周六和周日，小胖还是决定休息一下，不做练习．已知他第一天做1道题，第二天做3道题，第三天做5道题，依此变化做下去，那么小胖这段时间一共做了道计算练习题.",
-    "text_en": "2014年2月6日是星期四，小胖决定从这天起（含2月6日）练习计算，一直练习到2月17日，（含2月17日）开学为止．但是中间如果遇到周六和周日，小胖还是决定休息一下，不做练习．已知他第一天做1道题，第二天做3道题，第三天做5道题，依此变化做下去，那么小胖这段时间一共做了道计算练习题.",
+    "text_en": "February 6, 2014 is Thursday, Fatty decided to practice calculations from this day (including February 6) until February 17, (including February 17) until the start of school. But if the middle encounters Saturday and Sunday, Fatty still decided to take a break and not practice. It is known that he did 1 question on the first day, 3 questions on the second day, and 5 questions on the third day. According to this change, Fatty did a total of calculation exercises during this period.",
     "illustration": null,
     "choices": [
       {
@@ -2822,14 +2822,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "解：依题意可知： 从2月6日到2月17日为止，一共有17 - 6 + 1 = 12（天）； 其中有2个星期六，星期日，工作了12 - 4 = 8（天）. 共完成1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64（道）题. 故选：D.",
-    "explanation_en": "解：依题意可知： 从2月6日到2月17日为止，一共有17 - 6 + 1 = 12（天）； 其中有2个星期六，星期日，工作了12 - 4 = 8（天）. 共完成1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64（道）题. 故选：D.",
+    "explanation_en": "Solution: According to the meaning of the topic, from February 6 to February 17, there were 17 - 6 + 1 = 12 (days); among them, there were 2 Saturdays, Sundays, and 12 - 4 = 8 (days). A total of 1 + 3 + 5 + 7 + 9 + 11 + 13 + 15 = 64 (Tao) questions were completed. Selected: D.",
     "attribution": "2014年迎春杯三年级竞赛复赛"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "下____面的数中一个\"零\"也不读出来的是．",
-    "text_en": "下____面的数中一个\"零\"也不读出来的是．",
+    "text_en": "A \"zero\" in the number on the next ____ side is also not read out.",
     "illustration": null,
     "choices": [
       {
@@ -2847,14 +2847,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "235001读作二十三万五千零一，故A错误； 60015读作六万零一十五，故B错误； 107000读作十万七千，故C正确． 所以一个\"零\"也读不出来的是C",
-    "explanation_en": "235001读作二十三万五千零一，故A错误； 60015读作六万零一十五，故B错误； 107000读作十万七千，故C正确． 所以一个\"零\"也读不出来的是C",
+    "explanation_en": "235001 reads as two hundred and thirty-five thousand and one, so A is wrong; 60015 reads as sixty thousand and fifteen, so B is wrong; 107000 reads as one hundred and seventy thousand, so C is correct. So a \"zero\" can not be read is C",
     "attribution": "2016年全国小学生数学学习能力测评四年级竞赛初赛第7题3分"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "数a四舍五入后得到的近似值为5.3.那么a的取值范围是____．",
-    "text_en": "数a四舍五入后得到的近似值为5.3.那么a的取值范围是____．",
+    "text_en": "The approximate value obtained after rounding the number a is 5.3. Then the value range of a is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2876,14 +2876,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "当a = 5.35时，a四舍五入得到的近似值为5.4，不合题意，排除A、C，当a = 5.25时，a四舍五入得到的近似值为5.3，符合题意，排除B",
-    "explanation_en": "当a = 5.35时，a四舍五入得到的近似值为5.4，不合题意，排除A、C，当a = 5.25时，a四舍五入得到的近似值为5.3，符合题意，排除B",
+    "explanation_en": "When a = 5.35, the approximate value obtained by rounding a is 5.4, which is inconsistent with the meaning of the question, excluding A and C. When a = 5.25, the approximate value obtained by rounding a is 5.3, which is consistent with the meaning of the question, excluding B",
     "attribution": "2008年四年级竞赛创新杯"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "游乐场游玩，每人第一个小时付款15元，以后每小时付款8元，军军和弟弟游玩后共付了62元，他们在游乐场玩了个____小时．",
-    "text_en": "游乐场游玩，每人第一个小时付款15元，以后每小时付款8元，军军和弟弟游玩后共付了62元，他们在游乐场玩了个____小时．",
+    "text_en": "Playground play. Each person paid 15 yuan for the first hour and 8 yuan for each hour thereafter. The army and brother paid a total of 62 yuan after playing. They played in the playground for ____ hours.",
     "illustration": null,
     "choices": [
       {
@@ -2901,14 +2901,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "除去第1小时以外的费用：62 - 15 × 2 = 32（元）； 每人除了第一小时以外所花的时间：32 ÷ 2 ÷ 8 = 2（小时）； 共时长：2 + 1 = 3（小时）",
-    "explanation_en": "除去第1小时以外的费用：62 - 15 × 2 = 32（元）； 每人除了第一小时以外所花的时间：32 ÷ 2 ÷ 8 = 2（小时）； 共时长：2 + 1 = 3（小时）",
+    "explanation_en": "Except for the first hour: 62 - 15 × 2 = 32 (yuan); Time spent per person except the first hour: 32 ÷ 2 ÷ 8 = 2 (hours); Total duration: 2 + 1 = 3 (hours)",
     "attribution": "2019年全国小学生数学学习能力测评四年级竞赛复赛第8题3分"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "a b表示a、b两个数中取较大的一个，a b表示a、b两个数中取较小的一个，则(666 888) (777 555)等于____。",
-    "text_en": "a b表示a、b两个数中取较大的一个，a b表示a、b两个数中取较小的一个，则(666 888) (777 555)等于____。",
+    "text_en": "a b represents the larger of the two numbers a and b, and a b represents the smaller of the two numbers a and b, then (666 888) (777 555) equals ____.",
     "illustration": null,
     "choices": [
       {
@@ -2930,14 +2930,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "666 888两个数中取较大的是888，777 555两个数中取较大的是777，888 777两个数中取较小的是777。",
-    "explanation_en": "666 888两个数中取较大的是888，777 555两个数中取较大的是777，888 777两个数中取较小的是777。",
+    "explanation_en": "666 888 The larger of the two numbers is 888, 777 555 The larger of the two numbers is 777, and the smaller of the two numbers is 777.",
     "attribution": "2006年走美杯四年级竞赛"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "a b表示a、b两个数中取较大的一个，a b表示a、b两个数中取较小的一个，则(2006 2008) (2007 2009)等于____。",
-    "text_en": "a b表示a、b两个数中取较大的一个，a b表示a、b两个数中取较小的一个，则(2006 2008) (2007 2009)等于____。",
+    "text_en": "a b represents the larger of the two numbers a and b, and a b represents the smaller of the two numbers a and b, then (2006 2008) (2007 2009) is equal to ____.",
     "illustration": null,
     "choices": [
       {
@@ -2959,14 +2959,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "2006 2008两个数中取较大的是2008，2007 2009两个数中取较大的是2009，2008 2009两个数中取较小的是2008。",
-    "explanation_en": "2006 2008两个数中取较大的是2008，2007 2009两个数中取较大的是2009，2008 2009两个数中取较小的是2008。",
+    "explanation_en": "2006 2008 The larger of the two numbers is 2008, 2007 2009 The larger of the two numbers is 2009, 2008 2009 The smaller of the two numbers is 2008.",
     "attribution": "2006年走美杯四年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "下面计算结果等于9的是____．",
-    "text_en": "下面计算结果等于9的是____．",
+    "text_en": "The following calculation results equal to 9 are ____.",
     "illustration": null,
     "choices": [
       {
@@ -2988,14 +2988,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "解： A、3 × 3 ÷ 3 + 3 = 3 + 3 = 6 B、3 ÷ 3 + 3 × 3 = 1 + 9 = 10 C、3 × 3 - 3 + 3 = 9 - 3 + 3 = 9 D、3 ÷ 3 + 3 ÷ 3 = 1 + 1 = 2 故选： C．",
-    "explanation_en": "解： A、3 × 3 ÷ 3 + 3 = 3 + 3 = 6 B、3 ÷ 3 + 3 × 3 = 1 + 9 = 10 C、3 × 3 - 3 + 3 = 9 - 3 + 3 = 9 D、3 ÷ 3 + 3 ÷ 3 = 1 + 1 = 2 故选： C．",
+    "explanation_en": "Solution: A, 3 × 3 ÷ 3 + 3 = 3 + 3 = 6 B, 3 ÷ 3 + 3 × 3 = 1 + 9 = 10 C, 3 × 3 - 3 + 3 = 9 D, 3 ÷ 3 + 3 ÷ 3 = 1 + 1 = 2 Selected: C.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第1题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "简易方程． 10 + 2x + 3 = 19____．",
-    "text_en": "简易方程． 10 + 2x + 3 = 19____．",
+    "text_en": "Simple equation. 10 + 2x + 3 = 19 ____.",
     "illustration": null,
     "choices": [
       {
@@ -3024,7 +3024,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一个数的小数点向右移动一位，比原数大36，这个数是____．",
-    "text_en": "一个数的小数点向右移动一位，比原数大36，这个数是____．",
+    "text_en": "The decimal point of a number moves one bit to the right, which is 36 greater than the original number, which is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3046,14 +3046,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "小数点向右移动1位，则新数比原数扩大10倍，即增加9倍，所以原数为59.94 ÷ (10 - 1) = 6.66",
-    "explanation_en": "小数点向右移动1位，则新数比原数扩大10倍，即增加9倍，所以原数为59.94 ÷ (10 - 1) = 6.66",
+    "explanation_en": "If the decimal point is moved 1 digit to the right, the new number is 10 times larger than the original number, that is, 9 times larger, so the original number is 59.94 ÷ (10 - 1) = 6.66",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "爸爸带了269元钱，要买8元一个的笔记本，最多能买____个．",
-    "text_en": "爸爸带了269元钱，要买8元一个的笔记本，最多能买____个．",
+    "text_en": "Dad brought 269 yuan, to buy a notebook of 8 yuan, you can buy up to ____.",
     "illustration": null,
     "choices": [
       {
@@ -3079,14 +3079,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据题意分析可知，利用关系式：数量 = 总价 ÷ 单价，用爸爸带的钱除以每个笔记本的单价即可得到最多能买多少个笔记本，列式为：269 ÷ 8 = 33（个）·s ·s 5（元），剩下的5元不足以再买一个笔记本， 所以最多能买33个",
-    "explanation_en": "根据题意分析可知，利用关系式：数量 = 总价 ÷ 单价，用爸爸带的钱除以每个笔记本的单价即可得到最多能买多少个笔记本，列式为：269 ÷ 8 = 33（个）·s ·s 5（元），剩下的5元不足以再买一个笔记本， 所以最多能买33个",
+    "explanation_en": "According to the topic analysis, using the relationship formula: quantity = total price ÷ unit price, you can divide the unit price of each notebook by the money brought by dad to get the maximum number of notebooks you can buy. The column formula is: 269 ÷ 8 = 33 (pieces) · s · s 5 (yuan), and the remaining 5 yuan is not enough to buy another notebook, so you can buy up to 33.",
     "attribution": "2020年四川绵阳涪城区绵阳东辰国际学校超越杯四年级竞赛第2题2分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一个数的小数点向右移动一位，比原数大59.94，这个数是____",
-    "text_en": "一个数的小数点向右移动一位，比原数大59.94，这个数是____",
+    "text_en": "The decimal point of a number moves one bit to the right, which is 59.94 greater than the original number, which is ____",
     "illustration": null,
     "choices": [
       {
@@ -3108,14 +3108,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "小数点向右移动1位，则新数比原数扩大10倍，即增加9倍，所以原数为59.94 ÷ (10 - 1) = 6.66",
-    "explanation_en": "小数点向右移动1位，则新数比原数扩大10倍，即增加9倍，所以原数为59.94 ÷ (10 - 1) = 6.66",
+    "explanation_en": "If the decimal point is moved 1 digit to the right, the new number is 10 times larger than the original number, that is, 9 times larger, so the original number is 59.94 ÷ (10 - 1) = 6.66",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "某数的小数点向右移一位，则小数值比原来大25.65，原小数是____．",
-    "text_en": "某数的小数点向右移一位，则小数值比原来大25.65，原小数是____．",
+    "text_en": "If the decimal point of a number is shifted one place to the right, the decimal value is 25.65 larger than the original, and the original decimal value is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3137,14 +3137,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "某数的小数点向右移动一位，相当于此数扩大了10倍，原数是1份数，现在的数就是10份数，现在的数比原数大9份数，再根据这个数就比原来大25.65， 25.65 ÷ (10 - 1) = 25.65 ÷ 9 = 2.85． 故选：D．",
-    "explanation_en": "某数的小数点向右移动一位，相当于此数扩大了10倍，原数是1份数，现在的数就是10份数，现在的数比原数大9份数，再根据这个数就比原来大25.65， 25.65 ÷ (10 - 1) = 25.65 ÷ 9 = 2.85． 故选：D．",
+    "explanation_en": "The decimal point of a certain number is moved one bit to the right, which is equivalent to 10 times the increase of this number. The original number is 1 copy number. The current number is 10 copies. The current number is 9 copies larger than the original number. According to this number, it is 25.65, 25.65 ÷ (10 - 1) = 25.65 ÷ 9 = 2.85. Therefore: D.",
     "attribution": "2006年第4届创新杯四年级竞赛复赛第5题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "某小数的小数点向右移动一位，则数值比原来大25.65，原小数是____.",
-    "text_en": "某小数的小数点向右移动一位，则数值比原来大25.65，原小数是____.",
+    "text_en": "If the decimal point of a decimal point is moved one bit to the right, the value is 25.65 larger than the original, and the original decimal point is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3166,14 +3166,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "小数点向右移动一位，则扩大10倍，增加9倍.因此原数为25.65 ÷ (10 - 1) = 2.85",
-    "explanation_en": "小数点向右移动一位，则扩大10倍，增加9倍.因此原数为25.65 ÷ (10 - 1) = 2.85",
+    "explanation_en": "If the decimal point is moved one bit to the right, it is enlarged by 10 times and increased by 9 times. So the original number is 25.65 ÷ (10 - 1) = 2.85",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算10001 × 3333 + 10001 × 6666 = ____.",
-    "text_en": "计算10001 × 3333 + 10001 × 6666 = ____.",
+    "text_en": "Calculate 10001 × 3333 + 10001 × 6666 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3195,14 +3195,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "原式 = 10001 × (3333 + 6666) = 10001 × 9999 = 99999999",
-    "explanation_en": "原式 = 10001 × (3333 + 6666) = 10001 × 9999 = 99999999",
+    "explanation_en": "Formula = 10001 × (3333 + 6666) = 10001 × 9999 = 99999999",
     "attribution": "2008年第6届创新杯四年级竞赛初赛B卷第1题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一个三位小数，精确到十____分位是10.0．这个三位小数最大是，最小是．",
-    "text_en": "一个三位小数，精确到十____分位是10.0．这个三位小数最大是，最小是．",
+    "text_en": "A three-digit decimal, accurate to the tenth ____ decimal place is 10.0. This three-digit decimal is the largest and the smallest is.",
     "illustration": null,
     "choices": [
       {
@@ -3224,14 +3224,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "一个三位小数，四舍五入到十分位得到10.0， 原三位小数通过\"四舍\"获得最大值，通过\"五入\"获得最小值． 那么通过四舍的原小数百分位数字可能是：1、2、3、4， 那么通过五入的原小数百分位数字可能是：5、6、7、8、9， 所以最大是10.049，最小是9.950",
-    "explanation_en": "一个三位小数，四舍五入到十分位得到10.0， 原三位小数通过\"四舍\"获得最大值，通过\"五入\"获得最小值． 那么通过四舍的原小数百分位数字可能是：1、2、3、4， 那么通过五入的原小数百分位数字可能是：5、6、7、8、9， 所以最大是10.049，最小是9.950",
+    "explanation_en": "A three decimal place, rounded to the decimal place to get 10.0, the original three decimal places by \"rounding\" to get the maximum value, through \"five\" to get the minimum value. Then the original decimal percentiles by rounding may be: 1, 2, 3, 4, then the original decimal percentiles by five may be: 5, 6, 7, 8, 9, so the maximum is 10.049, the minimum is 9.950",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛复赛（中国区）第2题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "把一根长20米的彩带剪成两段，要求较长的比较短的长4米，较短的长____米．",
-    "text_en": "把一根长20米的彩带剪成两段，要求较长的比较短的长4米，较短的长____米．",
+    "text_en": "Cut a 20-meter long ribbon into two segments, requiring a longer, shorter length of 4 meters and a shorter length of ____ meters.",
     "illustration": null,
     "choices": [
       {
@@ -3249,14 +3249,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为通过题干可知，把这根长20米的彩带剪成两段，设较长的一段长x米，则较短的一段长(20 - x)米，较长的比较短的长4米，则可列方程为：x - (20 - x) = 4，解得：x = 12，所以较长的一段是12米，较短的一段是：20 - 12 = 8（米）． 故选：A．",
-    "explanation_en": "因为通过题干可知，把这根长20米的彩带剪成两段，设较长的一段长x米，则较短的一段长(20 - x)米，较长的比较短的长4米，则可列方程为：x - (20 - x) = 4，解得：x = 12，所以较长的一段是12米，较短的一段是：20 - 12 = 8（米）． 故选：A．",
+    "explanation_en": "Because it can be seen from the stem that cutting this 20-meter long ribbon into two segments, setting a longer segment of length x meters, then a shorter segment of length (20 - x) meters, and a longer and shorter length of 4 meters, can be listed as: x - (20 - x) = 4, the solution is: x = 12, so the longer segment is 12 meters, and the shorter segment is: 20 - 12 = 8 (meters). Therefore, choose: A.",
     "attribution": "2018年第21届世界少年奥林匹克数学竞赛四年级竞赛复赛（中国区）第8题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一部电影共放映了85分钟，结束时正好是20:40____分．这部电影是开始放映的．",
-    "text_en": "一部电影共放映了85分钟，结束时正好是20:40____分．这部电影是开始放映的．",
+    "text_en": "A film was shown for 85 minutes, ending at 20:40 ____. The film was started.",
     "illustration": null,
     "choices": [
       {
@@ -3282,14 +3282,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据题意分析可知，60分钟 = 1小时，85分钟 = 1小时25分钟， 用结束的时间减去放映的时长即可得到开始放映的时间， 故列式为：20:40 - 1:25 = 19:15",
-    "explanation_en": "根据题意分析可知，60分钟 = 1小时，85分钟 = 1小时25分钟， 用结束的时间减去放映的时长即可得到开始放映的时间， 故列式为：20:40 - 1:25 = 19:15",
+    "explanation_en": "According to the analysis of the topic, 60 minutes = 1 hour, 85 minutes = 1 hour and 25 minutes, the time to start the screening can be obtained by subtracting the time of the screening, so the column formula is: 20:40 - 1:25 = 19:15",
     "attribution": "2020年四川绵阳涪城区绵阳东辰国际学校超越杯四年级竞赛第6题2分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = ____．",
-    "text_en": "计算：2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = ____．",
+    "text_en": "Calculation: 2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3318,7 +3318,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算1 + 3 + 5 + 7 + ·s + 2019 + 2021 = ____．",
-    "text_en": "计算1 + 3 + 5 + 7 + ·s + 2019 + 2021 = ____．",
+    "text_en": "Calculate 1 + 3 + 5 + 7 + · s + 2019 + 2021 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3339,19 +3339,19 @@
       },
       {
         "zh": "以上都不正确",
-        "en": "以上都不正确"
+        "en": "None of the above."
       }
     ],
     "correct_index": 0,
     "explanation_zh": "中项定理：等差数列的和等于中项的平方． 中项：(1 + 2021) ÷ 2 = 1011， 所以答案为1011 × 1011，即",
-    "explanation_en": "中项定理：等差数列的和等于中项的平方． 中项：(1 + 2021) ÷ 2 = 1011， 所以答案为1011 × 1011，即",
+    "explanation_en": "Medium term theorem: The sum of the series of equal differences equals the square of the medium term. Medium term: (1 + 2021) ÷ 2 = 1011, so the answer is 1011 × 1011, that is",
     "attribution": "2020年第1届广东深圳超常思维竞赛四年级竞赛初赛第2题4分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "有一种水草每天长一倍，到第3天时长到32平方米，那么到第天时长到64____平方米．",
-    "text_en": "有一种水草每天长一倍，到第3天时长到32平方米，那么到第天时长到64____平方米．",
+    "text_en": "There is an aquatic plant that doubles every day and grows to 32 square meters on the third day, and then grows to 64 ____ square meters on the third day.",
     "illustration": null,
     "choices": [
       {
@@ -3369,14 +3369,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "每天长一倍，第3天是32平方米，那么第4天，就应该是32 × 2 = 64平方米",
-    "explanation_en": "每天长一倍，第3天是32平方米，那么第4天，就应该是32 × 2 = 64平方米",
+    "explanation_en": "It doubles every day. On the third day, it is 32 square meters, so on the fourth day, it should be 32 × 2 = 64 square meters.",
     "attribution": "2019年广东深圳全国小学生数学学习能力测评四年级竞赛初赛第9题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "小丽在计算除法____时，把除数530末尾的0漏写了，得到的商是60．正确的商应该是．",
-    "text_en": "小丽在计算除法____时，把除数530末尾的0漏写了，得到的商是60．正确的商应该是．",
+    "text_en": "When calculating the division ____, Xiaoli wrote the 0 at the end of the divisor 530, and the obtained quotient is 60. The correct quotient should be.",
     "illustration": null,
     "choices": [
       {
@@ -3394,14 +3394,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "除数的末尾的0漏掉，则正确的结果应该为6． 故选：A．",
-    "explanation_en": "除数的末尾的0漏掉，则正确的结果应该为6． 故选：A．",
+    "explanation_en": "If the 0 at the end of the divisor is omitted, the correct result should be 6. Selection: A.",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛四年级竞赛决赛第4题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：2020 × 20212021 - 2021 × 20202020 = ____．",
-    "text_en": "计算：2020 × 20212021 - 2021 × 20202020 = ____．",
+    "text_en": "Calculation: 2020 × 20212021 - 2021 × 20202020 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3422,19 +3422,19 @@
       },
       {
         "zh": "以上都不对",
-        "en": "以上都不对"
+        "en": "None of the above."
       }
     ],
     "correct_index": 0,
     "explanation_zh": "原式 = 2020 × 2021 × 10001 - 2021 × 2020 × 10001 = 0",
-    "explanation_en": "原式 = 2020 × 2021 × 10001 - 2021 × 2020 × 10001 = 0",
+    "explanation_en": "Formula = 2020 × 2021 × 10001 - 2021 × 2020 × 10001 = 0",
     "attribution": "2021年第8届鹏程杯四年级竞赛初赛第2题4分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一部电影共放映了85分钟，结束时正好是20:40分．这部电影是什么____时辰开始放映的．",
-    "text_en": "一部电影共放映了85分钟，结束时正好是20:40分．这部电影是什么____时辰开始放映的．",
+    "text_en": "A movie was shown for a total of 85 minutes, and it ended at 20:40. What time did the movie start showing?",
     "illustration": null,
     "choices": [
       {
@@ -3452,14 +3452,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据题意分析可知，60分钟 = 1小时，85分钟 = 1小时25分钟， 用结束的时间减去放映的时长即可得到开始放映的时间， 故列式为：20:40 - 1:25 = 19:15",
-    "explanation_en": "根据题意分析可知，60分钟 = 1小时，85分钟 = 1小时25分钟， 用结束的时间减去放映的时长即可得到开始放映的时间， 故列式为：20:40 - 1:25 = 19:15",
+    "explanation_en": "According to the analysis of the topic, 60 minutes = 1 hour, 85 minutes = 1 hour and 25 minutes, the time to start the screening can be obtained by subtracting the time of the screening, so the column formula is: 20:40 - 1:25 = 19:15",
     "attribution": "2020年四川绵阳涪城区绵阳东辰国际学校超越杯四年级竞赛第6题2分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "两台同样的拖拉机3天耕地18公顷，照这样计算，9天耕地81公顷，需要____台这样的拖拉机．",
-    "text_en": "两台同样的拖拉机3天耕地18公顷，照这样计算，9天耕地81公顷，需要____台这样的拖拉机．",
+    "text_en": "Two of the same tractors cultivated 18 hectares of land for 3 days. According to this calculation, 81 hectares of land were cultivated for 9 days, and ____ tractors were needed.",
     "illustration": null,
     "choices": [
       {
@@ -3477,14 +3477,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "要求需要几台同样的拖拉机，就要先求出每台拖拉机每天耕地多少公顷，已知两台拖拉机3天耕地18公顷，用除法求每台拖拉机每天的工作量．然后乘以9天，求出每台拖拉机9天的工作量，最后用除法求需要的拖拉机数量． 81 ÷ (18 ÷ 2 ÷ 3 × 9) = 81 ÷ 27 = 3（台）． 答：需要3台同样的拖拉机",
-    "explanation_en": "要求需要几台同样的拖拉机，就要先求出每台拖拉机每天耕地多少公顷，已知两台拖拉机3天耕地18公顷，用除法求每台拖拉机每天的工作量．然后乘以9天，求出每台拖拉机9天的工作量，最后用除法求需要的拖拉机数量． 81 ÷ (18 ÷ 2 ÷ 3 × 9) = 81 ÷ 27 = 3（台）． 答：需要3台同样的拖拉机",
+    "explanation_en": "If you need a few of the same tractors, you must first find out how many hectares of land each tractor cultivates per day. Two tractors are known to cultivate 18 hectares of land for 3 days. Divide by the daily workload of each tractor. Then multiply by 9 days to find out the workload of each tractor for 9 days. Finally, divide by the number of tractors required. 81 ÷ (18 ÷ 2 ÷ 3 × 9) = 81 ÷ 27 = 3 (units). Answer: You need 3 identical tractors",
     "attribution": "2017年全国小学生数学学习能力测评四年级竞赛复赛第8题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "从1至2020这2020个自然数中，每次取两____个不同的数相加，和大于2020的取法共有．",
-    "text_en": "从1至2020这2020个自然数中，每次取两____个不同的数相加，和大于2020的取法共有．",
+    "text_en": "Of the 2020 natural numbers from 1 to 2020, two ____ different numbers are taken at a time, and the sum is greater than 2020.",
     "illustration": null,
     "choices": [
       {
@@ -3506,14 +3506,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "若取了2020，则另一个可取1~2019，共2019种， 若取了2019，则另一个可取2~2018，共2017种， 若取了2018，则另一个可取3~2017，共2015种， 若取了1011，则另一个可取1010，共1种， 共有1 + 3 + 5 + 7 + ·s + 2019 = 1010² = 1020100种",
-    "explanation_en": "若取了2020，则另一个可取1~2019，共2019种， 若取了2019，则另一个可取2~2018，共2017种， 若取了2018，则另一个可取3~2017，共2015种， 若取了1011，则另一个可取1010，共1种， 共有1 + 3 + 5 + 7 + ·s + 2019 = 1010² = 1020100种",
+    "explanation_en": "If you take 2020, another one is desirable 1 ~ 2019, a total of 2019 species. If you take 2019, another one is desirable 2 ~ 2018, a total of 2017 species. If you take 2018, another one is desirable 3 ~ 2017, a total of 2015 species. If you take 1011, another one is desirable 1010, a total of 1 + 3 + 5 + 7 + · s + 2019 = 1010 ² = 1020100 species.",
     "attribution": "2020年第24届YMO四年级竞赛决赛第3题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一个数加上8的和，再乘以8的积，再减去8的差，再除以8的商，等于80，那么，这个数是____。",
-    "text_en": "一个数加上8的和，再乘以8的积，再减去8的差，再除以8的商，等于80，那么，这个数是____。",
+    "text_en": "A number plus the sum of 8, then multiplied by the product of 8, then subtracted the difference of 8, then divided by the quotient of 8, which is equal to 80, then this number is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3535,14 +3535,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "一个数 + 8△ × 8 △ - 8△ ÷ 8 80， 还原就是80 × 8 640 + 8648 ÷ 881 - 873，算式:(80 × 8 + 8) ÷ 8 - 8 = 73",
-    "explanation_en": "一个数 + 8△ × 8 △ - 8△ ÷ 8 80， 还原就是80 × 8 640 + 8648 ÷ 881 - 873，算式:(80 × 8 + 8) ÷ 8 - 8 = 73",
+    "explanation_en": "A number + 8△ × 8 △ - 8△ ÷ 8 80, the reduction is 80 × 8 640 + 8648 ÷ 881 - 873, formula: (80 × 8 + 8) ÷ 8 - 8 = 73",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "显示在电子钟上的时间是5:55，下一次电子钟上显示的时间又是全部相同的数字，还要过____分钟．",
-    "text_en": "显示在电子钟上的时间是5:55，下一次电子钟上显示的时间又是全部相同的数字，还要过____分钟．",
+    "text_en": "The time displayed on the electronic clock is 5:55, and the time displayed on the next electronic clock is all the same number, and it is still ____ minutes.",
     "illustration": null,
     "choices": [
       {
@@ -3564,14 +3564,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为分钟的十位最大为5，所以下一次数字相同的时刻为11:11，11:11距5:55有5小时16分，即316分钟",
-    "explanation_en": "因为分钟的十位最大为5，所以下一次数字相同的时刻为11:11，11:11距5:55有5小时16分，即316分钟",
+    "explanation_en": "Because the maximum number of ten minutes is 5, the next time the same number is 11:11, 11:11 is 5 hours and 16 minutes from 5:55, that is, 316 minutes",
     "attribution": "2012年第10届创新杯四年级竞赛初赛第5题6分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "小玲在计算一道除法题____时，把被除数1250写成1205，结果得到的商是48还余5，正确的商是．",
-    "text_en": "小玲在计算一道除法题____时，把被除数1250写成1205，结果得到的商是48还余5，正确的商是．",
+    "text_en": "When calculating a division question ____, Xiaoling wrote the divisor 1250 as 1205, and the resulting quotient is 48 with 5 remaining, and the correct quotient is.",
     "illustration": null,
     "choices": [
       {
@@ -3589,14 +3589,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "先用错误的被除数1205减去余数5，再除以商48求出除数；再用原题的被除数1250除以除数求出商． (1205 - 5) ÷ 48， = 1200 ÷ 48， = 25， 1250 ÷ 25 = 50． 答：正确的商是50",
-    "explanation_en": "先用错误的被除数1205减去余数5，再除以商48求出除数；再用原题的被除数1250除以除数求出商． (1205 - 5) ÷ 48， = 1200 ÷ 48， = 25， 1250 ÷ 25 = 50． 答：正确的商是50",
+    "explanation_en": "First use the wrong divisor 1205 to subtract the remainder 5, then divide by the quotient 48 to find the divisor; then use the divisor 1250 of the original question to divide by the divisor to find the quotient. (1205 - 5) ÷ 48, = 1200 ÷ 48, = 25, 1250 ÷ 25 = 50. Answer: The correct quotient is 50",
     "attribution": "2017年全国小学生数学学习能力测评四年级竞赛复赛第7题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "规定a b = (a + b - 1) × (a - b + 2)，那么(5 3) 3 = ____．",
-    "text_en": "规定a b = (a + b - 1) × (a - b + 2)，那么(5 3) 3 = ____．",
+    "text_en": "If a b = (a + b - 1) × (a - b + 2), then (5 3) 3 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3618,14 +3618,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "根据定义可知(5 3) 3，先算5 3部分为： 5 3 = (5 + 3 - 1) × (5 - 3 + 2) = 7 × 4 = 28． 再算28 3 = (28 + 3 - 1) × (28 - 3 + 2) = 30 × 27 = 810． 故答案为：810．",
-    "explanation_en": "根据定义可知(5 3) 3，先算5 3部分为： 5 3 = (5 + 3 - 1) × (5 - 3 + 2) = 7 × 4 = 28． 再算28 3 = (28 + 3 - 1) × (28 - 3 + 2) = 30 × 27 = 810． 故答案为：810．",
+    "explanation_en": "According to the definition, (5 3) 3, the first 5 3 part is: 53 = (5 + 3 - 1) × (5 - 3 + 2) = 7 × 4 = 28. Then 28 3 = (28 + 3 - 1) × (28 - 3 + 2) = 30 × 27 = 810. Therefore, the answer is: 810.",
     "attribution": "2020年新希望杯四年级竞赛决赛（8月）第8题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "从1开始，鲍勃一共喊了2017个数，从第一个数之后的每个数都比前一个数大4．请问以下哪一个数是鲍勃喊过的？",
-    "text_en": "从1开始，鲍勃一共喊了2017个数，从第一个数之后的每个数都比前一个数大4．请问以下哪一个数是鲍勃喊过的？",
+    "text_en": "Starting from 1, Bob shouted a total of 2017 numbers, and each number from the first number is larger than the previous number 4. Which of the following numbers did Bob shout?",
     "illustration": null,
     "choices": [
       {
@@ -3647,14 +3647,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "除以4余1．",
-    "explanation_en": "除以4余1．",
+    "explanation_en": "Divide by 4, plus 1.",
     "attribution": "2017年全国美国数学大联盟杯小学中年级四年级竞赛初赛"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "选择\" + 、 - 、 × 、 ÷ \"填入圆____圈中，使得等式21○ 10○ 2○ 8 = 24成立．",
-    "text_en": "选择\" + 、 - 、 × 、 ÷ \"填入圆____圈中，使得等式21○ 10○ 2○ 8 = 24成立．",
+    "text_en": "Select \"+, -, ×, ÷\" to fill in the circle ____ circle, so that the equation 21○ 10○ 2○ 8 = 24 is true.",
     "illustration": null,
     "choices": [
       {
@@ -3683,7 +3683,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "两个数相乘，如果一个因数增加3，积就增加54；如果另一个因数减少4，积就减少96，原来两____个因数的积是．",
-    "text_en": "两个数相乘，如果一个因数增加3，积就增加54；如果另一个因数减少4，积就减少96，原来两____个因数的积是．",
+    "text_en": "Multiplied by two numbers, if one factor increases by 3, the product increases by 54; if the other factor decreases by 4, the product decreases by 96, the product of the original two ____ factors is.",
     "illustration": null,
     "choices": [
       {
@@ -3701,14 +3701,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "一个因数为54 ÷ 3 = 18，另一个因数为96 ÷ 4 = 24， 所以原来两数的积为18 × 24 = 432． 故选：A．",
-    "explanation_en": "一个因数为54 ÷ 3 = 18，另一个因数为96 ÷ 4 = 24， 所以原来两数的积为18 × 24 = 432． 故选：A．",
+    "explanation_en": "One factor is 54 ÷ 3 = 18, the other factor is 96 ÷ 4 = 24, so the product of the original two numbers is 18 × 24 = 432. Therefore: A.",
     "attribution": "2016年全国小学生数学学习能力测评四年级竞赛初赛第8题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "规定：a*b = 2a + 3b，a△ b = 2ab，如果(2*x)△ 2 = 64，那么x = ____．",
-    "text_en": "规定：a*b = 2a + 3b，a△ b = 2ab，如果(2*x)△ 2 = 64，那么x = ____．",
+    "text_en": "Specification: a * b = 2a + 3b, a△ b = 2ab, if (2 * x)△ 2 = 64, then x = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3730,14 +3730,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "按照*运算法则为前数 × 2 - 后数 × 3，按照△ 运算法则为2 × 两数之积． 在解方程时，由于括号内含有未知数，所以要由外向内化简方程，一步一步展开． 也可以将2*x看作一个整体，先求结果，再求x． 有括号时先算括号里的，2*x = 2 × 2 + 3x = 4 + 3x，(2*x)△ 2 = (4 + 3x)△ 2 = 2 × (4 + 3x) × 2 = 16 + 12x，得一元一次方程16 + 12x = 64，解得x = 4． 设2*x = A，A 2 = 2 × 2 × A = 64,A = 16.所以，2*x = 2 × 2 + 3x = 16，解得x = 4．",
-    "explanation_en": "按照*运算法则为前数 × 2 - 后数 × 3，按照△ 运算法则为2 × 两数之积． 在解方程时，由于括号内含有未知数，所以要由外向内化简方程，一步一步展开． 也可以将2*x看作一个整体，先求结果，再求x． 有括号时先算括号里的，2*x = 2 × 2 + 3x = 4 + 3x，(2*x)△ 2 = (4 + 3x)△ 2 = 2 × (4 + 3x) × 2 = 16 + 12x，得一元一次方程16 + 12x = 64，解得x = 4． 设2*x = A，A 2 = 2 × 2 × A = 64,A = 16.所以，2*x = 2 × 2 + 3x = 16，解得x = 4．",
+    "explanation_en": "According to the * algorithm, the first number × 2 - the second number × 3,△ and according to the algorithm, the product of 2 × 2. When solving the equation, since there are unknowns in the brackets, it is necessary to simplify the equation from the outside to the inside, and expand it step by step. You can also regard 2 * x as a whole, seek the result first, and then calculate x. When there are brackets, 2 * x = 2 × 2 + 3x = 4 + 3x, (2 * x)△ 2 = (4 + 3x)△ 2 = 2 × (4 + 3x) × 2 = 16 + 12x, the unary primary equation 16 + 12x = 64, and the solution is x = 4. Set 2 * x = A, A 2 = 2 × 2 × A = 64, A = 16. So, 2 * x = 2 × 2 + 3x = 16, the solution is x = 4.",
     "attribution": "四年级其它小学奥数优秀生培养教程7级"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "大李和小李两人一共做了68个幸运星，大李的数量比小李的4倍少2个，如果设小李做了x个幸运星，则下列方程正确的是．",
-    "text_en": "大李和小李两人一共做了68个幸运星，大李的数量比小李的4倍少2个，如果设小李做了x个幸运星，则下列方程正确的是．",
+    "text_en": "Both Big Li and Little Li made a total of 68 lucky stars, and the number of Big Li was 4 times less than that of Little Li by 2. If Little Li made x lucky stars, then the following equation is correct.",
     "illustration": null,
     "choices": [
       {
@@ -3755,14 +3755,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "设小李做了x个幸运星，则大李做了(4x - 2)个，根据题意列方程：(4x - 2) + x = 68",
-    "explanation_en": "设小李做了x个幸运星，则大李做了(4x - 2)个，根据题意列方程：(4x - 2) + x = 68",
+    "explanation_en": "If Xiao Li made x lucky stars, Dali made (4x - 2), and listed the equations according to the meaning of the topic: (4x - 2) + x = 68",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛四年级竞赛决赛第3题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "用1、2、3、4这四个数字可以组成许多四位数，将它们从小到大依次排列，那么4123这个四位数排在第____个位置上．",
-    "text_en": "用1、2、3、4这四个数字可以组成许多四位数，将它们从小到大依次排列，那么4123这个四位数排在第____个位置上．",
+    "text_en": "The four digits 1, 2, 3, and 4 can be used to form many four-digit numbers, and they are arranged from small to large, so the four-digit number 4123 is ranked in ____ positions.",
     "illustration": null,
     "choices": [
       {
@@ -3780,14 +3780,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由1、2、3、4这四个数字组成的四位数有： 1234；1243；1324；1342；1423；1432； 2134；2143；2314；2341；2413；2431； 3124；3142；3214；3241；3412；3421； 4123；4132；4213；4231；4312；4321， 所以将它们从小到大的顺序排列，4123是第19个． 故选：A．",
-    "explanation_en": "由1、2、3、4这四个数字组成的四位数有： 1234；1243；1324；1342；1423；1432； 2134；2143；2314；2341；2413；2431； 3124；3142；3214；3241；3412；3421； 4123；4132；4213；4231；4312；4321， 所以将它们从小到大的顺序排列，4123是第19个． 故选：A．",
+    "explanation_en": "The four digits consisting of 1, 2, 3, and 4 are: 1234; 1243; 1324; 1342; 1423; 1432; 2134; 2143; 2314; 2341; 2413; 2431; 3124; 3142; 3214; 3241; 3412; 3421; 4123; 4132; 4213; 4231; 4312; 4321, so arrange them in order from small to large, 4123 is the 19th. Selected: A.",
     "attribution": "2017年全国小学生数学学习能力测评四年级竞赛初赛第8题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "如果从4本不同的语文书、5本不同的数学书、6本不同的外语书中选取2本不同学科的书阅读，那么共有____种不同的选择．",
-    "text_en": "如果从4本不同的语文书、5本不同的数学书、6本不同的外语书中选取2本不同学科的书阅读，那么共有____种不同的选择．",
+    "text_en": "If you choose 2 books in different disciplines from 4 different language books, 5 different math books, and 6 different foreign language books, then there are ____ different choices.",
     "illustration": null,
     "choices": [
       {
@@ -3809,14 +3809,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "在语文和数学中选择2本，则有：4 × 5 = 20（种）， 在语文和外语中选择，则有：4 × 6 = 24（种）， 在数学和外语中选择，则有：5 × 6 = 30（种）． 共计：20 + 24 + 30 = 74（种）",
-    "explanation_en": "在语文和数学中选择2本，则有：4 × 5 = 20（种）， 在语文和外语中选择，则有：4 × 6 = 24（种）， 在数学和外语中选择，则有：5 × 6 = 30（种）． 共计：20 + 24 + 30 = 74（种）",
+    "explanation_en": "Choose 2 in Chinese and mathematics: 4 × 5 = 20 (species), choose between Chinese and foreign languages: 4 × 6 = 24 (species), choose between mathematics and foreign languages: 5 × 6 = 30 (species). Total: 20 + 24 + 30 = 74 (species)",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛四年级竞赛初赛第6题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "3 × 3 × ·s × 3(2006个3)减去7 × 7 × ·s × 7(100个7)，得数的____个位数字是．",
-    "text_en": "3 × 3 × ·s × 3(2006个3)减去7 × 7 × ·s × 7(100个7)，得数的____个位数字是．",
+    "text_en": "3 × 3 × · s × 3 (2006 3) minus 7 × 7 × · s × 7 (100 7), the ____ digits of the score are.",
     "illustration": null,
     "choices": [
       {
@@ -3838,14 +3838,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为3ⁿ的个位数字是3，9，7，1四个一循环，2006 ÷ 4 = 501（组）·s ·s 2（个）， 所以3²⁰⁰⁶个位数字和3²的个位数字是相同的，即为9； 因为7ⁿ的个位数字是7，9，3，1四个一循环，100 ÷ 4 = 25， 所以7¹⁰⁰个位数字和7⁴的个位数字是相同的，即为1； 所以3 × 3 × ·s × 3(2006个3)减去7 × 7 × ·s × 7(100个7)，得数的个位数字是8",
-    "explanation_en": "因为3ⁿ的个位数字是3，9，7，1四个一循环，2006 ÷ 4 = 501（组）·s ·s 2（个）， 所以3²⁰⁰⁶个位数字和3²的个位数字是相同的，即为9； 因为7ⁿ的个位数字是7，9，3，1四个一循环，100 ÷ 4 = 25， 所以7¹⁰⁰个位数字和7⁴的个位数字是相同的，即为1； 所以3 × 3 × ·s × 3(2006个3)减去7 × 7 × ·s × 7(100个7)，得数的个位数字是8",
+    "explanation_en": "Because the single digit number of 3? is a cycle of 3, 9, 7, 1, 4, 2006 ÷ 4 = 501 (group) · s · s 2 (units), so the single digit number of 3? and the single digit number of 3? are the same, that is, 9; because the single digit number of 7? is a cycle of 7, 9, 3, 1, 4, 100 ÷ 4 = 25, so the single digit number of 7? and the single digit number of 7? are the same, that is, 1; so 3 × 3 × · s × 3 (2006 3) minus 7 × 7 × · s × 7 (100 7), the single digit number of the number is 8",
     "attribution": "2006年第4届创新杯四年级竞赛初赛B卷第4题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一根粗细均匀的木头长48分米，要锯成4分米长的木棍，每锯一次要3分钟，锯完一次要休息2分钟，全部锯完要用____分钟．",
-    "text_en": "一根粗细均匀的木头长48分米，要锯成4分米长的木棍，每锯一次要3分钟，锯完一次要休息2分钟，全部锯完要用____分钟．",
+    "text_en": "A piece of wood with uniform thickness is 48 centimeters long. It needs to be sawed into a 4 centimeter wooden stick. It takes 3 minutes for each saw, and 2 minutes for rest after each saw. It takes ____ minutes for all the saws to be sawed.",
     "illustration": null,
     "choices": [
       {
@@ -3863,14 +3863,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "先用总长度除以每段的长度，求出一共有多少段，然后减去1，就是需要锯的次数； 用每锯一次需要的时间乘上锯的次数就是锯木头需要的时间，每锯一次需要休息2分钟，那么锯11次需要休息个2分钟，再由此求出休息的时间，然后加上锯木头的时间即可． 48米需要据48 ÷ 4 = 12（段），而12段需要据：12 - 1 = 11（次）， 锯木头需要的时间为：3 × 11 = 33（分钟）， 休息的时间：2 × (11 - 1) = 20（分钟）， 总共需要：33 + 20 = 53（分钟）．",
-    "explanation_en": "先用总长度除以每段的长度，求出一共有多少段，然后减去1，就是需要锯的次数； 用每锯一次需要的时间乘上锯的次数就是锯木头需要的时间，每锯一次需要休息2分钟，那么锯11次需要休息个2分钟，再由此求出休息的时间，然后加上锯木头的时间即可． 48米需要据48 ÷ 4 = 12（段），而12段需要据：12 - 1 = 11（次）， 锯木头需要的时间为：3 × 11 = 33（分钟）， 休息的时间：2 × (11 - 1) = 20（分钟）， 总共需要：33 + 20 = 53（分钟）．",
+    "explanation_en": "Divide the total length by the length of each segment to find out how many segments there are, and then subtract 1, that is, the number of times you need to saw; multiply the time required for each saw by the time required for sawing is the time required for sawing wood. Each saw requires 2 minutes of rest, then 11 saws require 2 minutes of rest, and then add the time of sawing wood. 48 meters need to be based on 48 ÷ 4 = 12 (segments), and 12 segments need to be based on: 12 - 1 = 11 (times), the time required for sawing wood is: 3 × 11 = 33 (minutes), the time for rest: 2 × (11 - 1) = 20 (minutes), total: 33 + 20 = 53 (minutes).",
     "attribution": "2018年全国小学生数学学习能力测评四年级竞赛复赛第8题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "小华买1支钢笔和2支圆珠笔共用15元钱，小红买同样的钢笔2支和圆珠笔1支共用21元钱.那么，每支钢笔的价格是____元.",
-    "text_en": "小华买1支钢笔和2支圆珠笔共用15元钱，小红买同样的钢笔2支和圆珠笔1支共用21元钱.那么，每支钢笔的价格是____元.",
+    "text_en": "Xiaohua shares 15 yuan for 1 pen and 2 ballpoint pens, and Xiaohong shares 21 yuan for 2 identical pens and 1 ballpoint pen. So, the price per pen is ____ yuan.",
     "illustration": null,
     "choices": [
       {
@@ -3892,14 +3892,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "3支钢笔和3支圆珠笔共用15 + 21 = 36元，从而，每支钢笔和每支圆珠笔共用36 ÷ 3 = 12元，所以，每支钢笔的价格是21 - 12 = 9元",
-    "explanation_en": "3支钢笔和3支圆珠笔共用15 + 21 = 36元，从而，每支钢笔和每支圆珠笔共用36 ÷ 3 = 12元，所以，每支钢笔的价格是21 - 12 = 9元",
+    "explanation_en": "3 pens and 3 ballpoint pens share 15 + 21 = 36 yuan, so each pen and each ballpoint pen share 36 ÷ 3 = 12 yuan, so the price per pen is 21 - 12 = 9 yuan",
     "attribution": "2008年第6届创新杯四年级竞赛初赛A卷第2题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：1 - 2 + 3 - 4 + 5 - 6 + ·s - ·s + 2019 - 2020 + 2021 = ____．",
-    "text_en": "计算：1 - 2 + 3 - 4 + 5 - 6 + ·s - ·s + 2019 - 2020 + 2021 = ____．",
+    "text_en": "Calculation: 1 - 2 + 3 - 4 + 5 - 6 + · s - · s + 2019 - 2020 + 2021 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -3920,19 +3920,19 @@
       },
       {
         "zh": "以上都不对",
-        "en": "以上都不对"
+        "en": "None of the above."
       }
     ],
     "correct_index": 1,
     "explanation_zh": "分组运算，2和3一组，4和5一组，·s ·s 2020和2021一组，每组结果都是1，一共有2020 ÷ 2 = 1010组，所以和是1010，前面还剩下一个1，1 + 1010 = 1011",
-    "explanation_en": "分组运算，2和3一组，4和5一组，·s ·s 2020和2021一组，每组结果都是1，一共有2020 ÷ 2 = 1010组，所以和是1010，前面还剩下一个1，1 + 1010 = 1011",
+    "explanation_en": "Grouping operations, 2 and 3 groups, 4 and 5 groups, · s · s 2020 and 2021 groups, the results of each group are 1, there are 2020 ÷ 2 = 1010 groups, so the sum is 1010, and there is one 1 in front, 1 + 1010 = 1011",
     "attribution": "2021年第8届鹏程杯四年级竞赛初赛第5题4分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "甲乙丙丁四人参加了一次考试．甲乙的成绩和比丙丁的成绩和高17分，甲比乙低4分，丙比丁高5分．四人中最高分比最低分高____分．",
-    "text_en": "甲乙丙丁四人参加了一次考试．甲乙的成绩和比丙丁的成绩和高17分，甲比乙低4分，丙比丁高5分．四人中最高分比最低分高____分．",
+    "text_en": "Four people, A, B, C and D, took an exam. Grades of A, B and B were 17 points higher than those of B, A was 4 points lower than B, and B was 5 points higher than D. The highest score among the four was ____ points higher than the lowest score.",
     "illustration": null,
     "choices": [
       {
@@ -3954,14 +3954,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "首先根据题意，可得乙比甲的成绩高，丙比丁的成绩高，然后根据题意，设乙得了x分，则甲得了x - 4分，丙得了y分，则丁得了y - 5分，再根据：甲、乙的成绩和 - 丙、丁的成绩和 = 17，求出x、y的关系，判断出四人中最高分、最低分各是多少，即可求出四人中最高分比最低分高多少． 设乙得了x分，则甲得了x - 4分，丙得了y分，则丁得了y - 5分， 所以(x + x - 4) - (y + y - 5) = 17， 整理，可得：2x - 2y + 1 = 17， 所以2x - 2y = 16， 所以x - y = 8， 所以乙比丙得分高；",
-    "explanation_en": "首先根据题意，可得乙比甲的成绩高，丙比丁的成绩高，然后根据题意，设乙得了x分，则甲得了x - 4分，丙得了y分，则丁得了y - 5分，再根据：甲、乙的成绩和 - 丙、丁的成绩和 = 17，求出x、y的关系，判断出四人中最高分、最低分各是多少，即可求出四人中最高分比最低分高多少． 设乙得了x分，则甲得了x - 4分，丙得了y分，则丁得了y - 5分， 所以(x + x - 4) - (y + y - 5) = 17， 整理，可得：2x - 2y + 1 = 17， 所以2x - 2y = 16， 所以x - y = 8， 所以乙比丙得分高；",
+    "explanation_en": "First of all, according to the meaning of the title, you can get a higher grade of B than A, and a higher grade of B than D, and then according to the meaning of the title, if B scores x, then A scores x - 4 points, and C scores y, then D scores y - 5 points, and according to: A, B scores and - C, D scores and = 17, calculate the relationship between x and y, determine what is the highest score and the lowest score of the four, you can find out how much higher the highest score than the lowest score of the four. If B scores x, then A scores x - 4 points, C scores y, then D scores y - 5 points, so (x + x - 4) - (y + y - 5) = 17, finishing, you can get: 2x - 2y + 1 = 17, so 2x - 2y = 16, so x - y = 8, so B than C scores high;",
     "attribution": "2020年第23届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第7题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "下面的△，○，□各代表一个数，如果，○ ÷ △ = 10，□ × △ = 240，○ ÷ □ = 6，那么，○的值是____.",
-    "text_en": "下面的△，○，□各代表一个数，如果，○ ÷ △ = 10，□ × △ = 240，○ ÷ □ = 6，那么，○的值是____.",
+    "text_en": "The following△,○,□ each represents a number. If,○ ÷ △ = 10,□ × △ = 240,○ ÷ □ = 6, then,○ the value of is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3983,14 +3983,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由题中可得△ = 12，□ = 20，○ = 120",
-    "explanation_en": "由题中可得△ = 12，□ = 20，○ = 120",
+    "explanation_en": "from the question△ = 12,□ = 20,○ = 120",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一只青蛙掉到了20米深的井里．每天白天它可以沿着湿滑的井壁向上爬3米，但它晚上休息时会掉下2____米．青蛙第天才能爬出这口井．",
-    "text_en": "一只青蛙掉到了20米深的井里．每天白天它可以沿着湿滑的井壁向上爬3米，但它晚上休息时会掉下2____米．青蛙第天才能爬出这口井．",
+    "text_en": "A frog falls into a well 20 meters deep. During the day, it can climb up 3 meters along the slippery wall of the well, but it will fall 2 ____ meters when it rests at night. The frog can not climb out of the well until the day.",
     "illustration": null,
     "choices": [
       {
@@ -4008,14 +4008,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "蜗牛爬井问题． 若最后一天青蛙向上爬3米到达井口，就不会向下掉了，则之前至少爬20 - 3 = 17（米）； 每天向上爬3米，晚上休息时会掉下2米，实际每天向上1米； 17 ÷ 1 + 1 = 18（天）； 青蛙第18天才能爬出这口井；",
-    "explanation_en": "蜗牛爬井问题． 若最后一天青蛙向上爬3米到达井口，就不会向下掉了，则之前至少爬20 - 3 = 17（米）； 每天向上爬3米，晚上休息时会掉下2米，实际每天向上1米； 17 ÷ 1 + 1 = 18（天）； 青蛙第18天才能爬出这口井；",
+    "explanation_en": "Snail well climbing problem. If the frog climbs 3 meters up to the wellhead on the last day, it will not fall down, before climbing at least 20 - 3 = 17 (m); climbing 3 meters up every day, when resting at night, it will fall 2 meters, actually 1 meter up every day; 17 ÷ 1 + 1 = 18 (days); the frog can only climb out of this well on day 18;",
     "attribution": "2013年第12届上海小机灵杯小学中年级四年级竞赛初赛第4题1分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "爸爸以均匀的速度在马路边散步，他从第一根电线杆到第12根电线杆，用了8分钟，照这样的速度，再走8分钟，他会走到第____根电线杆．",
-    "text_en": "爸爸以均匀的速度在马路边散步，他从第一根电线杆到第12根电线杆，用了8分钟，照这样的速度，再走8分钟，他会走到第____根电线杆．",
+    "text_en": "Dad walked on the side of the road at an even speed. He took 8 minutes from the first utility pole to the 12th utility pole. At this speed, another 8 minutes, he would walk to the ____ utility pole.",
     "illustration": null,
     "choices": [
       {
@@ -4033,14 +4033,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "(12 - 1) ÷ 8 × (8 + 8) + 1 = 11 × 2 + 1 = 23（根）． 答：他会走到第23根电线杆． 故选：C．",
-    "explanation_en": "(12 - 1) ÷ 8 × (8 + 8) + 1 = 11 × 2 + 1 = 23（根）． 答：他会走到第23根电线杆． 故选：C．",
+    "explanation_en": "(12 - 1) ÷ 8 × (8 + 8) + 1 = 11 × 2 + 1 = 23 (root). A: He will go to the 23rd utility pole. Selected: C.",
     "attribution": "2016年全国小学生数学学习能力测评四年级竞赛复赛第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "下面的△，○，□各代表一个数，如果△ + △ + △ = 36，□ × △ = 240，○ ÷ □ = 6，那么，○的值是____",
-    "text_en": "下面的△，○，□各代表一个数，如果△ + △ + △ = 36，□ × △ = 240，○ ÷ □ = 6，那么，○的值是____",
+    "text_en": "The following△,○,□ each represents a number. If△ △ + + △ = 36,□ × △ = 240,○ ÷ □ = 6, then○ the value of is ____",
     "illustration": null,
     "choices": [
       {
@@ -4062,14 +4062,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由△ + △ + △ = 36可得△ = 12，□ × △ = 240可得□ = 20，○ ÷ □ = 6，○ = 120",
-    "explanation_en": "由△ + △ + △ = 36可得△ = 12，□ × △ = 240可得□ = 20，○ ÷ □ = 6，○ = 120",
+    "explanation_en": "from △ △ + + △ = 36△ = 12,□ × △ = 240□ = 20,○ ÷ □ = 6,○ = 120",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "如果P↑表示P + 1，P↓表示P - 1，则4↑ × 3↓等于____。 A、9↓ B、10↓ C、11↓ D、12↑ E、13↓",
-    "text_en": "如果P↑表示P + 1，P↓表示P - 1，则4↑ × 3↓等于____。 A、9↓ B、10↓ C、11↓ D、12↑ E、13↓",
+    "text_en": "If P↑ represents P + 1 and P↓ represents P - 1, then 4↑ × 3↓ equals ____. A,↓ 9B↓, 10c,↓ 11d,↑ 12e, 13↓",
     "illustration": null,
     "choices": [
       {
@@ -4102,7 +4102,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "现有9个外观一模一样的乒乓球，其中8个一样重，另外1个轻一些，是次品．请你想一想，用天平至少称____次，就保证一定能把这个次品找出来．",
-    "text_en": "现有9个外观一模一样的乒乓球，其中8个一样重，另外1个轻一些，是次品．请你想一想，用天平至少称____次，就保证一定能把这个次品找出来．",
+    "text_en": "There are 9 table tennis balls with the same appearance, 8 of them are the same weight, and the other one is lighter, which is a defective product. Please think about it, if you weigh at least ____ times with the balance, you can be sure to find this defective product.",
     "illustration": null,
     "choices": [
       {
@@ -4120,14 +4120,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "3个球一组，可分为3组．分别标号第①组，第②组，第③组． 第1步：将第①组与第②组称1次．若平衡，则次品在第③组，第2步：在第③组的3个球中任选两个称第2次，即可判断．若第1次不平衡，哪组轻，就在哪一组进行第2次称重．故至少称2次，即可保证一定将这个次品找出来．",
-    "explanation_en": "3个球一组，可分为3组．分别标号第①组，第②组，第③组． 第1步：将第①组与第②组称1次．若平衡，则次品在第③组，第2步：在第③组的3个球中任选两个称第2次，即可判断．若第1次不平衡，哪组轻，就在哪一组进行第2次称重．故至少称2次，即可保证一定将这个次品找出来．",
+    "explanation_en": "A group of 3 balls can be divided into 3 groups. Groups ①, ②, and ③ are labeled respectively. Step 1: Weigh group ① and group ② once. If balanced, the defective product is in group ③. Step 2: If any two of the 3 balls in group ③ are weighed for the second time, it can be determined. If the first time is unbalanced, which group is light, weigh the second time in which group. Therefore, at least twice weighing can ensure that this defective product is found.",
     "attribution": "2019年全国小学生数学学习能力测评四年级竞赛复赛第9题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "有四个数，它们的和是45，把第一个数加１，第二个数减１，第三个数乘2，第四个数除以2，得到的结果都相同．那么，原来这四个数依____次是．",
-    "text_en": "有四个数，它们的和是45，把第一个数加１，第二个数减１，第三个数乘2，第四个数除以2，得到的结果都相同．那么，原来这四个数依____次是．",
+    "text_en": "There are four numbers, their sum is 45, the first number is added to 1, the second number is subtracted from 1, the third number is multiplied by 2, and the fourth number is divided by 2, and the results are the same. So, the original four numbers are ____ times.",
     "illustration": null,
     "choices": [
       {
@@ -4149,14 +4149,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "设相同的结果为x，根据题意有：x - １ + x + １ + 2x + 0.5x = 45，⇒ x = 10 易知原来的4 个数依次是9，11，5，20．",
-    "explanation_en": "设相同的结果为x，根据题意有：x - １ + x + １ + 2x + 0.5x = 45，⇒ x = 10 易知原来的4 个数依次是9，11，5，20．",
+    "explanation_en": "Let the same result be x, according to the title: x - 1 + x + 1 + 2x + 0.5x = 45,⇒ x = 10 The original 4 numbers are 9, 11, 5, 20 in turn.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第4题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "有四个数，它们的和是45，把第一个数加2，第二个数减2，第三个数乘2，第四个数除以2，得到的结果都相同．那么，原来这四个数依次是____．",
-    "text_en": "有四个数，它们的和是45，把第一个数加2，第二个数减2，第三个数乘2，第四个数除以2，得到的结果都相同．那么，原来这四个数依次是____．",
+    "text_en": "There are four numbers, their sum is 45, the first number plus 2, the second number minus 2, the third number multiplied by 2, the fourth number divided by 2, the result is the same. So, the original four numbers are ____.",
     "illustration": null,
     "choices": [
       {
@@ -4178,14 +4178,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "神蒙法：将答案一一代入检验，最后答案为C． 设相同的结果为2x，根据题意有：2x - 2 + 2x + 2 + x + 4x = 45，⇒ x = 5 易知原来的4 个数依次是8，12，5，20．",
-    "explanation_en": "神蒙法：将答案一一代入检验，最后答案为C． 设相同的结果为2x，根据题意有：2x - 2 + 2x + 2 + x + 4x = 45，⇒ x = 5 易知原来的4 个数依次是8，12，5，20．",
+    "explanation_en": "Divine Masking Method: Test the answers from generation to generation, and the final answer is C. Set the same result to 2x, according to the title: 2x - 2 + 2x + 2 + x + 4x = 45,⇒ x = 5 The original 4 numbers are 8, 12, 5, 20 in turn.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第4题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一对双胞胎和一组三胞胎5个人年龄的总和是84．如果把双胞胎的年龄同三胞胎的年龄互换，那么这5人年龄的总和将是76．那么____双胞胎的年龄是．",
-    "text_en": "一对双胞胎和一组三胞胎5个人年龄的总和是84．如果把双胞胎的年龄同三胞胎的年龄互换，那么这5人年龄的总和将是76．那么____双胞胎的年龄是．",
+    "text_en": "The sum of the ages of a pair of twins and a set of triplets is 84. If you swap the ages of the twins with the ages of the triplets, the sum of the ages of the five would be 76. So the age of the ____ twins is.",
     "illustration": null,
     "choices": [
       {
@@ -4207,14 +4207,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "根据题意，设双胞胎的年龄是x岁，三胞胎的年龄是y岁，由一对双胞胎和一组三胞胎5个人年龄的总和是84可得2x + 3y = 84；把双胞胎的年龄同三胞胎的年龄互换，那么这5人年龄的总和是76岁，可得2y + 3x = 76，联立方程组然后再进一步解答； 设双胞胎的年龄是x岁，三胞胎的年龄是y岁； 由题意可得：cases 2x + 3y = 84 2y + 3x = 76 cases， 解得：x = 12，y = 20． 答：双胞胎的年龄是12岁",
-    "explanation_en": "根据题意，设双胞胎的年龄是x岁，三胞胎的年龄是y岁，由一对双胞胎和一组三胞胎5个人年龄的总和是84可得2x + 3y = 84；把双胞胎的年龄同三胞胎的年龄互换，那么这5人年龄的总和是76岁，可得2y + 3x = 76，联立方程组然后再进一步解答； 设双胞胎的年龄是x岁，三胞胎的年龄是y岁； 由题意可得：cases 2x + 3y = 84 2y + 3x = 76 cases， 解得：x = 12，y = 20． 答：双胞胎的年龄是12岁",
+    "explanation_en": "According to the title, the age of the twins is x years, the age of the triplets is y years, and the sum of the ages of the twins and a group of triplets is 84. 2x + 3y = 84; if the ages of the twins and triplets are interchanged, then the sum of the ages of the five people is 76, and 2y + 3x = 76, and the unity equation is then further solved; The age of the twins is x years, and the age of the triplets is y years; from the title: cases 2x + 3y = 84 2y + 3x = 76 cases, the solution is: x = 12, y = 20. Answer: The age of the twins is 12 years",
     "attribution": "2013年第11届创新杯四年级竞赛初赛第2题6分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "101个数之和为2008；把第一个数减1，第2个数加2，第3个数减3，…，第100个数加100，第101个数减101，所得的101个新数之和为____．",
-    "text_en": "101个数之和为2008；把第一个数减1，第2个数加2，第3个数减3，…，第100个数加100，第101个数减101，所得的101个新数之和为____．",
+    "text_en": "The sum of 101 numbers is 2008; reduce the first number by 1, the second number by 2, the third number by 3, …, the 100th number by 100, the 101st number by 101, and the sum of the resulting 101 new numbers is ____.",
     "illustration": null,
     "choices": [
       {
@@ -4236,14 +4236,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "所得的101个新数之和为：2008 - 1 + 2 - 3 + 4 - ·s - 99 + 100 - 101 = 2008 + 1 + 1 + 1 + ·s + 1(50个1) - 101 = 1957．",
-    "explanation_en": "所得的101个新数之和为：2008 - 1 + 2 - 3 + 4 - ·s - 99 + 100 - 101 = 2008 + 1 + 1 + 1 + ·s + 1(50个1) - 101 = 1957．",
+    "explanation_en": "The sum of the resulting 101 new numbers is: 2008 - 1 + 2 - 3 + 4 - · s - 99 + 100 - 101 = 2008 + 1 + 1 + 1 + · s + 1 (50 1) - 101 = 1957.",
     "attribution": "2008年第6届创新杯四年级竞赛初赛B卷第7题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "在1991991·s·s这串数中，从第三个数开始，每个数都是前两个数相乘后积的尾数（个位数字），那么把这串数字写到第40位____时，第40位的数字是．",
-    "text_en": "在1991991·s·s这串数中，从第三个数开始，每个数都是前两个数相乘后积的尾数（个位数字），那么把这串数字写到第40位____时，第40位的数字是．",
+    "text_en": "In the string 1991991 · s · s, starting from the third number, each number is the last number (single digit) of the product after multiplying the first two numbers, so when writing this string to the 40th digit ____, the 40th digit is.",
     "illustration": null,
     "choices": [
       {
@@ -4265,14 +4265,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "观察此数字串是按照如下规律排列：199199199199·s 以199为数字循环节， 第40位为：40 ÷ 3 = 13余1，也就是循环节里的第一位，也就是1",
-    "explanation_en": "观察此数字串是按照如下规律排列：199199199199·s 以199为数字循环节， 第40位为：40 ÷ 3 = 13余1，也就是循环节里的第一位，也就是1",
+    "explanation_en": "Observe that this number string is arranged according to the following rule: 199199199199 · s takes 199 as the digital loop, and the 40th bit is: 40 ÷ 3 = 13 Remaining 1, that is, the first place in the loop, that is, 1",
     "attribution": "2017年全国小学生数学学习能力测评四年级竞赛初赛第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "某人想用长绳吊一重物来测量井深，当他将绳子2折时，露出井口的绳比井深还长6米，当他把绳子4折时，露出井口的绳比井深长出1米，井深多少米？下面方程正确的是．",
-    "text_en": "某人想用长绳吊一重物来测量井深，当他将绳子2折时，露出井口的绳比井深还长6米，当他把绳子4折时，露出井口的绳比井深长出1米，井深多少米？下面方程正确的是．",
+    "text_en": "Someone wants to use a long rope to lift a heavy object to measure the depth of the well. When he folds the rope by 2, the rope exposed to the wellhead is 6 meters deeper than the well. When he folds the rope by 4, the rope exposed to the wellhead is 1 meter deeper than the well. How deep is the well? The following equation is correct.",
     "illustration": null,
     "choices": [
       {
@@ -4294,39 +4294,39 @@
     ],
     "correct_index": 3,
     "explanation_zh": "把绳子折成2段时绳比井深长出6米，这说明，绳长比井深的2倍多12米；把绳子折成4段时，则绳比井深长1米，这说明绳长比井深的4倍多4米， 所以井深是(12 - 4) ÷ (4 - 2) = 4（米）.",
-    "explanation_en": "把绳子折成2段时绳比井深长出6米，这说明，绳长比井深的2倍多12米；把绳子折成4段时，则绳比井深长1米，这说明绳长比井深的4倍多4米， 所以井深是(12 - 4) ÷ (4 - 2) = 4（米）.",
+    "explanation_en": "When the rope is folded into 2 sections, the rope is 6 meters deeper than the well, which means that the rope length is 2 times deeper than the well by 12 meters; when the rope is folded into 4 sections, the rope is 1 meter deeper than the well, which means that the rope length is 4 times deeper than the well by 4 meters, so the well depth is (12 - 4) ÷ (4 - 2) = 4 (m).",
     "attribution": "2016年第15届春蕾杯四年级竞赛决赛第11题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一位疯狂的艺术家为了寻找灵感，把一张厚为0.1毫米的很大的纸对半撕开，重叠起来，然后再撕成两半叠起来．假设他如此重复这一过程25____次，那么这叠纸会．",
-    "text_en": "一位疯狂的艺术家为了寻找灵感，把一张厚为0.1毫米的很大的纸对半撕开，重叠起来，然后再撕成两半叠起来．假设他如此重复这一过程25____次，那么这叠纸会．",
+    "text_en": "To find inspiration, a crazy artist tears a large sheet of paper 0.1 mm thick in half, overlaps it, and then tears it in half. Assuming he repeats the process 25 ____ times, the stacking will.",
     "illustration": null,
     "choices": [
       {
         "zh": "像山一样高",
-        "en": "像山一样高"
+        "en": "As tall as a mountain"
       },
       {
         "zh": "像一栋房子高",
-        "en": "像一栋房子高"
+        "en": "Tall like a house"
       },
       {
         "zh": "像一个人一样高",
-        "en": "像一个人一样高"
+        "en": "Tall like a person"
       }
     ],
     "correct_index": 0,
     "explanation_zh": "2的十次方为1024，2的五次方为32， 所以0.1 × 1024 × 1024 × 32 = 3355443.2毫米 = 3355.4432米． 故像山一样高． 故选：A．",
-    "explanation_en": "2的十次方为1024，2的五次方为32， 所以0.1 × 1024 × 1024 × 32 = 3355443.2毫米 = 3355.4432米． 故像山一样高． 故选：A．",
+    "explanation_en": "The tenth power of 2 is 1024, and the fifth power of 2 is 32, so 0.1 × 1024 × 1024 × 32 = 3355443.2 mm = 3355.4432 meters. Therefore, it is as tall as a mountain. Selected: A.",
     "attribution": "2019年全国小学生数学学习能力测评四年级竞赛复赛第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：9 + 99 + 999 + 9999 + 99999 + 999999． Find the value of 9 + 99 + 999 + 9999 + 99999 + 999999.",
-    "text_en": "计算：9 + 99 + 999 + 9999 + 99999 + 999999． Find the value of 9 + 99 + 999 + 9999 + 99999 + 999999.",
+    "text_en": "Calculation: 9 + 99 + 999 + 9999 + 99999 + 999999. Find the value of 9 + 99 + 999 + 9999 + 99999 + 999999.",
     "illustration": null,
     "choices": [
       {
@@ -4351,7 +4351,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "某运输公司为玻璃厂运来1000个玻璃镜框到仓库，双方商定每个玻璃镜框运费5元，如果打碎1个，这一个玻璃镜框不但不给运费，而且要赔偿20元，结果到目的地结算时，玻璃厂共付出运费4475元，那么运输过程中打碎了____个玻璃镜框．",
-    "text_en": "某运输公司为玻璃厂运来1000个玻璃镜框到仓库，双方商定每个玻璃镜框运费5元，如果打碎1个，这一个玻璃镜框不但不给运费，而且要赔偿20元，结果到目的地结算时，玻璃厂共付出运费4475元，那么运输过程中打碎了____个玻璃镜框．",
+    "text_en": "A transportation company transported 1,000 glass frames to the warehouse for the glass factory. The two parties agreed on a shipping fee of 5 yuan for each glass frame. If 1 glass frame is broken, this glass frame will not only not pay the shipping fee, but also pay 20 yuan. As a result, the glass factory paid a total shipping fee of 4475 yuan when settling the destination, so ____ glass frames were broken during transportation.",
     "illustration": null,
     "choices": [
       {
@@ -4373,47 +4373,47 @@
     ],
     "correct_index": 2,
     "explanation_zh": "假设玻璃镜框全部完好，玻璃厂应付1000 × 5 = 5000元，与实际情况相比少付了5000 - 4475 = 525元，每打碎一个镜框少付5 + 20 = 25元，因此一共打碎了525 ÷ 25 = 21个． 故选：C．",
-    "explanation_en": "假设玻璃镜框全部完好，玻璃厂应付1000 × 5 = 5000元，与实际情况相比少付了5000 - 4475 = 525元，每打碎一个镜框少付5 + 20 = 25元，因此一共打碎了525 ÷ 25 = 21个． 故选：C．",
+    "explanation_en": "Assuming that the glass frames are all intact, the glass factory should pay 1000 × 5 = 5000 yuan, which is 5000 - 4475 = 525 yuan less than the actual situation, and 5 + 20 = 25 yuan less for each broken frame, so a total of 525 ÷ 25 = 21. Therefore, it is selected: C.",
     "attribution": "2012年第10届创新杯四年级竞赛初赛第6题6分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "摩托车骑手甲和自行车骑手乙同时由A地去B地．走过全程的1/3时，乙停下来休息，当他休息完准备继续出发时，发现甲距B地还有全程的 1/3．甲到达B地后一刻也不停留，马上向A地返回．究竟是甲先到达A地，还是乙先到达B地，以下正确的说法是____．",
-    "text_en": "摩托车骑手甲和自行车骑手乙同时由A地去B地．走过全程的1/3时，乙停下来休息，当他休息完准备继续出发时，发现甲距B地还有全程的 1/3．甲到达B地后一刻也不停留，马上向A地返回．究竟是甲先到达A地，还是乙先到达B地，以下正确的说法是____．",
+    "text_en": "Motorcycle rider A and bicycle rider B go from A to B at the same time. Walking through 1/3 of the whole journey, B stops and rests. When he is ready to continue his departure, he finds that A is 1/3 of the whole journey from B to B. A does not stop for a moment after arriving at B, and immediately returns to A. Whether A arrives at A first or B arrives at B first, the following correct statement is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "谁先到取决于两人的速度",
-        "en": "谁先到取决于两人的速度"
+        "en": "Who gets there first depends on the speed of the two"
       },
       {
         "zh": "谁先到取决于A，B之间的距离",
-        "en": "谁先到取决于A，B之间的距离"
+        "en": "Who gets there first depends on the distance between A and B"
       },
       {
         "zh": "两人同时到达",
-        "en": "两人同时到达"
+        "en": "Two people arrive at the same time"
       },
       {
         "zh": "甲先到A地",
-        "en": "甲先到A地"
+        "en": "A arrives at A first"
       },
       {
         "zh": "乙先到B地",
-        "en": "乙先到B地"
+        "en": "Party B arrives at site B first"
       }
     ],
     "correct_index": 4,
     "explanation_zh": "乙先到达B地，选E． 这是因为乙在行完全程的1/3时停下来休息，而当他休息后离开时，发现甲距B地还有全程的1/3，这时甲已行驶了全程的2/3．也就是说，乙走完全程的1/3比甲走完全程的2/3要快， 因为甲行驶全程的2/3所花的时间是乙行驶全程1/3所花的时间再加上乙停下来休息的时间．接下来乙将继续向前行驶的路程是全程的2/3，而甲则要行驶全程的1/3 + 3/3 = 4/3．由于乙行驶全程的1/3比甲行驶全程的2/3快一些，那么乙行驶全程的2/3就比甲行驶全程的4/3要快一些",
-    "explanation_en": "乙先到达B地，选E． 这是因为乙在行完全程的1/3时停下来休息，而当他休息后离开时，发现甲距B地还有全程的1/3，这时甲已行驶了全程的2/3．也就是说，乙走完全程的1/3比甲走完全程的2/3要快， 因为甲行驶全程的2/3所花的时间是乙行驶全程1/3所花的时间再加上乙停下来休息的时间．接下来乙将继续向前行驶的路程是全程的2/3，而甲则要行驶全程的1/3 + 3/3 = 4/3．由于乙行驶全程的1/3比甲行驶全程的2/3快一些，那么乙行驶全程的2/3就比甲行驶全程的4/3要快一些",
+    "explanation_en": "B first arrived at B and chose E. This is because B stopped and rested at 1/3 of the full journey, and when he left after resting, he found that A was still 1/3 of the full journey from B, at which time A had already driven 2/3 of the whole journey. That is to say, 1/3 of B's full journey was faster than 2/3 of A's full journey, because the time spent by 2/3 of A's full journey was the time spent by 1/3 of B's full journey plus the time spent by B to stop and rest. Next, B would continue to travel 2/3 of the whole journey, while A would travel 1/3 + 3/3 = 4/3 of the whole journey. Since 1/3 of B's full journey was faster than 2/3 of A's full journey, then 2/3 of B's full journey was faster than 4/3 of A's full journey",
     "attribution": "2020年第1届广东深圳超常思维竞赛四年级竞赛初赛第13题4分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "45与40的积的数字和是____",
-    "text_en": "45与40的积的数字和是____",
+    "text_en": "The sum of the numbers of the product of 45 and 40 is ____",
     "illustration": null,
     "choices": [
       {
@@ -4435,14 +4435,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "解：根据题意可得： 45 × 40 = 1800 1800的数字和是：1 + 8 + 0 + 0 = 9 所以，45与40的积的数字和是9。 故选：A。",
-    "explanation_en": "解：根据题意可得： 45 × 40 = 1800 1800的数字和是：1 + 8 + 0 + 0 = 9 所以，45与40的积的数字和是9。 故选：A。",
+    "explanation_en": "Solution: According to the title, you can get: 45 × 40 = 1800 The sum of the numbers of 1800 is: 1 + 8 + 0 + 0 = 9 So, the sum of the numbers of the product of 45 and 40 is 9. Optional: A.",
     "attribution": "2013年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "算式：103 × 107 - 91 × 99的计算结果是____．",
-    "text_en": "算式：103 × 107 - 91 × 99的计算结果是____．",
+    "text_en": "Equation: 103 × 107 - 91 × 99 The calculation result is ____.",
     "illustration": null,
     "choices": [
       {
@@ -4471,7 +4471,7 @@
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "今年，小军5岁，爸爸31岁，再过____年，爸爸的年龄是小军的3倍。",
-    "text_en": "今年，小军5岁，爸爸31岁，再过____年，爸爸的年龄是小军的3倍。",
+    "text_en": "This year, Xiaojun was 5 years old, and Dad was 31 years old. In another ____ years, Dad's age was three times that of Xiaojun.",
     "illustration": null,
     "choices": [
       {
@@ -4489,14 +4489,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "解：父子年龄差是：31 - 5 = 26（岁）， 爸爸的年龄是小军的3倍时， 小军的年龄是：26 ÷ (3 - 1) = 26 ÷ 2 = 13（岁）， 13 - 5 = 8（年）， 则再过8年，爸爸的年龄是小军的3倍。 故答案为：8。",
-    "explanation_en": "解：父子年龄差是：31 - 5 = 26（岁）， 爸爸的年龄是小军的3倍时， 小军的年龄是：26 ÷ (3 - 1) = 26 ÷ 2 = 13（岁）， 13 - 5 = 8（年）， 则再过8年，爸爸的年龄是小军的3倍。 故答案为：8。",
+    "explanation_en": "Solution: The age difference between father and son is: 31 - 5 = 26 (years). When dad's age is 3 times that of the small army, the age of the small army is: 26 ÷ (3 - 1) = 26 ÷ 2 = 13 (years), 13 - 5 = 8 (years). After 8 years, dad's age is 3 times that of the small army. So the answer is: 8.",
     "attribution": "2017年希望杯四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "202 × 404 × 505 × 606 × 808的最后两位数是多少？",
-    "text_en": "202 × 404 × 505 × 606 × 808的最后两位数是多少？",
+    "text_en": "What are the last two digits of 202 × 404 × 505 × 606 × 808?",
     "illustration": null,
     "choices": [
       {
@@ -4518,14 +4518,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "2 × 4 × 5 × 6 × 8 = 1920 1920 × 101 × 101 × 101 × 101 × 101不会改变后两位．",
-    "explanation_en": "2 × 4 × 5 × 6 × 8 = 1920 1920 × 101 × 101 × 101 × 101 × 101不会改变后两位．",
+    "explanation_en": "2 × 4 × 5 × 6 × 8 = 1920 1920 × 101 × 101 × 101 × 101 × 101 does not change the last two digits.",
     "attribution": "2017年全国美国数学大联盟杯小学中年级四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "计算：2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = ____",
-    "text_en": "计算：2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = ____",
+    "text_en": "Calculation: 2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = ____",
     "illustration": null,
     "choices": [
       {
@@ -4547,14 +4547,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "解：2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = 2014 ÷ (4 + 6 + 9) = 2014 ÷ 19 = 106 故选：D。",
-    "explanation_en": "解：2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = 2014 ÷ (4 + 6 + 9) = 2014 ÷ 19 = 106 故选：D。",
+    "explanation_en": "Solution: 2014 ÷ (2 × 2 + 2 × 3 + 3 × 3) = 2014 ÷ (4 + 6 + 9) = 2014 ÷ 19 = 106 Selected: D.",
     "attribution": "2014年迎春杯四年级竞赛复赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "两个正整数的和小于100，其中一个是另一个的两倍，则这两个正整数的和的最大值是____",
-    "text_en": "两个正整数的和小于100，其中一个是另一个的两倍，则这两个正整数的和的最大值是____",
+    "text_en": "The sum of two positive integers is less than 100, one of which is twice the other, then the maximum sum of these two positive integers is ____",
     "illustration": null,
     "choices": [
       {
@@ -4576,14 +4576,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "解：根据3的倍数特征，不难判断83和98都不是3的倍数，99和96都是，但9996，所以这两个数的最大值是99。 故选：B。",
-    "explanation_en": "解：根据3的倍数特征，不难判断83和98都不是3的倍数，99和96都是，但9996，所以这两个数的最大值是99。 故选：B。",
+    "explanation_en": "Solution: According to the multiple characteristic of 3, it is not difficult to judge that 83 and 98 are not multiples of 3, 99 and 96 are both, but 9996, so the maximum value of these two numbers is 99. Optional: B.",
     "attribution": "2014年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "计算20082008 × 2007 - 20072007 × 2008 = ____.",
-    "text_en": "计算20082008 × 2007 - 20072007 × 2008 = ____.",
+    "text_en": "Calculate 20082008 × 2007 - 20072007 × 2008 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -4605,14 +4605,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "原式 = 2008 × 10001 × 2007 - 2007 × 10001 × 2008 = 0",
-    "explanation_en": "原式 = 2008 × 10001 × 2007 - 2007 × 10001 × 2008 = 0",
+    "explanation_en": "Formula = 2008 × 10001 × 2007 - 2007 × 10001 × 2008 = 0",
     "attribution": "2008年四年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "一个12项的等差数列，公差是2，且前8项的和等于后4项的和，那么，这个数列的第二项是____．",
-    "text_en": "一个12项的等差数列，公差是2，且前8项的和等于后4项的和，那么，这个数列的第二项是____．",
+    "text_en": "An equal difference series of 12 terms, the tolerance is 2, and the sum of the first 8 terms is equal to the sum of the last 4 terms, then the second term of this series is ____.",
     "illustration": null,
     "choices": [
       {
@@ -4634,14 +4634,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据题意得(a₁ + a₈) × 8 ÷ 2 = (a₉ + a₁₂) × 4 ÷ 2，因为a₈ = a₁ + 14，a₉ = a₁ + 16，a₁₂ = a₁ + 22， 所以(a₁ + a₁ + 14) × 8 ÷ 2 = (a₁ + 16 + a₁ + 22) × 4 ÷ 2，解得a₁ = 5，因此a₂ = 5 + 2 = 7．",
-    "explanation_en": "根据题意得(a₁ + a₈) × 8 ÷ 2 = (a₉ + a₁₂) × 4 ÷ 2，因为a₈ = a₁ + 14，a₉ = a₁ + 16，a₁₂ = a₁ + 22， 所以(a₁ + a₁ + 14) × 8 ÷ 2 = (a₁ + 16 + a₁ + 22) × 4 ÷ 2，解得a₁ = 5，因此a₂ = 5 + 2 = 7．",
+    "explanation_en": "According to the meaning of the problem, (a + a) × 8 ÷ 2 = (a + a)) × 4 ÷ 2, because a = a + 14, a + = a + 16, a + = a + 22, so (a + a + 14) × 8 ÷ 2 = (a + 16 + a + 22) × 4 ÷ 2, the solution is a = 5, so a ₂ = 5 + 2 = 7.",
     "attribution": "2014年全国迎春杯四年级竞赛复赛第4题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "小马虎在计算(□ + 15) × 4时，忘掉了小括号，最后算得结果是90，你知道正确的答案是多少吗？",
-    "text_en": "小马虎在计算(□ + 15) × 4时，忘掉了小括号，最后算得结果是90，你知道正确的答案是多少吗？",
+    "text_en": "When calculating (□+ 15) × 4, we forgot the parentheses, and the final result was 90. Do you know what the correct answer is?",
     "illustration": null,
     "choices": [
       {
@@ -4658,19 +4658,19 @@
       },
       {
         "zh": "以上都错",
-        "en": "以上都错"
+        "en": "All of the above are wrong"
       }
     ],
     "correct_index": 0,
     "explanation_zh": "根据题意，小马虎忘掉了括号结果是90，也就是□ + 15 × 4 = 90， 那么□ = 90 - 60 = 30， 把□ = 30代入原式子，也就是：(30 + 15) × 4 = 45 × 4 = 180",
-    "explanation_en": "根据题意，小马虎忘掉了括号结果是90，也就是□ + 15 × 4 = 90， 那么□ = 90 - 60 = 30， 把□ = 30代入原式子，也就是：(30 + 15) × 4 = 45 × 4 = 180",
+    "explanation_en": "According to the meaning of the subject, the pony forgets that the result of the brackets is 90, that is,□ + 15 × 4□ = 90, then = 90 - 60 = 30, and□ = 30 is substituted into the primitive, that is: (30 + 15) × 4 = 45 × 4 = 180",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛复赛（中国区）第5题3分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "算式42 + 402 + 4002 + ·s ·s + 400·s 002(5____个0) 的计算结果是．",
-    "text_en": "算式42 + 402 + 4002 + ·s ·s + 400·s 002(5____个0) 的计算结果是．",
+    "text_en": "The calculation result of the formula 42 + 402 + 4002 + · s · s + 400 · s 002 (5 ____ 0) is.",
     "illustration": null,
     "choices": [
       {
@@ -4692,14 +4692,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "根据位值原理，原式 = 4 × 1111110 + 2 × 6 = 4444452 ．",
-    "explanation_en": "根据位值原理，原式 = 4 × 1111110 + 2 × 6 = 4444452 ．",
+    "explanation_en": "According to the bit value principle, the original formula = 4 × 1111110 + 2 × 6 = 4444452.",
     "attribution": "2017年全国亚太杯四年级竞赛初赛第10题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "薇儿参加古诗词大赛，共12道题．答对一题得5分，不答或答错一题倒扣2分．如果薇儿最终分数是39分，那么她答对了题？",
-    "text_en": "薇儿参加古诗词大赛，共12道题．答对一题得5分，不答或答错一题倒扣2分．如果薇儿最终分数是39分，那么她答对了题？",
+    "text_en": "Vail participated in the ancient poetry contest with a total of 12 questions. She scored 5 points for answering one question correctly, and 2 points for not answering or answering the wrong question. If Vail's final score is 39 points, then she answered the question correctly?",
     "illustration": null,
     "choices": [
       {
@@ -4725,14 +4725,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "根据题目设她答对了x道题， 因为共12道题，所以答错了(12 - x)道题，答对一题得5分，不答或答错一题倒扣2分． 薇儿最终分数是39分，可以列方程为：5x - (12 - x) × 2 = 39， 解得x = 9，所以她答对了9题．",
-    "explanation_en": "根据题目设她答对了x道题， 因为共12道题，所以答错了(12 - x)道题，答对一题得5分，不答或答错一题倒扣2分． 薇儿最终分数是39分，可以列方程为：5x - (12 - x) × 2 = 39， 解得x = 9，所以她答对了9题．",
+    "explanation_en": "According to the questions, she answered x questions correctly. Because there were 12 questions, she answered the wrong (12 - x) questions. If she answered one correct question, she received 5 points. If she did not answer or answered the wrong question, 2 points were deducted. Vail's final score was 39 points. The equation can be listed as: 5x - (12 - x) × 2 = 39, and the solution is x = 9, so she answered 9 questions correctly.",
     "attribution": "2020年广东广州羊排赛四年级竞赛第18题10分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "小明在写作业时，不小心把一个三位小数的小数点忘掉了，结果所得的整数是60.03的100倍．原来的小数是多少，你知道吗？",
-    "text_en": "小明在写作业时，不小心把一个三位小数的小数点忘掉了，结果所得的整数是60.03的100倍．原来的小数是多少，你知道吗？",
+    "text_en": "When Xiao Ming was writing her homework, she accidentally forgot a three-decimal decimal point, and the result was an integer of 100 times 60.03. What was the original decimal point, you know?",
     "illustration": null,
     "choices": [
       {
@@ -4754,14 +4754,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "把一个三位小数的小数点忘掉了， 结果所得的整数是60.03的100倍即60.03 × 100 = 6003． 原来的小数是60003 ÷ 1000 = 6.003",
-    "explanation_en": "把一个三位小数的小数点忘掉了， 结果所得的整数是60.03的100倍即60.03 × 100 = 6003． 原来的小数是60003 ÷ 1000 = 6.003",
+    "explanation_en": "Forget about a three-decimal decimal point, the resultant integer is 100 times 60.03, that is, 60.03 × 100 = 6003. The original decimal is 60003 ÷ 1000 = 6.003",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛复赛（中国区）第9题3分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "在下面的每个方框中填入\"＋\"或\"－\"，得到所有不同计算结果的总和是____． 25□ 9 □ 7 □ 5 □ 3 □ 1",
-    "text_en": "在下面的每个方框中填入\"＋\"或\"－\"，得到所有不同计算结果的总和是____． 25□ 9 □ 7 □ 5 □ 3 □ 1",
+    "text_en": "Fill in the \"+\" or \"-\" in each of the boxes below and the sum of all the different calculations is ____.25□ 9 □ 7 □ 5 □ 3 □ 1",
     "illustration": null,
     "choices": [
       {
@@ -4783,14 +4783,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由于25 = 9 + 7 + 5 + 3 + 1 ，所以我们可以猜测0～50之间的所有偶数都有可能得到，那么总和就是(0 + 50) × 26 ÷ 2 = 650，但是我们认真思考下，4和46是无法凑出来的．所以答案是650 - 4 - 46 = 600．",
-    "explanation_en": "由于25 = 9 + 7 + 5 + 3 + 1 ，所以我们可以猜测0～50之间的所有偶数都有可能得到，那么总和就是(0 + 50) × 26 ÷ 2 = 650，但是我们认真思考下，4和46是无法凑出来的．所以答案是650 - 4 - 46 = 600．",
+    "explanation_en": "Since 25 = 9 + 7 + 5 + 3 + 1, we can guess that all even numbers between 0 and 50 are possible, so the sum is (0 + 50) × 26 ÷ 2 = 650, but if we think about it carefully, 4 and 46 are impossible to come up with. So the answer is 650 - 4 - 46 = 600.",
     "attribution": "2014年全国迎春杯四年级竞赛复赛第12题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有四个数，它们的和是45，把第一个数加2，第二个数减2，第三个数乘2，第四个数除以2，得到的结果都相同。那么，原来这四个数依次是____。",
-    "text_en": "有四个数，它们的和是45，把第一个数加2，第二个数减2，第三个数乘2，第四个数除以2，得到的结果都相同。那么，原来这四个数依次是____。",
+    "text_en": "There are four numbers, their sum is 45, the first number plus 2, the second number minus 2, the third number multiplied by 2, the fourth number divided by 2, the results are the same. So, these four numbers are ____ in order.",
     "illustration": null,
     "choices": [
       {
@@ -4812,14 +4812,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "解：设相同的结果为2x， 根据题意有：2x - 2 + 2x + 2 + x + 4x = 45， 解得x = 5， 所以原来的4个数依次是8，12，5，20。",
-    "explanation_en": "解：设相同的结果为2x， 根据题意有：2x - 2 + 2x + 2 + x + 4x = 45， 解得x = 5， 所以原来的4个数依次是8，12，5，20。",
+    "explanation_en": "Solution: Set the same result to 2x, according to the title: 2x - 2 + 2x + 2 + x + 4x = 45, the solution is x = 5, so the original number of 4 is 8, 12, 5, 20 in turn.",
     "attribution": "2020年第23届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第2题3分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "101个数之和为2008;把第一个数减1，第2个数加2，第3个数减3，…，第100个数加100，第101个数减101，所得的101个新数之和为____.",
-    "text_en": "101个数之和为2008;把第一个数减1，第2个数加2，第3个数减3，…，第100个数加100，第101个数减101，所得的101个新数之和为____.",
+    "text_en": "The sum of 101 numbers is 2008; reduce the first number by 1, the second number by 2, the third number by 3, …, the 100th number by 100, the 101st number by 101, and the sum of the resulting 101 new numbers is ____.",
     "illustration": null,
     "choices": [
       {
@@ -4841,14 +4841,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "所得的101个新数之和为: 2008 - 1 + 2 - 3 + 4 - ·s - 99 + 100 - 101 = 2008 + 1 + 1 + 1 + ·s + 1(50个1) - 101 = 1957",
-    "explanation_en": "所得的101个新数之和为: 2008 - 1 + 2 - 3 + 4 - ·s - 99 + 100 - 101 = 2008 + 1 + 1 + 1 + ·s + 1(50个1) - 101 = 1957",
+    "explanation_en": "The sum of the resulting 101 new numbers is: 2008 - 1 + 2 - 3 + 4 - · s - 99 + 100 - 101 = 2008 + 1 + 1 + 1 + · s + 1 (50 1) - 101 = 1957",
     "attribution": "2008年四年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "小明在桌上将若干个红球排成一排，然后在每相邻的2个球之间放2个黄球，最后在每相邻的2个球之间再放2个蓝球，这时桌上共有2008个球，那么其中黄球有____个．",
-    "text_en": "小明在桌上将若干个红球排成一排，然后在每相邻的2个球之间放2个黄球，最后在每相邻的2个球之间再放2个蓝球，这时桌上共有2008个球，那么其中黄球有____个．",
+    "text_en": "Xiao Ming arranged several red balls in a row on the table, then placed 2 yellow balls between each of the 2 adjacent balls, and finally placed 2 blue balls between each of the 2 adjacent balls. At this time, there were a total of 2008 balls on the table, so there were ____ yellow balls.",
     "illustration": null,
     "choices": [
       {
@@ -4870,7 +4870,7 @@
     ],
     "correct_index": 0,
     "explanation_zh": "假设原来有红球x个，那么第一次操作放入了2（x - 1）个黄球，球数增加到3x - 2个，第二次操作放入了2（3x - 2 - 1） = 6x - 6个篮球，球数增加到3x - 2 + 6x - 6 = 9x - 8个．所以9x - 8 = 2008，解得：x = 224,所以黄球有2（x - 1） = 446．",
-    "explanation_en": "假设原来有红球x个，那么第一次操作放入了2（x - 1）个黄球，球数增加到3x - 2个，第二次操作放入了2（3x - 2 - 1） = 6x - 6个篮球，球数增加到3x - 2 + 6x - 6 = 9x - 8个．所以9x - 8 = 2008，解得：x = 224,所以黄球有2（x - 1） = 446．",
+    "explanation_en": "Assuming there are x red balls, the first operation puts in 2 (x - 1) yellow balls, the number of balls increases to 3x - 2, and the second operation puts in 2 (3x - 2 - 1) = 6x - 6 basketballs, the number of balls increases to 3x - 2 + 6x - 6 = 9x - 8. So 9x - 8 = 2008, the solution is: x = 224, so the yellow balls have 2 (x - 1) = 446.",
     "attribution": "2009年全国迎春杯小学中年级四年级竞赛初赛第5题"
   },
   {
@@ -4899,14 +4899,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "(10³ - 8³) + (9³ - 7³) + ·s + (3³ - 1³) + 2³ + 1³ = 10³ + 9³ = 1729（块）",
-    "explanation_en": "(10³ - 8³) + (9³ - 7³) + ·s + (3³ - 1³) + 2³ + 1³ = 10³ + 9³ = 1729（块）",
+    "explanation_en": "(10 ³ - 8 ³) + (9 ³ - 7 ³) + · s + (3 ³ - 1 ³) + 2 ³ + 1 ³ = 10 ³ + 9 ³ = 1729 (block)",
     "attribution": "2007年四年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有60名学生，男生、女生各30名，他们手拉手围成一个圆圈．如果让原本牵着手的男生和女生放开手，可以分成18个小组．那么，如果原本牵着手的男生和男生放开手时，分成了个小____组．",
-    "text_en": "有60名学生，男生、女生各30名，他们手拉手围成一个圆圈．如果让原本牵着手的男生和女生放开手，可以分成18个小组．那么，如果原本牵着手的男生和男生放开手时，分成了个小____组．",
+    "text_en": "There are 60 students, 30 boys and 30 girls, who hold hands in a circle. If the boy and the girl who originally held hands let go, they can be divided into 18 groups. Then, if the boy and the boy who originally held hands let go, they are divided into small ____ groups.",
     "illustration": null,
     "choices": [
       {
@@ -4928,14 +4928,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "60名学生围成圈，每个人与相邻的同学牵手，那么有60对牵着的手，其中男生与女生牵手的有18对，假设男生与男生牵手的有x人，那么，参与围圈的男生一共有（2x + 18） ÷ 2 = x + 9人，所以x + 9 = 30，x = 21,那么原来牵手的男生和男生放手，分成了21个小组．",
-    "explanation_en": "60名学生围成圈，每个人与相邻的同学牵手，那么有60对牵着的手，其中男生与女生牵手的有18对，假设男生与男生牵手的有x人，那么，参与围圈的男生一共有（2x + 18） ÷ 2 = x + 9人，所以x + 9 = 30，x = 21,那么原来牵手的男生和男生放手，分成了21个小组．",
+    "explanation_en": "60 students in a circle, each holding hands with their neighbors, then there are 60 pairs of holding hands, of which 18 pairs of boys and girls hold hands. Assuming that there are x people holding hands between boys and boys, then there are a total of (2x + 18) ÷ 2 = x + 9 boys participating in the circle, so x + 9 = 30, x = 21. Then the boys and boys who originally held hands let go and divided into 21 groups.",
     "attribution": "2009年全国迎春杯小学中年级四年级竞赛初赛第3题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有一种特殊的计算器，当输入一个10 49的数A后，计算器会先算A + A，然后将所得结果的十位和个位顺序颠倒，再加2后显示出最后的结果．那么，下列四个选项中，可能是最后显示的结果．",
-    "text_en": "有一种特殊的计算器，当输入一个10 49的数A后，计算器会先算A + A，然后将所得结果的十位和个位顺序颠倒，再加2后显示出最后的结果．那么，下列四个选项中，可能是最后显示的结果．",
+    "text_en": "There is a special calculator. When you enter a number A of 10 49, the calculator will calculate A + A first, then reverse the order of the ten digits and digits of the result, and then add 2 to display the final result. Then, the following four options may be the last displayed result.",
     "illustration": null,
     "choices": [
       {
@@ -4957,14 +4957,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "倒推．44 对应的是44 - 2 = 42，颠倒后是24，平均分后为12．符合条件．其他的均不符合条件．",
-    "explanation_en": "倒推．44 对应的是44 - 2 = 42，颠倒后是24，平均分后为12．符合条件．其他的均不符合条件．",
+    "explanation_en": "Reverse push. 44 corresponds to 44 - 2 = 42, 24 after reversal, 12 after average score. Eligible. Others are not eligible.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第8题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "有一种特殊的计算器，当输入一个10 49的自然数A后，计算器会先算A + A，然后将所得结果的十位和个位顺序颠倒，再加2后显示出最后的结果．那么，下列四个选项中，可能是最后显示的结果．",
-    "text_en": "有一种特殊的计算器，当输入一个10 49的自然数A后，计算器会先算A + A，然后将所得结果的十位和个位顺序颠倒，再加2后显示出最后的结果．那么，下列四个选项中，可能是最后显示的结果．",
+    "text_en": "There is a special calculator. When you enter a natural number A of 10 49, the calculator will calculate A + A first, then reverse the order of the ten digits and digits of the result, and then add 2 to display the final result. Then, the following four options may be the final display results.",
     "illustration": null,
     "choices": [
       {
@@ -4986,14 +4986,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "倒推．44 对应的是44 - 2 = 42，颠倒后是24，除以2 为12．符合条件．其他的均不符合条件．",
-    "explanation_en": "倒推．44 对应的是44 - 2 = 42，颠倒后是24，除以2 为12．符合条件．其他的均不符合条件．",
+    "explanation_en": "Reverse push. 44 corresponds to 44 - 2 = 42, 24 after reversal, divided by 2 is 12. Eligible. Others are not eligible.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第8题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "A、B、C、D、E5人在一次满分为100分的考试中，得分都是大于91的整数．如果A，B，C的平均分是95分；B，C，D的平均分是94；A是第一名；E是第三名得96分，问D得了____分．",
-    "text_en": "A、B、C、D、E5人在一次满分为100分的考试中，得分都是大于91的整数．如果A，B，C的平均分是95分；B，C，D的平均分是94；A是第一名；E是第三名得96分，问D得了____分．",
+    "text_en": "A, B, C, D, E5 people scored an integer greater than 91 in a test with a full score of 100. If A, B, and C have an average score of 95; B, C, and D have an average score of 94; A is the first place; E is the third place with a score of 96, and D has a score of ____.",
     "illustration": null,
     "choices": [
       {
@@ -5015,43 +5015,43 @@
     ],
     "correct_index": 2,
     "explanation_zh": "A，B，C的总分是：95 × 3 = 285（分）， B，C，D的总分是：94 × 3 = 282（分）， A比D就多考了︰285 - 282 = 3（分）， 因为E是第三名考了96分，所以，D有两种可能： 一是D比E考得少，鉴于A是第一名，又比D多三分，A只能是98分，而D是95分，B，C中有一人考97分，这样的话，B，C中的另一个考得分数就是：285 - 98 - 97 = 90，这与所有人得分都大于91是矛盾的，所以，D的名次一定在E的前面；即D是第二名；D是第二名，得分就要多于96分，结合A比D多3分，可知D的得分是97分，A的得分是：100分",
-    "explanation_en": "A，B，C的总分是：95 × 3 = 285（分）， B，C，D的总分是：94 × 3 = 282（分）， A比D就多考了︰285 - 282 = 3（分）， 因为E是第三名考了96分，所以，D有两种可能： 一是D比E考得少，鉴于A是第一名，又比D多三分，A只能是98分，而D是95分，B，C中有一人考97分，这样的话，B，C中的另一个考得分数就是：285 - 98 - 97 = 90，这与所有人得分都大于91是矛盾的，所以，D的名次一定在E的前面；即D是第二名；D是第二名，得分就要多于96分，结合A比D多3分，可知D的得分是97分，A的得分是：100分",
+    "explanation_en": "The total score of A, B, C is: 95 × 3 = 285 (points), B, C, D is: 94 × 3 = 282 (points), A is more than D: 285 - 282 = 3 (points), because E is the third place exam 96 points, so there are two possibilities for D: First, D is less than E, since A is the first place, and three points more than D, A can only be 98 points, and D is 95 points, B, C has one person test 97 points. In this way, another score in B, C is: 285 - 98 - 97 = 90, which is inconsistent with everyone's score greater than 91, so D must be in front of E; that is, D is the second place; D is the second place, D is more than 96 points, combined with A more than 3 points, you can know that D's score is 97 points, A's score is: 100 points",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第4题2分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "甲、乙两名鱼贩，卖同一种鱼，两人卖法如下： 甲卖10元一斤；乙把鱼分成鱼头和鱼身两部分卖，鱼头9.5元一斤、鱼身10.5元一斤．照这样的卖法，甲、乙卖同样的一条鱼，甲、乙所得的钱比较． （提示：鱼身重量大于鱼头重量）．",
-    "text_en": "甲、乙两名鱼贩，卖同一种鱼，两人卖法如下： 甲卖10元一斤；乙把鱼分成鱼头和鱼身两部分卖，鱼头9.5元一斤、鱼身10.5元一斤．照这样的卖法，甲、乙卖同样的一条鱼，甲、乙所得的钱比较． （提示：鱼身重量大于鱼头重量）．",
+    "text_en": "Two fish vendors, A and B, sell the same kind of fish. The selling method for the two is as follows: A sells 10 yuan per pound; B sells the fish in two parts, fish head 9.5 yuan per pound, and fish body 10.5 yuan per pound. According to this selling method, A and B sell the same fish, and the money earned by A and B is compared. (Tip: The weight of the fish body is greater than the weight of the fish head).",
     "illustration": null,
     "choices": [
       {
         "zh": "甲卖的多",
-        "en": "甲卖的多"
+        "en": "A lot of armor sold"
       },
       {
         "zh": "无法确定谁多",
-        "en": "无法确定谁多"
+        "en": "Unable to determine who has more"
       },
       {
         "zh": "乙卖的多",
-        "en": "乙卖的多"
+        "en": "Party B sells a lot"
       },
       {
         "zh": "甲、乙同样多",
-        "en": "甲、乙同样多"
+        "en": "A and B have the same number of"
       }
     ],
     "correct_index": 2,
     "explanation_zh": "设鱼头重量为a，鱼身重量为b． 甲卖鱼所得钱为：10a + 10b； 乙卖鱼所得钱为∶9.5a + 10.5b， 乙卖鱼所得钱 - 甲卖鱼所得钱得： (9.5a + 10.5b) - (10a + 10b) = 0.5b - 0.5a． 因为b a， 所以0.5b - 0.5a0． 即乙卖鱼所得钱比甲卖鱼所得钱多",
-    "explanation_en": "设鱼头重量为a，鱼身重量为b． 甲卖鱼所得钱为：10a + 10b； 乙卖鱼所得钱为∶9.5a + 10.5b， 乙卖鱼所得钱 - 甲卖鱼所得钱得： (9.5a + 10.5b) - (10a + 10b) = 0.5b - 0.5a． 因为b a， 所以0.5b - 0.5a0． 即乙卖鱼所得钱比甲卖鱼所得钱多",
+    "explanation_en": "Assume that the weight of the fish head is a and the weight of the fish body is b. The income from selling fish is: 10a + 10b; the income from selling fish is: 9.5a + 10.5b. The income from selling fish is: (9.5a + 10.5b) - (10a + 10b) = 0.5b - 0.5a. Because of b a, 0.5b - 0.5a0. That is, the income from selling fish is higher than that from selling fish.",
     "attribution": "2013年第11届创新杯四年级竞赛初赛第5题6分"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "甲乙两人合作打一份材料．开始甲每分钟打100 个字，乙每分钟打200个字．合作到完成总量的一半时，甲速度变为原来的3倍，而乙休息了5分钟后继续按原速度打字．最后当材料完成时，甲、乙打字数相等．那么，这份材料共____个字．",
-    "text_en": "甲乙两人合作打一份材料．开始甲每分钟打100 个字，乙每分钟打200个字．合作到完成总量的一半时，甲速度变为原来的3倍，而乙休息了5分钟后继续按原速度打字．最后当材料完成时，甲、乙打字数相等．那么，这份材料共____个字．",
+    "text_en": "Party A and Party B cooperated to type a material. At the beginning, Party A typed 100 words per minute and Party B typed 200 words per minute. When the cooperation reached half of the total amount, the speed of Party A became three times that of the original, while Party B continued to type at the original speed after a 5-minute break. Finally, when the material was completed, Party A and Party B typed the same number of words. Then, this material had a total of ____ words.",
     "illustration": null,
     "choices": [
       {
@@ -5073,14 +5073,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "前一半时乙的工作量是甲的2倍，所以后一半甲应是乙的2倍．把后一半工作量分为6份，甲应为4份，乙应为2份，说明乙休息时甲打了1份，这一份的量是100 × 3 × 5 = 1500字，故总工作量是1500 × 6 × 2 = 18000字．",
-    "explanation_en": "前一半时乙的工作量是甲的2倍，所以后一半甲应是乙的2倍．把后一半工作量分为6份，甲应为4份，乙应为2份，说明乙休息时甲打了1份，这一份的量是100 × 3 × 5 = 1500字，故总工作量是1500 × 6 × 2 = 18000字．",
+    "explanation_en": "The workload of B in the first half is 2 times that of A, so A in the second half should be 2 times that of B. The workload of the second half should be divided into 6 parts, 4 parts for A and 2 parts for B, indicating that A played 1 part when B rested. The amount of this part is 100 × 3 × 5 = 1500 words, so the total workload is 1500 × 6 × 2 = 18000 words.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第14题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "老师在黑板上写了三个不同的整数，小明每次先擦掉第一个数，然后在最后写上另两个数的平均数，如此做了7次，这时黑板上三个数的和为159．如果开始时老师在黑板上写的三个数之和为2008，且所有写过的数都是整数．那么开始____时老师在黑板上写的第一个数是．",
-    "text_en": "老师在黑板上写了三个不同的整数，小明每次先擦掉第一个数，然后在最后写上另两个数的平均数，如此做了7次，这时黑板上三个数的和为159．如果开始时老师在黑板上写的三个数之和为2008，且所有写过的数都是整数．那么开始____时老师在黑板上写的第一个数是．",
+    "text_en": "The teacher wrote three different integers on the blackboard. Xiao Ming first erased the first number each time, and then wrote the average of the other two numbers at the end, doing so 7 times. At this time, the sum of the three numbers on the blackboard is 159. If the sum of the three numbers written by the teacher on the blackboard at the beginning is 2008, and all the numbers written are integers, then the first number written by the teacher on the blackboard at the beginning is.",
     "illustration": null,
     "choices": [
       {
@@ -5102,14 +5102,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "设老师写的第二个数和第三个数分别为a和b，那么小明写的第一个数是a + b/2，第二个数是a + 3b/4，第三个数是3a + 5b/8，第四个数是5a + 11b/16，第五个数是11a + 21b/32，第六个数是21a + 43b/64，第七个数是43a + 85b/128．所以有11a + 21b/32 + 21a + 43b/64 + 43a + 85b/128 = 159，化简为43a + 85b/128 = 53，显然a = 53，b = 53是不定方程的一组正整数解，但题目要求的a ≠ b，所以a = 53 + 85 = 138，b = 53 - 43 = 10是满足条件的唯一…",
-    "explanation_en": "设老师写的第二个数和第三个数分别为a和b，那么小明写的第一个数是a + b/2，第二个数是a + 3b/4，第三个数是3a + 5b/8，第四个数是5a + 11b/16，第五个数是11a + 21b/32，第六个数是21a + 43b/64，第七个数是43a + 85b/128．所以有11a + 21b/32 + 21a + 43b/64 + 43a + 85b/128 = 159，化简为43a + 85b/128 = 53，显然a = 53，b = 53是不定方程的一组正整数解，但题目要求的a ≠ b，所以a = 53 + 85 = 138，b = 53 - 43 = 10是满足条件的唯一…",
+    "explanation_en": "If the second and third numbers written by the teacher are a and b, respectively, then the first number written by the teacher is a + b/2, the second number is a + 3b/4, the third number is 3a + 5b/8, the fourth number is 5a + 11b/16, the fifth number is 11a + 21b/32, the sixth number is 21a + 43b/64, and the seventh number is 43a + 85b/128. So there is 11a + 21b/32 + 21a + 43b/64 + 43a + 85b/128 = 159, which is reduced to 43a + 85b/128 = 53, obviously a = 53, b = 53 is a set of positive integer solutions to the equations of uncertainty, but the title requires a ≠ b, so a = 53 + 85 = 138, b = 53 - 43 = 10 is the only one that meets the conditions...",
     "attribution": "2009年全国迎春杯小学中年级四年级竞赛初赛第10题"
   },
   {
     "difficulty": 4,
     "topic": "arithmetic",
     "text_zh": "对于任何自然数，定义ni = 1 × 2 × 3 × ·s × n，如8i = 1 × 2 × 3 × ·s × 8。那么，算式：2014i + 2013i - 2012i + 2011i + ·s - 4i + 3i - 2i + 1i，计算结果的个位数字是____",
-    "text_en": "对于任何自然数，定义ni = 1 × 2 × 3 × ·s × n，如8i = 1 × 2 × 3 × ·s × 8。那么，算式：2014i + 2013i - 2012i + 2011i + ·s - 4i + 3i - 2i + 1i，计算结果的个位数字是____",
+    "text_en": "For any natural number, define ni = 1 × 2 × 3 × · s × n, such as 8i = 1 × 2 × 3 × · s × 8. Then, the formula: 2014i + 2013i - 2012i + 2011i + · s - 4i + 3i - 2i + 1i, the single digit number of the calculation result is ____",
     "illustration": null,
     "choices": [
       {
@@ -5131,14 +5131,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：由新定义ni = 1 × 2 × 3 × ·s × n可知： 2014i = 1 × 2 × 3 × 4 × 5 × 6 × ·s × 2012 × 2013 × 2014， 2013i = 1 × 2 × 3 × 4 × 5 × 6 × ·s × 2012 × 2013， 2012i = 1 × 2 × 3 × 4 × 5 × 6 × ·s × 2012， ·s 5i = 1 × 2 × 3 × 4 × 5， 由观察很容易知道，2014i，2013i，2012i，·s ，6i，5i的因式中均含有2 × 5，所以他们的个位数都为0。",
-    "explanation_en": "解：由新定义ni = 1 × 2 × 3 × ·s × n可知： 2014i = 1 × 2 × 3 × 4 × 5 × 6 × ·s × 2012 × 2013 × 2014， 2013i = 1 × 2 × 3 × 4 × 5 × 6 × ·s × 2012 × 2013， 2012i = 1 × 2 × 3 × 4 × 5 × 6 × ·s × 2012， ·s 5i = 1 × 2 × 3 × 4 × 5， 由观察很容易知道，2014i，2013i，2012i，·s ，6i，5i的因式中均含有2 × 5，所以他们的个位数都为0。",
+    "explanation_en": "Solution: From the newly defined ni = 1 × 2 × 3 × · s × n, it can be seen that: 2014i = 1 × 2 × 3 × 4 × 5 × 6 × · s × 2012 × 2013 × 2014, 2013i = 1 × 2 × 3 × 4 × 5 × 6 × s × 2012 × 2013, 2012i = 1 × 2 × 3 × 4 × 5 × 6 × · s × 2012, · s 5i = 1 × 2 × 3 × 4 × 5. It is easy to know from observation that the factors of 2014i, 2013i, 2012i, · s, 6i, and 5i all contain 2 × 5, so their digits are all 0.",
     "attribution": "2014年迎春杯四年级竞赛复赛"
   },
   {
     "difficulty": 5,
     "topic": "arithmetic",
     "text_zh": "袋子中有黑、白两种颜色的棋子，黑子的个数是白子个数的2倍，每次从袋中同时取出3个黑子和2个白子．某次取完后，白子剩下1个，黑子剩下31个，则袋中原有黑子____个．",
-    "text_en": "袋子中有黑、白两种颜色的棋子，黑子的个数是白子个数的2倍，每次从袋中同时取出3个黑子和2个白子．某次取完后，白子剩下1个，黑子剩下31个，则袋中原有黑子____个．",
+    "text_en": "There are black and white pieces in the bag. The number of blacks is twice as many as the number of white ones. Each time, 3 blacks and 2 white ones are taken out of the bag at the same time. After one removal, there is 1 white and 31 blacks remaining, so the original black in the bag is ____.",
     "illustration": null,
     "choices": [
       {
@@ -5160,14 +5160,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "黑子个数 = 白子个数 × 2；黑子个数 = 次数 × 3 + 31，白子个数 = 次数 × 2 + 1； 设取的次数为x次，则白子有(2x + 1)个，黑子有(3x + 31)个， 由题意得2 × (2x + 1) = 3x + 31， 解得x = 29， 则袋子中原有黑子3 × 29 + 31 = 118（个）． 假设黑子每次取的个数也是白子的2倍，即黑子每次取2 × 2 = 4（个），白子每次取2个，则： (31 - 1 × 2) ÷ (2 × 2 - 3) = 29 ÷ 1 = 29（次） 3 × 29 + 31 = 87 + 31 = 118（个）． 答：袋中原有黑子 118个．",
-    "explanation_en": "黑子个数 = 白子个数 × 2；黑子个数 = 次数 × 3 + 31，白子个数 = 次数 × 2 + 1； 设取的次数为x次，则白子有(2x + 1)个，黑子有(3x + 31)个， 由题意得2 × (2x + 1) = 3x + 31， 解得x = 29， 则袋子中原有黑子3 × 29 + 31 = 118（个）． 假设黑子每次取的个数也是白子的2倍，即黑子每次取2 × 2 = 4（个），白子每次取2个，则： (31 - 1 × 2) ÷ (2 × 2 - 3) = 29 ÷ 1 = 29（次） 3 × 29 + 31 = 87 + 31 = 118（个）． 答：袋中原有黑子 118个．",
+    "explanation_en": "The number of black spots = the number of white spots × 2; the number of black spots = the number of times × 3 + 31, the number of white spots = the number of times × 2 + 1; if the number of times is set to x, there are (2x + 1) white spots, (3x + 31) black spots, from the subject matter 2 × (2x + 1) = 3x + 31, the solution is x = 29, then the original black spots in the bag 3 × 29 + 31 = 118 (pieces). Assuming that the number of black spots taken each time is also 2 times the number of white spots, that is, black spots take 2 × 2 = 4 (pieces) at a time, and white spots take 2 at a time, then: (31 - 1 × 2) ÷ (2 × 2 - 3) = 29 ÷ 1 = 29 (times) 3 × 29 + 31 = 87 + 31 = 118 (pieces). Answer: There are 118 black spots in the bag.",
     "attribution": "2017年第15届全国希望杯小学中年级四年级竞赛第1试试题第19题"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "下列哪个选项是2个连续整数的和？",
-    "text_en": "下列哪个选项是2个连续整数的和？",
+    "text_en": "Which of the following options is the sum of 2 consecutive integers?",
     "illustration": null,
     "choices": [
       {
@@ -5189,14 +5189,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数． 在A、B、C、D，4个选项中，只有A是单数，其余3个都是双数． 故答案选：A",
-    "explanation_en": "在两个连续整数中，其中一个是双数，一个是单数．一个双数和一个单数的和一定是一个单数，所以两个连续整数的和也定是单数． 在A、B、C、D，4个选项中，只有A是单数，其余3个都是双数． 故答案选：A",
+    "explanation_en": "Of the two consecutive integers, one is even and one is singular. An even number and the sum of a singular number must be a singular number, so the sum of the two consecutive integers must also be singular. In A, B, C, D, of the 4 options, only A is singular, and the remaining 3 are even. So the answer is: A",
     "attribution": "2018年美国数学大联盟杯五年级竞赛初赛第13题5分"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "下列各选项中的值最接近9的是____。",
-    "text_en": "下列各选项中的值最接近9的是____。",
+    "text_en": "The closest value to 9 in each of the following options is ____.",
     "illustration": null,
     "choices": [
       {
@@ -5229,12 +5229,12 @@
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "分数单位是1/10的最简分数共有____个．",
-    "text_en": "分数单位是1/10的最简分数共有____个．",
+    "text_en": "The minimum score unit is 1/10. There are ____ scores.",
     "illustration": null,
     "choices": [
       {
         "zh": "无数",
-        "en": "无数"
+        "en": "countless"
       },
       {
         "zh": "5",
@@ -5251,14 +5251,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "依据分数单位的意义，即把单位\"1\"平均分成若干份取一份的数，叫做分数单位，以及最简分数的概念，即可进行解答． 因为9/10、 7/10、3/10、11/10·s 的分数单位都是1/10，也就是说只要分母是10的最简分数，它的分数单位都是1/10，这样的分数有无数个． 故选：D．",
-    "explanation_en": "依据分数单位的意义，即把单位\"1\"平均分成若干份取一份的数，叫做分数单位，以及最简分数的概念，即可进行解答． 因为9/10、 7/10、3/10、11/10·s 的分数单位都是1/10，也就是说只要分母是10的最简分数，它的分数单位都是1/10，这样的分数有无数个． 故选：D．",
+    "explanation_en": "Based on the meaning of a fractional unit—that is, the number obtained by dividing a unit &quot;1&quot; into several equal parts and taking one of those parts—and the concept of a simplified fraction, the answer can be found. Since the fractional unit of 9/10, 7/10, 3/10, and 11/10·s is all 1/10, it means that any simplified fraction with a denominator of 10 has a fractional unit of 1/10. There are infinitely many such fractions. Therefore, the answer is D.",
     "attribution": "2019年第7届湖北长江杯五年级竞赛复赛A卷第8题3分"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "小数乘法：0.025 × 0.04的结果的小数位数有位____．",
-    "text_en": "小数乘法：0.025 × 0.04的结果的小数位数有位____．",
+    "text_en": "Decimal multiplication: the result of 0.025 × 0.04 has a decimal place of ____.",
     "illustration": null,
     "choices": [
       {
@@ -5287,7 +5287,7 @@
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "小数乘法：0.025 × 0.04的结果（不计末尾的0）的小数位数有____位．",
-    "text_en": "小数乘法：0.025 × 0.04的结果（不计末尾的0）的小数位数有____位．",
+    "text_en": "Decimal multiplication: the result of 0.025 × 0.04 (excluding the 0 at the end) has ____ decimal places.",
     "illustration": null,
     "choices": [
       {
@@ -5316,7 +5316,7 @@
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "计算：21.49 + 52.37 - 0.4 + 5.51 - 11.37 - 6.6 = ____．",
-    "text_en": "计算：21.49 + 52.37 - 0.4 + 5.51 - 11.37 - 6.6 = ____．",
+    "text_en": "Calculation: 21.49 + 52.37 - 0.4 + 5.51 - 11.37 - 6.6 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -5345,7 +5345,7 @@
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "买2瓶汽水和1瓶矿泉水一共要花7元，买4瓶汽水和3瓶矿泉水一共要花16元，那么买10瓶汽水和10瓶矿泉水一共要花____元．",
-    "text_en": "买2瓶汽水和1瓶矿泉水一共要花7元，买4瓶汽水和3瓶矿泉水一共要花16元，那么买10瓶汽水和10瓶矿泉水一共要花____元．",
+    "text_en": "Buy 2 bottles of soda and 1 bottle of mineral water for a total of 7 yuan, buy 4 bottles of soda and 3 bottles of mineral water for a total of 16 yuan, then buy 10 bottles of soda and 10 bottles of mineral water for a total of ____ yuan.",
     "illustration": null,
     "choices": [
       {
@@ -5363,14 +5363,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "2汽 + 1水 = 7①， 4汽 + 3水 = 16②， ② - ① × 2得：水 = 2，所以汽 = 2.5， 故：10汽 + 10水 = 10 × 2.5 + 10 × 2 = 45（元）",
-    "explanation_en": "2汽 + 1水 = 7①， 4汽 + 3水 = 16②， ② - ① × 2得：水 = 2，所以汽 = 2.5， 故：10汽 + 10水 = 10 × 2.5 + 10 × 2 = 45（元）",
+    "explanation_en": "2 vapor + 1 water = 7 ①, 4 vapor + 3 water = 16 ②, ② - ① × 2 get: water = 2, so vapor = 2.5, so: 10 vapor + 10 water = 10 × 2.5 + 10 × 2 = 45 (yuan)",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛五年级竞赛初赛第2题6分"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "学校举行\"六一欢乐大卖场\"活动，505班同学批发了一些小玩具参加活动，共卖出玩具22个，最便宜的售价10.5元/个，最贵的售价15.5元/个，这些玩具大约卖出____元．",
-    "text_en": "学校举行\"六一欢乐大卖场\"活动，505班同学批发了一些小玩具参加活动，共卖出玩具22个，最便宜的售价10.5元/个，最贵的售价15.5元/个，这些玩具大约卖出____元．",
+    "text_en": "The school held the \"June 1st Happy Supermarket\" event, and the 505 classmates wholesale some small toys to participate in the event. A total of 22 toys were sold, with the cheapest selling price being 10.5 yuan/piece and the most expensive selling price being 15.5 yuan/piece. These toys sold for about ____ yuan.",
     "illustration": null,
     "choices": [
       {
@@ -5388,14 +5388,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "假设都按照最低价10.5一个，22个总价是231元，假设都按照最高价15.5元一个，总价是341元，所以这些玩具的总价不少于230元，也不高于340元．据此解答． 10.5 × 22 = 231（元）， 15.5 × 22 = 341（元）， 所以这些玩具的总价不少于230元，也不高于340元． 故答案为∶C．",
-    "explanation_en": "假设都按照最低价10.5一个，22个总价是231元，假设都按照最高价15.5元一个，总价是341元，所以这些玩具的总价不少于230元，也不高于340元．据此解答． 10.5 × 22 = 231（元）， 15.5 × 22 = 341（元）， 所以这些玩具的总价不少于230元，也不高于340元． 故答案为∶C．",
+    "explanation_en": "Assuming that the lowest price is 10.5, the total price of 22 is 231 yuan, and the highest price is 15.5 yuan, the total price is 341 yuan, so the total price of these toys is not less than 230 yuan, and it is not higher than 340 yuan. Accordingly, 10.5 × 22 = 231 (yuan), 15.5 × 22 = 341 (yuan), so the total price of these toys is not less than 230 yuan, and it is not higher than 340 yuan. Therefore, the answer is: C.",
     "attribution": "2019年浙江杭州滨江区杭州江南实验学校五年级竞赛模拟（江南杯）第12题1分"
   },
   {
     "difficulty": 2,
     "topic": "arithmetic",
     "text_zh": "一台计算机感染了病毒，在计算机的存储器里，从2到9的每一个数x都被1 + 2 + ·s + x这个和代替，例如2被3(3 = 1 + 2)代替，5被15(15 = 1 + 2 + 3 + 4 + 5)代替，计算机的其他功能都正常，如果你计算1 + 3 + 5，计算机显示的结果是____。",
-    "text_en": "一台计算机感染了病毒，在计算机的存储器里，从2到9的每一个数x都被1 + 2 + ·s + x这个和代替，例如2被3(3 = 1 + 2)代替，5被15(15 = 1 + 2 + 3 + 4 + 5)代替，计算机的其他功能都正常，如果你计算1 + 3 + 5，计算机显示的结果是____。",
+    "text_en": "A computer is infected with a virus. In the computer's memory, each number x from 2 to 9 is replaced by the sum of 1 + 2 + · s + x, for example, 2 is replaced by 3 (3 = 1 + 2), 5 is replaced by 15 (15 = 1 + 2 + 3 + 4 + 5), and the other functions of the computer are normal. If you calculate 1 + 3 + 5, the computer displays ____.",
     "illustration": null,
     "choices": [
       {
@@ -5417,43 +5417,43 @@
     ],
     "correct_index": 3,
     "explanation_zh": "3被1 + 2 + 3 = 6代替，5被1 + 2 + 3 + 4 + 5 = 15代替，所以1 + 3 + 5显示为1 + 6 + 15 = 22。",
-    "explanation_en": "3被1 + 2 + 3 = 6代替，5被1 + 2 + 3 + 4 + 5 = 15代替，所以1 + 3 + 5显示为1 + 6 + 15 = 22。",
+    "explanation_en": "3 is replaced by 1 + 2 + 3 = 6 and 5 is replaced by 1 + 2 + 3 + 4 + 5 = 15, so 1 + 3 + 5 appears as 1 + 6 + 15 = 22.",
     "attribution": "2011年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "下列说法正确的是．",
-    "text_en": "下列说法正确的是．",
+    "text_en": "The following statement is correct.",
     "illustration": null,
     "choices": [
       {
         "zh": "计算小数加减法，得数的小数部分有0的要把0去掉",
-        "en": "计算小数加减法，得数的小数部分有0的要把0去掉"
+        "en": "Calculate the decimal addition and subtraction, the decimal part of the resulting number has 0 to remove 0"
       },
       {
         "zh": "比0.1大而又比0.5小的数只有3个",
-        "en": "比0.1大而又比0.5小的数只有3个"
+        "en": "There are only 3 numbers that are larger than 0.1 and smaller than 0.5"
       },
       {
         "zh": "小数加减法混合运算一定要先算加法，后算减法",
-        "en": "小数加减法混合运算一定要先算加法，后算减法"
+        "en": "Decimal addition and subtraction Mixing operations must first calculate the addition, and then calculate the subtraction"
       },
       {
         "zh": "在2.3的末尾添上2个0，这个数的大小不变",
-        "en": "在2.3的末尾添上2个0，这个数的大小不变"
+        "en": "Add 2 zeros at the end of 2.3, the size of this number is unchanged"
       }
     ],
     "correct_index": 3,
     "explanation_zh": "A项，不是末尾的0不能去掉； B项，小数加减法混合运算应从左往右计算； D项，比0.1大而又比0.5小的数有无数个，比如0.11、0.111、·s ·s",
-    "explanation_en": "A项，不是末尾的0不能去掉； B项，小数加减法混合运算应从左往右计算； D项，比0.1大而又比0.5小的数有无数个，比如0.11、0.111、·s ·s",
+    "explanation_en": "Item A, not the 0 at the end, cannot be removed; item B, the decimal addition and subtraction hybrid operation should be calculated from left to right; item D, there are countless numbers larger than 0.1 and smaller than 0.5, such as 0.11, 0.111, · s · s",
     "attribution": "2018年湖北武汉新希望杯五年级竞赛训练题（一）第1题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "120有____个因数．",
-    "text_en": "120有____个因数．",
+    "text_en": "120 has ____ factors.",
     "illustration": null,
     "choices": [
       {
@@ -5475,14 +5475,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "因为120的因数有：1、2、3、4、5、6、8、10、12、15、20、24、30、40、60、120，所以一共有16个因数",
-    "explanation_en": "因为120的因数有：1、2、3、4、5、6、8、10、12、15、20、24、30、40、60、120，所以一共有16个因数",
+    "explanation_en": "Because the factors of 120 are: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60, 120, there are 16 factors in total",
     "attribution": "2019年第7届湖北长江杯五年级竞赛复赛B卷第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "下列算式中，结果小于1的算式是．",
-    "text_en": "下列算式中，结果小于1的算式是．",
+    "text_en": "In the following formula, the formula with the result less than 1 is.",
     "illustration": null,
     "choices": [
       {
@@ -5504,14 +5504,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "0.99 × 0.99 = 0.9801，结果小于1．",
-    "explanation_en": "0.99 × 0.99 = 0.9801，结果小于1．",
+    "explanation_en": "0.99 × 0.99 = 0.9801, the result is less than 1.",
     "attribution": "2018~2019学年浙江杭州西湖区杭州市行知小学五年级上学期期中期中竞赛第13题1分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "2019²⁰¹⁸的____个位数是．",
-    "text_en": "2019²⁰¹⁸的____个位数是．",
+    "text_en": "The number of ____ digits in 2019 ² ² ¹ ² is.",
     "illustration": null,
     "choices": [
       {
@@ -5529,14 +5529,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "9¹的个位为9，9²的个位为1，9³的个位为9，9⁴的个位为1·s ·s ，所以9²⁰¹⁸的个位为1，即2019²⁰¹⁸的个位为1． 故选：A．",
-    "explanation_en": "9¹的个位为9，9²的个位为1，9³的个位为9，9⁴的个位为1·s ·s ，所以9²⁰¹⁸的个位为1，即2019²⁰¹⁸的个位为1． 故选：A．",
+    "explanation_en": "The digits of 9 ¹ are 9, the digits of 9 ² are 1, the digits of 9 ³ are 9, and the digits of 9 ² are 1 · s · s, so the digits of 9 ² ² ¹ ² are 1, that is, the digits of 2019 ² ² ¹ ² are 1. Therefore, it is selected: A.",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛五年级竞赛决赛第4题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "在下面四个算式中，得数最大的是____.",
-    "text_en": "在下面四个算式中，得数最大的是____.",
+    "text_en": "In the following four formulas, the largest number is ____.",
     "illustration": null,
     "choices": [
       {
@@ -5558,14 +5558,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "A，B，C，D依次为1/17 × 19 × 10，1/15 × 21 × 10，1/13 × 23 × 10，1/11 × 25 × 10，和同近积大，11 × 25 × 10最小，所以1/11 × 25 × 10最大.",
-    "explanation_en": "A，B，C，D依次为1/17 × 19 × 10，1/15 × 21 × 10，1/13 × 23 × 10，1/11 × 25 × 10，和同近积大，11 × 25 × 10最小，所以1/11 × 25 × 10最大.",
+    "explanation_en": "A, B, C, and D are 1/17 × 19 × 10, 1/15 × 21 × 10, 1/13 × 23 × 10, 1/11 × 25 × 10, and the same approximate product is large, 11 × 25 × 10 is the smallest, so 1/11 × 25 × 10 is the largest.",
     "attribution": "五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "与60 × 120结果相同的算式是____．",
-    "text_en": "与60 × 120结果相同的算式是____．",
+    "text_en": "The same formula as the 60 × 120 result is ____.",
     "illustration": null,
     "choices": [
       {
@@ -5587,14 +5587,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "60 × 120 = 7200， A选项中，180 + 240 = 420； B选项中，180 + 540 = 720； C选项中，1800 + 2400 = 4200； D选项中，1800 + 5400 = 7200． 故选：D．",
-    "explanation_en": "60 × 120 = 7200， A选项中，180 + 240 = 420； B选项中，180 + 540 = 720； C选项中，1800 + 2400 = 4200； D选项中，1800 + 5400 = 7200． 故选：D．",
+    "explanation_en": "60 × 120 = 7200, A option, 180 + 240 = 420; B option, 180 + 540 = 720; C option, 1800 + 2400 = 4200; D option, 1800 + 5400 = 7200. Selected: D.",
     "attribution": "2019年美国数学大联盟杯五年级竞赛初赛第1题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：1²⁰¹⁹ + 1²⁰²⁰ = ____．",
-    "text_en": "计算：1²⁰¹⁹ + 1²⁰²⁰ = ____．",
+    "text_en": "Calculation: 1 ² ³ ¹ ² + 1 ² ² ² ² = ____.",
     "illustration": null,
     "choices": [
       {
@@ -5616,14 +5616,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "1的任意次方都为1，所以1的2019次方等于1，1的2020次方等于1，1 + 1 = 2",
-    "explanation_en": "1的任意次方都为1，所以1的2019次方等于1，1的2020次方等于1，1 + 1 = 2",
+    "explanation_en": "Any power of 1 is 1, so the 2019 power of 1 equals 1, and the 2020 power of 1 equals 1, 1 + 1 = 2",
     "attribution": "2019年美国数学大联盟杯五年级竞赛初赛第3题5分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "9 ÷ 11的商的小数部____分第50位上的数字是．",
-    "text_en": "9 ÷ 11的商的小数部____分第50位上的数字是．",
+    "text_en": "The decimal part of the 9 ÷ 11 quotient ____ is the number on the 50th digit.",
     "illustration": null,
     "choices": [
       {
@@ -5641,14 +5641,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "列竖式 故9 ÷ 11 = 0.81． 周期为2故50 ÷ 2 = 25， 故第50位为1． 故答案为：B选项．",
-    "explanation_en": "列竖式 故9 ÷ 11 = 0.81． 周期为2故50 ÷ 2 = 25， 故第50位为1． 故答案为：B选项．",
+    "explanation_en": "The column vertical type is 9 ÷ 11 = 0.81. The period is 2, so 50 ÷ 2 = 25, so the 50th position is 1. Therefore, the answer is: Option B.",
     "attribution": "2019年浙江杭州滨江区杭州江南实验学校五年级竞赛模拟（江南杯）第6题2分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "42 hasfactors. 42的因数共有____个．",
-    "text_en": "42 hasfactors. 42的因数共有____个．",
+    "text_en": "42 hasfactors. There are ____ factors in 42.",
     "illustration": null,
     "choices": [
       {
@@ -5670,47 +5670,47 @@
     ],
     "correct_index": 0,
     "explanation_zh": "42 = 2 × 3 × 7，(1 + 1) × (1 + 1) × (1 + 1) = 8（个）．",
-    "explanation_en": "42 = 2 × 3 × 7，(1 + 1) × (1 + 1) × (1 + 1) = 8（个）．",
+    "explanation_en": "42 = 2 × 3 × 7, (1 + 1) × (1 + 1) × (1 + 1) = 8 (pieces).",
     "attribution": "2018年湖北武汉新希望杯小学高年级五年级竞赛训练题（三）第2题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "2019年国庆节是星期二，则2020____年国庆节是．",
-    "text_en": "2019年国庆节是星期二，则2020____年国庆节是．",
+    "text_en": "2019 National Day is a Tuesday, then 2020 National Day is.",
     "illustration": null,
     "choices": [
       {
         "zh": "星期一",
-        "en": "星期一"
+        "en": " Monday "
       },
       {
         "zh": "星期二",
-        "en": "星期二"
+        "en": " Tuesday "
       },
       {
         "zh": "星期三",
-        "en": "星期三"
+        "en": " Wednesday "
       },
       {
         "zh": "星期四",
-        "en": "星期四"
+        "en": " Thursday "
       },
       {
         "zh": "星期五",
-        "en": "星期五"
+        "en": " Friday "
       }
     ],
     "correct_index": 3,
     "explanation_zh": "2020 ÷ 4 = 505，2020年是闰年． 从2019年国庆节经过366天是2020年国庆节． 366 ÷ 7 = 52（周）·s ·s 2（天）， 故2020年的国庆节是星期四",
-    "explanation_en": "2020 ÷ 4 = 505，2020年是闰年． 从2019年国庆节经过366天是2020年国庆节． 366 ÷ 7 = 52（周）·s ·s 2（天）， 故2020年的国庆节是星期四",
+    "explanation_en": "2020 ÷ 4 = 505, 2020 is a leap year. 366 days from 2019 National Day is 2020 National Day. 366 ÷ 7 = 52 (weeks) · s · s 2 (days), so 2020 National Day is Thursday",
     "attribution": "2020年新希望杯五年级竞赛决赛（8月）第17题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：2.3 ÷ 0.08 ÷ 1.25 = ____．",
-    "text_en": "计算：2.3 ÷ 0.08 ÷ 1.25 = ____．",
+    "text_en": "Calculation: 2.3 ÷ 0.08 ÷ 1.25 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -5739,7 +5739,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "已知3个质数的和是20，那么这3个质数乘积的最大值是____．",
-    "text_en": "已知3个质数的和是20，那么这3个质数乘积的最大值是____．",
+    "text_en": "We know that the sum of the 3 prime numbers is 20, so the maximum value of the product of these 3 prime numbers is ____.",
     "illustration": null,
     "choices": [
       {
@@ -5761,14 +5761,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "其中一个一定为2，有2 + 7 + 11 = 20，2 × 7 × 11 = 154最大．",
-    "explanation_en": "其中一个一定为2，有2 + 7 + 11 = 20，2 × 7 × 11 = 154最大．",
+    "explanation_en": "One of them must be 2, with 2 + 7 + 11 = 20, 2 × 7 × 11 = 154 max.",
     "attribution": "2015年第13届全国创新杯五年级竞赛初赛第2题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "两____个因数的积保留两位小数后约是9.28，准确数可能是．",
-    "text_en": "两____个因数的积保留两位小数后约是9.28，准确数可能是．",
+    "text_en": "The product of two ____ factors retains two decimal places and is about 9.28, the exact number may be.",
     "illustration": null,
     "choices": [
       {
@@ -5786,14 +5786,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "要考虑9.28是一个三位小数的近似数，有两种情况：\"四舍\"得到的9.28最大是9.284，\"五入\"得到的9.28最小是9.275，即该数的取值是大于或等于9.275并且小于或等于9.284；由此进行选择即可． \"四舍\"得到的9.28最大是9.284，\"五入\"得到的9.28最小是9.275，即该数的取值是大于或等于9.275并且小于或等于9.284，结合选项可知：准确值可能是9.276，故选B． 故答案为：B．",
-    "explanation_en": "要考虑9.28是一个三位小数的近似数，有两种情况：\"四舍\"得到的9.28最大是9.284，\"五入\"得到的9.28最小是9.275，即该数的取值是大于或等于9.275并且小于或等于9.284；由此进行选择即可． \"四舍\"得到的9.28最大是9.284，\"五入\"得到的9.28最小是9.275，即该数的取值是大于或等于9.275并且小于或等于9.284，结合选项可知：准确值可能是9.276，故选B． 故答案为：B．",
+    "explanation_en": "To consider that 9.28 is an approximation of three decimal places, there are two cases: the maximum value of 9.28 obtained by \"rounding\" is 9.284, and the minimum value of 9.28 obtained by \"five-in\" is 9.275, that is, the value of the number is greater than or equal to 9.275 and less than or equal to 9.284; thus, you can choose. The maximum value of 9.28 obtained by \"rounding\" is 9.284, and the minimum value of 9.28 obtained by \"five-in\" is 9.275, that is, the value of the number is greater than or equal to 9.275 and less than or equal to 9.284. Combined with the options, it can be known that the exact value may be 9.276, so choose B. The answer is: B.",
     "attribution": "2019年浙江杭州滨江区杭州江南实验学校五年级竞赛模拟（江南杯）第11题1分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "6/7化成小数后，小数点后面前2007位数字之和等于____.",
-    "text_en": "6/7化成小数后，小数点后面前2007位数字之和等于____.",
+    "text_en": "After 6/7 into decimals, the sum of the 2007 digits before the decimal point is equal to ____.",
     "illustration": null,
     "choices": [
       {
@@ -5815,14 +5815,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为6/7 = 0.857142857142·s ，所以(一个循环的数字和)8 + 5 + 7 + 1 + 4 + 2 = 27，又2007 = 6 × 334 + 3，因此，小数点后面前2007位数字之和为27 × 334 + (8 + 5 + 7) = 9038.",
-    "explanation_en": "因为6/7 = 0.857142857142·s ，所以(一个循环的数字和)8 + 5 + 7 + 1 + 4 + 2 = 27，又2007 = 6 × 334 + 3，因此，小数点后面前2007位数字之和为27 × 334 + (8 + 5 + 7) = 9038.",
+    "explanation_en": "Since 6/7 = 0.857142857142 · s, 8 + 5 + 7 + 1 + 4 + 2 = 27, and 2007 = 6 × 334 + 3, the sum of the 2007 digits after the decimal point is 27 × 334 + (8 + 5 + 7) = 9038.",
     "attribution": "2007年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "算式826446281 × 11 × 11的计算结果是____．",
-    "text_en": "算式826446281 × 11 × 11的计算结果是____．",
+    "text_en": "The calculation result of the formula 826446281 × 11 × 11 is ____.",
     "illustration": null,
     "choices": [
       {
@@ -5844,7 +5844,7 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据11乘法的特征\"两边一拉，中间相加\"可得到结果D",
-    "explanation_en": "根据11乘法的特征\"两边一拉，中间相加\"可得到结果D",
+    "explanation_en": "According to the characteristics of 11 multiplication \"pull on both sides, add in the middle\", the result D can be obtained",
     "attribution": "2014年全国迎春杯五年级竞赛复赛第5题"
   },
   {
@@ -5880,36 +5880,36 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "有一年六月份中的星期五比星期四多1个，那么这年七____月一日为．",
-    "text_en": "有一年六月份中的星期五比星期四多1个，那么这年七____月一日为．",
+    "text_en": "In one year, there are 1 more Fridays than Thursdays in June, so the first day of July is.",
     "illustration": null,
     "choices": [
       {
         "zh": "星期四",
-        "en": "星期四"
+        "en": " Thursday "
       },
       {
         "zh": "星期五",
-        "en": "星期五"
+        "en": " Friday "
       },
       {
         "zh": "星期六",
-        "en": "星期六"
+        "en": "saturday"
       },
       {
         "zh": "星期日",
-        "en": "星期日"
+        "en": "Sunday"
       }
     ],
     "correct_index": 3,
     "explanation_zh": "星期五比星期四多1个，说明6月1号是星期五，那么七月一日是30天之后，30 ÷ 7 = 4（组）·s ·s 2（天），说明七月一日是星期日．",
-    "explanation_en": "星期五比星期四多1个，说明6月1号是星期五，那么七月一日是30天之后，30 ÷ 7 = 4（组）·s ·s 2（天），说明七月一日是星期日．",
+    "explanation_en": "There is 1 more Friday than Thursday, indicating that June 1 is Friday, then July 1 is 30 days later, 30 ÷ 7 = 4 (group) · s · s 2 (days), indicating that July 1 is Sunday.",
     "attribution": "2018年湖北武汉创新杯小学高年级五年级竞赛初赛数学思维能力等级测试第4题4分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "用四舍五入法求9.9999的近似值，精确到百分位____时，结果为．",
-    "text_en": "用四舍五入法求9.9999的近似值，精确到百分位____时，结果为．",
+    "text_en": "Using the rounding method to calculate the approximation of 9.9999, accurate to the percentile ____, the result is.",
     "illustration": null,
     "choices": [
       {
@@ -5931,43 +5931,43 @@
     ],
     "correct_index": 2,
     "explanation_zh": "因为9.9999的千分位是9，根据四舍五入原则，9需要进位，所以精确到百分位时，结果为10.00",
-    "explanation_en": "因为9.9999的千分位是9，根据四舍五入原则，9需要进位，所以精确到百分位时，结果为10.00",
+    "explanation_en": "Because 9.9999's thousandth fraction is 9, according to the principle of rounding, 9 needs to be carried forward, so when it is accurate to the percentile, the result is 10.00",
     "attribution": "2018年第6届湖北长江杯五年级竞赛初赛A卷第1题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "在1，2，3，5，7，8中不是一个整数的平方的____个位数，共有．",
-    "text_en": "在1，2，3，5，7，8中不是一个整数的平方的____个位数，共有．",
+    "text_en": "There are ____ digits in 1, 2, 3, 5, 7, 8 that are not the square of an integer.",
     "illustration": null,
     "choices": [
       {
         "zh": "1个",
-        "en": "1个"
+        "en": "Single site"
       },
       {
         "zh": "2个",
-        "en": "2个"
+        "en": "2 drums"
       },
       {
         "zh": "3个",
-        "en": "3个"
+        "en": "3 pieces"
       },
       {
         "zh": "4个",
-        "en": "4个"
+        "en": "4"
       }
     ],
     "correct_index": 3,
     "explanation_zh": "因为整数的平方的个位数不能为2，3，7，8，所以在1，2，3，5，7，8中，不可能是一个整数的平方的个位数的数共有4个",
-    "explanation_en": "因为整数的平方的个位数不能为2，3，7，8，所以在1，2，3，5，7，8中，不可能是一个整数的平方的个位数的数共有4个",
+    "explanation_en": "Since the number of single digits of the square of an integer cannot be 2, 3, 7, 8, in 1, 2, 3, 5, 7, 8, there are 4 numbers of single digits that cannot be the square of an integer",
     "attribution": "2005年第3届创新杯五年级竞赛初赛第3题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "解方程：2(x + 1) = 4 × (8 - x)，则x等于多少？",
-    "text_en": "解方程：2(x + 1) = 4 × (8 - x)，则x等于多少？",
+    "text_en": "Solve the equation: 2 (x + 1) = 4 × (8 - x), then x is equal to what?",
     "illustration": null,
     "choices": [
       {
@@ -5996,7 +5996,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "00000025 × 0.000004的结果的小数部分有____个0．",
-    "text_en": "00000025 × 0.000004的结果的小数部分有____个0．",
+    "text_en": "The decimal part of the result of 00000025 × 0.000004 has ____ 0.",
     "illustration": null,
     "choices": [
       {
@@ -6018,14 +6018,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "因为0.00000025(8位) × 0.000004(6位) = 0.000000000001(12位)， 故小数部分有11个0， 故答案是：D．",
-    "explanation_en": "因为0.00000025(8位) × 0.000004(6位) = 0.000000000001(12位)， 故小数部分有11个0， 故答案是：D．",
+    "explanation_en": "Because 0.00000025 (8 digits) × 0.000004 (6 digits) = 0.000000000001 (12 digits), there are 11 0s in the decimal part, so the answer is: D.",
     "attribution": "2018年第6届湖北长江杯五年级竞赛初赛A卷第3题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：2015 × 2015 - 2014 × 2016 = ____．",
-    "text_en": "计算：2015 × 2015 - 2014 × 2016 = ____．",
+    "text_en": "Calculation: 2015 × 2015 - 2014 × 2016 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -6054,7 +6054,7 @@
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "000002005 × 0.000004的结果的小数部分有____个0．",
-    "text_en": "000002005 × 0.000004的结果的小数部分有____个0．",
+    "text_en": "The decimal part of the result of 000002005 × 0.000004 has ____ 0.",
     "illustration": null,
     "choices": [
       {
@@ -6076,14 +6076,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "因为0.000002005(9位) × 0.000004(6位) = 0.00000000000802(14位)， 故小数部分有12个0， 故答案是：C．",
-    "explanation_en": "因为0.000002005(9位) × 0.000004(6位) = 0.00000000000802(14位)， 故小数部分有12个0， 故答案是：C．",
+    "explanation_en": "Because 0.000002005 (9 digits) × 0.000004 (6 digits) = 0.00000000000802 (14 digits), there are 12 0s in the decimal part, so the answer is: C.",
     "attribution": "2018年第6届湖北长江杯五年级竞赛初赛A卷第3题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一个数把小数点向左移动一位后，就比原数少2.844，这个数原来是____.",
-    "text_en": "一个数把小数点向左移动一位后，就比原数少2.844，这个数原来是____.",
+    "text_en": "After a number moves the decimal point one place to the left, it is 2.844 less than the original number, which was originally ____.",
     "illustration": null,
     "choices": [
       {
@@ -6105,14 +6105,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设新数为x，则原数为10x，10x - x = 2.844，x = 0.316.原数 = 0.316 × 10 = 3.16.",
-    "explanation_en": "设新数为x，则原数为10x，10x - x = 2.844，x = 0.316.原数 = 0.316 × 10 = 3.16.",
+    "explanation_en": "If the new number is x, the original number is 10x, 10x - x = 2.844, x = 0.316. Original number = 0.316 × 10 = 3.16.",
     "attribution": "2004年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "小红有3种不同颜色的上衣，4种不同颜色的半身裙，问她共有____种不同的穿法．",
-    "text_en": "小红有3种不同颜色的上衣，4种不同颜色的半身裙，问她共有____种不同的穿法．",
+    "text_en": "Little Red has 3 different colored tops and 4 different colored skirts. Ask her about ____ different ways to wear them.",
     "illustration": null,
     "choices": [
       {
@@ -6134,14 +6134,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "分步用乘法，3 × 4 = 12，共有12种穿法．",
-    "explanation_en": "分步用乘法，3 × 4 = 12，共有12种穿法．",
+    "explanation_en": "Step-by-step multiplication, 3 × 4 = 12, there are 12 types of penetration.",
     "attribution": "2019年广东深圳全国小学生数学学习能力测评五年级竞赛初赛第7题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算： 100 ÷ 1.2 × 3 ÷ 5/6 × 14/15 = ____．",
-    "text_en": "计算： 100 ÷ 1.2 × 3 ÷ 5/6 × 14/15 = ____．",
+    "text_en": "Calculation: 100 ÷ 1.2 × 3 ÷ 5/6 × 14/15 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -6163,39 +6163,39 @@
     ],
     "correct_index": 0,
     "explanation_zh": "原式 = 100 × 5/6 × 3 × 6/5 × 19/15 = 380。",
-    "explanation_en": "原式 = 100 × 5/6 × 3 × 6/5 × 19/15 = 380。",
+    "explanation_en": "Formula = 100 × 5/6 × 3 × 6/5 × 19/15 = 380.",
     "attribution": "2009年希望杯五年级竞赛初赛"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "如果甲数 × 1.2 = 乙数 ÷ 1.2（甲数、乙数 ≠ 0），那么____．",
-    "text_en": "如果甲数 × 1.2 = 乙数 ÷ 1.2（甲数、乙数 ≠ 0），那么____．",
+    "text_en": "If A number × 1.2 = B number ÷ 1.2 (A number, B number ≠ 0), then ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "甲数 = 乙数",
-        "en": "甲数 = 乙数"
+        "en": "Number A = Number B"
       },
       {
         "zh": "甲数乙数",
-        "en": "甲数乙数"
+        "en": "Number A Number B Number"
       },
       {
         "zh": "甲数乙数",
-        "en": "甲数乙数"
+        "en": "Number A Number B Number"
       }
     ],
     "correct_index": 2,
     "explanation_zh": "1.2 = 6/5，即甲数 × 6/5 = 乙数 × 5/6（且甲、乙 ≠ 0），根据积的特性，当积一定时，一个因数越大，则另一个因数越小； 那么6/55/6，则甲乙．",
-    "explanation_en": "1.2 = 6/5，即甲数 × 6/5 = 乙数 × 5/6（且甲、乙 ≠ 0），根据积的特性，当积一定时，一个因数越大，则另一个因数越小； 那么6/55/6，则甲乙．",
+    "explanation_en": "1.2 = 6/5, that is, A number × 6/5 = B number × 5/6 (and A, B ≠ 0). According to the characteristics of the product, when the product is constant, the larger one factor, the smaller the other factor; then 6/55/6, A and B.",
     "attribution": "2018~2019学年浙江杭州西湖区杭州市行知小学五年级上学期期中期中竞赛第19题1分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "计算：37037037037 × 73/2703703703701 = ____．",
-    "text_en": "计算：37037037037 × 73/2703703703701 = ____．",
+    "text_en": "Calculation: 37037037037 × 73/2703703703701 = ____.",
     "illustration": null,
     "choices": [
       {
@@ -6204,7 +6204,7 @@
       },
       {
         "zh": "无法计算",
-        "en": "无法计算"
+        "en": "Unable to calculate"
       },
       {
         "zh": "1",
@@ -6217,14 +6217,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "原式 = 37 × 1001001001 × 73/2701 × 1001001001 = 2701 × 1001001001/2701 × 1001001001 = 1．",
-    "explanation_en": "原式 = 37 × 1001001001 × 73/2701 × 1001001001 = 2701 × 1001001001/2701 × 1001001001 = 1．",
+    "explanation_en": "Formula = 37 × 1001001001 × 73/2701 × 1001001001 = 2701 × 1001001001/2701 × 1001001001 = 1.",
     "attribution": "2017年第15届湖北武汉创新杯五年级竞赛初赛第11题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "三个相邻奇数的积是一个六位数3̅a̅b̅c̅d̅3̅，那么这三个奇数的和为____．",
-    "text_en": "三个相邻奇数的积是一个六位数3̅a̅b̅c̅d̅3̅，那么这三个奇数的和为____．",
+    "text_en": "The product of the three adjacent odd numbers is a six-digit number 3 aves a aves bs c times d times 3, so the sum of these three odd numbers is ____.",
     "illustration": null,
     "choices": [
       {
@@ -6246,14 +6246,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "末尾是3，三个奇数的末尾只能是7、9、1，考虑6位数，三个奇数是两位数，且首位在6 7之间，那么有67 × 69 × 71 = 328233满足，和是207．",
-    "explanation_en": "末尾是3，三个奇数的末尾只能是7、9、1，考虑6位数，三个奇数是两位数，且首位在6 7之间，那么有67 × 69 × 71 = 328233满足，和是207．",
+    "explanation_en": "The end is 3, the end of the three odd numbers can only be 7, 9, 1, considering 6 digits, the three odd numbers are two digits, and the first digit is between 6 and 7, then 67 × 69 × 71 = 328233 satisfies, and is 207.",
     "attribution": "2015年第13届全国创新杯小学高年级五年级竞赛复赛第5题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "已知20.11 - □ × 0.03 + 0.27 = 19.9，则□ = ____．",
-    "text_en": "已知20.11 - □ × 0.03 + 0.27 = 19.9，则□ = ____．",
+    "text_en": "Known 20.11 - □ × 0.03 + 0.27 = 19.9, then□ = ____.",
     "illustration": null,
     "choices": [
       {
@@ -6275,14 +6275,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "将当成未知数，解方程即可得到 = 16",
-    "explanation_en": "将当成未知数，解方程即可得到 = 16",
+    "explanation_en": "will be treated as an unknown, you can solve the equation to get = 16",
     "attribution": "2011年第7届全国新希望杯五年级竞赛A卷第1题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "3 + 33 + 333 + ·s + 33·s3(8个3)的结果____个位数字是．",
-    "text_en": "3 + 33 + 333 + ·s + 33·s3(8个3)的结果____个位数字是．",
+    "text_en": "The result of 3 + 33 + 333 + · s + 33 · s3 (8 3s) ____ digits is.",
     "illustration": null,
     "choices": [
       {
@@ -6304,14 +6304,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "原式的末三位和每个数的末三位有关系，有2007个3，2006个30，2005个300，则2007 × 3 + 2006 × 30 + 2005 × 300 = 6021 + 60180 + 601500 = 667701，原式末三位数字为701。",
-    "explanation_en": "原式的末三位和每个数的末三位有关系，有2007个3，2006个30，2005个300，则2007 × 3 + 2006 × 30 + 2005 × 300 = 6021 + 60180 + 601500 = 667701，原式末三位数字为701。",
+    "explanation_en": "The last three digits of the original formula are related to the last three digits of each number. There are 2007 3, 2006 30, and 2005 300, then 2007 × 3 + 2006 × 30 + 2005 × 300 = 6021 + 60180 + 601500 = 667701, and the last three digits of the original formula are 701.",
     "attribution": "2021年新希望杯五年级竞赛模拟（考前培训100题）第2题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "1/1/20 + 1/21 + 1/22 + ·s + 1/29 的整数部____分是．",
-    "text_en": "1/1/20 + 1/21 + 1/22 + ·s + 1/29 的整数部____分是．",
+    "text_en": "The integer part ____ of 1/1/20 + 1/21 + 1/22 + · s + 1/29 is.",
     "illustration": null,
     "choices": [
       {
@@ -6333,39 +6333,39 @@
     ],
     "correct_index": 2,
     "explanation_zh": "1/29 × 101/20 + 1/21 + ·s + 1/291/20 × 10， 10/291/20 + 1/21 + ·s + 1/291/2， 2/11/1/20 + 1/21 + ·s + 1/2929/10， 所以它的整数部分应是2",
-    "explanation_en": "1/29 × 101/20 + 1/21 + ·s + 1/291/20 × 10， 10/291/20 + 1/21 + ·s + 1/291/2， 2/11/1/20 + 1/21 + ·s + 1/2929/10， 所以它的整数部分应是2",
+    "explanation_en": "1/29 × 101/20 + 1/21 + · s + 1/291/20 × 10, 10/291/20 + 1/21 + · s + 1/291/2, 2/11/1/20 + 1/21 + · s + 1/2929/10, so its integer part should be 2",
     "attribution": "2019年第7届湖北长江杯五年级竞赛复赛B卷第1题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "石灰水是用石灰和水按照1∶100配制而成，要配制4545千克的石灰水，需要石灰多少千克？",
-    "text_en": "石灰水是用石灰和水按照1∶100配制而成，要配制4545千克的石灰水，需要石灰多少千克？",
+    "text_en": "Lime water is prepared with lime and water according to 1: 100. How many kilograms of lime is required to prepare 4545 kilograms of lime water?",
     "illustration": null,
     "choices": [
       {
         "zh": "35千克",
-        "en": "35千克"
+        "en": "35 kg"
       },
       {
         "zh": "45千克",
-        "en": "45千克"
+        "en": "(45 kg)<g id=\"3029\"> …</g>"
       },
       {
         "zh": "55千克",
-        "en": "55千克"
+        "en": "55 kg"
       }
     ],
     "correct_index": 1,
     "explanation_zh": "相当于把石灰水分成了101份，石灰占1份．所以石灰有4545 × 11 + 100 = 45（千克）．",
-    "explanation_en": "相当于把石灰水分成了101份，石灰占1份．所以石灰有4545 × 11 + 100 = 45（千克）．",
+    "explanation_en": "It is equivalent to dividing the lime water into 101 parts, and the lime accounts for 1 part. Therefore, the lime has 4545 × 11 + 100 = 45 (kg).",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "一个最大的三位数除以一个整数，得到的商四舍五入保留一位小数后是2.5，除数最小是____．",
-    "text_en": "一个最大的三位数除以一个整数，得到的商四舍五入保留一位小数后是2.5，除数最小是____．",
+    "text_en": "A maximum of three digits divided by an integer, the resulting quotient rounded to the nearest decimal is 2.5, and the least divisible is ____.",
     "illustration": null,
     "choices": [
       {
@@ -6387,14 +6387,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "要使得除数最小，那么商就尽可能的大，因此商无限接近于2.54·s ；999除以2.54符合条件的结果是392．",
-    "explanation_en": "要使得除数最小，那么商就尽可能的大，因此商无限接近于2.54·s ；999除以2.54符合条件的结果是392．",
+    "explanation_en": "To make the divisor as small as possible, the quotient is as large as possible, so the quotient is infinitely close to 2.54 · s; 999 divided by 2.54 The qualified result is 392.",
     "attribution": "2014年全国迎春杯五年级竞赛复赛第1题"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "如果10个互不相同的两位奇数之和为898，那么这是____个奇数中最大和最小的奇数之和是．",
-    "text_en": "如果10个互不相同的两位奇数之和为898，那么这是____个奇数中最大和最小的奇数之和是．",
+    "text_en": "If the sum of two odd numbers that are 10 different from each other is 898, then this is the sum of the largest and smallest odd numbers in the ____ odd numbers.",
     "illustration": null,
     "choices": [
       {
@@ -6416,14 +6416,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "898 ÷ 10 = 89.8 这10个互不相同的两位奇数中间的应该是89． 据此可以推算出这10个奇数分别是： 79、83、85、87、89、91、93、95、97、99． 79 + 99 = 178 故选：C．",
-    "explanation_en": "898 ÷ 10 = 89.8 这10个互不相同的两位奇数中间的应该是89． 据此可以推算出这10个奇数分别是： 79、83、85、87、89、91、93、95、97、99． 79 + 99 = 178 故选：C．",
+    "explanation_en": "898 ÷ 10 = 89.8 The middle of the 10 odd numbers that are different from each other should be 89. From this, it can be deduced that the 10 odd numbers are: 79, 83, 85, 87, 89, 91, 93, 95, 97, 99.79 + 99 = 178 Selected: C.",
     "attribution": "2018年第6届湖北长江杯五年级竞赛初赛B卷第8题3分"
   },
   {
     "difficulty": 3,
     "topic": "arithmetic",
     "text_zh": "算式1/1/20 + 1/21 + 1/22 + ·s + 1/29 的整数部____分是．",
-    "text_en": "算式1/1/20 + 1/21 + 1/22 + ·s + 1/29 的整数部____分是．",
+    "text_en": "The integer part ____ of formula 1/1/20 + 1/21 + 1/22 + · s + 1/29 is.",
     "illustration": null,
     "choices": [
       {

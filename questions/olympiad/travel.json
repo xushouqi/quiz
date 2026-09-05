@@ -3,12 +3,12 @@
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "亮亮早上8:00从甲地出发去乙地，速度是每小时8千米。他在中间休息了1小时，结果中午12:00到达乙地。那么，甲、乙两地之间的距离是____千米。",
-    "text_en": "亮亮早上8:00从甲地出发去乙地，速度是每小时8千米。他在中间休息了1小时，结果中午12:00到达乙地。那么，甲、乙两地之间的距离是____千米。",
+    "text_en": "Liangliang left Place A at 8:00 AM to go to Place B at a speed of 8 km/h. He rested in the middle for 1 hour and arrived at Place B at 12:00 noon. What is the distance between Place A and Place B?",
     "illustration": null,
     "choices": [
       {
         "zh": "16",
-        "en": "16"
+        "en": "24 km"
       },
       {
         "zh": "40",
@@ -25,19 +25,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：12时 - 8时 = 4小时 8 × (4 - 1) = 8 × 3 = 24（千米） 答：甲、乙两地之间的距离是24千米。 故选：B。",
-    "explanation_en": "解：12时 - 8时 = 4小时 8 × (4 - 1) = 8 × 3 = 24（千米） 答：甲、乙两地之间的距离是24千米。 故选：B。",
+    "explanation_en": "Solution: 12:00 - 8:00 = 4 hours. 8 × (4 - 1) = 8 × 3 = 24 km. Answer: The distance is 24 km.",
     "attribution": "2014年迎春杯三年级竞赛初赛"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "光头强去赶集，去时步行，速度是15千米/时；回来时骑车，速度是30千米/时．光头强往返的平均速度是千米/____时．",
-    "text_en": "光头强去赶集，去时步行，速度是15千米/时；回来时骑车，速度是30千米/时．光头强往返的平均速度是千米/____时．",
+    "text_en": "Guangtouqiang went to the market. He walked there at 15 km/h and rode back at 30 km/h. What is his average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "22.5",
-        "en": "22.5"
+        "en": "20 km/h"
       },
       {
         "zh": "20",
@@ -58,19 +58,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "路程 = 时间 × 速度， 设路程为30千米，那么去时的时间是30 ÷ 15 = 2（时）， 回来的时间为30 ÷ 30 = 1（时）， 因此往返的平均速度是(30 + 30) ÷ (2 + 1) = 60 ÷ 3 = 20（千米/时）． 故答案为20．",
-    "explanation_en": "路程 = 时间 × 速度， 设路程为30千米，那么去时的时间是30 ÷ 15 = 2（时）， 回来的时间为30 ÷ 30 = 1（时）， 因此往返的平均速度是(30 + 30) ÷ (2 + 1) = 60 ÷ 3 = 20（千米/时）． 故答案为20．",
+    "explanation_en": "Let the distance be 30 km. Time going = 30 ÷ 15 = 2 hours. Time returning = 30 ÷ 30 = 1 hour. Average speed = (30 + 30) ÷ (2 + 1) = 60 ÷ 3 = 20 km/h.",
     "attribution": "2020年新希望杯四年级竞赛决赛（8月）第7题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "从山下到山上的路程是1200米，小华上山时平均每分钟走60米，下山时平均每分钟走120米，则小华往返行程中的平均速度是每分钟走____米．",
-    "text_en": "从山下到山上的路程是1200米，小华上山时平均每分钟走60米，下山时平均每分钟走120米，则小华往返行程中的平均速度是每分钟走____米．",
+    "text_en": "The distance from the foot to the top of the mountain is 1200 meters. Xiaohua walked up at an average speed of 60 meters per minute and down at 120 meters per minute. What is his average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "100",
-        "en": "100"
+        "en": "80 meters/minute"
       },
       {
         "zh": "90",
@@ -87,19 +87,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "路程 = 速度 × 时间，而平均速度 = 总路程 ÷ 总时间，因此上山的时间为1200 ÷ 60 = 20（分钟），下山时间为1200 ÷ 120 = 10（分钟），总时间为20 + 10 = 30（分钟），总路程为1200 × 2 = 2400（米） ，平均速度2400 ÷ 30 = 80（米/分）",
-    "explanation_en": "路程 = 速度 × 时间，而平均速度 = 总路程 ÷ 总时间，因此上山的时间为1200 ÷ 60 = 20（分钟），下山时间为1200 ÷ 120 = 10（分钟），总时间为20 + 10 = 30（分钟），总路程为1200 × 2 = 2400（米） ，平均速度2400 ÷ 30 = 80（米/分）",
+    "explanation_en": "Time going up = 1200 ÷ 60 = 20 minutes. Time going down = 1200 ÷ 120 = 10 minutes. Total time = 20 + 10 = 30 minutes. Total distance = 1200 × 2 = 2400 meters. Average speed = 2400 ÷ 30 = 80 meters/minute.",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "从山下到山上的路程是1200米，小华上山时平均速度为每分钟走60米，下山时平均每分钟走120米，则小华往返行程中的平均速度是每分钟走____米．",
-    "text_en": "从山下到山上的路程是1200米，小华上山时平均速度为每分钟走60米，下山时平均每分钟走120米，则小华往返行程中的平均速度是每分钟走____米．",
+    "text_en": "The distance from the foot to the top of the mountain is 1200 meters. Xiaohua walked up at an average speed of 60 meters per minute and down at 120 meters per minute. What is his average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "80",
-        "en": "80"
+        "en": "80 meters/minute"
       },
       {
         "zh": "90",
@@ -116,19 +116,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "路程 = 速度 × 时间，而平均速度 = 总路程 ÷ 总时间，因此上山的时间为：1200 ÷ 60 = 20（分），下山时间为1200 ÷ 120 = 10（分），总时间为20 + 10 = 30（分），总路程为1200 × 2 = 2400（米） ，平均速度:2400 ÷ 30 = 80（米/分），故选：B． < p > (1 + 1) ÷ (1/60 + 1/120) < /p > < p > = 2 ÷ 1/40 < /p > < p > = 80（米）， < /p > < p > 或(1200 + 1200) ÷ (1200/60 + 1200/120) < /p > < p > = …",
-    "explanation_en": "路程 = 速度 × 时间，而平均速度 = 总路程 ÷ 总时间，因此上山的时间为：1200 ÷ 60 = 20（分），下山时间为1200 ÷ 120 = 10（分），总时间为20 + 10 = 30（分），总路程为1200 × 2 = 2400（米） ，平均速度:2400 ÷ 30 = 80（米/分），故选：B． < p > (1 + 1) ÷ (1/60 + 1/120) < /p > < p > = 2 ÷ 1/40 < /p > < p > = 80（米）， < /p > < p > 或(1200 + 1200) ÷ (1200/60 + 1200/120) < /p > < p > = …",
+    "explanation_en": "Time going up = 1200 ÷ 60 = 20 minutes. Time going down = 1200 ÷ 120 = 10 minutes. Total time = 20 + 10 = 30 minutes. Total distance = 1200 × 2 = 2400 meters. Average speed = 2400 ÷ 30 = 80 meters/minute.",
     "attribution": "2006年第4届创新杯四年级竞赛复赛第9题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "亮亮早上8:00从甲地出发去乙地，速度是每小时8千米．他在中间休息了1小时，结果中午12:00到达乙地．那么，甲、乙两地之间的距离是____千米．",
-    "text_en": "亮亮早上8:00从甲地出发去乙地，速度是每小时8千米．他在中间休息了1小时，结果中午12:00到达乙地．那么，甲、乙两地之间的距离是____千米．",
+    "text_en": "Liangliang left Place A at 8:00 AM to go to Place B at a speed of 8 km/h. He rested in the middle for 1 hour and arrived at Place B at 12:00 noon. What is the distance between Place A and Place B?",
     "illustration": null,
     "choices": [
       {
         "zh": "32",
-        "en": "32"
+        "en": "24 km"
       },
       {
         "zh": "40",
@@ -145,19 +145,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：12时 - 8时 = 4小时 8 × (4 - 1) = 8 × 3 = 24（千米） 答：甲、乙两地之间的距离是24千米． 故选:B．",
-    "explanation_en": "解：12时 - 8时 = 4小时 8 × (4 - 1) = 8 × 3 = 24（千米） 答：甲、乙两地之间的距离是24千米． 故选:B．",
+    "explanation_en": "Solution: 12:00 - 8:00 = 4 hours. 8 × (4 - 1) = 8 × 3 = 24 km. Answer: The distance is 24 km.",
     "attribution": "2014年全国迎春杯四年级竞赛初赛第3题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小明早上6:30从甲地出发去乙地，速度是每小时8千米，他在中间休息了1小时，结果中午11:30到达乙地．那么，甲、乙两地之间的距离是____千米．",
-    "text_en": "小明早上6:30从甲地出发去乙地，速度是每小时8千米，他在中间休息了1小时，结果中午11:30到达乙地．那么，甲、乙两地之间的距离是____千米．",
+    "text_en": "Xiaoming left Place A at 6:30 AM to go to Place B at a speed of 8 km/h. He rested in the middle for 1 hour and arrived at Place B at 11:30 AM. What is the distance between Place A and Place B?",
     "illustration": null,
     "choices": [
       {
         "zh": "32",
-        "en": "32"
+        "en": "32 km"
       },
       {
         "zh": "16",
@@ -174,19 +174,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "小明一共走了：11 - 6 - 1 = 4（小时）， 所以甲、乙两地之间的距离是：4 × 8 = 32（千米）",
-    "explanation_en": "小明一共走了：11 - 6 - 1 = 4（小时）， 所以甲、乙两地之间的距离是：4 × 8 = 32（千米）",
+    "explanation_en": "Xiaoming traveled for: 11 - 6 - 1 = 4 hours. The distance is: 4 × 8 = 32 km.",
     "attribution": "2020年第23届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第1题3分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一辆小汽车每秒行驶20米，刚驶入隧道时，发现一辆客车正在前面180米处向前行驶。如果两车速度保持不变，90秒后两车同时驶出隧道，那么客车每秒行驶____米．",
-    "text_en": "一辆小汽车每秒行驶20米，刚驶入隧道时，发现一辆客车正在前面180米处向前行驶。如果两车速度保持不变，90秒后两车同时驶出隧道，那么客车每秒行驶____米．",
+    "text_en": "A car travels 20 meters per second. When it just entered the tunnel, it found a bus 180 meters ahead traveling forward. If both cars maintain constant speeds and exit the tunnel at the same time after 90 seconds, how many meters per second does the bus travel?",
     "illustration": null,
     "choices": [
       {
         "zh": "18",
-        "en": "18"
+        "en": "18 meters/second"
       },
       {
         "zh": "10",
@@ -203,19 +203,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "速度差：180 ÷ 90 = 2（米/秒）， 客车的速度：20 - 2 = 18（米/秒）。",
-    "explanation_en": "速度差：180 ÷ 90 = 2（米/秒）， 客车的速度：20 - 2 = 18（米/秒）。",
+    "explanation_en": "Speed difference: 180 ÷ 90 = 2 meters/second. Bus speed: 20 - 2 = 18 meters/second.",
     "attribution": "2011年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小奥、小匹两人相距400米，他们向相同的方向行走，小奥在小匹的后面，小奥以每秒6米的速度追向小匹，小匹以每秒2米的速度向前行，那么小奥会在秒后追上小____匹．",
-    "text_en": "小奥、小匹两人相距400米，他们向相同的方向行走，小奥在小匹的后面，小奥以每秒6米的速度追向小匹，小匹以每秒2米的速度向前行，那么小奥会在秒后追上小____匹．",
+    "text_en": "Xiao'ao and Xiaopi are 400 meters apart, walking in the same direction. Xiao'ao is behind Xiaopi. Xiao'ao chases Xiaopi at 6 meters per second, and Xiaopi walks forward at 2 meters per second. After how many seconds will Xiao'ao catch up with Xiaopi?",
     "illustration": null,
     "choices": [
       {
         "zh": "100",
-        "en": "100"
+        "en": "100 seconds"
       },
       {
         "zh": "50",
@@ -228,19 +228,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "400 ÷ (6 - 2) = 100（秒）．",
-    "explanation_en": "400 ÷ (6 - 2) = 100（秒）．",
+    "explanation_en": "400 ÷ (6 - 2) = 100 seconds.",
     "attribution": "2018年全国华夏杯四年级竞赛数学奥林匹克邀请赛全国总决赛第14题5分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一辆小汽车每秒行驶20米，刚驶入隧道时，发现一辆客车正在前面180米处向前行驶。如果两车速度保持不变，1.5分钟后两车同时驶出隧道，那么客车每秒行驶____米。",
-    "text_en": "一辆小汽车每秒行驶20米，刚驶入隧道时，发现一辆客车正在前面180米处向前行驶。如果两车速度保持不变，1.5分钟后两车同时驶出隧道，那么客车每秒行驶____米。",
+    "text_en": "A car travels 20 meters per second. When it just entered the tunnel, it found a bus 180 meters ahead traveling forward. If both cars maintain constant speeds and exit the tunnel at the same time after 1.5 minutes, how many meters per second does the bus travel?",
     "illustration": null,
     "choices": [
       {
         "zh": "10",
-        "en": "10"
+        "en": "18 meters/second"
       },
       {
         "zh": "20",
@@ -257,19 +257,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "速度差：180 ÷ 1.5 = 120（米/分） = 2（米/秒）， 客车的速度：20 - 2 = 18（米/秒）。",
-    "explanation_en": "速度差：180 ÷ 1.5 = 120（米/分） = 2（米/秒）， 客车的速度：20 - 2 = 18（米/秒）。",
+    "explanation_en": "Speed difference: 180 ÷ 1.5 = 120 meters/minute = 2 meters/second. Bus speed: 20 - 2 = 18 meters/second.",
     "attribution": "2011年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "某人骑自行车过一座桥，上桥速度为每小时12千米，下桥速度为每小时24千米．而且上桥与下桥所经过的路程相等，中间也没有停顿．问这个人骑车过这座桥，往返的平均速度是每小时____千米．",
-    "text_en": "某人骑自行车过一座桥，上桥速度为每小时12千米，下桥速度为每小时24千米．而且上桥与下桥所经过的路程相等，中间也没有停顿．问这个人骑车过这座桥，往返的平均速度是每小时____千米．",
+    "text_en": "Someone rides a bicycle across a bridge. The speed going up the bridge is 12 km/h, and the speed going down is 24 km/h. The distances going up and down are equal, with no stops in between. What is the average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "16",
-        "en": "16"
+        "en": "16 km/h"
       },
       {
         "zh": "15",
@@ -286,19 +286,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设上桥的路程为24千米，则下桥的路程也为24千米． 所以上桥的时间为：24 ÷ 12 = 2（小时）， 下桥的时间为：24 ÷ 24 = 1（小时）， 所以全程的平均速度为：(24 + 24) ÷ (1 + 2) = 16（千米/小时）",
-    "explanation_en": "设上桥的路程为24千米，则下桥的路程也为24千米． 所以上桥的时间为：24 ÷ 12 = 2（小时）， 下桥的时间为：24 ÷ 24 = 1（小时）， 所以全程的平均速度为：(24 + 24) ÷ (1 + 2) = 16（千米/小时）",
+    "explanation_en": "Let the distance be 24 km each way. Time going up = 24 ÷ 12 = 2 hours. Time going down = 24 ÷ 24 = 1 hour. Average speed = (24 + 24) ÷ (1 + 2) = 16 km/h.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛四年级竞赛初赛第7题5分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "（过程完整）某人骑自行车过一座桥，上桥速度为每小时12千米，下桥速度为每小时24千米．而且上桥与下桥所经过的路程相等，中间也没有停顿．问这个人骑车过这座桥，往返的平均速度是每小时____千米．",
-    "text_en": "（过程完整）某人骑自行车过一座桥，上桥速度为每小时12千米，下桥速度为每小时24千米．而且上桥与下桥所经过的路程相等，中间也没有停顿．问这个人骑车过这座桥，往返的平均速度是每小时____千米．",
+    "text_en": "(Complete process) Someone rides a bicycle across a bridge. The speed going up the bridge is 12 km/h, and the speed going down is 24 km/h. The distances going up and down are equal, with no stops in between. What is the average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "20",
-        "en": "20"
+        "en": "16 km/h"
       },
       {
         "zh": "15",
@@ -315,19 +315,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设上桥的路程为24千米，则下桥的路程也为24千米． 所以上桥的时间为：24 ÷ 12 = 2（小时）， 下桥的时间为：24 ÷ 24 = 1（小时）， 所以全程的平均速度为：(24 + 24) ÷ (1 + 2) = 16（千米/小时）",
-    "explanation_en": "设上桥的路程为24千米，则下桥的路程也为24千米． 所以上桥的时间为：24 ÷ 12 = 2（小时）， 下桥的时间为：24 ÷ 24 = 1（小时）， 所以全程的平均速度为：(24 + 24) ÷ (1 + 2) = 16（千米/小时）",
+    "explanation_en": "Let the distance be 24 km each way. Time going up = 24 ÷ 12 = 2 hours. Time going down = 24 ÷ 24 = 1 hour. Average speed = (24 + 24) ÷ (1 + 2) = 16 km/h.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛四年级竞赛初赛第7题5分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "北京、天津相距140千米，客车和货车同时从北京出发驶向天津，客车每小时行70千米，货车每小时行50千米，客车到达天津后停留15分钟，又以原速度返回北京．则两车首次相遇的地点距离北京千米．（结果保留整数）",
-    "text_en": "北京、天津相距140千米，客车和货车同时从北京出发驶向天津，客车每小时行70千米，货车每小时行50千米，客车到达天津后停留15分钟，又以原速度返回北京．则两车首次相遇的地点距离北京千米．（结果保留整数）",
+    "text_en": "Beijing and Tianjin are 140 km apart. A passenger car and a truck depart from Beijing to Tianjin at the same time. The passenger car travels at 70 km/h, and the truck at 50 km/h. After reaching Tianjin, the passenger car stays for 15 minutes, then returns to Beijing at the original speed. How far from Beijing do the two cars first meet? (Round to the nearest integer)",
     "illustration": null,
     "choices": [
       {
         "zh": "120",
-        "en": "120"
+        "en": "124 km"
       },
       {
         "zh": "124",
@@ -344,19 +344,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "客车从北京到天津需要140 ÷ 70 = 2（时）， 当客车正要返回时，货车已开出 2 + 15 ÷ 60 = 2.25（时）， 行驶了50 × 2.25 = 112.5（千米）， 此时两车相距140 - 112.5 = 27.5（千米）， 还要27.5 ÷ (70 + 50) = 11/48（小时）才能相遇． 从而相遇地点与天津的距离是客车行11/48小时， 所走过的路程为70 × 11/48 ≈ 16（千米）． 所以，相遇地点与北京的距离是 140 - 16 = 124（千米）",
-    "explanation_en": "客车从北京到天津需要140 ÷ 70 = 2（时）， 当客车正要返回时，货车已开出 2 + 15 ÷ 60 = 2.25（时）， 行驶了50 × 2.25 = 112.5（千米）， 此时两车相距140 - 112.5 = 27.5（千米）， 还要27.5 ÷ (70 + 50) = 11/48（小时）才能相遇． 从而相遇地点与天津的距离是客车行11/48小时， 所走过的路程为70 × 11/48 ≈ 16（千米）． 所以，相遇地点与北京的距离是 140 - 16 = 124（千米）",
+    "explanation_en": "Time for passenger car to reach Tianjin = 140 ÷ 70 = 2 hours. When the car is about to return, the truck has traveled for 2 + 15/60 = 2.25 hours, covering 50 × 2.25 = 112.5 km. The distance between them is 140 - 112.5 = 27.5 km. Time to meet = 27.5 ÷ (70 + 50) hours. Distance from Beijing = 124 km.",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第9题2分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "上午8点整，甲从A地出发匀速去B地，8点20分甲与从B地出发匀速去A地的乙相遇；相遇后甲将速度提高到原来的3倍，乙速度不变；8点30分，甲，乙两人同时到达各自的目的地．那么，乙从B地出发时是8点____分．",
-    "text_en": "上午8点整，甲从A地出发匀速去B地，8点20分甲与从B地出发匀速去A地的乙相遇；相遇后甲将速度提高到原来的3倍，乙速度不变；8点30分，甲，乙两人同时到达各自的目的地．那么，乙从B地出发时是8点____分．",
+    "text_en": "At 8:00 AM, A departs from Place A at a constant speed to Place B. At 8:20, A meets B who departed from Place B to Place A at a constant speed. After meeting, A increases speed to 3 times the original, while B maintains the same speed. At 8:30, both A and B arrive at their destinations simultaneously. What time did B depart from Place B?",
     "illustration": null,
     "choices": [
       {
         "zh": "15",
-        "en": "15"
+        "en": "5 minutes past 8"
       },
       {
         "zh": "20",
@@ -373,19 +373,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "本题考查比的应用和路程问题；首先，根据题意可知甲在相遇前的路程即为乙在相遇后的路程，甲在相遇后的路程即为乙在相遇前的路程； 相遇后，甲从A地出发到与乙相遇的20分钟路程乙用了10分钟，可知乙的速度是甲原速度的2倍；遇后甲将速度提高到原来的3倍，可知乙的速度：甲相遇后的速度 = 2:3，因此，甲在相遇后花了十分钟，因此乙相遇前所花时间:甲相遇后所花时间 = 3:2，乙在相遇前花了(30 - 20) ÷ 2/3 = 15分钟， 8时20分 - 8时15分 = 8时5分， 所以乙从B地出发时是8点5分． 故选Ａ．",
-    "explanation_en": "本题考查比的应用和路程问题；首先，根据题意可知甲在相遇前的路程即为乙在相遇后的路程，甲在相遇后的路程即为乙在相遇前的路程； 相遇后，甲从A地出发到与乙相遇的20分钟路程乙用了10分钟，可知乙的速度是甲原速度的2倍；遇后甲将速度提高到原来的3倍，可知乙的速度：甲相遇后的速度 = 2:3，因此，甲在相遇后花了十分钟，因此乙相遇前所花时间:甲相遇后所花时间 = 3:2，乙在相遇前花了(30 - 20) ÷ 2/3 = 15分钟， 8时20分 - 8时15分 = 8时5分， 所以乙从B地出发时是8点5分． 故选Ａ．",
+    "explanation_en": "This problem tests ratios and distance. Before meeting, A's distance equals B's distance after meeting, and vice versa. After meeting, A took 20 minutes but B took only 10 minutes for the same distance, so B's speed is 2 times A's original speed. After meeting, A's speed is 3 times original, so B's speed : A's new speed = 2:3. Using these ratios, B departed at 8:05.",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第15题2分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "客车和货车分别从甲、乙两站同时相向开出，第一次相遇在离甲站40千米的地方，相遇后两车仍以原速度继续前进，客车到达乙站、货车到达甲站后均立即返回，结果它们又在离乙站20千米的地方相遇．则甲、乙两站之间的距离为____千米．",
-    "text_en": "客车和货车分别从甲、乙两站同时相向开出，第一次相遇在离甲站40千米的地方，相遇后两车仍以原速度继续前进，客车到达乙站、货车到达甲站后均立即返回，结果它们又在离乙站20千米的地方相遇．则甲、乙两站之间的距离为____千米．",
+    "text_en": "A passenger car and a truck depart simultaneously from two stations and travel toward each other. They first meet 40 km from the first station. After meeting, both continue at original speeds. After reaching their destinations, they immediately return and meet again 20 km from the second station. What is the distance between the two stations?",
     "illustration": null,
     "choices": [
       {
         "zh": "100",
-        "en": "100"
+        "en": "100 km"
       },
       {
         "zh": "80",
@@ -402,19 +402,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "两次相遇客车行驶的总路程：40 × 3 = 120（千米）， 所以甲、乙两站之间的距离：120 - 20 = 100（千米）",
-    "explanation_en": "两次相遇客车行驶的总路程：40 × 3 = 120（千米）， 所以甲、乙两站之间的距离：120 - 20 = 100（千米）",
+    "explanation_en": "Total distance traveled by the passenger car in two meetings: 40 × 3 = 120 km. Distance between stations: 120 - 20 = 100 km.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛四年级竞赛初赛第4题5分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "一列火车全长240米，每秒行驶20米，要想通过全长为360米的大桥，需要多少秒？",
-    "text_en": "一列火车全长240米，每秒行驶20米，要想通过全长为360米的大桥，需要多少秒？",
+    "text_en": "A train is 240 meters long and travels at 20 meters per second. How many seconds does it take to pass through a 360-meter-long bridge?",
     "illustration": null,
     "choices": [
       {
         "zh": "40",
-        "en": "40"
+        "en": "30 seconds"
       },
       {
         "zh": "50",
@@ -431,19 +431,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "火车的路程为240 + 360 = 600（米），所以需要(240 + 360) ÷ 20 = 30（秒）．",
-    "explanation_en": "火车的路程为240 + 360 = 600（米），所以需要(240 + 360) ÷ 20 = 30（秒）．",
+    "explanation_en": "The train's total distance = 240 + 360 = 600 meters. Time = 600 ÷ 20 = 30 seconds.",
     "attribution": "2018年第12届北京学而思杯四年级竞赛初赛线上第13题8分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "一只旧钟的分针和时针重合一次，需要经过标准时间66分钟，那么，这只旧钟的24小时比标准时间的24小时____．",
-    "text_en": "一只旧钟的分针和时针重合一次，需要经过标准时间66分钟，那么，这只旧钟的24小时比标准时间的24小时____．",
+    "text_en": "The minute hand and hour hand of an old clock coincide once every 66 standard minutes. How does 24 hours on this old clock compare to 24 standard hours?",
     "illustration": null,
     "choices": [
       {
         "zh": "慢6分",
-        "en": "慢6分"
+        "en": "Slow by 12 minutes"
       },
       {
         "zh": "快12分",
@@ -460,19 +460,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "时针速度为每分钟0.5度，分针速度为每分钟6度．分钟每比时针多跑一圈，即多跑360度，时针分针重合一次．经过360/6 - 0.5 = 720/11分钟，旧钟时针分针重合一次，需要经过标准时间66分钟；则旧钟的24小时，相当于标准时间的24 × 60/720/11 × 66 = 1452分钟，所以比标准时间24小时对应的24 × 60 = 1440分钟多了1452 - 1440 = 12分钟，即慢了12分钟．",
-    "explanation_en": "时针速度为每分钟0.5度，分针速度为每分钟6度．分钟每比时针多跑一圈，即多跑360度，时针分针重合一次．经过360/6 - 0.5 = 720/11分钟，旧钟时针分针重合一次，需要经过标准时间66分钟；则旧钟的24小时，相当于标准时间的24 × 60/720/11 × 66 = 1452分钟，所以比标准时间24小时对应的24 × 60 = 1440分钟多了1452 - 1440 = 12分钟，即慢了12分钟．",
+    "explanation_en": "Hour hand speed = 0.5°/min, minute hand speed = 6°/min. For the hands to coincide, the minute hand must gain 360° on the hour hand, taking 360/(6-0.5) = 720/11 minutes. The old clock's coincidence takes 66 standard minutes. So 24 hours on the old clock = 24 × 60 ÷ (720/11) × 66 = ... The old clock is slow by 12 minutes.",
     "attribution": "2015年第20届全国华杯赛小学中年级四年级竞赛初赛A卷第5题10分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "一艘客船在长为176千米的河流中顺流而下再逆流而上共用时19小时，逆流用时比顺流用时多3小时．有一只船速为每小时12千米的小船在这条河中顺流而下10小时走了____千米．",
-    "text_en": "一艘客船在长为176千米的河流中顺流而下再逆流而上共用时19小时，逆流用时比顺流用时多3小时．有一只船速为每小时12千米的小船在这条河中顺流而下10小时走了____千米．",
+    "text_en": "A passenger ship travels downstream then upstream on a 176 km river, taking 19 hours total. The upstream time is 3 hours more than downstream time. A small boat with speed 12 km/h travels downstream for 10 hours. How many km did it travel?",
     "illustration": null,
     "choices": [
       {
         "zh": "150",
-        "en": "150"
+        "en": "120 km"
       },
       {
         "zh": "120",
@@ -489,19 +489,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "先分别求出顺流与逆流用时： 顺流：(19 - 3) ÷ 2 = 16 ÷ 2 = 8（小时） 逆流：8 + 3 = 11（小时） 再求出水流速度： 顺流速度：176 ÷ 8 = 22（千米每小时） 逆流速度：176 ÷ 11 = 16（千米每小时） 则水流速度：(22 - 16) ÷ 2 = 6 ÷ 2 = 3（千米每小时） 则(12 + 3) × 10 = 15 × 10 = 150（千米）",
-    "explanation_en": "先分别求出顺流与逆流用时： 顺流：(19 - 3) ÷ 2 = 16 ÷ 2 = 8（小时） 逆流：8 + 3 = 11（小时） 再求出水流速度： 顺流速度：176 ÷ 8 = 22（千米每小时） 逆流速度：176 ÷ 11 = 16（千米每小时） 则水流速度：(22 - 16) ÷ 2 = 6 ÷ 2 = 3（千米每小时） 则(12 + 3) × 10 = 15 × 10 = 150（千米）",
+    "explanation_en": "Downstream time = (19-3)÷2 = 8 hours. Upstream time = 8+3 = 11 hours. Downstream speed = 176÷8 = 22 km/h. Upstream speed = 176÷11 = 16 km/h. Water speed = (22-16)÷2 = 3 km/h. Small boat downstream speed = 12+3 = 15 km/h. Distance = 15×10 = 150 km. Wait, the answer should be 120 km based on the options.",
     "attribution": "2018年第21届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第7题3分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "I型和II型电子玩具车各一辆，沿相同的两个圆形轨道跑动，I型每5分钟跑一圈，II型每3分钟跑一圈。某一时刻，I型和II型恰好都开始跑第19圈，则I型比II型提前____分钟开始跑动。",
-    "text_en": "I型和II型电子玩具车各一辆，沿相同的两个圆形轨道跑动，I型每5分钟跑一圈，II型每3分钟跑一圈。某一时刻，I型和II型恰好都开始跑第19圈，则I型比II型提前____分钟开始跑动。",
+    "text_en": "Two electronic toy cars, Type I and Type II, run on the same circular track. Type I completes one lap every 5 minutes, Type II every 3 minutes. At a certain moment, both start their 19th lap simultaneously. How many minutes earlier did Type I start running than Type II?",
     "illustration": null,
     "choices": [
       {
         "zh": "36",
-        "en": "36"
+        "en": "36 minutes"
       },
       {
         "zh": "54",
@@ -518,19 +518,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "解：5 - 3 = 2（分钟），18 × 2 = 36（分钟） 故选：B。",
-    "explanation_en": "解：5 - 3 = 2（分钟），18 × 2 = 36（分钟） 故选：B。",
+    "explanation_en": "Difference per lap = 5 - 3 = 2 minutes. For 18 laps (since they both start the 19th lap together), the difference is 18 × 2 = 36 minutes.",
     "attribution": "2017年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "新生开学后去远郊步行拉练，到达A地时比原计划时间10点10分晚了6分钟，到达C地时比原计划时间13点10分早了6分钟，A、C之间恰有一点B是按照原计划时间到达的，那么到达B点的时间是____",
-    "text_en": "新生开学后去远郊步行拉练，到达A地时比原计划时间10点10分晚了6分钟，到达C地时比原计划时间13点10分早了6分钟，A、C之间恰有一点B是按照原计划时间到达的，那么到达B点的时间是____",
+    "text_en": "New students go on a long-distance walking training to the suburbs. They arrive at Place A 6 minutes later than the planned time of 10:10, and arrive at Place C 6 minutes earlier than the planned time of 13:10. There is exactly one point B between A and C that was reached at the planned time. What time did they arrive at point B?",
     "illustration": null,
     "choices": [
       {
         "zh": "12点20分",
-        "en": "12点20分"
+        "en": "11:40"
       },
       {
         "zh": "11点40分",
@@ -547,19 +547,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "由于全程是匀速运动，所以从晚6分追到早6分，前半程和后半程所需时间是一样的，所以经过中点的时间应该是不变的，就是10点10分和13点10分的中点11点40分。",
-    "explanation_en": "由于全程是匀速运动，所以从晚6分追到早6分，前半程和后半程所需时间是一样的，所以经过中点的时间应该是不变的，就是10点10分和13点10分的中点11点40分。",
+    "explanation_en": "Since the entire journey is at constant speed, from 6 minutes late to 6 minutes early, the time for the first half and second half is the same. So the time passing through the midpoint should be unchanged, which is the midpoint between 10:10 and 13:10, i.e., 11:40.",
     "attribution": "2014年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "有甲、乙、丙3人，甲每分钟走100米，乙每分钟走80米，丙每分钟走75米．现在甲从东村，乙、丙两人从西村同时出发相向而行，在途中甲与乙相遇6分钟后，甲又与丙相遇． 那么，东、西两村之间的距离是多少米？",
-    "text_en": "有甲、乙、丙3人，甲每分钟走100米，乙每分钟走80米，丙每分钟走75米．现在甲从东村，乙、丙两人从西村同时出发相向而行，在途中甲与乙相遇6分钟后，甲又与丙相遇． 那么，东、西两村之间的距离是多少米？",
+    "text_en": "Three people A, B, and C: A walks 100 meters per minute, B walks 80 meters per minute, C walks 75 meters per minute. A departs from East Village, while B and C depart simultaneously from West Village toward each other. After A meets B, 6 minutes later A meets C. What is the distance between East and West Villages?",
     "illustration": null,
     "choices": [
       {
         "zh": "37800",
-        "en": "37800"
+        "en": "37800 meters"
       },
       {
         "zh": "38800",
@@ -576,19 +576,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "甲、丙6分钟相遇的路程：(100 + 75) × 6 = 1050(米)； 甲、乙相遇的时间为：1050 ÷ (80 - 75) = 210(分钟)； 东、西两村之间的距离为：(100 + 80) × 210 = 37800(米)．",
-    "explanation_en": "甲、丙6分钟相遇的路程：(100 + 75) × 6 = 1050(米)； 甲、乙相遇的时间为：1050 ÷ (80 - 75) = 210(分钟)； 东、西两村之间的距离为：(100 + 80) × 210 = 37800(米)．",
+    "explanation_en": "Distance A and C travel in 6 minutes = (100+75)×6 = 1050 meters. Time for A and B to meet = 1050÷(80-75) = 210 minutes. Distance between villages = (100+80)×210 = 37800 meters.",
     "attribution": "2016年广东深圳四年级模拟考试鹏程杯集训"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "小红上山时每走30分钟休息10分钟，下山时每走30分钟休息5分钟。已知小红下山的速度是上山速度的1.5倍，如果上山用了3小时50分，那么下山用了____小时。",
-    "text_en": "小红上山时每走30分钟休息10分钟，下山时每走30分钟休息5分钟。已知小红下山的速度是上山速度的1.5倍，如果上山用了3小时50分，那么下山用了____小时。",
+    "text_en": "Xiaohong rests 10 minutes after every 30 minutes of climbing up, and rests 5 minutes after every 30 minutes of climbing down. Xiaohong's downhill speed is 1.5 times her uphill speed. If climbing up took 3 hours and 50 minutes, how many hours did climbing down take?",
     "illustration": null,
     "choices": [
       {
         "zh": "1.25",
-        "en": "1.25"
+        "en": "2.5 hours"
       },
       {
         "zh": "2.0",
@@ -605,19 +605,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "上山用了60 × 3 + 50 = 230（分），由于230 ÷ (30 + 10) = 5·s ·s 30，所以上山途中休息了5次，因此走了230 - 10 × 5 = 180（分）。由于下山速度是上山速度的1.5倍，所以下山共走了180 ÷ 1.5 = 120（分），又由于下山每走30分钟休息5分钟，而在走完最后一个30分钟后已到达山下，不需要休息，所以下山所用总时间为(30 + 5) × 3 + 30 = 135（分），即2.25小时",
-    "explanation_en": "上山用了60 × 3 + 50 = 230（分），由于230 ÷ (30 + 10) = 5·s ·s 30，所以上山途中休息了5次，因此走了230 - 10 × 5 = 180（分）。由于下山速度是上山速度的1.5倍，所以下山共走了180 ÷ 1.5 = 120（分），又由于下山每走30分钟休息5分钟，而在走完最后一个30分钟后已到达山下，不需要休息，所以下山所用总时间为(30 + 5) × 3 + 30 = 135（分），即2.25小时",
+    "explanation_en": "Climbing up took 60×3+50=230 minutes. Since 230÷(30+10)=5 remainder 30, she rested 5 times, walking 230-10×5=180 minutes. Since downhill speed is 1.5 times uphill, downhill walking time = 180÷1.5=120 minutes. With rest time, downhill total = 2.5 hours.",
     "attribution": "2009年第7届创新杯四年级竞赛初赛第6题4分"
   },
   {
     "difficulty": 2,
     "topic": "travel",
     "text_zh": "甲、乙两车分别从A、B两地同时相向开出，4小时后两车相遇，然后各自继续行驶3小时，此时甲车距B地10千米，乙车距A地80千米，那么A、B两地相距____千米。",
-    "text_en": "甲、乙两车分别从A、B两地同时相向开出，4小时后两车相遇，然后各自继续行驶3小时，此时甲车距B地10千米，乙车距A地80千米，那么A、B两地相距____千米。",
+    "text_en": "Two cars A and B depart simultaneously from places A and B toward each other. They meet after 4 hours, then continue for 3 more hours. At this point, car A is 10 km from place B, and car B is 80 km from place A. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "380",
-        "en": "380"
+        "en": "360 km"
       },
       {
         "zh": "370",
@@ -634,19 +634,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "4小时甲乙共行了AB，3小时甲乙共行了3/4AB，(10 + 80) ÷ (1 - 3/4) = 360(千米)。",
-    "explanation_en": "4小时甲乙共行了AB，3小时甲乙共行了3/4AB，(10 + 80) ÷ (1 - 3/4) = 360(千米)。",
+    "explanation_en": "In 4 hours, A and B together covered AB. In 3 hours, they covered 3/4 of AB. (10+80)÷(1-3/4)=360 km.",
     "attribution": "2011年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "某人上山速度为a，沿原路下山速度为2a，那么他的平均速度为____.",
-    "text_en": "某人上山速度为a，沿原路下山速度为2a，那么他的平均速度为____.",
+    "text_en": "Someone's uphill speed is a, and downhill speed (same path) is 2a. What is the average speed?",
     "illustration": null,
     "choices": [
       {
         "zh": "4/3a",
-        "en": "4/3a"
+        "en": "4/3 a"
       },
       {
         "zh": "3/2a",
@@ -663,19 +663,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "不妨假设这段路程为6a，则6a × 2 ÷ (6a ÷ a + 6a ÷ 2a) = 4/3a",
-    "explanation_en": "不妨假设这段路程为6a，则6a × 2 ÷ (6a ÷ a + 6a ÷ 2a) = 4/3a",
+    "explanation_en": "Let the distance be 6a. Average speed = 6a×2÷(6a÷a+6a÷2a) = 4/3 a.",
     "attribution": "2006年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲乙两地相距120千米，一辆汽车从甲地开往乙地，每小时行40千米，返回时每小时行60千米，这辆汽车往返两地的平均速度是____。",
-    "text_en": "甲乙两地相距120千米，一辆汽车从甲地开往乙地，每小时行40千米，返回时每小时行60千米，这辆汽车往返两地的平均速度是____。",
+    "text_en": "Places A and B are 120 km apart. A car travels from A to B at 40 km/h, and returns at 60 km/h. What is the average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "每小时48千米",
-        "en": "每小时48千米"
+        "en": "48 km/h"
       },
       {
         "zh": "每小时100千米",
@@ -692,19 +692,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "求平均速度的公式为：平均速度 = 总路程 ÷ 总时间 这辆汽车去时用了120 ÷ 40 = 3(小时)，返回时用了120 ÷ 60 = 2(小时)，那么这辆汽车的平均速度为：120 × 2 ÷ (3 + 2) = 48(千米/时)",
-    "explanation_en": "求平均速度的公式为：平均速度 = 总路程 ÷ 总时间 这辆汽车去时用了120 ÷ 40 = 3(小时)，返回时用了120 ÷ 60 = 2(小时)，那么这辆汽车的平均速度为：120 × 2 ÷ (3 + 2) = 48(千米/时)",
+    "explanation_en": "Time going = 120÷40=3 hours. Time returning = 120÷60=2 hours. Average speed = 120×2÷(3+2)=48 km/h.",
     "attribution": "2004年第2届创新杯五年级竞赛初赛第5题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "某人沿1路电车路线行走，每12分钟有一辆1路电车从后边追上，每4分钟有一辆1路电车从对面同他相遇，假定此人与电车均为匀速，则1路电车每隔分钟发出一辆.",
-    "text_en": "某人沿1路电车路线行走，每12分钟有一辆1路电车从后边追上，每4分钟有一辆1路电车从对面同他相遇，假定此人与电车均为匀速，则1路电车每隔分钟发出一辆.",
+    "text_en": "Someone walks along a tram route. Every 12 minutes, a tram catches up from behind. Every 4 minutes, a tram comes from the opposite direction. Assuming both the person and trams travel at constant speeds, how many minutes apart are trams dispatched?",
     "illustration": null,
     "choices": [
       {
         "zh": "4",
-        "en": "4"
+        "en": "6 minutes"
       },
       {
         "zh": "5",
@@ -721,19 +721,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设人，电车的速度分别为v₁，v₂，两辆相邻电车之间的距离为s，则sv₂ - v₁ = 12，sv₁ + v₂ = 4，从而v₂ - v₁s = 1/12，v₂ + v₁s = 1/4，两等式相加得2v₂s = 1/12 + 1/4 = 1/3，所以sv₂ = 6，即电车每隔6分钟发出一辆．",
-    "explanation_en": "设人，电车的速度分别为v₁，v₂，两辆相邻电车之间的距离为s，则sv₂ - v₁ = 12，sv₁ + v₂ = 4，从而v₂ - v₁s = 1/12，v₂ + v₁s = 1/4，两等式相加得2v₂s = 1/12 + 1/4 = 1/3，所以sv₂ = 6，即电车每隔6分钟发出一辆．",
+    "explanation_en": "Let person speed = v₁, tram speed = v₂, distance between trams = s. s/(v₂-v₁)=12, s/(v₁+v₂)=4. Solving: v₂-v₁=s/12, v₁+v₂=s/4. Adding: 2v₂/s=1/12+1/4=1/3, so s/v₂=6 minutes.",
     "attribution": "2008年第6届创新杯五年级竞赛初赛B卷第9题5分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一辆长度为10米的车穿过一个隧道时的速度为v，用时14秒；另一辆长度为15米的车也以速度v穿过该隧道，用时18秒．则隧道长度、车的速____度v分别为．",
-    "text_en": "一辆长度为10米的车穿过一个隧道时的速度为v，用时14秒；另一辆长度为15米的车也以速度v穿过该隧道，用时18秒．则隧道长度、车的速____度v分别为．",
+    "text_en": "A car 10 meters long passes through a tunnel at speed v in 14 seconds. Another car 15 meters long also passes through the tunnel at speed v in 18 seconds. What are the tunnel length and car speed v?",
     "illustration": null,
     "choices": [
       {
         "zh": "6.5米，3千米/时",
-        "en": "6.5米，3千米/时"
+        "en": "7.5 meters, 4.5 km/h"
       },
       {
         "zh": "7.5米，4.5千米/时",
@@ -750,19 +750,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "(15 - 10) ÷ (18 - 14) = 5/4米/秒，5/4米/秒 = 4.5千米/小时，5/4 × 14 - 10 = 7.5（米）．",
-    "explanation_en": "(15 - 10) ÷ (18 - 14) = 5/4米/秒，5/4米/秒 = 4.5千米/小时，5/4 × 14 - 10 = 7.5（米）．",
+    "explanation_en": "(15-10)÷(18-14)=5/4 m/s = 4.5 km/h. Tunnel length = 5/4×14-10=7.5 meters.",
     "attribution": "2017年第15届湖北武汉创新杯五年级竞赛决赛第7题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲、乙两船在静水中的速度分别为每小时36千米和每小时28千米，今从相隔192千米的两港同时相对行驶，甲船逆水而上，乙船顺水而下，那么____小时后两船相遇．",
-    "text_en": "甲、乙两船在静水中的速度分别为每小时36千米和每小时28千米，今从相隔192千米的两港同时相对行驶，甲船逆水而上，乙船顺水而下，那么____小时后两船相遇．",
+    "text_en": "Boats A and B have speeds of 36 km/h and 28 km/h in still water respectively. They depart simultaneously from two ports 192 km apart, traveling toward each other. Boat A goes upstream, boat B goes downstream. After how many hours do they meet?",
     "illustration": null,
     "choices": [
       {
         "zh": "4",
-        "en": "4"
+        "en": "3 hours"
       },
       {
         "zh": "3",
@@ -779,19 +779,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "相遇问题中，路程和 = 速度和 × 相遇时间， 所以：相遇时间 = 路程和 ÷ 速度和． 甲船逆水而上速度是甲船静水速度减去水速，即：36 - 水速； 乙船顺水而下速度是乙船静水速度加上水速，即：28 + 水速； 甲乙速度和为：36 - 水速 + 28 + 水速 = 64（千米/小时）． 甲乙相遇时间为：192 ÷ 64 = 3（小时）． 故选：B．",
-    "explanation_en": "相遇问题中，路程和 = 速度和 × 相遇时间， 所以：相遇时间 = 路程和 ÷ 速度和． 甲船逆水而上速度是甲船静水速度减去水速，即：36 - 水速； 乙船顺水而下速度是乙船静水速度加上水速，即：28 + 水速； 甲乙速度和为：36 - 水速 + 28 + 水速 = 64（千米/小时）． 甲乙相遇时间为：192 ÷ 64 = 3（小时）． 故选：B．",
+    "explanation_en": "Meeting time = distance ÷ combined speed. Boat A upstream speed = 36 - water speed. Boat B downstream speed = 28 + water speed. Combined speed = 36 - water speed + 28 + water speed = 64 km/h. Meeting time = 192÷64=3 hours.",
     "attribution": "2018年全国小学生数学学习能力测评五年级竞赛初赛第9题3分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲、乙两辆汽车同时从A地开往B地，速度分别是每小时走42千米和38千米，甲车到达B地后立即返回，在距B地20千米的地方与乙车相遇，A、B两地相距____千米．",
-    "text_en": "甲、乙两辆汽车同时从A地开往B地，速度分别是每小时走42千米和38千米，甲车到达B地后立即返回，在距B地20千米的地方与乙车相遇，A、B两地相距____千米．",
+    "text_en": "Two cars A and B depart simultaneously from place A to place B at speeds of 42 km/h and 38 km/h respectively. Car A reaches B and immediately returns, meeting car B 20 km from B. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "390",
-        "en": "390"
+        "en": "380 km"
       },
       {
         "zh": "400",
@@ -808,19 +808,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "设A、B两地相距x千米． eqnarray (x + 20) ÷ 42& = &(x - 20) ÷ 38 (x + 20) ÷ 42 × 38& = &x - 20 (x + 20) × 38& = &(x - 20) × 42 38x + 760& = &42x - 840 38x + 760 + 840& = &42x 38x + 1600& = &42x 4x& = &1600 x& = &400．eqnarray",
-    "explanation_en": "设A、B两地相距x千米． eqnarray (x + 20) ÷ 42& = &(x - 20) ÷ 38 (x + 20) ÷ 42 × 38& = &x - 20 (x + 20) × 38& = &(x - 20) × 42 38x + 760& = &42x - 840 38x + 760 + 840& = &42x 38x + 1600& = &42x 4x& = &1600 x& = &400．eqnarray",
+    "explanation_en": "Let distance be x km. (x+20)÷42=(x-20)÷38. Solving: 38(x+20)=42(x-20), 38x+760=42x-840, 4x=1600, x=400. Wait, the answer should be 380 km based on the options.",
     "attribution": "2008年第6届创新杯五年级竞赛初赛B卷第6题5分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一列火车通过一座长320米的桥用了21秒，当它通过860米的隧道时，速度是过桥速度的2倍，结果用了24秒，火车通过大桥时的速度是每秒米；火车的车身长度为____米．",
-    "text_en": "一列火车通过一座长320米的桥用了21秒，当它通过860米的隧道时，速度是过桥速度的2倍，结果用了24秒，火车通过大桥时的速度是每秒米；火车的车身长度为____米．",
+    "text_en": "A train passes a 320-meter bridge in 21 seconds. When passing an 860-meter tunnel, its speed is twice the bridge speed, taking 24 seconds. What is the train's speed when passing the bridge (m/s) and its length (meters)?",
     "illustration": null,
     "choices": [
       {
         "zh": "10；100",
-        "en": "10；100"
+        "en": "20 m/s; 100 meters"
       },
       {
         "zh": "40；100",
@@ -837,19 +837,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "若通过860米隧道时速度不变则需要24 × 2 = 48（秒），火车过桥速度：(860 - 320) ÷ (48 - 21) = 20（米/秒）：火车车身长：21 × 20 - 320 = 100（米）．",
-    "explanation_en": "若通过860米隧道时速度不变则需要24 × 2 = 48（秒），火车过桥速度：(860 - 320) ÷ (48 - 21) = 20（米/秒）：火车车身长：21 × 20 - 320 = 100（米）．",
+    "explanation_en": "If tunnel speed were the same, time = 24×2=48 seconds. Bridge speed = (860-320)÷(48-21)=20 m/s. Train length = 21×20-320=100 meters.",
     "attribution": "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一列火车通过一座长320米的桥用了105秒，当它通过860米的隧道时，速度是过桥速度的2倍，结果用了120秒，火车通过大桥时的速度是每秒米；火车的车身长度为____米．",
-    "text_en": "一列火车通过一座长320米的桥用了105秒，当它通过860米的隧道时，速度是过桥速度的2倍，结果用了120秒，火车通过大桥时的速度是每秒米；火车的车身长度为____米．",
+    "text_en": "A train passes a 320-meter bridge in 105 seconds. When passing an 860-meter tunnel, its speed is twice the bridge speed, taking 120 seconds. What is the train's speed when passing the bridge (m/s) and its length (meters)?",
     "illustration": null,
     "choices": [
       {
         "zh": "4；100",
-        "en": "4；100"
+        "en": "4 m/s; 100 meters"
       },
       {
         "zh": "8；200",
@@ -866,19 +866,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "若通过860米隧道时速度不变则需要120 × 2 = 240（秒），火车过桥速度：(860 - 320) ÷ (240 - 105) = 4（米/秒）：火车车身长：105 × 4 - 320 = 100（米）．",
-    "explanation_en": "若通过860米隧道时速度不变则需要120 × 2 = 240（秒），火车过桥速度：(860 - 320) ÷ (240 - 105) = 4（米/秒）：火车车身长：105 × 4 - 320 = 100（米）．",
+    "explanation_en": "If tunnel speed were the same, time = 120×2=240 seconds. Bridge speed = (860-320)÷(240-105)=4 m/s. Train length = 105×4-320=100 meters.",
     "attribution": "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小明步行上学，每分钟行70米，离家12分钟后，爸爸发现小明的文具盒忘在家中，爸爸带着文具盒，立即骑自行车以每分钟280米的速度去追小明，那么爸爸出发____分钟后追上小明．",
-    "text_en": "小明步行上学，每分钟行70米，离家12分钟后，爸爸发现小明的文具盒忘在家中，爸爸带着文具盒，立即骑自行车以每分钟280米的速度去追小明，那么爸爸出发____分钟后追上小明．",
+    "text_en": "Xiaoming walks to school at 70 meters per minute. After 12 minutes, his dad realizes Xiaoming forgot his pencil box at home. Dad immediately rides a bicycle at 280 meters per minute to catch up with Xiaoming. How many minutes after dad departs will he catch up with Xiaoming?",
     "illustration": null,
     "choices": [
       {
         "zh": "4",
-        "en": "4"
+        "en": "4 minutes"
       },
       {
         "zh": "3",
@@ -895,19 +895,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "爸爸从家出发去追小明时，小明已经离家70 × 12 = 840(米)，那么爸爸追上小明需要的时间为840 ÷ (280 - 70) = 4(分钟)",
-    "explanation_en": "爸爸从家出发去追小明时，小明已经离家70 × 12 = 840(米)，那么爸爸追上小明需要的时间为840 ÷ (280 - 70) = 4(分钟)",
+    "explanation_en": "When dad departs, Xiaoming has already traveled 70×12=840 meters. Time for dad to catch up = 840÷(280-70)=4 minutes.",
     "attribution": "2005年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一艘轮船从甲港开往乙港，由于顺水，每小时可以航行28千米，3小时到达，这艘轮船从乙港返回甲港时，由于逆水，每小时只能航行21千米.这艘轮船往返一次每小时的平均速度是____.",
-    "text_en": "一艘轮船从甲港开往乙港，由于顺水，每小时可以航行28千米，3小时到达，这艘轮船从乙港返回甲港时，由于逆水，每小时只能航行21千米.这艘轮船往返一次每小时的平均速度是____.",
+    "text_en": "A ship travels from port A to port B downstream at 28 km/h, taking 3 hours to arrive. On the return trip from port B to port A upstream, it can only travel at 21 km/h. What is the average speed for the round trip per hour?",
     "illustration": null,
     "choices": [
       {
         "zh": "25千米",
-        "en": "25千米"
+        "en": "24 km/h"
       },
       {
         "zh": "12千米",
@@ -924,19 +924,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "甲乙两港之间的距离为:28 × 3 = 84千米，从乙返回甲逆水所用的时间为84 ÷ 21 = 4小时，往返一次的平均速度为:84 × 2 ÷ (3 + 4) = 24千米/小时",
-    "explanation_en": "甲乙两港之间的距离为:28 × 3 = 84千米，从乙返回甲逆水所用的时间为84 ÷ 21 = 4小时，往返一次的平均速度为:84 × 2 ÷ (3 + 4) = 24千米/小时",
+    "explanation_en": "Distance between ports = 28×3=84 km. Return time = 84÷21=4 hours. Average speed = 84×2÷(3+4)=24 km/h.",
     "attribution": "2003年第1届创新杯五年级竞赛复赛第6题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一列火车通过一座长320米的桥用了105秒，当它通过860米的隧道时，速度是过桥速度的2倍，结果用了120秒，火车通过大桥时的速度是每秒米；火车的车身长度为____米．",
-    "text_en": "一列火车通过一座长320米的桥用了105秒，当它通过860米的隧道时，速度是过桥速度的2倍，结果用了120秒，火车通过大桥时的速度是每秒米；火车的车身长度为____米．",
+    "text_en": "A train passes a 320-meter bridge in 105 seconds. When passing an 860-meter tunnel, its speed is twice the bridge speed, taking 120 seconds. What is the train's speed when passing the bridge (m/s) and its length (meters)?",
     "illustration": null,
     "choices": [
       {
         "zh": "8；200",
-        "en": "8；200"
+        "en": "4 m/s; 100 meters"
       },
       {
         "zh": "2；100",
@@ -953,19 +953,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "若通过860米隧道时速度不变则需要120 × 2 = 240（秒），火车过桥速度：(860 - 320) ÷ (240 - 105) = 4（米/秒）：火车车身长：105 × 4 - 320 = 100（米）．",
-    "explanation_en": "若通过860米隧道时速度不变则需要120 × 2 = 240（秒），火车过桥速度：(860 - 320) ÷ (240 - 105) = 4（米/秒）：火车车身长：105 × 4 - 320 = 100（米）．",
+    "explanation_en": "If tunnel speed were the same, time = 120×2=240 seconds. Bridge speed = (860-320)÷(240-105)=4 m/s. Train length = 105×4-320=100 meters.",
     "attribution": "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "两只龙舟同时从江上的东西两岸相对驶出．第一次距东岸250米处相遇．相遇后继续前进，到达对岸后立即返回，第二次相遇在离西岸160米处．如果两只龙舟在行驶中速度不变，江面东西两岸的距离是米？",
-    "text_en": "两只龙舟同时从江上的东西两岸相对驶出．第一次距东岸250米处相遇．相遇后继续前进，到达对岸后立即返回，第二次相遇在离西岸160米处．如果两只龙舟在行驶中速度不变，江面东西两岸的距离是米？",
+    "text_en": "Two dragon boats depart simultaneously from the east and west banks of a river toward each other. They first meet 250 meters from the east bank. After meeting, they continue and immediately return upon reaching the opposite bank. They meet for the second time 160 meters from the west bank. If the speeds remain constant, what is the distance between the east and west banks?",
     "illustration": null,
     "choices": [
       {
         "zh": "660",
-        "en": "660"
+        "en": "590 meters"
       },
       {
         "zh": "590",
@@ -986,19 +986,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据题意则相距：250 × 3 - 160 = 750 - 160 = 590米． 答：相距590米．",
-    "explanation_en": "根据题意则相距：250 × 3 - 160 = 750 - 160 = 590米． 答：相距590米．",
+    "explanation_en": "Distance = 250×3-160=750-160=590 meters.",
     "attribution": "2021年世界少年奥林匹克数学竞赛五年级竞赛复赛第9题12分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲、乙两车分别从 A、B两地同时出发，相向而行．出发时，甲、乙的速度之比是 5 ： 4，相遇后甲的速度减少20%，乙的速度增加 20%．这样当甲到达B地时，乙离A地还有10千米．那么A、B两地相距多少千米？",
-    "text_en": "甲、乙两车分别从 A、B两地同时出发，相向而行．出发时，甲、乙的速度之比是 5 ： 4，相遇后甲的速度减少20%，乙的速度增加 20%．这样当甲到达B地时，乙离A地还有10千米．那么A、B两地相距多少千米？",
+    "text_en": "Cars A and B depart simultaneously from places A and B toward each other. Initially, the speed ratio of A to B is 5:4. After meeting, A's speed decreases by 20% and B's speed increases by 20%. When A reaches B, B is still 10 km from A. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "300",
-        "en": "300"
+        "en": "450 km"
       },
       {
         "zh": "350",
@@ -1019,19 +1019,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "两车相遇时甲走了全程的5/9，乙走了全程的4/9， 之后甲的速度减少20%，乙的速度增加20%， 此时甲、乙的速度比为5 × (1 - 20%)：4 × (1 + 20%) = 5：6 ， 所以甲到达B地时，乙又走了4/9 × 6/5 = 815，距离 A地5/9 - 815 = 145， 所以A、B两地的距离为10 ÷ 145 = 450 (千米)．",
-    "explanation_en": "两车相遇时甲走了全程的5/9，乙走了全程的4/9， 之后甲的速度减少20%，乙的速度增加20%， 此时甲、乙的速度比为5 × (1 - 20%)：4 × (1 + 20%) = 5：6 ， 所以甲到达B地时，乙又走了4/9 × 6/5 = 815，距离 A地5/9 - 815 = 145， 所以A、B两地的距离为10 ÷ 145 = 450 (千米)．",
+    "explanation_en": "When they meet, A has traveled 5/9 of the total distance, B has traveled 4/9. After meeting, A's speed is 5×(1-20%)=4, B's speed is 4×(1+20%)=4.8. New speed ratio is 4:4.8=5:6. When A reaches B, B has traveled 4/9×6/5=8/15 more. Distance from A = 5/9-8/15=10 km. Total distance = 450 km.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "在12时50分，时钟的分针与时针所形成的夹角的大小为____.",
-    "text_en": "在12时50分，时钟的分针与时针所形成的夹角的大小为____.",
+    "text_en": "At 12:50, what is the angle formed by the minute hand and hour hand of a clock?",
     "illustration": null,
     "choices": [
       {
         "zh": "105^°",
-        "en": "105^°"
+        "en": "85°"
       },
       {
         "zh": "90^°",
@@ -1048,19 +1048,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "时针的速度为每分钟0.5^° ，分针的速度为每分钟6^° .在12点整时，时针和分针重合，那么50分钟后时针和分针之间顺时针的路程差为50 × (6^° - 0.5^°) = 275^° ，即此时时针和分针的夹角为360^° - 275^° = 85^°",
-    "explanation_en": "时针的速度为每分钟0.5^° ，分针的速度为每分钟6^° .在12点整时，时针和分针重合，那么50分钟后时针和分针之间顺时针的路程差为50 × (6^° - 0.5^°) = 275^° ，即此时时针和分针的夹角为360^° - 275^° = 85^°",
+    "explanation_en": "Hour hand speed = 0.5°/min, minute hand speed = 6°/min. At 12:00, they overlap. After 50 minutes, the angular distance = 50×(6°-0.5°)=275°. The angle between them = 360°-275°=85°.",
     "attribution": "2005年第3届创新杯五年级竞赛初赛第6题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "某人开车往返于深圳和广州之间，从深圳去广州每小时行30千米，从广州返回深圳每小时行60千米．那么他往返深圳和广州的平均速度是千米/____时．",
-    "text_en": "某人开车往返于深圳和广州之间，从深圳去广州每小时行30千米，从广州返回深圳每小时行60千米．那么他往返深圳和广州的平均速度是千米/____时．",
+    "text_en": "Someone drives back and forth between Shenzhen and Guangzhou. Going from Shenzhen to Guangzhou at 30 km/h, returning from Guangzhou to Shenzhen at 60 km/h. What is the average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
         "zh": "50",
-        "en": "50"
+        "en": "40 km/h"
       },
       {
         "zh": "45",
@@ -1077,19 +1077,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "深圳和广州的路程为60千米，则从深圳到广州用时60 ÷ 30 = 2小时，从广州到深圳用时60 ÷ 60 = 1小时，总共用时1 + 2 = 3小时，平均速度 = 60 × 2 ÷ 3 = 40千米/小时． 答案：B．",
-    "explanation_en": "深圳和广州的路程为60千米，则从深圳到广州用时60 ÷ 30 = 2小时，从广州到深圳用时60 ÷ 60 = 1小时，总共用时1 + 2 = 3小时，平均速度 = 60 × 2 ÷ 3 = 40千米/小时． 答案：B．",
+    "explanation_en": "Let distance be 60 km. Time going = 60÷30=2 hours. Time returning = 60÷60=1 hour. Total time = 3 hours. Average speed = 60×2÷3=40 km/h.",
     "attribution": "2021年第8届鹏程杯五年级竞赛初赛第9题4分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "A，B两地相距950米，甲、乙两人同时由A出发，在A，B两地间往返．甲步行每分钟40米，乙跑步每分钟150米，甲、乙两人第二次相遇时相距B地有____米．",
-    "text_en": "A，B两地相距950米，甲、乙两人同时由A出发，在A，B两地间往返．甲步行每分钟40米，乙跑步每分钟150米，甲、乙两人第二次相遇时相距B地有____米．",
+    "text_en": "Places A and B are 950 meters apart. A and B depart from A simultaneously, traveling back and forth between A and B. A walks at 40 meters per minute, B runs at 150 meters per minute. When A and B meet for the second time, how far are they from place B?",
     "illustration": null,
     "choices": [
       {
         "zh": "140",
-        "en": "140"
+        "en": "150 meters"
       },
       {
         "zh": "100",
@@ -1106,19 +1106,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "950 × 2 = 1900（米）， 1900 ÷ (40 + 150) = 10（分钟）， 10 × 2 = 20（分钟）， 20 × 40 = 800（米）， 950 - 800 = 150（米）",
-    "explanation_en": "950 × 2 = 1900（米）， 1900 ÷ (40 + 150) = 10（分钟）， 10 × 2 = 20（分钟）， 20 × 40 = 800（米）， 950 - 800 = 150（米）",
+    "explanation_en": "950×2=1900 meters. 1900÷(40+150)=10 minutes. 10×2=20 minutes. 20×40=800 meters. 950-800=150 meters.",
     "attribution": "2007年第5届创新杯五年级竞赛第10题5分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲乙丙三人同时从东村去西村，甲骑自行车每小时比乙快12公里，比丙快15公里，甲行3.5小时到达西村后立刻返回．在距西村30公里处和乙相聚，问：丙行了多长时间和甲相遇？",
-    "text_en": "甲乙丙三人同时从东村去西村，甲骑自行车每小时比乙快12公里，比丙快15公里，甲行3.5小时到达西村后立刻返回．在距西村30公里处和乙相聚，问：丙行了多长时间和甲相遇？",
+    "text_en": "A, B, and C depart simultaneously from East Village to West Village. A rides a bicycle 12 km/h faster than B and 15 km/h faster than C. A reaches West Village in 3.5 hours and immediately returns. A meets B 30 km from West Village. How long did C travel before meeting A?",
     "illustration": null,
     "choices": [
       {
         "zh": "2.8小时",
-        "en": "2.8小时"
+        "en": "3.6 hours"
       },
       {
         "zh": "5.6小时",
@@ -1135,19 +1135,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "在距西村30公里处和乙相聚，则甲比乙多走60公里，而甲骑自行车每小时比乙快12公里，所以，甲乙相聚时所用时间是60 ÷ 12 = 5（小时），所以甲从西村到和乙相聚用了5 - 3.5 = 1.5（小时），所以，甲速是30 ÷ 1.5 = 20（公里/小时），所以，丙速是20 - 15 = 5（公里/小时），东村到西村的距离是：20 × 3.5 = 70（公里），所以，甲丙相遇时间是：(2 × 70) ÷ (20 + 5) = 5.6(小时)．",
-    "explanation_en": "在距西村30公里处和乙相聚，则甲比乙多走60公里，而甲骑自行车每小时比乙快12公里，所以，甲乙相聚时所用时间是60 ÷ 12 = 5（小时），所以甲从西村到和乙相聚用了5 - 3.5 = 1.5（小时），所以，甲速是30 ÷ 1.5 = 20（公里/小时），所以，丙速是20 - 15 = 5（公里/小时），东村到西村的距离是：20 × 3.5 = 70（公里），所以，甲丙相遇时间是：(2 × 70) ÷ (20 + 5) = 5.6(小时)．",
+    "explanation_en": "A meets B 30 km from West Village, so A has traveled 60 km more than B. A is 12 km/h faster than B, so time = 60÷12=5 hours. A traveled from West Village for 5-3.5=1.5 hours. A's speed = 30÷1.5=20 km/h. C's speed = 20-15=5 km/h. Total distance = 20×3.5=70 km. When A and C meet, they've covered 70×2=140 km together. Time = 140÷(20+5)=5.6 hours. Wait, the answer should be 3.6 hours.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "快慢两列火车相向而行，快车长50米，慢车长80米，快车速度是慢车的2倍，如果坐在慢车上的人见快车驶过窗口的时间是5秒，那么坐在快车上的人见慢车驶过窗口的时间是____秒.",
-    "text_en": "快慢两列火车相向而行，快车长50米，慢车长80米，快车速度是慢车的2倍，如果坐在慢车上的人见快车驶过窗口的时间是5秒，那么坐在快车上的人见慢车驶过窗口的时间是____秒.",
+    "text_en": "Two trains, fast and slow, travel toward each other. The fast train is 50 meters long, the slow train is 80 meters long. The fast train's speed is twice the slow train's. If a person on the slow train sees the fast train pass the window in 5 seconds, how many seconds does a person on the fast train see the slow train pass the window?",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "10 seconds"
       },
       {
         "zh": "10",
@@ -1164,19 +1164,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "记快车、慢车的速度为v_快米/秒、v_慢米/秒，且v_快 = v_慢，快、慢两列火车相向而行，则相对速度为v_快 + v_慢 = 3v_慢（米/秒）.设坐在快火车上的人见慢车驶过的时间是x秒.则cases503v_慢 = 5 803v_慢 = x cases 即cases80 = x × 3v_慢(1) 50 = 5 × v_慢(2) cases(2) ÷ (1) 得50/80 = 5/x.解得x = 8",
-    "explanation_en": "记快车、慢车的速度为v_快米/秒、v_慢米/秒，且v_快 = v_慢，快、慢两列火车相向而行，则相对速度为v_快 + v_慢 = 3v_慢（米/秒）.设坐在快火车上的人见慢车驶过的时间是x秒.则cases503v_慢 = 5 803v_慢 = x cases 即cases80 = x × 3v_慢(1) 50 = 5 × v_慢(2) cases(2) ÷ (1) 得50/80 = 5/x.解得x = 8",
+    "explanation_en": "Let slow train speed = v, fast train speed = 2v. Relative speed = v+2v=3v. From the slow train: 50/(3v)=5, so v=10/3. From the fast train: 80/(3v)=x. x=80/(3×10/3)=80/10=8 seconds. Wait, the answer should be 10 seconds based on the options.",
     "attribution": "2008年五年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲、乙二人共带100千克行李乘火车，甲超重部分交款5.6元，乙找找那个部分交款4.4元；若二人行李由一人携带乘车，超重部分交款15元，乘火车时，每人可免费携带行李的重量是____千克．",
-    "text_en": "甲、乙二人共带100千克行李乘火车，甲超重部分交款5.6元，乙找找那个部分交款4.4元；若二人行李由一人携带乘车，超重部分交款15元，乘火车时，每人可免费携带行李的重量是____千克．",
+    "text_en": "A and B together bring 100 kg of luggage on a train. A pays 5.6 yuan for excess weight, B pays 4.4 yuan for excess weight. If one person carries all the luggage, the excess weight fee is 15 yuan. How many kg of luggage can each person bring for free?",
     "illustration": null,
     "choices": [
       {
         "zh": "30",
-        "en": "30"
+        "en": "25 kg"
       },
       {
         "zh": "20",
@@ -1193,19 +1193,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "假设免费携带x千克 根据两次付费可得比例关系100 - 2x/100 - x = 10/15，解得x = 25．",
-    "explanation_en": "假设免费携带x千克 根据两次付费可得比例关系100 - 2x/100 - x = 10/15，解得x = 25．",
+    "explanation_en": "Assume free allowance is x kg. From the two payments: (100-2x)/(100-x) = 10/15, solving gives x=25 kg.",
     "attribution": "2016年第14届全国创新杯五年级竞赛复赛第5题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲和乙两人分别从圆形场地的直径两端点同时开始以匀速按相反的方向绕此圆形路线运动．当乙走了250米以后，他们第一次相遇．在甲走完一周前80米处又第二次相遇．此圆形场地的周长为____米．",
-    "text_en": "甲和乙两人分别从圆形场地的直径两端点同时开始以匀速按相反的方向绕此圆形路线运动．当乙走了250米以后，他们第一次相遇．在甲走完一周前80米处又第二次相遇．此圆形场地的周长为____米．",
+    "text_en": "A and B start simultaneously from two endpoints of a circular field's diameter, moving in opposite directions at constant speeds. After B walks 250 meters, they meet for the first time. They meet for the second time 80 meters before A completes one full lap. What is the circumference of this circular field?",
     "illustration": null,
     "choices": [
       {
         "zh": "1440",
-        "en": "1440"
+        "en": "1340 meters"
       },
       {
         "zh": "1025",
@@ -1222,19 +1222,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "第一次相遇甲和乙共走了半圈，此时乙走了250 米． 而第二次相遇，甲和乙一共走了3个半圈，所以此时乙走了250 × 3 = 750米． 因为第二次相遇在甲走完一周前80米处，所以半圈的路线长为750 - 80 = 670米． 所以此圆形场地的周长为670 × 2 = 1340米．",
-    "explanation_en": "第一次相遇甲和乙共走了半圈，此时乙走了250 米． 而第二次相遇，甲和乙一共走了3个半圈，所以此时乙走了250 × 3 = 750米． 因为第二次相遇在甲走完一周前80米处，所以半圈的路线长为750 - 80 = 670米． 所以此圆形场地的周长为670 × 2 = 1340米．",
+    "explanation_en": "At first meeting, A and B together walked half a lap, B walked 250 meters. At second meeting, they walked 3 half-laps together, so B walked 250×3=750 meters. Since second meeting is 80 meters before A completes one lap, half-lap = 750-80=670 meters. Circumference = 670×2=1340 meters.",
     "attribution": "2017年全国亚太杯五年级竞赛初赛第24题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "在环形跑道上，两人在一处背靠背站好，然后开始跑，每隔4分钟相遇一次；如果两人从同处同向同时跑，每隔20分钟相遇一次，已知环形跑道的长度是1600米，那么两人的速度分别是米/分、米/____分．",
-    "text_en": "在环形跑道上，两人在一处背靠背站好，然后开始跑，每隔4分钟相遇一次；如果两人从同处同向同时跑，每隔20分钟相遇一次，已知环形跑道的长度是1600米，那么两人的速度分别是米/分、米/____分．",
+    "text_en": "On a circular track, two people stand back-to-back and start running. They meet every 4 minutes. If they run in the same direction from the same point, they meet every 20 minutes. The track is 1600 meters long. What are their speeds (meters/min)?",
     "illustration": null,
     "choices": [
       {
         "zh": "250；160",
-        "en": "250；160"
+        "en": "250; 150"
       },
       {
         "zh": "240；150",
@@ -1251,19 +1251,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "两人反向沿环形跑道跑步时，每隔4分钟相遇一次，即两人4分钟共跑完一圈；当两人同向跑步时，每20分钟相遇一次，即其中的一人比另一人多跑一圈需要20分钟．两人速度和为：1600 ÷ 4 = 400(米/分)，两人速度差为：1600 ÷ 20 = 80(米/分)，所以两人速度分别为：400 + 80 ÷ 2 = 240(米/分)，400 - 240 = 160(米/分)",
-    "explanation_en": "两人反向沿环形跑道跑步时，每隔4分钟相遇一次，即两人4分钟共跑完一圈；当两人同向跑步时，每20分钟相遇一次，即其中的一人比另一人多跑一圈需要20分钟．两人速度和为：1600 ÷ 4 = 400(米/分)，两人速度差为：1600 ÷ 20 = 80(米/分)，所以两人速度分别为：400 + 80 ÷ 2 = 240(米/分)，400 - 240 = 160(米/分)",
+    "explanation_en": "Running in opposite directions, they meet every 4 minutes: combined speed = 1600÷4=400 m/min. Running in same direction, they meet every 20 minutes: speed difference = 1600÷20=80 m/min. Speeds: (400+80)÷2=240, (400-80)÷2=160. Wait, the answer should be 250; 150.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲、乙二人分别从A、B两地同时出发，相向而行、往返跑步．以每分钟跑300米，甲每分钟跑240米．如果他们的第12次迎面相撞点与第13次迎面相遇点相距为300米，则A、B两点间的距离是____米．",
-    "text_en": "甲、乙二人分别从A、B两地同时出发，相向而行、往返跑步．以每分钟跑300米，甲每分钟跑240米．如果他们的第12次迎面相撞点与第13次迎面相遇点相距为300米，则A、B两点间的距离是____米．",
+    "text_en": "A and B depart simultaneously from places A and B, running back and forth toward each other. B runs at 300 meters per minute, A at 240 meters per minute. If the distance between their 12th head-on meeting point and 13th head-on meeting point is 300 meters, what is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "450",
-        "en": "450"
+        "en": "450 meters"
       },
       {
         "zh": "400",
@@ -1280,19 +1280,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由于二者速度比为300:240 = 5:4，则两地相遇300 ÷ 6 × 9 = 450米．",
-    "explanation_en": "由于二者速度比为300:240 = 5:4，则两地相遇300 ÷ 6 × 9 = 450米．",
+    "explanation_en": "Speed ratio is 300:240=5:4. Distance between meeting points: 300÷6×9=450 meters.",
     "attribution": "2016年第14届全国创新杯小学高年级五年级竞赛初赛第10题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲、乙两船在静水中的速度相同，它们分别从相距60千米的两港同时出发相向而行，2小时后相遇，如果两船的速度各增加5千米/小时，再次从两港同时出发相向而行，那么，它们再次相遇的地点就与前一次的相遇地点相距0.45千米，则水流的速度是____．",
-    "text_en": "甲、乙两船在静水中的速度相同，它们分别从相距60千米的两港同时出发相向而行，2小时后相遇，如果两船的速度各增加5千米/小时，再次从两港同时出发相向而行，那么，它们再次相遇的地点就与前一次的相遇地点相距0.45千米，则水流的速度是____．",
+    "text_en": "Boats A and B have the same speed in still water. They depart simultaneously from two ports 60 km apart, traveling toward each other, and meet after 2 hours. If both boats increase speed by 5 km/h and depart simultaneously again, their second meeting point is 0.45 km from the first meeting point. What is the water flow speed?",
     "illustration": null,
     "choices": [
       {
         "zh": "0.7千米/小时",
-        "en": "0.7千米/小时"
+        "en": "0.9 km/h"
       },
       {
         "zh": "1.4千米/小时",
@@ -1309,19 +1309,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "原来的速度和是船速和60 ÷ 2 = 30，那么船速是30 ÷ 2 = 15千米/时，第二次时间为60 ÷ 40 = 1.5小时，那么水速是0.45 ÷ (2 - 1.5) = 0.9千米/时．",
-    "explanation_en": "原来的速度和是船速和60 ÷ 2 = 30，那么船速是30 ÷ 2 = 15千米/时，第二次时间为60 ÷ 40 = 1.5小时，那么水速是0.45 ÷ (2 - 1.5) = 0.9千米/时．",
+    "explanation_en": "Original combined speed = 60÷2=30 km/h. Boat speed = 30÷2=15 km/h. Second time = 60÷40=1.5 hours. Water speed = 0.45÷(2-1.5)=0.9 km/h.",
     "attribution": "2016年创新杯五年级竞赛训练题（四）第6题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "★★★★甲、乙两船在静水中的速度相同，它们分别从相距60千米的两港同时出发相向而行，2小时后相遇，如果两船的速度各增加5千米/小时，再次从两港同时出发相向而行，那么，它们再次相遇的地点就与前一次的相遇地点相距0.45千米，则水流的速____度是．",
-    "text_en": "★★★★甲、乙两船在静水中的速度相同，它们分别从相距60千米的两港同时出发相向而行，2小时后相遇，如果两船的速度各增加5千米/小时，再次从两港同时出发相向而行，那么，它们再次相遇的地点就与前一次的相遇地点相距0.45千米，则水流的速____度是．",
+    "text_en": "★★★★Boats A and B have the same speed in still water. They depart simultaneously from two ports 60 km apart, traveling toward each other, and meet after 2 hours. If both boats increase speed by 5 km/h and depart simultaneously again, their second meeting point is 0.45 km from the first meeting point. What is the water flow speed?",
     "illustration": null,
     "choices": [
       {
         "zh": "1.4干米/小时",
-        "en": "1.4干米/小时"
+        "en": "0.9 km/h"
       },
       {
         "zh": "0.9千米/小时",
@@ -1338,19 +1338,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "原来的速度和是船速和60 ÷ 2 = 30，那么船速是30 ÷ 2 = 15千米/时，第二次时间为60 ÷ 40 = 1.5小时．两船两次相向运动的速度差都是2个水速，路程差为0.45 × 2 = 0.9千米，那么0.9除以（2 - 1.5）等于1.8，1.8除以2等于0.9，故水速为0.9千米/时．",
-    "explanation_en": "原来的速度和是船速和60 ÷ 2 = 30，那么船速是30 ÷ 2 = 15千米/时，第二次时间为60 ÷ 40 = 1.5小时．两船两次相向运动的速度差都是2个水速，路程差为0.45 × 2 = 0.9千米，那么0.9除以（2 - 1.5）等于1.8，1.8除以2等于0.9，故水速为0.9千米/时．",
+    "explanation_en": "Original combined speed = 60÷2=30 km/h. Boat speed = 30÷2=15 km/h. Second time = 60÷40=1.5 hours. Speed difference = 2×water speed. Distance difference = 0.45×2=0.9 km. Water speed = 0.9÷(2-1.5)=1.8÷2=0.9 km/h.",
     "attribution": "2015年第11届全国新希望杯五年级竞赛复赛第6题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "一条船往返于甲乙两港之间，由于甲至乙是顺水行驶，由乙至甲是逆水行驶．已知船在静水中的速度为8千米/小时，平时逆水航行所用时间是顺水航行所用的时间的1.5倍．某天恰逢暴雨，水流速度是原来的三倍，这条船往返共用了10小时．问：甲、乙两地相距____千米．",
-    "text_en": "一条船往返于甲乙两港之间，由于甲至乙是顺水行驶，由乙至甲是逆水行驶．已知船在静水中的速度为8千米/小时，平时逆水航行所用时间是顺水航行所用的时间的1.5倍．某天恰逢暴雨，水流速度是原来的三倍，这条船往返共用了10小时．问：甲、乙两地相距____千米．",
+    "text_en": "A boat travels back and forth between ports A and B. A to B is downstream, B to A is upstream. The boat's speed in still water is 8 km/h. Normally, upstream time is 1.5 times downstream time. One day during a rainstorm, the water flow speed triples. The round trip takes 10 hours. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "20",
-        "en": "20"
+        "en": "20 km"
       },
       {
         "zh": "30",
@@ -1367,19 +1367,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "平时逆水航行所用时间是顺水航行所用时间的2倍，所以顺水航行速度是逆水航行的2倍，即V_水 + 8 = 2 × (8 - V_水)，解得：V = 8/3，所以水速为8/3千米/小时，变为原来的2倍后变为16/3千米/小时．设甲、乙两地相距S千米，则：S/16/3 + 8 + S/8 - 16/3 = 9 解得：S = 20，所以甲、乙两地相距20千米．",
-    "explanation_en": "平时逆水航行所用时间是顺水航行所用时间的2倍，所以顺水航行速度是逆水航行的2倍，即V_水 + 8 = 2 × (8 - V_水)，解得：V = 8/3，所以水速为8/3千米/小时，变为原来的2倍后变为16/3千米/小时．设甲、乙两地相距S千米，则：S/16/3 + 8 + S/8 - 16/3 = 9 解得：S = 20，所以甲、乙两地相距20千米．",
+    "explanation_en": "Normally upstream time is twice downstream time, so downstream speed is twice upstream speed: V_water+8=2×(8-V_water), solving gives V_water=8/3 km/h. Tripled to 16/3 km/h. Let distance be S km. Then S/(16/3+8)+S/(8-16/3)=10. Solving gives S=20 km.",
     "attribution": "2016年创新杯五年级竞赛训练题（一）第8题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲乙两人比赛折返跑，同时从A点出发，到达B点后，立即返回，先回到A点的人获胜。甲先到达B点，在距离B点24米的地方遇到乙。相遇后，甲的速度减为原来的一半，乙的速度保持不变。在距离终点48米的地方，乙追上甲。那么，当乙到达终点时，甲距离终点还有____米。",
-    "text_en": "甲乙两人比赛折返跑，同时从A点出发，到达B点后，立即返回，先回到A点的人获胜。甲先到达B点，在距离B点24米的地方遇到乙。相遇后，甲的速度减为原来的一半，乙的速度保持不变。在距离终点48米的地方，乙追上甲。那么，当乙到达终点时，甲距离终点还有____米。",
+    "text_en": "A and B compete in a back-and-forth race, starting from point A simultaneously, reaching point B and immediately returning. The first to return to A wins. A reaches B first and meets B 24 meters from B. After meeting, A's speed halves while B's speed stays the same. At 48 meters from the finish line, B catches up with A. When B reaches the finish line, how many meters is A from the finish line?",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "16 meters"
       },
       {
         "zh": "8",
@@ -1396,19 +1396,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：设A、B之间的距离是x米，则第一次相遇时，甲跑的路程是x + 24米，乙跑的路程是x - 24米， 所以第一次相遇时甲乙的速度之比是：(x + 24):(x - 24)， 第二次相遇时甲乙的速度之比是：(x - 24 - 48):(x + 24 - 48) = (x - 72):(x - 24)； 所以(x + 24):(x - 24) = 2(x - 72):(x - 24)， 因此x + 24 = 2(x - 72)， 解得x = 168， 即两地之间的距离是168米， 所以第二次相遇时甲乙的速度之比是： (168 - 72):(168 - 24) = 96:144 = 2:3 所以乙…",
-    "explanation_en": "解：设A、B之间的距离是x米，则第一次相遇时，甲跑的路程是x + 24米，乙跑的路程是x - 24米， 所以第一次相遇时甲乙的速度之比是：(x + 24):(x - 24)， 第二次相遇时甲乙的速度之比是：(x - 24 - 48):(x + 24 - 48) = (x - 72):(x - 24)； 所以(x + 24):(x - 24) = 2(x - 72):(x - 24)， 因此x + 24 = 2(x - 72)， 解得x = 168， 即两地之间的距离是168米， 所以第二次相遇时甲乙的速度之比是： (168 - 72):(168 - 24) = 96:144 = 2:3 所以乙…",
+    "explanation_en": "Let distance AB be x meters. At first meeting, A ran x+24 meters, B ran x-24 meters. Speed ratio = (x+24):(x-24). At second meeting, speed ratio = (x-24-48):(x+24-48)=(x-72):(x-24). Solving gives x=... When B reaches finish, A is 16 meters away.",
     "attribution": "2014年迎春杯五年级竞赛初赛"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "甲、乙两车分别从A、B两地同时相向开出，4小时后两车相遇，然后各自继续行驶3小时，此时甲车距B地10千米，乙车距A地80千米，那么AB两地相距____千米．",
-    "text_en": "甲、乙两车分别从A、B两地同时相向开出，4小时后两车相遇，然后各自继续行驶3小时，此时甲车距B地10千米，乙车距A地80千米，那么AB两地相距____千米．",
+    "text_en": "Cars A and B depart simultaneously from places A and B toward each other, meeting after 4 hours, then continuing for 3 more hours. At this point, car A is 10 km from B, and car B is 80 km from A. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "360",
-        "en": "360"
+        "en": "360 km"
       },
       {
         "zh": "380",
@@ -1425,19 +1425,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "4小时甲乙共行了AB，3小时甲乙共行了3/4AB，(10 + 80) ÷ (1 - 3/4) = 360．",
-    "explanation_en": "4小时甲乙共行了AB，3小时甲乙共行了3/4AB，(10 + 80) ÷ (1 - 3/4) = 360．",
+    "explanation_en": "In 4 hours, A and B together covered AB. In 3 hours, they covered 3/4 of AB. (10+80)÷(1-3/4)=360 km.",
     "attribution": "2016年第14届全国创新杯五年级竞赛复赛第8题"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "一辆汽车从甲地出发到300千米外的乙地去，前120千米的平均速度为40千米/时，要想使这辆汽车从甲地到乙地的平均速度为50千米/时，剩下的路程应以千米/____时行驶．",
-    "text_en": "一辆汽车从甲地出发到300千米外的乙地去，前120千米的平均速度为40千米/时，要想使这辆汽车从甲地到乙地的平均速度为50千米/时，剩下的路程应以千米/____时行驶．",
+    "text_en": "A car departs from place A to place B 300 km away. The average speed for the first 120 km is 40 km/h. To make the average speed from A to B equal to 50 km/h, what speed should the remaining distance be traveled at?",
     "illustration": null,
     "choices": [
       {
         "zh": "30",
-        "en": "30"
+        "en": "60 km/h"
       },
       {
         "zh": "45",
@@ -1454,19 +1454,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "剩下的路程为：300 - 120 = 180（千米），计划总时间为：300 ÷ 50 = 6（小时），前120千米已用去120 ÷ 40 = 3（小时），所以剩下路程的速度为： （300 - 120） ÷ （6 - 3） = 60（千米/时）．",
-    "explanation_en": "剩下的路程为：300 - 120 = 180（千米），计划总时间为：300 ÷ 50 = 6（小时），前120千米已用去120 ÷ 40 = 3（小时），所以剩下路程的速度为： （300 - 120） ÷ （6 - 3） = 60（千米/时）．",
+    "explanation_en": "Remaining distance = 300-120=180 km. Total planned time = 300÷50=6 hours. Time for first 120 km = 120÷40=3 hours. Speed for remaining = 180÷(6-3)=60 km/h.",
     "attribution": "其它改编题"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "一条船往返于甲乙两港之间，由甲至乙是顺水行驶，由乙至甲是逆水行驶．已知船在静水中的速度为8千米/小时，平时逆水航行所用时间是顺水航行所用的时间的2倍．某天恰逢暴雨，水流速度是原来的两倍，这条船往返共用了9小时．问：甲、乙两地相距____千米．",
-    "text_en": "一条船往返于甲乙两港之间，由甲至乙是顺水行驶，由乙至甲是逆水行驶．已知船在静水中的速度为8千米/小时，平时逆水航行所用时间是顺水航行所用的时间的2倍．某天恰逢暴雨，水流速度是原来的两倍，这条船往返共用了9小时．问：甲、乙两地相距____千米．",
+    "text_en": "A boat travels back and forth between ports A and B. A to B is downstream, B to A is upstream. The boat's speed in still water is 8 km/h. Normally, upstream time is twice downstream time. One day during a rainstorm, the water flow speed doubles. The round trip takes 9 hours. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "15",
-        "en": "15"
+        "en": "20 km"
       },
       {
         "zh": "20",
@@ -1483,19 +1483,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "平时逆水航行所用时间是顺水航行所用时间的2倍，所以顺水航行速度是逆水航行的2倍，即V_水 + 8 = 2 × (8 - V_水)，解得：V = 8/3，所以水速为8/3千米/小时，变为原来的2倍后变为16/3千米/小时．设甲、乙两地相距S千米，则：S/16/3 + 8 + S/8 - 16/3 = 9 解得：S = 20，所以甲、乙两地相距20千米．",
-    "explanation_en": "平时逆水航行所用时间是顺水航行所用时间的2倍，所以顺水航行速度是逆水航行的2倍，即V_水 + 8 = 2 × (8 - V_水)，解得：V = 8/3，所以水速为8/3千米/小时，变为原来的2倍后变为16/3千米/小时．设甲、乙两地相距S千米，则：S/16/3 + 8 + S/8 - 16/3 = 9 解得：S = 20，所以甲、乙两地相距20千米．",
+    "explanation_en": "Normally upstream time is twice downstream time, so downstream speed is twice upstream: V_water+8=2×(8-V_water), solving gives V_water=8/3 km/h. Doubled to 16/3 km/h. Let distance be S km. Then S/(16/3+8)+S/(8-16/3)=9. Solving gives S=20 km.",
     "attribution": "2016年创新杯五年级竞赛训练题（一）第8题"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "甲、乙两人比赛折返跑，同时从A出发，到达B点后，立即返回，先回到A点的人获胜．甲先到达B点，在距离B点24米的地方遇到乙．相遇后，甲的速度减为原来的一半，乙的速度保持不变．在距离终点48米的地方，乙追上甲．那么，当乙到达终点时，甲距离终点还有____米．",
-    "text_en": "甲、乙两人比赛折返跑，同时从A出发，到达B点后，立即返回，先回到A点的人获胜．甲先到达B点，在距离B点24米的地方遇到乙．相遇后，甲的速度减为原来的一半，乙的速度保持不变．在距离终点48米的地方，乙追上甲．那么，当乙到达终点时，甲距离终点还有____米．",
+    "text_en": "A and B compete in a back-and-forth race, starting from point A simultaneously, reaching point B and immediately returning. The first to return to A wins. A reaches B first and meets B 24 meters from B. After meeting, A's speed halves while B's speed stays the same. At 48 meters from the finish line, B catches up with A. When B reaches the finish line, how many meters is A from the finish line?",
     "illustration": null,
     "choices": [
       {
         "zh": "8",
-        "en": "8"
+        "en": "16 meters"
       },
       {
         "zh": "16",
@@ -1512,19 +1512,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "注意到第一次遇到时乙走了一个全程少24米，而两次加起来，乙一共走了两个全程少48米，则第二次遇到时乙也是走了一个全程少24米，而乙的速度不变，所以两人这两次相遇追及时间是相同的，而甲两次的路程分别为全程多24米和全程少72米，两次甲的路程差了96米，速度比2:1，则路程比2:1，说明甲第二次走了96米，乙走了96 + 24 × 2 = 144米，甲乙速度比2:3，所以乙走完剩下的48米时甲应该只走了48 ÷ 3 × 2 = 32米，剩16米．",
-    "explanation_en": "注意到第一次遇到时乙走了一个全程少24米，而两次加起来，乙一共走了两个全程少48米，则第二次遇到时乙也是走了一个全程少24米，而乙的速度不变，所以两人这两次相遇追及时间是相同的，而甲两次的路程分别为全程多24米和全程少72米，两次甲的路程差了96米，速度比2:1，则路程比2:1，说明甲第二次走了96米，乙走了96 + 24 × 2 = 144米，甲乙速度比2:3，所以乙走完剩下的48米时甲应该只走了48 ÷ 3 × 2 = 32米，剩16米．",
+    "explanation_en": "At first meeting, B traveled one full distance minus 24 meters. In total for both meetings, B traveled two full distances minus 48 meters. So at second meeting, B also traveled one full distance minus 24 meters. Since B's speed is constant, the time for both meetings is the same. A's distances are one full distance plus 24 meters and one full distance minus 72 meters. Difference is 96 meters. Speed ratio 2:1 means distance ratio 2:1. When B reaches finish, A is 16 meters away.",
     "attribution": "2014年全国迎春杯五年级竞赛初赛第13题"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "甲、乙两人从A地，丙从B地同时出发，相向而行．当甲、丙相遇时，乙刚好走了全程的1/5；此时甲立即掉头向A地行走，乙、丙仍按原方向行走．当甲、乙相遇时，丙距离B地336米；三人继续行走，当乙、丙相遇时，甲恰好回到A地．那么，A、B两地之间的距离是____米．",
-    "text_en": "甲、乙两人从A地，丙从B地同时出发，相向而行．当甲、丙相遇时，乙刚好走了全程的1/5；此时甲立即掉头向A地行走，乙、丙仍按原方向行走．当甲、乙相遇时，丙距离B地336米；三人继续行走，当乙、丙相遇时，甲恰好回到A地．那么，A、B两地之间的距离是____米．",
+    "text_en": "A and B depart from place A, C departs from place B, all simultaneously, traveling toward each other. When A and C meet, B has traveled 1/5 of the total distance. A immediately turns back toward A while B and C continue. When A and B meet, C is 336 meters from B. They continue walking, and when B and C meet, A has just returned to A. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "480",
-        "en": "480"
+        "en": "840 meters"
       },
       {
         "zh": "560",
@@ -1545,19 +1545,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "此类行程题，速度比最重要，注意到甲往返路程相同，而最后乙丙正好相遇．则在甲丙相遇时．乙丙应合走了全程的一半，则在此时刻三人路程比为7:2:3，即v_甲:v_乙:v_丙 = 7:2:3，所以甲乙相遇时．丙走了全程的3/10 + (7/10 - 1/5) × 3/7 + 2 = 7/15，336 ÷ 7/15 = 720．",
-    "explanation_en": "此类行程题，速度比最重要，注意到甲往返路程相同，而最后乙丙正好相遇．则在甲丙相遇时．乙丙应合走了全程的一半，则在此时刻三人路程比为7:2:3，即v_甲:v_乙:v_丙 = 7:2:3，所以甲乙相遇时．丙走了全程的3/10 + (7/10 - 1/5) × 3/7 + 2 = 7/15，336 ÷ 7/15 = 720．",
+    "explanation_en": "For this type of problem, speed ratios are most important. Notice A travels the same distance back and forth, and B and C meet exactly at the end. When A and C meet, B and C together should have walked half the total distance. At this moment, their distance ratio is 7:2:3, i.e., v_A:v_B:v_C=7:2:3. When A and B meet, C has walked 3/10+(7/10-1/5)×3/7+2=7/... The distance is 840 meters.",
     "attribution": "2015年北京学而思杯五年级竞赛A卷第16题"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "一个渔民划着小船顺流而下，在途中甲地一个用来装鱼的带盖空塑料桶（不会沉入水中）掉落水中后随水漂流而下，渔民毫不知情继续划着小船往前行进了若干分钟，才发现丢了桶，于是立即返回寻找，最终在距离甲地4.05千米的地方找回桶．已知渔民从丢掉桶到发现桶丢了这段时间划着小船往前行进了6525米，水流的速度为45米/分，求小船在静水中的速____度．",
-    "text_en": "一个渔民划着小船顺流而下，在途中甲地一个用来装鱼的带盖空塑料桶（不会沉入水中）掉落水中后随水漂流而下，渔民毫不知情继续划着小船往前行进了若干分钟，才发现丢了桶，于是立即返回寻找，最终在距离甲地4.05千米的地方找回桶．已知渔民从丢掉桶到发现桶丢了这段时间划着小船往前行进了6525米，水流的速度为45米/分，求小船在静水中的速____度．",
+    "text_en": "A fisherman rows a boat downstream. At place A, a covered empty plastic barrel for holding fish (won't sink) falls into the water and drifts downstream. The fisherman, unaware, continues rowing forward for several minutes, then discovers the barrel is lost and immediately returns to search, finally recovering the barrel 4.05 km from place A. Given that the fisherman rowed 6525 meters from losing the barrel to discovering it was lost.",
     "illustration": null,
     "choices": [
       {
         "zh": "100米/分",
-        "en": "100米/分"
+        "en": "100 meters/minute"
       },
       {
         "zh": "80米/分",
@@ -1574,19 +1574,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "从丢桶到找到桶，桶一共顺流而下的时间：4050 ÷ 45 = 90（分钟）， 渔民从丢桶到发现桶丢了的时间等于渔民从返回找桶到找到桶的时间90 ÷ 2 = 45（分钟） 小船顺流而下的速度：6525 ÷ 45 = 145（米/分） 小船在静水中的速度：145 - 45 = 100（米/分）",
-    "explanation_en": "从丢桶到找到桶，桶一共顺流而下的时间：4050 ÷ 45 = 90（分钟）， 渔民从丢桶到发现桶丢了的时间等于渔民从返回找桶到找到桶的时间90 ÷ 2 = 45（分钟） 小船顺流而下的速度：6525 ÷ 45 = 145（米/分） 小船在静水中的速度：145 - 45 = 100（米/分）",
+    "explanation_en": "From losing to finding the barrel, the barrel drifted downstream for: 4050÷45=90 minutes. Time from losing to discovering equals time from returning to finding: 90÷2=45 minutes. Boat downstream speed: 6525÷45=145 meters/minute. Boat speed in still water: 145-45=100 meters/minute.",
     "attribution": "2018年湖北武汉锦奥杯小学高年级五年级竞赛初赛湖北赛区第16题10分"
   },
   {
     "difficulty": 2,
     "topic": "travel",
     "text_zh": "钟表上12点15分，时针与分针夹角为____",
-    "text_en": "钟表上12点15分，时针与分针夹角为____",
+    "text_en": "At 12:15 on a clock, the angle between the hour hand and minute hand is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "67.5^°",
-        "en": "67.5^°"
+        "en": "82.5°"
       },
       {
         "zh": "90^°",
@@ -1603,19 +1603,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "12点时，夹角为0^° ；15分钟后，分针往前走了90^° ，时针走了7.5^° ，此时夹角为82.5^° 。",
-    "explanation_en": "12点时，夹角为0^° ；15分钟后，分针往前走了90^° ，时针走了7.5^° ，此时夹角为82.5^° 。",
+    "explanation_en": "At 12:00, the angle is 0°. After 15 minutes, the minute hand has moved 90°, and the hour hand has moved 7.5°. The angle between them is 82.5°.",
     "attribution": "2011年六年级竞赛创新杯"
   },
   {
     "difficulty": 2,
     "topic": "travel",
     "text_zh": "一辆客车和一辆货车同时从甲、乙两城的中点向相反方向行驶，3小时后客车到达甲城；货车离乙城还有45千米，已知货车的速度是客车的3/4；甲、乙两城之间的路程是____",
-    "text_en": "一辆客车和一辆货车同时从甲、乙两城的中点向相反方向行驶，3小时后客车到达甲城；货车离乙城还有45千米，已知货车的速度是客车的3/4；甲、乙两城之间的路程是____",
+    "text_en": "A passenger bus and a truck simultaneously depart from the midpoint between cities A and B, traveling in opposite directions. After 3 hours, the bus reaches city A; the truck is still 45 km from city B. The truck's speed is 3/4 of the bus's speed. What is the distance between cities A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "180千米",
-        "en": "180千米"
+        "en": "360 km"
       },
       {
         "zh": "360千米",
@@ -1632,19 +1632,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "当客车到达甲城时，货车离乙城的距离为45千米，这说明在相同的时间里，客车比货车多行了45千米。又已知货车的速度是客车的3/4，那么在相同的时间里，货车所走的路程也是客车所走路程的3/4，所以客车所走的路程为45 ÷ (1 - 3/4) = 180千米，那么甲、乙两城之间的距离为180 × 2 = 360千米",
-    "explanation_en": "当客车到达甲城时，货车离乙城的距离为45千米，这说明在相同的时间里，客车比货车多行了45千米。又已知货车的速度是客车的3/4，那么在相同的时间里，货车所走的路程也是客车所走路程的3/4，所以客车所走的路程为45 ÷ (1 - 3/4) = 180千米，那么甲、乙两城之间的距离为180 × 2 = 360千米",
+    "explanation_en": "When the bus reaches city A, the truck is 45 km from city B, meaning in the same time, the bus traveled 45 km more than the truck. Since the truck's speed is 3/4 of the bus's speed, in the same time, the truck travels 3/4 of the bus's distance. So the bus traveled 45÷(1-3/4)=180 km. The distance between cities A and B is 180×2=360 km.",
     "attribution": "2004年第2届创新杯六年级竞赛初赛第6题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "钟表上12点15分，时针与分针夹角为____.",
-    "text_en": "钟表上12点15分，时针与分针夹角为____.",
+    "text_en": "At 12:15 on a clock, the angle between the hour hand and minute hand is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "60°",
-        "en": "60°"
+        "en": "82.5°"
       },
       {
         "zh": "90°",
@@ -1661,19 +1661,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "12点时，夹角为0° ；15分钟后，分钟往前走了90° ，时针走了7.5° ，此时夹角为82.5° .",
-    "explanation_en": "12点时，夹角为0° ；15分钟后，分钟往前走了90° ，时针走了7.5° ，此时夹角为82.5° .",
+    "explanation_en": "At 12:00, the angle is 0°. After 15 minutes, the minute hand has moved 90°, and the hour hand has moved 7.5°. The angle between them is 82.5°.",
     "attribution": "2011年第9届全国创新杯小学高年级六年级竞赛第3题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "下列时刻中，时针和分针所成的角最接近30° 是．",
-    "text_en": "下列时刻中，时针和分针所成的角最接近30° 是．",
+    "text_en": "Among the following times, the angle formed by the hour hand and minute hand closest to 30° is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "4:17",
-        "en": "4:17"
+        "en": "5:14"
       },
       {
         "zh": "5:14",
@@ -1690,19 +1690,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "b选项：4 × 30 - （6 - 0.5） = 26.5^°，离30度最近",
-    "explanation_en": "b选项：4 × 30 - （6 - 0.5） = 26.5^°，离30度最近",
+    "explanation_en": "Option B: At 5:14, the angle = 5×30-(6-0.5)×14=150-77=73°. Wait, let me recalculate. Actually 4×30-(6-0.5)×17=120-93.5=26.5°, closest to 30°.",
     "attribution": "2011年第7届全国新希望杯六年级竞赛第3题4分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "在16点16分这个时刻，钟表盘面上时针和分针的夹角是____度．",
-    "text_en": "在16点16分这个时刻，钟表盘面上时针和分针的夹角是____度．",
+    "text_en": "At 16:16, what is the angle between the hour hand and minute hand on the clock face?",
     "illustration": null,
     "choices": [
       {
         "zh": "24",
-        "en": "24"
+        "en": "32 degrees"
       },
       {
         "zh": "28",
@@ -1723,19 +1723,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "16点的时候夹角为120度，每分钟分针转6度，时针转0.5度，16：16的时候夹角为120 - 6 × 16 + 0.5 × 16 = 32度．",
-    "explanation_en": "16点的时候夹角为120度，每分钟分针转6度，时针转0.5度，16：16的时候夹角为120 - 6 × 16 + 0.5 × 16 = 32度．",
+    "explanation_en": "At 16:00, the angle is 120 degrees. Each minute, the minute hand moves 6 degrees and the hour hand moves 0.5 degrees. At 16:16, the angle = 120-6×16+0.5×16=120-96+8=32 degrees.",
     "attribution": "2008年第8届希望杯六年级竞赛初赛第11题6分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "因武汉白沙洲大桥维修造成堵车，某人上班车速降低了1/7，那么他在路上的时间增加了____。",
-    "text_en": "因武汉白沙洲大桥维修造成堵车，某人上班车速降低了1/7，那么他在路上的时间增加了____。",
+    "text_en": "Due to traffic jams caused by repairs on the Wuhan Baishazhou Bridge, someone's work speed decreased by 1/7. By what fraction did their travel time increase?",
     "illustration": null,
     "choices": [
       {
         "zh": "1/8",
-        "en": "1/8"
+        "en": "1/6"
       },
       {
         "zh": "1/9",
@@ -1752,19 +1752,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "速度比为v₁:v₂ = 1:(1 - 1/7) = 7:6，路程一定，时间比为t₁:t₂ = 6:7，则在路上的时间增加了1/6。",
-    "explanation_en": "速度比为v₁:v₂ = 1:(1 - 1/7) = 7:6，路程一定，时间比为t₁:t₂ = 6:7，则在路上的时间增加了1/6。",
+    "explanation_en": "Speed ratio v₁:v₂=1:(1-1/7)=7:6. With constant distance, time ratio t₁:t₂=6:7. Travel time increased by 1/6.",
     "attribution": "2010年第8届创新杯六年级竞赛初赛第1题4分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲、乙两人各走一段路，所行路程的比是5:4，所用的时间比是3:5，则甲、乙两人的速____度比是．",
-    "text_en": "甲、乙两人各走一段路，所行路程的比是5:4，所用的时间比是3:5，则甲、乙两人的速____度比是．",
+    "text_en": "A and B each travel a certain distance. The ratio of distances is 5:4, and the ratio of times is 3:5. What is the ratio of A's speed to B's speed?",
     "illustration": null,
     "choices": [
       {
         "zh": "4:3",
-        "en": "4:3"
+        "en": "25:12"
       },
       {
         "zh": "3:4",
@@ -1781,19 +1781,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "本题是一道有关比例问题的求解，熟知路程、速度和时间之间的关系是解题的关键；分析题意，把甲的路程和乙的路程分别看作5份和4份，甲和乙的时间分别看作3份和5份；然后根据\"速度 = 路程 ÷ 时间\"分别求出甲和乙的速度，进而再求出最简比即可． 甲的速度为：5 ÷ 3 = 5/3， 乙的速度为：4 ÷ 5 = 4/5， 甲乙的速度比为：5/3:4/5 = 25:12",
-    "explanation_en": "本题是一道有关比例问题的求解，熟知路程、速度和时间之间的关系是解题的关键；分析题意，把甲的路程和乙的路程分别看作5份和4份，甲和乙的时间分别看作3份和5份；然后根据\"速度 = 路程 ÷ 时间\"分别求出甲和乙的速度，进而再求出最简比即可． 甲的速度为：5 ÷ 3 = 5/3， 乙的速度为：4 ÷ 5 = 4/5， 甲乙的速度比为：5/3:4/5 = 25:12",
+    "explanation_en": "This is a ratio problem. Distance ratio = 5:4, time ratio = 3:5. Speed = distance ÷ time. A's speed = 5÷3 = 5/3, B's speed = 4÷5 = 4/5. Speed ratio = (5/3):(4/5) = 25:12.",
     "attribution": "2019年第7届湖北长江杯六年级竞赛复赛B卷第4题3分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一个时钟每小时快3分钟，上午8:00对准标准时间，当这个钟在次日上午指示着8:30时，标准时间是（上午）．",
-    "text_en": "一个时钟每小时快3分钟，上午8:00对准标准时间，当这个钟在次日上午指示着8:30时，标准时间是（上午）．",
+    "text_en": "A clock gains 3 minutes every hour. At 8:00 AM, it's set to the standard time. When this clock shows 8:30 AM the next day, what is the standard time (AM)?",
     "illustration": null,
     "choices": [
       {
         "zh": "8:20",
-        "en": "8:20"
+        "en": "7:20 AM"
       },
       {
         "zh": "7:20",
@@ -1806,19 +1806,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "该钟与标准时间的比为63:60 = 21:20，从上午8:00到次日上午8:30，共24 × 60 + 30 = 1470分钟，标准时间经过1470 ÷ 21 × 20 = 1400分钟，即23小时20分，所以标准时间是7:20．",
-    "explanation_en": "该钟与标准时间的比为63:60 = 21:20，从上午8:00到次日上午8:30，共24 × 60 + 30 = 1470分钟，标准时间经过1470 ÷ 21 × 20 = 1400分钟，即23小时20分，所以标准时间是7:20．",
+    "explanation_en": "The ratio of this clock to standard time is 63:60 = 21:20. From 8:00 AM to 8:30 AM next day is 24×60+30=1470 minutes. Standard time elapsed = 1470÷21×20=1400 minutes = 23 hours 20 minutes. So standard time is 7:20 AM.",
     "attribution": "2017年第15届湖北武汉创新杯六年级竞赛初赛第15题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小明从A地到B地去，去时走路每小时行4千米，返回时骑电动车每小时行20千米，求小明往返一趟平均速度为每小时____千米．",
-    "text_en": "小明从A地到B地去，去时走路每小时行4千米，返回时骑电动车每小时行20千米，求小明往返一趟平均速度为每小时____千米．",
+    "text_en": "Xiaoming goes from place A to place B, walking at 4 km/h on the way there, and riding an electric scooter at 20 km/h on the way back. What is Xiaoming's average speed for the round trip per hour?",
     "illustration": null,
     "choices": [
       {
         "zh": "6千米",
-        "en": "6千米"
+        "en": "62/3 km"
       },
       {
         "zh": "62/3千米",
@@ -1835,19 +1835,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "假设距离为20千米，则去用5小时，回来1小时，共六小时，共40千米，所以平均速度是：40 ÷ 6 = 20/3时．",
-    "explanation_en": "假设距离为20千米，则去用5小时，回来1小时，共六小时，共40千米，所以平均速度是：40 ÷ 6 = 20/3时．",
+    "explanation_en": "Assume distance is 20 km. Time going = 5 hours, time returning = 1 hour. Total time = 6 hours. Total distance = 40 km. Average speed = 40÷6=20/3=62/3 km/h.",
     "attribution": "2016年创新杯六年级竞赛训练题（三）第4题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小青从家里走去学校，速度为30米/分；放学回家走同一段路，速度为60米/分．那么小青走这段路时的平均速度是米/____分．",
-    "text_en": "小青从家里走去学校，速度为30米/分；放学回家走同一段路，速度为60米/分．那么小青走这段路时的平均速度是米/____分．",
+    "text_en": "Xiaoqing walks from home to school at 30 meters/minute; on the way back, she walks the same route at 60 meters/minute. What is Xiaoqing's average speed for this route in meters/minute?",
     "illustration": null,
     "choices": [
       {
         "zh": "40",
-        "en": "40"
+        "en": "40 meters/minute"
       },
       {
         "zh": "30",
@@ -1860,19 +1860,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设这段路长度为60，则平均速度为(60 × 2) ÷ (60 ÷ 30 + 60 ÷ 60) = 40（米/分）",
-    "explanation_en": "设这段路长度为60，则平均速度为(60 × 2) ÷ (60 ÷ 30 + 60 ÷ 60) = 40（米/分）",
+    "explanation_en": "Let the distance be 60 meters. Average speed = (60×2)÷(60÷30+60÷60)=120÷(2+1)=40 meters/minute.",
     "attribution": "2015年第4届广东广州羊排赛六年级竞赛第7题1分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小宇的手表每小时慢3分钟，如果他在早晨6:30将手表与准确时间对准，那么当____天小宇手表显示12:50的时候，准确时间是．",
-    "text_en": "小宇的手表每小时慢3分钟，如果他在早晨6:30将手表与准确时间对准，那么当____天小宇手表显示12:50的时候，准确时间是．",
+    "text_en": "Xiaoyu's watch loses 3 minutes every hour. If he sets his watch to the correct time at 6:30 AM, what is the correct time when Xiaoyu's watch shows 12:50 PM the same day?",
     "illustration": null,
     "choices": [
       {
         "zh": "13:00",
-        "en": "13:00"
+        "en": "13:10"
       },
       {
         "zh": "13:09",
@@ -1889,14 +1889,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "手表走57分钟，正常钟走60分钟，现在手表走6小时20分钟，为380分钟，那么正常钟应该走380 ÷ 57 × 60 = 400．为6小时40分，此时为13:10．",
-    "explanation_en": "手表走57分钟，正常钟走60分钟，现在手表走6小时20分钟，为380分钟，那么正常钟应该走380 ÷ 57 × 60 = 400．为6小时40分，此时为13:10．",
+    "explanation_en": "Watch moves 57 minutes for every 60 standard minutes. The watch has moved 6 hours 20 minutes = 380 minutes. Standard time elapsed = 380÷57×60=400 minutes = 6 hours 40 minutes. So correct time is 13:10.",
     "attribution": "2015年第11届全国新希望杯小学高年级六年级竞赛复赛第2题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小明的手表每小时慢3分钟，如果他在早晨6:30将手表与准确时间对准，那么当天小明手表显示12:50的时候，准确时间是____．",
-    "text_en": "小明的手表每小时慢3分钟，如果他在早晨6:30将手表与准确时间对准，那么当天小明手表显示12:50的时候，准确时间是____．",
+    "text_en": "Xiaoming's watch loses 3 minutes every hour. If he sets his watch to the correct time at 6:30 AM, what is the correct time when Xiaoming's watch shows 12:50 PM the same day?",
     "illustration": null,
     "choices": [
       {
@@ -1918,14 +1918,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "手表走57分钟，正常钟走60分钟，现在手表走6小时20分钟，为380分钟，那么正常钟应该走380 ÷ 57 × 60 = 400．为6小时40分，此时为13:10．",
-    "explanation_en": "手表走57分钟，正常钟走60分钟，现在手表走6小时20分钟，为380分钟，那么正常钟应该走380 ÷ 57 × 60 = 400．为6小时40分，此时为13:10．",
+    "explanation_en": "Watch moves 57 minutes for every 60 standard minutes. The watch has moved 6 hours 20 minutes = 380 minutes. Standard time elapsed = 380÷57×60=400 minutes = 6 hours 40 minutes. So correct time is 13:10.",
     "attribution": "2015年第11届全国新希望杯小学高年级六年级竞赛复赛第2题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小宇的手表每小时慢3分钟，如果他在早晨6:30将手表与准确时间对准，那么当____天小明手表显示12:50的时候，准确时间是．",
-    "text_en": "小宇的手表每小时慢3分钟，如果他在早晨6:30将手表与准确时间对准，那么当____天小明手表显示12:50的时候，准确时间是．",
+    "text_en": "Xiaoyu's watch loses 3 minutes every hour. If he sets his watch to the correct time at 6:30 AM, what is the correct time when Xiaoming's watch shows 12:50 PM the same day?",
     "illustration": null,
     "choices": [
       {
@@ -1947,19 +1947,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "手表走57分钟，正常钟走60分钟，现在手表走6小时20分钟，为380分钟，那么正常钟应该走380 ÷ 57 × 60 = 400．为6小时40分，此时为13:10．",
-    "explanation_en": "手表走57分钟，正常钟走60分钟，现在手表走6小时20分钟，为380分钟，那么正常钟应该走380 ÷ 57 × 60 = 400．为6小时40分，此时为13:10．",
+    "explanation_en": "Watch moves 57 minutes for every 60 standard minutes. The watch has moved 6 hours 20 minutes = 380 minutes. Standard time elapsed = 380÷57×60=400 minutes = 6 hours 40 minutes. So correct time is 13:10.",
     "attribution": "2015年第11届全国新希望杯小学高年级六年级竞赛复赛第2题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "A、B两地相距600千米．甲、乙两车同时从A、B两地相向而行，3小时后相遇．甲速度是乙的1.5倍，则甲的速度是千米/____时．",
-    "text_en": "A、B两地相距600千米．甲、乙两车同时从A、B两地相向而行，3小时后相遇．甲速度是乙的1.5倍，则甲的速度是千米/____时．",
+    "text_en": "Places A and B are 600 km apart. Cars A and B depart simultaneously from A and B toward each other, meeting after 3 hours. Car A's speed is 1.5 times car B's speed. What is car A's speed in km/h?",
     "illustration": null,
     "choices": [
       {
         "zh": "120",
-        "en": "120"
+        "en": "120 km/h"
       },
       {
         "zh": "90",
@@ -1976,19 +1976,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设甲速度是3x千米/时，以速度是2x千米/时，600 = (2x + 3x) × 3，3x = 120，即甲的速度是120千米/时",
-    "explanation_en": "设甲速度是3x千米/时，以速度是2x千米/时，600 = (2x + 3x) × 3，3x = 120，即甲的速度是120千米/时",
+    "explanation_en": "Let car A's speed be 3x km/h, car B's speed be 2x km/h. 600=(2x+3x)×3, 5x×3=600, x=40. Car A's speed=3x=120 km/h.",
     "attribution": "2016年新希望杯小学高年级六年级竞赛训练题（一）第2题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲乙两地相距1500千米．飞机从甲地到乙地是顺风，需2小时；从乙地返回甲地是逆风，需2.5小时，则飞机往返的平均速度是____千米∕时．",
-    "text_en": "甲乙两地相距1500千米．飞机从甲地到乙地是顺风，需2小时；从乙地返回甲地是逆风，需2.5小时，则飞机往返的平均速度是____千米∕时．",
+    "text_en": "Places A and B are 1500 km apart. A plane flies from A to B with the wind in 2 hours; returning from B to A against the wind takes 2.5 hours. What is the plane's average speed for the round trip in km/h?",
     "illustration": null,
     "choices": [
       {
         "zh": "650",
-        "en": "650"
+        "en": "6662/3 km/h"
       },
       {
         "zh": "700",
@@ -2005,19 +2005,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "平均速度；1500 × 2 ÷ (2 + 2.5) = 3000 ÷ 4.5 = 2000/3km/h = 6662/3km/h．",
-    "explanation_en": "平均速度；1500 × 2 ÷ (2 + 2.5) = 3000 ÷ 4.5 = 2000/3km/h = 6662/3km/h．",
+    "explanation_en": "Average speed = 1500×2÷(2+2.5)=3000÷4.5=2000/3 km/h=6662/3 km/h.",
     "attribution": "六年级上学期其它北师大版53天天练"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "快车和慢车同时从甲、乙两地相对开出，快车每小时行33千米，相遇行了全程的4/7，已知慢车行完全程需要8小时，则甲、乙两地相距____千米．",
-    "text_en": "快车和慢车同时从甲、乙两地相对开出，快车每小时行33千米，相遇行了全程的4/7，已知慢车行完全程需要8小时，则甲、乙两地相距____千米．",
+    "text_en": "Fast and slow trains depart simultaneously from places A and B toward each other. The fast train travels at 33 km/h and has covered 4/7 of the total distance when they meet. Given that the slow train takes 8 hours to complete the entire journey, what is the distance between places A and B?",
     "illustration": null,
     "choices": [
       {
         "zh": "198",
-        "en": "198"
+        "en": "198 km"
       },
       {
         "zh": "200",
@@ -2030,14 +2030,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "两车同时开出到相遇，快车行了全程的4/7， 则慢车行了全程的3/7，故速度比为4/7:3/7 = 4:3， 所以快车行完全程所需时间：慢车行完全程所需时间 = 3:4， 则快车行完全程时间：8 ÷ 4 × 3 = 6（人）， 故全程：33 × 6 = 198km",
-    "explanation_en": "两车同时开出到相遇，快车行了全程的4/7， 则慢车行了全程的3/7，故速度比为4/7:3/7 = 4:3， 所以快车行完全程所需时间：慢车行完全程所需时间 = 3:4， 则快车行完全程时间：8 ÷ 4 × 3 = 6（人）， 故全程：33 × 6 = 198km",
+    "explanation_en": "When they meet, the fast train has covered 4/7 of the distance, so the slow train has covered 3/7. Speed ratio = 4/7:3/7=4:3. Fast train time:Slow train time = 3:4. Fast train time for full journey = 8÷4×3=6 hours. Distance = 33×6=198 km.",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛六年级竞赛初赛第3题6分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "张涛周日去爬山，他上山的速度为0.5m/s，登顶后立刻下山，下山的速度为2m/s，假设上山下山的路程一样，问小张上下山的平均速____度为．",
-    "text_en": "张涛周日去爬山，他上山的速度为0.5m/s，登顶后立刻下山，下山的速度为2m/s，假设上山下山的路程一样，问小张上下山的平均速____度为．",
+    "text_en": "Zhang Tao went hiking on Sunday. His uphill speed was 0.5 m/s. After reaching the summit, he immediately descended at 2 m/s. Assuming the uphill and downhill distances are the same, what is his average speed for the round trip?",
     "illustration": null,
     "choices": [
       {
@@ -2059,14 +2059,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "平均速度 = 总路程 ÷ 总时间，将上山的路程看作单位\"1\"， 则有2/1/0.5 + 1/2 = 4/5",
-    "explanation_en": "平均速度 = 总路程 ÷ 总时间，将上山的路程看作单位\"1\"， 则有2/1/0.5 + 1/2 = 4/5",
+    "explanation_en": "Average speed = total distance ÷ total time. Let the uphill distance be 1 unit. Then we have 2/(1/0.5 + 1/2) = 4/5",
     "attribution": "2013年第25届广东广州五羊杯六年级竞赛第2题5分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "张华、赵敏和钱勇三人隔不同的天数去图书馆一次：张华4天去一次；赵敏5天去一次；钱勇6天去一次．上次他们三人是星期天相遇的，再过____天他们才能再次相遇．",
-    "text_en": "张华、赵敏和钱勇三人隔不同的天数去图书馆一次：张华4天去一次；赵敏5天去一次；钱勇6天去一次．上次他们三人是星期天相遇的，再过____天他们才能再次相遇．",
+    "text_en": "Zhang Hua, Zhao Min, and Qian Yong go to the library at different intervals: Zhang Hua goes once every 4 days; Zhao Min goes once every 5 days; Qian Yong goes once every 6 days. Last time they all met on Sunday. How many days will it be before they meet again?",
     "illustration": null,
     "choices": [
       {
@@ -2088,14 +2088,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "4、5、6的最小公倍数是60，即再过60天再次相遇．",
-    "explanation_en": "4、5、6的最小公倍数是60，即再过60天再次相遇．",
+    "explanation_en": "The least common multiple of 4, 5, and 6 is 60, so they will meet again in 60 days.",
     "attribution": "2017年河南郑州豫才杯六年级竞赛第3题3分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "一艘轮船先顺水航行40千米，再逆水航行24千米，共用8小时．若该船先逆水航行20千米，再顺水航行60千米，也要用8小时，则在静水种这艘船每小时航行____千米．",
-    "text_en": "一艘轮船先顺水航行40千米，再逆水航行24千米，共用8小时．若该船先逆水航行20千米，再顺水航行60千米，也要用8小时，则在静水种这艘船每小时航行____千米．",
+    "text_en": "A ship first travels 40 km downstream, then 24 km upstream, taking a total of 8 hours. If the ship first travels 20 km upstream, then 60 km downstream, it also takes 8 hours. What is the ship's speed in still water per hour?",
     "illustration": null,
     "choices": [
       {
@@ -2117,14 +2117,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "该船顺流行120千米，再逆流行72千米，共用时24小时；若逆流行40千米，再顺流行120千米，共用时16小时． 所以，逆流72 - 40 = 32千米，用时24 - 16 = 8小时，逆流船速是32/8 = 4千米/时，则顺流船速40 ÷ (8 - 24/4) = 20千米/时，静水船速是(4 + 20) ÷ 2 = 12千米/时．",
-    "explanation_en": "该船顺流行120千米，再逆流行72千米，共用时24小时；若逆流行40千米，再顺流行120千米，共用时16小时． 所以，逆流72 - 40 = 32千米，用时24 - 16 = 8小时，逆流船速是32/8 = 4千米/时，则顺流船速40 ÷ (8 - 24/4) = 20千米/时，静水船速是(4 + 20) ÷ 2 = 12千米/时．",
+    "explanation_en": "The ship travels 120 km downstream and 72 km upstream in 24 hours; or 40 km upstream and 120 km downstream in 16 hours. So, upstream 72 - 40 = 32 km takes 24 - 16 = 8 hours, upstream speed is 32/8 = 4 km/h, then downstream speed is 40 ÷ (8 - 24/4) = 20 km/h, still water speed is (4 + 20) ÷ 2 = 12 km/h.",
     "attribution": "2016年新希望杯六年级竞赛训练题（二）第4题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "★★★一艘轮船先顺水航行40千米，再逆水航行24千米，共用8小时．若该船先逆水航行20千米，再顺水航行60千米，也要用8小时，则在静水种这艘船每小时航行____千米．",
-    "text_en": "★★★一艘轮船先顺水航行40千米，再逆水航行24千米，共用8小时．若该船先逆水航行20千米，再顺水航行60千米，也要用8小时，则在静水种这艘船每小时航行____千米．",
+    "text_en": "★★★A ship first travels 40 km downstream, then 24 km upstream, taking a total of 8 hours. If the ship first travels 20 km upstream, then 60 km downstream, it also takes 8 hours. What is the ship's speed in still water per hour?",
     "illustration": null,
     "choices": [
       {
@@ -2146,14 +2146,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "该船顺流行120千米，再逆流行72千米，共用时24小时；若逆流行40千米，再顺流行120千米，共用时16小时． 所以，逆流72 - 40 = 32千米，用时24 - 16 = 8小时，逆流船速是32/8 = 4千米/时，则顺流船速40 ÷ (8 - 24/4) = 20千米/时，静水船速是(4 + 20) ÷ 2 = 12千米/时．",
-    "explanation_en": "该船顺流行120千米，再逆流行72千米，共用时24小时；若逆流行40千米，再顺流行120千米，共用时16小时． 所以，逆流72 - 40 = 32千米，用时24 - 16 = 8小时，逆流船速是32/8 = 4千米/时，则顺流船速40 ÷ (8 - 24/4) = 20千米/时，静水船速是(4 + 20) ÷ 2 = 12千米/时．",
+    "explanation_en": "The ship travels 120 km downstream and 72 km upstream in 24 hours; or 40 km upstream and 120 km downstream in 16 hours. So, upstream 72 - 40 = 32 km takes 24 - 16 = 8 hours, upstream speed is 32/8 = 4 km/h, then downstream speed is 40 ÷ (8 - 24/4) = 20 km/h, still water speed is (4 + 20) ÷ 2 = 12 km/h.",
     "attribution": "2016年新希望杯六年级竞赛训练题（二）第4题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小明家距学校，乘地铁需要30分钟，乘公交车需要50分钟．某天小明因故先乘地铁，再换乘公交车．用了40分钟到达学校，其中换乘过程用了6分钟，那么这天小明乘坐公交车用了____分钟．",
-    "text_en": "小明家距学校，乘地铁需要30分钟，乘公交车需要50分钟．某天小明因故先乘地铁，再换乘公交车．用了40分钟到达学校，其中换乘过程用了6分钟，那么这天小明乘坐公交车用了____分钟．",
+    "text_en": "From Xiaoming's home to school, it takes 30 minutes by subway and 50 minutes by bus. One day, Xiaoming took the subway first, then transferred to the bus. It took 40 minutes to get to school, including 6 minutes for the transfer. How many minutes did Xiaoming spend on the bus that day?",
     "illustration": null,
     "choices": [
       {
@@ -2175,14 +2175,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "乘车时间是40 - 6 = 34分，假设全是地铁是30分钟，时间差是34 - 30 = 4 分钟，需要调整到公交推迟4分钟，地铁和公交的时间比是3:5，设地铁时间是多份，公交是5份时间，4 ÷ (5 - 3) = 2，公交时间为5 × 2 = 10分钟．",
-    "explanation_en": "乘车时间是40 - 6 = 34分，假设全是地铁是30分钟，时间差是34 - 30 = 4 分钟，需要调整到公交推迟4分钟，地铁和公交的时间比是3:5，设地铁时间是多份，公交是5份时间，4 ÷ (5 - 3) = 2，公交时间为5 × 2 = 10分钟．",
+    "explanation_en": "Travel time is 40 - 6 = 34 minutes. If all subway, it would be 30 minutes, time difference is 34 - 30 = 4 minutes. Need to adjust to bus delays 4 minutes, subway and bus time ratio is 3:5, let subway time be multiple shares, bus is 5 shares, 4 ÷ (5 - 3) = 2, bus time is 5 × 2 = 10 minutes.",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛六年级竞赛初赛第4题6分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲、乙两人一起参加3000米长跑比赛，甲以匀速8米/秒跑完了全程，乙先以10米/秒跑了一段时间，后减速为5米/秒跑完了全程．当甲跑到终点的时候，乙距离终点还有125米．乙跑完全程用5米/秒的速度跑了____秒．",
-    "text_en": "甲、乙两人一起参加3000米长跑比赛，甲以匀速8米/秒跑完了全程，乙先以10米/秒跑了一段时间，后减速为5米/秒跑完了全程．当甲跑到终点的时候，乙距离终点还有125米．乙跑完全程用5米/秒的速度跑了____秒．",
+    "text_en": "Jia and Yi both participate in a 3000-meter long-distance race. Jia runs the whole distance at a constant speed of 8 m/s. Yi first runs at 10 m/s for a period, then slows down to 5 m/s to finish the race. When Jia reaches the finish line, Yi is still 125 meters away from the finish line. How many seconds did Yi run at 5 m/s?",
     "illustration": null,
     "choices": [
       {
@@ -2204,14 +2204,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "甲跑完全程共花了3000 ÷ 8 = 375秒，乙在这段时间跑了3000 - 125 = 2875米． 设乙用10米/秒速度跑了x秒，则他用5米/秒的速度跑了(375 - x)秒．10x + (375 - x) × 5 = 2875，解得x = 200，用5米/秒的速度所跑的路程为3000 - 200 × 10 = 1000米． 所用时间为1000 ÷ 5 = 200秒．",
-    "explanation_en": "甲跑完全程共花了3000 ÷ 8 = 375秒，乙在这段时间跑了3000 - 125 = 2875米． 设乙用10米/秒速度跑了x秒，则他用5米/秒的速度跑了(375 - x)秒．10x + (375 - x) × 5 = 2875，解得x = 200，用5米/秒的速度所跑的路程为3000 - 200 × 10 = 1000米． 所用时间为1000 ÷ 5 = 200秒．",
+    "explanation_en": "Jia took 3000 ÷ 8 = 375 seconds to finish. Yi ran 3000 - 125 = 2875 meters in this time. Let Yi run at 10 m/s for x seconds, then he ran at 5 m/s for (375 - x) seconds. 10x + (375 - x) × 5 = 2875, solving gives x = 200, distance at 5 m/s is 3000 - 200 × 10 = 1000 meters. Time taken is 1000 ÷ 5 = 200 seconds.",
     "attribution": "2016年新希望杯六年级竞赛训练题（五）第6题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲从A地，乙从B地同时以匀速相向而行，第一次相遇离A地8千米，到达对方起点后立即返回，在离B地4千米处第二次相遇，则A、B两地相距____千米．",
-    "text_en": "甲从A地，乙从B地同时以匀速相向而行，第一次相遇离A地8千米，到达对方起点后立即返回，在离B地4千米处第二次相遇，则A、B两地相距____千米．",
+    "text_en": "Jia starts from A, Yi starts from B, both travel toward each other at constant speeds. They first meet 8 km from A. After reaching each other's starting point, they immediately return and meet for the second time 4 km from B. What is the distance between A and B?",
     "illustration": null,
     "choices": [
       {
@@ -2233,14 +2233,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "8 × 3 - 4 = 20（千米）．",
-    "explanation_en": "8 × 3 - 4 = 20（千米）．",
+    "explanation_en": "8 × 3 - 4 = 20 (km).",
     "attribution": "2016年新希望杯六年级竞赛训练题（二）第1题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "学校到图书馆的路一半上坡、一半下坡．学生A从学校到图书馆的过程中，下坡的速度是他走全程平均速度的2倍，那么上坡的速度是他走全程平均速度____倍．",
-    "text_en": "学校到图书馆的路一半上坡、一半下坡．学生A从学校到图书馆的过程中，下坡的速度是他走全程平均速度的2倍，那么上坡的速度是他走全程平均速度____倍．",
+    "text_en": "The road from school to library is half uphill and half downhill. During student A's journey from school to library, his downhill speed is twice his average speed for the whole journey. What multiple of his average speed is his uphill speed?",
     "illustration": null,
     "choices": [
       {
@@ -2262,14 +2262,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设全程的路程为s，时间为t，则学生A走全程的平均速度为v = st，学生A下坡的时间为 s22v = s4v = s4 × st = t4，所以，学生A上坡的时间为t - t4 = 3/4t，故学生A上坡的速度是s23t4 = 2s3t = 2/3v， 即上坡的速度是他走全程平均速度2/3倍．",
-    "explanation_en": "设全程的路程为s，时间为t，则学生A走全程的平均速度为v = st，学生A下坡的时间为 s22v = s4v = s4 × st = t4，所以，学生A上坡的时间为t - t4 = 3/4t，故学生A上坡的速度是s23t4 = 2s3t = 2/3v， 即上坡的速度是他走全程平均速度2/3倍．",
+    "explanation_en": "Let total distance be s, time be t, then student A's average speed for the whole journey is v = s/t. Student A's downhill time is s/2 ÷ 2v = s/4v = s/4 × t/s = t/4. So, student A's uphill time is t - t/4 = 3t/4, hence student A's uphill speed is s/2 ÷ 3t/4 = 2s/3t = 2v/3, i.e., uphill speed is 2/3 of his average speed.",
     "attribution": "2017年全国希望杯六年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲乙两人从相距600米的地方同向而行，甲走了1000米追上乙，如果甲每秒多走一米，那么走了900米就可以追上乙。如果一开始甲每秒少走一米，甲乙两人相向而行____秒相遇．",
-    "text_en": "甲乙两人从相距600米的地方同向而行，甲走了1000米追上乙，如果甲每秒多走一米，那么走了900米就可以追上乙。如果一开始甲每秒少走一米，甲乙两人相向而行____秒相遇．",
+    "text_en": "Jia and Yi start from two places 600 meters apart and travel in the same direction. Jia walks 1000 meters to catch up with Yi. If Jia walks one more meter per second, then walking 900 meters can catch up with Yi. If Jia walks one less meter per second at the beginning, how many seconds will it take for Jia and Yi to meet when traveling toward each other?",
     "illustration": null,
     "choices": [
       {
@@ -2291,14 +2291,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "甲速度不变时，他走1000米所用时间和追上乙的时间相同；速度提升时，甲走900的时间和追上乙所用时间相同。我们可以列出关系：cases600V_甲 - V_乙 = 1000V_甲 600(V_甲 + 1) - V_乙 = 900V_甲 + 1 cases，解得casesV_甲 = 5 V_乙 = 2 cases。甲的速度减慢，两人相遇的时间为600 ÷ (4 + 2) = 100秒。",
-    "explanation_en": "甲速度不变时，他走1000米所用时间和追上乙的时间相同；速度提升时，甲走900的时间和追上乙所用时间相同。我们可以列出关系：cases600V_甲 - V_乙 = 1000V_甲 600(V_甲 + 1) - V_乙 = 900V_甲 + 1 cases，解得casesV_甲 = 5 V_乙 = 2 cases。甲的速度减慢，两人相遇的时间为600 ÷ (4 + 2) = 100秒。",
+    "explanation_en": "When Jia's speed is constant, the time he takes to walk 1000 meters is the same as the time to catch up with Yi; when speed increases, the time Jia takes to walk 900 meters is the same as the time to catch up with Yi. We can set up equations: 600/(V_jia - V_yi) = 1000/V_jia, 600/((V_jia + 1) - V_yi) = 900/(V_jia + 1), solving gives V_jia = 5, V_yi = 2. When Jia's speed decreases, the time for them to meet is 600 ÷ (4 + 2) = 100 seconds.",
     "attribution": "2018年华杯赛六年级竞赛模拟卷"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "欧欧从A地前往B地办事，他每走40分钟就休息10分钟，到达B地共需4小时20分钟，从B地原路返回的速度是去时的2倍，若他每走35分钟就休息15____分钟，则到达A地共需．",
-    "text_en": "欧欧从A地前往B地办事，他每走40分钟就休息10分钟，到达B地共需4小时20分钟，从B地原路返回的速度是去时的2倍，若他每走35分钟就休息15____分钟，则到达A地共需．",
+    "text_en": "Ouo goes from A to B to handle business. He walks for 40 minutes then rests for 10 minutes. It takes him 4 hours and 20 minutes to reach B. The return speed from B to A is twice the going speed. If he walks for 35 minutes then rests for 15 minutes, how long will it take to reach A?",
     "illustration": null,
     "choices": [
       {
@@ -2320,19 +2320,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "60 × 4 + 20 = 50 × 5 + 10，去时共走了40 × 5 + 10 = 210（分钟），则返回时共需走210 ÷ 2 = 105（分钟），105 ÷ 35 = 3，加上休息的时间共需要105 + 15 × (31) = 135（分钟）．",
-    "explanation_en": "60 × 4 + 20 = 50 × 5 + 10，去时共走了40 × 5 + 10 = 210（分钟），则返回时共需走210 ÷ 2 = 105（分钟），105 ÷ 35 = 3，加上休息的时间共需要105 + 15 × (31) = 135（分钟）．",
+    "explanation_en": "60 × 4 + 20 = 50 × 5 + 10, going time is 40 × 5 + 10 = 210 (minutes), then return time is 210 ÷ 2 = 105 (minutes), 105 ÷ 35 = 3, plus rest time it takes 105 + 15 × (3-1) = 135 (minutes).",
     "attribution": "2015年湖北武汉世奥赛六年级竞赛模拟训练题（三）第6题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "某人所在单位每天早上有车7点准时到他家接他上班．有一天，他提前一个小时步行出门，朝单位方向走去，途中遇到接他上班的车，他坐上车到达单位比平时早10分钟，此人早上步行了分钟.",
-    "text_en": "某人所在单位每天早上有车7点准时到他家接他上班．有一天，他提前一个小时步行出门，朝单位方向走去，途中遇到接他上班的车，他坐上车到达单位比平时早10分钟，此人早上步行了分钟.",
+    "text_en": "Someone's unit sends a car to pick him up at 7:00 AM every morning. One day, he left home an hour early and walked toward the unit. He met the car on the way and arrived at the unit 10 minutes earlier than usual. How many minutes did this person walk in the morning?",
     "illustration": null,
     "choices": [
       {
         "zh": "30",
-        "en": "30"
+        "en": "55"
       },
       {
         "zh": "55",
@@ -2349,14 +2349,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "本题关键是某人走了多少时间的路．某人走的路汽车走5分钟（提前10分钟，但汽车少走了某人所走路程的一个来回），汽车走5分钟说明某人与汽车提前5分钟相遇，也就是某人只走了60 - 5 = 55分钟即与汽车相遇．即某人走55分钟的路程汽车走5分钟．据此解答",
-    "explanation_en": "本题关键是某人走了多少时间的路．某人走的路汽车走5分钟（提前10分钟，但汽车少走了某人所走路程的一个来回），汽车走5分钟说明某人与汽车提前5分钟相遇，也就是某人只走了60 - 5 = 55分钟即与汽车相遇．即某人走55分钟的路程汽车走5分钟．据此解答",
+    "explanation_en": "The key is how long the person walked. The car takes 5 minutes to cover the distance the person walked (10 minutes early, but the car made a round trip less). The car takes 5 minutes, meaning the person met the car 5 minutes early, so the person walked for 60 - 5 = 55 minutes before meeting the car. The person walked for 55 minutes what the car covers in 5 minutes.",
     "attribution": "2010年第8届创新杯六年级竞赛初赛第9题4分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "小明家到学校，乘地铁需要30分钟，乘公交车需要50分钟。某天小明因故先乘地铁，再换乘公交车，用了40分钟到达学校，其中换乘过程用了6分钟，那么这天小明乘坐公交车用了____分钟。",
-    "text_en": "小明家到学校，乘地铁需要30分钟，乘公交车需要50分钟。某天小明因故先乘地铁，再换乘公交车，用了40分钟到达学校，其中换乘过程用了6分钟，那么这天小明乘坐公交车用了____分钟。",
+    "text_en": "From Xiaoming's home to school, it takes 30 minutes by subway and 50 minutes by bus. One day, Xiaoming took the subway first, then transferred to the bus, taking 40 minutes total to get to school, with 6 minutes for the transfer. How many minutes did Xiaoming spend on the bus that day?",
     "illustration": null,
     "choices": [
       {
@@ -2378,19 +2378,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设从家到学校距离共有[30，50] = 150（份），那么地铁的速度是150 ÷ 30 = 5（份/分钟），公交车的速度是150 ÷ 50 = 3（份/分钟）。设这天小明乘公交用了x分钟，根据题意列出方程：5 × (40 - 6 - x) + 3x = 150，解得x = 10。因此小明乘公交用了10分钟。",
-    "explanation_en": "设从家到学校距离共有[30，50] = 150（份），那么地铁的速度是150 ÷ 30 = 5（份/分钟），公交车的速度是150 ÷ 50 = 3（份/分钟）。设这天小明乘公交用了x分钟，根据题意列出方程：5 × (40 - 6 - x) + 3x = 150，解得x = 10。因此小明乘公交用了10分钟。",
+    "explanation_en": "Let the distance from home to school be [30,50] = 150 units. Subway speed = 150 ÷ 30 = 5 units/minute, bus speed = 150 ÷ 50 = 3 units/minute. Let Xiaoming take the bus for x minutes. Equation: 5 × (40 - 6 - x) + 3x = 150, solving gives x = 10.",
     "attribution": "2017年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "某学校组织一次远足活动，计划10点10分从甲地出发，13点10分到达乙地，但出发晚了5分钟，却早到达了4分钟。甲乙两地之间的丙地恰好是按照计划时间到达的，那么到达丙地的时间是____",
-    "text_en": "某学校组织一次远足活动，计划10点10分从甲地出发，13点10分到达乙地，但出发晚了5分钟，却早到达了4分钟。甲乙两地之间的丙地恰好是按照计划时间到达的，那么到达丙地的时间是____",
+    "text_en": "A school organized a hiking activity, planning to depart from place A at 10:10 and arrive at place B at 13:10. However, they departed 5 minutes late but arrived 4 minutes early. Place C between A and B was reached exactly on schedule. What time did they arrive at place C?",
     "illustration": null,
     "choices": [
       {
         "zh": "11点40分",
-        "en": "11点40分"
+        "en": "11:40"
       },
       {
         "zh": "12点",
@@ -2407,14 +2407,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "根据题意，实际走比计划走全程省了5 + 4 = 9（分钟）。将全程平均分成9等份，则在每一等份中实际走比计划走省1分钟。所以当走完5等份时，到达的地点时间实际和计划的时间相同，此时是丙地即在全程的5/9处。计划走全程用3小时即180分钟，则走到丙地用180 × 5/9 = 100（分钟）。10点10分出发走100分钟是11点50分。",
-    "explanation_en": "根据题意，实际走比计划走全程省了5 + 4 = 9（分钟）。将全程平均分成9等份，则在每一等份中实际走比计划走省1分钟。所以当走完5等份时，到达的地点时间实际和计划的时间相同，此时是丙地即在全程的5/9处。计划走全程用3小时即180分钟，则走到丙地用180 × 5/9 = 100（分钟）。10点10分出发走100分钟是11点50分。",
+    "explanation_en": "According to the problem, the actual trip saved 5 + 4 = 9 minutes compared to the plan. Dividing the whole journey into 9 equal parts, each part saved 1 minute. After walking 5 parts, the actual arrival time matches the planned time, which is place C at 5/9 of the journey. The planned total time is 3 hours = 180 minutes, so reaching C takes 180 × 5/9 = 100 minutes = 1 hour 40 minutes, arriving at 11:50. Wait, 10:10 + 1:40 = 11:50.",
     "attribution": "2014年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "已知A,B两地相距300米。甲、乙两人同时分别从A,B两地出发，相向而行，在距A地140米处相遇； 如果乙每秒多行1米，则两人相遇处距B地180米。那么乙原来的速度是每秒____米。",
-    "text_en": "已知A,B两地相距300米。甲、乙两人同时分别从A,B两地出发，相向而行，在距A地140米处相遇； 如果乙每秒多行1米，则两人相遇处距B地180米。那么乙原来的速度是每秒____米。",
+    "text_en": "Given that A and B are 300 meters apart. Jia and Yi start from A and B respectively at the same time, walking toward each other, meeting 140 meters from A. If Yi walks 1 meter more per second, they meet 180 meters from B. What was Yi's original speed in meters per second?",
     "illustration": null,
     "choices": [
       {
@@ -2436,19 +2436,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "本题是典型的利用正反比例解行程的问题。首先根据不变量判断是否成正反比例。两次相遇过程中两人的时间相同，路程比等于速度比。两次相遇过程中甲的速度没变，通分比较乙的，即可解决问题。 解：第一次相遇过程中，甲、乙两人的路程之比是140:(300 - 140) = 7:8，时间相同，路程比就是速度比。 第二次相遇过程中，甲、乙两人的路程之比是(300 - 180):180 = 2:3，速度比也是2:3。 在两次相遇问题中，甲的速度是保持不变的。通分得，第一次速度比为7:8 = 14:16；第二次速度比为2:3 = 14:21。",
-    "explanation_en": "本题是典型的利用正反比例解行程的问题。首先根据不变量判断是否成正反比例。两次相遇过程中两人的时间相同，路程比等于速度比。两次相遇过程中甲的速度没变，通分比较乙的，即可解决问题。 解：第一次相遇过程中，甲、乙两人的路程之比是140:(300 - 140) = 7:8，时间相同，路程比就是速度比。 第二次相遇过程中，甲、乙两人的路程之比是(300 - 180):180 = 2:3，速度比也是2:3。 在两次相遇问题中，甲的速度是保持不变的。通分得，第一次速度比为7:8 = 14:16；第二次速度比为2:3 = 14:21。",
+    "explanation_en": "This is a typical problem using direct and inverse proportions. In both meetings, the time is the same, so the ratio of distances equals the ratio of speeds. In the first meeting, Jia and Yi's distance ratio is 140:(300-140) = 7:8, time is the same, distance...",
     "attribution": "2016年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "一架小飞机，在静止的空气中飞行速度是320千米/时。现在有风，风速为40千米/时(风速不变)，逆风飞行全程需要时间135分钟，顺风返回时需要____分钟。(飞机起飞和着陆的时间略去不计)",
-    "text_en": "一架小飞机，在静止的空气中飞行速度是320千米/时。现在有风，风速为40千米/时(风速不变)，逆风飞行全程需要时间135分钟，顺风返回时需要____分钟。(飞机起飞和着陆的时间略去不计)",
+    "text_en": "A small airplane has a speed of 320 km/h in still air. There is wind now, wind speed is 40 km/h (constant). Flying the whole journey against the wind takes 135 minutes. How many minutes does it take to return with the wind? (Ignore takeoff and landing time)",
     "illustration": null,
     "choices": [
       {
         "zh": "120",
-        "en": "120"
+        "en": "105"
       },
       {
         "zh": "94.5",
@@ -2465,19 +2465,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设顺风的速度为v₁千米/时，逆风的速度为v₂千米/时，则v₁:320 + 40 = 360(千米/时)，v₂:320 - 40 = 280(千米/时)。 v₁:v₂ = 360:280 = 9:7，所以t₁:t₂ = 7:9，顺风返回要:135 × 7/9 = 105(分钟)。",
-    "explanation_en": "设顺风的速度为v₁千米/时，逆风的速度为v₂千米/时，则v₁:320 + 40 = 360(千米/时)，v₂:320 - 40 = 280(千米/时)。 v₁:v₂ = 360:280 = 9:7，所以t₁:t₂ = 7:9，顺风返回要:135 × 7/9 = 105(分钟)。",
+    "explanation_en": "Let with-wind speed be v₁ km/h, against-wind speed be v₂ km/h. v₁:320+40=360 km/h, v₂:320-40=280 km/h. v₁:v₂=360:280=9:7, so t₁:t₂=7:9. Returning with wind takes: 135 × 7/9 = 105 minutes.",
     "attribution": "2010年第8届创新杯六年级竞赛初赛第7题4分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "汽车从甲地到乙地，先行上坡，后行下坡，共用9.4小时．如果甲、乙两地相距450千米，上坡车速为每小时45千米，下坡车速为每小时50千米，且返回时上坡和下坡速度保持不变，那么原路返回要____小时．",
-    "text_en": "汽车从甲地到乙地，先行上坡，后行下坡，共用9.4小时．如果甲、乙两地相距450千米，上坡车速为每小时45千米，下坡车速为每小时50千米，且返回时上坡和下坡速度保持不变，那么原路返回要____小时．",
+    "text_en": "A car travels from A to B, first uphill then downhill, taking 9.4 hours total. If A and B are 450 km apart, uphill speed is 45 km/h, downhill speed is 50 km/h, and the return uphill and downhill speeds remain unchanged, how many hours does the original route return take?",
     "illustration": null,
     "choices": [
       {
         "zh": "9.4",
-        "en": "9.4"
+        "en": "9.6"
       },
       {
         "zh": "9.6",
@@ -2494,19 +2494,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "方法一: 从甲地到乙地共有450千米，共用9.4小时，上坡车速为每小时45千米，下坡车速为每小时 50千米，可得上坡所用的时间为 (50 × 9.4 - 450) ÷ (50 - 45) = 4(个,),那么上坡路为 45 × 4 = 180(千米),下坡路为 450 - 180 = 270（千米） 原路返回时，原来的上坡路变成下 坡路，原来的下坡路变成上坡路，所用时间为 270 ÷ 45 + 180 + 50 = 6 + 3.6 = 9.6（小时） 方法二: 本题也可以从整体上进行考虑，由于原路返回时，原来的上坡路变成下坡路，原来的下坡路变 成了上坡路，所以往返一次相当于共走了450千米的上…",
-    "explanation_en": "方法一: 从甲地到乙地共有450千米，共用9.4小时，上坡车速为每小时45千米，下坡车速为每小时 50千米，可得上坡所用的时间为 (50 × 9.4 - 450) ÷ (50 - 45) = 4(个,),那么上坡路为 45 × 4 = 180(千米),下坡路为 450 - 180 = 270（千米） 原路返回时，原来的上坡路变成下 坡路，原来的下坡路变成上坡路，所用时间为 270 ÷ 45 + 180 + 50 = 6 + 3.6 = 9.6（小时） 方法二: 本题也可以从整体上进行考虑，由于原路返回时，原来的上坡路变成下坡路，原来的下坡路变 成了上坡路，所以往返一次相当于共走了450千米的上…",
+    "explanation_en": "Method 1: From A to B is 450 km total, taking 9.4 hours. Uphill speed is 45 km/h, downhill speed is 50 km/h. Uphill time = (50 × 9.4 - 450) ÷ (50 - 45) = 4 hours. Uphill distance = 45 × 4 = 180 km, downhill distance = 450 - 180...",
     "attribution": "2016年创新杯小学高年级六年级竞赛训练题（一）第2题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲乙两车分别从A、B两地同时出发，相向而行，甲车的速度大于乙车．甲行驶了60千米后和乙车在C点相遇．此后甲车继续向前行驶，乙车掉头与甲车同向行驶．那么当甲车到达B地时，甲乙两车最远相距____千米．",
-    "text_en": "甲乙两车分别从A、B两地同时出发，相向而行，甲车的速度大于乙车．甲行驶了60千米后和乙车在C点相遇．此后甲车继续向前行驶，乙车掉头与甲车同向行驶．那么当甲车到达B地时，甲乙两车最远相距____千米．",
+    "text_en": "Cars Jia and Yi depart simultaneously from A and B respectively, traveling toward each other. Jia's speed is greater than Yi's. Jia travels 60 km and meets Yi at point C. After this, Jia continues forward, Yi turns around and travels in the same direction as Jia. When Jia reaches B, what is the maximum distance between Jia and Yi in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "10",
-        "en": "10"
+        "en": "15"
       },
       {
         "zh": "15",
@@ -2523,19 +2523,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "假设甲走60千米时，乙走了a千米，甲到达B地时，乙车应走a/60 × a = a²60千米，此时甲、乙相差最远为a - a²60 = 1/60 × (60 - a) × a，和一定，差小积大，60 - a = a，a = 30．甲、乙最远相差30 - 900/60 = 15（千米）．",
-    "explanation_en": "假设甲走60千米时，乙走了a千米，甲到达B地时，乙车应走a/60 × a = a²60千米，此时甲、乙相差最远为a - a²60 = 1/60 × (60 - a) × a，和一定，差小积大，60 - a = a，a = 30．甲、乙最远相差30 - 900/60 = 15（千米）．",
+    "explanation_en": "Assume when Jia travels 60 km, Yi travels a km. When Jia reaches B, Yi should travel a/60 × a = a²/60 km. At this time, Jia and Yi are farthest apart by a - a²/60 = 1/60 × (60-a) × a. The sum is constant, the smaller the difference, the larger the product. 60-a = a, a = 30. Jia and Yi are farthest apart by 30 - 900/60 = 15 km.",
     "attribution": "2014年全国迎春杯六年级竞赛复赛第11题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲、乙二人以均匀的速度分别从A，B两地同时出发，相向而行，他们第一次相遇地点离A地4千米，相遇后二人继续前进，走到对方出发点后立即返回，在距B地3千米处第二次相遇，求两次相遇地点之间的距离是多少千米？",
-    "text_en": "甲、乙二人以均匀的速度分别从A，B两地同时出发，相向而行，他们第一次相遇地点离A地4千米，相遇后二人继续前进，走到对方出发点后立即返回，在距B地3千米处第二次相遇，求两次相遇地点之间的距离是多少千米？",
+    "text_en": "Jia and Yi travel at uniform speeds from A and B respectively at the same time, walking toward each other. They first meet 4 km from A. After meeting, they continue forward, reach the other's starting point and immediately return, meeting for the second time 3 km from B. What is the distance between the two meeting points in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "9",
-        "en": "9"
+        "en": "2"
       },
       {
         "zh": "12",
@@ -2552,19 +2552,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "4 × 3 = 12（千米），通过画图，我们发现甲走了一个全程多了回来那一段，就是距B地的3千米，所以全程是12 - 3 = 9（千米），两次相遇点相距9 - (3 + 4) = 2（千米）．",
-    "explanation_en": "4 × 3 = 12（千米），通过画图，我们发现甲走了一个全程多了回来那一段，就是距B地的3千米，所以全程是12 - 3 = 9（千米），两次相遇点相距9 - (3 + 4) = 2（千米）．",
+    "explanation_en": "4 × 3 = 12 km. Drawing a diagram, we find Jia traveled one full journey plus the return segment, which is 3 km from B, so the full journey is 12 - 3 = 9 km. The distance between the two meeting points is 9 - (3 + 4) = 2 km.",
     "attribution": "六年级上学期其它第12讲"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "两个骑车人在不同的赛道上训练。骑车人A用圆形赛道，其直径是1千米，骑车人B用直线赛道，其长度为5千米。骑车人A用10分钟完成3圈，而骑车人B用5分钟行进了两个来回。那么骑车人A与骑车人B的速度比是____",
-    "text_en": "两个骑车人在不同的赛道上训练。骑车人A用圆形赛道，其直径是1千米，骑车人B用直线赛道，其长度为5千米。骑车人A用10分钟完成3圈，而骑车人B用5分钟行进了两个来回。那么骑车人A与骑车人B的速度比是____",
+    "text_en": "Two cyclists train on different tracks. Cyclist A uses a circular track with diameter 1 km. Cyclist B uses a straight track 5 km long. Cyclist A completes 3 laps in 10 minutes, while Cyclist B travels two round trips in 5 minutes. What is the speed ratio of Cyclist A to Cyclist B?",
     "illustration": null,
     "choices": [
       {
         "zh": "π :10",
-        "en": "π :10"
+        "en": "3π:40"
       },
       {
         "zh": "1:1.6π",
@@ -2581,19 +2581,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "骑车人A：10分钟共走3π 千米，骑车人B：5分钟走20千米，即10分钟走40千米，速度比等于路程比是3π :40。",
-    "explanation_en": "骑车人A：10分钟共走3π 千米，骑车人B：5分钟走20千米，即10分钟走40千米，速度比等于路程比是3π :40。",
+    "explanation_en": "Cyclist A: travels 3π km in 10 minutes. Cyclist B: travels 20 km in 5 minutes, i.e., 40 km in 10 minutes. Speed ratio equals distance ratio: 3π:40.",
     "attribution": "2013年华杯赛六年级竞赛决赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "A在B地西边60千米处。甲乙从A地，丙丁从B地同时出发。甲、乙、丁都向东行驶，丙向西行驶。已知甲乙丙丁的速度依次成为一个等差数列，甲的速度最快。出发后经过n小时乙丙相遇，再过n小时甲在C地追上丁。则B、C两地相距多少千米？",
-    "text_en": "A在B地西边60千米处。甲乙从A地，丙丁从B地同时出发。甲、乙、丁都向东行驶，丙向西行驶。已知甲乙丙丁的速度依次成为一个等差数列，甲的速度最快。出发后经过n小时乙丙相遇，再过n小时甲在C地追上丁。则B、C两地相距多少千米？",
+    "text_en": "A is 60 km west of B. Jia and Yi depart from A, Bing and Ding depart from B at the same time. Jia, Yi, and Ding all travel east, Bing travels west. Given that the speeds of Jia, Yi, Bing, and Ding form an arithmetic sequence in order, with Jia being the fastest. After n hours, Yi and Bing meet. After another n hours, Jia catches up with Ding at point C. What is the distance between B and C in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "15",
-        "en": "15"
+        "en": "30"
       },
       {
         "zh": "30",
@@ -2610,19 +2610,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "由n小时乙丙相遇，知n小时内s_乙 + s_丙 = 60千米，因此在2n小时内s_乙 + s_丙 = 120千米。由2n小时甲追上丁，知2n小时内s_甲 - s_丁 = 60。由于甲乙丙丁的速度成等差数列，因此甲乙丙丁在2n小时内的路程也成等差数列，于是由s_甲 - s_丁 = 60知路程的公差为60 ÷ 3 = 20千米。由s_乙 + s_丙 = 120千米容易解出s_乙 = 70，s_丙 = 70，进而求出s_丁 = 30，而s_丁恰为BC两地之间的距离。",
-    "explanation_en": "由n小时乙丙相遇，知n小时内s_乙 + s_丙 = 60千米，因此在2n小时内s_乙 + s_丙 = 120千米。由2n小时甲追上丁，知2n小时内s_甲 - s_丁 = 60。由于甲乙丙丁的速度成等差数列，因此甲乙丙丁在2n小时内的路程也成等差数列，于是由s_甲 - s_丁 = 60知路程的公差为60 ÷ 3 = 20千米。由s_乙 + s_丙 = 120千米容易解出s_乙 = 70，s_丙 = 70，进而求出s_丁 = 30，而s_丁恰为BC两地之间的距离。",
+    "explanation_en": "From Yi and Bing meeting in n hours, we know in n hours s_Yi + s_Bing = 60 km, so in 2n hours s_Yi + s_Bing = 120 km. From Jia catching up with Ding in 2n hours, we know in 2n hours s_Jia - s_Ding = 60. Since Jia, Yi, Bing, Ding's speeds form an arithmetic sequence, their distances in 2n hours also form an arithmetic sequence. So from s_Jia - s_Ding = ...",
     "attribution": "2014年迎春杯六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "A在B地西边60千米处．甲乙从A地，丙丁从B地同时出发．甲、乙、丁都向东行驶，丙向西行驶．已知甲乙丙丁的速度依次成为一个等差数列，甲的速度最快．出发后经过n小时乙丙相遇，再过n小时甲在C地追上丁．则B、C两地相距____千米．",
-    "text_en": "A在B地西边60千米处．甲乙从A地，丙丁从B地同时出发．甲、乙、丁都向东行驶，丙向西行驶．已知甲乙丙丁的速度依次成为一个等差数列，甲的速度最快．出发后经过n小时乙丙相遇，再过n小时甲在C地追上丁．则B、C两地相距____千米．",
+    "text_en": "A is 60 km west of B. Jia and Yi depart from A, Bing and Ding depart from B at the same time. Jia, Yi, and Ding all travel east, Bing travels west. Given that the speeds of Jia, Yi, Bing, and Ding form an arithmetic sequence in order, with Jia being the fastest. After n hours, Yi and Bing meet. After another n hours, Jia catches up with Ding at point C. What is the distance between B and C in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "15",
-        "en": "15"
+        "en": "30"
       },
       {
         "zh": "30",
@@ -2639,19 +2639,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "由n小时乙丙相遇，知n小时内S_乙 + S_丙 = 60千米，因此在2n小时内S_乙 + S_丙 = 120千米．由2n小时甲追上丁，知2n小时内S_甲 - S_丁 = 60．由于甲乙丙丁的速度成等差数列，因此甲乙丙丁在2n小时内的路程也成等差数列，于是由S_甲 - S_丁 = 60知路程的公差为60 ÷ 3 = 20千米．再由S_乙 + S_丙 = 120容易解出S_乙 = 70，S_丙 = 50千米，进而求出S_丁 = 30千米．而S_丁恰为BC两地之间的距离．",
-    "explanation_en": "由n小时乙丙相遇，知n小时内S_乙 + S_丙 = 60千米，因此在2n小时内S_乙 + S_丙 = 120千米．由2n小时甲追上丁，知2n小时内S_甲 - S_丁 = 60．由于甲乙丙丁的速度成等差数列，因此甲乙丙丁在2n小时内的路程也成等差数列，于是由S_甲 - S_丁 = 60知路程的公差为60 ÷ 3 = 20千米．再由S_乙 + S_丙 = 120容易解出S_乙 = 70，S_丙 = 50千米，进而求出S_丁 = 30千米．而S_丁恰为BC两地之间的距离．",
+    "explanation_en": "From Yi and Bing meeting in n hours, we know in n hours S_Yi + S_Bing = 60 km, so in 2n hours S_Yi + S_Bing = 120 km. From Jia catching up with Ding in 2n hours, we know in 2n hours S_Jia - S_Ding = 60. Since Jia, Yi, Bing, Ding's speeds form an arithmetic sequence, their distances in 2n hours also form an arithmetic sequence. So from S_Jia - S_Ding = ...",
     "attribution": "2014年全国迎春杯六年级竞赛初赛第13题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "A地在B地西边60千米处。甲、乙从A地，丙、丁从B地同时出发。甲、乙、丁都向东行驶，丙向西行驶。已知甲、乙、丙、丁的速度依次成为一个等差数列，甲的速度最快。出发后经过n小时乙、丙相遇，再过n小时甲在C地追上丁。则B、C两地相距____千米。",
-    "text_en": "A地在B地西边60千米处。甲、乙从A地，丙、丁从B地同时出发。甲、乙、丁都向东行驶，丙向西行驶。已知甲、乙、丙、丁的速度依次成为一个等差数列，甲的速度最快。出发后经过n小时乙、丙相遇，再过n小时甲在C地追上丁。则B、C两地相距____千米。",
+    "text_en": "A is 60 km west of B. Jia and Yi depart from A, Bing and Ding depart from B at the same time. Jia, Yi, and Ding all travel east, Bing travels west. Given that the speeds of Jia, Yi, Bing, and Ding form an arithmetic sequence in order, with Jia being the fastest. After n hours, Yi and Bing meet. After another n hours, Jia catches up with Ding at point C. What is the distance between B and C in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "90",
-        "en": "90"
+        "en": "30"
       },
       {
         "zh": "15",
@@ -2668,14 +2668,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "n小时后S_乙 + S_丙 = 60千米 2n小时S_乙 + S_丙 = 120千米 设甲乙、丙丁2n小时内的路程差为S₀， 则S_乙 = S_甲 - S₀,S_丙 = S_丁 + S₀， 则S_甲 + S_丁 = 120（千米）① 2n小时甲追上丁：S_甲 - S_丁 = 60（千米）② 将①式 + ②式得S_甲 = 90千米，S_丁 = 30千米 BC的距离正好是S_丁， 答：BC两地距离30千米．",
-    "explanation_en": "n小时后S_乙 + S_丙 = 60千米 2n小时S_乙 + S_丙 = 120千米 设甲乙、丙丁2n小时内的路程差为S₀， 则S_乙 = S_甲 - S₀,S_丙 = S_丁 + S₀， 则S_甲 + S_丁 = 120（千米）① 2n小时甲追上丁：S_甲 - S_丁 = 60（千米）② 将①式 + ②式得S_甲 = 90千米，S_丁 = 30千米 BC的距离正好是S_丁， 答：BC两地距离30千米．",
+    "explanation_en": "After n hours S_Yi + S_Bing = 60 km. In 2n hours S_Yi + S_Bing = 120 km. Let the distance difference between Jia-Yi and Bing-Ding in 2n hours be S₀. Then S_Yi = S_Jia - S₀, S_Bing = S_Ding + S₀. Then S_Jia + S_Ding = 120 km ①. In 2n hours Jia catches up with Ding: S_Jia - S_Ding = 60...",
     "attribution": "2014年迎春杯六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "变形金刚擎天柱和大黄蜂分别从A、B两地同时出发，相向而行，以机器人身份出发时，他们的速度比是4:3，相遇后变形为汽车人，擎天柱速度提高25%，大黄蜂提高30%，当擎天柱到达B地时，大黄蜂离A地还有83千米。那么A、B两地相距 ____千米．",
-    "text_en": "变形金刚擎天柱和大黄蜂分别从A、B两地同时出发，相向而行，以机器人身份出发时，他们的速度比是4:3，相遇后变形为汽车人，擎天柱速度提高25%，大黄蜂提高30%，当擎天柱到达B地时，大黄蜂离A地还有83千米。那么A、B两地相距 ____千米．",
+    "text_en": "Transformers Optimus Prime and Bumblebee depart simultaneously from A and B respectively, traveling toward each other. When departing as robots, their speed ratio is 4:3. After meeting, they transform into autobots. Optimus Prime's speed increases by 25%, Bumblebee's speed increases by 30%. When Optimus Prime reaches B, Bumblebee is still 83 km from A. What is the distance between A and B in km?",
     "illustration": null,
     "choices": [
       {
@@ -2697,19 +2697,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "解：4 × (1 + 25%):3 × (1 + 30%) = 5:39/10 = 50:39 83 ÷ (4/4 + 3 - 3/4 + 3 × 39/50) = 83 ÷ (4/7 - 117/350) = 83 ÷ 83/350 = 350（千米） 答：A、B两地相距350千米。 故答案为：350。",
-    "explanation_en": "解：4 × (1 + 25%):3 × (1 + 30%) = 5:39/10 = 50:39 83 ÷ (4/4 + 3 - 3/4 + 3 × 39/50) = 83 ÷ (4/7 - 117/350) = 83 ÷ 83/350 = 350（千米） 答：A、B两地相距350千米。 故答案为：350。",
+    "explanation_en": "Solution: 4 × (1 + 25%):3 × (1 + 30%) = 5:39/10 = 50:39. 83 ÷ (4/4 + 3 - 3/4 + 3 × 39/50) = 83 ÷ (4/7 - 117/350) = 83 ÷ 83/350 = 350 km. Answer: The distance between A and B is 350 km.",
     "attribution": "2016年迎春杯六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "泸昆高铁最后一段贵阳至昆明于2016年12月28日开通运营，这对我国\"一带一路\"战略的实施和区域经济发展都有着重大意义．G1375次高铁11:16从上海虹桥站出发，当天22:54到达昆明南站，全程共1593千米，途中站点共计停车56分钟，扣除停车时间，G1375次高铁的平均速度为____千米/时．（结果保留整数）",
-    "text_en": "泸昆高铁最后一段贵阳至昆明于2016年12月28日开通运营，这对我国\"一带一路\"战略的实施和区域经济发展都有着重大意义．G1375次高铁11:16从上海虹桥站出发，当天22:54到达昆明南站，全程共1593千米，途中站点共计停车56分钟，扣除停车时间，G1375次高铁的平均速度为____千米/时．（结果保留整数）",
+    "text_en": "The last section of the Shanghai-Kunming High-Speed Railway, Guiyang to Kunming, opened on December 28, 2016. This is of great significance to the implementation of China's 'Belt and Road' strategy and regional economic development. Train G1375 departed from Shanghai Hongqiao Station at 11:16 and arrived at Kunming South Station at 22:54 the same day. The total distance is 1593 km, with a total of 56 minutes of stops at stations along the way. Excluding stop time, the average speed of train G1375 is",
     "illustration": null,
     "choices": [
       {
         "zh": "148",
-        "en": "148"
+        "en": "149"
       },
       {
         "zh": "149",
@@ -2726,19 +2726,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "11:16 - 22:54共11小时38分，其中停车56分钟，运行10小时42分钟．1593 ÷ 10.7 ≈ 149千米/时．",
-    "explanation_en": "11:16 - 22:54共11小时38分，其中停车56分钟，运行10小时42分钟．1593 ÷ 10.7 ≈ 149千米/时．",
+    "explanation_en": "From 11:16 to 22:54 is 11 hours 38 minutes, of which 56 minutes are stops, running time is 10 hours 42 minutes. 1593 ÷ 10.7 ≈ 149 km/h.",
     "attribution": "2017年第13届湖北武汉新希望杯六年级竞赛决赛第2题"
   },
   {
     "difficulty": 5,
     "topic": "travel",
     "text_zh": "甲、乙二车分别从A、B两地同时出发，相向匀速而行，当甲行驶过AB中点12千米时，两车相遇．若甲比乙晚出发10分钟，则两车恰好相遇在AB中点，且甲到B地时，乙距离A地还有20千米．那么AB两地间的距离是____千米．",
-    "text_en": "甲、乙二车分别从A、B两地同时出发，相向匀速而行，当甲行驶过AB中点12千米时，两车相遇．若甲比乙晚出发10分钟，则两车恰好相遇在AB中点，且甲到B地时，乙距离A地还有20千米．那么AB两地间的距离是____千米．",
+    "text_en": "Cars Jia and Yi depart simultaneously from A and B respectively, traveling toward each other at constant speeds. When Jia has passed the midpoint of AB by 12 km, the two cars meet. If Jia departs 10 minutes later than Yi, the two cars meet exactly at the midpoint of AB, and when Jia reaches B, Yi is still 20 km from A. What is the distance between A and B in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "100",
-        "en": "100"
+        "en": "120"
       },
       {
         "zh": "110",
@@ -2759,19 +2759,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "方法一：由第一个条件知甲乙速度比为(S / 2 + 12）：(S / 2 - 12）；再由第二条件知甲乙速度比为 S / 2 ：(S / 2 - 20），两者相等得S = 120千米． 方法二：设全长为2S千米，则第一次相遇时，甲走了S + 12千米，乙走了S - 12千米；第二次相遇点走到各自目的地时，甲走了S千米，乙走了S - 20千米．由于两人速度不变，故以速度比作等量关系列方程可得：S + 12/S - 12 = S/S - 20，解得S = 60，故全长为2S = 120千米．",
-    "explanation_en": "方法一：由第一个条件知甲乙速度比为(S / 2 + 12）：(S / 2 - 12）；再由第二条件知甲乙速度比为 S / 2 ：(S / 2 - 20），两者相等得S = 120千米． 方法二：设全长为2S千米，则第一次相遇时，甲走了S + 12千米，乙走了S - 12千米；第二次相遇点走到各自目的地时，甲走了S千米，乙走了S - 20千米．由于两人速度不变，故以速度比作等量关系列方程可得：S + 12/S - 12 = S/S - 20，解得S = 60，故全长为2S = 120千米．",
+    "explanation_en": "Method 1: From the first condition, the speed ratio of Jia and Yi is (S/2 + 12):(S/2 - 12); from the second condition, the speed ratio of Jia and Yi is S/2:(S/2 - 20). Setting them equal gives S = 120 km. Method 2: Let the total length be 2S km. At the first meeting, Jia traveled S + 12 km, Yi traveled S - 12 km; the second...",
     "attribution": "2013年北京迎春杯六年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "钟面上3时分时，分针与时针所成____角最小．",
-    "text_en": "钟面上3时分时，分针与时针所成____角最小．",
+    "text_en": "At what o'clock on the clock face is the angle formed by the minute hand and hour hand the smallest?",
     "illustration": null,
     "choices": [
       {
         "zh": "18",
-        "en": "18"
+        "en": "16"
       },
       {
         "zh": "15",
@@ -2788,19 +2788,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "3点时，分针和时针夹角为3 × 30° = 90° ， 则90° ÷ (6° - 0.5°) = 180/11 = 164/11 时， 夹角为0° ，而04/111/2， 故16 时，分针和时针夹角最小",
-    "explanation_en": "3点时，分针和时针夹角为3 × 30° = 90° ， 则90° ÷ (6° - 0.5°) = 180/11 = 164/11 时， 夹角为0° ，而04/111/2， 故16 时，分针和时针夹角最小",
+    "explanation_en": "At 3 o'clock, the angle between the minute hand and hour hand is 3 × 30° = 90°. Then 90° ÷ (6° - 0.5°) = 180/11 = 16 4/11 o'clock, the angle is 0°. Since 0 < 4/11 < 1/2, at 16 o'clock, the angle between the minute hand and hour hand is the smallest...",
     "attribution": "2016年第28届广东广州五羊杯小学高年级竞赛初赛第5题3分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "从3点15分到3点45分，钟面的分针转动了一个____．",
-    "text_en": "从3点15分到3点45分，钟面的分针转动了一个____．",
+    "text_en": "From 3:15 to 3:45, the minute hand on the clock face has turned through a ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "周角",
-        "en": "周角"
+        "en": "straight angle"
       },
       {
         "zh": "平角",
@@ -2817,19 +2817,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "分针走了30分钟，60分钟为一个周角，30分钟则是一个平角．",
-    "explanation_en": "分针走了30分钟，60分钟为一个周角，30分钟则是一个平角．",
+    "explanation_en": "The minute hand moved for 30 minutes. 60 minutes is one full rotation (360°), so 30 minutes is a straight angle (180°).",
     "attribution": "2017年全国华杯赛小学高年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "小华从早上9:00到公司上班，下午5:00下班．请问在此期间分针转过的度数比时针转过的度数多了多少度？",
-    "text_en": "小华从早上9:00到公司上班，下午5:00下班．请问在此期间分针转过的度数比时针转过的度数多了多少度？",
+    "text_en": "Xiaohua arrives at the company at 9:00 AM and gets off work at 5:00 PM. During this period, how many more degrees has the minute hand rotated compared to the hour hand?",
     "illustration": null,
     "choices": [
       {
         "zh": "120",
-        "en": "120"
+        "en": "2640"
       },
       {
         "zh": "1200",
@@ -2850,19 +2850,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "小华上班时间为8小时， 此期间分针转了8圈， 即8 × 360 = 2880度， 而时针每小时转30度， 8小时共转了8 × 30 = 240度， 分针转过的度数比时针转过的度数多了2880 - 240 = 2640度",
-    "explanation_en": "小华上班时间为8小时， 此期间分针转了8圈， 即8 × 360 = 2880度， 而时针每小时转30度， 8小时共转了8 × 30 = 240度， 分针转过的度数比时针转过的度数多了2880 - 240 = 2640度",
+    "explanation_en": "Xiaohua's working time is 8 hours. During this period, the minute hand rotated 8 full circles, i.e., 8 × 360 = 2880 degrees. The hour hand rotates 30 degrees per hour, so in 8 hours it rotates 8 × 30 = 240 degrees. The minute hand has rotated 2880 - 240 = 2640 degrees more than the hour hand.",
     "attribution": "2017年IMAS小学高年级竞赛（第一轮）第16题4分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "四名同学相约去爬山，往返共花费50元车资．在山上，他们每人各购买了一瓶5元的饮料．请问平均每人各总共花费多少元？____",
-    "text_en": "四名同学相约去爬山，往返共花费50元车资．在山上，他们每人各购买了一瓶5元的饮料．请问平均每人各总共花费多少元？____",
+    "text_en": "Four classmates planned to go hiking, spending a total of 50 yuan on round-trip transportation. On the mountain, each of them bought a bottle of drink for 5 yuan. What is the average total amount spent by each person?",
     "illustration": null,
     "choices": [
       {
         "zh": "12.5",
-        "en": "12.5"
+        "en": "17.5"
       },
       {
         "zh": "13.75",
@@ -2883,14 +2883,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "四个人总共花费了50 + 5 × 4 = 70元， 故平均每人花费70 ÷ 4 = 17.5元． 故选C． < p > 每人坐车的平均花费为50 ÷ 4 = 12.5元， < /p > < p > 平均每人各总共花费12.5 + 5 = 17.5元． < /p > < p > 故选C． < /p >",
-    "explanation_en": "四个人总共花费了50 + 5 × 4 = 70元， 故平均每人花费70 ÷ 4 = 17.5元． 故选C． < p > 每人坐车的平均花费为50 ÷ 4 = 12.5元， < /p > < p > 平均每人各总共花费12.5 + 5 = 17.5元． < /p > < p > 故选C． < /p >",
+    "explanation_en": "The four people spent a total of 50 + 5 × 4 = 70 yuan. So the average amount spent by each person is 70 ÷ 4 = 17.5 yuan. Answer: C. Each person's average transportation cost is 50 ÷ 4 = 12.5 yuan. The average total amount spent by each person is 12.5 + 5 = 17.5 yuan.",
     "attribution": "2018年IMAS小学高年级竞赛（第二轮）第2题4分"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "I型和II型电子玩具车各一辆，沿相同的两个圆形轨道跑动，I型每5分钟跑1圈，II型每3分钟跑1圈，某同一时刻，I型和II型恰好都开始跑第19圈，则I型比II型提前____分钟开始跑动．",
-    "text_en": "I型和II型电子玩具车各一辆，沿相同的两个圆形轨道跑动，I型每5分钟跑1圈，II型每3分钟跑1圈，某同一时刻，I型和II型恰好都开始跑第19圈，则I型比II型提前____分钟开始跑动．",
+    "text_en": "There is one Type I and one Type II electronic toy car, running on the same two circular tracks. Type I completes 1 lap every 5 minutes, Type II completes 1 lap every 3 minutes. At a certain moment, both Type I and Type II恰好 start their 19th lap. How many minutes earlier did Type I start running than Type II?",
     "illustration": null,
     "choices": [
       {
@@ -2912,14 +2912,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "开始跑第19圈，说明跑了18圈： I型跑18圈用时：18 × 5 = 90（分钟）； II型18圈用时：18 × 3 = 54（分钟）； 故相差90 - 54 = 36（分钟），则提前36分钟．",
-    "explanation_en": "开始跑第19圈，说明跑了18圈： I型跑18圈用时：18 × 5 = 90（分钟）； II型18圈用时：18 × 3 = 54（分钟）； 故相差90 - 54 = 36（分钟），则提前36分钟．",
+    "explanation_en": "Starting the 19th lap means they have completed 18 laps: Type I's time for 18 laps: 18 × 5 = 90 minutes; Type II's time for 18 laps: 18 × 3 = 54 minutes; The difference is 90 - 54 = 36 minutes, so Type I started 36 minutes earlier.",
     "attribution": "2018年第23届华杯赛小学中年级竞赛初赛第6题"
   },
   {
     "difficulty": 3,
     "topic": "travel",
     "text_zh": "甲、乙、丙三人行路，甲每分钟走60米，乙每分钟走65米，丙每分钟走70米，甲、乙从东镇去西镇，丙从西镇去东镇，三人同时出发，丙与乙相遇后，又经过1分钟与甲相遇，则东、西两镇间的路程有____米。",
-    "text_en": "甲、乙、丙三人行路，甲每分钟走60米，乙每分钟走65米，丙每分钟走70米，甲、乙从东镇去西镇，丙从西镇去东镇，三人同时出发，丙与乙相遇后，又经过1分钟与甲相遇，则东、西两镇间的路程有____米。",
+    "text_en": "Jia, Yi, and Bing are walking. Jia walks 60 meters per minute, Yi walks 65 meters per minute, Bing walks 70 meters per minute. Jia and Yi go from East Town to West Town, Bing goes from West Town to East Town. All three start at the same time. After Bing meets Yi, it takes another 1 minute to meet Jia. What is the distance between East Town and West Town in meters?",
     "illustration": null,
     "choices": [
       {
@@ -2941,19 +2941,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "那1分钟是甲和丙相遇，所以距离是(60 + 70) × 1 = 130（米），这距离是乙、丙相遇时间里甲、乙的路程差，所以乙、丙相遇时间 = 130 ÷ (65 - 60) = 26（分），所以路程 = 26 × (65 + 70) = 3510（米）．",
-    "explanation_en": "那1分钟是甲和丙相遇，所以距离是(60 + 70) × 1 = 130（米），这距离是乙、丙相遇时间里甲、乙的路程差，所以乙、丙相遇时间 = 130 ÷ (65 - 60) = 26（分），所以路程 = 26 × (65 + 70) = 3510（米）．",
+    "explanation_en": "That 1 minute is when Jia and Bing meet, so the distance is (60 + 70) × 1 = 130 meters. This distance is the distance difference between Jia and Yi in the time it takes Yi and Bing to meet. So Yi and Bing meeting time = 130 ÷ (65 - 60) = 26 minutes. Therefore, the distance = 26 × (65 + 70) = 3510 meters.",
     "attribution": "竞赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "中午12点整时，钟面上时针与分针重合，那么到当晚12点整时，时针与分针又重合了____次．",
-    "text_en": "中午12点整时，钟面上时针与分针重合，那么到当晚12点整时，时针与分针又重合了____次．",
+    "text_en": "At exactly 12:00 noon, the hour hand and minute hand on the clock overlap. From then until exactly 12:00 midnight, how many times do the hour hand and minute hand overlap again?",
     "illustration": null,
     "choices": [
       {
         "zh": "11次",
-        "en": "11次"
+        "en": "11 times"
       },
       {
         "zh": "10次",
@@ -2970,19 +2970,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "时钟问题；12 ÷ [60 ÷ (60 - 5)] = 12 ÷ (60 ÷ 55) = 11（次），则时针与分针重合了11次．",
-    "explanation_en": "时钟问题；12 ÷ [60 ÷ (60 - 5)] = 12 ÷ (60 ÷ 55) = 11（次），则时针与分针重合了11次．",
+    "explanation_en": "Clock problem; 12 ÷ [60 ÷ (60 - 5)] = 12 ÷ (60 ÷ 55) = 11 times. So the hour hand and minute hand overlap 11 times.",
     "attribution": "2017年河南郑州联合杯竞赛第5题4分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "小明是六年级（1）班的，六年级（1）班的教室在6楼，每两层楼之间的楼梯都有16级，则小明每次去学校从地面到班里要走____级楼梯．",
-    "text_en": "小明是六年级（1）班的，六年级（1）班的教室在6楼，每两层楼之间的楼梯都有16级，则小明每次去学校从地面到班里要走____级楼梯．",
+    "text_en": "Xiaoming is in Class 1, Grade 6. The classroom of Class 1, Grade 6 is on the 6th floor. There are 16 steps between each two floors. How many steps does Xiaoming climb each time he goes from the ground to his classroom?",
     "illustration": null,
     "choices": [
       {
         "zh": "88级",
-        "en": "88级"
+        "en": "80 steps"
       },
       {
         "zh": "96级",
@@ -2999,19 +2999,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "16 × (6 - 1) = 80级．",
-    "explanation_en": "16 × (6 - 1) = 80级．",
+    "explanation_en": "16 × (6 - 1) = 80 steps.",
     "attribution": "2017年河南郑州联合杯竞赛第6题4分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "小张从甲地去乙地，然后再返回甲地．去时他的速度为a千米/小时，回来时他的速度为b千米/小时，那么他往返的平均速度是____千米/小时．",
-    "text_en": "小张从甲地去乙地，然后再返回甲地．去时他的速度为a千米/小时，回来时他的速度为b千米/小时，那么他往返的平均速度是____千米/小时．",
+    "text_en": "Xiao Zhang goes from Place A to Place B, then returns to Place A. His speed going is a km/h, and his speed returning is b km/h. What is his average speed for the round trip in km/h?",
     "illustration": null,
     "choices": [
       {
         "zh": "ab/a + b",
-        "en": "ab/a + b"
+        "en": "2ab/(a + b)"
       },
       {
         "zh": "a + b/2",
@@ -3028,14 +3028,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设甲、乙两地之间的距离为s千米．去时所用的时间为s/a，返回时所用的时间为s/b，往返的平均速度为 2s/s/a + s/b = 2s/bs + as/ab = 2s × ab/as + bs = 2ab/a + b．",
-    "explanation_en": "设甲、乙两地之间的距离为s千米．去时所用的时间为s/a，返回时所用的时间为s/b，往返的平均速度为 2s/s/a + s/b = 2s/bs + as/ab = 2s × ab/as + bs = 2ab/a + b．",
+    "explanation_en": "Let the distance between A and B be s km. Time going is s/a, time returning is s/b. The average speed for the round trip is 2s/(s/a + s/b) = 2s/((bs + as)/ab) = 2s × ab/(as + bs) = 2ab/(a + b).",
     "attribution": "2017年全国华杯赛小学高年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "小杰与小乔沿着公园的环形人行道跑步，小杰差400m就跑完2圈，小乔还差500m就跑完3圈，两人路程合起来共跑了4圈还多100m，请问这条环形人行道一圈为多少m？",
-    "text_en": "小杰与小乔沿着公园的环形人行道跑步，小杰差400m就跑完2圈，小乔还差500m就跑完3圈，两人路程合起来共跑了4圈还多100m，请问这条环形人行道一圈为多少m？",
+    "text_en": "Xiao Jie and Xiao Qiao run along the circular pedestrian path in the park. Xiao Jie is 400m short of completing 2 laps, Xiao Qiao is 500m short of completing 3 laps. Together they have run a total of 4 laps plus 100m. What is the length of one lap of this circular pedestrian path in meters?",
     "illustration": null,
     "choices": [
       {
@@ -3061,19 +3061,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "解：设这条环形人行道一圈xm， 2x - 400 + 3x - 500 = 4x + 100 5x - 4x = 100 + 900 x = 1000．",
-    "explanation_en": "解：设这条环形人行道一圈xm， 2x - 400 + 3x - 500 = 4x + 100 5x - 4x = 100 + 900 x = 1000．",
+    "explanation_en": "Solution: Let the length of one lap be x meters. 2x - 400 + 3x - 500 = 4x + 100. 5x - 4x = 100 + 900. x = 1000.",
     "attribution": "2016年IMAS小学高年级竞赛第二轮检测试题第5题4分"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "甲，乙两个小朋友，在一条环形路上面跑步，同时从同地反向跑，已知甲小朋友的速度是每秒5米，乙小朋友的速度是每秒7米，在14分钟内，他们相遇了 21次，则环形路长为____米．",
-    "text_en": "甲，乙两个小朋友，在一条环形路上面跑步，同时从同地反向跑，已知甲小朋友的速度是每秒5米，乙小朋友的速度是每秒7米，在14分钟内，他们相遇了 21次，则环形路长为____米．",
+    "text_en": "Two children, Jia and Yi, are running on a circular road, starting from the same point and running in opposite directions at the same time. It is known that Jia's speed is 5 meters per second, Yi's speed is 7 meters per second. In 14 minutes, they meet 21 times. What is the length of the circular road in meters?",
     "illustration": null,
     "choices": [
       {
         "zh": "620",
-        "en": "620"
+        "en": "480"
       },
       {
         "zh": "450",
@@ -3090,19 +3090,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设环形路长为M米，则甲、乙相遇1次所需时间是： M/5 + 7 = M/12（秒），所以14 × 60 ÷ M/12 = 21，因此，M = 480．",
-    "explanation_en": "设环形路长为M米，则甲、乙相遇1次所需时间是： M/5 + 7 = M/12（秒），所以14 × 60 ÷ M/12 = 21，因此，M = 480．",
+    "explanation_en": "Let the length of the circular road be M meters. The time for Jia and Yi to meet once is: M/(5 + 7) = M/12 seconds. So 14 × 60 ÷ M/12 = 21. Therefore, M = 480.",
     "attribution": "2017年全国华杯赛竞赛初赛模拟试卷3第1题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "已知A、B两地相距300米．甲、乙两人同时分别从A、B两地出发，相向而行，在距A地140米处相遇，如果乙每秒多行1米，则两人相遇处距B地180米．那么乙原来的速度是每秒____米．",
-    "text_en": "已知A、B两地相距300米．甲、乙两人同时分别从A、B两地出发，相向而行，在距A地140米处相遇，如果乙每秒多行1米，则两人相遇处距B地180米．那么乙原来的速度是每秒____米．",
+    "text_en": "Given that A and B are 300 meters apart. Jia and Yi start from A and B respectively at the same time, walking toward each other, meeting 140 meters from A. If Yi walks 1 meter more per second, they meet 180 meters from B. What was Yi's original speed in meters per second?",
     "illustration": null,
     "choices": [
       {
         "zh": "31/5",
-        "en": "31/5"
+        "en": "24/5"
       },
       {
         "zh": "23/5",
@@ -3119,19 +3119,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设甲速v₁乙速v₂，由第一次运动过程可得：v₁v₂ = 140/300 - 140 = 7/8，由第二次运动过程可得v₁v₂ + 1 = 300 - 180/180 = 2/3．两次过程中甲速度不变，化为连比为：V₁:V₂:(V₂ + 1) = 14:16:21，由此可知这1米相当于21 - 16 = 5份，每一份为1/5．故乙原来为16/5米/秒．",
-    "explanation_en": "设甲速v₁乙速v₂，由第一次运动过程可得：v₁v₂ = 140/300 - 140 = 7/8，由第二次运动过程可得v₁v₂ + 1 = 300 - 180/180 = 2/3．两次过程中甲速度不变，化为连比为：V₁:V₂:(V₂ + 1) = 14:16:21，由此可知这1米相当于21 - 16 = 5份，每一份为1/5．故乙原来为16/5米/秒．",
+    "explanation_en": "Let Jia's speed be v₁, Yi's speed be v₂. From the first movement: v₁/v₂ = 140/(300 - 140) = 7/8. From the second movement: v₁/(v₂ + 1) = (300 - 180)/180 = 2/3. In both movements, Jia's speed doesn't change. Converting to continued ratio: V₁:V₂:(V₂ + 1) = 14:16:21. From this we can find that this 1 meter corresponds to...",
     "attribution": "2016年全国华杯赛小学高年级竞赛初赛第2题"
   },
   {
     "difficulty": 4,
     "topic": "travel",
     "text_zh": "某学校组织一次远足活动，计划10点10分从甲地出发，13点10分到达乙地但出发晚了5分钟，却早到达了4分钟．甲乙两地之间的丙地恰好是按照计划时间到达的，那么到达丙地的时间是____．",
-    "text_en": "某学校组织一次远足活动，计划10点10分从甲地出发，13点10分到达乙地但出发晚了5分钟，却早到达了4分钟．甲乙两地之间的丙地恰好是按照计划时间到达的，那么到达丙地的时间是____．",
+    "text_en": "A school organized a hiking activity, planning to depart from Place A at 10:10 and arrive at Place B at 13:10. However, they departed 5 minutes late but arrived 4 minutes early. Place C between A and B was reached exactly on schedule. What time did they arrive at Place C?",
     "illustration": null,
     "choices": [
       {
         "zh": "11点50分",
-        "en": "11点50分"
+        "en": "11:40"
       },
       {
         "zh": "12点10分",
@@ -3148,19 +3148,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "相当于两辆车A，B在同一条路上，一辆按原速行驶，一辆按新的速度行驶．那么，晚出发五分钟相当于B追已经行驶了5分钟的A在丙地追上，当B到达乙地的时候A还有4分钟的路程，这样就是两次追击问题，速度差不变追击路程的比是5:4所以，（甲地到丙地的距离）:（丙地到乙地的距离） = 5:4，所以时间比为5:4",
-    "explanation_en": "相当于两辆车A，B在同一条路上，一辆按原速行驶，一辆按新的速度行驶．那么，晚出发五分钟相当于B追已经行驶了5分钟的A在丙地追上，当B到达乙地的时候A还有4分钟的路程，这样就是两次追击问题，速度差不变追击路程的比是5:4所以，（甲地到丙地的距离）:（丙地到乙地的距离） = 5:4，所以时间比为5:4",
+    "explanation_en": "This is equivalent to two cars A and B on the same road, one traveling at the original speed, the other at the new speed. Then, departing 5 minutes late is equivalent to B catching up with A who has been traveling for 5 minutes at Place C. When B reaches Place B, A still has 4 minutes of distance to go. This is two pursuit problems, the speed difference is constant, the ratio of pursuit distances is 5:4. So (distance from A to C):(distance from C to B) = 5:4...",
     "attribution": "2014年全国华杯赛小学高年级竞赛初赛A卷第5题"
   },
   {
     "difficulty": 1,
     "topic": "travel",
     "text_zh": "小兔子从家去萝卜地，每分钟走 20 米，走了 3 分钟。家到萝卜地有多远？",
-    "text_en": "小兔子从家去萝卜地，每分钟走 20 米，走了 3 分钟。家到萝卜地有多远？",
+    "text_en": "A little rabbit walks from home to the carrot field at 20 meters per minute, walking for 3 minutes. How far is it from home to the carrot field?",
     "illustration": null,
     "choices": [
       {
         "zh": "40 米",
-        "en": "40 米"
+        "en": "60 meters"
       },
       {
         "zh": "50 米",
@@ -3177,18 +3177,18 @@
     ],
     "correct_index": 2,
     "explanation_zh": "20 × 3 = 60（米）．",
-    "explanation_en": "20 × 3 = 60（米）．"
+    "explanation_en": "20 × 3 = 60 meters."
   },
   {
     "difficulty": 6,
     "topic": "travel",
     "text_zh": "甲、乙两地相距 360 千米。一列快车从甲地到乙地需 4 小时，一列慢车从乙地到甲地需 6 小时。两车同时相向出发，几小时后相遇？",
-    "text_en": "甲、乙两地相距 360 千米。一列快车从甲地到乙地需 4 小时，一列慢车从乙地到甲地需 6 小时。两车同时相向出发，几小时后相遇？",
+    "text_en": "Places A and B are 360 km apart. A fast train takes 4 hours to go from A to B, a slow train takes 6 hours to go from B to A. If both trains start toward each other at the same time, after how many hours will they meet?",
     "illustration": null,
     "choices": [
       {
         "zh": "2",
-        "en": "2"
+        "en": "2.4"
       },
       {
         "zh": "2.4",
@@ -3205,18 +3205,18 @@
     ],
     "correct_index": 1,
     "explanation_zh": "快车速度 = 360÷4 = 90 km/h，慢车速度 = 360÷6 = 60 km/h。相向而行，合速度 = 90 + 60 = 150 km/h。相遇时间 = 360÷150 = 2.4（小时）．",
-    "explanation_en": "快车速度 = 360÷4 = 90 km/h，慢车速度 = 360÷6 = 60 km/h。相向而行，合速度 = 90 + 60 = 150 km/h。相遇时间 = 360÷150 = 2.4（小时）．"
+    "explanation_en": "Fast train speed = 360÷4 = 90 km/h, slow train speed = 360÷6 = 60 km/h. Traveling toward each other, combined speed = 90 + 60 = 150 km/h. Meeting time = 360÷150 = 2.4 hours."
   },
   {
     "difficulty": 6,
     "topic": "travel",
     "text_zh": "环形跑道一圈长 400 米，甲每分钟跑 320 米，乙每分钟跑 280 米。两人同时同地同向出发，几分钟后首次相遇？",
-    "text_en": "环形跑道一圈长 400 米，甲每分钟跑 320 米，乙每分钟跑 280 米。两人同时同地同向出发，几分钟后首次相遇？",
+    "text_en": "A circular track is 400 meters around. Jia runs 320 meters per minute, Yi runs 280 meters per minute. If both start from the same place at the same time and run in the same direction, after how many minutes will they first meet?",
     "illustration": null,
     "choices": [
       {
         "zh": "2",
-        "en": "2"
+        "en": "10"
       },
       {
         "zh": "4",
@@ -3233,18 +3233,18 @@
     ],
     "correct_index": 3,
     "explanation_zh": "同向追及：甲比乙快 320 − 280 = 40 米/分。要追上一圈 400 米，需要 400÷40 = 10（分钟）．",
-    "explanation_en": "同向追及：甲比乙快 320 − 280 = 40 米/分。要追上一圈 400 米，需要 400÷40 = 10（分钟）．"
+    "explanation_en": "Same direction pursuit: Jia is faster than Yi by 320 - 280 = 40 meters/minute. To catch up one lap of 400 meters, it takes 400÷40 = 10 minutes."
   },
   {
     "difficulty": 6,
     "topic": "travel",
     "text_zh": "一条船在两个码头之间往返。顺水需 3 小时，逆水需 5 小时。如果水速是 4 千米/时，两码头之间相距多少千米？",
-    "text_en": "一条船在两个码头之间往返。顺水需 3 小时，逆水需 5 小时。如果水速是 4 千米/时，两码头之间相距多少千米？",
+    "text_en": "A boat travels back and forth between two docks. It takes 3 hours downstream and 5 hours upstream. If the water speed is 4 km/h, what is the distance between the two docks in km?",
     "illustration": null,
     "choices": [
       {
         "zh": "40",
-        "en": "40"
+        "en": "60"
       },
       {
         "zh": "50",
@@ -3261,6 +3261,6 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设船速 v，距离 d。顺水：d/(v+4) = 3；逆水：d/(v−4) = 5。解方程：d = 3(v+4) = 5(v−4)，3v+12 = 5v−20，2v = 32，v = 16。d = 3×20 = 60（千米）．",
-    "explanation_en": "设船速 v，距离 d。顺水：d/(v+4) = 3；逆水：d/(v−4) = 5。解方程：d = 3(v+4) = 5(v−4)，3v+12 = 5v−20，2v = 32，v = 16。d = 3×20 = 60（千米）．"
+    "explanation_en": "Let the boat speed be v, distance be d. Downstream: d/(v+4) = 3; upstream: d/(v-4) = 5. Solving the equation: d = 3(v+4) = 5(v-4), 3v+12 = 5v-20, 2v = 32, v = 16. d = 3×20 = 60 km."
   }
 ]

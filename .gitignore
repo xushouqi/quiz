@@ -54,3 +54,8 @@ next-env.d.ts
 public/questions-images/shangshi-*.png
 public/questions-images/cropped/q000*.png
 public/questions-images/cropped/q00100.png
+data/
+/tmp/olympiad-translate.log
+
+# 翻译中间产物（已应用到 questions/olympiad/*.json）
+translations-batch*.json

@@ -3,12 +3,12 @@
     "difficulty": 1,
     "topic": "combinatorics",
     "text_zh": "一只兔子4条腿，一只鸡有2条腿，已知鸡兔共有4个头，12条腿，请你枚举一下，有____只兔．",
-    "text_en": "一只兔子4条腿，一只鸡有2条腿，已知鸡兔共有4个头，12条腿，请你枚举一下，有____只兔．",
+    "text_en": "A rabbit has 4 legs, a chicken has 2 legs. Given that there are 4 heads and 12 legs in total, please enumerate: there are ____ rabbits.",
     "illustration": null,
     "choices": [
       {
         "zh": "1",
-        "en": "1"
+        "en": "2"
       },
       {
         "zh": "2",
@@ -25,14 +25,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "枚举法： 当有1只兔，3只鸡时，共1 × 4 + 3 × 2 = 10（条）腿． 当有2只兔，2只鸡时，共2 × 4 + 2 × 2 = 12（条）腿． 所以有2只兔．",
-    "explanation_en": "枚举法： 当有1只兔，3只鸡时，共1 × 4 + 3 × 2 = 10（条）腿． 当有2只兔，2只鸡时，共2 × 4 + 2 × 2 = 12（条）腿． 所以有2只兔．",
+    "explanation_en": "Enumeration method: When there is 1 rabbit and 3 chickens, there are 1×4 + 3×2 = 10 legs. When there are 2 rabbits and 2 chickens, there are 2×4 + 2×2 = 12 legs. So there are 2 rabbits.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛一年级竞赛初赛第8题5分"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "十位数字和个位数字相加，和是11的两位数有____个．",
-    "text_en": "十位数字和个位数字相加，和是11的两位数有____个．",
+    "text_en": "The sum of the tens digit and the units digit is 11. There are ____ two-digit numbers.",
     "illustration": null,
     "choices": [
       {
@@ -54,19 +54,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "根据题意分析可知，11 = 2 + 9 = 3 + 8 = 4 + 7 = 5 + 6， 所以这样的两位数有：29；92；38；83；47；74；56；65一共8个． 故选：B．",
-    "explanation_en": "根据题意分析可知，11 = 2 + 9 = 3 + 8 = 4 + 7 = 5 + 6， 所以这样的两位数有：29；92；38；83；47；74；56；65一共8个． 故选：B．",
+    "explanation_en": "According to the problem, 11 = 2+9 = 3+8 = 4+7 = 5+6. So such two-digit numbers are: 29, 92, 38, 83, 47, 74, 56, 65, a total of 8. Answer: B.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛一年级竞赛决赛第3题5分"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "4人握手，每两人之间都握一次手，一共要握次．（不能重复计数）",
-    "text_en": "4人握手，每两人之间都握一次手，一共要握次．（不能重复计数）",
+    "text_en": "4 people shake hands, each pair shakes hands once. How many handshakes are there in total? (No duplicate counting)",
     "illustration": null,
     "choices": [
       {
         "zh": "3",
-        "en": "3"
+        "en": "6"
       },
       {
         "zh": "6",
@@ -83,14 +83,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为由题干可知，一共有4个人，每两人之间需要握一次手，我们可以将这4个人分别用A、B、C和D来指代，则所有的握手情况为：AB，AC，AD，BC，BD和CD，所以一共要握6次，故本题",
-    "explanation_en": "因为由题干可知，一共有4个人，每两人之间需要握一次手，我们可以将这4个人分别用A、B、C和D来指代，则所有的握手情况为：AB，AC，AD，BC，BD和CD，所以一共要握6次，故本题",
+    "explanation_en": "Since there are 4 people in total, and each pair needs to shake hands once, we can denote these 4 people as A, B, C, and D. All handshake situations are: AB, AC, AD, BC, BD, and CD. So there are 6 handshakes in total.",
     "attribution": "2020年希望杯一年级竞赛模拟第2题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "4人拥抱，每两人之间都拥抱一次，一共要拥抱次．（不能重复计数）",
-    "text_en": "4人拥抱，每两人之间都拥抱一次，一共要拥抱次．（不能重复计数）",
+    "text_en": "4 people hug, each pair hugs once. How many hugs are there in total? (No duplicate counting)",
     "illustration": null,
     "choices": [
       {
@@ -112,19 +112,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为由题干可知，一共有4个人，每两人之间需要握一次手，我们可以将这4个人分别用A、B、C和D来指代，则所有的握手情况为：AB，AC，AD，BC，BD和CD，所以一共要握6次，故本题",
-    "explanation_en": "因为由题干可知，一共有4个人，每两人之间需要握一次手，我们可以将这4个人分别用A、B、C和D来指代，则所有的握手情况为：AB，AC，AD，BC，BD和CD，所以一共要握6次，故本题",
+    "explanation_en": "Since there are 4 people in total, and each pair needs to hug once, we can denote these 4 people as A, B, C, and D. All hug situations are: AB, AC, AD, BC, BD, and CD. So there are 6 hugs in total.",
     "attribution": "2020年希望杯一年级竞赛模拟第2题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "十位数字和个位数字相加的和是12，这样的两位数一共有____个．",
-    "text_en": "十位数字和个位数字相加的和是12，这样的两位数一共有____个．",
+    "text_en": "The sum of the tens digit and the units digit is 12. There are ____ such two-digit numbers in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "5",
-        "en": "5"
+        "en": "7"
       },
       {
         "zh": "6",
@@ -141,19 +141,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "两位数的十位数字与个位数字之和为12， 而数字均为0~9，故枚举得： 93，84，75，66，57，48，39共7个． 故选：C．",
-    "explanation_en": "两位数的十位数字与个位数字之和为12， 而数字均为0~9，故枚举得： 93，84，75，66，57，48，39共7个． 故选：C．",
+    "explanation_en": "The sum of the tens digit and units digit of a two-digit number is 12. Since all digits are 0-9, by enumeration we get: 93, 84, 75, 66, 57, 48, 39, a total of 7. Answer: C.",
     "attribution": "2019年第24届YMO一年级竞赛决赛第6题3分"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "每两人之间都握一次手（不能重复计数），5个小朋友一共要握____次．",
-    "text_en": "每两人之间都握一次手（不能重复计数），5个小朋友一共要握____次．",
+    "text_en": "Each pair shakes hands once (no duplicate counting). 5 children need to shake hands ____ times in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "3",
-        "en": "3"
+        "en": "10"
       },
       {
         "zh": "4",
@@ -170,19 +170,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "因为由题干可知，一共有4个人，每两人之间需要握一次手，我们可以将这4个人分别用A、B、C和D来指代，则所有的握手情况为：AB，AC，AD，BC，BD和CD，所以一共要握6次，故本题",
-    "explanation_en": "因为由题干可知，一共有4个人，每两人之间需要握一次手，我们可以将这4个人分别用A、B、C和D来指代，则所有的握手情况为：AB，AC，AD，BC，BD和CD，所以一共要握6次，故本题",
+    "explanation_en": "Since there are 5 people in total, and each pair needs to shake hands once, we can use the combination formula C(5,2) = 5!/(2!×3!) = 10. So there are 10 handshakes in total.",
     "attribution": "2020年希望杯一年级竞赛模拟第2题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "在一个口袋里有8个黑球、3个白球、9个红球，至少取出____个球，才能保证其中有黑球．",
-    "text_en": "在一个口袋里有8个黑球、3个白球、9个红球，至少取出____个球，才能保证其中有黑球．",
+    "text_en": "In a bag there are 8 black balls, 3 white balls, and 9 red balls. At least ____ balls must be taken out to ensure there is a black ball among them.",
     "illustration": null,
     "choices": [
       {
         "zh": "12",
-        "en": "12"
+        "en": "13"
       },
       {
         "zh": "13",
@@ -199,19 +199,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "根据题意分析可知，考虑最坏的情况，先摸到的都是其他颜色的球，即白球和红球，把3 + 9 = 12（个）球全摸完然后再接下来摸到的球一定是黑球也就是：12 + 1 = 13（个），故选",
-    "explanation_en": "根据题意分析可知，考虑最坏的情况，先摸到的都是其他颜色的球，即白球和红球，把3 + 9 = 12（个）球全摸完然后再接下来摸到的球一定是黑球也就是：12 + 1 = 13（个），故选",
+    "explanation_en": "According to the problem, consider the worst case: first picking all balls of other colors, i.e., white and red balls. After picking all 3+9=12 balls, the next ball picked must be black. That is: 12+1=13 balls.",
     "attribution": "2019年第24届YMO一年级竞赛决赛第7题3分"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "从小华家到学校有3条路可走，从学校到红领巾公园有2条路可走，从小华家经过学校到红领巾公园，有____种不同的走法．",
-    "text_en": "从小华家到学校有3条路可走，从学校到红领巾公园有2条路可走，从小华家经过学校到红领巾公园，有____种不同的走法．",
+    "text_en": "There are 3 roads from Xiaohua's home to school, and 2 roads from school to Red Scarf Park. Going from Xiaohua's home through school to Red Scarf Park, there are ____ different ways to go.",
     "illustration": null,
     "choices": [
       {
         "zh": "3",
-        "en": "3"
+        "en": "6"
       },
       {
         "zh": "4",
@@ -228,19 +228,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "小华从家到学校有3条路可选，从学校到公园有2条路可选，所以小华从家到学校再到公园就有3个2种情况可选，即2 + 2 + 2 = 6（种）",
-    "explanation_en": "小华从家到学校有3条路可选，从学校到公园有2条路可选，所以小华从家到学校再到公园就有3个2种情况可选，即2 + 2 + 2 = 6（种）",
+    "explanation_en": "Xiaohua has 3 road options from home to school, and 2 road options from school to the park. So Xiaohua has 3×2=6 ways to go from home to school to the park.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛一年级竞赛初赛第1题5分"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "薇儿今天要去公园玩，妈妈给薇儿准备了3件上衣、2条裙子，还有2顶帽子，薇儿出门必须挑选一件上衣和一条裙子，帽子可以戴也可以不戴．请问，薇儿一共有____种不同的搭配方法．",
-    "text_en": "薇儿今天要去公园玩，妈妈给薇儿准备了3件上衣、2条裙子，还有2顶帽子，薇儿出门必须挑选一件上衣和一条裙子，帽子可以戴也可以不戴．请问，薇儿一共有____种不同的搭配方法．",
+    "text_en": "Weier is going to the park to play today. Mom prepared 3 tops, 2 skirts, and 2 hats for Weier. Weier must choose one top and one skirt when going out. The hat can be worn or not worn. How many different matching methods are there in total?",
     "illustration": null,
     "choices": [
       {
         "zh": "18种",
-        "en": "18种"
+        "en": "18"
       },
       {
         "zh": "12种",
@@ -257,19 +257,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "帽子可以戴也可以不带，那么在帽子上面就有3种选择，所以共有3 × 2 × 3 = 18（种）．",
-    "explanation_en": "帽子可以戴也可以不带，那么在帽子上面就有3种选择，所以共有3 × 2 × 3 = 18（种）．",
+    "explanation_en": "The hat can be worn or not worn, so there are 3 choices for the hat (including not wearing it). So there are 3×2×3=18 methods in total.",
     "attribution": "2018年第8届北京学而思综合能力诊断一年级竞赛年度教学质量第14题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "个位数字与十位数字不同的两位数共有____个．",
-    "text_en": "个位数字与十位数字不同的两位数共有____个．",
+    "text_en": "There are ____ two-digit numbers where the units digit and tens digit are different.",
     "illustration": null,
     "choices": [
       {
         "zh": "90",
-        "en": "90"
+        "en": "81"
       },
       {
         "zh": "82",
@@ -290,19 +290,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "根据题意分析可知，个数数字与十位数字相同的两位数有10个，两位数一共有91个， 由此可知，个位数字与十位数字不同的两位数有91 - 10 = 81（个）",
-    "explanation_en": "根据题意分析可知，个数数字与十位数字相同的两位数有10个，两位数一共有91个， 由此可知，个位数字与十位数字不同的两位数有91 - 10 = 81（个）",
+    "explanation_en": "According to the problem, there are 10 two-digit numbers where the units digit and tens digit are the same. There are 91 two-digit numbers in total. From this we can know that there are 91-10=81 two-digit numbers where the units digit and tens digit are different.",
     "attribution": "2020年新希望杯二年级竞赛初赛（团战）第52题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "把15个玻璃球分成数量不同的2堆，共有种不同的分法．（每堆至少分1个）",
-    "text_en": "把15个玻璃球分成数量不同的2堆，共有种不同的分法．（每堆至少分1个）",
+    "text_en": "Divide 15 glass balls into 2 piles with different quantities. There are ____ different ways to divide them. (Each pile must have at least 1 ball)",
     "illustration": null,
     "choices": [
       {
         "zh": "5",
-        "en": "5"
+        "en": "7"
       },
       {
         "zh": "4",
@@ -319,19 +319,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "根据题意可得： 15 = 1 + 2 + 3 + 9；15 = 1 + 2 + 4 + 8； 15 = 1 + 2 + 5 + 7；15 = 1 + 3 + 4 + 7； 15 = 1 + 3 + 5 + 6；15 = 2 + 3 + 4 + 6； 一共有6种． 答：共有6种不同的分法． 故选：C．",
-    "explanation_en": "根据题意可得： 15 = 1 + 2 + 3 + 9；15 = 1 + 2 + 4 + 8； 15 = 1 + 2 + 5 + 7；15 = 1 + 3 + 4 + 7； 15 = 1 + 3 + 5 + 6；15 = 2 + 3 + 4 + 6； 一共有6种． 答：共有6种不同的分法． 故选：C．",
+    "explanation_en": "According to the problem: 15 = 1+14 = 2+13 = 3+12 = 4+11 = 5+10 = 6+9 = 7+8. There are 7 ways in total. Answer: There are 7 different ways to divide them. Answer: C.",
     "attribution": "2019年第24届YMO二年级竞赛决赛第4题3分"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "五一到了，花花想要出去旅游，她有2顶帽子、3条项链、5种头花、2双鞋、3条裙子，每类物品中各选一类进行搭配．那么，一共有____种不同的搭配方法．",
-    "text_en": "五一到了，花花想要出去旅游，她有2顶帽子、3条项链、5种头花、2双鞋、3条裙子，每类物品中各选一类进行搭配．那么，一共有____种不同的搭配方法．",
+    "text_en": "May Day is here. Huahua wants to travel. She has 2 hats, 3 necklaces, 5 types of hair accessories, 2 pairs of shoes, and 3 skirts. Choose one from each category to match. How many different matching methods are there in total?",
     "illustration": null,
     "choices": [
       {
         "zh": "200",
-        "en": "200"
+        "en": "180"
       },
       {
         "zh": "160",
@@ -348,14 +348,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "2 × 2 × 3 = 12（种）．",
-    "explanation_en": "2 × 2 × 3 = 12（种）．",
+    "explanation_en": "2 × 3 × 5 × 2 × 3 = 180 methods.",
     "attribution": "2018年第8届北京学而思综合能力诊断二年级竞赛年度教学质量第10题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "五一到了，花花想要出去旅游，她有2顶帽子、3条项链、5种头花、2双鞋、3条白色裙子、4条粉色裙子、1条蓝色裙子，每类物品中各选一样进行搭配．那么，一共有____种不同的搭配方法．",
-    "text_en": "五一到了，花花想要出去旅游，她有2顶帽子、3条项链、5种头花、2双鞋、3条白色裙子、4条粉色裙子、1条蓝色裙子，每类物品中各选一样进行搭配．那么，一共有____种不同的搭配方法．",
+    "text_en": "May Day is here. Huahua wants to travel. She has 2 hats, 3 necklaces, 5 types of hair accessories, 2 pairs of shoes, 3 white skirts, 4 pink skirts, and 1 blue skirt. Choose one from each category to match. How many different matching methods are there in total?",
     "illustration": null,
     "choices": [
       {
@@ -377,14 +377,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "2 × 2 × 3 = 12（种）．",
-    "explanation_en": "2 × 2 × 3 = 12（种）．",
+    "explanation_en": "2 × 3 × 5 × 2 × (3+4+1) = 2 × 3 × 5 × 2 × 8 = 720 methods.",
     "attribution": "2018年第8届北京学而思综合能力诊断二年级竞赛年度教学质量第10题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一个物体的2016度逆时针旋转，与它的多少度顺时针旋转是一样的？",
-    "text_en": "一个物体的2016度逆时针旋转，与它的多少度顺时针旋转是一样的？",
+    "text_en": "A 2016-degree counterclockwise rotation of an object is the same as how many degrees of clockwise rotation?",
     "illustration": null,
     "choices": [
       {
@@ -406,19 +406,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "逆时针旋转的度数 + 顺时针旋转的度数和是360的倍数",
-    "explanation_en": "逆时针旋转的度数 + 顺时针旋转的度数和是360的倍数",
+    "explanation_en": "The sum of counterclockwise rotation degrees and clockwise rotation degrees is a multiple of 360. 2016 + x = 360k, where k is an integer. 2016 = 5 × 360 + 216, so x = 360 - 216 = 144 degrees.",
     "attribution": "2016年全国美国数学大联盟杯小学中年级三年级竞赛初赛"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一个自然数，如果它顺着数和倒过来数都是一样的，则称这个数为\"对称数\"．例如，2，33，101，1331是对称数，但220不是对称数．由数字1、2、3、4组成的不超过三位数的对称数有____个．",
-    "text_en": "一个自然数，如果它顺着数和倒过来数都是一样的，则称这个数为\"对称数\"．例如，2，33，101，1331是对称数，但220不是对称数．由数字1、2、3、4组成的不超过三位数的对称数有____个．",
+    "text_en": "If a natural number reads the same forwards and backwards, it is called a 'symmetric number'. For example, 2, 33, 101, 1331 are symmetric numbers, but 220 is not. How many symmetric numbers with no more than three digits can be formed using the digits 1, 2, 3, 4?",
     "illustration": null,
     "choices": [
       {
         "zh": "25",
-        "en": "25"
+        "en": "24"
       },
       {
         "zh": "24",
@@ -435,19 +435,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "一位数有：1，2，3，4共计4个； 两位数：11，22，33，44共计4个； 三位数：111，121，131，141，212，222，232，242，313，323，333，343，414，424，434，444共计16个． 合计：4 + 4 + 16 = 24（个）",
-    "explanation_en": "一位数有：1，2，3，4共计4个； 两位数：11，22，33，44共计4个； 三位数：111，121，131，141，212，222，232，242，313，323，333，343，414，424，434，444共计16个． 合计：4 + 4 + 16 = 24（个）",
+    "explanation_en": "One-digit numbers: 1, 2, 3, 4, a total of 4. Two-digit numbers: 11, 22, 33, 44, a total of 4. Three-digit numbers: 111, 121, 131, 141, 212, 222, 232, 242, 313, 323, 333, 343, 414, 424, 434, 444, a total of 16. Total: 4 + 4 + 16 = 24.",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛三年级竞赛决赛第9题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "罗马数字是由罗马人发明的，它一共由____个数字组成。",
-    "text_en": "罗马数字是由罗马人发明的，它一共由____个数字组成。",
+    "text_en": "Roman numerals were invented by the Romans. They consist of a total of ____ numerals.",
     "illustration": null,
     "choices": [
       {
         "zh": "5",
-        "en": "5"
+        "en": "7"
       },
       {
         "zh": "6",
@@ -460,19 +460,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "解：罗马数字是由罗马人发明的，它一共由7个数字组成； 故选:C。",
-    "explanation_en": "解：罗马数字是由罗马人发明的，它一共由7个数字组成； 故选:C。",
+    "explanation_en": "Solution: Roman numerals were invented by the Romans. They consist of a total of 7 numerals. Answer: C.",
     "attribution": "2013年小机灵杯三年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "从1至10这10个整数中．至少取____个数，才能保证其中有两个数的和等于10．",
-    "text_en": "从1至10这10个整数中．至少取____个数，才能保证其中有两个数的和等于10．",
+    "text_en": "From the 10 integers from 1 to 10, at least take ____ numbers to ensure that there are two numbers whose sum equals 10.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "7"
       },
       {
         "zh": "4",
@@ -489,14 +489,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "将和为10的两个数作为一组，有(1,9)，(2,8)，(3,7)，(4,6)、(5,10)，考虑极端情况，若在前4组中各取一个数字，再取5和10，不会有两数和为10，若再在剩下的数中取任何一个，都会使两数凑成10，所以至少需要取7个数．",
-    "explanation_en": "将和为10的两个数作为一组，有(1,9)，(2,8)，(3,7)，(4,6)、(5,10)，考虑极端情况，若在前4组中各取一个数字，再取5和10，不会有两数和为10，若再在剩下的数中取任何一个，都会使两数凑成10，所以至少需要取7个数．",
+    "explanation_en": "Group the numbers whose sum is 10: (1,9), (2,8), (3,7), (4,6), (5,10). Consider the extreme case: if we take one number from each of the first 4 groups, and take both 5 and 10, we still won't have two numbers summing to 10. If we take any one more number from the remaining numbers, we will definitely get a pair summing to 10. So we need to take at least 7 numbers.",
     "attribution": "2019年第24届YMO三年级竞赛决赛第8题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "从1至10这10个整数中，至少取____个数，才能保证其中有两个数的和等于10。",
-    "text_en": "从1至10这10个整数中，至少取____个数，才能保证其中有两个数的和等于10。",
+    "text_en": "From the 10 integers from 1 to 10, at least take ____ numbers to ensure that there are two numbers whose sum equals 10.",
     "illustration": null,
     "choices": [
       {
@@ -518,19 +518,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "先找到和为10的组合：(1，9)、(2，8)、(3，7)、(4，6)，剩下5、10，若前面四组数中各取一个，后面5、10全取，这样还不能满足题目要求的两数和为10，如果再取剩下四个中的任意一个，必定会凑出和为10的组合，故最少要取6 + 1 = 7（个）。",
-    "explanation_en": "先找到和为10的组合：(1，9)、(2，8)、(3，7)、(4，6)，剩下5、10，若前面四组数中各取一个，后面5、10全取，这样还不能满足题目要求的两数和为10，如果再取剩下四个中的任意一个，必定会凑出和为10的组合，故最少要取6 + 1 = 7（个）。",
+    "explanation_en": "First find the combinations that sum to 10: (1,9), (2,8), (3,7), (4,6). The remaining are 5 and 10. If we take one from each of the first four groups, and take both 5 and 10, we still cannot satisfy the requirement of two numbers summing to 10. If we take any one more from the remaining four, we will definitely get a combination summing to 10. So we need to take at least 6 + 1 = 7 numbers.",
     "attribution": "2020年第24届YMO三年级竞赛决赛第8题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "把1~5这5个自然数从左到右排成一排，要求从第三个数起，每个数都是前两个数的和或差，那么一共有____种放法．",
-    "text_en": "把1~5这5个自然数从左到右排成一排，要求从第三个数起，每个数都是前两个数的和或差，那么一共有____种放法．",
+    "text_en": "Arrange the 5 natural numbers 1-5 in a row from left to right, requiring that starting from the third number, each number is either the sum or difference of the two preceding numbers. How many arrangements are there in total?",
     "illustration": null,
     "choices": [
       {
         "zh": "2",
-        "en": "2"
+        "en": "4"
       },
       {
         "zh": "6",
@@ -547,19 +547,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "5只能在首位或者末位，52314，54132，41325，23145",
-    "explanation_en": "5只能在首位或者末位，52314，54132，41325，23145",
+    "explanation_en": "5 can only be in the first or last position: 5,2,3,1,4; 5,4,1,3,2; 4,1,3,2,5; 2,3,1,4,5.",
     "attribution": "2014年全国迎春杯三年级竞赛复赛第14题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "把1到5这5个自然数从左到右排成一排，要求从第三个数起，每个数都是前两个数的和或差，那么一共有____种排法。",
-    "text_en": "把1到5这5个自然数从左到右排成一排，要求从第三个数起，每个数都是前两个数的和或差，那么一共有____种排法。",
+    "text_en": "Arrange the 5 natural numbers 1-5 in a row from left to right, requiring that starting from the third number, each number is either the sum or difference of the two preceding numbers. How many arrangements are there in total?",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "4"
       },
       {
         "zh": "2",
@@ -576,19 +576,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "解：5只能在首位或者末位，52314，54132，41325，23145。 故选:B。",
-    "explanation_en": "解：5只能在首位或者末位，52314，54132，41325，23145。 故选:B。",
+    "explanation_en": "Solution: 5 can only be in the first or last position: 5,2,3,1,4; 5,4,1,3,2; 4,1,3,2,5; 2,3,1,4,5. Answer: B.",
     "attribution": "2014年迎春杯三年级竞赛复赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "从1至10这10个整数中，至少取个数，才能保证其中有两个数的和等于10。（把和为10的两个数看成是一双袜子，利用抽屉原理来做）",
-    "text_en": "从1至10这10个整数中，至少取个数，才能保证其中有两个数的和等于10。（把和为10的两个数看成是一双袜子，利用抽屉原理来做）",
+    "text_en": "From the 10 integers from 1 to 10, at least take ____ numbers to ensure that there are two numbers whose sum equals 10. (Treat the two numbers summing to 10 as a pair of socks, using the pigeonhole principle)",
     "illustration": null,
     "choices": [
       {
         "zh": "4",
-        "en": "4"
+        "en": "7"
       },
       {
         "zh": "5",
@@ -605,19 +605,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "先找到和为10的组合：(1，9)、(2，8)、(3，7)、(4，6)，剩下5、10，若前面四组数中各取一个，后面5、10全取，这样还不能满足题目要求的两数和为10，如果再取剩下四个中的任意一个，必定会凑出和为10的组合，故最少要取6 + 1 = 7（个）。",
-    "explanation_en": "先找到和为10的组合：(1，9)、(2，8)、(3，7)、(4，6)，剩下5、10，若前面四组数中各取一个，后面5、10全取，这样还不能满足题目要求的两数和为10，如果再取剩下四个中的任意一个，必定会凑出和为10的组合，故最少要取6 + 1 = 7（个）。",
+    "explanation_en": "First find the combinations that sum to 10: (1,9), (2,8), (3,7), (4,6). The remaining are 5 and 10. If we take one from each of the first four groups, and take both 5 and 10, we still cannot satisfy the requirement of two numbers summing to 10. If we take any one more from the remaining four, we will definitely get a combination summing to 10. So we need to take at least 6 + 1 = 7 numbers.",
     "attribution": "2020年第24届YMO三年级竞赛决赛第8题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "春节时，妈妈买了3个完全一样的福袋，小悦想把10枚相同的一元硬币放到这三个福袋里，如果每个福袋里至少放1枚，不考虑福袋的先后顺序的话，共有____种放法。",
-    "text_en": "春节时，妈妈买了3个完全一样的福袋，小悦想把10枚相同的一元硬币放到这三个福袋里，如果每个福袋里至少放1枚，不考虑福袋的先后顺序的话，共有____种放法。",
+    "text_en": "During Spring Festival, Mom bought 3 identical lucky bags. Xiaoyue wants to put 10 identical one-yuan coins into these three lucky bags. If each bag must have at least 1 coin, without considering the order of the bags, there are ____ ways to place them.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "8"
       },
       {
         "zh": "7",
@@ -634,19 +634,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "解：枚举法，10能变成哪三个数相加，10 = 1 + 1 + 8 = 1 + 2 + 7 = 1 + 3 + 6 = 1 + 4 + 5 = 2 + 2 + 6 = 2 + 3 + 5 = 2 + 4 + 4 = 3 + 3 + 4，共8种。 故选:C。",
-    "explanation_en": "解：枚举法，10能变成哪三个数相加，10 = 1 + 1 + 8 = 1 + 2 + 7 = 1 + 3 + 6 = 1 + 4 + 5 = 2 + 2 + 6 = 2 + 3 + 5 = 2 + 4 + 4 = 3 + 3 + 4，共8种。 故选:C。",
+    "explanation_en": "Solution: Enumeration method. What three numbers sum to 10? 10 = 1+1+8 = 1+2+7 = 1+3+6 = 1+4+5 = 2+2+6 = 2+3+5 = 2+4+4 = 3+3+4. There are 8 ways in total. Answer: C.",
     "attribution": "2014年迎春杯三年级竞赛复赛"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "某个等差数列第8项是50，前10项的和为325．那么，在这个数列前99项中有____个奇数．",
-    "text_en": "某个等差数列第8项是50，前10项的和为325．那么，在这个数列前99项中有____个奇数．",
+    "text_en": "The 8th term of an arithmetic sequence is 50, and the sum of the first 10 terms is 325. How many odd numbers are there among the first 99 terms of this sequence?",
     "illustration": null,
     "choices": [
       {
         "zh": "0",
-        "en": "0"
+        "en": "50"
       },
       {
         "zh": "33",
@@ -667,19 +667,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "根据题意： casesa₁ + 7d = 50 (a₁ + a₁ + 9d) × 5 = 325 cases 整理得：casesa₁ + 7d = 50 2a₁ + 9d = 65 cases 解得：casesa₁ = 1 d = 7 cases 因此：该数列首项为奇数，公差为奇数， 故数列中奇数项为奇数，偶数项为偶数． 前99项中共有奇数(99 + 1) ÷ 2 = 50（个）．",
-    "explanation_en": "根据题意： casesa₁ + 7d = 50 (a₁ + a₁ + 9d) × 5 = 325 cases 整理得：casesa₁ + 7d = 50 2a₁ + 9d = 65 cases 解得：casesa₁ = 1 d = 7 cases 因此：该数列首项为奇数，公差为奇数， 故数列中奇数项为奇数，偶数项为偶数． 前99项中共有奇数(99 + 1) ÷ 2 = 50（个）．",
+    "explanation_en": "According to the problem: {a₁ + 7d = 50; (a₁ + a₁ + 9d) × 5 = 325}. Simplifying: {a₁ + 7d = 50; 2a₁ + 9d = 65}. Solving: {a₁ = 1; d = 7}. Therefore: the first term is odd, the common difference is odd, so odd-numbered terms...",
     "attribution": "2018年第12届北京学而思综合能力诊断小学中年级三年级竞赛第14题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "用数字0，1，2，3能组成____个数字不重复的三位数．",
-    "text_en": "用数字0，1，2，3能组成____个数字不重复的三位数．",
+    "text_en": "Using the digits 0, 1, 2, 3, how many three-digit numbers with no repeated digits can be formed?",
     "illustration": null,
     "choices": [
       {
         "zh": "24",
-        "en": "24"
+        "en": "18"
       },
       {
         "zh": "18",
@@ -696,19 +696,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为用数字0，1，2，3可以组成的三位数有：120、102、210、201、310、130、301、103、230、203、320、302、123、132、213、231、321、312，所以一共有18个不重复的三位数",
-    "explanation_en": "因为用数字0，1，2，3可以组成的三位数有：120、102、210、201、310、130、301、103、230、203、320、302、123、132、213、231、321、312，所以一共有18个不重复的三位数",
+    "explanation_en": "Because the three-digit numbers that can be formed using 0, 1, 2, 3 are: 120, 102, 210, 201, 310, 130, 301, 103, 230, 203, 320, 302, 123, 132, 213, 231, 321, 312. So there are 18 three-digit numbers without repetition.",
     "attribution": "2021年第24届世界少年奥林匹克数学竞赛四年级竞赛复赛（中国区）第14题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "从1至9这9个整数中，至少取个数，才能保证其中有两____个数的和等于10．",
-    "text_en": "从1至9这9个整数中，至少取个数，才能保证其中有两____个数的和等于10．",
+    "text_en": "From the 9 integers from 1 to 9, at least take ____ numbers to ensure that there are two numbers whose sum equals 10.",
     "illustration": null,
     "choices": [
       {
         "zh": "3",
-        "en": "3"
+        "en": "6"
       },
       {
         "zh": "4",
@@ -725,19 +725,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "从1至9这9个整数中， 1 + 9 = 2 + 8 = 3 + 7 = 4 + 6，都等于10； 根据最不利原则，取的数都是(1,9)、(2,8)、(3,7)、(4,6)组合中的1个， 再取一个5，即取第6个数时，能保证其中有两个数的和等于10",
-    "explanation_en": "从1至9这9个整数中， 1 + 9 = 2 + 8 = 3 + 7 = 4 + 6，都等于10； 根据最不利原则，取的数都是(1,9)、(2,8)、(3,7)、(4,6)组合中的1个， 再取一个5，即取第6个数时，能保证其中有两个数的和等于10",
+    "explanation_en": "Among the 9 integers from 1 to 9: 1+9 = 2+8 = 3+7 = 4+6 = 10. According to the worst-case principle, the numbers taken are all 1 from the combinations (1,9), (2,8), (3,7), (4,6). Then take a 5, i.e., when taking the 6th number, it can ensure that there are two numbers summing to 10.",
     "attribution": "2020年第23届世界少年奥林匹克数学竞赛四年级竞赛决赛（中国区）第9题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一部电视剧共8集，要在3天里播完，每天至少播一集，则安排播出的方法共有____种可能。",
-    "text_en": "一部电视剧共8集，要在3天里播完，每天至少播一集，则安排播出的方法共有____种可能。",
+    "text_en": "A TV series has 8 episodes in total, to be broadcast over 3 days, with at least 1 episode per day. How many possible arrangements are there?",
     "illustration": null,
     "choices": [
       {
         "zh": "23",
-        "en": "23"
+        "en": "21"
       },
       {
         "zh": "24",
@@ -754,19 +754,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "设第一天、第二天、第三天依次播出x，y，z集，则x + y + z = 8， 其中整数x，y，z均大于零，显然(x，y，z) = (6，1，1)；(5，2，1)；(5，1，2)；(4，3，1)；(4，2，2)；(4，1，3)；(3，4，1)；(3，3，2)；(3，2，3)；(3，1，4)； (2，5，1)；(2，4，2)；(2，3，3)；(2，2，4)；(2，1，5)；(1，6，1)；(1，5，2)；(1，4，3)；(1，3，4)；(1，2，5)；",
-    "explanation_en": "设第一天、第二天、第三天依次播出x，y，z集，则x + y + z = 8， 其中整数x，y，z均大于零，显然(x，y，z) = (6，1，1)；(5，2，1)；(5，1，2)；(4，3，1)；(4，2，2)；(4，1，3)；(3，4，1)；(3，3，2)；(3，2，3)；(3，1，4)； (2，5，1)；(2，4，2)；(2，3，3)；(2，2，4)；(2，1，5)；(1，6，1)；(1，5，2)；(1，4，3)；(1，3，4)；(1，2，5)；",
+    "explanation_en": "Let the number of episodes broadcast on the first, second, and third days be x, y, z respectively. Then x + y + z = 8, where x, y, z are all greater than zero. Obviously (x,y,z) = (6,1,1); (5,2,1); (5,1,2); (4,3,1); (4,2,2); (4,1,3); (3,4,1); (3,3,2); (3,2,3); (3,1,4); (2,5...",
     "attribution": "2007年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一把钥匙只能开一把锁，现有4把钥匙和4把锁搞乱了，最多试开____次就能确定哪把钥匙开哪把锁．",
-    "text_en": "一把钥匙只能开一把锁，现有4把钥匙和4把锁搞乱了，最多试开____次就能确定哪把钥匙开哪把锁．",
+    "text_en": "One key can only open one lock. Now there are 4 keys and 4 locks that have been mixed up. At most try ____ times to determine which key opens which lock.",
     "illustration": null,
     "choices": [
       {
         "zh": "4",
-        "en": "4"
+        "en": "6"
       },
       {
         "zh": "6",
@@ -787,19 +787,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "第一把钥匙最坏的情况要试3次，把这把钥匙和这把锁拿出；剩下的3把锁和3把钥匙，最坏的情况要试2次，把这把钥匙和这把锁拿出；剩下的2把锁和2把钥匙，最坏的情况要试1次，把这把钥匙和这把锁拿出；剩下的1把锁和1把钥匙就不用试了；3 + 2 + 1 = 6（次）",
-    "explanation_en": "第一把钥匙最坏的情况要试3次，把这把钥匙和这把锁拿出；剩下的3把锁和3把钥匙，最坏的情况要试2次，把这把钥匙和这把锁拿出；剩下的2把锁和2把钥匙，最坏的情况要试1次，把这把钥匙和这把锁拿出；剩下的1把锁和1把钥匙就不用试了；3 + 2 + 1 = 6（次）",
+    "explanation_en": "In the worst case, the first key needs to be tried 3 times, then remove this key and lock; the remaining 3 locks and 3 keys, in the worst case need to be tried 2 times, then remove this key and lock; the remaining 2 locks and 2 keys, in the worst case need to be tried 1 time, then remove this key and lock; the remaining 1 lock and 1 key don't need to be tried; 3 + 2 + 1 = 6 times.",
     "attribution": "2019年第22届世界少年奥林匹克数学竞赛四年级竞赛复赛（中国区）第4题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "艾丽丝的房间里有三条腿的凳子和四条腿的椅子．它们共有17条腿，那么艾丽丝的房间里有张三____条腿的凳子．",
-    "text_en": "艾丽丝的房间里有三条腿的凳子和四条腿的椅子．它们共有17条腿，那么艾丽丝的房间里有张三____条腿的凳子．",
+    "text_en": "Alice's room has three-legged stools and four-legged chairs. They have 17 legs in total. How many three-legged stools are in Alice's room?",
     "illustration": null,
     "choices": [
       {
         "zh": "1",
-        "en": "1"
+        "en": "3"
       },
       {
         "zh": "3",
@@ -816,19 +816,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "根据整数进行枚举尝试，代入枚举法．",
-    "explanation_en": "根据整数进行枚举尝试，代入枚举法．",
+    "explanation_en": "Try enumerating integers. Using enumeration method...",
     "attribution": "2012年第10届创新杯四年级竞赛初赛第3题6分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "设m和n是选自自然数1~1004中的两个不同的数，那么(m + n) ÷ (m - n)的最大值 是____。",
-    "text_en": "设m和n是选自自然数1~1004中的两个不同的数，那么(m + n) ÷ (m - n)的最大值 是____。",
+    "text_en": "Let m and n be two different numbers selected from the natural numbers 1-1004. The maximum value of (m + n) ÷ (m - n) is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2005",
-        "en": "2005"
+        "en": "2007"
       },
       {
         "zh": "2009",
@@ -845,19 +845,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "为使(m + n) ÷ (m - n)最大，应使m + n尽可能大，而m - n尽可能小，所以m = 1004，n = 1003，(m + n) ÷ (m - n) = 2007为最大值。",
-    "explanation_en": "为使(m + n) ÷ (m - n)最大，应使m + n尽可能大，而m - n尽可能小，所以m = 1004，n = 1003，(m + n) ÷ (m - n) = 2007为最大值。",
+    "explanation_en": "To maximize (m + n) ÷ (m - n), m + n should be as large as possible, and m - n should be as small as possible. So m = 1004, n = 1003. (m + n) ÷ (m - n) = 2007 is the maximum value.",
     "attribution": "2007年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "已知2009□ □ □ 02009 ≈ 2010亿（四舍五入）。那么其中的三位数□ □ □ 有____种填写方法。",
-    "text_en": "已知2009□ □ □ 02009 ≈ 2010亿（四舍五入）。那么其中的三位数□ □ □ 有____种填写方法。",
+    "text_en": "Given 2009□□□02009 ≈ 2010 billion (rounded). How many ways are there to fill in the three-digit number □□□?",
     "illustration": null,
     "choices": [
       {
         "zh": "499",
-        "en": "499"
+        "en": "500"
       },
       {
         "zh": "999",
@@ -874,19 +874,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "三位数□ □ □ 中可填入500，501，502，·s ，999，共有999 - 500 + 1 = 500（种）填写方法。",
-    "explanation_en": "三位数□ □ □ 中可填入500，501，502，·s ，999，共有999 - 500 + 1 = 500（种）填写方法。",
+    "explanation_en": "The three-digit number □□□ can be filled with 500, 501, 502, ..., 999. There are 999 - 500 + 1 = 500 ways to fill it in.",
     "attribution": "2009年第7届创新杯四年级竞赛初赛第5题4分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "四年级（1）班有46人，喜欢打乒乓球的有32人，喜欢打羽毛球的有26人，既喜欢打乒乓球又喜欢打羽毛球的至少有____人。",
-    "text_en": "四年级（1）班有46人，喜欢打乒乓球的有32人，喜欢打羽毛球的有26人，既喜欢打乒乓球又喜欢打羽毛球的至少有____人。",
+    "text_en": "Class 1, Grade 4 has 46 students. 32 students like playing table tennis, and 26 students like playing badminton. At least ____ students like both table tennis and badminton.",
     "illustration": null,
     "choices": [
       {
         "zh": "14",
-        "en": "14"
+        "en": "12"
       },
       {
         "zh": "12",
@@ -903,19 +903,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "把喜欢打乒乓球的32人和喜欢打羽毛球的26人加起来，32 + 26 = 58（人），比全班46人多12人，所以既喜欢打乒乓球又喜欢打羽毛球的至少有12人。",
-    "explanation_en": "把喜欢打乒乓球的32人和喜欢打羽毛球的26人加起来，32 + 26 = 58（人），比全班46人多12人，所以既喜欢打乒乓球又喜欢打羽毛球的至少有12人。",
+    "explanation_en": "Add the 32 students who like table tennis and the 26 students who like badminton: 32 + 26 = 58 students. This is 12 more than the total class of 46 students. So at least 12 students like both table tennis and badminton.",
     "attribution": "2008年第6届创新杯四年级竞赛复赛第5题4分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "设x和y是选自1 - 500这500个自然数中的两个不同的数，那么(x + y) ÷ (x - y)的最大值是____.",
-    "text_en": "设x和y是选自1 - 500这500个自然数中的两个不同的数，那么(x + y) ÷ (x - y)的最大值是____.",
+    "text_en": "Let x and y be two different numbers selected from the 500 natural numbers 1-500. The maximum value of (x + y) ÷ (x - y) is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1000",
-        "en": "1000"
+        "en": "999"
       },
       {
         "zh": "990",
@@ -932,19 +932,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "要求(x + y) ÷ (x - y)的最大值，则x + y应尽量最大，而x - y则应最小. 当x + y最大，x - y最小时，x = 500 ，y = 499满足本题要求，于是x + y = 999，x - y = 1，因此(x + y) ÷ (x - y) = 999",
-    "explanation_en": "要求(x + y) ÷ (x - y)的最大值，则x + y应尽量最大，而x - y则应最小. 当x + y最大，x - y最小时，x = 500 ，y = 499满足本题要求，于是x + y = 999，x - y = 1，因此(x + y) ÷ (x - y) = 999",
+    "explanation_en": "To find the maximum value of (x + y) ÷ (x - y), x + y should be as large as possible, and x - y should be as small as possible. When x + y is maximum and x - y is minimum, x = 500, y = 499 satisfies the requirement. Then x + y = 999, x - y = 1. Therefore (x + y) ÷ (x - y) = 999.",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "由1，3，5，7，9五个数组成甲组数，2，4，6，8，四个数组成乙组数，从甲，乙两组数中各取一个数相加，可以得到不同的和的个数是____。",
-    "text_en": "由1，3，5，7，9五个数组成甲组数，2，4，6，8，四个数组成乙组数，从甲，乙两组数中各取一个数相加，可以得到不同的和的个数是____。",
+    "text_en": "Group A consists of five numbers: 1, 3, 5, 7, 9. Group B consists of four numbers: 2, 4, 6, 8. Take one number from each group and add them together. The number of different sums that can be obtained is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "14",
-        "en": "14"
+        "en": "8"
       },
       {
         "zh": "8",
@@ -961,19 +961,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "和可以是3，5，7，9，11，13，15和17，所以和的个数是8。",
-    "explanation_en": "和可以是3，5，7，9，11，13，15和17，所以和的个数是8。",
+    "explanation_en": "The sums can be 3, 5, 7, 9, 11, 13, 15, and 17. So there are 8 different sums.",
     "attribution": "2008年第6届创新杯四年级竞赛初赛B卷第4题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "将1、2、3、4、5、6、7、8这8个数分成三组，分别计算各组数的和，已知这三个和互不相同，且最大的和是最小的和的2____倍，最小的和是．",
-    "text_en": "将1、2、3、4、5、6、7、8这8个数分成三组，分别计算各组数的和，已知这三个和互不相同，且最大的和是最小的和的2____倍，最小的和是．",
+    "text_en": "Divide the 8 numbers 1, 2, 3, 4, 5, 6, 7, 8 into three groups, and calculate the sum of each group. It is known that these three sums are all different, and the largest sum is 2 times the smallest sum. The smallest sum is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "10",
-        "en": "10"
+        "en": "8"
       },
       {
         "zh": "8",
@@ -990,14 +990,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36，最大的和是最小的和的2倍，所以三个和之和应该大于最小的和的4倍，得到最小的和小于36 ÷ 4 = 9；然后三个和之和应该小于最小的和的5倍，得到最小的和大于36 ÷ 5 = 7.2，所以最小的和是8．",
-    "explanation_en": "1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36，最大的和是最小的和的2倍，所以三个和之和应该大于最小的和的4倍，得到最小的和小于36 ÷ 4 = 9；然后三个和之和应该小于最小的和的5倍，得到最小的和大于36 ÷ 5 = 7.2，所以最小的和是8．",
+    "explanation_en": "1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36. The largest sum is 2 times the smallest sum, so the sum of the three sums should be greater than 4 times the smallest sum, giving the smallest sum less than 36 ÷ 4 = 9; then the sum of the three sums should be less than 5 times the smallest sum, giving the smallest sum greater than 36 ÷ 5 = 7.2. So the smallest sum is 8.",
     "attribution": "2010年第9届小机灵杯四年级竞赛复赛第12题9分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "康康到麦当劳买套餐，一份套餐包含了一个汉堡、一份小吃和一杯饮料。服务员告诉他店里有8种汉堡、4种小吃、5种饮料可供选择，那么康康一共可以搭配出____种套餐。",
-    "text_en": "康康到麦当劳买套餐，一份套餐包含了一个汉堡、一份小吃和一杯饮料。服务员告诉他店里有8种汉堡、4种小吃、5种饮料可供选择，那么康康一共可以搭配出____种套餐。",
+    "text_en": "Kangkang goes to McDonald's to buy a meal set. One meal set includes one hamburger, one snack, and one drink. The waiter tells him there are 8 hamburgers, 4 snacks, and 5 drinks to choose from. How many different meal sets can Kangkang combine?",
     "illustration": null,
     "choices": [
       {
@@ -1019,19 +1019,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "康康先选择汉堡，共有8种选择，然后选小吃，有4种选择，最后选饮料，有5种选择，根据乘法原理，共有：8 × 4 × 5 = 160（种）搭配方法。",
-    "explanation_en": "康康先选择汉堡，共有8种选择，然后选小吃，有4种选择，最后选饮料，有5种选择，根据乘法原理，共有：8 × 4 × 5 = 160（种）搭配方法。",
+    "explanation_en": "Kangkang first chooses a hamburger, with 8 options, then chooses a snack, with 4 options, and finally chooses a drink, with 5 options. According to the multiplication principle, there are: 8 × 4 × 5 = 160 different combinations.",
     "attribution": "2010年中环杯四年级竞赛决赛"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "师徒两人加工同一种零件，每人都把自己的产品装入自己的箩筐中，结果师傅产量是徒弟的两倍，现在装了6只箩筐，每只箩筐都标了零件的只数：78只，94只，86只，87只，82只，80只．那么____这两筐是徒弟加工的.",
-    "text_en": "师徒两人加工同一种零件，每人都把自己的产品装入自己的箩筐中，结果师傅产量是徒弟的两倍，现在装了6只箩筐，每只箩筐都标了零件的只数：78只，94只，86只，87只，82只，80只．那么____这两筐是徒弟加工的.",
+    "text_en": "A master and an apprentice process the same type of parts. Each person puts their products into their own basket. As a result, the master's output is twice the apprentice's. Now there are 6 baskets, each labeled with the number of parts: 78, 94, 86, 87, 82, 80. Which two baskets were processed by the apprentice?",
     "illustration": null,
     "choices": [
       {
         "zh": "87只与86只",
-        "en": "87只与86只"
+        "en": "87 and 82"
       },
       {
         "zh": "87只与82只",
@@ -1048,19 +1048,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为(78 + 94 + 86 + 87 + 82 + 80) ÷ (1 + 2) = 169，又87 + 82 = 169，所以87只与82只这两筐是徒弟加工的．",
-    "explanation_en": "因为(78 + 94 + 86 + 87 + 82 + 80) ÷ (1 + 2) = 169，又87 + 82 = 169，所以87只与82只这两筐是徒弟加工的．",
+    "explanation_en": "Because (78 + 94 + 86 + 87 + 82 + 80) ÷ (1 + 2) = 169, and 87 + 82 = 169, so the two baskets with 87 and 82 were processed by the apprentice.",
     "attribution": "2009年第7届创新杯四年级竞赛初赛第7题4分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "师徒两人加工同一种零件，每人都把自己的产品装入自己的箩筐中，结果师傅产量是徒弟的两倍，现在装了6只箩筐，每只箩筐都标了零件的只数：78只，94只，86只，87只，82只，80只。那么____这两筐是徒弟加工的。",
-    "text_en": "师徒两人加工同一种零件，每人都把自己的产品装入自己的箩筐中，结果师傅产量是徒弟的两倍，现在装了6只箩筐，每只箩筐都标了零件的只数：78只，94只，86只，87只，82只，80只。那么____这两筐是徒弟加工的。",
+    "text_en": "A master and an apprentice process the same type of parts. Each person puts their products into their own basket. As a result, the master's output is twice the apprentice's. Now there are 6 baskets, each labeled with the number of parts: 78, 94, 86, 87, 82, 80. Which two baskets were processed by the apprentice?",
     "illustration": null,
     "choices": [
       {
         "zh": "94只与80只",
-        "en": "94只与80只"
+        "en": "87 and 82"
       },
       {
         "zh": "80只与87只",
@@ -1077,19 +1077,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "因为(78 + 94 + 86 + 87 + 82 + 80) ÷ (1 + 2) = 169，又87 + 82 = 169，所以87只与82只这两筐是徒弟加工的。",
-    "explanation_en": "因为(78 + 94 + 86 + 87 + 82 + 80) ÷ (1 + 2) = 169，又87 + 82 = 169，所以87只与82只这两筐是徒弟加工的。",
+    "explanation_en": "Because (78 + 94 + 86 + 87 + 82 + 80) ÷ (1 + 2) = 169, and 87 + 82 = 169, so the two baskets with 87 and 82 were processed by the apprentice.",
     "attribution": "2009年四年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "2011的各位数字的和为4，具有这种性质的四位数共有____个",
-    "text_en": "2011的各位数字的和为4，具有这种性质的四位数共有____个",
+    "text_en": "The sum of the digits of 2011 is 4. How many four-digit numbers have this property?",
     "illustration": null,
     "choices": [
       {
         "zh": "10",
-        "en": "10"
+        "en": "20"
       },
       {
         "zh": "15",
@@ -1106,19 +1106,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "枚举法:4 = 4 + 0 + 0 + 0 = 3 + 1 + 0 + 0 = 2 + 1 + 1 + 0 = 2 + 2 + 0 + 0 = 1 + 1 + 1 + 1，对应4，0，0，0的四位数有1个，对应3，1，0，0的四位数有6个，对应2，1，1，0的四位数有9个，对应2，2，0，0的四位数有3个，对应1，1，1，1的四位数有1个，故1 + 6 + 9 + 3 + 1 = 20(个)或者也可用隔板法",
-    "explanation_en": "枚举法:4 = 4 + 0 + 0 + 0 = 3 + 1 + 0 + 0 = 2 + 1 + 1 + 0 = 2 + 2 + 0 + 0 = 1 + 1 + 1 + 1，对应4，0，0，0的四位数有1个，对应3，1，0，0的四位数有6个，对应2，1，1，0的四位数有9个，对应2，2，0，0的四位数有3个，对应1，1，1，1的四位数有1个，故1 + 6 + 9 + 3 + 1 = 20(个)或者也可用隔板法",
+    "explanation_en": "Enumeration method: 4 = 4+0+0+0 = 3+1+0+0 = 2+1+1+0 = 2+2+0+0 = 1+1+1+1. Corresponding to 4,0,0,0 there is 1 four-digit number; corresponding to 3,1,0,0 there are 6 four-digit numbers; corresponding to 2,1,1,0 there are 9 four-digit numbers; corresponding to 2,2,0,0 there are...",
     "attribution": "2011年四年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在所有三位数中，各数位上的和是9的数有个．（每个数字上没有数字0）",
-    "text_en": "在所有三位数中，各数位上的和是9的数有个．（每个数字上没有数字0）",
+    "text_en": "Among all three-digit numbers, there are ____ numbers whose digits sum to 9. (None of the digits is 0)",
     "illustration": null,
     "choices": [
       {
         "zh": "21",
-        "en": "21"
+        "en": "28"
       },
       {
         "zh": "45",
@@ -1135,19 +1135,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "枚举，7 + 6 + 5 + 4 + 3 + 2 + 1 = 28（个）．",
-    "explanation_en": "枚举，7 + 6 + 5 + 4 + 3 + 2 + 1 = 28（个）．",
+    "explanation_en": "By enumeration: 7 + 6 + 5 + 4 + 3 + 2 + 1 = 28 numbers.",
     "attribution": "2005年第4届小机灵杯四年级竞赛初赛第10题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "如果两个四位数的差等于2008，我们就称这两个四位数组成了一个\"创新数对\"，那么\"创新数对\"共有____个.",
-    "text_en": "如果两个四位数的差等于2008，我们就称这两个四位数组成了一个\"创新数对\"，那么\"创新数对\"共有____个.",
+    "text_en": "If the difference between two four-digit numbers equals 2008, we call these two four-digit numbers an 'innovation pair'. How many 'innovation pairs' are there in total?",
     "illustration": null,
     "choices": [
       {
         "zh": "6991",
-        "en": "6991"
+        "en": "6992"
       },
       {
         "zh": "6992",
@@ -1164,19 +1164,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "在这些\"创新数对\"中，被减数最大的是9999，此时减数是7991，而减数最小的为1000，所以\"创新数对\"共有7991 - 1000 + 1 = 6992个",
-    "explanation_en": "在这些\"创新数对\"中，被减数最大的是9999，此时减数是7991，而减数最小的为1000，所以\"创新数对\"共有7991 - 1000 + 1 = 6992个",
+    "explanation_en": "Among these 'innovation pairs', the largest minuend is 9999, at which point the subtrahend is 7991. The smallest subtrahend is 1000. So there are 7991 - 1000 + 1 = 6992 'innovation pairs' in total.",
     "attribution": "2008年第6届创新杯四年级竞赛初赛A卷第4题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "小明行李箱锁的密码是数字组成只包含8和5的三位数。某次旅行，小明忘记了密码，他最少要试____次，才能确保打开箱子。",
-    "text_en": "小明行李箱锁的密码是数字组成只包含8和5的三位数。某次旅行，小明忘记了密码，他最少要试____次，才能确保打开箱子。",
+    "text_en": "Xiao Ming's suitcase lock password is a three-digit number composed only of digits 8 and 5. During a trip, Xiao Ming forgot the password. He needs to try at least ____ times to ensure he can open the suitcase.",
     "illustration": null,
     "choices": [
       {
         "zh": "9",
-        "en": "9"
+        "en": "8"
       },
       {
         "zh": "6",
@@ -1193,19 +1193,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "枚举有5、8构成的三位数有558、588、585、855、858、885，共6个，根据最不利原则，必须要试6次才可以保证打开。",
-    "explanation_en": "枚举有5、8构成的三位数有558、588、585、855、858、885，共6个，根据最不利原则，必须要试6次才可以保证打开。",
+    "explanation_en": "Enumerate the three-digit numbers formed by 5 and 8: 558, 588, 585, 855, 858, 885, a total of 6. According to the worst-case principle, he must try 6 times to guarantee opening it.",
     "attribution": "2017年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "有1克、2克、4克、8克的砝码各一个，从这4个砝码中每次任选2个使用，砝码可以放在天平的两边，能称出不同的重量的种数是____。",
-    "text_en": "有1克、2克、4克、8克的砝码各一个，从这4个砝码中每次任选2个使用，砝码可以放在天平的两边，能称出不同的重量的种数是____。",
+    "text_en": "There are weights of 1g, 2g, 4g, and 8g, one of each. Choose 2 weights to use each time. The weights can be placed on both sides of the balance. The number of different weights that can be measured is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "9",
-        "en": "9"
+        "en": "10"
       },
       {
         "zh": "6",
@@ -1222,19 +1222,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "每次从中任意拿出2个砝码使用，若保证不重复，共可拿6次，每次拿出的两个砝码同时使用能称出两种不同的重量，两砝码重量之和及两砝码重量之差。同时使用1克、2克的砝码可称3克、1克的重量，同时使用1克、4克的砝码可称5克、3克的重量，同时使用1克、8克的砝码可称9克、7克的重量，同时使用2克、4克的砝码可称6克、2克的重量，同时使用2克、8克的砝码可称10克、6克的重量，同时使用4克、8克的砝码可称12克、4克的重量，去掉重复的重量，可称10种不同重量：1克，2克，3克，4克，5克，6克，7克，9克，10克，12克。",
-    "explanation_en": "每次从中任意拿出2个砝码使用，若保证不重复，共可拿6次，每次拿出的两个砝码同时使用能称出两种不同的重量，两砝码重量之和及两砝码重量之差。同时使用1克、2克的砝码可称3克、1克的重量，同时使用1克、4克的砝码可称5克、3克的重量，同时使用1克、8克的砝码可称9克、7克的重量，同时使用2克、4克的砝码可称6克、2克的重量，同时使用2克、8克的砝码可称10克、6克的重量，同时使用4克、8克的砝码可称12克、4克的重量，去掉重复的重量，可称10种不同重量：1克，2克，3克，4克，5克，6克，7克，9克，10克，12克。",
+    "explanation_en": "Each time arbitrarily pick 2 weights to use. To ensure no repetition, there are 6 ways to pick. Each pair of weights used together can measure two different weights: the sum and the difference of the two weights. Using 1g and 2g weights can measure 3g and 1g. Using 1g and 4g weights can measure 5g and 3g. Using 1g and 8g weights can measure 9g and 7g. Using 2g and 4g weights can...",
     "attribution": "2008年四年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一次考试共有6道选择题，评分规则如下：每人先给6分，答对一题加4分，答错一题减1分，不答得0分。现有51名同学参加考试，那么，至少有____人得分相同。",
-    "text_en": "一次考试共有6道选择题，评分规则如下：每人先给6分，答对一题加4分，答错一题减1分，不答得0分。现有51名同学参加考试，那么，至少有____人得分相同。",
+    "text_en": "An exam has 6 multiple-choice questions. The scoring rules are as follows: each person starts with 6 points, correct answer adds 4 points, wrong answer subtracts 1 point, no answer gets 0 points. Now 51 students take the exam. At least ____ students have the same score.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "3"
       },
       {
         "zh": "3",
@@ -1251,19 +1251,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为每人先给6分，所以得分情况有以下25种： 0、1、2、3、4、5、6、7、8、9、10、11、12、13、14、15、16、17、18、20、21、22、25、26、30，因此根据抽屉原理，51 ÷ 25 = 2·s ·s 1，所以至少有3人得分相同。",
-    "explanation_en": "因为每人先给6分，所以得分情况有以下25种： 0、1、2、3、4、5、6、7、8、9、10、11、12、13、14、15、16、17、18、20、21、22、25、26、30，因此根据抽屉原理，51 ÷ 25 = 2·s ·s 1，所以至少有3人得分相同。",
+    "explanation_en": "Because each person starts with 6 points, there are the following 25 score situations: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 20, 21, 22, 25, 26, 30. Therefore, according to the pigeonhole principle, 51 ÷ 25 = 2 remainder 1, so at least 3 students have the same score.",
     "attribution": "2015年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "小明有多张面额为1元、2元和5元的人民币，他想用其中不多于10张的人民币购买一只价格为18元的风筝，要求至少用其中两种面额的人民币。那么，不同的付款方式有____种。",
-    "text_en": "小明有多张面额为1元、2元和5元的人民币，他想用其中不多于10张的人民币购买一只价格为18元的风筝，要求至少用其中两种面额的人民币。那么，不同的付款方式有____种。",
+    "text_en": "Xiao Ming has multiple bills of 1 yuan, 2 yuan, and 5 yuan. He wants to use no more than 10 bills to buy a kite priced at 18 yuan, requiring at least two different denominations. How many different payment methods are there?",
     "illustration": null,
     "choices": [
       {
         "zh": "9",
-        "en": "9"
+        "en": "11"
       },
       {
         "zh": "11",
@@ -1280,19 +1280,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "设所用的1元、2元和5元的人民币张数依次为x，y，z。由已知可得： x + 2y + 5z = 18，x + y + z ≤ slant 10 当z = 0时，(x，y)只能取(2，8)，共1种； 当z = 1时，(x，y)只能取(1，6)，(3，5)，(5，4)，共3种； 当z = 2时，(x，y)只能取(0，4)，(2，3)，(4，2)，(6，1)，(8，0)，共5种； 当z = 3时，(x，y)只能取(1，1)，(3，0)，共2种。 综上可得，一共有：1 + 3 + 5 + 2 = 11（种）不同的付款方式",
-    "explanation_en": "设所用的1元、2元和5元的人民币张数依次为x，y，z。由已知可得： x + 2y + 5z = 18，x + y + z ≤ slant 10 当z = 0时，(x，y)只能取(2，8)，共1种； 当z = 1时，(x，y)只能取(1，6)，(3，5)，(5，4)，共3种； 当z = 2时，(x，y)只能取(0，4)，(2，3)，(4，2)，(6，1)，(8，0)，共5种； 当z = 3时，(x，y)只能取(1，1)，(3，0)，共2种。 综上可得，一共有：1 + 3 + 5 + 2 = 11（种）不同的付款方式",
+    "explanation_en": "Let the number of 1 yuan, 2 yuan, and 5 yuan bills be x, y, z respectively. From the given conditions: x + 2y + 5z = 18, x + y + z ≤ 10. When z = 0, (x, y) can only be (2, 8), 1 way; when z = 1, (x, y) can be (1, 6), (3, 5), (5, 4), 3 ways; when z = 2, (x, y)...",
     "attribution": "2015年华杯赛四年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在数列1，2，3，4，5，6，7，8，9，· · · · · · ，2015，2016中，去掉带有数字1和9的数，把剩下的数从小大大排成一列：2，3，4，5，6，7，8，20，22，23，24，25，26，27，28，30，· · · · · · ，那么在列数从左到右第319____个数是．",
-    "text_en": "在数列1，2，3，4，5，6，7，8，9，· · · · · · ，2015，2016中，去掉带有数字1和9的数，把剩下的数从小大大排成一列：2，3，4，5，6，7，8，20，22，23，24，25，26，27，28，30，· · · · · · ，那么在列数从左到右第319____个数是．",
+    "text_en": "In the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, ..., 2015, 2016, remove the numbers containing digits 1 and 9, and arrange the remaining numbers from smallest to largest: 2, 3, 4, 5, 6, 7, 8, 20, 22, 23, 24, 25, 26, 27, 28, 30, ..., then the 319th number from left to right in this sequence is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "321",
-        "en": "321"
+        "en": "588"
       },
       {
         "zh": "376",
@@ -1313,19 +1313,19 @@
     ],
     "correct_index": 4,
     "explanation_zh": "1到99以内去掉1，9，10 - / - 19，21，29，31，39，· · · ，90 - / - 99，还剩99 - 2 - 10 - 2 × 7 - 10 = 63，100 - / - 199，200 - / - 299，100 - 2 - 10 - 2 × 7 - 10 = 64，300 - 399(64)，400 - / - 499(64)，500 - 599(64)，64 × 4 + 63 = 319，第319个数是：588．",
-    "explanation_en": "1到99以内去掉1，9，10 - / - 19，21，29，31，39，· · · ，90 - / - 99，还剩99 - 2 - 10 - 2 × 7 - 10 = 63，100 - / - 199，200 - / - 299，100 - 2 - 10 - 2 × 7 - 10 = 64，300 - 399(64)，400 - / - 499(64)，500 - 599(64)，64 × 4 + 63 = 319，第319个数是：588．",
+    "explanation_en": "From 1 to 99, removing 1, 9, 10-19, 21, 29, 31, 39, ..., 90-99, there are 99 - 2 - 10 - 2×7 - 10 = 63 remaining. From 100-199, 200-299, 100 - 2 - 10 - 2×7 - 10 = 64. 300...",
     "attribution": "2016年第3届广东深圳鹏程杯四年级竞赛第6题8分"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "红、黄、蓝3种颜色的球分别有11、12、17个，每次操作可以将2个不同颜色的球换成2个第三种颜色的球，则在操作过程中，红色球至多有____个．",
-    "text_en": "红、黄、蓝3种颜色的球分别有11、12、17个，每次操作可以将2个不同颜色的球换成2个第三种颜色的球，则在操作过程中，红色球至多有____个．",
+    "text_en": "There are 11 red, 12 yellow, and 17 blue balls. Each operation can exchange 2 balls of different colors for 2 balls of the third color. During the operations, the maximum number of red balls is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "36",
-        "en": "36"
+        "en": "39"
       },
       {
         "zh": "37",
@@ -1346,19 +1346,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "（1）红球最多，那么就要黄、蓝球最少，而黄、蓝球最少则取决于这两种球数之差最小． （2）一开始，黄蓝球数差5，每次操作，黄球和蓝球的差要么不变，要么改变3，所以变化后，这两种球数之差最小为1． （3）当黄、蓝球数差1时，我们就一直把它们换成红色，最后只剩下一个黄球，剩下的39个全是红球，此时红球会最多． （4）下面构造说明红球最多可以有39个．（括号内三个数依次表示红、黄、蓝3种颜色的球的个数） （11，12，17）→（10，14，16）→（9，16，15）→（11，15，14）→（13，14，13）→（15，13，12）→（17，12，11）→（19，11，10）→·s →（39，1，0）．",
-    "explanation_en": "（1）红球最多，那么就要黄、蓝球最少，而黄、蓝球最少则取决于这两种球数之差最小． （2）一开始，黄蓝球数差5，每次操作，黄球和蓝球的差要么不变，要么改变3，所以变化后，这两种球数之差最小为1． （3）当黄、蓝球数差1时，我们就一直把它们换成红色，最后只剩下一个黄球，剩下的39个全是红球，此时红球会最多． （4）下面构造说明红球最多可以有39个．（括号内三个数依次表示红、黄、蓝3种颜色的球的个数） （11，12，17）→（10，14，16）→（9，16，15）→（11，15，14）→（13，14，13）→（15，13，12）→（17，12，11）→（19，11，10）→·s →（39，1，0）．",
+    "explanation_en": "(1) To maximize red balls, yellow and blue balls should be minimized, which depends on minimizing the difference between these two ball counts. (2) Initially, the difference between yellow and blue balls is 5. Each operation, the difference between yellow and blue balls either stays the same or changes by 3. So after changes, the minimum difference between these two ball counts is 1. (3) When the difference between yellow and blue balls is 1, we keep exchanging them for red balls. Finally, only one yellow ball remains, and the remaining 39 are all red balls. At this point, red balls will be the most...",
     "attribution": "2012年全国迎春杯四年级竞赛初赛第7题"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "动物园里猩猩比狒狒多，猴子比猩猩多.一天，饲养员拿了10箱香蕉分给它们.每只猩猩比每只狒狒多分1根，每只猴子比每只猩猩多分1根.分完后，只剩下2根香蕉.如果每箱香蕉数量相同，都是40多个，而且猴子比狒狒多6只，猩猩有16只.那么，动物园里有____只猴子.",
-    "text_en": "动物园里猩猩比狒狒多，猴子比猩猩多.一天，饲养员拿了10箱香蕉分给它们.每只猩猩比每只狒狒多分1根，每只猴子比每只猩猩多分1根.分完后，只剩下2根香蕉.如果每箱香蕉数量相同，都是40多个，而且猴子比狒狒多6只，猩猩有16只.那么，动物园里有____只猴子.",
+    "text_en": "In the zoo, there are more apes than baboons, and more monkeys than apes. One day, the keeper brought 10 boxes of bananas to distribute to them. Each ape gets 1 more banana than each baboon, and each monkey gets 1 more banana than each ape. After distribution, only 2 bananas remain. If each box has the same number of bananas, all over 40, and there are 6 more monkeys than baboons, and 16 apes. How many monkeys are there in the zoo?",
     "illustration": null,
     "choices": [
       {
         "zh": "17",
-        "en": "17"
+        "en": "18"
       },
       {
         "zh": "20",
@@ -1375,19 +1375,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "由题意知，共吃了香蕉400 500根，且个位数是8.设有猴子n只，则有狒狒(n - 6)只.因为猩猩的数量介于猴子与狒狒之间，所以17 ≤ slant n ≤ slant 21.再设每只猴子吃了a根香蕉，则每只猩猩吃了(a - 1)根，每只狒狒吃了(a - 2)根.共吃香蕉 an + (a - 1) × 16 + (a - 2)(n - 6) = an + 16a - 16 + an - 2n - 6a + 12 = 2an + 10a - 2n - 4 = 2a(n + 5) - 2n - 4 = X.X的个位数是8，且17 ≤ n ≤ 21 若n = 17，则X = 44a - 38.a的…",
-    "explanation_en": "由题意知，共吃了香蕉400 500根，且个位数是8.设有猴子n只，则有狒狒(n - 6)只.因为猩猩的数量介于猴子与狒狒之间，所以17 ≤ slant n ≤ slant 21.再设每只猴子吃了a根香蕉，则每只猩猩吃了(a - 1)根，每只狒狒吃了(a - 2)根.共吃香蕉 an + (a - 1) × 16 + (a - 2)(n - 6) = an + 16a - 16 + an - 2n - 6a + 12 = 2an + 10a - 2n - 4 = 2a(n + 5) - 2n - 4 = X.X的个位数是8，且17 ≤ n ≤ 21 若n = 17，则X = 44a - 38.a的…",
+    "explanation_en": "From the problem, they ate 400-500 bananas in total, and the units digit is 8. Let there be n monkeys, then there are (n-6) baboons. Because the number of apes is between monkeys and baboons, 17 ≤ n ≤ 21. Let each monkey eat a bananas, then each ape eats (a-1) bananas, and each baboon eats (a-2) bananas. Total bananas eaten: an + (a-1)...",
     "attribution": "2006年迎春杯四年级竞赛复赛"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "将各位数字的和为4的所有自然数由小到大排成一列，2011是第____个。",
-    "text_en": "将各位数字的和为4的所有自然数由小到大排成一列，2011是第____个。",
+    "text_en": "Arrange all natural numbers whose digits sum to 4 from smallest to largest. 2011 is the ____th.",
     "illustration": null,
     "choices": [
       {
         "zh": "23",
-        "en": "23"
+        "en": "27"
       },
       {
         "zh": "24",
@@ -1404,19 +1404,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "枚举法。各位数字和为4的自然数依次为：4，13，22，31，40，103，112，121，130，202，211，220，301，310，400，1003，1012，1021，1030，1102，1111，1120，1201，1210，1300，2002，2011，即2011是第27个。",
-    "explanation_en": "枚举法。各位数字和为4的自然数依次为：4，13，22，31，40，103，112，121，130，202，211，220，301，310，400，1003，1012，1021，1030，1102，1111，1120，1201，1210，1300，2002，2011，即2011是第27个。",
+    "explanation_en": "Enumeration method. The natural numbers whose digits sum to 4 are: 4, 13, 22, 31, 40, 103, 112, 121, 130, 202, 211, 220, 301, 310, 400, 1003, 1012, 1021, 1030, 1102, 1111, 1120, 1201, 1210, 1300, 2002, 2011. So 2011 is the 27th.",
     "attribution": "2011年五年级竞赛创新杯"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "5个人围坐在一张圆桌旁就餐，有____种不同的坐法。（如果某种排法可以通过旋转得到另一种排法，那么这两种排法算作同一种）",
-    "text_en": "5个人围坐在一张圆桌旁就餐，有____种不同的坐法。（如果某种排法可以通过旋转得到另一种排法，那么这两种排法算作同一种）",
+    "text_en": "5 people sit around a round table for a meal. There are ____ different seating arrangements. (If one arrangement can be obtained by rotating another, then these two arrangements are considered the same)",
     "illustration": null,
     "choices": [
       {
         "zh": "22",
-        "en": "22"
+        "en": "24"
       },
       {
         "zh": "24",
@@ -1429,19 +1429,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "圆桌可以旋转，先固定1人，剩下的4人进行全排列即可，所以有1 × A₄⁴ = 1 × 4 × 3 × 2 × 1 = 24（种）。 故选：B。",
-    "explanation_en": "圆桌可以旋转，先固定1人，剩下的4人进行全排列即可，所以有1 × A₄⁴ = 1 × 4 × 3 × 2 × 1 = 24（种）。 故选：B。",
+    "explanation_en": "The round table can rotate. First fix 1 person, then arrange the remaining 4 people in full permutation. So there are 1 × A₄⁴ = 1 × 4 × 3 × 2 × 1 = 24 arrangements. Answer: B.",
     "attribution": "2014年走美杯五年级竞赛初赛"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "在1829年法国盲人路易布莱尔发明了点字，他是由一个框内的6个凸或者不凸的点组成，以凸点数的多少和位置的不同，代表不同的符号，因此可以变化组成____个不同的符号（没有任何凸点就不计数），这已成为现代国际上普遍采用的盲文形式．",
-    "text_en": "在1829年法国盲人路易布莱尔发明了点字，他是由一个框内的6个凸或者不凸的点组成，以凸点数的多少和位置的不同，代表不同的符号，因此可以变化组成____个不同的符号（没有任何凸点就不计数），这已成为现代国际上普遍采用的盲文形式．",
+    "text_en": "In 1829, French blind person Louis Braille invented Braille. It consists of 6 raised or non-raised dots within a frame. Different symbols are represented by the number and position of raised dots. Therefore, ____ different symbols can be formed (no raised dots are not counted). This has become the universally adopted Braille form in modern times.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "63"
       },
       {
         "zh": "63",
@@ -1458,48 +1458,48 @@
     ],
     "correct_index": 1,
     "explanation_zh": "由于没有任何凸点就不计数，则不同的符号有2⁶ - 1 = 63个．",
-    "explanation_en": "由于没有任何凸点就不计数，则不同的符号有2⁶ - 1 = 63个．",
+    "explanation_en": "Since no raised dots are not counted, there are 2⁶ - 1 = 63 different symbols.",
     "attribution": "2016年全国世奥赛五年级竞赛A卷第7题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "下列说法正确的是．",
-    "text_en": "下列说法正确的是．",
+    "text_en": "Which of the following statements is correct?",
     "illustration": null,
     "choices": [
       {
         "zh": "最小的自然数与最小的合数的和是5",
-        "en": "最小的自然数与最小的合数的和是5"
+        "en": "The sum of the smallest natural number and the smallest composite number is 5"
       },
       {
         "zh": "对于两个整数a、b，若a = 4b，那么a和b的最大公约数是4",
-        "en": "对于两个整数a、b，若a = 4b，那么a和b的最大公约数是4"
+        "en": "For two integers a and b, if a = 4b, then the greatest common divisor of a and b is 4"
       },
       {
         "zh": "在45的约数中，合数有2个",
-        "en": "在45的约数中，合数有2个"
+        "en": "Among the divisors of 45, there are 2 composite numbers"
       },
       {
         "zh": "在20以内的质数中，加上2还是质数的有4个",
-        "en": "在20以内的质数中，加上2还是质数的有4个"
+        "en": "Among the prime numbers within 20, there are 4 that are still prime after adding 2"
       }
     ],
     "correct_index": 3,
     "explanation_zh": "A项，最小的自然数是0，最小的合数是4，0 + 4 = 4； B项，在45的约数中，合数有9、15、45共3个； D项，a和b的最大公约数是b．",
-    "explanation_en": "A项，最小的自然数是0，最小的合数是4，0 + 4 = 4； B项，在45的约数中，合数有9、15、45共3个； D项，a和b的最大公约数是b．",
+    "explanation_en": "Option A: The smallest natural number is 0, the smallest composite number is 4, 0 + 4 = 4. Option B: Among the divisors of 45, the composite numbers are 9, 15, 45, a total of 3. Option D: The greatest common divisor of a and b is b.",
     "attribution": "2018年湖北武汉新希望杯五年级竞赛训练题（四）第1题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "120有____个偶因数．",
-    "text_en": "120有____个偶因数．",
+    "text_en": "120 has ____ even factors.",
     "illustration": null,
     "choices": [
       {
         "zh": "20",
-        "en": "20"
+        "en": "12"
       },
       {
         "zh": "16",
@@ -1516,19 +1516,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为120的因数有：1、2、3、4、5、6、8、10、12、15、20、24、30、40、60、120，所以一共有16个因数",
-    "explanation_en": "因为120的因数有：1、2、3、4、5、6、8、10、12、15、20、24、30、40、60、120，所以一共有16个因数",
+    "explanation_en": "Because the factors of 120 are: 1, 2, 3, 4, 5, 6, 8, 10, 12, 15, 20, 24, 30, 40, 60, 120. So there are a total of 16 factors...",
     "attribution": "2019年第7届湖北长江杯五年级竞赛复赛B卷第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "恰好有两位数字相同的三位数共有____个。",
-    "text_en": "恰好有两位数字相同的三位数共有____个。",
+    "text_en": "Three-digit numbers with exactly two identical digits have ____ in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "270",
-        "en": "270"
+        "en": "243"
       },
       {
         "zh": "267",
@@ -1545,14 +1545,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "若三位数中恰有两位数字相同，那么相同的两个数位有以下三种情况： ①百位数与十位数相同：因为百位数不能为0，所以百位数与十位数有1、2、3、·s、9，有9种可能；个位数可在0~9中去掉一个已经作为百位数外的9个数中选取，也有9种可能，因此这样的三位数有9 × 9 = 81（个）。 ②百位数与个位数相同：同理有81个三位数。 ③十位数与个位数相同：分两种情况。 （I）个位与百位都为0，百位有9种； （II）当个位与百位不为0时，个位与百位有9种，百位有8种，共9 × 8 = 72（种）； 所以共72 + 9 = 81（种）。 因此，恰有两位数字相同的三位数共有81 × 3 = 243（个）。",
-    "explanation_en": "若三位数中恰有两位数字相同，那么相同的两个数位有以下三种情况： ①百位数与十位数相同：因为百位数不能为0，所以百位数与十位数有1、2、3、·s、9，有9种可能；个位数可在0~9中去掉一个已经作为百位数外的9个数中选取，也有9种可能，因此这样的三位数有9 × 9 = 81（个）。 ②百位数与个位数相同：同理有81个三位数。 ③十位数与个位数相同：分两种情况。 （I）个位与百位都为0，百位有9种； （II）当个位与百位不为0时，个位与百位有9种，百位有8种，共9 × 8 = 72（种）； 所以共72 + 9 = 81（种）。 因此，恰有两位数字相同的三位数共有81 × 3 = 243（个）。",
+    "explanation_en": "If a three-digit number has exactly two identical digits, then the identical digits can be in the following three cases: ① The hundreds and tens digits are the same: Because the hundreds digit cannot be 0, the hundreds and tens digits can be 1, 2, 3, ..., 9, with 9 possibilities. The units digit can be chosen from 0-9 excluding the one already used as the hundreds digit, also 9 possibilities. So such three-digit numbers have 9 × 9 = 81. ② The hundreds and units digits are the same...",
     "attribution": "2009年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "990有很多因数，这些因数的平均数是____．",
-    "text_en": "990有很多因数，这些因数的平均数是____．",
+    "text_en": "990 has many factors. The average of these factors is ____.",
     "illustration": null,
     "choices": [
       {
@@ -1574,19 +1574,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "990的因数有：1；990；2；495；3；330；5；198；6；165；9；110；10；99；11；90；15；66；18；55；22；45；30；33，一共24个， 平均数为：(1 + 990 + 2 + 495 + 3 + 330 + 5 + 198 + 6 + 165 + 9 + 110 + 10 + 99 + 11 + 90 + 15 + 66 + 18 + 55 + 22 + 45 + 30 + 33) ÷ 24 = 2808 ÷ 24 = 117， 故选",
-    "explanation_en": "990的因数有：1；990；2；495；3；330；5；198；6；165；9；110；10；99；11；90；15；66；18；55；22；45；30；33，一共24个， 平均数为：(1 + 990 + 2 + 495 + 3 + 330 + 5 + 198 + 6 + 165 + 9 + 110 + 10 + 99 + 11 + 90 + 15 + 66 + 18 + 55 + 22 + 45 + 30 + 33) ÷ 24 = 2808 ÷ 24 = 117， 故选",
+    "explanation_en": "The factors of 990 are: 1, 990, 2, 495, 3, 330, 5, 198, 6, 165, 9, 110, 10, 99, 11, 90, 15, 66, 18, 55, 22, 45, 30, 33, a total of 24. The average is: (1 + 990 + 2 + 495 + 3 + 330 + 5 + 198 + 6 + 165 + 9 + 110...",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛五年级竞赛决赛第7题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "两个自然数的和是25，那么这两____个自然数的乘积不可能是．",
-    "text_en": "两个自然数的和是25，那么这两____个自然数的乘积不可能是．",
+    "text_en": "The sum of two natural numbers is 25. Then the product of these two natural numbers cannot be ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "24",
-        "en": "24"
+        "en": "132"
       },
       {
         "zh": "114",
@@ -1599,14 +1599,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "25 = 1 + 24 = 2 + 23 = 3 + 22 = 4 + 21 = 5 + 20 = 6 + 19 = 7 + 18 = 8 + 17 = 9 + 16 = 10 + 15 = 11 + 14 = 12 + 13． 所以：1 × 24 = 24，2 × 23 = 46，3 × 22 = 66，4 × 21 = 84，5 × 20 = 100，6 × 19 = 114，7 × 18 = 126，8 × 17 = 136，9 × 16 = 144，10 × 15 = 150，11 × 14 = 154，12 × 13 = 156， 故132是不可能的",
-    "explanation_en": "25 = 1 + 24 = 2 + 23 = 3 + 22 = 4 + 21 = 5 + 20 = 6 + 19 = 7 + 18 = 8 + 17 = 9 + 16 = 10 + 15 = 11 + 14 = 12 + 13． 所以：1 × 24 = 24，2 × 23 = 46，3 × 22 = 66，4 × 21 = 84，5 × 20 = 100，6 × 19 = 114，7 × 18 = 126，8 × 17 = 136，9 × 16 = 144，10 × 15 = 150，11 × 14 = 154，12 × 13 = 156， 故132是不可能的",
+    "explanation_en": "25 = 1 + 24 = 2 + 23 = 3 + 22 = 4 + 21 = 5 + 20 = 6 + 19 = 7 + 18 = 8 + 17 = 9 + 16 = 10 + 15 = 11 + 14 = 12 + 13. So: 1 × 24 = 24, 2 × 23 = 46, 3 × 22 =...",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛五年级竞赛初赛第1题6分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "大于99且小于1000的整数既不包含数字1也不包含数字2有多少个？．",
-    "text_en": "大于99且小于1000的整数既不包含数字1也不包含数字2有多少个？．",
+    "text_en": "How many integers greater than 99 and less than 1000 contain neither the digit 1 nor the digit 2?",
     "illustration": null,
     "choices": [
       {
@@ -1628,19 +1628,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "本题题意为\"大于99且小于1000的整数既不包含数字1也不包含数字2有多少个？\"本题相当于问三位数中即不包括数字1也不包括数字2的有多少个，本题考查排列组合，先考虑个位上可能出现的数字有0、3、4、5、6、7、8、9总共8个，同理十位也是8个，百位上去掉不能为0的情况有7个数字，因此一共有7 × 8 × 8 = 448（个）",
-    "explanation_en": "本题题意为\"大于99且小于1000的整数既不包含数字1也不包含数字2有多少个？\"本题相当于问三位数中即不包括数字1也不包括数字2的有多少个，本题考查排列组合，先考虑个位上可能出现的数字有0、3、4、5、6、7、8、9总共8个，同理十位也是8个，百位上去掉不能为0的情况有7个数字，因此一共有7 × 8 × 8 = 448（个）",
+    "explanation_en": "The problem asks: 'How many integers greater than 99 and less than 1000 contain neither the digit 1 nor the digit 2?' This is equivalent to asking how many three-digit numbers do not include the digits 1 or 2. This tests permutations and combinations. First consider the possible digits for the units place: 0, 3, 4, 5, 6, 7, 8, 9, a total of 8. Similarly, the tens place also has 8. The hundreds place, excluding the case where it cannot be 0, has 7 digits. So there are a total of 7 × 8...",
     "attribution": "2019年美国数学大联盟杯五年级竞赛初赛第34题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "气象台预报\"本市明天降雨概率是80%\"．对此信息，下列说法中正确的．",
-    "text_en": "气象台预报\"本市明天降雨概率是80%\"．对此信息，下列说法中正确的．",
+    "text_en": "The weather forecast says 'The probability of rain in our city tomorrow is 80%'. Regarding this information, which of the following statements is correct?",
     "illustration": null,
     "choices": [
       {
         "zh": "明天肯定下雨．",
-        "en": "明天肯定下雨．"
+        "en": "The possibility of rain tomorrow is relatively high."
       },
       {
         "zh": "明天降水的可能性比较大．",
@@ -1657,19 +1657,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "降水概率指的是可能性的大小，并不是降水覆盖的地区或者降水的时间．80%的概率也不是指肯定下雨，100%的概率才是肯定下雨．80%的概率是说明有比较大的可能性下雨．",
-    "explanation_en": "降水概率指的是可能性的大小，并不是降水覆盖的地区或者降水的时间．80%的概率也不是指肯定下雨，100%的概率才是肯定下雨．80%的概率是说明有比较大的可能性下雨．",
+    "explanation_en": "Precipitation probability refers to the likelihood, not the area covered by precipitation or the time of precipitation. 80% probability does not mean it will definitely rain. 100% probability means it will definitely rain. 80% probability indicates a relatively high possibility of rain.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "气象台预报\"本市明天降雨概率是80%\"．对此信息，下列说法中正确的是：",
-    "text_en": "气象台预报\"本市明天降雨概率是80%\"．对此信息，下列说法中正确的是：",
+    "text_en": "The weather forecast says 'The probability of rain in our city tomorrow is 80%'. Regarding this information, which of the following statements is correct:",
     "illustration": null,
     "choices": [
       {
         "zh": "明天肯定下雨．",
-        "en": "明天肯定下雨．"
+        "en": "The possibility of rain tomorrow is relatively high."
       },
       {
         "zh": "本市明天将有80%的时间降水．",
@@ -1686,14 +1686,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "降水概率指的是可能性的大小，并不是降水覆盖的地区或者降水的时间．80%的概率也不是指肯定下雨，100%的概率才是肯定下雨．80%的概率是说明有比较大的可能性下雨．",
-    "explanation_en": "降水概率指的是可能性的大小，并不是降水覆盖的地区或者降水的时间．80%的概率也不是指肯定下雨，100%的概率才是肯定下雨．80%的概率是说明有比较大的可能性下雨．",
+    "explanation_en": "Precipitation probability refers to the likelihood, not the area covered by precipitation or the time of precipitation. 80% probability does not mean it will definitely rain. 100% probability means it will definitely rain. 80% probability indicates a relatively high possibility of rain.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "老师从小明和其他9名学生中随意抽取2____人表演节目，小明被抽中的可能性是．",
-    "text_en": "老师从小明和其他9名学生中随意抽取2____人表演节目，小明被抽中的可能性是．",
+    "text_en": "The teacher randomly selects 2 people from Xiao Ming and 9 other students to perform. The probability of Xiao Ming being selected is ____.",
     "illustration": null,
     "choices": [
       {
@@ -1715,19 +1715,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "假设分两次抽，第一次抽中小明的可能性是1/10，第二次才抽中小明的可能性是1/10，1/10 + 1/10 = 1/5．",
-    "explanation_en": "假设分两次抽，第一次抽中小明的可能性是1/10，第二次才抽中小明的可能性是1/10，1/10 + 1/10 = 1/5．",
+    "explanation_en": "Assume selecting twice. The probability of selecting Xiao Ming the first time is 1/10. The probability of selecting Xiao Ming the second time is 1/10. 1/10 + 1/10 = 1/5.",
     "attribution": "2018年湖北武汉新希望杯五年级竞赛训练题（二）第3题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "气象台预报\"本市明天降雨概率是80%\"．对此信息，下列说法中正确的是____．",
-    "text_en": "气象台预报\"本市明天降雨概率是80%\"．对此信息，下列说法中正确的是____．",
+    "text_en": "The weather forecast says 'The probability of rain in our city tomorrow is 80%'. Regarding this information, which of the following statements is correct?",
     "illustration": null,
     "choices": [
       {
         "zh": "明天肯定下雨．",
-        "en": "明天肯定下雨．"
+        "en": "The possibility of rain tomorrow is relatively high."
       },
       {
         "zh": "本市明天将有80%的时间降水．",
@@ -1744,19 +1744,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "降水概率指的是可能性的大小，并不是降水覆盖的地区或者降水的时间．80%的概率也不是指肯定下雨，100%的概率才是肯定下雨．80%的概率是说明有比较大的可能性下雨．",
-    "explanation_en": "降水概率指的是可能性的大小，并不是降水覆盖的地区或者降水的时间．80%的概率也不是指肯定下雨，100%的概率才是肯定下雨．80%的概率是说明有比较大的可能性下雨．",
+    "explanation_en": "Precipitation probability refers to the likelihood, not the area covered by precipitation or the time of precipitation. 80% probability does not mean it will definitely rain. 100% probability means it will definitely rain. 80% probability indicates a relatively high possibility of rain.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "由3，4，5，6排成没有重复数字的四位数，从小到大排起来，6345是第____.",
-    "text_en": "由3，4，5，6排成没有重复数字的四位数，从小到大排起来，6345是第____.",
+    "text_en": "Arrange four-digit numbers without repeated digits using 3, 4, 5, 6, arranged from smallest to largest, 6345 is the ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "16个",
-        "en": "16个"
+        "en": "19th"
       },
       {
         "zh": "17个",
@@ -1773,19 +1773,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "以3、4、5为最高位的四位数共有3 × 2 × 3 = 18个，而6345是以6为最高位的最小四位数，所以从小到大排起来6345是第19个数",
-    "explanation_en": "以3、4、5为最高位的四位数共有3 × 2 × 3 = 18个，而6345是以6为最高位的最小四位数，所以从小到大排起来6345是第19个数",
+    "explanation_en": "Four-digit numbers with 3, 4, 5 as the highest digit have a total of 3 × 2 × 3 = 18, and 6345 is the smallest four-digit number with 6 as the highest digit, so arranged from smallest to largest, 6345 is the 19th number...",
     "attribution": "2006年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "由1.2.3.4.5五个数字组成没有重复数字的三位数，各____个数字之和为偶数的有．",
-    "text_en": "由1.2.3.4.5五个数字组成没有重复数字的三位数，各____个数字之和为偶数的有．",
+    "text_en": "Form three-digit numbers without repeated digits using the five digits 1, 2, 3, 4, 5. How many of them have an even sum of all digits?",
     "illustration": null,
     "choices": [
       {
         "zh": "6个",
-        "en": "6个"
+        "en": "36"
       },
       {
         "zh": "30个",
@@ -1802,19 +1802,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "数字之和为偶数的数有123、125、134、145、235、345，而每种选法又可以有五种不同三位数，所以6 × 6 = 36个不同的三位数．",
-    "explanation_en": "数字之和为偶数的数有123、125、134、145、235、345，而每种选法又可以有五种不同三位数，所以6 × 6 = 36个不同的三位数．",
+    "explanation_en": "Numbers with an even sum of digits are 123, 125, 134, 145, 235, 345. Each selection can form 6 different three-digit numbers, so there are 6 × 6 = 36 different three-digit numbers.",
     "attribution": "2017年第16届湖北武汉创新杯小学高年级五年级竞赛邀请赛训练题（一）"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "由1、2、3、4、5五个数字组成没有重复数字的三位数，各个数字之和为偶数的共有____个．",
-    "text_en": "由1、2、3、4、5五个数字组成没有重复数字的三位数，各个数字之和为偶数的共有____个．",
+    "text_en": "Form three-digit numbers without repeated digits using the five digits 1, 2, 3, 4, 5. How many of them have an even sum of all digits?",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "36"
       },
       {
         "zh": "30",
@@ -1831,14 +1831,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "数字之和为偶数的数有123、125、134、145、235、345，而每种选法又可以有五种不同三位数，所以6 × 6 = 36个不同的三位数．",
-    "explanation_en": "数字之和为偶数的数有123、125、134、145、235、345，而每种选法又可以有五种不同三位数，所以6 × 6 = 36个不同的三位数．",
+    "explanation_en": "Numbers with an even sum of digits are 123, 125, 134, 145, 235, 345. Each selection can form 6 different three-digit numbers, so there are 6 × 6 = 36 different three-digit numbers.",
     "attribution": "2017年第16届湖北武汉创新杯小学高年级五年级竞赛邀请赛训练题（一）"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "由数字1、2、3、4、5组成没有重复数字的五位数，由小到大排列，则35214是第____个数。",
-    "text_en": "由数字1、2、3、4、5组成没有重复数字的五位数，由小到大排列，则35214是第____个数。",
+    "text_en": "Form five-digit numbers without repeated digits using the digits 1, 2, 3, 4, 5, arranged from smallest to largest. Then 35214 is the ____ number.",
     "illustration": null,
     "choices": [
       {
@@ -1860,19 +1860,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "比35214小的五位数（由数字1、2、3、4、5组成的没有重复数字的五位数）有以下三类： （I）以1或2开头的五位数：形如12345的有4 × 3 × 2 × 1 = 24（个）；如21345的有4 × 3 × 2 × 1 = 24（个）； （II）以31、32或34开头的五位数：形如31245的有3 × 2 × 1 = 6（个）；同理，形如32145，34512的各有6个； （III）以351开头的五位数有2 × 1 = 2（个）。 所以35214是第24 × 2 + 6 × 3 + 2 + 1 = 69（个）数。",
-    "explanation_en": "比35214小的五位数（由数字1、2、3、4、5组成的没有重复数字的五位数）有以下三类： （I）以1或2开头的五位数：形如12345的有4 × 3 × 2 × 1 = 24（个）；如21345的有4 × 3 × 2 × 1 = 24（个）； （II）以31、32或34开头的五位数：形如31245的有3 × 2 × 1 = 6（个）；同理，形如32145，34512的各有6个； （III）以351开头的五位数有2 × 1 = 2（个）。 所以35214是第24 × 2 + 6 × 3 + 2 + 1 = 69（个）数。",
+    "explanation_en": "Five-digit numbers smaller than 35214 (formed by digits 1, 2, 3, 4, 5 without repeated digits) fall into the following three categories: (I) Five-digit numbers starting with 1 or 2: like 12345, there are 4 × 3 × 2 × 1 = 24; like 21345, there are 4 × 3 × 2 × 1 = 24; (II) Five-digit numbers starting with 31, 32, or 34: like 31245, there are...",
     "attribution": "2009年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "从1到50这五十个自然数中，取两个不同的数相加，要使它们的和大于50，共有____种不同的取法。",
-    "text_en": "从1到50这五十个自然数中，取两个不同的数相加，要使它们的和大于50，共有____种不同的取法。",
+    "text_en": "From the fifty natural numbers 1 to 50, choose two different numbers and add them together. To make their sum greater than 50, there are ____ different ways to choose.",
     "illustration": null,
     "choices": [
       {
         "zh": "725",
-        "en": "725"
+        "en": "625"
       },
       {
         "zh": "560",
@@ -1889,19 +1889,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "两个数中小的数为1，有(1，50)，1种取法； 同理，小的数为2，有(2，50)，(2，49)，2种取法； 小的数为3，有(3，50)，(3，49)，(3，48)，3种取法； ·s·s 小的数为25，有(25，50)，(26，50)，·s，(25，26)，25种取法； 小的数为26，有(26，50)，(26，49)，·s，(26，27)，24种取法； ·s·s 小的数为49，有(49，50)，1种取法。",
-    "explanation_en": "两个数中小的数为1，有(1，50)，1种取法； 同理，小的数为2，有(2，50)，(2，49)，2种取法； 小的数为3，有(3，50)，(3，49)，(3，48)，3种取法； ·s·s 小的数为25，有(25，50)，(26，50)，·s，(25，26)，25种取法； 小的数为26，有(26，50)，(26，49)，·s，(26，27)，24种取法； ·s·s 小的数为49，有(49，50)，1种取法。",
+    "explanation_en": "When the smaller number is 1, there is (1, 50), 1 way; Similarly, when the smaller number is 2, there are (2, 50), (2, 49), 2 ways; When the smaller number is 3, there are (3, 50), (3, 49), (3, 48), 3 ways; ... When the smaller number is 25, there are (25, 50), (26, 50), ..., (25, 26), 25 ways; When the smaller number is 26, there are (26, 50)...",
     "attribution": "2008年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "某十字路口的交通信号灯，黄灯亮3秒，绿灯亮9秒，红灯亮24秒，那么某一时刻亮绿灯的可能性为____．",
-    "text_en": "某十字路口的交通信号灯，黄灯亮3秒，绿灯亮9秒，红灯亮24秒，那么某一时刻亮绿灯的可能性为____．",
+    "text_en": "At a certain intersection, the traffic light: yellow light is on for 3 seconds, green light is on for 9 seconds, red light is on for 24 seconds. Then the probability of the green light being on at a certain moment is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "9",
-        "en": "9"
+        "en": "1/4"
       },
       {
         "zh": "2/3",
@@ -1918,19 +1918,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "亮绿灯的可能性为：9 ÷ (3 + 9 + 24) = 1/4",
-    "explanation_en": "亮绿灯的可能性为：9 ÷ (3 + 9 + 24) = 1/4",
+    "explanation_en": "The probability of the green light being on is: 9 ÷ (3 + 9 + 24) = 1/4.",
     "attribution": "2012年第8届全国新希望杯五年级竞赛复赛第2题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "有3名医生、3名护士被分配到3所小学为学生体检，每所学校1名医生、1名护士。 共有种不同的____分配方法．",
-    "text_en": "有3名医生、3名护士被分配到3所小学为学生体检，每所学校1名医生、1名护士。 共有种不同的____分配方法．",
+    "text_en": "3 doctors and 3 nurses are assigned to 3 primary schools to conduct physical examinations for students. Each school gets 1 doctor and 1 nurse. There are ____ different assignment methods in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "18",
-        "en": "18"
+        "en": "36"
       },
       {
         "zh": "9",
@@ -1947,19 +1947,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "设三所学校为A校，B校和C校，先考虑3名医生分配方法：第一名医生有3种分配方法；第二名有2种分配方法，第三名有1种分配方法，所以有3 × 2 × 1 = 6（种）分配方法。同理，3名护士也有6种分配方法。因此，共有6 × 6 = 36（种）不同的分配方法。",
-    "explanation_en": "设三所学校为A校，B校和C校，先考虑3名医生分配方法：第一名医生有3种分配方法；第二名有2种分配方法，第三名有1种分配方法，所以有3 × 2 × 1 = 6（种）分配方法。同理，3名护士也有6种分配方法。因此，共有6 × 6 = 36（种）不同的分配方法。",
+    "explanation_en": "Let the three schools be School A, School B, and School C. First consider the assignment methods for 3 doctors: the first doctor has 3 assignment methods; the second has 2 assignment methods, the third has 1 assignment method, so there are 3 × 2 × 1 = 6 assignment methods. Similarly, 3 nurses also have 6 assignment methods. Therefore, there are a total of 6 × 6 = 36 different assignment methods.",
     "attribution": "2007年第5届创新杯五年级竞赛第3题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "某班共有48人，其中27人会游泳，33人会骑自行车，40人会乒乓球．那么，这个班至少有____个学生这三项运动都会．",
-    "text_en": "某班共有48人，其中27人会游泳，33人会骑自行车，40人会乒乓球．那么，这个班至少有____个学生这三项运动都会．",
+    "text_en": "A class has a total of 48 students, of which 27 can swim, 33 can ride a bicycle, and 40 can play table tennis. Then, this class has at least ____ students who can do all three sports.",
     "illustration": null,
     "choices": [
       {
         "zh": "5",
-        "en": "5"
+        "en": "4"
       },
       {
         "zh": "6",
@@ -1976,19 +1976,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "让三项都会的人最少，即让所有人都只会两项，则一共会48 × 2 = 96项，二十几会27 + 33 + 40 = 100项，即至少有100 - 96 = 4人会三项． 构造如下：8人会游泳 + 自行车；15人会游泳 + 乒乓球；21人会自行车 + 乒乓球；4人全会．",
-    "explanation_en": "让三项都会的人最少，即让所有人都只会两项，则一共会48 × 2 = 96项，二十几会27 + 33 + 40 = 100项，即至少有100 - 96 = 4人会三项． 构造如下：8人会游泳 + 自行车；15人会游泳 + 乒乓球；21人会自行车 + 乒乓球；4人全会．",
+    "explanation_en": "To minimize the number of people who can do all three, let everyone only know two skills, then they can do a total of 48 × 2 = 96 skills. The total is 27 + 33 + 40 = 100 skills. So at least 100 - 96 = 4 people can do all three. Construction as follows: 8 people can swim + ride a bicycle; 15 people can swim + play table tennis; 21 people can ride a bicycle + play table tennis; 4 people can do all three.",
     "attribution": "2016年创新杯小学高年级五年级竞赛训练题（四）第4题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "五名选手在一次数学竞赛中共得404分，每人得分互不相同，并且其中得分最高为90分，那么得分最低的选手至少得____分.",
-    "text_en": "五名选手在一次数学竞赛中共得404分，每人得分互不相同，并且其中得分最高为90分，那么得分最低的选手至少得____分.",
+    "text_en": "Five players scored a total of 404 points in a math competition. Each person's score is different, and the highest score is 90 points. Then the player with the lowest score scored at least ____ points.",
     "illustration": null,
     "choices": [
       {
         "zh": "45",
-        "en": "45"
+        "en": "50"
       },
       {
         "zh": "50",
@@ -2005,14 +2005,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "要使某选手得分最低，其他选手得分必须尽可能的高，又知每人得分互不相同，所以前四名选手得分依次为90，89，88，87，因此，得出得分最低的选手至少得404 - (90 + 89 + 88 + 87) = 50分",
-    "explanation_en": "要使某选手得分最低，其他选手得分必须尽可能的高，又知每人得分互不相同，所以前四名选手得分依次为90，89，88，87，因此，得出得分最低的选手至少得404 - (90 + 89 + 88 + 87) = 50分",
+    "explanation_en": "To minimize one player's score, the other players' scores must be as high as possible. Since each person's score is different, the top four players scored 90, 89, 88, 87 respectively. Therefore, the player with the lowest score scored at least 404 - (90 + 89 + 88 + 87) = 50 points.",
     "attribution": "2006年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "有1克、2克、4克、8克的砝码各一个，从这4个砝码中每次任选2个使用，能称出____种不同的重量。（砝码也可以放在天平的两边）",
-    "text_en": "有1克、2克、4克、8克的砝码各一个，从这4个砝码中每次任选2个使用，能称出____种不同的重量。（砝码也可以放在天平的两边）",
+    "text_en": "There is one weight each of 1g, 2g, 4g, and 8g. Choose 2 weights to use each time. How many different weights can be measured? (Weights can also be placed on both sides of the balance)",
     "illustration": null,
     "choices": [
       {
@@ -2034,19 +2034,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "从1、2、4、8克中任取两个，其和为3、5、9、6、10、12克，从1、2、4、8克任取两个，大的减去小的，其差为1、3、7、2、6、4克，又因为和与差中的3克、6克重复，所以可称出6 + 6 - 2 = 10（种）不同的重量。",
-    "explanation_en": "从1、2、4、8克中任取两个，其和为3、5、9、6、10、12克，从1、2、4、8克任取两个，大的减去小的，其差为1、3、7、2、6、4克，又因为和与差中的3克、6克重复，所以可称出6 + 6 - 2 = 10（种）不同的重量。",
+    "explanation_en": "Choose any two from 1, 2, 4, 8g, their sums are 3, 5, 9, 6, 10, 12g. Choose any two from 1, 2, 4, 8g, the larger minus the smaller, their differences are 1, 3, 7, 2, 6, 4g. Since 3g and 6g in the sums and differences are repeated, a total of 6 + 6 - 2 = 10 different weights can be measured.",
     "attribution": "2008年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "有一列数，第1个数是22，第2个数是12，从第3个开始，每个数是它前面两个数的平均数，这列数的第10个数的整数部____分为．",
-    "text_en": "有一列数，第1个数是22，第2个数是12，从第3个开始，每个数是它前面两个数的平均数，这列数的第10个数的整数部____分为．",
+    "text_en": "There is a sequence of numbers. The first number is 22, the second number is 12. Starting from the third number, each number is the average of the two numbers before it. The integer part of the 10th number in this sequence is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "13",
-        "en": "13"
+        "en": "15"
       },
       {
         "zh": "14",
@@ -2063,19 +2063,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "第3个数为17，第4个数为14.5，第5个数为15.75，第6个数为15.125· · · · · · 整数部分一直都是15，所以第10个数的整数部分为15．",
-    "explanation_en": "第3个数为17，第4个数为14.5，第5个数为15.75，第6个数为15.125· · · · · · 整数部分一直都是15，所以第10个数的整数部分为15．",
+    "explanation_en": "The 3rd number is 17, the 4th number is 14.5, the 5th number is 15.75, the 6th number is 15.125... The integer part is always 15, so the integer part of the 10th number is 15.",
     "attribution": "2013年第11届全国创新杯小学高年级五年级竞赛第2题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "给一个正方体的表面涂上红、黄、蓝三种颜色，每个面只涂一种颜色，任意抛一次，红色朝上的可能性最大．黄色和蓝色朝上的可能性相同，这个正方体可能有个____面涂红色．",
-    "text_en": "给一个正方体的表面涂上红、黄、蓝三种颜色，每个面只涂一种颜色，任意抛一次，红色朝上的可能性最大．黄色和蓝色朝上的可能性相同，这个正方体可能有个____面涂红色．",
+    "text_en": "Paint the surface of a cube with red, yellow, and blue colors. Each face is painted with only one color. When tossed once, the probability of red facing up is the greatest. The probability of yellow and blue facing up is the same. This cube may have ____ faces painted red.",
     "illustration": null,
     "choices": [
       {
         "zh": "1",
-        "en": "1"
+        "en": "4"
       },
       {
         "zh": "2",
@@ -2092,19 +2092,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "在正方体的六个面，分别涂上红、黄、蓝三种颜色，要使哪种颜色朝上的可能性大，必须使这种颜色涂的面数多；要使两种颜色面朝上的可能性相同，就必须使这两种颜色的数量相同；正方体有6个面，要使黄色和蓝色朝上的可能性相同，可以把一个面涂成红色，一个面涂成蓝色，剩下的面都涂成红色，据此分析解答． 6 - 1 - 1 = 4． 故答案选：D．",
-    "explanation_en": "在正方体的六个面，分别涂上红、黄、蓝三种颜色，要使哪种颜色朝上的可能性大，必须使这种颜色涂的面数多；要使两种颜色面朝上的可能性相同，就必须使这两种颜色的数量相同；正方体有6个面，要使黄色和蓝色朝上的可能性相同，可以把一个面涂成红色，一个面涂成蓝色，剩下的面都涂成红色，据此分析解答． 6 - 1 - 1 = 4． 故答案选：D．",
+    "explanation_en": "On the six faces of the cube, paint red, yellow, and blue colors respectively. To make the probability of a certain color facing up greater, more faces must be painted with that color; to make the probability of two colors facing up the same, the number of faces painted with those two colors must be the same; the cube has 6 faces. To make the probability of yellow and blue facing up the same, one face can be painted yellow, one face painted blue, and the remaining faces painted red. Analyzing and solving: 6 - 1 - ...",
     "attribution": "2017年全国小学生数学学习能力测评五年级竞赛初赛第7题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "天气炎热，四(1)班的班长小明要去给全班23人（包括自己）买饮料，商店老板告诉他现在只有可乐，雪碧和王老吉三种饮料了，那么其中买得最多的饮料于少需要买____瓶．",
-    "text_en": "天气炎热，四(1)班的班长小明要去给全班23人（包括自己）买饮料，商店老板告诉他现在只有可乐，雪碧和王老吉三种饮料了，那么其中买得最多的饮料于少需要买____瓶．",
+    "text_en": "The weather is hot. The class monitor Xiao Ming of Class 1, Grade 4 is going to buy drinks for the whole class of 23 people (including himself). The shop owner tells him that now there are only three kinds of drinks: cola, sprite, and Wang Lao Ji. Then the drink that is bought the most needs to buy at least ____ bottles.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "8"
       },
       {
         "zh": "9",
@@ -2121,19 +2121,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "23 ÷ 3 = 7… … 2，7 + 1 = 8（瓶）.",
-    "explanation_en": "23 ÷ 3 = 7… … 2，7 + 1 = 8（瓶）.",
+    "explanation_en": "23 ÷ 3 = 7 remainder 2. 7 + 1 = 8 bottles.",
     "attribution": "2017年第16届湖北武汉创新杯小学高年级五年级竞赛邀请赛训练题（二）"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "国际数学奥林匹克每天考3道题，每题的评分是0，1，2，3，4，5，6或7．有一群学生每人得分的乘积都是36，而且任意两人各题得分不完全相同，那么这群学生最多有____人．",
-    "text_en": "国际数学奥林匹克每天考3道题，每题的评分是0，1，2，3，4，5，6或7．有一群学生每人得分的乘积都是36，而且任意两人各题得分不完全相同，那么这群学生最多有____人．",
+    "text_en": "The International Mathematical Olympiad tests 3 problems every day. The score for each problem is 0, 1, 2, 3, 4, 5, 6, or 7. A group of students each have a product of scores equal to 36, and any two students do not have exactly the same scores for each problem. Then this group of students has at most ____ people.",
     "illustration": null,
     "choices": [
       {
         "zh": "16",
-        "en": "16"
+        "en": "12"
       },
       {
         "zh": "12",
@@ -2150,19 +2150,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "36 = 2 × 3 × 6，A₃³ = 6，有6种 36 = 3 × 3 × 4，有3种 36 = 1 × 6 × 6，有3种 共6 + 3 + 3 = 12种不同的得分，最多有12人．",
-    "explanation_en": "36 = 2 × 3 × 6，A₃³ = 6，有6种 36 = 3 × 3 × 4，有3种 36 = 1 × 6 × 6，有3种 共6 + 3 + 3 = 12种不同的得分，最多有12人．",
+    "explanation_en": "36 = 2 × 3 × 6, A₃³ = 6, there are 6 ways. 36 = 3 × 3 × 4, there are 3 ways. 36 = 1 × 6 × 6, there are 3 ways. A total of 6 + 3 + 3 = 12 different scores, at most 12 people.",
     "attribution": "2014年全国创新杯小学高年级五年级竞赛5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "小红的爸爸计划这个星期天带小红到东湖或黄鹤楼或中山公园或古琴台去玩，小军的爸爸也有同样的打算，如果到四个地方去玩的可能性相同，那么小红和小军星期天到同一地方玩的机会有____。",
-    "text_en": "小红的爸爸计划这个星期天带小红到东湖或黄鹤楼或中山公园或古琴台去玩，小军的爸爸也有同样的打算，如果到四个地方去玩的可能性相同，那么小红和小军星期天到同一地方玩的机会有____。",
+    "text_en": "Xiao Hong's father plans to take Xiao Hong to play at East Lake, Yellow Crane Tower, Zhongshan Park, or Guqintai this Sunday. Xiao Jun's father also has the same plan. If the probability of going to the four places is the same, then the chance of Xiao Hong and Xiao Jun playing at the same place on Sunday is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "0.50",
-        "en": "0.50"
+        "en": "0.25"
       },
       {
         "zh": "0.125",
@@ -2179,19 +2179,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "小红、小军星期天到四个地方（东湖、黄鹤楼、中山公园或古琴台）去玩，共有4 × 4 = 16种情况，他们碰巧到同一地方玩，只有4种情况，因此，小红与小军星期天到同一地方玩的机会有4 ÷ 16 = 0.25。",
-    "explanation_en": "小红、小军星期天到四个地方（东湖、黄鹤楼、中山公园或古琴台）去玩，共有4 × 4 = 16种情况，他们碰巧到同一地方玩，只有4种情况，因此，小红与小军星期天到同一地方玩的机会有4 ÷ 16 = 0.25。",
+    "explanation_en": "Xiao Hong and Xiao Jun playing at the four places (East Lake, Yellow Crane Tower, Zhongshan Park, or Guqintai) on Sunday has a total of 4 × 4 = 16 situations. They happen to play at the same place, there are only 4 situations. Therefore, the chance of Xiao Hong and Xiao Jun playing at the same place on Sunday is 4 ÷ 16 = 0.25.",
     "attribution": "2009年五年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一个盒子里有黑棋子和白棋子若干粒，若取出一粒黑子，则余下的黑子数与白子数之比为9：7，若放回黑子，再取出一粒白子，则余下的黑子数与白子数之比为7：5，那么盒子里原有黑子数比白子数多____个．",
-    "text_en": "一个盒子里有黑棋子和白棋子若干粒，若取出一粒黑子，则余下的黑子数与白子数之比为9：7，若放回黑子，再取出一粒白子，则余下的黑子数与白子数之比为7：5，那么盒子里原有黑子数比白子数多____个．",
+    "text_en": "There are some black and white chess pieces in a box. If one black piece is taken out, the ratio of the remaining black pieces to white pieces is 9:7. If the black piece is put back and one white piece is taken out, the ratio of the remaining black pieces to white pieces is 7:5. Then the number of black pieces in the box is ____ more than the number of white pieces.",
     "illustration": null,
     "choices": [
       {
         "zh": "5",
-        "en": "5"
+        "en": "7"
       },
       {
         "zh": "6",
@@ -2208,19 +2208,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "方法一： 取出一粒黑子，总数少一粒棋子，黑子数占全部的9/16，取出一粒白子，总数少一粒棋子，黑子数占全部的7/12，1 ÷ (7/12 - 9/16) = 48（粒）盒子里原有黑子数比白子数多48 × (9/16 - 7/16) + 1 = 7（粒） 方法二：方程法 设白棋有7x粒，黑棋有9x + 1粒，列方程为7x - 1/9x + 1 = 7/5；x = 3，白棋有21粒，黑棋有28粒，盒子里原有黑子数比白子数多28 - 21 = 7（粒）．",
-    "explanation_en": "方法一： 取出一粒黑子，总数少一粒棋子，黑子数占全部的9/16，取出一粒白子，总数少一粒棋子，黑子数占全部的7/12，1 ÷ (7/12 - 9/16) = 48（粒）盒子里原有黑子数比白子数多48 × (9/16 - 7/16) + 1 = 7（粒） 方法二：方程法 设白棋有7x粒，黑棋有9x + 1粒，列方程为7x - 1/9x + 1 = 7/5；x = 3，白棋有21粒，黑棋有28粒，盒子里原有黑子数比白子数多28 - 21 = 7（粒）．",
+    "explanation_en": "Method 1: Take out one black piece, the total number of pieces decreases by one, the number of black pieces accounts for 9/16 of the total. Take out one white piece, the total number of pieces decreases by one, the number of black pieces accounts for 7/12 of the total. 1 ÷ (7/12 - 9/16) = 48 pieces. The number of black pieces in the box is 48 × (9/16 - 7/16) + 1 = 7 more than the number of white pieces. Method 2: Equation method. Let there be 7x white pieces and 9x+... black pieces.",
     "attribution": "2019年第24届YMO五年级竞赛决赛第8题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "在桌子上有三个盖着盖子的盒子，其中一个盒子内有两粒绿豆，第二个盒子内有两粒红豆，另一个盒子内有一粒绿豆和一粒红豆，三个盒子盖子上分别写着\"红豆\"，\"红、绿豆\"和\"绿豆\"，但是所有标签都标错了．最少____就能判断出所有盒子内各装着什么豆子．",
-    "text_en": "在桌子上有三个盖着盖子的盒子，其中一个盒子内有两粒绿豆，第二个盒子内有两粒红豆，另一个盒子内有一粒绿豆和一粒红豆，三个盒子盖子上分别写着\"红豆\"，\"红、绿豆\"和\"绿豆\"，但是所有标签都标错了．最少____就能判断出所有盒子内各装着什么豆子．",
+    "text_en": "There are three boxes with lids on the table. One box contains two green beans, the second box contains two red beans, and the other box contains one green bean and one red bean. The lids of the three boxes are labeled 'red beans', 'red and green beans', and 'green beans' respectively, but all labels are wrong. At least ____ can determine what beans are in each box.",
     "illustration": null,
     "choices": [
       {
         "zh": "从一个盒子取两粒豆子",
-        "en": "从一个盒子取两粒豆子"
+        "en": "Take one bean from one box"
       },
       {
         "zh": "从一个盒子取一粒豆子",
@@ -2237,14 +2237,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为都错了．从标有\"红、绿豆\"的盒子中随便取出一个即可，假如取出来的是一颗红豆，则\"红、绿\"中都是红，剩下的盒子中，标有\"红豆\"的盒子肯定是绿豆，标有\"绿豆\"的肯定是\"红绿豆\"，所以最少从1个盒子从取出一粒豆子就可以判断出来",
-    "explanation_en": "因为都错了．从标有\"红、绿豆\"的盒子中随便取出一个即可，假如取出来的是一颗红豆，则\"红、绿\"中都是红，剩下的盒子中，标有\"红豆\"的盒子肯定是绿豆，标有\"绿豆\"的肯定是\"红绿豆\"，所以最少从1个盒子从取出一粒豆子就可以判断出来",
+    "explanation_en": "Because all are wrong. Just take one out randomly from the box labeled 'red and green beans'. If the one taken out is a red bean, then 'red and green' are all red. Among the remaining boxes, the box labeled 'red beans' must be green beans, and the box labeled 'green beans' must be 'red and green beans'. So at least taking out one bean from one box can determine...",
     "attribution": "2017年第17届湖北武汉世奥赛五年级竞赛决赛第14题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "有7个相同的小球放入4个不同的盒子中，每个盒子中至少放一个球，则共有____种不同的放法.",
-    "text_en": "有7个相同的小球放入4个不同的盒子中，每个盒子中至少放一个球，则共有____种不同的放法.",
+    "text_en": "Put 7 identical small balls into 4 different boxes, with at least one ball in each box. Then there are ____ different ways to place them.",
     "illustration": null,
     "choices": [
       {
@@ -2266,19 +2266,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "7 = 1 + 1 + 1 + 4有4种放法. 7 = 1 + 1 + 2 + 3有12种放法. 7 = 2 + 2 + 2 + 1有4种放法. 共有4 + 12 + 4 = 20种不同的放法.",
-    "explanation_en": "7 = 1 + 1 + 1 + 4有4种放法. 7 = 1 + 1 + 2 + 3有12种放法. 7 = 2 + 2 + 2 + 1有4种放法. 共有4 + 12 + 4 = 20种不同的放法.",
+    "explanation_en": "7 = 1 + 1 + 1 + 4, there are 4 ways. 7 = 1 + 1 + 2 + 3, there are 12 ways. 7 = 2 + 2 + 2 + 1, there are 4 ways. There are a total of 4 + 12 + 4 = 20 different ways.",
     "attribution": "2006年第4届创新杯五年级竞赛复赛第8题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "1角硬币分正面与反面．拿2个1角硬币一起投掷一次，得到一个正面和一个反____面的可能性为．",
-    "text_en": "1角硬币分正面与反面．拿2个1角硬币一起投掷一次，得到一个正面和一个反____面的可能性为．",
+    "text_en": "A 1-jiao coin has a front and a back. Toss two 1-jiao coins together once. The probability of getting one front and one back is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1/8",
-        "en": "1/8"
+        "en": "1/2"
       },
       {
         "zh": "1/2",
@@ -2295,19 +2295,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "全部情况有：2 × 2 = 4（种）， 最终得到一个正面一个反面可有以下2种情况： 正反、反正， 故所求概率为2/4． 故答案为：B．",
-    "explanation_en": "全部情况有：2 × 2 = 4（种）， 最终得到一个正面一个反面可有以下2种情况： 正反、反正， 故所求概率为2/4． 故答案为：B．",
+    "explanation_en": "All situations: 2 × 2 = 4 kinds. Getting one front and one back can have the following 2 situations: front-back, back-front. So the required probability is 2/4. Answer: B.",
     "attribution": "2016年全国小学生数学学习能力测评五年级竞赛初赛第8题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "1角硬币分正面与反面．拿三个1角硬币一起投掷一次，得到两个正面和一个反____面的可能性为．",
-    "text_en": "1角硬币分正面与反面．拿三个1角硬币一起投掷一次，得到两个正面和一个反____面的可能性为．",
+    "text_en": "A 1-jiao coin has a front and a back. Toss three 1-jiao coins together once. The probability of getting two fronts and one back is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1/4",
-        "en": "1/4"
+        "en": "3/8"
       },
       {
         "zh": "5/8",
@@ -2324,19 +2324,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "全部情况有：2 × 2 × 2 = 8（种）， 最终得到两个正面一个反面可有以下三种情况： 正正反、正反正、反正正， 故所求概率为3/8． 故答案为：C．",
-    "explanation_en": "全部情况有：2 × 2 × 2 = 8（种）， 最终得到两个正面一个反面可有以下三种情况： 正正反、正反正、反正正， 故所求概率为3/8． 故答案为：C．",
+    "explanation_en": "All situations: 2 × 2 × 2 = 8 kinds. Getting two fronts and one back can have the following three situations: front-front-back, front-back-front, back-front-front. So the required probability is 3/8. Answer: C.",
     "attribution": "2016年全国小学生数学学习能力测评五年级竞赛初赛第8题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "1角硬币分正面与反面．拿2个1角硬币一起投掷一次，得到1个正面和一个反____面的可能性为．",
-    "text_en": "1角硬币分正面与反面．拿2个1角硬币一起投掷一次，得到1个正面和一个反____面的可能性为．",
+    "text_en": "A 1-jiao coin has a front and a back. Toss two 1-jiao coins together once. The probability of getting 1 front and 1 back is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1/8",
-        "en": "1/8"
+        "en": "1/2"
       },
       {
         "zh": "3/8",
@@ -2353,14 +2353,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "全部情况有：2 × 2 = 4（种）， 最终得到一个正面一个反面可有以下2种情况： 正反、反正， 故所求概率为2/4． 故答案为：B．",
-    "explanation_en": "全部情况有：2 × 2 = 4（种）， 最终得到一个正面一个反面可有以下2种情况： 正反、反正， 故所求概率为2/4． 故答案为：B．",
+    "explanation_en": "All situations: 2 × 2 = 4 kinds. Getting one front and one back can have the following 2 situations: front-back, back-front. So the required probability is 2/4. Answer: B.",
     "attribution": "2016年全国小学生数学学习能力测评五年级竞赛初赛第8题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "某射手在百步之外射箭恰好射到靶心的概率为40%，如果该射手在百步之外连射三箭，有一箭射中靶心的概率为.",
-    "text_en": "某射手在百步之外射箭恰好射到靶心的概率为40%，如果该射手在百步之外连射三箭，有一箭射中靶心的概率为.",
+    "text_en": "An archer's probability of hitting the bullseye from 100 steps away is 40%. If the archer shoots three arrows in a row from 100 steps away, the probability of exactly one arrow hitting the bullseye is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2382,19 +2382,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "第一箭射中，其他两箭射空的概率为0.4 × (1 - 0.4) × (1 - 0.4) = 0.144． 第二箭射中，其他两箭射空的概率为0.4 × (1 - 0.4) × (1 - 0.4) = 0.144． 第三箭射中，其他两箭射空的概率为0.4 × (1 - 0.4) × (1 - 0.4) = 0.144． 有一箭射中的概率为0.144 + 0.144 + 0.144 = 0.432．",
-    "explanation_en": "第一箭射中，其他两箭射空的概率为0.4 × (1 - 0.4) × (1 - 0.4) = 0.144． 第二箭射中，其他两箭射空的概率为0.4 × (1 - 0.4) × (1 - 0.4) = 0.144． 第三箭射中，其他两箭射空的概率为0.4 × (1 - 0.4) × (1 - 0.4) = 0.144． 有一箭射中的概率为0.144 + 0.144 + 0.144 = 0.432．",
+    "explanation_en": "The probability of the first arrow hitting and the other two missing is 0.4 × (1-0.4) × (1-0.4) = 0.144. The probability of the second arrow hitting and the other two missing is 0.4 × (1-0.4) × (1-0.4) = 0.144. The probability of the third arrow hitting and the other two missing is 0.4 × (1-0.4) × (1-0.4)...",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "某射手在百步之外射箭恰好射到靶心的概率为40%，如果该射手在百步之外连射三箭，有两箭射中靶心的概率为.",
-    "text_en": "某射手在百步之外射箭恰好射到靶心的概率为40%，如果该射手在百步之外连射三箭，有两箭射中靶心的概率为.",
+    "text_en": "An archer's probability of hitting the bullseye from 100 steps away is 40%. If the archer shoots three arrows in a row from 100 steps away, the probability of exactly two arrows hitting the bullseye is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "0.216",
-        "en": "0.216"
+        "en": "0.288"
       },
       {
         "zh": "0.144",
@@ -2411,14 +2411,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "第一箭射空，其他两箭射中的概率为(1 - 0.4) × 0.4 × 0.4 = 0.096． 第二箭射空，其他两箭射中的概率为(1 - 0.4) × 0.4 × 0.4 = 0.096． 第三箭射空，其他两箭射中的概率为(1 - 0.4) × 0.4 × 0.4 = 0.096． 有两箭射空的概率为0.96 + 0.96 + 0.96 = 0.288．",
-    "explanation_en": "第一箭射空，其他两箭射中的概率为(1 - 0.4) × 0.4 × 0.4 = 0.096． 第二箭射空，其他两箭射中的概率为(1 - 0.4) × 0.4 × 0.4 = 0.096． 第三箭射空，其他两箭射中的概率为(1 - 0.4) × 0.4 × 0.4 = 0.096． 有两箭射空的概率为0.96 + 0.96 + 0.96 = 0.288．",
+    "explanation_en": "The probability of the first arrow missing and the other two hitting is (1-0.4) × 0.4 × 0.4 = 0.096. The probability of the second arrow missing and the other two hitting is (1-0.4) × 0.4 × 0.4 = 0.096. The probability of the third arrow missing and the other two hitting is (1-0.4) × 0.4 × 0.4 = 0.096. The probability of two arrows missing is...",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "某射手在百步之外射箭恰好射到靶心的概率为40%，如果该射手在百步之外连射三箭，三箭全部射中靶心的概率为.",
-    "text_en": "某射手在百步之外射箭恰好射到靶心的概率为40%，如果该射手在百步之外连射三箭，三箭全部射中靶心的概率为.",
+    "text_en": "An archer's probability of hitting the bullseye from 100 steps away is 40%. If the archer shoots three arrows in a row from 100 steps away, the probability of all three arrows hitting the bullseye is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2440,19 +2440,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "全部射中靶心的概率为0.4 × 0.4 × 0.4 = 0.064．",
-    "explanation_en": "全部射中靶心的概率为0.4 × 0.4 × 0.4 = 0.064．",
+    "explanation_en": "The probability of all hitting the bullseye is 0.4 × 0.4 × 0.4 = 0.064.",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "4个人聚会，每人各带2件礼品，分赠给其余3个人中的2人．则：至少有2对人，每对____人是互赠过礼品的．",
-    "text_en": "4个人聚会，每人各带2件礼品，分赠给其余3个人中的2人．则：至少有2对人，每对____人是互赠过礼品的．",
+    "text_en": "4 people gather, each bringing 2 gifts to give to 2 of the other 3 people. Then: there are at least 2 pairs of people, and each pair ____ has given gifts to each other.",
     "illustration": null,
     "choices": [
       {
         "zh": "对",
-        "en": "对"
+        "en": "Correct"
       },
       {
         "zh": "不对",
@@ -2461,19 +2461,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "将这四个人用4个点表示，如果两个人之间送过礼，就在两点之间连一条线． 由于每人送出2件礼物，图中共有4 × 2 = 8条线，由于每人礼品都分赠给2个人，所以每两点之间至多有1 + 1 = 2条线．四点间，每两点连一条线，一共6条线，现在有8条线，说明必有两点之间连了2条线，还有另外两点（有一点可以与前面的点相同）之间也连了2条线． 即为所证结论．",
-    "explanation_en": "将这四个人用4个点表示，如果两个人之间送过礼，就在两点之间连一条线． 由于每人送出2件礼物，图中共有4 × 2 = 8条线，由于每人礼品都分赠给2个人，所以每两点之间至多有1 + 1 = 2条线．四点间，每两点连一条线，一共6条线，现在有8条线，说明必有两点之间连了2条线，还有另外两点（有一点可以与前面的点相同）之间也连了2条线． 即为所证结论．",
+    "explanation_en": "Represent these four people with 4 points. If two people have given gifts to each other, connect a line between the two points. Since each person gives out 2 gifts, there are 4 × 2 = 8 lines in the graph. Since each person's gifts are given to 2 people, there are at most 1 + 1 = 2 lines between each pair of points. Between four points, connecting one line between each pair gives 6 lines. Now there are 8 lines, indicating that there must be 2 lines between two points, and there are another two points (one point can be...",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "红星小学礼堂共24排座位，每排30座位，全校650人到礼堂开会，那么，至少有____排座位上坐的人数相同.",
-    "text_en": "红星小学礼堂共24排座位，每排30座位，全校650人到礼堂开会，那么，至少有____排座位上坐的人数相同.",
+    "text_en": "The lecture hall of Hongxing Primary School has 24 rows of seats, with 30 seats in each row. 650 people from the whole school come to the lecture hall for a meeting. Then, at least ____ rows have the same number of people sitting.",
     "illustration": null,
     "choices": [
       {
         "zh": "3",
-        "en": "3"
+        "en": "4"
       },
       {
         "zh": "4",
@@ -2490,19 +2490,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "每一排坐的人数都不同最多可坐(7 + 30) ÷ 2 × 24 = 444人 每一排坐的人数有2个相同最多可坐30 × 2 + 29 × 2 + ...... + 19 × 2 = 588 650 每一排坐的人数有3个相同最多可坐30 × 3 + 29 × 3 + ...... + 23 × 3 = 636 650 每一排坐的人数有4个相同最多可坐30 × 4 + 29 × 4 + ...... + 25 × 4 = 660650 故，至少有4排座位上人数相同",
-    "explanation_en": "每一排坐的人数都不同最多可坐(7 + 30) ÷ 2 × 24 = 444人 每一排坐的人数有2个相同最多可坐30 × 2 + 29 × 2 + ...... + 19 × 2 = 588 650 每一排坐的人数有3个相同最多可坐30 × 3 + 29 × 3 + ...... + 23 × 3 = 636 650 每一排坐的人数有4个相同最多可坐30 × 4 + 29 × 4 + ...... + 25 × 4 = 660650 故，至少有4排座位上人数相同",
+    "explanation_en": "If each row has a different number of people, the maximum that can be seated is (7 + 30) ÷ 2 × 24 = 444 people. If 2 rows have the same number of people, the maximum that can be seated is 30 × 2 + 29 × 2 + ...... + 19 × 2 = 588. 650. If 3 rows have the same number of people, the maximum that can be seated is 30 × 3 + 29 × 3 + ...... + 23 × 3 =...",
     "attribution": "2006年第4届创新杯五年级竞赛初赛B卷第10题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在比武大会上，熊猫阿宝和金猴两人进行比试，最多七局，谁先获得四局胜利，谁就是胜者，那么一共有____种可能的比试情况．",
-    "text_en": "在比武大会上，熊猫阿宝和金猴两人进行比试，最多七局，谁先获得四局胜利，谁就是胜者，那么一共有____种可能的比试情况．",
+    "text_en": "In the martial arts competition, Panda Abao and Golden Monkey compete, with a maximum of seven rounds. Whoever wins four rounds first is the winner. Then there are ____ possible match situations in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "40",
-        "en": "40"
+        "en": "70"
       },
       {
         "zh": "70",
@@ -2523,19 +2523,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "假设阿宝胜，有发以下几种获胜情况（用\" + \"表示胜\" - \"表示，负） ①连胜四局1种， + + + + ， ②四胜一负4种， - + + + + ； + - + + + ； + + - + + ； + + + - + ③四胜两负10种， - / - + + + + ； + - / - + + + ； + + - / - + + ； + + + - / - + ； - + - + + + ； - + + - + + ； - + + + - + ； + - + - + + ； + - + + - + ；",
-    "explanation_en": "假设阿宝胜，有发以下几种获胜情况（用\" + \"表示胜\" - \"表示，负） ①连胜四局1种， + + + + ， ②四胜一负4种， - + + + + ； + - + + + ； + + - + + ； + + + - + ③四胜两负10种， - / - + + + + ； + - / - + + + ； + + - / - + + ； + + + - / - + ； - + - + + + ； - + + - + + ； - + + + - + ； + - + - + + ； + - + + - + ；",
+    "explanation_en": "Assume Abao wins, there are the following winning situations (using '+' to indicate win and '-' to indicate loss) ① Win four rounds in a row, 1 way: + + + +, ② Win four and lose one, 4 ways: - + + + +; + - + + +; + + - + +; + + + - + ③ Win four and lose two, 10 ways: - / - + + + +; + - / - + + +...",
     "attribution": "2021年新希望杯五年级竞赛初赛第14题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "地图上有A、B、C、D、E五个国家，有五种不同的颜色去染色，要求相邻国家染不同的颜色，则共有____种不同的染色方法．",
-    "text_en": "地图上有A、B、C、D、E五个国家，有五种不同的颜色去染色，要求相邻国家染不同的颜色，则共有____种不同的染色方法．",
+    "text_en": "There are five countries A, B, C, D, E on the map. Use five different colors to color them, requiring adjacent countries to be colored with different colors. Then there are ____ different coloring methods in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "120",
-        "en": "120"
+        "en": "420"
       },
       {
         "zh": "240",
@@ -2556,19 +2556,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "从中间入手，E有5种涂法，再考虑AC同色，则有4 × 1种，BD各有3种， 所以是4 × 1 × 3 × 3 = 36种，若AC不同色，有4 × 3，BD各有2种， 所以是4 × 3 × 2 × 2 = 48种，一共是5 × (36 + 48) = 420种． 答案：C．",
-    "explanation_en": "从中间入手，E有5种涂法，再考虑AC同色，则有4 × 1种，BD各有3种， 所以是4 × 1 × 3 × 3 = 36种，若AC不同色，有4 × 3，BD各有2种， 所以是4 × 3 × 2 × 2 = 48种，一共是5 × (36 + 48) = 420种． 答案：C．",
+    "explanation_en": "Start from the middle, E has 5 coloring methods. Then consider A and C having the same color, there are 4 × 1 ways, B and D each have 3 ways. So it's 4 × 1 × 3 × 3 = 36 ways. If A and C have different colors, there are 4 × 3 ways, B and D each have 2 ways. So it's 4 × 3 × 2 × 2 = 48 ways. In total it's 5 × (36 + 48) = 420 ways. Answer: C.",
     "attribution": "2021年第8届鹏程杯五年级竞赛初赛第19题4分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "黑箱中有60块大小、形状都相同的木块，每15块涂上相同的颜色，一次至少取出____块才能保证其中至少有2块木块颜色相同。",
-    "text_en": "黑箱中有60块大小、形状都相同的木块，每15块涂上相同的颜色，一次至少取出____块才能保证其中至少有2块木块颜色相同。",
+    "text_en": "There are 60 wooden blocks of the same size and shape in a black box, with 15 blocks painted the same color. At least take out ____ blocks at once to ensure that at least 2 blocks have the same color.",
     "illustration": null,
     "choices": [
       {
         "zh": "7",
-        "en": "7"
+        "en": "5"
       },
       {
         "zh": "6",
@@ -2581,19 +2581,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "60 ÷ 15 = 4（种） 4 + 1 = 5（块） 答：一次至少取出5块才能保证其中至少有2块木块颜色相同。",
-    "explanation_en": "60 ÷ 15 = 4（种） 4 + 1 = 5（块） 答：一次至少取出5块才能保证其中至少有2块木块颜色相同。",
+    "explanation_en": "60 ÷ 15 = 4 colors. 4 + 1 = 5 blocks. Answer: At least take out 5 blocks at once to ensure that at least 2 blocks have the same color.",
     "attribution": "2014年中环杯五年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一把钥匙只能开一把锁．现有10把钥匙和10把锁，但不知道哪把钥匙开哪把锁，最少要试____次才能保证配好全部的锁的钥匙．",
-    "text_en": "一把钥匙只能开一把锁．现有10把钥匙和10把锁，但不知道哪把钥匙开哪把锁，最少要试____次才能保证配好全部的锁的钥匙．",
+    "text_en": "One key can only open one lock. Now there are 10 keys and 10 locks, but we don't know which key opens which lock. At least try ____ times to ensure that all locks are matched with their keys.",
     "illustration": null,
     "choices": [
       {
         "zh": "66",
-        "en": "66"
+        "en": "45"
       },
       {
         "zh": "36",
@@ -2610,19 +2610,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "从最不利的情况考虑，第1把锁需要试9次；第2把锁需要试8次… … ；第9把锁需要试1次．一共需要试1 + 2 + 3 + ·s ·s + 9 = 45（次）．",
-    "explanation_en": "从最不利的情况考虑，第1把锁需要试9次；第2把锁需要试8次… … ；第9把锁需要试1次．一共需要试1 + 2 + 3 + ·s ·s + 9 = 45（次）．",
+    "explanation_en": "Considering the worst case, the first lock needs to be tried 9 times; the second lock needs to be tried 8 times...; the ninth lock needs to be tried 1 time. In total, it needs to be tried 1 + 2 + 3 + ... + 9 = 45 times.",
     "attribution": "2018年四川成都锦江区四川师范大学附属第一实验中学小升初模拟11第9题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一把钥匙只能开一把锁．现有12把钥匙和11把锁，但不知道哪把钥匙开哪把锁，最少要试____次才能保证配好全部的锁的钥匙．",
-    "text_en": "一把钥匙只能开一把锁．现有12把钥匙和11把锁，但不知道哪把钥匙开哪把锁，最少要试____次才能保证配好全部的锁的钥匙．",
+    "text_en": "One key can only open one lock. Now there are 12 keys and 11 locks, but we don't know which key opens which lock. At least try ____ times to ensure that all locks are matched with their keys.",
     "illustration": null,
     "choices": [
       {
         "zh": "36",
-        "en": "36"
+        "en": "65"
       },
       {
         "zh": "45",
@@ -2639,19 +2639,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "从最不利的情况考虑，第1把锁需要试11次；第2把锁需要试10次… … ；一共需要试2 + 3 + ·s ·s + 11 = 65（次）．",
-    "explanation_en": "从最不利的情况考虑，第1把锁需要试11次；第2把锁需要试10次… … ；一共需要试2 + 3 + ·s ·s + 11 = 65（次）．",
+    "explanation_en": "Considering the worst case, the first lock needs to be tried 11 times; the second lock needs to be tried 10 times... In total, it needs to be tried 2 + 3 + ... + 11 = 65 times.",
     "attribution": "2018年四川成都锦江区四川师范大学附属第一实验中学小升初模拟11第9题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "现有1克、2克、4克、8克、16克的砝码各一个和一个天平，如果只允许在天平的一边放砝码，最多能称出____种不同的质量．",
-    "text_en": "现有1克、2克、4克、8克、16克的砝码各一个和一个天平，如果只允许在天平的一边放砝码，最多能称出____种不同的质量．",
+    "text_en": "There is one weight each of 1g, 2g, 4g, 8g, and 16g, and a balance. If weights are only allowed to be placed on one side of the balance, at most ____ different masses can be measured.",
     "illustration": null,
     "choices": [
       {
         "zh": "30",
-        "en": "30"
+        "en": "31"
       },
       {
         "zh": "20",
@@ -2668,19 +2668,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "（1）1个砝码可以称出的重量有5种：1克，2克，4克，8克，16克； （2）2个砝码可以称出的重量有10种： 1 + 2 = 3（克），1 + 4 = 5（克），1 + 8 = 9（克）， 1 + 16 = 17（克）； 2 + 4 = 6（克），2 + 8 = 10（克），2 + 16 = 18（克）； 4 + 8 = 12（克），4 + 16 = 20（克）， 8 + 16 = 24（克）；",
-    "explanation_en": "（1）1个砝码可以称出的重量有5种：1克，2克，4克，8克，16克； （2）2个砝码可以称出的重量有10种： 1 + 2 = 3（克），1 + 4 = 5（克），1 + 8 = 9（克）， 1 + 16 = 17（克）； 2 + 4 = 6（克），2 + 8 = 10（克），2 + 16 = 18（克）； 4 + 8 = 12（克），4 + 16 = 20（克）， 8 + 16 = 24（克）；",
+    "explanation_en": "(1) 1 weight can measure 5 different weights: 1g, 2g, 4g, 8g, 16g; (2) 2 weights can measure 10 different weights: 1+2=3g, 1+4=5g, 1+8=9g, 1+16=17g; 2+4=6g, 2+8=10g, 2+16=18g...",
     "attribution": "2020年长江杯五年级竞赛复赛A卷第5题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "盒中有形状、大小、质料相同的红、白、黑颜色的球各10个，摸出若干个，要保证摸出的球中至少有3个球同色，摸出球的个数至少为____个．",
-    "text_en": "盒中有形状、大小、质料相同的红、白、黑颜色的球各10个，摸出若干个，要保证摸出的球中至少有3个球同色，摸出球的个数至少为____个．",
+    "text_en": "There are 10 balls each of red, white, and black colors in a box, with the same shape, size, and material. Take out several balls to ensure that at least 3 balls of the same color are taken out. The minimum number of balls to take out is at least ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "7"
       },
       {
         "zh": "7",
@@ -2697,19 +2697,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "最不利原则．要保证拿到一种颜色至少有3个，则根据最不利原则，可先取每种颜色2个，最后取一个不论取哪种颜色，都一定可以满足条件，即需要2 × 3 + 1 = 7个．",
-    "explanation_en": "最不利原则．要保证拿到一种颜色至少有3个，则根据最不利原则，可先取每种颜色2个，最后取一个不论取哪种颜色，都一定可以满足条件，即需要2 × 3 + 1 = 7个．",
+    "explanation_en": "Worst-case principle. To ensure getting at least 3 of one color, according to the worst-case principle, first take 2 of each color, and finally take one more regardless of which color, it will definitely satisfy the condition, i.e., 2 × 3 + 1 = 7 balls are needed.",
     "attribution": "2017年第15届湖北武汉创新杯五年级竞赛初赛第7题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "不妨称各位数字之和为7的整数为\"魔力数\"，如115，1312等就是魔力数．那么随手写出一个三位数，恰好是\"魔力数\"的可能性是____．",
-    "text_en": "不妨称各位数字之和为7的整数为\"魔力数\"，如115，1312等就是魔力数．那么随手写出一个三位数，恰好是\"魔力数\"的可能性是____．",
+    "text_en": "Let's call integers whose digits sum to 7 'magic numbers', such as 115, 1312 are magic numbers. Then the probability of randomly writing a three-digit number that is exactly a 'magic number' is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2/75",
-        "en": "2/75"
+        "en": "7/225"
       },
       {
         "zh": "7/225",
@@ -2726,19 +2726,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "三位数一共有900个，满足条件的魔力数有C₇₊₂₋₁² = 28个，则28/900 = 7/225．",
-    "explanation_en": "三位数一共有900个，满足条件的魔力数有C₇₊₂₋₁² = 28个，则28/900 = 7/225．",
+    "explanation_en": "There are 900 three-digit numbers in total. The magic numbers satisfying the condition are C(7+2-1,2) = 28. So 28/900 = 7/225.",
     "attribution": "2016年第14届全国创新杯五年级竞赛初赛第9题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "口袋中有红、黑、白、黄四种球，个数分别为7，9，11，13个，它们的外形和重量都一样，至少摸出____个球才能保证有9个颜色相同的球．",
-    "text_en": "口袋中有红、黑、白、黄四种球，个数分别为7，9，11，13个，它们的外形和重量都一样，至少摸出____个球才能保证有9个颜色相同的球．",
+    "text_en": "There are red, black, white, and yellow balls in a pocket, with quantities of 7, 9, 11, and 13 respectively. They have the same shape and weight. At least take out ____ balls to ensure there are 9 balls of the same color.",
     "illustration": null,
     "choices": [
       {
         "zh": "33",
-        "en": "33"
+        "en": "32"
       },
       {
         "zh": "32",
@@ -2755,19 +2755,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "从最倒霉的情况着手，把红色取完也到不了9个同色，所以先把红色取完．然后最倒霉是另外三种颜色每种取8个，最后加1，得到最不利情况7 + 8 × 3 + 1 = 32（个）．",
-    "explanation_en": "从最倒霉的情况着手，把红色取完也到不了9个同色，所以先把红色取完．然后最倒霉是另外三种颜色每种取8个，最后加1，得到最不利情况7 + 8 × 3 + 1 = 32（个）．",
+    "explanation_en": "Start from the worst case. Taking all red balls still can't reach 9 of the same color, so first take all red balls. Then the worst case is taking 8 of each of the other three colors, and finally add 1, getting the worst case 7 + 8 × 3 + 1 = 32 balls.",
     "attribution": "2017年第16届湖北武汉创新杯五年级竞赛邀请赛训练题（三）"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "我们称数543和531具有位数值递减性，而322则没有，因为它的个位数等于十位数。在100与599之间有____个具有位数值递减性的数。",
-    "text_en": "我们称数543和531具有位数值递减性，而322则没有，因为它的个位数等于十位数。在100与599之间有____个具有位数值递减性的数。",
+    "text_en": "We say that the numbers 543 and 531 have the property of decreasing digit values, while 322 does not, because its units digit equals its tens digit. Between 100 and 599 there are ____ numbers with the property of decreasing digit values.",
     "illustration": null,
     "choices": [
       {
         "zh": "18",
-        "en": "18"
+        "en": "20"
       },
       {
         "zh": "24",
@@ -2784,19 +2784,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "100~199之间没有，200~299之间有1个：210;300~399之间有3个：310，320，321；400~499之间有6个：410，420，421，430，431，432，500~599之间有10个：510，520，521，530，531，532，540，541，542，543，共有1 + 3 + 6 + 10 = 20（个）。",
-    "explanation_en": "100~199之间没有，200~299之间有1个：210;300~399之间有3个：310，320，321；400~499之间有6个：410，420，421，430，431，432，500~599之间有10个：510，520，521，530，531，532，540，541，542，543，共有1 + 3 + 6 + 10 = 20（个）。",
+    "explanation_en": "There are none between 100-199. Between 200-299 there is 1: 210. Between 300-399 there are 3: 310, 320, 321. Between 400-499 there are 6: 410, 420, 421, 430, 431, 432. Between 500-599 there are 10: 510, 520, 521, 530, 531, 532, 540, 541, 542, 543. In total there are 1 +...",
     "attribution": "2007年五年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "从5名奥运志愿者中选出3名，分别从事翻译、导游、保洁三项不同的工作，每人承担一项，其中只有甲不能从事翻译工作，则不同的选派方案有____.",
-    "text_en": "从5名奥运志愿者中选出3名，分别从事翻译、导游、保洁三项不同的工作，每人承担一项，其中只有甲不能从事翻译工作，则不同的选派方案有____.",
+    "text_en": "Select 3 from 5 Olympic volunteers to engage in three different jobs: translator, tour guide, and cleaner. Each person takes one job. Among them, only A cannot work as a translator. Then there are ____ different selection plans.",
     "illustration": null,
     "choices": [
       {
         "zh": "48种",
-        "en": "48种"
+        "en": "48"
       },
       {
         "zh": "24种",
@@ -2813,14 +2813,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为翻译可以从除甲外的4人中选1个担当，有4种方法:又导游、保洁可从余下的4人中选2个担当，有4 × 3 = 12种选法，所以有4 × 12 = 48种选派方案.",
-    "explanation_en": "因为翻译可以从除甲外的4人中选1个担当，有4种方法:又导游、保洁可从余下的4人中选2个担当，有4 × 3 = 12种选法，所以有4 × 12 = 48种选派方案.",
+    "explanation_en": "Because the translator can be selected from 4 people other than A, there are 4 methods; The tour guide and cleaner can be selected from the remaining 4 people, with 4 × 3 = 12 selection methods. So there are 4 × 12 = 48 selection plans.",
     "attribution": "2009年五年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "辉辉小学五年级有58人参加钢琴兴趣小组，62人参加美术兴趣小组，25人既参加钢 琴兴趣小组又参加美术兴趣小组，那么参加钢琴或美术小组的同学一共有____人．",
-    "text_en": "辉辉小学五年级有58人参加钢琴兴趣小组，62人参加美术兴趣小组，25人既参加钢 琴兴趣小组又参加美术兴趣小组，那么参加钢琴或美术小组的同学一共有____人．",
+    "text_en": "In Huihui's fifth grade of elementary school, 58 people participate in the piano interest group, 62 people participate in the art interest group, and 25 people participate in both the piano and art interest groups. Then the total number of students participating in the piano or art group is ____.",
     "illustration": null,
     "choices": [
       {
@@ -2842,14 +2842,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "根据容斥原理可知，参加两个小组的同学一共有58 + 62 - 25 = 95（人）．",
-    "explanation_en": "根据容斥原理可知，参加两个小组的同学一共有58 + 62 - 25 = 95（人）．",
+    "explanation_en": "According to the inclusion-exclusion principle, the total number of students participating in both groups is 58 + 62 - 25 = 95 people.",
     "attribution": "2015年湖北武汉世奥赛五年级竞赛模拟训练题（四）第2题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一个盒子里共有96颗雨花石，明明从这个盒子里把雨花石全部拿出来，每次拿的颗数要相等．如果不能一次全部拿出，也不能一颗一颗地拿出，那么，明明共有____种不同的拿法．",
-    "text_en": "一个盒子里共有96颗雨花石，明明从这个盒子里把雨花石全部拿出来，每次拿的颗数要相等．如果不能一次全部拿出，也不能一颗一颗地拿出，那么，明明共有____种不同的拿法．",
+    "text_en": "There are a total of 96 Yuhua stones in a box. Mingming takes out all the Yuhua stones from this box, taking the same number of stones each time. If they cannot be all taken out at once, and cannot be taken out one by one, then Mingming has ____ different ways to take them out.",
     "illustration": null,
     "choices": [
       {
@@ -2871,19 +2871,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "不能一颗一颗地拿，不能一次全拿出去，而且每次拿的颗数要相等，最后全部拿完，也就是说次数 × 每次拿的颗数 = 96．96 = 1 × 96，96 = 2 × 48，96 = 3 × 32，96 = 4 × 24，96 = 6 × 16，96 = 8 × 12，那么每次拿的颗数可以是2、48、3、32、4、24、6、16、8、12，一共有10种拿法",
-    "explanation_en": "不能一颗一颗地拿，不能一次全拿出去，而且每次拿的颗数要相等，最后全部拿完，也就是说次数 × 每次拿的颗数 = 96．96 = 1 × 96，96 = 2 × 48，96 = 3 × 32，96 = 4 × 24，96 = 6 × 16，96 = 8 × 12，那么每次拿的颗数可以是2、48、3、32、4、24、6、16、8、12，一共有10种拿法",
+    "explanation_en": "Cannot take out one by one, cannot take out all at once, and the number taken out each time must be equal, and all are taken out in the end, which means the number of times × the number taken out each time = 96. 96 = 1 × 96, 96 = 2 × 48, 96 = 3 × 32, 96 = 4 × 24, 96 = 6 × 16, 96 = 8 × 12. Then the number taken out each time can be 2, 48, 3, 32...",
     "attribution": "2020年长江杯五年级竞赛复赛B卷第3题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一个各位数字互不相同的五位数，如果万位，千位，百位的数字依次增大；百位，十位，个位的数字依次减小，我们称这样的数为\"宝塔数\"．那么符合条件的\"宝塔数\"有____个．",
-    "text_en": "一个各位数字互不相同的五位数，如果万位，千位，百位的数字依次增大；百位，十位，个位的数字依次减小，我们称这样的数为\"宝塔数\"．那么符合条件的\"宝塔数\"有____个．",
+    "text_en": "For a five-digit number with all different digits, if the digits in the ten-thousands place, thousands place, and hundreds place increase in order; and the digits in the hundreds place, tens place, and units place decrease in order, we call such a number a 'pagoda number'. Then there are ____ 'pagoda numbers' that satisfy the condition.",
     "illustration": null,
     "choices": [
       {
         "zh": "375",
-        "en": "375"
+        "en": "1134"
       },
       {
         "zh": "756",
@@ -2900,14 +2900,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "设这个五位数为a̅b̅c̅d̅e̅，则有abc，c d e．分为两类： 情况1：含有数字0，那么数字0一定在个位，共有C₉⁴ × C₃² = 378种情况． 情况2：不含数字0，那么共有C₉⁵ × C₄² = 756种情况． 因此共有378 + 756 = 1134个宝塔数．",
-    "explanation_en": "设这个五位数为a̅b̅c̅d̅e̅，则有abc，c d e．分为两类： 情况1：含有数字0，那么数字0一定在个位，共有C₉⁴ × C₃² = 378种情况． 情况2：不含数字0，那么共有C₉⁵ × C₄² = 756种情况． 因此共有378 + 756 = 1134个宝塔数．",
+    "explanation_en": "Let this five-digit number be abcde, then a < b < c, c > d > e. Divide into two categories: Case 1: Contains the digit 0, then the digit 0 must be in the units place, with C(9,4) × C(3,2) = 378 cases. Case 2: Does not contain the digit 0, then there are C(9,5) × C(4,2) = 756 cases. Therefore there are 378 + 756 = 1134 pagoda numbers in total.",
     "attribution": "2017年第11届北京学而思杯小学高年级五年级竞赛第13题8分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一个五位数，由1，2，3三个数码组成，对于其中任何一个数码，如果这个数码是1，则他后面的数只能写2；如果这个数码是2，他后面只能写3；如果这个数码是3，他后面可以写1，也可以写3．这样的五位数有____个．",
-    "text_en": "一个五位数，由1，2，3三个数码组成，对于其中任何一个数码，如果这个数码是1，则他后面的数只能写2；如果这个数码是2，他后面只能写3；如果这个数码是3，他后面可以写1，也可以写3．这样的五位数有____个．",
+    "text_en": "A five-digit number is composed of three digits: 1, 2, and 3. For any digit, if the digit is 1, the number after it can only be 2; if the digit is 2, the number after it can only be 3; if the digit is 3, the number after it can be either 1 or 3. How many such five-digit numbers are there?",
     "illustration": null,
     "choices": [
       {
@@ -2929,19 +2929,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "首位为1，有 12312，12331，12333这三种；首位为2，有23123，23312，23331，23333这四种；首位为3，有31231，31233，33123，33312，33331，33333这六种， 所以共(4 + 100) ÷ 2 = 52．",
-    "explanation_en": "首位为1，有 12312，12331，12333这三种；首位为2，有23123，23312，23331，23333这四种；首位为3，有31231，31233，33123，33312，33331，33333这六种， 所以共(4 + 100) ÷ 2 = 52．",
+    "explanation_en": "If the first digit is 1, there are three: 12312, 12331, 12333; If the first digit is 2, there are four: 23123, 23312, 23331, 23333; If the first digit is 3, there are six: 31231, 31233, 33123, 33312, 33331, 33333. So in total (4 + 100) ÷ 2 = 52...",
     "attribution": "2013年第11届全国创新杯五年级竞赛第5题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "A、B、C、D、E、F六人抽签推选代表，公证人一共制作了六枚外表一模一样的签，其中只有一枚刻着\"中\"，六人按照字母顺序先后抽取签，抽完不放回，谁抽到\"中\"字，即被推选为代表，那么这六人中，谁被抽中的概率谁最大？",
-    "text_en": "A、B、C、D、E、F六人抽签推选代表，公证人一共制作了六枚外表一模一样的签，其中只有一枚刻着\"中\"，六人按照字母顺序先后抽取签，抽完不放回，谁抽到\"中\"字，即被推选为代表，那么这六人中，谁被抽中的概率谁最大？",
+    "text_en": "Six people A, B, C, D, E, F draw lots to elect a representative. The notary public made a total of six identical-looking lots, with only one marked 'selected'. The six people draw lots in alphabetical order, without replacement. Whoever draws the 'selected' lot is elected as the representative. Among these six people, who has the highest probability of being selected?",
     "illustration": null,
     "choices": [
       {
         "zh": "A",
-        "en": "A"
+        "en": "All are equally likely"
       },
       {
         "zh": "一样大",
@@ -2958,14 +2958,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "抽中的概率为1/6，没抽到的概率为5/6，如果A没抽中，那么B有1/5的概率抽中，如果A抽中，那么B抽中的概率为0，所以B抽中的概率为5/6 × 1/5 = 1/6． 同理，C抽中的概率为5/6 × 4/5 × 1/4 = 1/6，D抽中的概率为5/6 × 4/5 × 3/4 × 1/3 = 1/6， E抽中的概率为5/6 × 4/5 × 3/4 × 2/3 × 1/2 = 1/6，F抽中的概率为5/6 × 4/5 × 3/4 × 2/3 × 1/2 × 1 = 1/6． 由此可见六人抽中的概率相等，与抽签的先后顺序无关．",
-    "explanation_en": "抽中的概率为1/6，没抽到的概率为5/6，如果A没抽中，那么B有1/5的概率抽中，如果A抽中，那么B抽中的概率为0，所以B抽中的概率为5/6 × 1/5 = 1/6． 同理，C抽中的概率为5/6 × 4/5 × 1/4 = 1/6，D抽中的概率为5/6 × 4/5 × 3/4 × 1/3 = 1/6， E抽中的概率为5/6 × 4/5 × 3/4 × 2/3 × 1/2 = 1/6，F抽中的概率为5/6 × 4/5 × 3/4 × 2/3 × 1/2 × 1 = 1/6． 由此可见六人抽中的概率相等，与抽签的先后顺序无关．",
+    "explanation_en": "The probability of being selected is 1/6, and the probability of not being selected is 5/6. If A is not selected, then B has a 1/5 probability of being selected. If A is selected, then B's probability of being selected is 0. So B's probability of being selected is 5/6 × 1/5 = 1/6. Similarly, C's probability of being selected is 5/6 × 4/5 × 1/4 = 1/6, D's probability of being selected is 5/6 × 4/5 × 3/4 × 1/3 = 1/6...",
     "attribution": "2011年北京五年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "设n是一任意自然数．若将n的各位数字反向排列所得自然数n₁与n相等，则称n为回文数．例如，若n = 1234321，则称n为一回文数；但若n = 1234567，则n不是回文数．请问在10000和100000之间有多少个回文数？",
-    "text_en": "设n是一任意自然数．若将n的各位数字反向排列所得自然数n₁与n相等，则称n为回文数．例如，若n = 1234321，则称n为一回文数；但若n = 1234567，则n不是回文数．请问在10000和100000之间有多少个回文数？",
+    "text_en": "Let n be any natural number. If the natural number n₁ obtained by reversing the digits of n is equal to n, then n is called a palindrome number. For example, if n = 1234321, then n is a palindrome number; but if n = 1234567, then n is not a palindrome number. How many palindrome numbers are there between 10000 and 100000?",
     "illustration": null,
     "choices": [
       {
@@ -2991,19 +2991,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "在10000和100000之间的数都是五位数，不妨设其为a̅b̅c̅b̅a̅，a不为0有9种选择，b、c均有10种选择，故共有9 × 10 × 10 = 900个回文数．",
-    "explanation_en": "在10000和100000之间的数都是五位数，不妨设其为a̅b̅c̅b̅a̅，a不为0有9种选择，b、c均有10种选择，故共有9 × 10 × 10 = 900个回文数．",
+    "explanation_en": "The numbers between 10000 and 100000 are all five-digit numbers. Let it be abcba. a is not 0, so there are 9 choices. b and c each have 10 choices. So there are 9 × 10 × 10 = 900 palindrome numbers in total.",
     "attribution": "2017年全国美国数学大联盟杯五年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在50束鲜花中，16束有马蹄莲，21束有白兰花，15束有月季花，有7束中既有月季花又有马蹄莲，有8束中既有马蹄莲又有白兰花，有10束中既有月季花又有白兰花，还有5束鲜花中，月季花、马蹄莲、白兰花都有。则这50束鲜花中，上述三种花都没有的花束有____。",
-    "text_en": "在50束鲜花中，16束有马蹄莲，21束有白兰花，15束有月季花，有7束中既有月季花又有马蹄莲，有8束中既有马蹄莲又有白兰花，有10束中既有月季花又有白兰花，还有5束鲜花中，月季花、马蹄莲、白兰花都有。则这50束鲜花中，上述三种花都没有的花束有____。",
+    "text_en": "Among 50 bouquets of flowers, 16 have calla lilies, 21 have white orchids, and 15 have Chinese roses. 7 bouquets have both Chinese roses and calla lilies, 8 bouquets have both calla lilies and white orchids, 10 bouquets have both Chinese roses and white orchids, and 5 bouquets have all three: Chinese roses, calla lilies, and white orchids. Then among these 50 bouquets of flowers, the number of bouquets that have none of the above three flowers is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "18束",
-        "en": "18束"
+        "en": "18 bouquets"
       },
       {
         "zh": "19束",
@@ -3020,19 +3020,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由容斥原理：50 - (16 + 15 + 21 - 7 - 8 - 10 + 5) = 18（束）",
-    "explanation_en": "由容斥原理：50 - (16 + 15 + 21 - 7 - 8 - 10 + 5) = 18（束）",
+    "explanation_en": "By the inclusion-exclusion principle: 50 - (16 + 15 + 21 - 7 - 8 - 10 + 5) = 18 bouquets.",
     "attribution": "2004年五年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "玛丽有6张卡片，每张卡片上都写有一个大于0的自然数．她选取了3张卡片后，算出了它的总和，他又选另外3张卡片上的总和，· · · ，她进行了可能的20种3张卡片的选择，然后计算，发现有10种总和等于16，另外10种总和等于18．那么这些卡片中最小的数是____．",
-    "text_en": "玛丽有6张卡片，每张卡片上都写有一个大于0的自然数．她选取了3张卡片后，算出了它的总和，他又选另外3张卡片上的总和，· · · ，她进行了可能的20种3张卡片的选择，然后计算，发现有10种总和等于16，另外10种总和等于18．那么这些卡片中最小的数是____．",
+    "text_en": "Mary has 6 cards, each with a natural number greater than 0 written on it. She selects 3 cards and calculates their sum. Then she selects another 3 cards and calculates their sum... She performed all 20 possible selections of 3 cards, then calculated, and found that 10 sums equal 16, and the other 10 sums equal 18. Then the smallest number among these cards is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2",
-        "en": "2"
+        "en": "4"
       },
       {
         "zh": "3",
@@ -3049,19 +3049,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "每个数字用10次，故所有数字和为(16 × 10 + 18 × 10) ÷ 10 = 34，而出现了10 次16和10次18，故除了最小的，其他5个都相同，所以只能为4、6、6、6、6、6．",
-    "explanation_en": "每个数字用10次，故所有数字和为(16 × 10 + 18 × 10) ÷ 10 = 34，而出现了10 次16和10次18，故除了最小的，其他5个都相同，所以只能为4、6、6、6、6、6．",
+    "explanation_en": "Each number is used 10 times, so the sum of all numbers is (16 × 10 + 18 × 10) ÷ 10 = 34. Since 16 appeared 10 times and 18 appeared 10 times, except for the smallest, the other 5 are all the same. So they can only be 4, 6, 6, 6, 6, 6.",
     "attribution": "2012年全国创新杯五年级竞赛第4题5分"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "要想用天平称出1~40克所有整数克的质量，如果允许两边放砝码，至少用____个砝码。",
-    "text_en": "要想用天平称出1~40克所有整数克的质量，如果允许两边放砝码，至少用____个砝码。",
+    "text_en": "To weigh all integer gram masses from 1 to 40 grams using a balance, if weights are allowed to be placed on both sides, at least ____ weights are needed.",
     "illustration": null,
     "choices": [
       {
         "zh": "6",
-        "en": "6"
+        "en": "4"
       },
       {
         "zh": "5",
@@ -3078,19 +3078,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "若只有一个砝码，那么这个砝码有放左、放右和不放3种不同选择，其中左、右都不放的情况不计，剩下的情况会出现左右重复，只能称出3 - 1/2 = 1（种）不同的质量；取1克，可以称出1克； 若有两个砝码，共有3 × 3 = 9（种）放法，最多称出3² - 12 = 4（种）不同的质量；取1克和3克，即可称出1 4克； 若有三个砝码，共有3³ = 27（种）放法，最多称出3³ - 12 = 13（种）不同的质量；取1克、3克和9克，即可称出1 13克；",
-    "explanation_en": "若只有一个砝码，那么这个砝码有放左、放右和不放3种不同选择，其中左、右都不放的情况不计，剩下的情况会出现左右重复，只能称出3 - 1/2 = 1（种）不同的质量；取1克，可以称出1克； 若有两个砝码，共有3 × 3 = 9（种）放法，最多称出3² - 12 = 4（种）不同的质量；取1克和3克，即可称出1 4克； 若有三个砝码，共有3³ = 27（种）放法，最多称出3³ - 12 = 13（种）不同的质量；取1克、3克和9克，即可称出1 13克；",
+    "explanation_en": "If there is only one weight, then this weight has 3 different choices: left side, right side, and not placed. Among them, the case of not placing on either side is not counted. The remaining cases will have overlap between left and right, and only (3-1)/2 = 1 different mass can be weighed; taking 1 gram can weigh 1 gram. If there are two weights, there are 3 × 3 = 9 placement methods, at most (3²-1)/2 = 4 different masses can be weighed; taking 1 gram and 3 grams can...",
     "attribution": "2010年五年级竞赛创新杯"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "有两个整数，它们的和恰好是两个数字相同的两位数，它们的乘积恰好是三个数字相同的三位数．求这两个整数分别是多少？",
-    "text_en": "有两个整数，它们的和恰好是两个数字相同的两位数，它们的乘积恰好是三个数字相同的三位数．求这两个整数分别是多少？",
+    "text_en": "There are two integers, their sum is exactly a two-digit number with the same digits, and their product is exactly a three-digit number with three identical digits. What are these two integers?",
     "illustration": null,
     "choices": [
       {
         "zh": "37和18",
-        "en": "37和18"
+        "en": "74 and 3, or 37 and 18"
       },
       {
         "zh": "74和3",
@@ -3103,14 +3103,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "两位数中，数字相同的两位数有11、22、33、44、55、66、77、88、99共九个，它们中的每个数都可以表示成两个整数相加的形式，例如33 = 1 + 32 = 2 + 31 = 3 + 30 = ·s ·s = 16 + 17，共有16种形式，如果把每个数都这样分解，再相乘，看哪两个数的乘积是三个数字相同的三位数，显然太繁琐了．可以从乘积入手，因为三个数字相同的三位数有111、222、333、444、555、666、777、888、999，每个数都是111的倍数，而111 = 37 × 3，因此把这九个数表示成一个两位数与一个一位数或两个两位数相乘时，必有一个因数是37或37的倍数，但只…",
-    "explanation_en": "两位数中，数字相同的两位数有11、22、33、44、55、66、77、88、99共九个，它们中的每个数都可以表示成两个整数相加的形式，例如33 = 1 + 32 = 2 + 31 = 3 + 30 = ·s ·s = 16 + 17，共有16种形式，如果把每个数都这样分解，再相乘，看哪两个数的乘积是三个数字相同的三位数，显然太繁琐了．可以从乘积入手，因为三个数字相同的三位数有111、222、333、444、555、666、777、888、999，每个数都是111的倍数，而111 = 37 × 3，因此把这九个数表示成一个两位数与一个一位数或两个两位数相乘时，必有一个因数是37或37的倍数，但只…",
+    "explanation_en": "Among two-digit numbers, the two-digit numbers with the same digits are 11, 22, 33, 44, 55, 66, 77, 88, 99, a total of nine. Each of them can be expressed as the sum of two integers, for example 33 = 1 + 32 = 2 + 31 = 3 + 30 = ... = 16 + 17, there are 16 forms in total. If each number is decomposed like this and then multiplied, see which two numbers' product is...",
     "attribution": "2011年北京学而思杯五年级竞赛"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "5卷百科全书按从第1卷到第5卷的递增序号排列，今要将它们变为反序排列，即从第5卷到第1卷．如果每次只能调换相邻的两卷，那么最少要调换多少次？",
-    "text_en": "5卷百科全书按从第1卷到第5卷的递增序号排列，今要将它们变为反序排列，即从第5卷到第1卷．如果每次只能调换相邻的两卷，那么最少要调换多少次？",
+    "text_en": "5 volumes of an encyclopedia are arranged in ascending order from Volume 1 to Volume 5. Now they need to be arranged in reverse order, i.e., from Volume 5 to Volume 1. If only two adjacent volumes can be swapped each time, what is the minimum number of swaps needed?",
     "illustration": null,
     "choices": [
       {
@@ -3132,14 +3132,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为必须是调换相邻的两卷，将第5卷调至原来第1卷的位置最少需4次，得到的顺序为51234； 现在将第4卷调至此时第1卷的位置最少需3次，得到的顺序为54123； 现在将第3卷调至此时第1卷的位置最少需2次，得到的顺序为54312； 最后将第1卷和第2卷对调即可． 所以，共需调换4 + 3 + 2 + 1 = 10（次）．",
-    "explanation_en": "因为必须是调换相邻的两卷，将第5卷调至原来第1卷的位置最少需4次，得到的顺序为51234； 现在将第4卷调至此时第1卷的位置最少需3次，得到的顺序为54123； 现在将第3卷调至此时第1卷的位置最少需2次，得到的顺序为54312； 最后将第1卷和第2卷对调即可． 所以，共需调换4 + 3 + 2 + 1 = 10（次）．",
+    "explanation_en": "Because only two adjacent volumes can be swapped, to move Volume 5 to the original position of Volume 1 requires at least 4 swaps, resulting in the order 51234; Now to move Volume 4 to the current position of Volume 1 requires at least 3 swaps, resulting in the order 54123; Now to move Volume 3 to the current position of Volume 1 requires at least 2 swaps, resulting in the order 54312; Finally, just swap Volume 1 and Volume 2. So, a total of 4 + 3 + 2 +... swaps are needed.",
     "attribution": "2011年北京学而思杯五年级竞赛"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "小悦与阿奇比赛下象棋，两人水平相当，约定赛7局，先赢4局者胜，现在已经比赛了3局，小悦胜了2局，阿奇胜了1局，请问：小悦最后胜利的概率有多少？",
-    "text_en": "小悦与阿奇比赛下象棋，两人水平相当，约定赛7局，先赢4局者胜，现在已经比赛了3局，小悦胜了2局，阿奇胜了1局，请问：小悦最后胜利的概率有多少？",
+    "text_en": "Xiaoyue and Aqi compete in chess. Their skill levels are comparable. They agree to play 7 games, and whoever wins 4 games first wins. They have already played 3 games, Xiaoyue won 2 games, and Aqi won 1 game. What is the probability of Xiaoyue winning in the end?",
     "illustration": null,
     "choices": [
       {
@@ -3161,19 +3161,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "B",
-    "explanation_en": "B",
+    "explanation_en": "B...",
     "attribution": "2017年北京迎春杯小学高年级五年级竞赛模拟"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "有一个密码箱的密码由六位数码组成，结果程序出现了问题，只要和原来的密码数字相同而排列顺序不同也能打开这个密码箱．现在知道有180个不同的六位数码都能打开，而且这六____个数码里没有3，那么原来这个密码箱的密码数字的和最小是．",
-    "text_en": "有一个密码箱的密码由六位数码组成，结果程序出现了问题，只要和原来的密码数字相同而排列顺序不同也能打开这个密码箱．现在知道有180个不同的六位数码都能打开，而且这六____个数码里没有3，那么原来这个密码箱的密码数字的和最小是．",
+    "text_en": "The password of a password box consists of six digits. As a result, there is a problem with the program. As long as the digits are the same as the original password but in a different order, the password box can also be opened. Now it is known that 180 different six-digit codes can open it, and there is no 3 among these six digits. Then the minimum sum of the digits of the original password of this password box is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "7",
-        "en": "7"
+        "en": "8"
       },
       {
         "zh": "8",
@@ -3190,19 +3190,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "①6个数字互不相同， 有6 × 5 × 4 × 3 × 2 × 1 = 720个不同六位数码舍去； ②只有2个数字相同， 有6 × 5 × 4 × 3 = 360个不同六位数码，舍去； ③只有3个数字相同， 有6 × 5 × 4 = 120个不同六位数码，舍去； ④有2对数字分别相同， 有6 × 5 × (3 + 2 + 1) = 180个不同六位数码，符合， 且6个数字里没有3，则最小为0，0，1，1，2，4， 故和最小为0 + 0 + 1 + 1 + 2 + 4 = 8； ⑤其他情况均小于180个六位数码； 综上",
-    "explanation_en": "①6个数字互不相同， 有6 × 5 × 4 × 3 × 2 × 1 = 720个不同六位数码舍去； ②只有2个数字相同， 有6 × 5 × 4 × 3 = 360个不同六位数码，舍去； ③只有3个数字相同， 有6 × 5 × 4 = 120个不同六位数码，舍去； ④有2对数字分别相同， 有6 × 5 × (3 + 2 + 1) = 180个不同六位数码，符合， 且6个数字里没有3，则最小为0，0，1，1，2，4， 故和最小为0 + 0 + 1 + 1 + 2 + 4 = 8； ⑤其他情况均小于180个六位数码； 综上",
+    "explanation_en": "① If all 6 digits are different, there are 6 × 5 × 4 × 3 × 2 × 1 = 720 different six-digit codes, which is discarded. ② If only 2 digits are the same, there are 6 × 5 × 4 × 3 = 360 different six-digit codes, which is discarded. ③ If only 3 digits are the same, there are 6 × 5 × 4 = 120 different six-digit codes, which is discarded. ④ If there are 2 pairs of digits that are the same respectively, there are 6 × 5...",
     "attribution": "2019年第24届YMO五年级竞赛决赛第10题3分"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "老师把某两位数的六个不同因数分别告诉了A F六个聪明诚实的同学． A和B同时说：我知道这个数是多少了． C和D同时说：听了他们的话，我也知道这个数是多少了． E：听了他们的话，我知道我的数一定比F的大． F：我拿的数的大小在C和D之间． 那么六个____人拿的数之和是．",
-    "text_en": "老师把某两位数的六个不同因数分别告诉了A F六个聪明诚实的同学． A和B同时说：我知道这个数是多少了． C和D同时说：听了他们的话，我也知道这个数是多少了． E：听了他们的话，我知道我的数一定比F的大． F：我拿的数的大小在C和D之间． 那么六个____人拿的数之和是．",
+    "text_en": "The teacher told six smart and honest students A-F the six different factors of a certain two-digit number respectively. A and B said at the same time: 'I know what this number is now.' C and D said at the same time: 'After hearing what they said, I also know what this number is now.' E: 'After hearing what they said, I know my number must be larger than F's.' F: 'The size of the number I got is between C's and D's.' Then the sum of the numbers the six people got is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "141",
-        "en": "141"
+        "en": "152"
       },
       {
         "zh": "152",
@@ -3219,14 +3219,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "（1）这个数的因数个数肯定不低于6个（假定这个数为N，且拿到的6个数从大到小分别是ABCDEF） （2）有两个人同时第一时间知道结果，这说明以下几个问题： 第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在50~99之间（也就是说A 的2倍是3位数，所以A其实就是N） 第二种情况：有一个人拿到的不是最后结果，但是具备以下条件： 这个数的约数少于6个，比如：有人拿到36，但他不能判断N究竟是36还是72． 这个数小于50，不然这个数就只能也是N了． 这个数大于33，比如：有人拿到29，那么他不能断定N 是58还是87；",
-    "explanation_en": "（1）这个数的因数个数肯定不低于6个（假定这个数为N，且拿到的6个数从大到小分别是ABCDEF） （2）有两个人同时第一时间知道结果，这说明以下几个问题： 第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在50~99之间（也就是说A 的2倍是3位数，所以A其实就是N） 第二种情况：有一个人拿到的不是最后结果，但是具备以下条件： 这个数的约数少于6个，比如：有人拿到36，但他不能判断N究竟是36还是72． 这个数小于50，不然这个数就只能也是N了． 这个数大于33，比如：有人拿到29，那么他不能断定N 是58还是87；",
+    "explanation_en": "(1) The number of factors of this number is definitely not less than 6 (assuming this number is N, and the 6 numbers obtained from largest to smallest are A, B, C, D, E, F respectively) (2) Two people know the result at the same time for the first time, which indicates the following issues: The first case: One person knows the final result. How did they know this result? It's very simple, the factor they got is between 50-99 (which means A's double is a three-digit number, so A is actually N...",
     "attribution": "2014年全国迎春杯五年级竞赛复赛第15题"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "老师把某两位数的六个不同因数分别告诉了A F六个聪明诚实的同学． A和B同时说：我知道这个数是多少了． C和D同时说：听了他们的话，我也知道这个数是多少了． E：听了他们的话，我知道我的数一定比F的大． F：我拿的数的大小在C和D之间． 那么六个人拿的数之和是____．",
-    "text_en": "老师把某两位数的六个不同因数分别告诉了A F六个聪明诚实的同学． A和B同时说：我知道这个数是多少了． C和D同时说：听了他们的话，我也知道这个数是多少了． E：听了他们的话，我知道我的数一定比F的大． F：我拿的数的大小在C和D之间． 那么六个人拿的数之和是____．",
+    "text_en": "The teacher told six smart and honest students A-F the six different factors of a certain two-digit number respectively. A and B said at the same time: 'I know what this number is now.' C and D said at the same time: 'After hearing what they said, I also know what this number is now.' E: 'After hearing what they said, I know my number must be larger than F's.' F: 'The size of the number I got is between C's and D's.' Then the sum of the numbers the six people got is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3248,19 +3248,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "（1）这个数的因数个数肯定不低于6个（假定这个数为N，且拿到的6个数从大到小分别是ABCDEF） （2）有两个人同时第一时间知道结果，这说明以下几个问题： 第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在50~99之间（也就是说A 的2倍是3位数，所以A其实就是N） 第二种情况：有一个人拿到的不是最后结果，但是具备以下条件： 这个数的约数少于6个，比如：有人拿到36，单他不能断定N究竟是36还是72． 这个数小于50，不然这个数就只能也是N了． 这个数大于33，比如：有人拿到29，那么他不能断定N 是58还是87；",
-    "explanation_en": "（1）这个数的因数个数肯定不低于6个（假定这个数为N，且拿到的6个数从大到小分别是ABCDEF） （2）有两个人同时第一时间知道结果，这说明以下几个问题： 第一种情况：有一个人知道了最后的结果，这个结果是怎么知道的呢？很简单，他拿到的因数在50~99之间（也就是说A 的2倍是3位数，所以A其实就是N） 第二种情况：有一个人拿到的不是最后结果，但是具备以下条件： 这个数的约数少于6个，比如：有人拿到36，单他不能断定N究竟是36还是72． 这个数小于50，不然这个数就只能也是N了． 这个数大于33，比如：有人拿到29，那么他不能断定N 是58还是87；",
+    "explanation_en": "(1) The number of factors of this number is definitely not less than 6 (assuming this number is N, and the 6 numbers obtained from largest to smallest are A, B, C, D, E, F respectively) (2) Two people know the result at the same time for the first time, which indicates the following issues: The first case: One person knows the final result. How did they know this result? It's very simple, the factor they got is between 50-99 (which means A's double is a three-digit number, so A is actually N...",
     "attribution": "2014年全国迎春杯五年级竞赛复赛第15题"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "连接武汉与广州的高铁，中途只停六个车站，那么应该印制____种车票。",
-    "text_en": "连接武汉与广州的高铁，中途只停六个车站，那么应该印制____种车票。",
+    "text_en": "The high-speed rail connecting Wuhan and Guangzhou stops at six stations in the middle. Then ____ kinds of tickets should be printed.",
     "illustration": null,
     "choices": [
       {
         "zh": "60",
-        "en": "60"
+        "en": "56"
       },
       {
         "zh": "30",
@@ -3277,19 +3277,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "加上首尾两站共8个站，共有C₈² = 28（种）组合，考虑车票的次序共有28 × 2 = 56（种）。",
-    "explanation_en": "加上首尾两站共8个站，共有C₈² = 28（种）组合，考虑车票的次序共有28 × 2 = 56（种）。",
+    "explanation_en": "Including the two terminal stations, there are 8 stations in total. There are C(8,2) = 28 combinations. Considering the order of tickets, there are 28 × 2 = 56 kinds.",
     "attribution": "2011年六年级竞赛创新杯"
   },
   {
     "difficulty": 2,
     "topic": "combinatorics",
     "text_zh": "有一个推理游戏叫做\"狼人杀\"，10位同学参与游戏，通过抽牌决定所扮演的角色，事先做好10张卡牌（除所写文字不同，其余均相同），其中有法官牌1张，预言家牌1张，女巫牌1张，猎人牌1张，狼人牌3张．艾迪参与游戏，如果只随机抽取一张，那么艾迪抽到狼____人牌的概率是．",
-    "text_en": "有一个推理游戏叫做\"狼人杀\"，10位同学参与游戏，通过抽牌决定所扮演的角色，事先做好10张卡牌（除所写文字不同，其余均相同），其中有法官牌1张，预言家牌1张，女巫牌1张，猎人牌1张，狼人牌3张．艾迪参与游戏，如果只随机抽取一张，那么艾迪抽到狼____人牌的概率是．",
+    "text_en": "There is a reasoning game called 'Werewolf'. 10 students participate in the game and decide the roles they play by drawing cards. 10 cards are prepared in advance (except for the different text written on them, the rest are the same), including 1 judge card, 1 seer card, 1 witch card, 1 hunter card, and 3 werewolf cards. Eddie participates in the game. If only one card is drawn randomly, then the probability of Eddie drawing a werewolf card is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "10%",
-        "en": "10%"
+        "en": "30%"
       },
       {
         "zh": "20%",
@@ -3306,19 +3306,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "狼人牌有3张，一共有10张卡牌．所以抽到狼人牌的概率是3/10 = 30% ．",
-    "explanation_en": "狼人牌有3张，一共有10张卡牌．所以抽到狼人牌的概率是3/10 = 30% ．",
+    "explanation_en": "There are 3 werewolf cards, and a total of 10 cards. So the probability of drawing a werewolf card is 3/10 = 30%.",
     "attribution": "2017年北京学而思杯六年级竞赛年度教学质量监测第2题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "在101到199的整数中，有多少个十位数字和个位数字都是偶数的数？",
-    "text_en": "在101到199的整数中，有多少个十位数字和个位数字都是偶数的数？",
+    "text_en": "Among the integers from 101 to 199, how many numbers have both the tens digit and the units digit as even numbers?",
     "illustration": null,
     "choices": [
       {
         "zh": "50",
-        "en": "50"
+        "en": "25"
       },
       {
         "zh": "49",
@@ -3335,19 +3335,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "在101到199的整数中，有多少个十位数字和个位数字都是偶数的数？ whole numbers 整数；an even tens digit 一个十位数是偶数的数； an even ones digit 一个个位数是偶数的数． 十位可以选择0、2、4、6、8，共5个数，个位可以选择0、2、4、6、8，共5个数，除去100这个数, 一共有5 × 5 - 1 = 24个．",
-    "explanation_en": "在101到199的整数中，有多少个十位数字和个位数字都是偶数的数？ whole numbers 整数；an even tens digit 一个十位数是偶数的数； an even ones digit 一个个位数是偶数的数． 十位可以选择0、2、4、6、8，共5个数，个位可以选择0、2、4、6、8，共5个数，除去100这个数, 一共有5 × 5 - 1 = 24个．",
+    "explanation_en": "Among the integers from 101 to 199, how many numbers have both the tens digit and the units digit as even numbers? The tens digit can be 0, 2, 4, 6, 8, a total of 5 numbers. The units digit can be 0, 2, 4, 6, 8...",
     "attribution": "2017年全国美国数学大联盟杯小学高年级六年级竞赛初赛第8题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "将180写成若干个连续正整数之和（至少两个），共有____种写法．",
-    "text_en": "将180写成若干个连续正整数之和（至少两个），共有____种写法．",
+    "text_en": "Write 180 as the sum of several consecutive positive integers (at least two). There are ____ ways to write it.",
     "illustration": null,
     "choices": [
       {
         "zh": "3",
-        "en": "3"
+        "en": "5"
       },
       {
         "zh": "4",
@@ -3364,19 +3364,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "180 = 59 + 60 + 61 = 34 + 35 + 36 + 37 + 38 = 19 + 20 + … … + 25 + 26 = 16 + 17 + … … + 23 + 24 = 5 + 6 + … … + 18 + 19共5种．",
-    "explanation_en": "180 = 59 + 60 + 61 = 34 + 35 + 36 + 37 + 38 = 19 + 20 + … … + 25 + 26 = 16 + 17 + … … + 23 + 24 = 5 + 6 + … … + 18 + 19共5种．",
+    "explanation_en": "180 = 59 + 60 + 61 = 34 + 35 + 36 + 37 + 38 = 19 + 20 + ... + 25 + 26 = 16 + 17 + ... + 23 + 24 = 5 + 6 + ... + 18 + 19, a total of 5 ways.",
     "attribution": "2017年湖北武汉创新杯六年级竞赛邀请赛训练题（三）"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "掷一大一小两个骰子，每次掷出的两____个点数均为质数的概率是 %．",
-    "text_en": "掷一大一小两个骰子，每次掷出的两____个点数均为质数的概率是 %．",
+    "text_en": "Roll one large and one small die. The probability that both numbers rolled each time are prime numbers is ____%.",
     "illustration": null,
     "choices": [
       {
         "zh": "50",
-        "en": "50"
+        "en": "25"
       },
       {
         "zh": "25",
@@ -3389,19 +3389,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "骰子的点数为1，2，3，4，5，6． 其中质数有2，3，5， 故1个骰子掷出质数的概率为1/2， 则两次均为质数的概率为1/2 × 1/2 = 1/4 = 25%",
-    "explanation_en": "骰子的点数为1，2，3，4，5，6． 其中质数有2，3，5， 故1个骰子掷出质数的概率为1/2， 则两次均为质数的概率为1/2 × 1/2 = 1/4 = 25%",
+    "explanation_en": "The numbers on the die are 1, 2, 3, 4, 5, 6. Among them, the prime numbers are 2, 3, 5. So the probability of rolling a prime number with 1 die is 1/2. Then the probability of both being prime numbers is 1/2 × 1/2 = 1/4 = 25%.",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛六年级竞赛决赛第1题5分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "袋子中有4个红球，6个黄球，8个蓝球和3____个绿球．从中随机拿出一个，是黄球的概率是．",
-    "text_en": "袋子中有4个红球，6个黄球，8个蓝球和3____个绿球．从中随机拿出一个，是黄球的概率是．",
+    "text_en": "There are 4 red balls, 6 yellow balls, 8 blue balls, and 3 green balls in a bag. Randomly take out one. The probability of getting a yellow ball is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "3/5",
-        "en": "3/5"
+        "en": "2/7"
       },
       {
         "zh": "2/7",
@@ -3418,19 +3418,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "共有4 + 6 + 8 + 3 = 21（个）球，拿到黄球概率为6 ÷ 21 = 2/7．",
-    "explanation_en": "共有4 + 6 + 8 + 3 = 21（个）球，拿到黄球概率为6 ÷ 21 = 2/7．",
+    "explanation_en": "There are a total of 4 + 6 + 8 + 3 = 21 balls. The probability of getting a yellow ball is 6 ÷ 21 = 2/7.",
     "attribution": "2014年第2届广东广州羊排赛六年级竞赛第4题1分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "琦琦跳绳3次，平均每次跳156下，要想跳4次后达到\"平均每次跳160下\"，他第4____次要跳下．",
-    "text_en": "琦琦跳绳3次，平均每次跳156下，要想跳4次后达到\"平均每次跳160下\"，他第4____次要跳下．",
+    "text_en": "Qiqi jumps rope 3 times, averaging 156 jumps each time. To achieve 'averaging 160 jumps each time' after jumping 4 times, he needs to jump ____ times on the 4th try.",
     "illustration": null,
     "choices": [
       {
         "zh": "176",
-        "en": "176"
+        "en": "172"
       },
       {
         "zh": "164",
@@ -3447,19 +3447,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "琦琦3次共跳156 × 3 = 468（下）， 要想跳4次后达到平均每次跳160下，4次一共跳4 × 160 = 640（下）， 他第4次要跳640 - 468 = 172（下）",
-    "explanation_en": "琦琦3次共跳156 × 3 = 468（下）， 要想跳4次后达到平均每次跳160下，4次一共跳4 × 160 = 640（下）， 他第4次要跳640 - 468 = 172（下）",
+    "explanation_en": "Qiqi jumped a total of 156 × 3 = 468 times in 3 tries. To achieve averaging 160 jumps each time after 4 tries, the total for 4 tries is 4 × 160 = 640 times. He needs to jump 640 - 468 = 172 times on the 4th try.",
     "attribution": "2016年第6届广东广州羊排赛六年级竞赛第9题1分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "口袋里有大小相同的6个球，其中3个红球，3个白球，从中任意摸出2个球，都摸到红球的可能性是____．",
-    "text_en": "口袋里有大小相同的6个球，其中3个红球，3个白球，从中任意摸出2个球，都摸到红球的可能性是____．",
+    "text_en": "There are 6 balls of the same size in a pocket, of which 3 are red balls and 3 are white balls. Randomly draw 2 balls from them. The probability of drawing both red balls is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1/3",
-        "en": "1/3"
+        "en": "1/5"
       },
       {
         "zh": "1/6",
@@ -3476,19 +3476,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "6个球中选2个，一共有C₆² = 15种情况，3个红球中选2个，一共有C₃² = 3种．则都是红球的概率为P = C₃²C₆² = 3/15 = 1/5．",
-    "explanation_en": "6个球中选2个，一共有C₆² = 15种情况，3个红球中选2个，一共有C₃² = 3种．则都是红球的概率为P = C₃²C₆² = 3/15 = 1/5．",
+    "explanation_en": "Choosing 2 from 6 balls, there are C(6,2) = 15 situations in total. Choosing 2 from 3 red balls, there are C(3,2) = 3 situations in total. Then the probability of both being red balls is P = C(3,2)/C(6,2) = 3/15 = 1/5.",
     "attribution": "2016年第12届全国新希望杯小学高年级六年级竞赛复赛第3题4分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一个袋子里装有9个白球和3____个红球（球的大小和形状一样），从中任意摸出一个，摸到红球的可能性是．",
-    "text_en": "一个袋子里装有9个白球和3____个红球（球的大小和形状一样），从中任意摸出一个，摸到红球的可能性是．",
+    "text_en": "A bag contains 9 white balls and 3 red balls (the balls are the same size and shape). Randomly draw one ball. The probability of drawing a red ball is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "37.5%",
-        "en": "37.5%"
+        "en": "25%"
       },
       {
         "zh": "20%",
@@ -3505,19 +3505,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "摸到红球可能性为3 ÷ (9 + 3) × 100% = 25%．",
-    "explanation_en": "摸到红球可能性为3 ÷ (9 + 3) × 100% = 25%．",
+    "explanation_en": "The probability of drawing a red ball is 3 ÷ (9 + 3) × 100% = 25%.",
     "attribution": "2014年广东广州羊排赛六年级竞赛第8题1分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "现在有21本故事书分给5个人阅读，如果每个人得到的数量均不相同，那么得到故事书最多的人至少可得到____本．",
-    "text_en": "现在有21本故事书分给5个人阅读，如果每个人得到的数量均不相同，那么得到故事书最多的人至少可得到____本．",
+    "text_en": "Now there are 21 storybooks to be distributed to 5 people to read. If each person gets a different number of books, then the person who gets the most storybooks gets at least ____ books.",
     "illustration": null,
     "choices": [
       {
         "zh": "5",
-        "en": "5"
+        "en": "7"
       },
       {
         "zh": "11",
@@ -3534,19 +3534,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "五人分别是2、3、4、5、7本．（不止一种情况．）",
-    "explanation_en": "五人分别是2、3、4、5、7本．（不止一种情况．）",
+    "explanation_en": "The five people get 2, 3, 4, 5, 7 books respectively. (There is more than one situation.)",
     "attribution": "2016年新希望杯六年级竞赛训练题（一）第5题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "从0~8这九个数字中选四个数字组成没有重复的四位数，然后将这些四位数由小到大排列，其中第2017个四位数是____．",
-    "text_en": "从0~8这九个数字中选四个数字组成没有重复的四位数，然后将这些四位数由小到大排列，其中第2017个四位数是____．",
+    "text_en": "Select four digits from the nine digits 0-8 to form four-digit numbers without repetition. Then arrange these four-digit numbers from smallest to largest. The 2017th four-digit number is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2017",
-        "en": "2017"
+        "en": "7012"
       },
       {
         "zh": "6012",
@@ -3563,19 +3563,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "组成的四位数一共有8 × 8 × 7 × 6 = 2688（个），其中千位为1、2、3、4、5、6、7、8的各有336个．2017336 × 6 = 1（个），即千位为7的第1个数为7012",
-    "explanation_en": "组成的四位数一共有8 × 8 × 7 × 6 = 2688（个），其中千位为1、2、3、4、5、6、7、8的各有336个．2017336 × 6 = 1（个），即千位为7的第1个数为7012",
+    "explanation_en": "There are a total of 8 × 8 × 7 × 6 = 2688 four-digit numbers. Among them, there are 336 numbers with thousands digit 1, 2, 3, 4, 5, 6, 7, 8 respectively. 2017 - 336 × 6 = 1, i.e., the 1st number with thousands digit 7 is 7012.",
     "attribution": "2017年第16届湖北武汉创新杯小学高年级六年级竞赛邀请赛训练题（四）"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "有一个骰子(小正方体)的六个面上分别写有数字1、2、2、3、3、3，当投掷这个骰子时，数字\"2\"朝上的可能性是____.",
-    "text_en": "有一个骰子(小正方体)的六个面上分别写有数字1、2、2、3、3、3，当投掷这个骰子时，数字\"2\"朝上的可能性是____.",
+    "text_en": "A die (small cube) has the numbers 1, 2, 2, 3, 3, 3 written on its six faces respectively. When throwing this die, the probability of the number '2' facing up is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2/3",
-        "en": "2/3"
+        "en": "1/3"
       },
       {
         "zh": "1/6",
@@ -3592,19 +3592,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "投掷这个骰子时，6个面都有可能朝上，每个面朝上的可能性是1/6，有两个面上写着数字2，数字2朝上的可能性为2 × 1/6 = 1/3.",
-    "explanation_en": "投掷这个骰子时，6个面都有可能朝上，每个面朝上的可能性是1/6，有两个面上写着数字2，数字2朝上的可能性为2 × 1/6 = 1/3.",
+    "explanation_en": "When throwing this die, any of the 6 faces may face up. The probability of each face facing up is 1/6. There are two faces with the number 2 written on them. The probability of the number 2 facing up is 2 × 1/6 = 1/3.",
     "attribution": "2003年第1届创新杯六年级竞赛初赛第5题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "已知41/60 = 1/a + 1/b + 1/c，那么满足算式的（a，b，c）的解有____组．（顺序不同则为不同的解）",
-    "text_en": "已知41/60 = 1/a + 1/b + 1/c，那么满足算式的（a，b，c）的解有____组．（顺序不同则为不同的解）",
+    "text_en": "Given 41/60 = 1/a + 1/b + 1/c, then the number of solutions (a, b, c) that satisfy the equation is ____. (Different orders are considered different solutions)",
     "illustration": null,
     "choices": [
       {
         "zh": "15",
-        "en": "15"
+        "en": "21"
       },
       {
         "zh": "20",
@@ -3621,19 +3621,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "这道题我们可以利用放缩法求得范围再去求解，但是太过繁琐，我们换个思路，我们将式子重新编写为：41/60 = x/60 + y/60 + z/60；此时要使的每个分数变为分子为1的最简真分数，那么必有x，y，z为60的因数，且x + y + z = 41； 60的因数有1，2，3，4，5，6，10，12，15，20，30，60；不妨令x ≥ slant y ≥ slant z； x = 30时，此时有y + z = 11 = 10 + 1 = 6 + 5有2种拆分方式 x = 20时，此时有y + z = 21 = 20 + 1 = 6 + 15有2种拆分方式；",
-    "explanation_en": "这道题我们可以利用放缩法求得范围再去求解，但是太过繁琐，我们换个思路，我们将式子重新编写为：41/60 = x/60 + y/60 + z/60；此时要使的每个分数变为分子为1的最简真分数，那么必有x，y，z为60的因数，且x + y + z = 41； 60的因数有1，2，3，4，5，6，10，12，15，20，30，60；不妨令x ≥ slant y ≥ slant z； x = 30时，此时有y + z = 11 = 10 + 1 = 6 + 5有2种拆分方式 x = 20时，此时有y + z = 21 = 20 + 1 = 6 + 15有2种拆分方式；",
+    "explanation_en": "For this problem, we can use the scaling method to find the range and then solve, but it's too tedious. Let's change our approach. We rewrite the equation as: 41/60 = x/60 + y/60 + z/60; At this time, to make each fraction become the simplest proper fraction with numerator 1, then x, y, z must be factors of 60, and x + y + z = 41; The factors of 60 are 1, 2, 3, 4, 5, 6, 10, 1...",
     "attribution": "2017年第16届湖北武汉创新杯小学高年级六年级竞赛邀请赛训练题（一）"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "三个大于1000的正整数满足:其中任意两个数之和的个位数字都等于第三个数的个位数字，那么这3个数之积的末尾3位数字有____种可能数值．",
-    "text_en": "三个大于1000的正整数满足:其中任意两个数之和的个位数字都等于第三个数的个位数字，那么这3个数之积的末尾3位数字有____种可能数值．",
+    "text_en": "Three positive integers greater than 1000 satisfy: the units digit of the sum of any two numbers equals the units digit of the third number. Then the last 3 digits of the product of these 3 numbers have ____ possible values.",
     "illustration": null,
     "choices": [
       {
         "zh": "7",
-        "en": "7"
+        "en": "4"
       },
       {
         "zh": "3",
@@ -3650,19 +3650,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "满足这样的尾数有（0，0，0），（0，5，5），故末三位可能为000，250，500，750共4种．",
-    "explanation_en": "满足这样的尾数有（0，0，0），（0，5，5），故末三位可能为000，250，500，750共4种．",
+    "explanation_en": "The units digits that satisfy this are (0, 0, 0), (0, 5, 5). So the last three digits can be 000, 250, 500, 750, a total of 4 kinds.",
     "attribution": "2016年创新杯六年级竞赛训练题（二）第5题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "已知一个三位数的百位、十位和个位分别是：a，b，c，且a × b × c = a + b + c，那么满足上述条____件的所有三位数的和为．",
-    "text_en": "已知一个三位数的百位、十位和个位分别是：a，b，c，且a × b × c = a + b + c，那么满足上述条____件的所有三位数的和为．",
+    "text_en": "Given a three-digit number, its hundreds digit, tens digit, and units digit are a, b, c respectively, and a × b × c = a + b + c. Then the sum of all three-digit numbers satisfying the above condition is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1032",
-        "en": "1032"
+        "en": "1332"
       },
       {
         "zh": "1000",
@@ -3679,19 +3679,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "满足a × b × c = a + b + c的只有1，2，3，即1 × 2 × 3 = 1 + 2 + 3 = 6， 所以这些三位数是123，132，213，231，312，321； 和为123 + 132 + 213 + 231 + 312 + 321 = 1332． 故BCD错误，A正确",
-    "explanation_en": "满足a × b × c = a + b + c的只有1，2，3，即1 × 2 × 3 = 1 + 2 + 3 = 6， 所以这些三位数是123，132，213，231，312，321； 和为123 + 132 + 213 + 231 + 312 + 321 = 1332． 故BCD错误，A正确",
+    "explanation_en": "Only 1, 2, 3 satisfy a × b × c = a + b + c, i.e., 1 × 2 × 3 = 1 + 2 + 3 = 6. So these three-digit numbers are 123, 132, 213, 231, 312, 321. The sum is 123 + 132 + 213 + 231 + 312 + 321 = 1332. Therefore BCD are wrong, A is correct.",
     "attribution": "2017年全国小学生数学学习能力测评六年级竞赛复赛第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "疯狂动物城的雨林学校、沙漠学校、冰原学校组织春节联欢晚会，共演出15个节目，如果每校至少演出3个节目，那么这三所学校演出节目数的不同情况共有____种．",
-    "text_en": "疯狂动物城的雨林学校、沙漠学校、冰原学校组织春节联欢晚会，共演出15个节目，如果每校至少演出3个节目，那么这三所学校演出节目数的不同情况共有____种．",
+    "text_en": "The Rainforest School, Desert School, and Icefield School of Crazy Zootown organize a Spring Festival gala, performing a total of 15 programs. If each school performs at least 3 programs, then the number of different situations for the number of programs performed by these three schools is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "36",
-        "en": "36"
+        "en": "28"
       },
       {
         "zh": "28",
@@ -3708,19 +3708,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "15 = 3 + 3 + 93种， = 3 + 4 + 86种， = 3 + 5 + 76种， = 3 + 6 + 63种， = 4 + 4 + 73种， = 4 + 5 + 66种， = 5 + 5 + 51种， 共计：3 + 6 + 6 + 3 + 3 + 6 + 1 = 28（种）．",
-    "explanation_en": "15 = 3 + 3 + 93种， = 3 + 4 + 86种， = 3 + 5 + 76种， = 3 + 6 + 63种， = 4 + 4 + 73种， = 4 + 5 + 66种， = 5 + 5 + 51种， 共计：3 + 6 + 6 + 3 + 3 + 6 + 1 = 28（种）．",
+    "explanation_en": "15 = 3 + 3 + 9, 3 kinds; = 3 + 4 + 8, 6 kinds; = 3 + 5 + 7, 6 kinds; = 3 + 6 + 6, 3 kinds; = 4 + 4 + 7, 3 kinds; = 4 + 5 + 6, 6 kinds; = 5 + 5 + 5, 1 kind. Total: 3 + 6 + 6 + 3 + 3 + 6 + 1 = 28 kinds.",
     "attribution": "2020年新希望杯六年级竞赛（2月）第22题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "有15瓶未开封的口香糖，其中14瓶的质量相同，只有1瓶的质量比其他几瓶稍轻一点．如果要确保找出轻的那一瓶口香糖，至少需要用天平称次．（只有天平，没有砝码）",
-    "text_en": "有15瓶未开封的口香糖，其中14瓶的质量相同，只有1瓶的质量比其他几瓶稍轻一点．如果要确保找出轻的那一瓶口香糖，至少需要用天平称次．（只有天平，没有砝码）",
+    "text_en": "There are 15 unopened bottles of gum, of which 14 bottles have the same mass, and only 1 bottle has a slightly lighter mass than the others. If you want to ensure finding the lighter bottle of gum, you need to use a balance to weigh at least ____ times. (Only a balance, no weights)",
     "illustration": null,
     "choices": [
       {
         "zh": "4",
-        "en": "4"
+        "en": "3"
       },
       {
         "zh": "3",
@@ -3737,19 +3737,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "先将15瓶盖达木糖醇口香糖分成7、7、1组，第一次两边各放7个，留1个，如果两边一样重，留出的那个为轻的；若不一样重，再把轻的那个分成3、3、1，称3、3的两组；进而再称轻的3个，这样只需3次就可以找出那件次品",
-    "explanation_en": "先将15瓶盖达木糖醇口香糖分成7、7、1组，第一次两边各放7个，留1个，如果两边一样重，留出的那个为轻的；若不一样重，再把轻的那个分成3、3、1，称3、3的两组；进而再称轻的3个，这样只需3次就可以找出那件次品",
+    "explanation_en": "First divide the 15 bottles of xylitol gum into groups of 7, 7, 1. For the first weighing, put 7 on each side, leaving 1 out. If both sides are the same weight, the one left out is the lighter one; if they are not the same weight, divide the lighter group into 3, 3, 1, and weigh the two groups of 3; then weigh the lighter 3. This way, only 3 weighings are needed to find the defective one.",
     "attribution": "2019年广东深圳全国小学生数学学习能力测评六年级竞赛初赛第9题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "一袋准备要爆花的玉米，其中2/3是白粒的，1/3是黄粒的．白粒的1/2会爆开，黄粒的2/3会爆开．今从该袋中任选一粒放入锅中发生爆花，则是白粒玉____米的概率是．",
-    "text_en": "一袋准备要爆花的玉米，其中2/3是白粒的，1/3是黄粒的．白粒的1/2会爆开，黄粒的2/3会爆开．今从该袋中任选一粒放入锅中发生爆花，则是白粒玉____米的概率是．",
+    "text_en": "A bag of corn prepared for popping has 2/3 white kernels and 1/3 yellow kernels. 1/2 of the white kernels will pop, and 2/3 of the yellow kernels will pop. Now randomly select one kernel from the bag and put it in the pot, and it pops. The probability that it is a white kernel is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "4/7",
-        "en": "4/7"
+        "en": "3/5"
       },
       {
         "zh": "5/9",
@@ -3766,19 +3766,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "会爆开的白粒2/3 × 1/2 = 1/3，会爆开的黄粒1/3 × 2/3 = 2/9，会爆开的白粒是会爆开的玉米总数的1/3 ÷ (1/3 + 2/9) = 3/5．",
-    "explanation_en": "会爆开的白粒2/3 × 1/2 = 1/3，会爆开的黄粒1/3 × 2/3 = 2/9，会爆开的白粒是会爆开的玉米总数的1/3 ÷ (1/3 + 2/9) = 3/5．",
+    "explanation_en": "White kernels that will pop: 2/3 × 1/2 = 1/3. Yellow kernels that will pop: 1/3 × 2/3 = 2/9. White kernels that pop account for 1/3 ÷ (1/3 + 2/9) = 3/5 of the total corn that pops.",
     "attribution": "2015年湖北武汉世奥赛六年级竞赛模拟训练题（四）第6题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "从分别写有数字1、2、3、4、5的5张卡片中，任取两张，把第一张卡片上的数字作为十位数，第二张卡片上的数字作为____个位数，组成一个两位数，则组成的数是偶数的概率．",
-    "text_en": "从分别写有数字1、2、3、4、5的5张卡片中，任取两张，把第一张卡片上的数字作为十位数，第二张卡片上的数字作为____个位数，组成一个两位数，则组成的数是偶数的概率．",
+    "text_en": "From 5 cards respectively written with the numbers 1, 2, 3, 4, 5, randomly draw two cards. Use the number on the first card as the tens digit, and the number on the second card as the units digit to form a two-digit number. The probability that the formed number is even is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "3/10",
-        "en": "3/10"
+        "en": "2/5"
       },
       {
         "zh": "1/2",
@@ -3795,19 +3795,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "两位数有12，13，14，15，21，23，24，25，31，32，33，35，41，42，43，45，51，52，53，54，共20种， 偶数有12，14，24，32，34，42，52，54，共有8种， 8 ÷ 20 = 4/10 = 2/5",
-    "explanation_en": "两位数有12，13，14，15，21，23，24，25，31，32，33，35，41，42，43，45，51，52，53，54，共20种， 偶数有12，14，24，32，34，42，52，54，共有8种， 8 ÷ 20 = 4/10 = 2/5",
+    "explanation_en": "The two-digit numbers are 12, 13, 14, 15, 21, 23, 24, 25, 31, 32, 33, 35, 41, 42, 43, 45, 51, 52, 53, 54, a total of 20 kinds. The even numbers are 12, 14, 24, 32, 34, 42, 52, 54, a total of 8 kinds. 8 ÷ 20 = 4/10 = 2/5.",
     "attribution": "2018年第6届湖北长江杯六年级竞赛初赛B卷第9题3分"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "有五个砝码，其中重1克的砝码1个，重3克的砝码2个，重5克的砝码2个。如果规定砝码只能放在天平的同一边，那么在1~17克所有整数克的重量中，不能称出的两个重量是____。",
-    "text_en": "有五个砝码，其中重1克的砝码1个，重3克的砝码2个，重5克的砝码2个。如果规定砝码只能放在天平的同一边，那么在1~17克所有整数克的重量中，不能称出的两个重量是____。",
+    "text_en": "There are five weights, including one 1-gram weight, two 3-gram weights, and two 5-gram weights. If the weights can only be placed on the same side of the balance, then among all integer gram weights from 1 to 17 grams, the two weights that cannot be weighed are ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2克和9克",
-        "en": "2克和9克"
+        "en": "2 grams and 15 grams"
       },
       {
         "zh": "2克和15克",
@@ -3824,14 +3824,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "我们只用分析所给四个选项中的重量能否称出，而9 = 5 + 3 + 1，11 = 5 + 5 + 1，13 = 5 + 5 + 3都可称出",
-    "explanation_en": "我们只用分析所给四个选项中的重量能否称出，而9 = 5 + 3 + 1，11 = 5 + 5 + 1，13 = 5 + 5 + 3都可称出",
+    "explanation_en": "We only need to analyze whether the weights in the four given options can be weighed. 9 = 5 + 3 + 1, 11 = 5 + 5 + 1, 13 = 5 + 5 + 3 can all be weighed...",
     "attribution": "2005年第3届创新杯六年级竞赛初赛第10题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "袋子里装着只有颜色不同的若干黑、白、红三种颜色的小球．其中红色小球的颗数是白色的1/6．黑色小球的颗数是红色小球的一半．如果从盒子中任意摸出一颗小球，摸出黑色小球的可能性是____．",
-    "text_en": "袋子里装着只有颜色不同的若干黑、白、红三种颜色的小球．其中红色小球的颗数是白色的1/6．黑色小球的颗数是红色小球的一半．如果从盒子中任意摸出一颗小球，摸出黑色小球的可能性是____．",
+    "text_en": "A bag contains several black, white, and red balls that only differ in color. The number of red balls is 1/6 of the white balls. The number of black balls is half of the red balls. If a ball is randomly drawn from the bag, the probability of drawing a black ball is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3853,19 +3853,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "由题意可知，红:白 = 1:6，黑:红 = 1:2，则黑:红:白 = 1:2:12．摸出黑色小球的可能性为1/1 + 2 + 12 = 1/15．",
-    "explanation_en": "由题意可知，红:白 = 1:6，黑:红 = 1:2，则黑:红:白 = 1:2:12．摸出黑色小球的可能性为1/1 + 2 + 12 = 1/15．",
+    "explanation_en": "From the problem, we know red:white = 1:6, black:red = 1:2, then black:red:white = 1:2:12. The probability of drawing a black ball is 1/(1+2+12) = 1/15.",
     "attribution": "2017年河南郑州豫才杯六年级竞赛"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "过年包饺子时，在饺子里放一枚硬币，吃到硬币的人在新的一年会运气好，事事顺意，是一种好运的象征．妈妈包了50个饺子，其中有1个饺子包了硬币，煮好后平均分成5碗，你从这5碗中随便选1碗，能吃到包有硬币的饺子的概率是____．",
-    "text_en": "过年包饺子时，在饺子里放一枚硬币，吃到硬币的人在新的一年会运气好，事事顺意，是一种好运的象征．妈妈包了50个饺子，其中有1个饺子包了硬币，煮好后平均分成5碗，你从这5碗中随便选1碗，能吃到包有硬币的饺子的概率是____．",
+    "text_en": "When making dumplings for the New Year, put a coin in a dumpling. The person who eats the coin will have good luck in the new year, everything going smoothly. It is a symbol of good luck. Mom made 50 dumplings, among which 1 dumpling has a coin. After cooking, they are evenly divided into 5 bowls. If you randomly choose 1 bowl from these 5 bowls, the probability of eating a dumpling with a coin is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "2%",
-        "en": "2%"
+        "en": "20%"
       },
       {
         "zh": "10%",
@@ -3882,19 +3882,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "五碗中一定有1碗是的，那么概率即为1/5 = 20%．",
-    "explanation_en": "五碗中一定有1碗是的，那么概率即为1/5 = 20%．",
+    "explanation_en": "There must be 1 bowl with a coin among the five bowls, so the probability is 1/5 = 20%.",
     "attribution": "2017年第17届世奥赛六年级竞赛决赛第4题"
   },
   {
     "difficulty": 3,
     "topic": "combinatorics",
     "text_zh": "为了让人们感受随地丢弃废电池对环境造成的影响，某班环保小组的6名同学记录了自己一学期内用完的电池数量，结果如下（单位：节）：33，25，28，26，25，31．如果该班有45名学生，那么根据提供的数据，可以估计一学期内全班同学总共用完的电池数量约为____．",
-    "text_en": "为了让人们感受随地丢弃废电池对环境造成的影响，某班环保小组的6名同学记录了自己一学期内用完的电池数量，结果如下（单位：节）：33，25，28，26，25，31．如果该班有45名学生，那么根据提供的数据，可以估计一学期内全班同学总共用完的电池数量约为____．",
+    "text_en": "To make people feel the impact of throwing away waste batteries on the environment, 6 students from an environmental protection group in a class recorded the number of batteries they used up in a semester, the results are as follows (unit: pieces): 33, 25, 28, 26, 25, 31. If the class has 45 students, then based on the provided data, it can be estimated that the total number of batteries used up by the whole class in a semester is approximately ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1080节",
-        "en": "1080节"
+        "en": "1260 pieces"
       },
       {
         "zh": "1260节",
@@ -3911,14 +3911,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "6名同学平均用完电池(33 + 25 + 28 + 26 + 25 + 31) ÷ 6 = 28 节， 全班共用完28 × 45 = 1260 节.",
-    "explanation_en": "6名同学平均用完电池(33 + 25 + 28 + 26 + 25 + 31) ÷ 6 = 28 节， 全班共用完28 × 45 = 1260 节.",
+    "explanation_en": "The average number of batteries used up by 6 students is (33+25+28+26+25+31)÷6=28 pieces. The whole class used a total of 28×45=1260 pieces.",
     "attribution": "2006年第4届创新杯六年级竞赛初赛A卷第5题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "随机投掷一枚均匀的硬币两次，两次都正面朝上的概率是.",
-    "text_en": "随机投掷一枚均匀的硬币两次，两次都正面朝上的概率是.",
+    "text_en": "Randomly toss a fair coin twice. The probability of getting heads both times is ____.",
     "illustration": null,
     "choices": [
       {
@@ -3944,19 +3944,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "因为由题干可知，现随机投掷一枚均匀的硬币两次， 则可能的情况为：\"正正\"、\"正负\"、\"负正\"、\"负负\"， 所以两次都正面朝上的概率是1/4",
-    "explanation_en": "因为由题干可知，现随机投掷一枚均匀的硬币两次， 则可能的情况为：\"正正\"、\"正负\"、\"负正\"、\"负负\"， 所以两次都正面朝上的概率是1/4",
+    "explanation_en": "Because from the problem, we randomly toss a fair coin twice. The possible situations are: 'HH', 'HT', 'TH', 'TT'. So the probability of getting heads both times is 1/4.",
     "attribution": "2019年第7届湖北长江杯六年级竞赛复赛B卷第9题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "随机投掷一枚均匀的硬币两次，两次都正____面朝上的概率是．",
-    "text_en": "随机投掷一枚均匀的硬币两次，两次都正____面朝上的概率是．",
+    "text_en": "Randomly toss a fair coin twice. The probability of getting heads both times is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "1/3",
-        "en": "1/3"
+        "en": "1/4"
       },
       {
         "zh": "1/4",
@@ -3973,14 +3973,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "因为由题干可知，现随机投掷一枚均匀的硬币两次， 则可能的情况为：\"正正\"、\"正负\"、\"负正\"、\"负负\"， 所以两次都正面朝上的概率是1/4",
-    "explanation_en": "因为由题干可知，现随机投掷一枚均匀的硬币两次， 则可能的情况为：\"正正\"、\"正负\"、\"负正\"、\"负负\"， 所以两次都正面朝上的概率是1/4",
+    "explanation_en": "Because from the problem, we randomly toss a fair coin twice. The possible situations are: 'HH', 'HT', 'TH', 'TT'. So the probability of getting heads both times is 1/4.",
     "attribution": "2019年第7届湖北长江杯六年级竞赛复赛B卷第9题3分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "从1~20这20个整数中任意取11个数，其中必有两个数的和等于____。",
-    "text_en": "从1~20这20个整数中任意取11个数，其中必有两个数的和等于____。",
+    "text_en": "Randomly choose 11 numbers from the 20 integers 1-20. Among them, there must be two numbers whose sum equals ____.",
     "illustration": null,
     "choices": [
       {
@@ -4002,19 +4002,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "解：构造抽屉，把这20个数分组，看成10个抽屉： 1,20 ， 2,19 ，·s ， 10,11 。 从这10个数组的20个数中任取11个数，根据抽屉原理可得，其中必有两个数的和等于21， 故选：C。",
-    "explanation_en": "解：构造抽屉，把这20个数分组，看成10个抽屉： 1,20 ， 2,19 ，·s ， 10,11 。 从这10个数组的20个数中任取11个数，根据抽屉原理可得，其中必有两个数的和等于21， 故选：C。",
+    "explanation_en": "Solution: Construct drawers, divide these 20 numbers into groups, and regard them as 10 drawers: {1,20}, {2,19}, ..., {10,11}. Randomly choose 11 numbers from the 20 numbers of these 10 groups. According to the pigeonhole principle, there must be two numbers whose sum equals 21. Answer: C.",
     "attribution": "2017年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "6个互不相同的正整数的和是2002，则这6____个数的最大公因数最大是．",
-    "text_en": "6个互不相同的正整数的和是2002，则这6____个数的最大公因数最大是．",
+    "text_en": "The sum of 6 mutually different positive integers is 2002. Then the maximum possible greatest common divisor of these 6 numbers is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "91",
-        "en": "91"
+        "en": "143"
       },
       {
         "zh": "154",
@@ -4031,19 +4031,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设6个互不相同的正整数的最大公因数为a，则a为正整数， 6个互不相同的正整数为ax₁，ax₂，ax₃，ax₄，ax₅，ax₆， 则x₁，x₂，x₃，x₄，x₅，x₆为6个互不相同的正整数， ∴ax₁ + ax₂ + ax₃ + ax₄ + ax₅ + ax₆ = 2002， ∴a(x₁ + x₂ + x₃ + x₄ + x₅ + x₆) = 2002， ∵x₁到x₆为6个互不相同的正整数， 则x₁ + x₂ + ·s + x₆最小为1 + 2 + 3 + 4 + 5 + 6 = 21， 2002 ÷ 21 = 95·s ·s 7， 故x₁ + x₂ + ·s + x₆ = 21时不满足题意， …",
-    "explanation_en": "设6个互不相同的正整数的最大公因数为a，则a为正整数， 6个互不相同的正整数为ax₁，ax₂，ax₃，ax₄，ax₅，ax₆， 则x₁，x₂，x₃，x₄，x₅，x₆为6个互不相同的正整数， ∴ax₁ + ax₂ + ax₃ + ax₄ + ax₅ + ax₆ = 2002， ∴a(x₁ + x₂ + x₃ + x₄ + x₅ + x₆) = 2002， ∵x₁到x₆为6个互不相同的正整数， 则x₁ + x₂ + ·s + x₆最小为1 + 2 + 3 + 4 + 5 + 6 = 21， 2002 ÷ 21 = 95·s ·s 7， 故x₁ + x₂ + ·s + x₆ = 21时不满足题意， …",
+    "explanation_en": "Let the greatest common divisor of 6 mutually different positive integers be a, then a is a positive integer. The 6 mutually different positive integers are ax₁, ax₂, ax₃, ax₄, ax₅, ax₆. Then x₁, x₂, x₃, x₄, x₅, x₆ are 6 mutually different positive integers. ∴ax₁+ax₂+ax₃+ax₄+ax₅+ax₆=2002, ∴a(x₁+x₂+...",
     "attribution": "2019年第23届广东世界少年奥林匹克数学竞赛六年级竞赛决赛第6题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在1，2，3·s，50中，任取10个连续的数，则其中恰有3____个质数的概率是．",
-    "text_en": "在1，2，3·s，50中，任取10个连续的数，则其中恰有3____个质数的概率是．",
+    "text_en": "Among 1, 2, 3, ..., 50, randomly choose 10 consecutive numbers. Then the probability that there are exactly 3 prime numbers among them is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "15/41",
-        "en": "15/41"
+        "en": "18/41"
       },
       {
         "zh": "18/41",
@@ -4060,19 +4060,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "在1至50的数中共有15个质数，任意连续的10个数排列的共有41种情况（以1 - - - 9为开始，41 - - - 50结束），那么列举其中的3个质数的组合分别为：6 - - - 15，7 - - - 16，8 - - - 17，9 - - - 18，12 - - - 21，13 - - - 22，14 - - - 23，15 - - - 24，16 - - - 25，17 - - - 26，22 - - - 31，23 - - - 32，28 - - - 37，29 - - - 38，34 - - - 43，35 - - - 44，36 - - - 45，37 - - - 46，38 - …",
-    "explanation_en": "在1至50的数中共有15个质数，任意连续的10个数排列的共有41种情况（以1 - - - 9为开始，41 - - - 50结束），那么列举其中的3个质数的组合分别为：6 - - - 15，7 - - - 16，8 - - - 17，9 - - - 18，12 - - - 21，13 - - - 22，14 - - - 23，15 - - - 24，16 - - - 25，17 - - - 26，22 - - - 31，23 - - - 32，28 - - - 37，29 - - - 38，34 - - - 43，35 - - - 44，36 - - - 45，37 - - - 46，38 - …",
+    "explanation_en": "Among the numbers from 1 to 50, there are 15 prime numbers in total. There are 41 situations for arranging any 10 consecutive numbers (starting with 1-9, ending with 41-50). Then the combinations with 3 prime numbers are: 6-15, 7-16, 8-17, 9-18, 12-21, 13-22...",
     "attribution": "其它改编自2014年全国希望杯六年级竞赛初赛第20题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "2015年 AMC8 第 10 题 1000至9999中有多少个位数字互不相同的四位数？",
-    "text_en": "2015年 AMC8 第 10 题 1000至9999中有多少个位数字互不相同的四位数？",
+    "text_en": "2015 AMC8 Problem 10: How many four-digit numbers between 1000 and 9999 have all different digits?",
     "illustration": null,
     "choices": [
       {
         "zh": "3024",
-        "en": "3024"
+        "en": "4536"
       },
       {
         "zh": "4536",
@@ -4093,14 +4093,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "翻译：1000至9999中有多少个位数字互不相同的四位数？ 组数问题：千位数字有1~9共9种选法，百、十、个位分别有9、8、7种选法，一共有9 × 9 × 8 × 7 = 4536（个）数字互不相同的四位数．",
-    "explanation_en": "翻译：1000至9999中有多少个位数字互不相同的四位数？ 组数问题：千位数字有1~9共9种选法，百、十、个位分别有9、8、7种选法，一共有9 × 9 × 8 × 7 = 4536（个）数字互不相同的四位数．",
+    "explanation_en": "Translation: How many four-digit numbers between 1000 and 9999 have all different digits? Grouping problem: The thousands digit has 9 choices from 1-9, the hundreds, tens, and units digits have 9, 8, 7 choices respectively. There are a total of 9 × 9 × 8 × 7 = 4536 four-digit numbers with all different digits.",
     "attribution": "2015年全国AMC小学高年级六年级竞赛8第10题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "有7个相同的小球放入4个不同的盒子中，每个盒子中至少放一个球，则共有____种不同的放法．",
-    "text_en": "有7个相同的小球放入4个不同的盒子中，每个盒子中至少放一个球，则共有____种不同的放法．",
+    "text_en": "Put 7 identical small balls into 4 different boxes, with at least one ball in each box. Then there are ____ different ways to place them.",
     "illustration": null,
     "choices": [
       {
@@ -4122,19 +4122,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "插板法，C₆³ = 20",
-    "explanation_en": "插板法，C₆³ = 20",
+    "explanation_en": "Using the stars and bars method, C(6,3) = 20.",
     "attribution": "1993年六年级竞赛创新杯"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一副扑克牌共有54张（包括大王、小王），至少从中取张牌，才能保证其中必有2____种花色．",
-    "text_en": "一副扑克牌共有54张（包括大王、小王），至少从中取张牌，才能保证其中必有2____种花色．",
+    "text_en": "A deck of poker has 54 cards (including the big joker and small joker). At least draw ____ cards to ensure that there must be 2 cards of the same suit.",
     "illustration": null,
     "choices": [
       {
         "zh": "14",
-        "en": "14"
+        "en": "16"
       },
       {
         "zh": "15",
@@ -4151,19 +4151,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "取完一种花色加大王和小王，再取一张一定满足，13 + 2 + 1 = 16（张）．",
-    "explanation_en": "取完一种花色加大王和小王，再取一张一定满足，13 + 2 + 1 = 16（张）．",
+    "explanation_en": "After drawing all cards of one suit plus the big joker and small joker, drawing one more card will definitely satisfy the condition. 13 + 2 + 1 = 16 cards.",
     "attribution": "2017年新希望杯六年级竞赛训练题（二）第6题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "四位同学到商店买毛笔或铅笔，每人只买了1支笔，而且至少有1人买了铅笔，则可能的买法有____种．",
-    "text_en": "四位同学到商店买毛笔或铅笔，每人只买了1支笔，而且至少有1人买了铅笔，则可能的买法有____种．",
+    "text_en": "Four classmates go to the store to buy writing brushes or pencils. Each person only buys 1 pen, and at least 1 person buys a pencil. Then there are ____ possible ways to buy.",
     "illustration": null,
     "choices": [
       {
         "zh": "16",
-        "en": "16"
+        "en": "15"
       },
       {
         "zh": "15",
@@ -4180,19 +4180,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "每位同学有两种买法，排除全部是毛笔，则共有2 × 2 × 2 × 2 - 1 = 15（种）．",
-    "explanation_en": "每位同学有两种买法，排除全部是毛笔，则共有2 × 2 × 2 × 2 - 1 = 15（种）．",
+    "explanation_en": "Each classmate has 2 choices. Excluding the case where all buy writing brushes, there are 2 × 2 × 2 × 2 - 1 = 15 ways.",
     "attribution": "2015年湖北武汉世奥赛小学高年级六年级竞赛模拟训练题（四）第4题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "将1,2,3,4,5,6,7,8这8个数排成一行，使得8的两边各数之和相等，那么共有____种不同的排法。",
-    "text_en": "将1,2,3,4,5,6,7,8这8个数排成一行，使得8的两边各数之和相等，那么共有____种不同的排法。",
+    "text_en": "Arrange the 8 numbers 1, 2, 3, 4, 5, 6, 7, 8 in a row, so that the sum of the numbers on both sides of 8 are equal. Then there are ____ different arrangements in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "288",
-        "en": "288"
+        "en": "576"
       },
       {
         "zh": "576",
@@ -4209,19 +4209,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "首先求出1,2,3,4,5,6,7的和是28，判断出8的两边各数之和都是14，然后分为4种情况： （1）8的一边是1,6,7，另一边是2,3,4,5时； （2）8的一边是2,5,7，另一边是1,3,4,6时； （3）8的一边是3,4,7，另一边是1,2,5,6时； （4）8的一边是1,2,4,7，另一边是3,5,6时。 求出每种情况下各有多少种不同的排法，即可求出共有多少种不同的排法。",
-    "explanation_en": "首先求出1,2,3,4,5,6,7的和是28，判断出8的两边各数之和都是14，然后分为4种情况： （1）8的一边是1,6,7，另一边是2,3,4,5时； （2）8的一边是2,5,7，另一边是1,3,4,6时； （3）8的一边是3,4,7，另一边是1,2,5,6时； （4）8的一边是1,2,4,7，另一边是3,5,6时。 求出每种情况下各有多少种不同的排法，即可求出共有多少种不同的排法。",
+    "explanation_en": "First calculate that the sum of 1, 2, 3, 4, 5, 6, 7 is 28, and determine that the sum of the numbers on both sides of 8 is 14. Then divide into 4 cases: (1) One side of 8 is 1, 6, 7, and the other side is 2, 3, 4, 5; (2) One side of 8 is 2, 5, 7, and the other side is 1, 3, 4, 6; (3) One side of 8 is 3, 4, 7, and the other side is 1, 2, 5, 6; (4) One side of 8 is 1, 2, 4, 7, and the other...",
     "attribution": "2016年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "三娃的书架只有1本书，后来又新买3本不同的书．他想把书放到书架上，那么这4本书一共有____种不同的放法．",
-    "text_en": "三娃的书架只有1本书，后来又新买3本不同的书．他想把书放到书架上，那么这4本书一共有____种不同的放法．",
+    "text_en": "Sanwa's bookshelf only has 1 book, and later he bought 3 different new books. He wants to put the books on the bookshelf. Then these 4 books have ____ different ways to be placed in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "15",
-        "en": "15"
+        "en": "24"
       },
       {
         "zh": "10",
@@ -4245,12 +4245,12 @@
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "五位同学扮成奥运会吉祥物福娃贝贝、晶晶、欢欢、迎迎和妮妮，排成一排表演节目。如果贝贝和妮妮不相邻，共有____种不同的排法。",
-    "text_en": "五位同学扮成奥运会吉祥物福娃贝贝、晶晶、欢欢、迎迎和妮妮，排成一排表演节目。如果贝贝和妮妮不相邻，共有____种不同的排法。",
+    "text_en": "Five classmates dress up as the Olympic mascots Beibei, Jingjing, Huanhuan, Yingying, and Nini, and line up in a row to perform. If Beibei and Nini are not adjacent, there are ____ different arrangements in total.",
     "illustration": null,
     "choices": [
       {
         "zh": "48",
-        "en": "48"
+        "en": "72"
       },
       {
         "zh": "72",
@@ -4267,19 +4267,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "贝贝在左、妮妮在右，相邻的排法有4 × 3 × 2 × 1 = 24（种）；贝贝在右、妮妮在左，相邻的排法也有4 × 3 × 2 × 1 = 24（种）；总的排法有5 × 4 × 3 × 2 × 1 = 120（种）。 所以贝贝和妮妮不相邻的排法有120 - 2 × 24 = 72（种）。",
-    "explanation_en": "贝贝在左、妮妮在右，相邻的排法有4 × 3 × 2 × 1 = 24（种）；贝贝在右、妮妮在左，相邻的排法也有4 × 3 × 2 × 1 = 24（种）；总的排法有5 × 4 × 3 × 2 × 1 = 120（种）。 所以贝贝和妮妮不相邻的排法有120 - 2 × 24 = 72（种）。",
+    "explanation_en": "With Beibei on the left and Nini on the right, adjacent arrangements: 4 × 3 × 2 × 1 = 24; With Beibei on the right and Nini on the left, adjacent arrangements: 4 × 3 × 2 × 1 = 24; Total arrangements: 5 × 4 × 3 × 2 × 1 = 120. So the number of arrangements where Beibei and Nini are not adjacent is 120 - 2 × 24 = 72.",
     "attribution": "2006年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "一个口袋装有红、黄、蓝三种不同颜色的小球各10个，一次摸一个且不放回，要保证能摸出10个相同颜色的小球，至少要摸出____个．",
-    "text_en": "一个口袋装有红、黄、蓝三种不同颜色的小球各10个，一次摸一个且不放回，要保证能摸出10个相同颜色的小球，至少要摸出____个．",
+    "text_en": "A pocket contains 10 small balls each of red, yellow, and blue colors. Draw one ball at a time without replacement. To ensure getting 10 small balls of the same color, at least draw ____ balls.",
     "illustration": null,
     "choices": [
       {
         "zh": "10",
-        "en": "10"
+        "en": "28"
       },
       {
         "zh": "11",
@@ -4296,19 +4296,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "把三种颜色看做三个抽屉，从极端考虑：先摸出的是红色球、黄色球和蓝色球各9个，共27个球，再摸第28个球则一定有一种球是同色的，因此至少要摸出28个球．",
-    "explanation_en": "把三种颜色看做三个抽屉，从极端考虑：先摸出的是红色球、黄色球和蓝色球各9个，共27个球，再摸第28个球则一定有一种球是同色的，因此至少要摸出28个球．",
+    "explanation_en": "Treat the three colors as three drawers. From the extreme consideration: first draw 9 balls each of red, yellow, and blue, a total of 27 balls. Then drawing the 28th ball will definitely have one color with 10 balls. Therefore, at least draw 28 balls.",
     "attribution": "2017年河南郑州豫才杯六年级竞赛决赛4分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "进步先生在不断提高他的考试成绩．他前两次考试的平均分是86，前三次考试的平均分是87，前四次考试的平均分是88，他第四次考了多少分？",
-    "text_en": "进步先生在不断提高他的考试成绩．他前两次考试的平均分是86，前三次考试的平均分是87，前四次考试的平均分是88，他第四次考了多少分？",
+    "text_en": "Mr. Jinbu is constantly improving his exam scores. His average score for the first two exams is 86, his average score for the first three exams is 87, and his average score for the first four exams is 88. How many points did he get on the fourth exam?",
     "illustration": null,
     "choices": [
       {
         "zh": "90",
-        "en": "90"
+        "en": "91"
       },
       {
         "zh": "88",
@@ -4325,19 +4325,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "88 × 4 - 87 × 3 = 91（分）．",
-    "explanation_en": "88 × 4 - 87 × 3 = 91（分）．",
+    "explanation_en": "88 × 4 - 87 × 3 = 91 points.",
     "attribution": "2015年美国数学大联盟杯六年级竞赛初赛（中国赛区）第38题5分"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "从自然数1，2，3，…，2015，2016中，任意取n个不同的数，要求总能在这n个不同的数中找到5个数，它们的数字和相等。那么n的最小值等于____",
-    "text_en": "从自然数1，2，3，…，2015，2016中，任意取n个不同的数，要求总能在这n个不同的数中找到5个数，它们的数字和相等。那么n的最小值等于____",
+    "text_en": "From the natural numbers 1, 2, 3, ..., 2015, 2016, randomly choose n different numbers. It is required that among these n different numbers, 5 numbers with equal digit sums can always be found. Then the minimum value of n equals ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "109",
-        "en": "109"
+        "en": "110"
       },
       {
         "zh": "110",
@@ -4354,19 +4354,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "1到2016中，数字和最大28。数字和为28的只有1999这1个数， 最坏情况：取数字和1到27各4个，以及1999，共109个数。 再多取一个数就保证有5个数字和相等。n = 110",
-    "explanation_en": "1到2016中，数字和最大28。数字和为28的只有1999这1个数， 最坏情况：取数字和1到27各4个，以及1999，共109个数。 再多取一个数就保证有5个数字和相等。n = 110",
+    "explanation_en": "Among 1 to 2016, the maximum digit sum is 28. There is only 1 number with a digit sum of 28, which is 1999. Worst case: take 4 each of digit sums 1 to 27, and 1999, a total of 109 numbers. Taking one more number will ensure having 5 numbers with equal digit sums. n = 110.",
     "attribution": "2016年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "某班统计数学考试成绩，平均成绩84.1分，后来发现小红的成绩是96分，被错写成了69分，重新计算后，平均成绩是84.7分，那么这个班有____名学生．",
-    "text_en": "某班统计数学考试成绩，平均成绩84.1分，后来发现小红的成绩是96分，被错写成了69分，重新计算后，平均成绩是84.7分，那么这个班有____名学生．",
+    "text_en": "A class is compiling math exam scores. The average score is 84.1 points. Later, it was found that Xiaohong's score was 96 points, but it was mistakenly written as 69 points. After recalculating, the average score is 84.7 points. Then this class has ____ students.",
     "illustration": null,
     "choices": [
       {
         "zh": "41",
-        "en": "41"
+        "en": "45"
       },
       {
         "zh": "45",
@@ -4383,14 +4383,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "第二次平均分比第一次平均分多84.7 - 84.1 = 0.6，其中小红第二次分数比第一次多96 - 69 = 27，显然，平均分的差 × 班级人数 = 小红少加的分数．故有27 ÷ 0.6 = 45人．",
-    "explanation_en": "第二次平均分比第一次平均分多84.7 - 84.1 = 0.6，其中小红第二次分数比第一次多96 - 69 = 27，显然，平均分的差 × 班级人数 = 小红少加的分数．故有27 ÷ 0.6 = 45人．",
+    "explanation_en": "The second average score is 84.7 - 84.1 = 0.6 more than the first average score. Xiaohong's second score is 96 - 69 = 27 more than the first score. Obviously, the difference in average score × number of students = the score Xiaohong was short. So there are 27 ÷ 0.6 = 45 students.",
     "attribution": "2013年河南郑州中原网杯六年级竞赛初赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "算式a + 1/b + 1/c + d + 1/e + 1/f + g + 1/h + 1/i的最大值为，其中每个不同的字母代表不同的非零数码____．",
-    "text_en": "算式a + 1/b + 1/c + d + 1/e + 1/f + g + 1/h + 1/i的最大值为，其中每个不同的字母代表不同的非零数码____．",
+    "text_en": "The maximum value of the expression a + 1/b + 1/c + d + 1/e + 1/f + g + 1/h + 1/i is ____, where each different letter represents a different non-zero digit.",
     "illustration": null,
     "choices": [
       {
@@ -4416,19 +4416,19 @@
     ],
     "correct_index": 4,
     "explanation_zh": "要使算式的值尽可能大，则a，d，g应尽可能大，可取a = 9，d = 8，g = 7．而b，e，h则应尽可能小，所以可取b = 1，e = 2，A = 3， 由于1/m + 1/n + 11/(m + 1) + 1/n，故取c = 6，而f，i只剩下4和5可供选择，故可取f = 5，i = 4，故最大值为9 + 1/1 + 1/6 + 8 + 1/2 + 1/5 + 7 + 1/3 + 1/4 = 25620/1001",
-    "explanation_en": "要使算式的值尽可能大，则a，d，g应尽可能大，可取a = 9，d = 8，g = 7．而b，e，h则应尽可能小，所以可取b = 1，e = 2，A = 3， 由于1/m + 1/n + 11/(m + 1) + 1/n，故取c = 6，而f，i只剩下4和5可供选择，故可取f = 5，i = 4，故最大值为9 + 1/1 + 1/6 + 8 + 1/2 + 1/5 + 7 + 1/3 + 1/4 = 25620/1001",
+    "explanation_en": "To make the value of the expression as large as possible, a, d, g should be as large as possible, and can take a = 9, d = 8, g = 7. And b, e, h should be as small as possible, so can take b = 1, e = 2, h = 3. Since 1/m + 1/n + 1/(m+1) + 1/n, so take c = 6, and f, i only have 4 and 5 left to choose from, so can take f = 5, i = 4, so the most...",
     "attribution": "2021年鹏程杯六年级竞赛初赛第9题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在9个数：1，2/5，7，8，5/4，1.2，15，3.75，0.7中取一个数作被除数，再取另外两个数，用它们的和作除数，使商为整数，这样的算式存在吗？",
-    "text_en": "在9个数：1，2/5，7，8，5/4，1.2，15，3.75，0.7中取一个数作被除数，再取另外两个数，用它们的和作除数，使商为整数，这样的算式存在吗？",
+    "text_en": "From the 9 numbers: 1, 2/5, 7, 8, 5/4, 1.2, 15, 3.75, 0.7, choose one number as the dividend, then choose another two numbers, and use their sum as the divisor, so that the quotient is an integer. Do such expressions exist?",
     "illustration": null,
     "choices": [
       {
         "zh": "存在",
-        "en": "存在"
+        "en": "Exist"
       },
       {
         "zh": "不存在",
@@ -4441,14 +4441,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "8 ÷ (7 + 1) = 1，15 ÷ (7 + 8) = 1，15 ÷ (5/4 + 3.75) = 3，8 ÷ (1.2 + 0.7) = 4，7 ÷ (2/5 + 1) = 5等．",
-    "explanation_en": "8 ÷ (7 + 1) = 1，15 ÷ (7 + 8) = 1，15 ÷ (5/4 + 3.75) = 3，8 ÷ (1.2 + 0.7) = 4，7 ÷ (2/5 + 1) = 5等．",
+    "explanation_en": "8 ÷ (7 + 1) = 1, 15 ÷ (7 + 8) = 1, 15 ÷ (5/4 + 3.75) = 3, 8 ÷ (1.2 + 0.7) = 4, 7 ÷ (2/5 + 1) = 5, etc.",
     "attribution": "2017年第15届全国希望杯六年级竞赛"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "在纸上任意写一个自然数，把这张纸旋转180度，数值不变，如0、11、96、888等，我们把这样的数称为\"神马数\"．在所有五位数中共有____个不同的\"神马数\"．",
-    "text_en": "在纸上任意写一个自然数，把这张纸旋转180度，数值不变，如0、11、96、888等，我们把这样的数称为\"神马数\"．在所有五位数中共有____个不同的\"神马数\"．",
+    "text_en": "Write a natural number on paper at will. Rotate the paper 180 degrees, and the value remains unchanged, such as 0, 11, 96, 888, etc. We call such numbers 'magic numbers'. Among all five-digit numbers, there are ____ different 'magic numbers'.",
     "illustration": null,
     "choices": [
       {
@@ -4470,19 +4470,19 @@
     ],
     "correct_index": 0,
     "explanation_zh": "设这个数为A̅B̅C̅B̅A̅，A位可以填11， 88， 69，96，4种情况，B位可以填00，11，88，69，96，5种情况，C位可以填0，1，8，3种情况，4 × 5 × 3 = 60（个）．",
-    "explanation_en": "设这个数为A̅B̅C̅B̅A̅，A位可以填11， 88， 69，96，4种情况，B位可以填00，11，88，69，96，5种情况，C位可以填0，1，8，3种情况，4 × 5 × 3 = 60（个）．",
+    "explanation_en": "Let this number be ABCBA. The A position can be filled with 11, 88, 69, 96, 4 situations. The B position can be filled with 00, 11, 88, 69, 96, 5 situations. The C position can be filled with 0, 1, 8, 3 situations. 4 × 5 × 3 = 60.",
     "attribution": "2014年全国迎春杯六年级竞赛复赛第8题"
   },
   {
     "difficulty": 4,
     "topic": "combinatorics",
     "text_zh": "若自然数n使得作竖式加法n + (n + 1) + (n + 2)不产生进位现象，便称n为\"连绵数\"，例如12是连绵数，13不是\"连绵数\"，那么不超过1000的\"连绵数\"共有____",
-    "text_en": "若自然数n使得作竖式加法n + (n + 1) + (n + 2)不产生进位现象，便称n为\"连绵数\"，例如12是连绵数，13不是\"连绵数\"，那么不超过1000的\"连绵数\"共有____",
+    "text_en": "If a natural number n does not produce carrying in the vertical addition n + (n + 1) + (n + 2), then n is called a 'continuous number'. For example, 12 is a continuous number, and 13 is not a 'continuous number'. Then there are a total of ____ 'continuous numbers' not exceeding 1000.",
     "illustration": null,
     "choices": [
       {
         "zh": "46个",
-        "en": "46个"
+        "en": "49"
       },
       {
         "zh": "47个",
@@ -4499,19 +4499,19 @@
     ],
     "correct_index": 2,
     "explanation_zh": "连绵数n的个位只能为0、1、2有三种情况，十位只能为0、1、2、3有四种情况；百位也只能为0、1、2、3有四种情况。那么在0~999中，连绵数有3 × 4 × 4 = 48（个），而1000也为连绵数，那么在不超过1000的自然数中，连绵数有48 + 1 = 49（个）",
-    "explanation_en": "连绵数n的个位只能为0、1、2有三种情况，十位只能为0、1、2、3有四种情况；百位也只能为0、1、2、3有四种情况。那么在0~999中，连绵数有3 × 4 × 4 = 48（个），而1000也为连绵数，那么在不超过1000的自然数中，连绵数有48 + 1 = 49（个）",
+    "explanation_en": "The units digit of continuous number n can only be 0, 1, 2, there are three situations. The tens digit can only be 0, 1, 2, 3, there are four situations. The hundreds digit can also only be 0, 1, 2, 3, there are four situations. Then among 0-999, there are 3 × 4 × 4 = 48 continuous numbers. And 1000 is also a continuous number. Then among natural numbers not exceeding 1000, there are 48 + 1 = 49 continuous numbers.",
     "attribution": "2005年六年级竞赛创新杯"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "有一个12级的楼梯．某人每次能登上1级或2级或3级，现在他要从地面登上第12级，有____种不同的方式．",
-    "text_en": "有一个12级的楼梯．某人每次能登上1级或2级或3级，现在他要从地面登上第12级，有____种不同的方式．",
+    "text_en": "There is a 12-step staircase. Someone can climb 1 step, 2 steps, or 3 steps at a time. Now he wants to climb from the ground to the 12th step. There are ____ different ways.",
     "illustration": null,
     "choices": [
       {
         "zh": "149",
-        "en": "149"
+        "en": "927"
       },
       {
         "zh": "274",
@@ -4528,19 +4528,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "设第n级有a_n种登的方式， 则第n - 3，n - 2，n - 1级再分别登3，2，1级可到第n级， 则a_n = a_n - 3 + a_n - 2 + a_n - 1， 而a₁ = 1，a₂ = 1 + 1 = 2，a₃ = 1 + 1 + 2 = 4， 故a₄ = 1 + 2 + 4 = 7， a₅ = 2 + 4 + 7 = 13， a₆ = 4 + 7 + 13 = 24， a₇ = 7 + 13 + 24 = 44， a₈ = 13 + 24 + 44 = 81， a₉ = 24 + 44 + 81 = 149， a₁₀ = 44 + 81 + 149 = 274． 故选：D．",
-    "explanation_en": "设第n级有a_n种登的方式， 则第n - 3，n - 2，n - 1级再分别登3，2，1级可到第n级， 则a_n = a_n - 3 + a_n - 2 + a_n - 1， 而a₁ = 1，a₂ = 1 + 1 = 2，a₃ = 1 + 1 + 2 = 4， 故a₄ = 1 + 2 + 4 = 7， a₅ = 2 + 4 + 7 = 13， a₆ = 4 + 7 + 13 = 24， a₇ = 7 + 13 + 24 = 44， a₈ = 13 + 24 + 44 = 81， a₉ = 24 + 44 + 81 = 149， a₁₀ = 44 + 81 + 149 = 274． 故选：D．",
+    "explanation_en": "Let there be a_n ways to climb to the nth step. Then climbing 3, 2, 1 steps from the (n-3)th, (n-2)th, (n-1)th step respectively can reach the nth step. Then a_n = a_(n-3) + a_(n-2) + a_(n-1). And a_1 = 1, a_2 = 1 + 1 = 2, a_3 = 1 + 1 + 2 = 4. So a_4 = 1 + 2 + 4 = 7...",
     "attribution": "2019年第24届YMO六年级竞赛决赛第7题3分"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "从1，2，3，·s ，16中选出m个数，若选出的数中，每一个数都不是另一个数的2____倍，则m的最大值为．",
-    "text_en": "从1，2，3，·s ，16中选出m个数，若选出的数中，每一个数都不是另一个数的2____倍，则m的最大值为．",
+    "text_en": "Choose m numbers from 1, 2, 3, ..., 16. If among the chosen numbers, no number is twice another number, then the maximum value of m is ____.",
     "illustration": null,
     "choices": [
       {
         "zh": "8",
-        "en": "8"
+        "en": "11"
       },
       {
         "zh": "9",
@@ -4557,19 +4557,19 @@
     ],
     "correct_index": 3,
     "explanation_zh": "先选择1、3、5、7、9、11、13、15，再选择4、12、16，共11个数．",
-    "explanation_en": "先选择1、3、5、7、9、11、13、15，再选择4、12、16，共11个数．",
+    "explanation_en": "First choose 1, 3, 5, 7, 9, 11, 13, 15, then choose 4, 12, 16, a total of 11 numbers.",
     "attribution": "2017年新希望杯六年级竞赛训练题（三）第6题"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "一副扑克牌有四种花色，每种花色有13张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有4____张牌是同一花色．",
-    "text_en": "一副扑克牌有四种花色，每种花色有13张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有4____张牌是同一花色．",
+    "text_en": "A deck of poker has four suits, with 13 cards in each suit, plus two jokers. Draw cards at random. Then, at least draw ____ cards to ensure that there are 4 cards of the same suit.",
     "illustration": null,
     "choices": [
       {
         "zh": "14",
-        "en": "14"
+        "en": "15"
       },
       {
         "zh": "15",
@@ -4582,19 +4582,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前12张是4种花色各3张，再抽两张王牌，这时抽第15张，无论是哪种花色，都能保证凑成4张牌同一花色。所以至少要抽15张牌，才能保证有四张牌是同一花色的。",
-    "explanation_en": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前12张是4种花色各3张，再抽两张王牌，这时抽第15张，无论是哪种花色，都能保证凑成4张牌同一花色。所以至少要抽15张牌，才能保证有四张牌是同一花色的。",
+    "explanation_en": "If the goal can be achieved in the worst case, then it can be guaranteed in any case. The worst case is: the first 12 cards drawn are 3 cards each of 4 suits, then draw two jokers. At this time, drawing the 15th card, no matter which suit it is, can guarantee getting 4 cards of the same suit. So at least draw 15 cards to ensure having 4 cards of the same suit.",
     "attribution": "1989年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "一副扑克牌有四种花色，每种花色有13张，此外还有两张王牌，从中任意抽牌。那么，最少要抽____张牌，才能保证有4张牌是同一花色。",
-    "text_en": "一副扑克牌有四种花色，每种花色有13张，此外还有两张王牌，从中任意抽牌。那么，最少要抽____张牌，才能保证有4张牌是同一花色。",
+    "text_en": "A deck of poker has four suits, with 13 cards in each suit, plus two jokers. Draw cards at random. Then, at least draw ____ cards to ensure that there are 4 cards of the same suit.",
     "illustration": null,
     "choices": [
       {
         "zh": "14",
-        "en": "14"
+        "en": "15"
       },
       {
         "zh": "15",
@@ -4607,19 +4607,19 @@
     ],
     "correct_index": 1,
     "explanation_zh": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前12张是4种花色各3张，再抽两张王牌，这时抽第15张，无论是哪种花色，都能保证凑成4张牌同一花色。所以至少要抽15张牌，才能保证有四张牌是同一花色的。",
-    "explanation_en": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前12张是4种花色各3张，再抽两张王牌，这时抽第15张，无论是哪种花色，都能保证凑成4张牌同一花色。所以至少要抽15张牌，才能保证有四张牌是同一花色的。",
+    "explanation_en": "If the goal can be achieved in the worst case, then it can be guaranteed in any case. The worst case is: the first 12 cards drawn are 3 cards each of 4 suits, then draw two jokers. At this time, drawing the 15th card, no matter which suit it is, can guarantee getting 4 cards of the same suit. So at least draw 15 cards to ensure having 4 cards of the same suit.",
     "attribution": "1989年华杯赛六年级竞赛初赛"
   },
   {
     "difficulty": 5,
     "topic": "combinatorics",
     "text_zh": "一副扑克牌有四种花色，每种花色有13张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有4____张牌是同一花色．",
-    "text_en": "一副扑克牌有四种花色，每种花色有13张，此外还有两张王牌，从中任意抽牌。那么，最少要抽张牌，才能保证有4____张牌是同一花色．",
+    "text_en": "A deck of poker has four suits, with 13 cards in each suit, plus two jokers. Draw cards at random. Then, at least draw ____ cards to ensure that there are 4 cards of the same suit.",
     "illustration": null,
     "choices": [
       {
         "zh": "14",
-        "en": "14"
+        "en": "15"
       },
       {
         "zh": "15",
@@ -4632,7 +4632,7 @@
     ],
     "correct_index": 1,
     "explanation_zh": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前12张是4种花色各3张，再抽两张王牌，这时抽第15张，无论是哪种花色，都能保证凑成4张牌同一花色。所以至少要抽15张牌，才能保证有四张牌是同一花色的。",
-    "explanation_en": "如果在最不利的情况下能完成目标，则保证在任何情况下都能完成。最不利的情况是：抽的前12张是4种花色各3张，再抽两张王牌，这时抽第15张，无论是哪种花色，都能保证凑成4张牌同一花色。所以至少要抽15张牌，才能保证有四张牌是同一花色的。",
+    "explanation_en": "If the goal can be achieved in the worst case, then it can be guaranteed in any case. The worst case is: the first 12 cards drawn are 3 cards each of 4 suits, then draw two jokers. At this time, drawing the 15th card, no matter which suit it is, can guarantee getting 4 cards of the same suit. So at least draw 15 cards to ensure having 4 cards of the same suit.",
     "attribution": "1989年华杯赛六年级竞赛初赛"
   },
   {

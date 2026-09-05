@@ -3,7 +3,7 @@
     "difficulty": 2,
     "topic": "time",
     "text_zh": "时钟6点敲6下，10秒钟敲完，12点敲12下需要____秒钟．",
-    "text_en": "时钟6点敲6下，10秒钟敲完，12点敲12下需要____秒钟．",
+    "text_en": "A clock strikes 6 times at 6 o'clock, taking 10 seconds to finish. How many seconds does it take to strike 12 times at 12 o'clock?",
     "illustration": null,
     "choices": [
       {
@@ -21,14 +21,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "敲6下，则中间停顿5次，所以每次停顿时长：10 ÷ 5 = 2秒．敲12下，则停顿11次，所以时长：11 × 2 = 22秒",
-    "explanation_en": "敲6下，则中间停顿5次，所以每次停顿时长：10 ÷ 5 = 2秒．敲12下，则停顿11次，所以时长：11 × 2 = 22秒",
+    "explanation_en": "Striking 6 times means 5 pauses in between, so each pause is: 10 ÷ 5 = 2 seconds. Striking 12 times means 11 pauses, so the time is: 11 × 2 = 22 seconds.",
     "attribution": "2018年第22届广东世界少年奥林匹克数学竞赛二年级竞赛决赛第1题5分"
   },
   {
     "difficulty": 3,
     "topic": "time",
     "text_zh": "（2019年活动）在9点至10点之间的某个时刻，5分钟前分针的位置和5分钟后____时针的位置相同，此时刻是．",
-    "text_en": "（2019年活动）在9点至10点之间的某个时刻，5分钟前分针的位置和5分钟后____时针的位置相同，此时刻是．",
+    "text_en": "(2019 Activity) At some time between 9:00 and 10:00, the position of the minute hand 5 minutes ago is the same as the position of the hour hand 5 minutes later. What is this time?",
     "illustration": null,
     "choices": [
       {
@@ -46,14 +46,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "根据选项C，现在是9:55，那么5分钟前分针的位置是指向10，5分钟后时针也是指向10．所以C选项答案是满足题目要求的．",
-    "explanation_en": "根据选项C，现在是9:55，那么5分钟前分针的位置是指向10，5分钟后时针也是指向10．所以C选项答案是满足题目要求的．",
+    "explanation_en": "According to option C, if it's now 9:55, then 5 minutes ago the minute hand pointed to 10, and 5 minutes later the hour hand also points to 10. So option C satisfies the problem's requirements.",
     "attribution": "2019年广东深圳全国小学生数学学习能力测评四年级竞赛初赛第7题3分"
   },
   {
     "difficulty": 3,
     "topic": "time",
     "text_zh": "小王老师外出开会，7天没有回家，回来后一次撕下这7张日历，发现这7张日期数相加得119，那么，王老师回家这天是____号。",
-    "text_en": "小王老师外出开会，7天没有回家，回来后一次撕下这7张日历，发现这7张日期数相加得119，那么，王老师回家这天是____号。",
+    "text_en": "Teacher Wang went to a meeting and didn't return home for 7 days. When he came back, he tore off these 7 calendar pages at once and found that the sum of these 7 dates is 119. What date was it when Teacher Wang returned home?",
     "illustration": null,
     "choices": [
       {
@@ -75,14 +75,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "因为119 ÷ 7 = 17，所以第四天也就是中间一天是17号，故这7天的日期为：14、15、16、17、18、19、20，因此，回家是20 + 1 = 21（号）",
-    "explanation_en": "因为119 ÷ 7 = 17，所以第四天也就是中间一天是17号，故这7天的日期为：14、15、16、17、18、19、20，因此，回家是20 + 1 = 21（号）",
+    "explanation_en": "Since 119 ÷ 7 = 17, the fourth day (middle day) is the 17th. So the 7 dates are: 14, 15, 16, 17, 18, 19, 20. Therefore, the day he returned home is 20 + 1 = 21.",
     "attribution": "2006年四年级竞赛创新杯"
   },
   {
     "difficulty": 3,
     "topic": "time",
     "text_zh": "科学家进行一项实验，每隔5小时做一次记录，做第十二次记录时，钟表时针恰好指向9，做第一次记录时，____时针指向．",
-    "text_en": "科学家进行一项实验，每隔5小时做一次记录，做第十二次记录时，钟表时针恰好指向9，做第一次记录时，____时针指向．",
+    "text_en": "A scientist is conducting an experiment, making a record every 5 hours. When making the 12th record, the hour hand points exactly to 9. When making the first record, the hour hand points to ____.",
     "illustration": null,
     "choices": [
       {
@@ -104,14 +104,14 @@
     ],
     "correct_index": 1,
     "explanation_zh": "先算出从第一次记录到第十二次记录中间经过的时间是多少，第1次到第12次之间有个11间隔：5 × 11 = 55（小时）． 时针每过12小时就会转一圈回到原来的状态，55 ÷ 12 = 4（圈）·s ·s 7（小时）． 即时针转了4圈以后，又经过了7个小时，时针指向9， 所以原来第一次时针指向：9 - 7 = 2． 因此",
-    "explanation_en": "先算出从第一次记录到第十二次记录中间经过的时间是多少，第1次到第12次之间有个11间隔：5 × 11 = 55（小时）． 时针每过12小时就会转一圈回到原来的状态，55 ÷ 12 = 4（圈）·s ·s 7（小时）． 即时针转了4圈以后，又经过了7个小时，时针指向9， 所以原来第一次时针指向：9 - 7 = 2． 因此",
+    "explanation_en": "First calculate the time between the first and 12th records. Between the 1st and 12th there are 11 intervals: 5 × 11 = 55 hours. The hour hand completes a full circle every 12 hours, 55 ÷ 12 = 4 (circles) ... 7 (hours). After the hour hand completes 4 circles and then 7 more hours, it points to 9. So the first time the hour hand pointed to: 9 - 7 = 2.",
     "attribution": "2018年全国小学生数学学习能力测评五年级竞赛初赛第10题3分"
   },
   {
     "difficulty": 3,
     "topic": "time",
     "text_zh": "下午2点10分，时钟上的时针和分针所成的锐____角是．",
-    "text_en": "下午2点10分，时钟上的时针和分针所成的锐____角是．",
+    "text_en": "At 2:10 PM, the acute angle formed by the hour hand and minute hand is ____.",
     "illustration": null,
     "choices": [
       {
@@ -133,14 +133,14 @@
     ],
     "correct_index": 3,
     "explanation_zh": "在下午2点10分，分针从数字12开始转了10 × 6° = 60° ，时针从数字2开始转了10 × 0.5° = 5° ，这时时针与分针所成的锐角为60° + 10 × 0.5° - 60° = 5° ．",
-    "explanation_en": "在下午2点10分，分针从数字12开始转了10 × 6° = 60° ，时针从数字2开始转了10 × 0.5° = 5° ，这时时针与分针所成的锐角为60° + 10 × 0.5° - 60° = 5° ．",
+    "explanation_en": "At 2:10 PM, the minute hand has rotated from 12 by 10 × 6° = 60°, and the hour hand has rotated from 2 by 10 × 0.5° = 5°. The acute angle between them is 60° - 55° = 5°.",
     "attribution": "2017年四川成都六年级竞赛“全能明星”选拔赛第8题2分"
   },
   {
     "difficulty": 4,
     "topic": "time",
     "text_zh": "某月所有星期天的日期数加起来是70，这个月星期三的天数比星期四的天数多．这个月一共有____天．",
-    "text_en": "某月所有星期天的日期数加起来是70，这个月星期三的天数比星期四的天数多．这个月一共有____天．",
+    "text_en": "The sum of all Sunday dates in a month is 70. The number of Wednesdays in this month is more than the number of Thursdays. How many days are there in this month?",
     "illustration": null,
     "choices": [
       {
@@ -162,14 +162,14 @@
     ],
     "correct_index": 0,
     "explanation_zh": "经推算此月星期天的日期分别为7号、14号、21号、28号，又星期三的天数比星期四的天数多，那么最后一天应是星期三，31号．",
-    "explanation_en": "经推算此月星期天的日期分别为7号、14号、21号、28号，又星期三的天数比星期四的天数多，那么最后一天应是星期三，31号．",
+    "explanation_en": "By calculation, the Sundays in this month are the 7th, 14th, 21st, and 28th. Since there are more Wednesdays than Thursdays, the last day must be Wednesday, the 31st.",
     "attribution": "2015年湖北武汉世奥赛六年级竞赛模拟训练题（四）第1题"
   },
   {
     "difficulty": 4,
     "topic": "time",
     "text_zh": "在纳美克星，每小时有100分钟．该星球的时钟，时针转一圈是20小时，分针转一圈是100分钟，那么从0时0分开始，到下一次时针与分针重合，纳美克星上经过了____小时．",
-    "text_en": "在纳美克星，每小时有100分钟．该星球的时钟，时针转一圈是20小时，分针转一圈是100分钟，那么从0时0分开始，到下一次时针与分针重合，纳美克星上经过了____小时．",
+    "text_en": "On Planet Namek, each hour has 100 minutes. On this planet's clock, the hour hand completes one revolution in 20 hours, and the minute hand completes one revolution in 100 minutes. Starting from 0:00, until the hour and minute hands overlap again, ____ hours have passed on Planet Namek.",
     "illustration": null,
     "choices": [
       {
@@ -195,14 +195,14 @@
     ],
     "correct_index": 2,
     "explanation_zh": "暂无",
-    "explanation_en": "暂无",
+    "explanation_en": "Not yet available",
     "attribution": "2020年新希望杯六年级竞赛初赛（团战）第42题"
   },
   {
     "difficulty": 4,
     "topic": "time",
     "text_zh": "有A、B两个损坏的时钟，每分钟A时钟秒针能走70秒，B时钟秒针能走50秒．现在两个时钟都停留在3点整，一段时间以后，A、B两个时钟对应的指针恰好指向相同的位置，这段时间最短是____分钟．",
-    "text_en": "有A、B两个损坏的时钟，每分钟A时钟秒针能走70秒，B时钟秒针能走50秒．现在两个时钟都停留在3点整，一段时间以后，A、B两个时钟对应的指针恰好指向相同的位置，这段时间最短是____分钟．",
+    "text_en": "There are two broken clocks, A and B. Every minute, the second hand of clock A moves 70 seconds, and the second hand of clock B moves 50 seconds. Both clocks are now stuck at 3:00. After some time, the hands of clocks A and B point to exactly the same position. The shortest such time is ____ minutes.",
     "illustration": null,
     "choices": [
       {
@@ -224,72 +224,72 @@
     ],
     "correct_index": 2,
     "explanation_zh": "A比B每分钟多跑20秒，A比B多跑一圈需要多跑12小时，12 × 60 × 60 ÷ 20 = 2160分钟．",
-    "explanation_en": "A比B每分钟多跑20秒，A比B多跑一圈需要多跑12小时，12 × 60 × 60 ÷ 20 = 2160分钟．",
+    "explanation_en": "A moves 20 seconds more than B every minute. For A to be one full circle ahead of B, it needs to move 12 hours more. 12 × 60 × 60 ÷ 20 = 2160 minutes.",
     "attribution": "2016年新希望杯六年级竞赛训练题（四）第6题"
   },
   {
     "difficulty": 2,
     "topic": "time",
     "text_zh": "现在是下午2时，灰太狼准备在1小时后去喝下午茶，请问灰太狼几点钟喝下午茶？",
-    "text_en": "现在是下午2时，灰太狼准备在1小时后去喝下午茶，请问灰太狼几点钟喝下午茶？",
+    "text_en": "It's now 2:00 PM. Big Big Wolf plans to have afternoon tea in 1 hour. What time will Big Big Wolf have afternoon tea?",
     "illustration": null,
     "choices": [
       {
         "zh": "下午3时",
-        "en": "下午3时"
+        "en": "3:00 PM"
       },
       {
         "zh": "下午4时",
-        "en": "下午4时"
+        "en": "4:00 PM"
       },
       {
         "zh": "我不知道",
-        "en": "我不知道"
+        "en": "I don't know"
       },
       {
         "zh": "下午2时",
-        "en": "下午2时"
+        "en": "2:00 PM"
       }
     ],
     "correct_index": 0,
     "explanation_zh": "现在是下午2时，1小时后是下午3时．",
-    "explanation_en": "现在是下午2时，1小时后是下午3时．",
+    "explanation_en": "It's now 2:00 PM. After 1 hour, it will be 3:00 PM.",
     "attribution": "2015年全国学而思杯小学低年级竞赛学前组第2题"
   },
   {
     "difficulty": 2,
     "topic": "time",
     "text_zh": "现在是早上8时，喜羊羊准备1小时后到草原上割青草，请问喜羊羊几点去割青草？",
-    "text_en": "现在是早上8时，喜羊羊准备1小时后到草原上割青草，请问喜羊羊几点去割青草？",
+    "text_en": "It's now 8:00 AM. Pleasant Goat plans to go to the grassland to cut grass in 1 hour. What time will Pleasant Goat go to cut grass?",
     "illustration": null,
     "choices": [
       {
         "zh": "早上8时",
-        "en": "早上8时"
+        "en": "8:00 AM"
       },
       {
         "zh": "早上9时",
-        "en": "早上9时"
+        "en": "9:00 AM"
       },
       {
         "zh": "晚上8时",
-        "en": "晚上8时"
+        "en": "8:00 PM"
       },
       {
         "zh": "早上7时",
-        "en": "早上7时"
+        "en": "7:00 AM"
       }
     ],
     "correct_index": 1,
     "explanation_zh": "早上8时，1小时后是早上9时",
-    "explanation_en": "早上8时，1小时后是早上9时",
+    "explanation_en": "It's 8:00 AM. After 1 hour, it will be 9:00 AM.",
     "attribution": "2015年第5届全国学而思综合能力诊断学前班竞赛第2题"
   },
   {
     "difficulty": 3,
     "topic": "time",
     "text_zh": "张老师每周的周一、周六和周日都跑步锻炼20分钟，而其余日期每日都跳绳20分钟．某月他总共跑步5小时，那么这个月的第10天是____．",
-    "text_en": "张老师每周的周一、周六和周日都跑步锻炼20分钟，而其余日期每日都跳绳20分钟．某月他总共跑步5小时，那么这个月的第10天是____．",
+    "text_en": "Teacher Zhang runs for 20 minutes every Monday, Saturday, and Sunday each week, and jumps rope for 20 minutes on the other days. In a certain month, he ran for a total of 5 hours. What day of the week is the 10th day of this month?",
     "illustration": null,
     "choices": [
       {
@@ -311,42 +311,42 @@
     ],
     "correct_index": 2,
     "explanation_zh": "一般这种题目问这个月的第几天是周几时，我们要弄清楚这个月的周几被重复出现5次．计算5 × 60 ÷ 20 = 15（天）说明这个月周一、周六、周日都是5次，说明这个月31天，且第一天是周六，所以第10天是10 ÷ 7 = 1·s3，周六、周日、周一这个月的第10天是周一．",
-    "explanation_en": "一般这种题目问这个月的第几天是周几时，我们要弄清楚这个月的周几被重复出现5次．计算5 × 60 ÷ 20 = 15（天）说明这个月周一、周六、周日都是5次，说明这个月31天，且第一天是周六，所以第10天是10 ÷ 7 = 1·s3，周六、周日、周一这个月的第10天是周一．",
+    "explanation_en": "For this type of problem asking what day of the week a certain date falls on, we need to figure out which day of the week appears 5 times this month. Calculating 5 × 60 ÷ 20 = 15 (days) shows that Monday, Saturday, and Sunday each appear 5 times, indicating this month has 31 days and starts on Saturday. So the 10th day is 10 ÷ 7 = 1...3, and counting Saturday, Sunday, Monday, the 10th day of this month is Monday.",
     "attribution": "2013年全国华杯赛小学中年级竞赛初赛A卷第6题"
   },
   {
     "difficulty": 1,
     "topic": "time",
     "text_zh": "钟面上显示 3 时整，时针和分针组成的角是什么角？",
-    "text_en": "钟面上显示 3 时整，时针和分针组成的角是什么角？",
+    "text_en": "The clock shows exactly 3 o'clock. What type of angle is formed by the hour hand and minute hand?",
     "illustration": null,
     "choices": [
       {
         "zh": "锐角",
-        "en": "锐角"
+        "en": "Acute angle"
       },
       {
         "zh": "直角",
-        "en": "直角"
+        "en": "Right angle"
       },
       {
         "zh": "钝角",
-        "en": "钝角"
+        "en": "Obtuse angle"
       },
       {
         "zh": "平角",
-        "en": "平角"
+        "en": "Straight angle"
       }
     ],
     "correct_index": 1,
     "explanation_zh": "3 时整，时针指向 3，分针指向 12，夹角为 90°，是直角．",
-    "explanation_en": "3 时整，时针指向 3，分针指向 12，夹角为 90°，是直角．"
+    "explanation_en": "At exactly 3 o'clock, the hour hand points to 3 and the minute hand points to 12. The angle is 90°, which is a right angle."
   },
   {
     "difficulty": 1,
     "topic": "time",
     "text_zh": "小明早上 8 时上学，中午 12 时放学，他在学校待了多少小时？",
-    "text_en": "小明早上 8 时上学，中午 12 时放学，他在学校待了多少小时？",
+    "text_en": "Xiao Ming goes to school at 8:00 AM and gets out of school at 12:00 PM. How many hours did he stay at school?",
     "illustration": null,
     "choices": [
       {
@@ -368,6 +368,6 @@
     ],
     "correct_index": 1,
     "explanation_zh": "12 − 8 = 4（小时）．",
-    "explanation_en": "12 − 8 = 4（小时）．"
+    "explanation_en": "12 - 8 = 4 hours."
   }
 ]
