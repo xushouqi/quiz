@@ -177,7 +177,7 @@ function installXhrOverride(origFetch: typeof window.fetch): void {
   ): Promise<void> {
     try {
       if (xhr.__ofu_aborted) return;
-      const resp = await origFetch(pathWithQuery, init);
+      const resp = await handleOfflineFetch(pathWithQuery, init, origFetch);
       const text = await resp.text();
 
       // 回填 XHR 只读属性
